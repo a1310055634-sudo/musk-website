@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.12.0';
+  var SITE_VERSION = '0.13.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -199,5 +199,21 @@
     strip.addEventListener('mouseleave', play);
     window.addEventListener('resize', function () { go(qi); });
     play();
+  }
+
+  /* ---------- 汉堡菜单开合 ---------- */
+  var nbtn = document.getElementById('nav-toggle');
+  var mh = document.querySelector('.masthead');
+  if (nbtn && mh) {
+    nbtn.addEventListener('click', function () {
+      var open = mh.classList.toggle('nav-open');
+      nbtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.querySelectorAll('#site-nav a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        mh.classList.remove('nav-open');
+        nbtn.setAttribute('aria-expanded', 'false');
+      });
+    });
   }
 })();
