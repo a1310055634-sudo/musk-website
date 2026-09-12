@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.13.0';
+  var SITE_VERSION = '0.14.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -123,7 +123,9 @@
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           navLinks.forEach(function (a) {
-            a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+            var on = a.getAttribute('href') === '#' + entry.target.id;
+            a.classList.toggle('active', on);
+            if (on) { a.setAttribute('aria-current', 'true'); } else { a.removeAttribute('aria-current'); }
           });
         }
       });
@@ -214,6 +216,13 @@
         mh.classList.remove('nav-open');
         nbtn.setAttribute('aria-expanded', 'false');
       });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && mh.classList.contains('nav-open')) {
+        mh.classList.remove('nav-open');
+        nbtn.setAttribute('aria-expanded', 'false');
+        nbtn.focus();
+      }
+    });
     });
   }
 })();

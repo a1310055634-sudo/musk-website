@@ -117,8 +117,8 @@
 - [x] ✅ 2026-09-13 375px 逐板块走查修正；汉堡抽屉菜单（原生 JS）；触控目标 ≥44px；长故事窄屏排版优化。（≤760px 汉堡菜单 aria 完整；导航行高/圆点 16px 触控；长故事窄屏经快读版式已覆盖）
 
 ### M13 v0.14 可访问性 + 性能
-- [ ] 对比度复查、aria 补全、键盘导航、skip-link、`prefers-reduced-motion` 全覆盖。
-- 图片 lazy/async、图表动画节流、避免布局抖动（图片写死宽高或 aspect-ratio）。
+- [x] ✅ 2026-09-13 对比度复查、aria 补全、键盘导航、skip-link、`prefers-reduced-motion` 全覆盖。（skip-link/焦点样式/reduced-motion 前几轮已就位；本轮补 scrollspy aria-current、Escape 关菜单、页脚注脚对比度提升至 ≥4.5:1）
+- [x] ✅ 2026-09-13 图片 lazy/async、图表动画节流、避免布局抖动（图片写死宽高或 aspect-ratio）。（新增照片已 lazy+async；特稿照片 21:9 定比；进度条 rAF 节流；图表入场即视口触发）
 
 ### M14 v0.15 SEO / 元信息 / 更新日志页
 - [ ] title/description/keywords/OG/Twitter Card、SVG favicon（data URI）、`theme-color`。
