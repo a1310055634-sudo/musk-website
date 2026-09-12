@@ -444,6 +444,24 @@ a { color: inherit; }
 @media (max-width: 960px) { .persona-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .persona-grid { grid-template-columns: 1fr; } }
 
+/* ============ 可复用的方法 ============ */
+.playbook-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.method-card {
+  position: relative; background: var(--card); border: 1px solid var(--hairline);
+  padding: 22px 24px 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.method-card:hover { transform: translateY(-4px); box-shadow: 8px 8px 0 rgba(26, 26, 26, 0.08); }
+.method-num {
+  position: absolute; top: 14px; right: 18px;
+  font-family: var(--serif); font-size: 15px; font-weight: 700;
+  color: var(--accent); letter-spacing: 0.1em;
+}
+.method-card h3 { font-family: var(--serif); font-size: 21px; letter-spacing: 0.02em; margin-bottom: 10px; max-width: 85%; }
+.method-case { font-size: 14px; padding: 10px 0 10px 14px; border-left: 3px solid var(--navy); margin-bottom: 10px; }
+.method-limit { font-size: 13px; color: var(--muted); font-style: italic; padding-top: 8px; border-top: 1px dotted var(--hairline); }
+@media (max-width: 960px) { .playbook-grid { grid-template-columns: 1fr; } }
+
 ::selection { background: var(--accent); color: var(--paper); }
 
 /* ============ 05 xAI 与 Grok ============ */
@@ -494,6 +512,7 @@ a { color: inherit; }
   .footer-disclaimer { color: #333; }
   .feature, .feature-data > div, .company-card, .quote, .fact-box, .grok-deals { break-inside: avoid; }
   .pull-quote, .mini-tl, .story-art, .flash, .persona-card { break-inside: avoid; }
+  .method-card { break-inside: avoid; }
   .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
   .acq-head::after { display: none; }
 }
