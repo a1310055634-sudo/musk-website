@@ -386,6 +386,30 @@ a { color: inherit; }
   .story-grid { grid-template-columns: 1fr; gap: 22px; }
 }
 
+/* 快读双联短篇 */
+.flash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 26px; }
+.flash {
+  background: var(--card); border: 1px solid var(--hairline);
+  padding: 24px 26px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flash:hover { transform: translateY(-4px); box-shadow: 8px 8px 0 rgba(26, 26, 26, 0.08); }
+.flash-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.flash-read {
+  font-size: 11px; letter-spacing: 0.15em; color: var(--muted);
+  border: 1px solid var(--hairline); border-radius: 999px; padding: 2px 12px;
+  white-space: nowrap;
+}
+.flash-title { font-family: var(--serif); font-size: 26px; letter-spacing: 0.03em; margin: 12px 0 4px; }
+.flash-line {
+  font-weight: 700; font-size: 16.5px; line-height: 1.6;
+  border-left: 4px solid var(--accent); padding-left: 12px; margin: 12px 0 14px;
+}
+.flash p { font-size: 14.5px; margin-bottom: 10px; text-align: justify; color: var(--ink); }
+@media (max-width: 960px) {
+  .flash-grid { grid-template-columns: 1fr; }
+}
+
 ::selection { background: var(--accent); color: var(--paper); }
 
 /* ============ 05 xAI 与 Grok ============ */
@@ -435,7 +459,7 @@ a { color: inherit; }
   .footer-brand { color: #000; }
   .footer-disclaimer { color: #333; }
   .feature, .feature-data > div, .company-card, .quote, .fact-box, .grok-deals { break-inside: avoid; }
-  .pull-quote, .mini-tl, .story-art { break-inside: avoid; }
+  .pull-quote, .mini-tl, .story-art, .flash { break-inside: avoid; }
   .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
   .acq-head::after { display: none; }
 }
