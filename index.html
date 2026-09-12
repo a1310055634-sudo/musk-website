@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="progress" aria-hidden="true"></div>
   <a class="skip-link" href="#main">跳到主要内容</a>
 
   <!-- ============ 报头 ============ -->
@@ -57,10 +58,10 @@
         </figure>
       </div>
       <dl class="deal-lines reveal">
-        <div><dt data-en="Companies founded or co-founded">参与创立的公司</dt><dd>9 <small data-en="firms">家</small></dd></div>
+        <div><dt data-en="Companies founded or co-founded">参与创立的公司</dt><dd><span class="cnt" data-count="9">9</span> <small data-en="firms">家</small></dd></div>
         <div><dt data-en="First person worth $500B">史上首位身家破 5000 亿</dt><dd data-en="Oct 2025">2025.10</dd></div>
-        <div><dt data-en="Twitter acquisition">收购 Twitter</dt><dd>$44B</dd></div>
-        <div><dt data-en="Grok iterations">Grok 迭代至</dt><dd data-en="4th gen">第 4 代</dd></div>
+        <div><dt data-en="Twitter acquisition">收购 Twitter</dt><dd>$<span class="cnt" data-count="44">44</span>B</dd></div>
+        <div><dt data-en="Grok iterations">Grok 迭代至</dt><dd data-en="4th gen">第 <span class="cnt" data-count="4">4</span> 代</dd></div>
       </dl>
     </section>
 
@@ -901,7 +902,7 @@
         <h2 data-en="On doing business">他谈做生意</h2>
         <p class="section-standfirst" data-en="Four sentences that keep showing up in his deals.">四句话，反复出现在他的交易里。</p>
       </header>
-      <div class="quotes-grid">
+      <div class="quotes-strip" id="quote-strip">
         <blockquote class="quote reveal">
           <p class="quote-en">“When something is important enough, you do it even if the odds are not in your favor.”</p>
           <p class="quote-zh">当一件事足够重要，即使胜算不在你这边，你也要去做。</p>
@@ -925,7 +926,7 @@
   <!-- ============ 页脚 ============ -->
   <footer class="site-footer">
     <div class="container">
-      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <span class="footer-version">v<span class="site-version-val">0.11.0</span></span></p>
+      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <span class="footer-version">v<span class="site-version-val">0.12.0</span></span></p>
       <p class="footer-disclaimer" data-en="An unofficial, study-oriented business profile. Information compiled from public sources (Forbes, Reuters, CNBC, BBC, company announcements); photo via Wikimedia Commons. Not affiliated with or endorsed by Elon Musk or any of his companies.">
         本站为非官方、学习型的商业人物志。信息整理自公开资料（Forbes、Reuters、CNBC、BBC 及公司公告）；
         图片来自 Wikimedia Commons。与马斯克先生及其名下公司无任何隶属或背书关系。

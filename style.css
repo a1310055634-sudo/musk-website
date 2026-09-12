@@ -571,3 +571,15 @@ a { color: inherit; }
   .deal-table dl > div { grid-template-columns: 1fr; gap: 4px; }
   .masthead-issue { display: none; }
 }
+
+/* ============ 阅读进度条 / 数字滚动 / 语录轮播 ============ */
+.progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--accent); z-index: 200; }
+.quotes-strip {
+  display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+  gap: 18px; scrollbar-width: thin; max-width: 860px;
+}
+.quotes-strip .quote { flex: 0 0 100%; scroll-snap-align: start; margin: 0; }
+.quote-dots { display: flex; gap: 10px; margin-top: 14px; }
+.q-dot { width: 11px; height: 11px; border-radius: 50%; border: 1px solid var(--accent); background: transparent; cursor: pointer; padding: 0; }
+.q-dot.active { background: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .quotes-strip { scroll-behavior: auto; } }

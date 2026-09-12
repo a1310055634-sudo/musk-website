@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.11.0';
+  var SITE_VERSION = '0.12.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -129,5 +129,75 @@
       });
     }, { rootMargin: '-40% 0px -55% 0px' });
     watchedSections.forEach(function (sec) { spy.observe(sec); });
+  }
+
+  /* ---------- 顶部阅读进度条 ---------- */
+  var pbar = document.querySelector('.progress');
+  var ptick = false;
+  function updBar() {
+    var d = document.documentElement;
+    var m = d.scrollHeight - d.clientHeight;
+    if (pbar) pbar.style.width = (m > 0 ? (d.scrollTop / m) * 100 : 0) + '%';
+    ptick = false;
+  }
+  window.addEventListener('scroll', function () {
+    if (!ptick) { ptick = true; requestAnimationFrame(updBar); }
+  }, { passive: true });
+  updBar();
+
+  /* ---------- 数字滚动 ---------- */
+  var cnts = document.querySelectorAll('.cnt');
+  function runCnt(el) {
+    var t = parseInt(el.getAttribute('data-count'), 10) || 0, s = null;
+    function step(ts) {
+      if (!s) s = ts;
+      var p = Math.min((ts - s) / 1200, 1);
+      el.textContent = Math.round(t * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) requestAnimationFrame(step);
+    }
+    if (reduceMotion) { el.textContent = t; return; }
+    requestAnimationFrame(step);
+  }
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    var cObs = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (e.isIntersecting) { runCnt(e.target); cObs.unobserve(e.target); }
+      });
+    }, { threshold: 0.6 });
+    cnts.forEach(function (el) { cObs.observe(el); });
+  }
+
+  /* ---------- 语录横向轮播（原生滚动 + 圆点，7s 悬停暂停） ---------- */
+  var strip = document.getElementById('quote-strip');
+  if (strip) {
+    var qs = strip.querySelectorAll('.quote');
+    var dotsBox = document.createElement('div');
+    dotsBox.className = 'quote-dots';
+    dotsBox.setAttribute('role', 'group');
+    dotsBox.setAttribute('aria-label', '语录切换');
+    var qdots = [];
+    qs.forEach(function (q, k) {
+      var d = document.createElement('button');
+      d.type = 'button';
+      d.className = 'q-dot' + (k === 0 ? ' active' : '');
+      d.setAttribute('aria-label', '语录 ' + (k + 1));
+      d.addEventListener('click', function () { go(k); play(); });
+      dotsBox.appendChild(d);
+      qdots.push(d);
+    });
+    strip.parentNode.insertBefore(dotsBox, strip.nextSibling);
+    var qi = 0, qtimer = null;
+    function go(n) {
+      qi = (n + qs.length) % qs.length;
+      var w = strip.clientWidth;
+      strip.scrollTo({ left: w * qi, behavior: reduceMotion ? 'auto' : 'smooth' });
+      qdots.forEach(function (d, k) { d.classList.toggle('active', k === qi); });
+    }
+    function play() { if (reduceMotion) return; stop(); qtimer = setInterval(function () { go(qi + 1); }, 7000); }
+    function stop() { if (qtimer) { clearInterval(qtimer); qtimer = null; } }
+    strip.addEventListener('mouseenter', stop);
+    strip.addEventListener('mouseleave', play);
+    window.addEventListener('resize', function () { go(qi); });
+    play();
   }
 })();
