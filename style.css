@@ -462,6 +462,21 @@ a { color: inherit; }
 .method-limit { font-size: 13px; color: var(--muted); font-style: italic; padding-top: 8px; border-top: 1px dotted var(--hairline); }
 @media (max-width: 960px) { .playbook-grid { grid-template-columns: 1fr; } }
 
+/* ============ 数据一览 ============ */
+.numbers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.chart-fig { background: var(--card); border: 1px solid var(--hairline); padding: 20px 22px 14px; margin: 0; }
+#chart-deals { grid-column: 1 / -1; }
+.chart-fig h3 { font-family: var(--serif); font-size: 18px; letter-spacing: 0.04em; margin-bottom: 12px; }
+.chart { width: 100%; height: auto; display: block; }
+.chart-src { font-size: 12.5px; color: var(--muted); margin-top: 10px; line-height: 1.7; }
+.bars rect { transform: scaleX(0); transform-origin: left center; transform-box: fill-box; transition: transform 1s ease; }
+.bars rect:nth-child(2) { transition-delay: 0.12s; }
+.bars rect:nth-child(3) { transition-delay: 0.24s; }
+.bars rect:nth-child(4) { transition-delay: 0.36s; }
+.chart-fig.chart-in .bars rect { transform: scaleX(1); }
+@media (max-width: 960px) { .numbers-grid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .bars rect { transform: none; transition: none; } }
+
 ::selection { background: var(--accent); color: var(--paper); }
 
 /* ============ 05 xAI 与 Grok ============ */
@@ -513,6 +528,8 @@ a { color: inherit; }
   .feature, .feature-data > div, .company-card, .quote, .fact-box, .grok-deals { break-inside: avoid; }
   .pull-quote, .mini-tl, .story-art, .flash, .persona-card { break-inside: avoid; }
   .method-card { break-inside: avoid; }
+  .chart-fig { break-inside: avoid; }
+  .bars rect { transform: none !important; } /* 打印时图表直接呈现最终状态 */
   .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
   .acq-head::after { display: none; }
 }

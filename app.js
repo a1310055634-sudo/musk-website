@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.9.0';
+  var SITE_VERSION = '0.10.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -95,6 +95,22 @@
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   });
+
+  /* ---------- 图表生长动画 ---------- */
+  var charts = document.querySelectorAll('.chart-fig');
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    charts.forEach(function (el) { el.classList.add('chart-in'); });
+  } else {
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('chart-in');
+          cio.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.25 });
+    charts.forEach(function (el) { cio.observe(el); });
+  }
 
   /* ---------- 导航高亮（scrollspy） ---------- */
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.mainnav a'));
