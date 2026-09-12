@@ -167,6 +167,13 @@ a { color: inherit; }
   font-family: var(--serif); font-style: italic;
   color: var(--muted); font-size: 17px; max-width: 760px;
 }
+.feature-photo { margin: 18px 0 20px; }
+.feature-photo img {
+  width: 100%; aspect-ratio: 21 / 9; object-fit: cover; display: block;
+  border: 1px solid var(--ink); background: #fff; padding: 6px;
+  box-sizing: border-box;
+}
+.feature-photo figcaption { font-size: 12px; color: var(--muted); margin-top: 8px; letter-spacing: 0.06em; }
 .feature-data {
   margin: 22px 0 20px; border-top: 1px solid var(--ink);
   display: grid; grid-template-columns: repeat(5, 1fr);
@@ -529,6 +536,8 @@ a { color: inherit; }
   .pull-quote, .mini-tl, .story-art, .flash, .persona-card { break-inside: avoid; }
   .method-card { break-inside: avoid; }
   .chart-fig { break-inside: avoid; }
+  .feature-photo { break-inside: avoid; }
+  .feature-photo img { filter: grayscale(20%); } /* 打印更接近纸媒质感 */
   .bars rect { transform: none !important; } /* 打印时图表直接呈现最终状态 */
   .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
   .acq-head::after { display: none; }

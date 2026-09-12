@@ -106,8 +106,8 @@
 - [x] ✅ 2026-09-13 图表有标题、单位、数据来源标注；进入视口时生长动画（尊重 reduced-motion）。（scaleX 生长 + 逐条延迟；reduced-motion 与打印均直接呈现最终状态）
 
 ### M10 v0.11 真实素材扩充
-- [ ] Wikimedia Commons 下载 2-4 张商业场景图（发射、工厂、发布会类），`file` 校验 + 控制体积（width=800）+ 中文 alt + 懒加载。
-- 失败即降级：画高质量内联 SVG 插画补位，并在 CHANGELOG 注明。
+- [x] ✅ 2026-09-13 Wikimedia Commons 下载 2-4 张商业场景图（发射、工厂、发布会类），`file` 校验 + 控制体积（width=800）+ 中文 alt + 懒加载。（成功下载 2 张：Falcon Heavy 首升空 KSC20180260 → SpaceX 特稿；Tesla 弗里蒙特工厂 → Tesla 特稿；均 file 校验为有效 JPEG）
+- （无需降级，SVG 插画保留）
 
 ### M11 v0.12 动效与阅读体验
 - [ ] 全站 reveal 节奏统一、数字滚动动画（统计条）、导航 scrollspy、顶部阅读进度条。
