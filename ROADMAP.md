@@ -121,7 +121,7 @@
 - [x] ✅ 2026-09-13 图片 lazy/async、图表动画节流、避免布局抖动（图片写死宽高或 aspect-ratio）。（新增照片已 lazy+async；特稿照片 21:9 定比；进度条 rAF 节流；图表入场即视口触发）
 
 ### M14 v0.15 SEO / 元信息 / 更新日志页
-- [ ] title/description/keywords/OG/Twitter Card、SVG favicon（data URI）、`theme-color`。
+- [x] ✅ 2026-09-13 title/description/keywords/OG/Twitter Card、SVG favicon（data URI）、`theme-color`。
 - 新建 `changelog.html`：把 CHANGELOG.md 渲染成杂志风「修订记录」页，页脚链接过去。
 
 ### M15 v0.16 彩蛋与个性
