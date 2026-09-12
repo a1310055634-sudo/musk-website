@@ -1,0 +1,277 @@
+/* ============================================================
+   马斯克商业志 MUSK, INC. — 浅色商业杂志风
+   设计令牌与基础
+   ============================================================ */
+:root {
+  --paper: #faf9f6;
+  --ink: #1a1a1a;
+  --muted: #5c574e;
+  --card: #f3f0ea;
+  --hairline: rgba(26, 26, 26, 0.16);
+  --accent: #7c2d2d;      /* 酒红 */
+  --navy: #1f3a5f;        /* 藏蓝 */
+  --serif: Georgia, "Times New Roman", "STSong", "SimSun", serif;
+  --sans: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --content-width: 1080px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal, .reveal-delay { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container { max-width: var(--content-width); margin: 0 auto; padding: 0 clamp(18px, 4vw, 32px); }
+
+img { max-width: 100%; display: block; }
+
+.skip-link {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--ink); color: var(--paper); padding: 10px 18px; z-index: 999;
+}
+.skip-link:focus { left: 0; }
+
+a { color: inherit; }
+
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+/* ============ 报头 ============ */
+.masthead {
+  border-bottom: 3px double var(--ink);
+  background: var(--paper);
+  position: sticky; top: 0; z-index: 50;
+}
+.masthead-top {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 16px; padding-top: 18px; padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.brand { text-decoration: none; display: flex; align-items: baseline; gap: 10px; }
+.brand-zh { font-family: var(--serif); font-size: 24px; font-weight: 700; letter-spacing: 0.08em; }
+.brand-en { font-size: 12px; letter-spacing: 0.35em; color: var(--accent); font-weight: 700; }
+.masthead-issue { font-size: 12px; letter-spacing: 0.18em; color: var(--muted); }
+.lang-toggle {
+  font-family: var(--sans); font-size: 13px; font-weight: 700; letter-spacing: 0.12em;
+  border: 1px solid var(--ink); background: transparent; color: var(--ink);
+  padding: 6px 16px; cursor: pointer; border-radius: 999px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.lang-toggle:hover { background: var(--ink); color: var(--paper); }
+
+.mainnav {
+  display: flex; gap: clamp(14px, 3vw, 30px); flex-wrap: wrap;
+  padding-bottom: 12px; font-size: 14px; letter-spacing: 0.06em;
+}
+.mainnav a { text-decoration: none; color: var(--muted); padding: 2px 0; border-bottom: 2px solid transparent; }
+.mainnav a:hover { color: var(--ink); }
+.mainnav a.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 700; }
+
+/* ============ 封面 ============ */
+.cover { padding-top: clamp(30px, 6vw, 64px); padding-bottom: clamp(30px, 5vw, 56px); }
+.cover-grid {
+  display: grid; grid-template-columns: 1.25fr 0.75fr;
+  gap: clamp(24px, 5vw, 56px); align-items: center;
+}
+.kicker {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.35em;
+  color: var(--accent); text-transform: uppercase;
+}
+.cover-title {
+  font-family: var(--serif);
+  font-size: clamp(46px, 8.5vw, 96px);
+  line-height: 1.08; letter-spacing: 0.04em;
+  margin: 14px 0 10px;
+}
+.cover-standfirst {
+  font-size: clamp(16px, 1.8vw, 19px); color: var(--muted);
+  max-width: 560px; margin-top: 6px;
+}
+.cover-actions { margin-top: 28px; display: flex; gap: 14px; flex-wrap: wrap; }
+.btn {
+  display: inline-block; text-decoration: none; font-weight: 700;
+  font-size: 15px; padding: 12px 28px; border-radius: 0;
+  letter-spacing: 0.08em; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-ink { background: var(--ink); color: var(--paper); }
+.btn-ink:hover { background: var(--accent); }
+.btn-line { border: 1px solid var(--ink); color: var(--ink); }
+.btn-line:hover { background: var(--ink); color: var(--paper); }
+
+.cover-portrait { justify-self: center; text-align: center; }
+.cover-portrait img {
+  border: 1px solid var(--ink);
+  padding: 8px; background: #fff;
+  box-shadow: 10px 10px 0 var(--card);
+  width: min(360px, 100%); height: auto;
+}
+.cover-portrait figcaption { margin-top: 14px; font-size: 12px; color: var(--muted); letter-spacing: 0.08em; }
+
+/* 成交行（关键数字） */
+.deal-lines {
+  margin-top: clamp(30px, 5vw, 52px);
+  border-top: 1px solid var(--ink);
+  display: grid; grid-template-columns: repeat(4, 1fr);
+}
+.deal-lines > div {
+  padding: 16px 18px 14px;
+  border-bottom: 1px dotted var(--hairline);
+  border-right: 1px dotted var(--hairline);
+}
+.deal-lines > div:last-child { border-right: none; }
+.deal-lines dt { font-size: 13px; color: var(--muted); letter-spacing: 0.05em; }
+.deal-lines dd { font-family: var(--serif); font-size: clamp(22px, 2.6vw, 30px); font-weight: 700; color: var(--ink); }
+.deal-lines dd small { font-size: 0.5em; color: var(--muted); font-family: var(--sans); font-weight: 400; }
+
+/* ============ 章节公共 ============ */
+.section {
+  padding-top: clamp(40px, 7vw, 76px); padding-bottom: clamp(24px, 4vw, 44px);
+  border-top: 1px solid var(--hairline);
+  scroll-margin-top: 96px;
+}
+.section-head { margin-bottom: clamp(22px, 4vw, 36px); }
+.section-head h2 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 42px);
+  letter-spacing: 0.04em; line-height: 1.25; margin-top: 8px;
+}
+
+/* ============ 01 速览 ============ */
+.profile-grid {
+  display: grid; grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(24px, 5vw, 56px);
+}
+.profile-text p { margin-bottom: 18px; text-align: justify; }
+.fact-box { background: var(--card); border: 1px solid var(--hairline); padding: 24px 26px; align-self: start; }
+.fact-box h3 {
+  font-family: var(--serif); font-size: 20px; letter-spacing: 0.1em;
+  border-bottom: 1px solid var(--ink); padding-bottom: 10px; margin-bottom: 14px;
+}
+.fact-grid > div { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px dotted var(--hairline); }
+.fact-grid > div:last-child { border-bottom: none; }
+.fact-grid dt { font-size: 13px; color: var(--accent); font-weight: 700; letter-spacing: 0.06em; }
+.fact-grid dd { font-size: 14px; }
+
+/* ============ 02 时间线 ============ */
+.timeline { list-style: none; position: relative; margin-left: 8px; }
+.timeline::before {
+  content: ""; position: absolute; left: 0; top: 6px; bottom: 6px;
+  width: 1px; background: var(--ink); opacity: 0.35;
+}
+.tl-item {
+  position: relative; padding: 0 0 30px 30px;
+  display: grid; grid-template-columns: 86px 1fr; gap: 6px 18px; align-items: baseline;
+}
+.tl-item::before {
+  content: ""; position: absolute; left: -4px; top: 10px;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--ink);
+}
+.tl-tag {
+  grid-column: 1 / -1; justify-self: start;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.18em;
+  padding: 3px 10px; border: 1px solid currentColor; border-radius: 999px;
+}
+.t-start     { color: #4a6b3a; }  /* 创业起步：橄榄绿 */
+.t-deal      { color: var(--navy); } /* 资本运作：藏蓝 */
+.t-gamble    { color: var(--accent); } /* 豪赌翻身：酒红 */
+.t-risk      { color: #8a5a00; }  /* 争议时刻：赭黄 */
+.t-milestone { color: #55524c; }  /* 产品里程碑：石墨 */
+.tl-year { font-family: var(--serif); font-size: 26px; font-weight: 700; color: var(--accent); }
+.tl-body h3 { font-family: var(--serif); font-size: 19px; letter-spacing: 0.03em; margin-bottom: 4px; }
+.tl-body p { font-size: 15px; color: var(--muted); }
+
+/* ============ 03 公司版图 ============ */
+.company-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.company-card {
+  background: var(--card); border: 1px solid var(--hairline);
+  padding: 22px 22px 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.company-card:hover { transform: translateY(-4px); box-shadow: 8px 8px 0 rgba(26, 26, 26, 0.08); }
+.company-card h3 { font-family: var(--serif); font-size: 24px; letter-spacing: 0.04em; }
+.company-meta { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: 0.05em; margin: 6px 0 10px; }
+.company-desc { font-size: 14px; color: var(--muted); }
+
+.deal-table { margin-top: 34px; border-top: 1px solid var(--ink); }
+.deal-table h3 { font-family: var(--serif); font-size: 20px; letter-spacing: 0.08em; padding: 14px 0 8px; }
+.deal-table dl > div {
+  display: grid; grid-template-columns: 220px 1fr; gap: 14px;
+  padding: 11px 0; border-bottom: 1px dotted var(--hairline);
+}
+.deal-table dt { font-weight: 700; font-size: 15px; }
+.deal-table dd { font-size: 14px; color: var(--muted); }
+
+/* ============ 04 xAI 与 Grok ============ */
+.grok-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: clamp(24px, 5vw, 56px); }
+.grok-copy p { margin-bottom: 16px; text-align: justify; }
+.grok-deals { background: var(--card); border: 1px solid var(--hairline); padding: 22px 26px; align-self: start; }
+.grok-deals h3 {
+  font-family: var(--serif); font-size: 18px; letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--ink); padding-bottom: 10px; margin-bottom: 6px;
+}
+.grok-deals dl > div {
+  display: grid; grid-template-columns: 84px 1fr; gap: 12px;
+  padding: 10px 0; border-bottom: 1px dotted var(--hairline); align-items: baseline;
+}
+.grok-deals dl > div:last-child { border-bottom: none; }
+.grok-deals dt { font-family: var(--serif); font-weight: 700; color: var(--navy); font-size: 15px; }
+.grok-deals dd { font-size: 14px; }
+
+/* ============ 05 语录 ============ */
+.quotes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.quote {
+  background: var(--card); border-left: 4px solid var(--accent);
+  padding: 22px 26px;
+}
+.quote-en { font-family: var(--serif); font-size: 17px; font-style: italic; line-height: 1.6; }
+.quote-zh { margin-top: 10px; font-size: 14px; color: var(--muted); }
+
+/* ============ 页脚 ============ */
+.site-footer { background: var(--ink); color: #d8d4cb; margin-top: clamp(40px, 7vw, 72px); }
+.site-footer .container { padding-top: 34px; padding-bottom: 30px; }
+.footer-brand { font-family: var(--serif); font-size: 20px; letter-spacing: 0.1em; color: var(--paper); }
+.footer-version { font-size: 12px; color: #b3aea3; letter-spacing: 0.12em; margin-left: 8px; }
+.footer-disclaimer { font-size: 12.5px; line-height: 1.9; color: #a8a399; max-width: 760px; margin-top: 12px; }
+.footer-note { font-size: 12px; letter-spacing: 0.14em; color: #8a857c; margin-top: 14px; }
+
+/* ============ 动效 ============ */
+.reveal, .reveal-delay { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal-delay { transition-delay: 0.15s; }
+.reveal.is-visible, .reveal-delay.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .company-card:hover, .btn:hover { transform: none; }
+}
+
+/* ============ 响应式 ============ */
+@media (max-width: 960px) {
+  .cover-grid, .profile-grid, .grok-grid { grid-template-columns: 1fr; }
+  .cover-portrait { order: -1; }
+  .company-grid { grid-template-columns: repeat(2, 1fr); }
+  .deal-lines { grid-template-columns: repeat(2, 1fr); }
+  .deal-lines > div:nth-child(2n) { border-right: none; }
+  .fact-box, .grok-deals { width: 100%; }
+}
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  .company-grid, .quotes-grid, .deal-lines { grid-template-columns: 1fr; }
+  .deal-lines > div { border-right: none; }
+  .tl-item { grid-template-columns: 1fr; }
+  .tl-year { font-size: 22px; }
+  .deal-table dl > div { grid-template-columns: 1fr; gap: 4px; }
+  .masthead-issue { display: none; }
+}

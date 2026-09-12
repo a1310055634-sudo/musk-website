@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>风格对比页 — 马斯克商业网站（选完可删除）</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+
+  .intro {
+    position: sticky; top: 0; z-index: 99;
+    background: #111; color: #fff; text-align: center;
+    padding: 10px 16px; font-size: 14px; letter-spacing: .05em;
+  }
+  .intro b { color: #7cc4ff; }
+
+  .style-label {
+    position: absolute; top: 18px; left: 18px;
+    font-size: 13px; padding: 6px 12px; border-radius: 999px;
+    letter-spacing: .12em; z-index: 5;
+  }
+
+  section.demo {
+    min-height: 88vh; position: relative;
+    display: flex; flex-direction: column;
+    padding: 56px clamp(20px, 6vw, 90px);
+  }
+
+  /* 每个演示共用的小导航结构 */
+  .mini-nav { display: flex; justify-content: space-between; align-items: center; font-size: 14px; }
+  .mini-nav .links span { margin-left: 18px; opacity: .75; }
+  .hero { flex: 1; display: flex; flex-direction: column; justify-content: center; max-width: 980px; }
+  .kicker { letter-spacing: .35em; font-size: 13px; }
+  h1.big { line-height: 1.05; margin: 14px 0 6px; }
+  .sub { font-size: clamp(17px, 2vw, 22px); }
+  .tagline { margin: 18px 0 26px; max-width: 560px; line-height: 1.8; }
+  .stats { display: flex; flex-wrap: wrap; gap: 14px 38px; margin-top: 34px; }
+  .stats div b { display: block; font-size: clamp(20px, 2.6vw, 30px); }
+  .stats div span { font-size: 13px; opacity: .7; }
+  .cta { display: inline-block; padding: 12px 26px; border-radius: 999px; text-decoration: none; font-weight: 600; margin-right: 14px; }
+
+  /* ============ ① 暗色 X/Grok 风 ============ */
+  .s1 { background: #050507 radial-gradient(circle at 80% 10%, rgba(29,155,240,.16), transparent 45%), radial-gradient(circle at 15% 85%, rgba(139,92,246,.10), transparent 40%); color: #f2f4f8; }
+  .s1 .style-label { background: rgba(29,155,240,.15); color: #7cc4ff; border: 1px solid rgba(29,155,240,.4); }
+  .s1 h1.big { font-size: clamp(44px, 8vw, 96px); letter-spacing: .02em; text-shadow: 0 0 40px rgba(29,155,240,.35); }
+  .s1 .sub { color: #b8c2d0; }
+  .s1 .kicker { color: #1d9bf0; }
+  .s1 .cta-primary { background: #1d9bf0; color: #fff; }
+  .s1 .cta-ghost { border: 1px solid rgba(255,255,255,.25); color: #f2f4f8; }
+  .s1 .stats div b { color: #fff; text-shadow: 0 0 24px rgba(29,155,240,.45); }
+
+  /* ============ ② 浅色商业杂志风 ============ */
+  .s2 { background: #faf9f6; color: #1a1a1a; font-family: Georgia, "Times New Roman", "STSong", "SimSun", serif; }
+  .s2 .style-label { background: #f0ece4; color: #7c2d2d; border: 1px solid #d8d2c4; }
+  .s2 .mini-nav { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; border-bottom: 1px solid #1a1a1a; padding-bottom: 12px; }
+  .s2 h1.big { font-size: clamp(42px, 7vw, 84px); }
+  .s2 .kicker { color: #7c2d2d; }
+  .s2 .sub { font-style: italic; color: #444; }
+  .s2 .tagline { color: #333; }
+  .s2 .deal-lines { border-top: 1px solid #1a1a1a; margin-top: 10px; }
+  .s2 .deal-lines p { padding: 10px 0; border-bottom: 1px dotted #999; display: flex; justify-content: space-between; }
+  .s2 .cta-primary { background: #7c2d2d; color: #faf9f6; border-radius: 0; font-family: "Segoe UI", "Microsoft YaHei", sans-serif; }
+
+  /* ============ ③ 暗色金融终端风 ============ */
+  .s3 { background: #0a0f1c; color: #d7e0ee; font-family: Consolas, "Cascadia Code", "Courier New", monospace; }
+  .s3 .style-label { background: rgba(255,176,0,.12); color: #ffb000; border: 1px solid rgba(255,176,0,.45); }
+  .s3 .mini-nav { border-bottom: 1px dashed rgba(255,176,0,.35); padding-bottom: 10px; color: #ffb000; }
+  .s3 .kicker { color: #6ee7a0; }
+  .s3 h1.big { font-size: clamp(34px, 5.6vw, 68px); color: #fff; }
+  .s3 h1.big::after { content: "▮"; color: #ffb000; animation: blink 1s steps(1) infinite; margin-left: 8px; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .s3 .term-panel { border: 1px solid rgba(255,176,0,.4); margin-top: 22px; max-width: 520px; }
+  .s3 .term-panel .hd { background: rgba(255,176,0,.12); color: #ffb000; padding: 6px 12px; font-size: 13px; letter-spacing: .15em; }
+  .s3 .term-panel .row { display: flex; justify-content: space-between; padding: 8px 12px; border-top: 1px solid rgba(255,176,0,.18); font-size: 14px; }
+  .s3 .up { color: #6ee7a0; }
+  .s3 .cta-primary { background: #ffb000; color: #0a0f1c; border-radius: 2px; }
+
+  /* ============ ④ 极简发布会风 ============ */
+  .s4 { background: #ffffff; color: #000; }
+  .s4 .style-label { background: #f5f5f7; color: #555; border: 1px solid #e3e3e6; }
+  .s4 h1.big { font-size: clamp(52px, 10vw, 120px); font-weight: 700; letter-spacing: -.02em; }
+  .s4 .sub { color: #6e6e73; }
+  .s4 .cards { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 30px; }
+  .s4 .cards div { background: #f5f5f7; border-radius: 18px; padding: 22px 30px; font-weight: 600; color: #1d1d1f; }
+  .s4 .cta-primary { background: #0071e3; color: #fff; }
+</style>
+</head>
+<body>
+
+<div class="intro">风格对比页 · 同一份内容 × 四种风格 · 往下滚动逐个看 → 选好告诉助手编号 <b>①②③④</b>（本页之后可删除）</div>
+
+<!-- ① 暗色 X/Grok 风 -->
+<section class="demo s1">
+  <span class="style-label">① 暗色 X/Grok 风</span>
+  <div class="mini-nav">
+    <span>𝕏 <b>MUSK·马斯克</b></span>
+    <span class="links"><span>关于</span><span>公司</span><span>商战故事</span><span>中 | EN</span></span>
+  </div>
+  <div class="hero">
+    <p class="kicker">SPACEX · TESLA · 𝕏 · xAI</p>
+    <h1 class="big">ELON MUSK</h1>
+    <p class="sub">埃隆·马斯克 — 同时管理六家公司的商业异类</p>
+    <p class="tagline" style="color:#9aa3b2">从 Zip2 到 PayPal，从火箭回收到收购推特，再到造出 Grok——
+      一个把「不可能」当成日程表的人。本站只讲他的商业故事。</p>
+    <div>
+      <a class="cta cta-primary" href="#">探索商业时间线</a>
+      <a class="cta cta-ghost" href="#">经典商战</a>
+    </div>
+    <div class="stats">
+      <div><b>9 家</b><span>参与创立的公司</span></div>
+      <div><b>$44B</b><span>收购 Twitter</span></div>
+      <div><b>2002</b><span>创立 SpaceX</span></div>
+      <div><b>第 4 代</b><span>Grok 迭代</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ② 浅色商业杂志风 -->
+<section class="demo s2">
+  <span class="style-label">② 浅色商业杂志风</span>
+  <div class="mini-nav">
+    <span><b>MUSK</b> 商业人物志</span>
+    <span class="links"><span>特稿</span><span>公司志</span><span>中 | EN</span></span>
+  </div>
+  <div class="hero">
+    <p class="kicker">THE OPERATOR · 卷首特稿</p>
+    <h1 class="big">埃隆·马斯克</h1>
+    <p class="sub">同时管理六家公司的「商业异类」</p>
+    <p class="tagline">从在线黄页到火星殖民计划，他押上的每一次，几乎都是全部身家。</p>
+    <div class="deal-lines">
+      <p><span>2002 · 创立 SpaceX</span><span>私人航天时代开启</span></p>
+      <p><span>2008 · 同时押注两公司</span><span>距破产仅数周</span></p>
+      <p><span>2022 · 收购 Twitter</span><span>$44,000,000,000</span></p>
+    </div>
+    <div style="margin-top:26px"><a class="cta cta-primary" href="#">阅读人物特稿</a></div>
+  </div>
+</section>
+
+<!-- ③ 暗色金融终端风 -->
+<section class="demo s3">
+  <span class="style-label">③ 暗色金融终端风</span>
+  <div class="mini-nav">
+    <span>MUSK://TERMINAL v1.0</span>
+    <span class="links"><span>[F1] 公司</span><span>[F2] 交易</span><span>中 | EN</span></span>
+  </div>
+  <div class="hero">
+    <p class="kicker">&gt; QUERY: BUSINESS_PROFILE</p>
+    <h1 class="big">ELON MUSK</h1>
+    <p class="sub">&gt; FIRMS_ACTIVE: 6 &nbsp;|&nbsp; DEALS_LOGGED: 20+ &nbsp;|&nbsp; STATUS: LEGEND</p>
+    <div class="term-panel">
+      <div class="hd">DEAL HISTORY — 按金额排序</div>
+      <div class="row"><span>2022 &nbsp;TWITTER ACQ.</span><span>$44.0B <span class="up">▲</span></span></div>
+      <div class="row"><span>2016 &nbsp;SOLARCITY ACQ.</span><span>$2.6B <span class="up">▲</span></span></div>
+      <div class="row"><span>2002 &nbsp;PAYPAL EXIT</span><span>$1.5B <span class="up">▲</span></span></div>
+      <div class="row"><span>1999 &nbsp;ZIP2 EXIT</span><span>$307M <span class="up">▲</span></span></div>
+    </div>
+    <div style="margin-top:26px"><a class="cta cta-primary" href="#">RUN TIMELINE &gt;</a></div>
+  </div>
+</section>
+
+<!-- ④ 极简发布会风 -->
+<section class="demo s4">
+  <span class="style-label">④ 极简发布会风</span>
+  <div class="mini-nav" style="color:#6e6e73">
+    <span>MUSK</span>
+    <span class="links"><span>概览</span><span>公司</span><span>中 | EN</span></span>
+  </div>
+  <div class="hero">
+    <h1 class="big">ELON<br>MUSK</h1>
+    <p class="sub" style="font-size:clamp(20px,3vw,30px); margin-top:10px">六家公司。一个目标。</p>
+    <div class="cards">
+      <div>SpaceX</div><div>Tesla</div><div>𝕏</div><div>xAI</div><div>Neuralink</div><div>Boring</div>
+    </div>
+    <div style="margin-top:34px"><a class="cta cta-primary" href="#">进一步了解</a></div>
+  </div>
+</section>
+
+</body>
+</html>
