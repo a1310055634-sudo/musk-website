@@ -337,6 +337,51 @@ a { color: inherit; }
 }
 .mini-tl li:last-child { border-bottom: none; }
 .mini-tl li b { font-family: var(--serif); color: var(--navy); font-size: 15px; }
+
+/* 交互式收购时间轴 */
+.acq-hint { font-size: 13px; color: var(--muted); font-style: italic; margin-bottom: 4px; }
+.acq-tl { list-style: none; margin-top: 12px; position: relative; }
+.acq-tl::before {
+  content: ""; position: absolute; left: 5px; top: 10px; bottom: 12px;
+  width: 1px; background: var(--ink); opacity: 0.3;
+}
+.acq-node { position: relative; padding: 0 0 8px 26px; }
+.acq-node::before {
+  content: ""; position: absolute; left: 0; top: 12px;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--accent);
+}
+.acq-head {
+  width: 100%; display: flex; align-items: baseline; gap: 12px;
+  background: none; border: none; cursor: pointer; text-align: left;
+  padding: 5px 2px; font-family: inherit;
+}
+.acq-when { font-family: var(--serif); font-weight: 700; color: var(--accent); font-size: 15px; white-space: nowrap; }
+.acq-title { font-weight: 700; font-size: 15.5px; color: var(--ink); }
+.acq-head:hover .acq-title, .acq-node.open .acq-title { color: var(--accent); }
+.acq-head::after {
+  content: "+"; margin-left: auto; font-family: var(--serif);
+  font-size: 22px; line-height: 1; color: var(--muted);
+  transition: transform 0.3s ease;
+}
+.acq-node.open .acq-head::after { content: "−"; color: var(--accent); }
+.acq-detail { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.4s ease; }
+.acq-detail-inner { overflow: hidden; }
+.acq-detail p { font-size: 14px; color: var(--muted); padding: 2px 6px 8px 0; text-align: justify; }
+.acq-node.open .acq-detail { grid-template-rows: 1fr; }
+
+/* 一句话复盘 */
+.verdict-box { background: var(--ink); color: var(--paper); padding: 18px 20px; }
+.verdict-box h4 {
+  font-family: var(--serif); font-size: 15px; letter-spacing: 0.14em;
+  color: #d9a7a7;
+  border-bottom: 1px solid rgba(250, 249, 246, 0.25);
+  padding-bottom: 8px; margin-bottom: 10px;
+}
+.verdict-box p { font-family: var(--serif); font-style: italic; font-size: 16px; line-height: 1.7; }
+@media (prefers-reduced-motion: reduce) {
+  .acq-detail, .acq-head::after { transition: none; }
+}
 @media (max-width: 960px) {
   .story-grid { grid-template-columns: 1fr; gap: 22px; }
 }
@@ -391,6 +436,8 @@ a { color: inherit; }
   .footer-disclaimer { color: #333; }
   .feature, .feature-data > div, .company-card, .quote, .fact-box, .grok-deals { break-inside: avoid; }
   .pull-quote, .mini-tl, .story-art { break-inside: avoid; }
+  .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
+  .acq-head::after { display: none; }
 }
 
 /* ============ 动效 ============ */

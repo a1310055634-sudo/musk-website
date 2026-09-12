@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.5.0';
+  var SITE_VERSION = '0.6.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -84,6 +84,15 @@
           item.classList.add('tl-pop');
         }
       });
+    });
+  });
+
+  /* ---------- 商战交互时间轴（点击展开/收起） ---------- */
+  document.querySelectorAll('.acq-node > .acq-head').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var node = btn.parentElement;
+      var open = node.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   });
 
