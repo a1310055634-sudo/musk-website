@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.1.0';
+  var SITE_VERSION = '0.2.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -65,6 +65,27 @@
     }, { threshold: 0.12 });
     revealEls.forEach(function (el) { io.observe(el); });
   }
+
+  /* ---------- 时间线分类筛选 ---------- */
+  var filterBtns = Array.prototype.slice.call(document.querySelectorAll('.tl-btn'));
+  var tlItems = Array.prototype.slice.call(document.querySelectorAll('.timeline .tl-item'));
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      filterBtns.forEach(function (b) { b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      var f = btn.getAttribute('data-filter');
+      tlItems.forEach(function (item) {
+        var tag = item.querySelector('.tl-tag');
+        var match = (f === 'all') || (tag && tag.classList.contains('t-' + f));
+        item.classList.toggle('tl-hidden', !match);
+        if (match && !reduceMotion) { // 重新触发淡入动画
+          item.classList.remove('tl-pop');
+          void item.offsetWidth;
+          item.classList.add('tl-pop');
+        }
+      });
+    });
+  });
 
   /* ---------- 导航高亮（scrollspy） ---------- */
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.mainnav a'));
