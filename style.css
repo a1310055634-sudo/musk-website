@@ -410,6 +410,40 @@ a { color: inherit; }
   .flash-grid { grid-template-columns: 1fr; }
 }
 
+/* ============ 商业人格 ============ */
+.persona-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.persona-card {
+  position: relative; background: var(--card); border: 1px solid var(--hairline);
+  padding: 22px 22px 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.persona-card:hover { transform: translateY(-4px); box-shadow: 8px 8px 0 rgba(26, 26, 26, 0.08); }
+.persona-num {
+  position: absolute; top: 12px; right: 16px;
+  font-family: var(--serif); font-size: 34px; font-weight: 700;
+  color: rgba(124, 45, 45, 0.16);
+}
+.persona-card h3 { font-family: var(--serif); font-size: 21px; letter-spacing: 0.03em; }
+.persona-def { font-size: 13.5px; color: var(--muted); margin: 6px 0 12px; }
+.persona-card h4 {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.22em;
+  color: var(--accent); margin-bottom: 4px;
+}
+.persona-ev { list-style: none; }
+.persona-ev li {
+  position: relative; font-size: 13.5px; color: var(--ink);
+  padding: 7px 0 7px 16px; border-bottom: 1px dotted var(--hairline);
+  line-height: 1.65;
+}
+.persona-ev li::before { content: "▪"; position: absolute; left: 0; color: var(--accent); }
+.persona-take {
+  font-family: var(--serif); font-style: italic; font-size: 14.5px;
+  color: var(--accent); border-top: 1px solid var(--hairline);
+  padding-top: 10px; margin-top: 4px;
+}
+@media (max-width: 960px) { .persona-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .persona-grid { grid-template-columns: 1fr; } }
+
 ::selection { background: var(--accent); color: var(--paper); }
 
 /* ============ 05 xAI 与 Grok ============ */
@@ -459,7 +493,7 @@ a { color: inherit; }
   .footer-brand { color: #000; }
   .footer-disclaimer { color: #333; }
   .feature, .feature-data > div, .company-card, .quote, .fact-box, .grok-deals { break-inside: avoid; }
-  .pull-quote, .mini-tl, .story-art, .flash { break-inside: avoid; }
+  .pull-quote, .mini-tl, .story-art, .flash, .persona-card { break-inside: avoid; }
   .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
   .acq-head::after { display: none; }
 }
