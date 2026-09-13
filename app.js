@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '0.15.0';
+  var SITE_VERSION = '0.16.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -224,5 +224,33 @@
       }
     });
     });
+  }
+
+  /* ---------- Konami 彩蛋：纸飞机掠过纸面 ---------- */
+  var KONAMI = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+  var kIdx = 0;
+  document.addEventListener('keydown', function (e) {
+    var k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+    kIdx = (k === KONAMI[kIdx]) ? kIdx + 1 : (k === KONAMI[0] ? 1 : 0);
+    if (kIdx === KONAMI.length) {
+      kIdx = 0;
+      if (reduceMotion) return;
+      var plane = document.createElement('div');
+      plane.className = 'fly-plane';
+      plane.setAttribute('aria-hidden', 'true');
+      plane.innerHTML = '<svg width="72" height="40" viewBox="0 0 72 40" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"><path d="M2 22 L58 8 L40 26 L30 20 Z"/><path d="M30 20 L34 34 L40 26"/><path d="M44 12 L66 6" stroke="#7c2d2d" stroke-dasharray="4 4"/></svg>';
+      document.body.appendChild(plane);
+      setTimeout(function () { plane.remove(); }, 2800);
+    }
+  });
+
+  /* ---------- 编者按随机金句 ---------- */
+  var noteEl = document.getElementById('editor-note');
+  var allQuotes = document.querySelectorAll('#quotes .quote');
+  if (noteEl && allQuotes.length) {
+    var pick = Math.floor(Math.random() * allQuotes.length);
+    var en = allQuotes[pick].querySelector('.quote-en').textContent;
+    var zh = allQuotes[pick].querySelector('.quote-zh').textContent;
+    noteEl.innerHTML = '编者按 / Editor’s note：' + zh + '<span class="fn-en">' + en + '</span>';
   }
 })();
