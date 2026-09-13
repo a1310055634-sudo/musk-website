@@ -537,7 +537,10 @@ a { color: inherit; }
   .method-card { break-inside: avoid; }
   .chart-fig { break-inside: avoid; }
   .feature-photo { break-inside: avoid; }
-  .feature-photo img { filter: grayscale(20%); } /* 打印更接近纸媒质感 */
+  .feature-photo img { filter: grayscale(20%); }
+  .ps-row, .ps-doc { break-inside: avoid; }
+  .ps-doc { background: #fff; color: #000; border: 2px solid #000; }
+  .ps-doc .ps-note, .ps-doc-title span { color: #555; } /* 打印更接近纸媒质感 */
   .bars rect { transform: none !important; } /* 打印时图表直接呈现最终状态 */
   .acq-detail { grid-template-rows: 1fr !important; } /* 打印时展开全部细节 */
   .acq-head::after { display: none; }
@@ -610,3 +613,26 @@ a { color: inherit; }
 .fly-plane { position: fixed; top: 22%; left: -90px; z-index: 300; pointer-events: none; animation: flyby 2.6s linear forwards; }
 @keyframes flyby { to { transform: translateX(115vw) translateY(-30px) rotate(6deg); } }
 @media (prefers-reduced-motion: reduce) { .fly-plane { display: none; } }
+
+/* ============ 第一手资料 ============ */
+.ps-sub {
+  font-family: var(--serif); font-size: 22px; letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--ink); padding-bottom: 8px; margin: 26px 0 14px;
+}
+.ps-ledger { list-style: none; }
+.ps-row { background: var(--card); border: 1px solid var(--hairline); padding: 18px 20px 14px; margin-bottom: 14px; }
+.ps-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.ps-date { font-family: var(--serif); font-weight: 700; color: var(--accent); font-size: 17px; }
+.ps-src { font-size: 11px; letter-spacing: 0.12em; color: var(--muted); border: 1px solid var(--hairline); border-radius: 999px; padding: 2px 12px; }
+.ps-quote { font-family: var(--serif); font-style: italic; font-size: 16.5px; line-height: 1.7; }
+.ps-zh { font-size: 14px; color: var(--muted); margin: 8px 0 10px; }
+html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐藏译文避免重复 */
+.ps-deed { font-size: 13.5px; border-top: 1px dotted var(--hairline); padding-top: 9px; }
+.ps-deed b { font-family: var(--serif); color: var(--accent); margin-right: 10px; }
+.ps-docs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.ps-doc { background: var(--ink); color: var(--paper); padding: 20px 22px; }
+.ps-doc-title { font-family: var(--serif); font-size: 17px; font-weight: 700; }
+.ps-doc-title span { display: block; font-size: 11px; letter-spacing: 0.16em; color: #d9a7a7; margin-top: 4px; }
+.ps-doc .ps-quote { font-size: 13.5px; margin-top: 12px; color: var(--paper); }
+.ps-doc .ps-note { font-size: 12.5px; color: #b3aea3; margin-top: 12px; border-top: 1px solid rgba(250, 249, 246, 0.25); padding-top: 8px; line-height: 1.7; }
+@media (max-width: 960px) { .ps-docs { grid-template-columns: 1fr; } }
