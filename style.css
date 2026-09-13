@@ -665,3 +665,13 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
 }
 .ps-nav a:hover { border-color: #7c2d2d; color: #7c2d2d; }
 .ps-nav a[aria-current="page"] { background: #7c2d2d; border-color: #7c2d2d; color: #faf9f6; }
+
+/* ============ 实录检索 ============ */
+.ps-search-wrap { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; flex-wrap: wrap; }
+.ps-search {
+  flex: 1; min-width: 220px; max-width: 480px;
+  font-family: var(--sans); font-size: 14px; color: var(--ink);
+  background: #fff; border: 1px solid var(--ink); padding: 10px 16px;
+}
+.ps-search:focus { outline: 3px solid var(--accent); outline-offset: 2px; }
+.ps-count { font-size: 12px; color: var(--muted); letter-spacing: 0.08em; white-space: nowrap; }
