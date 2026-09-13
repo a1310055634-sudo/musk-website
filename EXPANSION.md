@@ -7,7 +7,7 @@
 - 引文核实来源：Tesla 官方博客（secret-master-plan / master-plan-part-deux，后者经 SEC 备案）、Space.com / Spaceflight Now（Falcon 1 第四发原话）、Reuters / AP（Starship 塔捕推文）、TechCrunch / Washington Post（TED 2022）、Fortune / The Verge（Extremely Hardcore 邮件）、X 原帖（the bird is freed）。
 - 双语排版约定：英文原句恒定显示（本身即英文，无需英译）；中译行在英文模式隐藏（html[lang=en] .ps-zh），避免与原句重复。
 
-## 后续候选（用户醒来后按需领取，未经确认不动工）
-- [ ] P2 语录出处补全：现有语录区 4 条补年份与场合（可考的才写）。
-- [ ] P3 言行实录扩容至 20+ 条：候选素材（均已初步可考）——2014 "the factory is the machine that builds the machine"、2020.05 载人首飞当晚表态、2021 Starship 跳炸弹迭代言论、2025.11 股东年会现场发言、2026.01 xAI Series E 官宣信。动工前需逐条 WebSearch 核实。
-- [ ] P4 蓝图第三、四版（2023 / 2025）：Tesla 官网已发布 Master Plan Part 3（2023）与 Part 4（2025），可续写文档卡。
+## P2-P4 完成记录（v1.2.0 · 2026-09-13）
+- [x] ✅ P2 语录出处：四句广泛征引表述的精确出处不可考，按事实纪律**不杜撰**，改为板块内诚实注脚。
+- [x] ✅ P3 言行实录扩容 10 → 13 条（2017 生产地狱 / 2023 蓝图三 / 2025 蓝图四，均经 WebSearch 核实）。
+- [x] ✅ P4 蓝图文档卡 3 → 5 份（Part 3 与 Part IV 入列，来源 tesla.com 官网与报道）。

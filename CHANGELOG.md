@@ -2,6 +2,16 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v1.2.0 — 2026-09-13 · P2-P4 第一手资料续包（一口气交付）
+
+**主题包成果**
+- 言行实录 10 → 13 条：新增 2017「Welcome to production hell」、2023「Sustainable Energy for All of Earth」、2025「Sustainable abundance」。
+- 原话文档 3 → 5 份：新增 Master Plan Part 3（2023.04.05）与 Part IV（2025.09.01），核实自 Tesla 官网与报道。
+- 语录区补诚实注脚：四句广泛征引的表述因精确出处年份不可考，明确标注「不杜撰出处」。
+
+**质量门**
+- node --check 通过；无重复 id；新引文均经 WebSearch 核实（tesla.com/master-plan-part-4 等）；浏览器验证 1440px 与 375px。
+
 ## v1.1.0 — 2026-09-13 · P1 第一手资料板块（用户定向：只收一手材料）
 
 **主题包成果**

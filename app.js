@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '1.1.0';
+  var SITE_VERSION = '1.2.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
