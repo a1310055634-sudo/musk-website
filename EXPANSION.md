@@ -1,5 +1,12 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自动化第 4 轮 / v1.6.0）：新增 3 条一手深读条目——2019 Cybertruck 破玻璃（BBC 引推文解释）、2020 载人首飞（NASA 通稿引语 + BI 记录）、2023 广告主风波 DealBook 表态（CNBC/Wired 记录）。实录 15 → 18 条，全部深读。
+
+## 事实扩展包（本轮新核实）
+- Cybertruck 破玻璃：2019-11-21 发布会（Hawthorne）；Franz von Holzhausen 两次掷金属球、两侧车窗开裂；推文解释原文 "Sledgehammer impact on door cracked the base of the glass…"（BBC 引 X 帖）；他称演示 "room for improvement"；多年后 von Holzhausen 称其为 great marketing。
+- Demo-2：2020-05-30，NASA 通稿引语 "This is a dream come true…"；"I'm not very religious, but I prayed for this one."（Business Insider 记录）；发射台位 39A（阿波罗 11 号同台）。
+- DealBook 2023-11-29：CNBC 记录原话 "If somebody's going to try to blackmail me with advertising… Go f*** yourself."；点名 Bob Iger；"the whole world will know that those advertisers killed the company."
+
 > 本轮选题（自动化第 3 轮 / v1.5.0）：深读第三批——2013 火星 / 2023 蓝图三 / 2023 xAI 使命 / 2025 蓝图四 升级四段深读版 + 新增「the machine that builds the machine」（2016）条目。至此 15 条全部深读完成。
 
 ## 事实扩展包（本轮新核实）
