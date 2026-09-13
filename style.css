@@ -654,3 +654,14 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
 /* 文档馆链接 */
 .ps-docs-link { font-family: var(--sans); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; color: var(--accent); text-decoration: none; margin-left: 12px; }
 .ps-docs-link:hover { text-decoration: underline; }
+
+/* ============ 第一手四页导航 ============ */
+.ps-nav { display: flex; flex-wrap: wrap; gap: 8px 10px; margin: 0 0 18px; }
+.ps-nav a {
+  font-size: 12px; font-weight: 700; letter-spacing: 0.1em;
+  border: 1px solid rgba(26,26,26,.16); border-radius: 999px;
+  padding: 6px 14px; text-decoration: none; color: #5c574e;
+  transition: all .25s ease;
+}
+.ps-nav a:hover { border-color: #7c2d2d; color: #7c2d2d; }
+.ps-nav a[aria-current="page"] { background: #7c2d2d; border-color: #7c2d2d; color: #faf9f6; }
