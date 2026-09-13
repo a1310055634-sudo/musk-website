@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自动化第 11 轮 / v2.3.0）：新增 2 条一手深读条目——2015.04.30 Powerwall 发布会（TechCrunch/ABC 逐字引语确认：they suck / fundamental energy infrastructure；7kWh 起价 3000 美元）与 2022.11.28 Twitter Files 预告（逐字文本未能原帖复核，条目内诚实标注「广泛征引措辞」；可核实部分为系列时间线 2022.12.02 首发 Taibbi 与 free speech suppression 框架，CNN/WaPo 报道）。实录 22 → 24 条。
+
 > 本轮选题（自动化第 10 轮 / v2.2.0）：自由精进轮——WebSearch 服务连续超时，新引文核实无法进行，按事实纪律本轮不写新内容，切换为「第一手」四页板块的统一交叉导航（pill 式 aria-current 标识）+ 商战板块互链。
 
 > 本轮选题（自动化第 9 轮 / v2.1.0）：新增 2 条一手深读条目——2021.07 SolarCity 庭审作证（「hates/die」证词，The Next Web 报道）与 2021.08 AI Day Optimus 表态（「worth more than the car business, worth more than FSD」，CNBC/Reuters 报道，2022.09.30 复述）。实录 20 → 22 条。
