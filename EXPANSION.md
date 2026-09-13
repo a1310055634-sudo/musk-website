@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自动化第 9 轮 / v2.1.0）：新增 2 条一手深读条目——2021.07 SolarCity 庭审作证（「hates/die」证词，The Next Web 报道）与 2021.08 AI Day Optimus 表态（「worth more than the car business, worth more than FSD」，CNBC/Reuters 报道，2022.09.30 复述）。实录 20 → 22 条。
+
+## 事实扩展包（本轮新核实）
+- SolarCity 庭审（2021.07，特拉华衡平法院）：可核实证词为 Musk 自述「讨厌当 CEO、没有我公司会死」（The Next Web 报道）。「banality / boring stuff」等说法查无出处，按纪律不写。
+- Optimus 价值表态："The Optimus robot will eventually be worth more than the car business, worth more than FSD."——AI Day 2021（2021.08，开场幻灯）；2022-09-30 AI Day 真机亮相时复述（CNBC：worth more than its cars）。2024 年升级为 25 万亿美元公司量级。
+
 > 本轮选题（自动化第 8 轮 / v2.0.0）：实录破 20 条里程碑——新增 2018 Boring Company 火焰喷射器（X 原帖 status/957441956874919936 · The Guardian 报道：500 美元/台、两万台售罄、筹资约 1000 万、附赠灭火器）与 2024 Neuralink Telepathy（X 原帖 status/1752118131579867417 · The Guardian 报道：临床帖+命名帖结构）。实录 18 → 20 条。
 
 > 本轮选题（自动化第 7 轮 / v1.9.0）：x-posts.html X 帖史选辑上线——8 张商业名帖卡片墙（暗色卡片式设计），全部为此前已核实引文与原帖编号；index/documents/interviews 三处互链打通。
