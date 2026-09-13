@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自动化第 7 轮 / v1.9.0）：x-posts.html X 帖史选辑上线——8 张商业名帖卡片墙（暗色卡片式设计），全部为此前已核实引文与原帖编号；index/documents/interviews 三处互链打通。
+
+## 事实扩展包（本轮新核实）
+- Grok 首发公告："As soon as it's out of early beta, xAI's Grok system will be available to all X Premium+ subscribers."——2023-11-04（TechCrunch/BI 记录）。
+- Grok-1 开源宣布："This week, @xAI will open source Grok"——2024-03-11，原帖 status/1767108624038449405（Reuters）；xAI 官网 2024-03-17 发布 Apache 2.0 权重（314B MoE）；同帖回复 "OpenAI is a lie"。
+
 > 本轮选题（自动化第 6 轮 / v1.8.0）：interviews.html 访谈与表态专页上线——9 条已核实的一手表态按时间排列（2006 蓝图博客 / 2008 第四发 / 2017 生产地狱 / 2018 humans are underrated / 2020 Demo-2 / 2022 TED / 2022 Hardcore 邮件 / 2023 xAI Spaces / 2023 DealBook），每条 = 场合背景 + 逐字原话 + 中译 + 后续注脚 + 来源徽章。全部复用既有已核实引文，未新增未核实内容。index「第一手」加双入口，documents 页脚互链。
 
 > 本轮选题（自动化第 5 轮 / v1.7.0）：documents.html 一手文档馆上线——6 份一手文档深读（2006 蓝图全文五步 / 2016 Part Deux 四支柱 / 2022 Extremely Hardcore / 2023 xAI 宣言 / 2023 Part 3 / 2025 Part IV），逐段摘录 + 本站注释 + 兑现注脚；全部复用既有已核实引文，未新增未核实内容。index「第一手」板块加「文档馆全文」入口。
