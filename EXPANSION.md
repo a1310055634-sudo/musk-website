@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自动化第 12 轮 / v2.4.0）：新增 2 条一手深读条目——2025 Boring Company 商业化（官网项目页口径：68 英里/104 站/每小时 9 万人次；Encore 车站开放、机场段瞄准 2026Q1、旅游局 2500 万五年协议、2025 年 230 亿估值融资 30 亿为 Economic Times 报道口径）与 2025.11.06 股东年会「infinite money glitch」（全文转录核实：CNBC/Sky News/whatsuptesla 转录）。实录 24 → 26 条。
+
+## 事实扩展包（本轮新核实）
+- 股东年会原句（2025-11-06）："There's not like an obvious limit. So like Optimus is kind of like an infinite money glitch. And maybe there won't even be money in the future."（whatsuptesla 全文转录；CNBC 报道 eliminate poverty / bigger than cell phones；Sky News 记录与 Optimus 共舞）。
+- Boring Company：官网 projects 页口径（LVCC 2.1mi/5 站、Vegas Loop 规划 68mi/104 站/90k pax）；Encore 站开放、机场段 2026Q1（Review Journal/Nevada Current）；2500 万美元五年 LVCVA 协议；2025 年 30 亿美元融资、230 亿估值（Economic Times 报道口径）；ProPublica 监督批评一并入注。
+
 > 本轮选题（自动化第 11 轮 / v2.3.0）：新增 2 条一手深读条目——2015.04.30 Powerwall 发布会（TechCrunch/ABC 逐字引语确认：they suck / fundamental energy infrastructure；7kWh 起价 3000 美元）与 2022.11.28 Twitter Files 预告（逐字文本未能原帖复核，条目内诚实标注「广泛征引措辞」；可核实部分为系列时间线 2022.12.02 首发 Taibbi 与 free speech suppression 框架，CNN/WaPo 报道）。实录 22 → 24 条。
 
 > 本轮选题（自动化第 10 轮 / v2.2.0）：自由精进轮——WebSearch 服务连续超时，新引文核实无法进行，按事实纪律本轮不写新内容，切换为「第一手」四页板块的统一交叉导航（pill 式 aria-current 标识）+ 商战板块互链。
