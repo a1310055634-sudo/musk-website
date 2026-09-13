@@ -1,5 +1,13 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自动化第 1 轮 / v1.3.0）：言行实录深读第一批——2006 蓝图 / 2008 第四发 / 2018 推文 / 2022 sink / 2022 bird is freed，共 5 条升级为「背景→原话→现场→后续」四段深读版。
+
+## 事实扩展包（本轮新核实）
+- "Entering Twitter HQ – let that sink in!"：2022-10-26，X 原帖 status/1585341984679469056，视频为抱洗手池穿过总部大厅；同日改简介为 Chief Twit（CNBC/The Guardian 报道）。
+- "Spoiler alert: Let the good times roll"：2022-10-28 清晨发帖（Washington Post 报道，附 spoiler alert 贴纸）。
+- 交割后立即解雇 CEO Parag Agrawal、CFO Ned Segal、法律负责人 Vijaya Gadde；当晚解散董事会、自任 CEO（Reuters/Wikipedia 交割条目）。
+- 2018 settlement 细节沿用此前核实（个人与公司各罚 2000 万、卸任董事长保留 CEO、重大推文律师预审）。
+
 > 用户 2026-09-13 敲定：不做原 E1-E5 专题，改为围绕马斯克第一手资料——他的原话（带日期与出处）、他亲手做的事、他在关键时刻的第一反应。执行方式：主智能体一口气完成，不用自动化。规则继承 ROADMAP.md（站点定位/硬约束/设计系统/双语约定/质量门）。
 
 ## P1 v1.1.0 第一手板块（已完成）
