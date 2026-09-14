@@ -711,3 +711,14 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
 @media (max-width: 960px) { .chapter-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .chapter-grid { grid-template-columns: 1fr; } .chapter-pager .pg { max-width: none; } }
 @media print { .chapter-card, .chapter-pager .pg { break-inside: avoid; } }
+
+/* ============ 书卷化：阅读路径与本章小结 ============ */
+.reading-path, .chapter-summary {
+  background: var(--card); border: 1px dashed var(--accent);
+  padding: 16px 20px; margin: 0 0 22px;
+}
+.reading-path h4, .chapter-summary h4 {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.22em;
+  color: var(--accent); margin-bottom: 6px;
+}
+.reading-path p, .chapter-summary p { font-size: 14px; line-height: 1.85; margin: 0; }
