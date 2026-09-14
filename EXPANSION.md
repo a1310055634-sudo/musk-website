@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（今夜第 8 轮 / v4.0.0）：实录 29 → 31 条——新增 2024.06.13 薪酬二次表决+25 万亿美元 Optimus 表态（CNBC/Teslarati 全文转录核实）与 2025.05.03 Starbase 建市投票（Texas Tribune/TPR/PBS 核实，约 283 选民/212 投票/压倒性通过，5.20 认证）。版本跳 v4.0.0 致敬「30+ 条」里程碑达成。
+
+## 事实扩展包（本轮新核实）
+- 2024 股东年会（2024-06-13）：开场 "I just want to start off by saying hot d***! I love you guys."（CNBC）；Optimus "could lift Tesla's market cap to $25 trillion"（CNBC）；股东重新批准 2018 薪酬方案、通过迁册德州（Tesla IR 新闻稿）；全文转录见 Teslarati。
+- Starbase 建市（2025-05-03 投票、5.20 认证）：约 283 名合格选民（多为 SpaceX 员工及家属）、约 212 人投票、压倒性通过 C 型城市；Texas Tribune 开篇 "Elon Musk's wish to create his own city just came true."；他的 X 表态 "STARBASE IS AWESOME AND ANYONE CAN VISIT."（13News/KIII 转引）；ProPublica 此前有稀薄审查批评。
+
 > 本轮选题（今夜第 7 轮 / v3.9.0）：实录 28 → 29 条——新增 2023.11.30 Cybertruck 首批交付（CNBC/Fortune/BI 逐字引语：「Finally, the future will look like the future」「experts said was impossible」），并与 2019 破玻璃条目构成「宣布-跳票-兑现」对照。
 
 > 本轮选题（今夜第 6 轮 / v3.8.0）：修复 quotes.html 交叉污染（v3.1.0 转换时语录板块的闭合锚定失误，把整个 primary 板块 362 行吞并进了语录页）——外科切除后语录页回到 103 行纯语录；primary.html 补「使用路径 · 编者导读」；轮播第 5 条交互验证通过（自动轮播计时导致的探针误报已排除）。

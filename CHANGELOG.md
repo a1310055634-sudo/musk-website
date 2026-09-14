@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v4.0.0 — 2026-09-15 · 实录破 30 条里程碑：新增一手深读条目×2（今夜第 8 轮）
+
+**主题包成果**
+- 言行实录 29 → 31 条：
+  - 2024.06.13 股东年会——「hot d***! I love you guys」开场 + 25 万亿美元 Optimus 表态（CNBC/Teslarati 全文转录核实）；
+  - 2025.05.03 Starbase 建市投票——约 283 选民/压倒性通过/5.20 认证（Texas Tribune/TPR/PBS 核实），「STARBASE IS AWESOME AND ANYONE CAN VISIT」。
+- 版本跳 **v4.0.0**：言行实录突破 30 条，里程碑达成。
+
+**质量门**
+- node --check 通过；无重复 id；锚点完整（CNBC/Teslarati/Texas Tribune/TPR/PBS 逐条核实）；浏览器验证渲染。
+
+
 ## v3.9.0 — 2026-09-15 · 实录扩容：Cybertruck 交付日（今夜第 7 轮）
 
 **主题包成果**
