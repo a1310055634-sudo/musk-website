@@ -2,6 +2,16 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v3.9.0 — 2026-09-15 · 实录扩容：Cybertruck 交付日（今夜第 7 轮）
+
+**主题包成果**
+- 新增 2023.11.30 Cybertruck 首批交付深读条目：跳票四年 → 交付日登台（乘车斗）→ 逐字引语「Finally, the future will look like the future」「experts said was impossible」→ 逻辑链收尾：2019 破玻璃与 2023 慢交付是同一模式（最大音量宣布、付出信用代价、照样交付）。
+- 引语锚点：CNBC/Fortune/Business Insider 记录，逐字核实。
+
+**质量门**
+- node --check 通过；无重复 id；锚点完整；全站版本同步 3.9.0。
+
+
 ## v3.8.0 — 2026-09-15 · 交叉污染修复 + primary 阅读路径（今夜第 6 轮）
 
 **主题包成果**

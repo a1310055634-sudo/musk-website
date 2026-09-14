@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（今夜第 7 轮 / v3.9.0）：实录 28 → 29 条——新增 2023.11.30 Cybertruck 首批交付（CNBC/Fortune/BI 逐字引语：「Finally, the future will look like the future」「experts said was impossible」），并与 2019 破玻璃条目构成「宣布-跳票-兑现」对照。
+
 > 本轮选题（今夜第 6 轮 / v3.8.0）：修复 quotes.html 交叉污染（v3.1.0 转换时语录板块的闭合锚定失误，把整个 primary 板块 362 行吞并进了语录页）——外科切除后语录页回到 103 行纯语录；primary.html 补「使用路径 · 编者导读」；轮播第 5 条交互验证通过（自动轮播计时导致的探针误报已排除）。
 
 > 本轮选题（自由精进 / v3.7.0）：语录区补第 5 条——「I would like to die on Mars. Just not on impact.」（已核实原句），轮播圆点同步加至 5 个；index 第一手章节卡加五个子页直达链接；版本全站同步 3.7.0。
