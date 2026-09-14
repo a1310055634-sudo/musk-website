@@ -722,3 +722,5 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   color: var(--accent); margin-bottom: 6px;
 }
 .reading-path p, .chapter-summary p { font-size: 14px; line-height: 1.85; margin: 0; }
+
+@media print { .doc-article, .iv-item, .tweet-card, .ps-search-wrap { break-inside: avoid; } .tweet-card { background: #fff; color: #000; border: 1px solid #000; } .tweet-note { color: #555; } }
