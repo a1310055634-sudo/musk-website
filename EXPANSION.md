@@ -1,5 +1,12 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（今夜第 3 轮 / v3.3.0）：实录 26 → 28 条——新增 2020.09.22 Battery Day（4680 无极耳 + 2.5 万美元车型承诺，Rev.com 全文转录/Forbes/Ars 报道）与 2024.10.10「We, Robot」Cybercab（What's Up Tesla 记录原话），两者构成「同一赌注换载具」逻辑链（2024.02 搁置 → Robotaxi 优先，The Information 报道）。
+
+## 事实扩展包（本轮新核实）
+- Battery Day（2020-09-22）：Rev.com 全文转录含 "when we put it all together and go to our new 80 millimeter length, 4680…"；2.5 万美元车型为全场承诺（Fortune/Ars Technica/InsideEVs）；次日股价下跌（InsideEVs 称反应「不公平但真实」）。
+- 2024.02 搁置 2.5 万美元车型、转向 Robotaxi（The Information 报道）。
+- We, Robot（2024-10-10，洛杉矶影视基地）：Cybercab 原话 "Cybercab: The Autonomous Robotaxi. And then we've got the first car that is specifically built for unsupervised full self driving to be a robotaxi."（What's Up Tesla 记录）。
+
 > 本轮选题（书卷化第 1 轮 / v3.2.0）：中心线三落地——timeline 加「阅读路径 · 编者导读」（三卷读法）与「本章小结 · 编者提炼」；stories/persona 加本章小结与交叉引用。全部为编者提炼并明确标注，零新增未核实事实。
 
 > 本轮选题（章节化改版第 1 轮 / v3.1.0）：架构升级完成——单页站拆为「封面 + 11 个独立章节页 + 4 个子页（文档馆/访谈/帖史/修订记录）」。index 变为封面 + 章节目录卡片；每章独立 URL、章尾上一章/下一章翻页；全站互链全部指向正确页面；scrollspy 适配文件型导航（非 # 链接跳过高亮）。转换脚本 transform_v31.py 已修复并执行（保留作存档）。
