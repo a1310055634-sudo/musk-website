@@ -687,3 +687,27 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   .tweet-card { background: #fff; color: #000; border: 1px solid #000; }
   .tweet-note { color: #555; }
 }
+
+/* ============ 章节化：目录卡片与翻页 ============ */
+.chapter-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.chapter-card {
+  position: relative; display: block; text-decoration: none; color: var(--ink);
+  background: var(--card); border: 1px solid var(--hairline); padding: 20px 20px 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.chapter-card:hover { transform: translateY(-4px); box-shadow: 8px 8px 0 rgba(26, 26, 26, 0.08); }
+.chapter-card h3 { font-family: var(--serif); font-size: 20px; margin: 4px 0 6px; letter-spacing: 0.03em; }
+.chapter-card p { font-size: 13px; color: var(--muted); margin: 0; line-height: 1.7; }
+.ch-num { position: absolute; top: 10px; right: 14px; font-family: var(--serif); font-size: 26px; font-weight: 700; color: rgba(124, 45, 45, 0.16); }
+.ch-go { display: inline-block; margin-top: 10px; font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: 0.08em; }
+.chapter-pager { display: flex; justify-content: space-between; gap: 14px; padding-top: 10px; padding-bottom: 30px; }
+.chapter-pager .pg {
+  background: var(--card); border: 1px solid var(--hairline); padding: 14px 20px;
+  text-decoration: none; color: var(--ink); max-width: 46%; transition: border-color 0.25s ease;
+}
+.chapter-pager .pg:hover { border-color: var(--accent); }
+.chapter-pager .pg small { display: block; font-size: 11px; letter-spacing: 0.18em; color: var(--accent); margin-bottom: 4px; }
+.chapter-pager .pg b { font-family: var(--serif); font-size: 16px; }
+@media (max-width: 960px) { .chapter-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .chapter-grid { grid-template-columns: 1fr; } .chapter-pager .pg { max-width: none; } }
+@media print { .chapter-card, .chapter-pager .pg { break-inside: avoid; } }

@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '3.0.0';
+  var SITE_VERSION = '3.1.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -115,7 +115,10 @@
   /* ---------- 导航高亮（scrollspy） ---------- */
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.mainnav a'));
   var watchedSections = navLinks
-    .map(function (a) { return document.querySelector(a.getAttribute('href')); })
+    .map(function (a) {
+      var href = a.getAttribute('href') || '';
+      return (href.charAt(0) === '#') ? document.querySelector(href) : null;
+    })
     .filter(Boolean);
 
   if ('IntersectionObserver' in window && watchedSections.length) {
