@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '2.9.0';
+  var SITE_VERSION = '3.0.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -270,6 +270,16 @@
       });
       psCount.textContent = visible + ' / ' + total;
       if (reduceMotion) return;
+    });
+  }
+
+  /* ---------- 检索清空按钮 ---------- */
+  var psClear = document.getElementById('ps-clear');
+  if (psClear && psInput) {
+    psClear.addEventListener('click', function () {
+      psInput.value = '';
+      psInput.dispatchEvent(new Event('input', { bubbles: true }));
+      psInput.focus();
     });
   }
 })();
