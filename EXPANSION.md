@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（今夜第 16 轮 / v4.8.0）：实录 31 → 32 条——新增 2016.09.27 IAC 瓜达拉哈拉演讲《Making Humans a Multi-Planetary Species》（ITS 架构首发，New Space 期刊 2017 论文版核实），插在蓝图二与造机器的机器之间，构成 2016 年「蓝图+火星架构+工厂哲学」的三连同月叙事。
+
+## 事实扩展包（本轮新核实）
+- IAC 2016 演讲：标题逐字 "Making Humans a Multi-Planetary Species"（Ingenium/EarthSky 报道）；ITS = Interplanetary Transport System 首发场合（67th IAC, Guadalajara, 2016-09-27）；期刊版：New Space, Vol.5 No.2 (2017)，15 页（journals.sagepub.com）。
+
 > 本轮选题（今夜第 15 轮 / v4.7.0 · 自由精进）：四个子页（文档馆/访谈/帖史/资本解剖）补统一 pill 导航（aria-current 标识当前页）——读者在五页板块间跳转不再绕行主页。
 
 > 本轮选题（今夜第 14 轮 / v4.6.0 · 自由精进）：x-posts.html 帖墙补「帖墙小结 · 编者提炼」——把发帖节奏本身作为研究对象（2018 承诺之年 / 2022 平台之年 / 2024-2025 基础设施公告期）。零新增未核实内容。
