@@ -1,5 +1,6 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（Phase 2-3 / v5.15.0）：两新子页（资本演化时间轴 / AI 战略布局全景）导航补全——index 入口、7 节点 pill 导航、互链；修复 7 处 index.html#primary 断链；changelog.html 从 CHANGELOG.md 全量重生成（14 → 65 条）；全站静态+交互 QA 通过后定版。
 > 本轮选题（第一阶段 Phase 1 / v5.14.0）：补录 3 条第一手言行条目——2016.03.31 Model 3 预订夜 / 2016.11 SolarCity 收购 / 2018.12.18 Boring Company 首条隧道通车。全部为此前已核实锚点，实录 32 → 35 条。
 
 > 本轮选题（今夜第 23 轮 / v5.13.0）：全站版本归一 + deep-dive-04/05 卡片补入 index + documents/interviews/x-posts/money 四子页统一 pill 导航重建。
