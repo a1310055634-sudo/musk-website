@@ -55,6 +55,15 @@ window.SEARCH_INDEX = [
   "zh": "我们其实是在 2008 年圣诞夜关闭那一轮融资的。那是可能的最后一天的最后一个小时。"
  },
  {
+  "id": "e2012-06-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2012.06.22",
+  "s": "Fremont 工厂首批交付 · Forbes 现场报道 · Tesla IR",
+  "q": "“It’s about breaking a spell. The world has been under this illusion that electric cars cannot be as good as gasoline cars. It’s showing that an electric car can be better than a gasoline car — it can be the best car, period.”",
+  "zh": "这关乎打破一个魔咒。全世界一直活在一种幻觉里，以为电动车不可能比燃油车好。而它要证明的是电动车可以比燃油车更好——可以是最好的车，句号。"
+ },
+ {
   "id": "e2013",
   "pg": "primary.html",
   "t": "言行实录",

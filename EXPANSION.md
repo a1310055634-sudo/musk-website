@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.28.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 40 条——新增 **2012.06.22 Model S 首批交付**（id e2012-06-22）。
+> 核心引文：“It's about breaking a spell. The world has been under this illusion that electric cars cannot be as good as gasoline cars. It's showing that an electric car can be better than a gasoline car — it can be the best car, period.”
+> 来源：Forbes 现场报道（Hannah Elliott，2012-06-22，forbes.com/sites/hannahelliott/2012/06/22/elon-musk-delivers-the-first-tesla-model-s-car/）；AP 通稿（Phys.org 转载）；CleanTechnica 八周年回顾含演讲视频引文；BBC 2024 回顾同引；Tesla IR 官方新闻稿锁定日期与「首位订金缴纳者 Steve Jurvetson」。
+> 措辞差异说明：各媒体转写「cannot/can not/can't be」略有出入，本站取 Forbes 版本。「年度车大奖/万亿市值」为公开报道口径，「维度定价」句为编者分析（已标注）。
+
 > **新事实入包（v5.27.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 39 条——新增 **2015.12.21 猎鹰九号一级首次陆上回收**（id e2015-12-21）。
 > 核心引文：“This is a fundamental step change in technology compared to any other rocket that has ever flown.”（降落夜电信会议；transcript 存档 patricknielson.com/elon/talks/2015-12-22-postlanding-teleconference-with-elon-musk，NPR/Ideastream、ABC Australia 同引）。
 > 辅证：「It's a revolutionary moment. No one has ever brought an orbital-class booster back intact.」与推文「Welcome back, baby!」（Guardian 2015-12-22）；贝索斯「Welcome to the club!」原帖（x.com/JeffBezos/status/679116636310360067，2015-12-21 17:49）。
