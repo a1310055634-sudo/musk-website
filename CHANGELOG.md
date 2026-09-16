@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.17.0 — 2026-09-17 · 自由精进：375px 窄屏全站走查（自由精进第二轮）
+
+**主题包成果**
+- 24 页 × 375px 视口横向溢出探针：23 页零溢出，changelog.html 溢出 327px。
+- 元凶定位：v3.1.0 修订条目中 `profile/timeline/companies/...` 斜杠路径长串——CSS 默认不在 `/` 处断行，
+  340px 不可断 ASCII 串把 li 撑到 667px（边界框探针抓不到，scrollWidth 链路定位）。
+- 修复（双层）：style.css body 全局 `overflow-wrap: break-word`（防御长 URL/路径，不影响 min-content 尺寸）；
+  changelog.html `.cl-page` 加 `overflow-wrap: anywhere`（修订条目含大量文件名串，允许更积极断行）。
+
+**质量门**
+- 复测：changelog 375px 溢出归零（最宽 li 320px，容器内）；全站 24/24 页 375px 零溢出。
+- 1280px 桌面端回归：24/24 零溢出，money.html 双列网格结构完好（break-word 不改 min-content，无副作用）。
+
 ## v5.16.0 — 2026-09-17 · 自由精进：打印/存档保护补全（Phase 1-3 完成后首轮）
 
 **主题包成果**

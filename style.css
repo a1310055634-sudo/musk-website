@@ -24,6 +24,7 @@ html { scroll-behavior: smooth; }
 }
 
 body {
+  overflow-wrap: break-word;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
