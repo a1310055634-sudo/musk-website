@@ -566,7 +566,7 @@ a { color: inherit; }
 }
 @media (max-width: 640px) {
   body { font-size: 15px; }
-  .section, .feature { scroll-margin-top: 170px; } /* 窄屏吸顶报头更高 */
+  .section, .feature, .ps-row { scroll-margin-top: 170px; } /* 窄屏吸顶报头更高 */
   .mainnav { gap: 10px 14px; }
   .company-grid, .quotes-grid, .deal-lines { grid-template-columns: 1fr; }
   .deal-lines > div { border-right: none; }
@@ -624,6 +624,9 @@ a { color: inherit; }
 .ps-row { background: var(--card); border: 1px solid var(--hairline); padding: 18px 20px 14px; margin-bottom: 14px; }
 .ps-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
 .ps-date { font-family: var(--serif); font-weight: 700; color: var(--accent); font-size: 17px; }
+a.ps-date { text-decoration: none; }
+a.ps-date:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ps-row { scroll-margin-top: 132px; }
 .ps-src { font-size: 11px; letter-spacing: 0.12em; color: var(--muted); border: 1px solid var(--hairline); border-radius: 999px; padding: 2px 12px; }
 .ps-quote { font-family: var(--serif); font-style: italic; font-size: 16.5px; line-height: 1.7; }
 .ps-zh { font-size: 14px; color: var(--muted); margin: 8px 0 10px; }
