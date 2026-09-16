@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.24.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 36 条——新增 **2014.06.12 开放专利**（id e2014-06-12）。
+> 核心引文：“Tesla will not initiate patent lawsuits against anyone who, in good faith, wants to use our technology.”；开场句 “Yesterday, there was a wall of Tesla patents in the lobby of our Palo Alto headquarters”。
+> 来源：Tesla 官方博客《All Our Patent Are Belong To You》（2014-06-12，署名 Elon Musk, CEO）；存档见 teslamagazine.org/2014/06/、NBC News（标题梗源考）、Hacker News 当日帖（news.ycombinator.com/item?id=7884560）。
+> 「后续」段的 2022–2023 NACS 开放为编者分析（已标注），非其原话。
+
 > **事实修正（v5.23.0 轮 / 2026-09-17）**：primary.html 三条日期错误（建搜索索引时暴露，并发现账本 6 处时间序乱序已重排）：
 > ① 「Tesla Investor Day」条目原作 2023.7.05 → **2023.03.01**（上轮已核实的同一事件日期；id 同步 e2023-7-05 → e2023-03-01）。
 > ② 股东大会批万亿美元薪酬 + Optimus「infinite money glitch」演讲原作 2025.12.06 → **2025.11.06**（Business Insider 实况报道、Tesla 官方 2025shareholdermeeting 页；id → e2025-11-06）。

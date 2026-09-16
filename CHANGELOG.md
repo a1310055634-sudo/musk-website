@@ -2,6 +2,23 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.24.0 — 2026-09-17 · 自由精进：补录 2014 开放专利条目（自由精进第九轮 · 回到内容主线）
+
+**主题包成果**
+- 言行实录 35 → 36 条：新增 **2014.06.12「All Our Patent Are Belong To You」开放专利**（id e2014-06-12），
+  四段深读版（背景/原话/现场/后续），插入 e2013 与 e2015-04-30 之间的正确时序位（脚本校验全局递增）。
+- 引文核实（WebSearch）：“Tesla will not initiate patent lawsuits against anyone who, in good faith,
+  wants to use our technology.” + 开场「帕洛阿尔托总部大厅的专利墙」句。
+  来源：Tesla 官方博客原文存档（teslamagazine.org/2014/06/）、NBC News、Hacker News 当日帖。
+- 「后续」段的 NACS 开放对照为编者分析并已显式标注，与原话严格区分。
+
+**联动更新**
+- search-index.js 重生成：73 条；search.html 计数文案同步「言行实录 36 条」；检索 "patent" 精确命中新条目。
+- tools/build-search-index.py 数量断言同步 36。
+
+**质量门**
+- 双宽零溢出；data-en 双语叶子齐备；链接零断链；node --check 通过。
+
 ## v5.23.0 — 2026-09-17 · 自由精进：跨页第一手检索上线 + 账本时间序修复（自由精进第八轮）
 
 **主题包成果**

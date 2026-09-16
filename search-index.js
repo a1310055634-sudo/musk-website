@@ -55,6 +55,15 @@ window.SEARCH_INDEX = [
   "zh": "我想死在火星上。但别是摔死的。"
  },
  {
+  "id": "e2014-06-12",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2014.06.12",
+  "s": "TESLA 官方博客 · All Our Patent Are Belong To You",
+  "q": "“Tesla will not initiate patent lawsuits against anyone who, in good faith, wants to use our technology.”",
+  "zh": "Tesla 不会对任何善意使用我们技术的人发起专利诉讼。"
+ },
+ {
   "id": "e2015-04-30",
   "pg": "primary.html",
   "t": "言行实录",
