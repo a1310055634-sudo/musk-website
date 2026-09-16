@@ -31,9 +31,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（70 条，v0.1.0 → v5.20.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（71 条，v0.1.0 → v5.21.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v5.21.0 — 2026-09-17 · 自由精进：访谈页可引用化，第一手引用体系收官（自由精进第六轮）</h3><h4>主题包成果</h4><ul><li>interviews.html 18 条带日期的访谈/表态条目全部挂稳定 id（i2006-08 … i2025-11-06，含 i2016-09-27 瓜达拉哈拉），</li><li>至此三大第一手页全部可逐条引用：言行实录 35 条（primary.html#e…）+ 一手文档 6 份（documents.html#d…）</li></ul><h4>质量门</h4><ul><li>18 id 全唯一；跳转实测落点可见（targetTop 56px 稳定，标题区完整，本页无吸顶头不影响可用性）；</li><li>方法注：本轮再次踩到平滑滚动时序坑——hash 跳转后立刻测量会拿到滚动中途值（328px 假通过）；</li></ul></li>
 <li class="cl-item"><h3>v5.20.0 — 2026-09-17 · 自由精进：一手文档馆可引用化 + 事实修正（自由精进第五轮）</h3><h4>主题包成果</h4><ul><li>documents.html 六份一手文档全部挂稳定 id（d2006-08 / d2016-07-20 / d2022-11-16 / d2023-07-12 / d2023-04-05 / d2025-09-01），</li><li><strong>事实修正</strong>（WebSearch 核实后）：Part 3 日期徽章「2023.7.01 Investor Day 预告 · 2023.7.05 全文」为错误，</li></ul><h4>质量门</h4><ul><li>6 id 唯一；锚点跳转实测落点 20px 在视口内；徽章计算样式与改动前一致；1280/375 双宽零溢出。</li></ul></li>
 <li class="cl-item"><h3>v5.19.0 — 2026-09-17 · 自由精进：账本条目稳定锚点（自由精进第四轮）</h3><h4>主题包成果</h4><ul><li>primary.html 言行实录 35 条全部挂上稳定 id（日期派生：e2006-08 / e2008-09-28 / e2023-07-12 …，</li><li>每条日期徽章本身成为自锚链接（span → a，观感零变化：同字体同色同字号，悬停下划线），</li><li>style.css：.ps-row scroll-margin-top 132px（桌面，吸顶报头实测 125px + 间隙）/ 170px（窄屏沿用既有约定）。</li></ul><h4>质量门</h4><ul><li>35 id 全部唯一；跳转几何实测：目标条目顶部落点 132px，恰在报头下方 6px 间隙，无遮挡。</li><li>搜索回归通过（spacex → 4/35，清空恢复）；1280/375 双宽零溢出；徽章计算样式与改动前一致。</li><li>方法注：QA 环境内嵌浏览器缓存顽固，用「服务器端 curl 确认 + 页内注入等价规则实测几何」构成证据链；</li></ul></li>
 <li class="cl-item"><h3>v5.18.0 — 2026-09-17 · 自由精进：真实打印管线验证 + 导航统一（自由精进第三轮）</h3><h4>主题包成果</h4><ul><li>建立真实打印验证管线：无头 Edge --print-to-pdf 产出 6 页代表页 PDF + pypdf 逐页文本分析</li><li>抽检发现并修复 2 处真泄漏：</li><li>顺带发现并统一：documents/interviews/x-posts/money 四页 pill 导航仍是旧 5 节点</li></ul><h4>验证方法说明</h4><ul><li>泄漏检测用「导航专属串」代理（如「资本演化」仅存在于导航），正文 legitimate 提及不算泄漏；</li></ul><h4>质量门</h4><ul><li>6+4 个 PDF 复检全绿：无空白页、返回链接/导航/彩蛋提示全部隐藏、正文关键内容齐全；</li><li>24 页链接终扫零断链；打印稿页数合理（money 4页 / changelog 24页 / primary 33页）。</li></ul></li>
