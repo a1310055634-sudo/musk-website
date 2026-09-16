@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.25.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 37 条——新增 **2013.08.12 Hyperloop 白皮书**（id e2013-08-12）。
+> 核心引文：“How could it be that the home of Silicon Valley and JPL – doing incredible things like indexing all the world's knowledge and putting rovers on Mars – would build a bullet train that is both one of the most expensive per mile and one of the slowest?”
+> 来源：《Hyperloop Alpha》原文 PDF（tesla.com/sites/default/files/blog_images/hyperloop-alpha.pdf，2013-08-12，57 页）；引文三方印证：LA Times（2013-08-12/13）、Washington Post（2013-08-12）、The American Interest（2013-08-13）。
+> 「第五种交通方式」定位与「洛杉矶—旧金山」目的地均见原文与报道；「后续」段的竞赛/初创潮与「无运营线路」截至定稿为编者分析（已标注）。
+
 > **新事实入包（v5.24.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 36 条——新增 **2014.06.12 开放专利**（id e2014-06-12）。
 > 核心引文：“Tesla will not initiate patent lawsuits against anyone who, in good faith, wants to use our technology.”；开场句 “Yesterday, there was a wall of Tesla patents in the lobby of our Palo Alto headquarters”。
 > 来源：Tesla 官方博客《All Our Patent Are Belong To You》（2014-06-12，署名 Elon Musk, CEO）；存档见 teslamagazine.org/2014/06/、NBC News（标题梗源考）、Hacker News 当日帖（news.ycombinator.com/item?id=7884560）。

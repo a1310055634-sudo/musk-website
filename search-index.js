@@ -55,6 +55,15 @@ window.SEARCH_INDEX = [
   "zh": "我想死在火星上。但别是摔死的。"
  },
  {
+  "id": "e2013-08-12",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2013.08.12",
+  "s": "Hyperloop Alpha 白皮书 · Tesla 官网 57 页 PDF",
+  "q": "“How could it be that the home of Silicon Valley and JPL – doing incredible things like indexing all the world’s knowledge and putting rovers on Mars – would build a bullet train that is both one of the most expensive per mile and one of the slowest?”",
+  "zh": "硅谷和 JPL 的老家——做着给全世界知识建索引、往火星放漫游车这种奇事的地方——怎么会修一条每英里最贵、速度又最慢的高铁之一？"
+ },
+ {
   "id": "e2014-06-12",
   "pg": "primary.html",
   "t": "言行实录",
