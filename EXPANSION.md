@@ -1,5 +1,6 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自由精进第三轮 / v5.18.0）：真实打印管线验证（无头 Edge PDF + pypdf）——修复 changelog/index 两处打印泄漏，四老子页导航 5→7 节点统一。无新事实入包。
 > 本轮选题（自由精进第二轮 / v5.17.0）：375px 窄屏全站走查——修复 changelog.html 斜杠路径长串撑破（全局 overflow-wrap:break-word + changelog anywhere）；24 页双宽（375/1280）零溢出。无新事实入包。
 > 本轮选题（自由精进 / v5.16.0）：打印/存档保护补全——money 全套（含 SVG 图表防拆）、deep-dive 表格行防拆、全站返回链接与 UI 铬件打印隐藏；修复正则手术产生的嵌套坏规则并建立 CSSOM 验证法；tools/sync-changelog.py 工具化。无新事实入包。
 > 本轮选题（Phase 2-3 / v5.15.0）：两新子页（资本演化时间轴 / AI 战略布局全景）导航补全——index 入口、7 节点 pill 导航、互链；修复 7 处 index.html#primary 断链；changelog.html 从 CHANGELOG.md 全量重生成（14 → 65 条）；全站静态+交互 QA 通过后定版。

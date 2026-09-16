@@ -23,6 +23,7 @@ ol.cl-list { list-style: none; }
 .cl-item li { position: relative; font-size: 14px; line-height: 1.8; padding: 3px 0 3px 16px; }
 .cl-item li::before { content: "▪"; position: absolute; left: 0; color: #7c2d2d; }
 .cl-item strong { color: #1a1a1a; }
+@media print { .cl-back { display: none; } }
 </style>
 </head>
 <body>
@@ -30,9 +31,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（67 条，v0.1.0 → v5.17.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（68 条，v0.1.0 → v5.18.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v5.18.0 — 2026-09-17 · 自由精进：真实打印管线验证 + 导航统一（自由精进第三轮）</h3><h4>主题包成果</h4><ul><li>建立真实打印验证管线：无头 Edge --print-to-pdf 产出 6 页代表页 PDF + pypdf 逐页文本分析</li><li>抽检发现并修复 2 处真泄漏：</li><li>顺带发现并统一：documents/interviews/x-posts/money 四页 pill 导航仍是旧 5 节点</li></ul><h4>验证方法说明</h4><ul><li>泄漏检测用「导航专属串」代理（如「资本演化」仅存在于导航），正文 legitimate 提及不算泄漏；</li></ul><h4>质量门</h4><ul><li>6+4 个 PDF 复检全绿：无空白页、返回链接/导航/彩蛋提示全部隐藏、正文关键内容齐全；</li><li>24 页链接终扫零断链；打印稿页数合理（money 4页 / changelog 24页 / primary 33页）。</li></ul></li>
 <li class="cl-item"><h3>v5.17.0 — 2026-09-17 · 自由精进：375px 窄屏全站走查（自由精进第二轮）</h3><h4>主题包成果</h4><ul><li>24 页 × 375px 视口横向溢出探针：23 页零溢出，changelog.html 溢出 327px。</li><li>元凶定位：v3.1.0 修订条目中 `profile/timeline/companies/...` 斜杠路径长串——CSS 默认不在 `/` 处断行，</li><li>修复（双层）：style.css body 全局 `overflow-wrap: break-word`（防御长 URL/路径，不影响 min-content 尺寸）；</li></ul><h4>质量门</h4><ul><li>复测：changelog 375px 溢出归零（最宽 li 320px，容器内）；全站 24/24 页 375px 零溢出。</li><li>1280px 桌面端回归：24/24 零溢出，money.html 双列网格结构完好（break-word 不改 min-content，无副作用）。</li></ul></li>
 <li class="cl-item"><h3>v5.16.0 — 2026-09-17 · 自由精进：打印/存档保护补全（Phase 1-3 完成后首轮）</h3><h4>主题包成果</h4><ul><li>money.html 打印保护从零补全：my-row/my-note 防拆页、⓪ 资本时间线 SVG 图表整节不拆页、返回链接隐藏。</li><li>deep-dive-01~05：dd-table 表格行与 dd-note 编者注防拆页、表头不与行分离、返回链接打印隐藏。</li><li>capital-evolution / ai-strategy / x-posts / documents / interviews：返回链接统一打印隐藏（存档版无 UI 链接）。</li><li>style.css 全局打印块新增隐藏：ps-nav 药丸导航、阅读进度条、语录轮播圆点。</li><li>新增 tools/sync-changelog.py：changelog.html 由 CHANGELOG.md 全量重生成的可复用工具（本轮起纳入固定流程）。</li></ul><h4>工程修复（本轮 QA 中发现并修复）</h4><ul><li>前述打印补丁的正则替换在嵌套规则处截断，money/x-posts/deep-dive 系列产生错位嵌套的坏规则</li></ul><h4>质量门</h4><ul><li>括号配平审计 11 页全过；CSSOM 解析验证 9 页全绿；node --check 通过；tools/sync-changelog.py 回归零差异。</li></ul></li>
 <li class="cl-item"><h3>v5.15.0 — 2026-09-17 · 第二/三阶段收官：新页导航补全 + 全站 QA（Phase 2-3）</h3><h4>主题包成果（Phase 2 完成 + Phase 3 QA）</h4><ul><li>capital-evolution.html「资本模式演化时间轴」与 ai-strategy.html「AI 战略布局全景」两新子页补全导航：</li><li>修复 7 处断链：pill 导航残留的 index.html#primary 锚点（多页迁移前遗留）统一改为 primary.html。</li><li>changelog.html 长期脱同步修复：从 CHANGELOG.md 全量重生成（v0.1.0 → v5.15.0 共 65 条）。</li></ul><h4>质量门（Phase 3 QA 记录）</h4><ul><li>静态扫描：24 个 HTML、332 个链接，页面/锚点/CSS/JS/图片引用零断链。</li><li>浏览器探针：首页版本显示、双语切换（中→英→中往返）、16 张章节卡、2 个新页入口全通过。</li><li>两新页 pill 导航渲染与 aria-current 正确；primary.html 实时检索正常（"spacex" 过滤 4/35，清空恢复 35）。</li><li>全部页面无损坏图片。</li></ul></li>
