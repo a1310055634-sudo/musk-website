@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>第一手检索 · 马斯克商业志 MUSK, INC.</title>
+<meta name="robots" content="noindex" />
+<meta name="theme-color" content="#faf9f6" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+<style>
+.sr-page { max-width: 860px; margin: 0 auto; padding: 40px 20px 60px; }
+.sr-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.sr-back:hover { text-decoration: underline; }
+.sr-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 8px; }
+.sr-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 42px); letter-spacing: .04em; }
+.sr-head .sr-sub { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
+.sr-input-wrap { display: flex; gap: 10px; margin: 18px 0 10px; }
+#sr-input {
+  flex: 1; font: inherit; font-size: 16px; padding: 10px 14px;
+  border: 2px solid #1a1a1a; border-radius: 2px; background: #fff; color: #1a1a1a;
+}
+#sr-input:focus { outline: 2px solid #7c2d2d; outline-offset: 1px; }
+.sr-count { font-size: 12px; color: #5c574e; letter-spacing: .08em; margin-bottom: 14px; }
+.sr-types { display: flex; flex-wrap: wrap; gap: 8px 10px; margin-bottom: 18px; }
+.sr-types button {
+  font: inherit; font-size: 12px; letter-spacing: .1em; cursor: pointer;
+  border: 1px solid rgba(26,26,26,.25); background: #faf9f6; color: #5c574e;
+  border-radius: 999px; padding: 4px 14px;
+}
+.sr-types button[aria-pressed="true"] { background: #7c2d2d; border-color: #7c2d2d; color: #faf9f6; }
+.sr-item { display: block; border-top: 1px dotted rgba(26,26,26,.25); padding: 14px 2px; text-decoration: none; color: inherit; }
+.sr-item:hover { background: #f3f0ea; }
+.sr-item-top { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 4px; }
+.sr-type { font-size: 10px; letter-spacing: .14em; border: 1px solid rgba(26,26,26,.25); border-radius: 999px; padding: 1px 10px; color: #5c574e; }
+.sr-date { font-family: Georgia, "STSong", serif; font-weight: 700; color: #7c2d2d; font-size: 15px; }
+.sr-src { font-size: 12px; color: #5c574e; }
+.sr-q { font-size: 14.5px; line-height: 1.75; }
+.sr-q mark { background: #f3d9a0; padding: 0 1px; }
+.sr-zh { font-size: 13px; color: #5c574e; line-height: 1.7; margin-top: 2px; }
+.sr-empty { border-top: 1px dotted rgba(26,26,26,.25); padding: 22px 2px; color: #5c574e; font-size: 14px; font-style: italic; }
+.sr-foot { margin-top: 26px; font-size: 11px; color: #8a857c; letter-spacing: .04em; line-height: 1.8; }
+@media print { .sr-back, .sr-input-wrap, .sr-types { display: none !important; } .sr-item { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="sr-page">
+  <a class="sr-back" href="index.html">← 返回网站主页 / Back to site</a>
+  <nav class="ps-nav" aria-label="第一手板块导航">
+    <a href="primary.html">言行实录</a><a href="documents.html">一手文档馆</a><a href="interviews.html">访谈与表态</a><a href="x-posts.html">X 帖史选辑</a><a href="money.html">资本解剖</a><a href="ai-strategy.html">AI 战略布局</a><a href="capital-evolution.html">资本演化</a><a href="search.html" aria-current="page">第一手检索</a>
+  </nav>
+  <header class="sr-head">
+    <h1>第一手检索</h1>
+    <p class="sr-sub">PRIMARY SOURCES SEARCH — 一个搜索框，覆盖言行实录 35 条、一手文档 6 份、访谈与表态 18 条、X 帖 13 张；每条结果直链可引用锚点。Index built from tools/build-search-index.py.</p>
+  </header>
+
+  <div class="sr-input-wrap">
+    <input id="sr-input" type="search" placeholder="检索原话、日期、出处…… 如：funding secured / 火箭 / 2022.10" autocomplete="off" autofocus aria-label="检索第一手资料" />
+  </div>
+  <p class="sr-count" id="sr-count" aria-live="polite"></p>
+  <div class="sr-types" role="group" aria-label="按类型过滤">
+    <button type="button" data-t="全部" aria-pressed="true">全部</button>
+    <button type="button" data-t="言行实录" aria-pressed="false">言行实录</button>
+    <button type="button" data-t="一手文档" aria-pressed="false">一手文档</button>
+    <button type="button" data-t="访谈与表态" aria-pressed="false">访谈与表态</button>
+    <button type="button" data-t="X 帖" aria-pressed="false">X 帖</button>
+  </div>
+
+  <div id="sr-results"></div>
+
+  <p class="sr-foot">本页由马斯克商业志自动化迭代维护 · 索引生成于本地（search-index.js），无任何运行时联网 · 检索目标为已核实的第一手条目，编者分析与原话在各来源页严格区分。</p>
+</div>
+<script src="search-index.js"></script>
+<script>
+(function () {
+  var input = document.getElementById('sr-input');
+  var count = document.getElementById('sr-count');
+  var box = document.getElementById('sr-results');
+  var buttons = document.querySelectorAll('.sr-types button');
+  var INDEX = window.SEARCH_INDEX || [];
+  var curType = '全部';
+
+  function esc(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  function hl(s, q) {
+    var e = esc(s);
+    if (!q) return e;
+    var i = e.toLowerCase().indexOf(q.toLowerCase());
+    if (i === -1) return e;
+    return e.slice(0, i) + '<mark>' + e.slice(i, i + q.length) + '</mark>' + e.slice(i + q.length);
+  }
+  function match(it, q) {
+    if (curType !== '全部' && it.t !== curType) return false;
+    if (!q) return true;
+    return (it.d + ' ' + it.s + ' ' + it.q + ' ' + it.zh + ' ' + it.t).toLowerCase().indexOf(q) !== -1;
+  }
+  function snippet(it, q) {
+    var all = it.q + (it.zh ? ' ｜ ' + it.zh : '');
+    if (q) {
+      var i = all.toLowerCase().indexOf(q.toLowerCase());
+      if (i > 60) all = '…' + all.slice(i - 60);
+    }
+    return all.length > 240 ? all.slice(0, 240) + '…' : all;
+  }
+  function render() {
+    var q = input.value.trim().toLowerCase();
+    var hits = INDEX.filter(function (it) { return match(it, q); });
+    count.textContent = '命中 ' + hits.length + ' / ' + INDEX.length + ' 条';
+    if (!hits.length) {
+      box.innerHTML = '<p class="sr-empty">没有命中的第一手条目——换个关键词，或按出处（如 Tesla 官方博客）试试。</p>';
+      return;
+    }
+    box.innerHTML = hits.map(function (it) {
+      return '<a class="sr-item" href="' + it.pg + '#' + it.id + '">' +
+        '<span class="sr-item-top"><span class="sr-type">' + esc(it.t) + '</span>' +
+        '<span class="sr-date">' + esc(it.d) + '</span>' +
+        '<span class="sr-src">' + hl(it.s, q) + '</span></span>' +
+        '<p class="sr-q">' + hl(snippet(it, q), q) + '</p></a>';
+    }).join('');
+  }
+  input.addEventListener('input', render);
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      curType = b.getAttribute('data-t');
+      buttons.forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      render();
+    });
+  });
+  render();
+})();
+</script>
+</body>
+</html>

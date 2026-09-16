@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **事实修正（v5.23.0 轮 / 2026-09-17）**：primary.html 三条日期错误（建搜索索引时暴露，并发现账本 6 处时间序乱序已重排）：
+> ① 「Tesla Investor Day」条目原作 2023.7.05 → **2023.03.01**（上轮已核实的同一事件日期；id 同步 e2023-7-05 → e2023-03-01）。
+> ② 股东大会批万亿美元薪酬 + Optimus「infinite money glitch」演讲原作 2025.12.06 → **2025.11.06**（Business Insider 实况报道、Tesla 官方 2025shareholdermeeting 页；id → e2025-11-06）。
+> ③ Starbase 建市投票原作 2025.12.03 → **2025.05.03**（与本站 money.html/时间线已有事实交叉一致；id → e2025-05-03）。
+> 三处均为数字错排型错误；修正后账本 35 条时间序全局递增（脚本校验）。
+
 > **事实修正（v5.22.0 轮 / 2026-09-17 WebSearch 核实）**：x-posts.html 的 Grok 首发公告推文（"As soon as it's out of early beta, xAI's Grok system will be available to all X Premium+ subscribers."）日期原作「2023.4.04」，系错误——Grok 于 2023-11-03 公布、推文时间戳 2023-11-04（TechCrunch 2023-11-03 报道：techcrunch.com/2023/11/03/musk-says-twitter-subscribers-will-get-early-access-to-xais-chatbot-grok/）。已改为「2023.11.04」，与卡片的年代序位置（2022.11.28 与 2023.11.29 之间）恰好吻合，进一步佐证原为数字错排。
 
 > 本轮选题（自由精进第六轮 / v5.21.0）：访谈页 18 条稳定锚点，第一手引用体系收官（账本35+文档6+访谈18=59 锚点）。无新事实入包。
