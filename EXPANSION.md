@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.26.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 38 条——新增 **2008.12.24 Tesla 圣诞夜融资关闭**（id e2008-12-24）。
+> 核心引文：“We actually closed the financing round on Christmas Eve 2008. It was the last hour of the last day that it was possible.”
+> 来源：Business Insider《Elon Musk Shares the Miracle That Saved Tesla》（2015-12，巴黎演讲，businessinsider.com/elon-musk-shares-the-miracle-that-saved-tesla-2015-12）；本人 X 自述复述（Hindustan Times 报道，称 2008 为「疯狂艰难的一年」、最直接担忧是发工资）。
+> 交叉：12.23 NASA 16 亿美元 CRS 合同（NASA 官方公告口径）与本站 e2008-09-28 / money.html 既有事实一致；「17 个月后 IPO 募 2.26 亿」与本站 money.html 既有核实数据一致；60 Minutes 2018 落泪段为报道口径。「最后一格现金流」句为编者分析（已标注）。
+
 > **新事实入包（v5.25.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 37 条——新增 **2013.08.12 Hyperloop 白皮书**（id e2013-08-12）。
 > 核心引文：“How could it be that the home of Silicon Valley and JPL – doing incredible things like indexing all the world's knowledge and putting rovers on Mars – would build a bullet train that is both one of the most expensive per mile and one of the slowest?”
 > 来源：《Hyperloop Alpha》原文 PDF（tesla.com/sites/default/files/blog_images/hyperloop-alpha.pdf，2013-08-12，57 页）；引文三方印证：LA Times（2013-08-12/13）、Washington Post（2013-08-12）、The American Interest（2013-08-13）。

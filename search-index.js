@@ -46,6 +46,15 @@ window.SEARCH_INDEX = [
   "zh": ""
  },
  {
+  "id": "e2008-12-24",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2008.12.24",
+  "s": "Business Insider · 巴黎演讲（2015.12）· 本人 X 自述",
+  "q": "“We actually closed the financing round on Christmas Eve 2008. It was the last hour of the last day that it was possible.”",
+  "zh": "我们其实是在 2008 年圣诞夜关闭那一轮融资的。那是可能的最后一天的最后一个小时。"
+ },
+ {
   "id": "e2013",
   "pg": "primary.html",
   "t": "言行实录",

@@ -2,6 +2,22 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.26.0 — 2026-09-17 · 自由精进：补录 2008 圣诞夜 Tesla 融资条目（自由精进第十一轮）
+
+**主题包成果**
+- 言行实录 37 → 38 条：新增 **2008.12.24 圣诞夜融资关闭**（id e2008-12-24），四段深读版，
+  插入 e2008-09-28 与 e2013 之间的正确时序位（脚本校验全局递增）。
+- 引文核实（WebSearch）：“We actually closed the financing round on Christmas Eve 2008.
+  It was the last hour of the last day that it was possible.”（Business Insider 2015-12 巴黎演讲报道；
+  本人 X 自述复述经 Hindustan Times 报道）。与 12.23 NASA 合同构成「背靠背的两天」叙事。
+- 编者分析（已标注）：投进最后的钱这个行为本身成为融资定价的抵押品。
+
+**联动更新**
+- search-index.js 重生成 75 条；search.html 计数文案同步「言行实录 38 条」；索引断言同步。
+
+**质量门**
+- 双宽零溢出；链接零断链；node --check 通过。
+
 ## v5.25.0 — 2026-09-17 · 自由精进：补录 2013 Hyperloop 白皮书条目（自由精进第十轮）
 
 **主题包成果**
