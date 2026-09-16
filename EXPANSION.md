@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **事实修正（v5.20.0 轮 / 2026-09-17 WebSearch 核实）**：documents.html 的 Master Plan Part 3 日期徽章原作「2023.7.01 Investor Day 预告 · 2023.7.05 全文」，系错误。核实：Investor Day（Part 3 现场发布）为 2023-03-01（Austin；CNBC、Electrek、Teslarati 报道）；全文（41 页 PDF + 博客）发布于 2023-04-05（tesla.com/master-plan-part-3）。已改为「2023.03.01 Investor Day 发布 · 2023.04.05 全文」。同页导语原已写「2023.04」，本轮修正后全页一致。
+
 > 本轮选题（自由精进第四轮 / v5.19.0）：言行实录 35 条稳定锚点（日期派生 id + 日期徽章自锚链接 + scroll-margin 防遮挡），支持逐条引用。无新事实入包。
 > 本轮选题（自由精进第三轮 / v5.18.0）：真实打印管线验证（无头 Edge PDF + pypdf）——修复 changelog/index 两处打印泄漏，四老子页导航 5→7 节点统一。无新事实入包。
 > 本轮选题（自由精进第二轮 / v5.17.0）：375px 窄屏全站走查——修复 changelog.html 斜杠路径长串撑破（全局 overflow-wrap:break-word + changelog anywhere）；24 页双宽（375/1280）零溢出。无新事实入包。
