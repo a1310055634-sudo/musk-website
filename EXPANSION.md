@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **事实修正（v5.22.0 轮 / 2026-09-17 WebSearch 核实）**：x-posts.html 的 Grok 首发公告推文（"As soon as it's out of early beta, xAI's Grok system will be available to all X Premium+ subscribers."）日期原作「2023.4.04」，系错误——Grok 于 2023-11-03 公布、推文时间戳 2023-11-04（TechCrunch 2023-11-03 报道：techcrunch.com/2023/11/03/musk-says-twitter-subscribers-will-get-early-access-to-xais-chatbot-grok/）。已改为「2023.11.04」，与卡片的年代序位置（2022.11.28 与 2023.11.29 之间）恰好吻合，进一步佐证原为数字错排。
+
 > 本轮选题（自由精进第六轮 / v5.21.0）：访谈页 18 条稳定锚点，第一手引用体系收官（账本35+文档6+访谈18=59 锚点）。无新事实入包。
 > **事实修正（v5.20.0 轮 / 2026-09-17 WebSearch 核实）**：documents.html 的 Master Plan Part 3 日期徽章原作「2023.7.01 Investor Day 预告 · 2023.7.05 全文」，系错误。核实：Investor Day（Part 3 现场发布）为 2023-03-01（Austin；CNBC、Electrek、Teslarati 报道）；全文（41 页 PDF + 博客）发布于 2023-04-05（tesla.com/master-plan-part-3）。已改为「2023.03.01 Investor Day 发布 · 2023.04.05 全文」。同页导语原已写「2023.04」，本轮修正后全页一致。
 
