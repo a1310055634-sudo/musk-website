@@ -2,6 +2,23 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.16.0 — 2026-09-17 · 自由精进：打印/存档保护补全（Phase 1-3 完成后首轮）
+
+**主题包成果**
+- money.html 打印保护从零补全：my-row/my-note 防拆页、⓪ 资本时间线 SVG 图表整节不拆页、返回链接隐藏。
+- deep-dive-01~05：dd-table 表格行与 dd-note 编者注防拆页、表头不与行分离、返回链接打印隐藏。
+- capital-evolution / ai-strategy / x-posts / documents / interviews：返回链接统一打印隐藏（存档版无 UI 链接）。
+- style.css 全局打印块新增隐藏：ps-nav 药丸导航、阅读进度条、语录轮播圆点。
+- 新增 tools/sync-changelog.py：changelog.html 由 CHANGELOG.md 全量重生成的可复用工具（本轮起纳入固定流程）。
+
+**工程修复（本轮 QA 中发现并修复）**
+- 前述打印补丁的正则替换在嵌套规则处截断，money/x-posts/deep-dive 系列产生错位嵌套的坏规则
+  （如 .dd-back 被嵌进 .dd-table tr 内层导致选择器永不匹配）。已用括号感知整块替换全部重写为平铺规则，
+  并经 CSSOM 缓存穿透验证：选择器层级全部正确、零嵌套污染。
+
+**质量门**
+- 括号配平审计 11 页全过；CSSOM 解析验证 9 页全绿；node --check 通过；tools/sync-changelog.py 回归零差异。
+
 ## v5.15.0 — 2026-09-17 · 第二/三阶段收官：新页导航补全 + 全站 QA（Phase 2-3）
 
 **主题包成果（Phase 2 完成 + Phase 3 QA）**

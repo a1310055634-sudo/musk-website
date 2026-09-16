@@ -1,5 +1,6 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> 本轮选题（自由精进 / v5.16.0）：打印/存档保护补全——money 全套（含 SVG 图表防拆）、deep-dive 表格行防拆、全站返回链接与 UI 铬件打印隐藏；修复正则手术产生的嵌套坏规则并建立 CSSOM 验证法；tools/sync-changelog.py 工具化。无新事实入包。
 > 本轮选题（Phase 2-3 / v5.15.0）：两新子页（资本演化时间轴 / AI 战略布局全景）导航补全——index 入口、7 节点 pill 导航、互链；修复 7 处 index.html#primary 断链；changelog.html 从 CHANGELOG.md 全量重生成（14 → 65 条）；全站静态+交互 QA 通过后定版。
 > 本轮选题（第一阶段 Phase 1 / v5.14.0）：补录 3 条第一手言行条目——2016.03.31 Model 3 预订夜 / 2016.11 SolarCity 收购 / 2018.12.18 Boring Company 首条隧道通车。全部为此前已核实锚点，实录 32 → 35 条。
 

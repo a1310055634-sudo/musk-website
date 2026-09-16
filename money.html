@@ -27,6 +27,7 @@
 .my-note b { color: #7c2d2d; letter-spacing: .15em; font-size: 11px; display: block; margin-bottom: 4px; }
 .my-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
 @media (max-width: 640px) { .my-row { grid-template-columns: 1fr; gap: 4px; } }
+@media print { .my-page { padding: 20px; } .my-sec > h2 { break-after: avoid; } .my-sec:first-of-type { break-inside: avoid; } .my-row, .my-note { break-inside: avoid; } .my-back { display: none; } .my-foot { color: #555; } }
 </style>
 </head>
 <body>
