@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.27.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 39 条——新增 **2015.12.21 猎鹰九号一级首次陆上回收**（id e2015-12-21）。
+> 核心引文：“This is a fundamental step change in technology compared to any other rocket that has ever flown.”（降落夜电信会议；transcript 存档 patricknielson.com/elon/talks/2015-12-22-postlanding-teleconference-with-elon-musk，NPR/Ideastream、ABC Australia 同引）。
+> 辅证：「It's a revolutionary moment. No one has ever brought an orbital-class booster back intact.」与推文「Welcome back, baby!」（Guardian 2015-12-22）；贝索斯「Welcome to the club!」原帖（x.com/JeffBezos/status/679116636310360067，2015-12-21 17:49）。
+> 任务口径：Orbcomm OG-2，11 颗卫星，LZ-1 着陆（Space.com/PBS NewsHour）。「成本曲线」句为编者分析（已标注）。
+
 > **新事实入包（v5.26.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 38 条——新增 **2008.12.24 Tesla 圣诞夜融资关闭**（id e2008-12-24）。
 > 核心引文：“We actually closed the financing round on Christmas Eve 2008. It was the last hour of the last day that it was possible.”
 > 来源：Business Insider《Elon Musk Shares the Miracle That Saved Tesla》（2015-12，巴黎演讲，businessinsider.com/elon-musk-shares-the-miracle-that-saved-tesla-2015-12）；本人 X 自述复述（Hindustan Times 报道，称 2008 为「疯狂艰难的一年」、最直接担忧是发工资）。

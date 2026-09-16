@@ -100,6 +100,15 @@ window.SEARCH_INDEX = [
   "zh": ""
  },
  {
+  "id": "e2015-12-21",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2015.12.21",
+  "s": "降落夜电信会议（NPR · Guardian · 会议记录存档）",
+  "q": "“This is a fundamental step change in technology compared to any other rocket that has ever flown.”",
+  "zh": "与史上飞过的任何其他火箭相比，这是技术上的根本性台阶变化。"
+ },
+ {
   "id": "e2016",
   "pg": "primary.html",
   "t": "言行实录",
