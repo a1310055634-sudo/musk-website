@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.29.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 41 条——新增 **2018.02.06 猎鹰重型首飞**（id e2018-02-06）。
+> 核心引文（Space.com 完整版）：“I think it looks so ridiculous and impossible. And you can tell it's real because it looks so fake, honestly. We'd have way better CGI if it was fake.”（Starman/Roadster 直播画面，首飞当晚发布会）
+> 来源印证：Space.com、Business Insider、AP 通稿（CBS8/Hindustan Times/CSM 转载）、CollectSpace（含「颜色在太空里看着有点怪」后续句）、Inverse。
+> 补充原话（同发布会）：“It's just literally a normal car. In space. I kind of like the absurdity of that.”（多 outlet 记录）
+> 任务口径：LC-39A 发射（与阿波罗 11/航天飞机同台）、双助推同步着陆、芯级未落驳船、Roadster 入火星转移轨道（Space.com/NASASpaceflight 报道口径）。会议时间线「Tuesday night」与 2018-02-06 吻合。「载荷决策式营销」句为编者分析（已标注）。
+
 > **新事实入包（v5.28.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 40 条——新增 **2012.06.22 Model S 首批交付**（id e2012-06-22）。
 > 核心引文：“It's about breaking a spell. The world has been under this illusion that electric cars cannot be as good as gasoline cars. It's showing that an electric car can be better than a gasoline car — it can be the best car, period.”
 > 来源：Forbes 现场报道（Hannah Elliott，2012-06-22，forbes.com/sites/hannahelliott/2012/06/22/elon-musk-delivers-the-first-tesla-model-s-car/）；AP 通稿（Phys.org 转载）；CleanTechnica 八周年回顾含演讲视频引文；BBC 2024 回顾同引；Tesla IR 官方新闻稿锁定日期与「首位订金缴纳者 Steve Jurvetson」。

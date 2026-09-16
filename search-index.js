@@ -226,6 +226,15 @@ window.SEARCH_INDEX = [
   "zh": "丧尸末日来临时，你会庆幸自己买了火焰喷射器。对不死军团有效，无效退款！"
  },
  {
+  "id": "e2018-02-06",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.02.06",
+  "s": "猎鹰重型首飞发布会 · Space.com · AP 通稿",
+  "q": "“I think it looks so ridiculous and impossible. And you can tell it’s real because it looks so fake, honestly. We’d have way better CGI if it was fake.”",
+  "zh": "我觉得它看起来太荒诞、太不可能了。你之所以能看出它是真的，恰恰是因为它看起来那么假——说实话，要真是假的，我们的特效早该做得好得多。"
+ },
+ {
   "id": "i2018-04",
   "pg": "interviews.html",
   "t": "访谈与表态",
