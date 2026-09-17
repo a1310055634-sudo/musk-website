@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.34.0 轮 / 2026-09-18 核实）**：一手文档 6 → 7 份——新增 **2018.08.07「Taking Tesla Private」致员工私有化方案信**（id d2018-08-07）。
+> 全文来源：Wayback Machine 2018-09-18 存档（tesla.com/blog/taking-tesla-private），页面导语注明「以下邮件今日已发给 Tesla 员工」——证实 8/7 博客文与员工信为同一文本；8/8 另有致批评者的"Hi All"公开信（另一文本，未收录并在注脚说明）。
+> 入册三段引文（公开发布文本，无逐字争议）：「wild swings / quarterly earnings cycle」段、$420 与 20% 溢价段、「nothing to do with accumulating control（持股约 20%）」段。
+> 关键数据自洽：420 美元 = Q2 财报电话会后收盘价溢价 20%（信中自述，与本站 e2018-08-07 既有条目一致）。
+> 兑现情况：未提交股东投票、未兑现；SEC 2018-09-27 起诉、9-29 和解（各 2000 万、卸任董事长保留 CEO，沿用本站既有核实细节）。
+
 > **新事实入包（v5.32.0 轮 / 2026-09-18 WebSearch 核实）**：言行实录 44 条——新增 **2017.03.30 SES-10 首次整级复飞**（id e2017-03-30）。
 > 核心引文（发布会）：“This represents the culmination of 15 years of work at SpaceX to be able to refly a rocket booster. It's really a great day, I think, for space as a whole.”
 > 来源：Universe Today（universetoday.com SES-10 报道，含发布会逐字引文）；SpaceNews「SpaceX demonstrates rocket reusability with SES-10 launch and booster landing」。

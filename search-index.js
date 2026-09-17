@@ -280,6 +280,15 @@ window.SEARCH_INDEX = [
   "zh": "正考虑以每股 420 美元将 Tesla 私有化。资金已到位。"
  },
  {
+  "id": "d2018-08-07",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2018.08.07",
+  "s": "Taking Tesla Private（致员工私有化方案信）",
+  "q": "“As a public company, we are subject to wild swings in our stock price that can be a major distraction for everyone working at Tesla. Being public also subjects us to the quarterly earnings cycle that puts enormous pressure on Tesla to make decisions that may be right for a given quarter, but not necessarily right for the long-term.”",
+  "zh": ""
+ },
+ {
   "id": "p2018-08-07",
   "pg": "x-posts.html",
   "t": "X 帖",
