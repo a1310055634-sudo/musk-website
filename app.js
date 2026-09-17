@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '5.32.0';
+  var SITE_VERSION = '5.33.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -202,6 +202,14 @@
     function stop() { if (qtimer) { clearInterval(qtimer); qtimer = null; } }
     strip.addEventListener('mouseenter', stop);
     strip.addEventListener('mouseleave', play);
+    strip.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(qi + 1); stop(); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); go(qi - 1); stop(); }
+      else if (e.key === 'Home') { e.preventDefault(); go(0); stop(); }
+      else if (e.key === 'End') { e.preventDefault(); go(qs.length - 1); stop(); }
+    });
+    strip.addEventListener('focus', stop);
+    strip.addEventListener('blur', play);
     window.addEventListener('resize', function () { go(qi); });
     play();
   }
