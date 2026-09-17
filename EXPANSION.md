@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.37.0 轮 / 2026-09-18 WebSearch 核实）**：新页 **pricing.html「定价与需求管理」**（Phase2-1）。
+> 核实数据点：①2023-01-13 美国全系降价 6%–20%（史上最大）：Model Y 长续航 65,990→52,990（约 -20%，重获 7,500 美元全额抵免资格）、Model 3 后驱降至 43,990（约 -6%）；部分车型优惠达 1.3 万美元（InsideEVs/Reuters/Fortune/MarketWatch）。
+> ②引语（Q4 2022 财报电话会议 2023-01-25，Motley Fool transcript + CNBC + Fox Business 多源）：“Thus far in January, we've seen the strongest orders year-to-date than ever in our history. We currently are seeing orders at almost twice the rate of production.”（被追问后修正为 1.8 倍）。
+> 页面含四节：降价样本/电话会议自述/三角循环/使用边界；编者分析均显式标注（税收抵免门槛套利、报数夸张与校准诚实、价格实时反馈回路、成本领先者武器）。
+
 > **新事实入包（v5.36.0 轮 / 2026-09-18 x.ai 官方公告核实）**：一手文档 8 → 9 份——新增 **2026.01 xAI「Series E」官方融资公告**（id d2026-01，文档馆目标 9 份达成）。
 > 逐字引文（x.ai/news/series-e，两次读取一致）：“raised $20 billion at a $230 billion post-money valuation”；“led by Valor Equity Partners, with participation from NVIDIA and Cisco”；秋季“$10 billion equity round and $12 billion of debt financing”。
 > 交叉印证：CNBC（2026-01-06）、WSJ 同日报道口径；注意估值口径——官方公告自述 $230B post-money（与此前「约 2300 亿量级」报道一致）。

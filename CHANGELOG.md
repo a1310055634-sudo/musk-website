@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.37.0 — 2026-09-18 · 新四阶段 Phase2-1：新页「定价与需求管理」（自由主题页第一页）
+
+**主题包成果**
+- 新页 **pricing.html**：以 2023 年 1 月降价潮为样本拆「订单-交付-价格」三角。四节结构：
+  ①01.13 降价数据行（Model Y -20% / Model 3 -6% / 抵免资格套利）②01.25 电话会议逐字自述
+  （"strongest orders… almost twice the rate of production"，含 1.8 倍修正细节）③三角循环机制 ④使用边界。
+- 数据核实：InsideEVs/Reuters/Fortune（降价数字）+ Motley Fool transcript/CNBC/Fox Business（引语多源）。
+- 工程规范：复用 style.css + 自页样式（pr-*）、9 节点 pill 导航（含检索与自身，aria-current）、
+  编者分析显式标注、@media print 打印保护、index.html 章节卡加「定价」入口。
+
+**质量门**
+- CSSOM 验证打印规则就位；1280/375 双宽零溢出；9 节点导航 aria-current 正确；链接零断链；node --check 通过。
+
 ## v5.36.0 — 2026-09-18 · 新四阶段 Phase1-3：文档馆入册 xAI Series E 公告（第一阶段收官）
 
 **主题包成果**
