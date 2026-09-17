@@ -634,6 +634,20 @@ a.pt-dot { position: absolute; top: 47px; width: 10px; height: 10px; border-radi
 a.pt-dot:hover, a.pt-dot:focus-visible { transform: translateX(-50%) scale(1.7); outline: none; }
 .pt-tip { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: none; width: 190px; padding: 7px 10px; background: #1a1a1a; color: #faf9f6; font-size: 11px; line-height: 1.5; border-radius: 4px; font-style: normal; text-align: left; z-index: 30; pointer-events: none; }
 .pt-tip b { color: #fff; }
+
+/* ---- 有出处的语录（quotes.html） ---- */
+.qs-sourced { max-width: 860px; margin: 26px auto 30px; padding: 0 20px; }
+.qs-h { font-family: Georgia, "STSong", serif; font-size: 21px; border-bottom: 2px solid #1a1a1a; padding-bottom: 8px; }
+.qs-p { font-size: 13.5px; color: #5c574e; line-height: 1.85; margin: 10px 0 16px; }
+.qs-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.qs-card { display: block; border: 1px solid rgba(26,26,26,.18); padding: 14px 16px; text-decoration: none; color: inherit; background: #fff; }
+.qs-card:hover { border-color: #7c2d2d; }
+.qs-date { font-size: 11px; letter-spacing: .12em; color: #7c2d2d; font-weight: 700; }
+.qs-en { font-family: Georgia, "STSong", serif; font-style: italic; font-size: 14.5px; line-height: 1.65; margin: 8px 0 6px; }
+.qs-zh { font-size: 12.5px; color: #5c574e; line-height: 1.7; margin: 0 0 8px; }
+.qs-src { font-size: 11px; color: #1f3a5f; letter-spacing: .06em; }
+@media (max-width: 640px) { .qs-grid { grid-template-columns: 1fr; } }
+@media print { .qs-card { break-inside: avoid; border-color: #999; } }
 a.pt-dot:hover .pt-tip, a.pt-dot:focus-visible .pt-tip { display: block; }
 .ps-timeline a.pt-dot:nth-child(odd) .pt-tip { bottom: 16px; }
 .ps-timeline a.pt-dot:nth-child(even) .pt-tip { bottom: auto; top: 16px; }
