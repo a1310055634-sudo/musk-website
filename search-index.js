@@ -163,6 +163,15 @@ window.SEARCH_INDEX = [
   "zh": ""
  },
  {
+  "id": "e2016-09-01",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2016.09.01",
+  "s": "LC-40 爆燃事故 · 本人推文（2016.09.09）· SpaceNews",
+  "q": "“Still working on the Falcon fireball investigation. Turning out to be the most difficult and complex failure we have ever had in 14 years.”",
+  "zh": "仍在跟进猎鹰火球的调查。结果证明这是我们 14 年来遇到过的最困难、最复杂的失败。"
+ },
+ {
   "id": "e2016-09-27",
   "pg": "primary.html",
   "t": "言行实录",

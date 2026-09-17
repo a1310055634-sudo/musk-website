@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.30.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 42 条——新增 **2016.09.01 Amos-6 爆燃**（id e2016-09-01）。
+> 核心引文（本人推文 2016-09-09）：“Still working on the Falcon fireball investigation. Turning out to be the most difficult and complex failure we have ever had in 14 years.”
+> 来源印证：Spaceflight Now（2016-09-09，spaceflightnow.com/2016/09/09/musk-no-answers-so-far-in-difficult-failure-investigation/）、CBS News、Phys.org、SpacePolicyOnline 均逐字引用该推文。
+> 调查结论（SpaceX 2017-01 公布 / SpaceNews 报道）：COPV 内衬褶皱 + 固态氧点燃；Musk 原话「Under pressure it could have ignited with the carbon...」（SpaceNews）。复飞 2017-01-14（Iridium NEXT）。「公开解剖」句为编者分析（已标注）。
+
 > **新事实入包（v5.29.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 41 条——新增 **2018.02.06 猎鹰重型首飞**（id e2018-02-06）。
 > 核心引文（Space.com 完整版）：“I think it looks so ridiculous and impossible. And you can tell it's real because it looks so fake, honestly. We'd have way better CGI if it was fake.”（Starman/Roadster 直播画面，首飞当晚发布会）
 > 来源印证：Space.com、Business Insider、AP 通稿（CBS8/Hindustan Times/CSM 转载）、CollectSpace（含「颜色在太空里看着有点怪」后续句）、Inverse。
