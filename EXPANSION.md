@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.36.0 轮 / 2026-09-18 x.ai 官方公告核实）**：一手文档 8 → 9 份——新增 **2026.01 xAI「Series E」官方融资公告**（id d2026-01，文档馆目标 9 份达成）。
+> 逐字引文（x.ai/news/series-e，两次读取一致）：“raised $20 billion at a $230 billion post-money valuation”；“led by Valor Equity Partners, with participation from NVIDIA and Cisco”；秋季“$10 billion equity round and $12 billion of debt financing”。
+> 交叉印证：CNBC（2026-01-06）、WSJ 同日报道口径；注意估值口径——官方公告自述 $230B post-money（与此前「约 2300 亿量级」报道一致）。
+> 顺手修复存量乱序：d2023-07-12（xAI 章程）原排在 d2023-04-05（Part 3）之前，已交换为时序正确（2023.04 → 2023.07），导语路线中英文同步修正。
+
 > **新事实入包（v5.35.0 轮 / 2026-09-18 SEC EDGAR 原文核实）**：一手文档 7 → 8 份——新增 **2022.04.25《Agreement and Plan of Merger》关键条款摘录**（id d2022-04-25）。
 > 来源：Twitter, Inc.（CIK 1418091）Form 8-K Exhibit 2.1，accession 0001193125-22-120461（sec.gov/Archives/edgar/data/1418091/000119312522120461/d310843dex21.htm）；全文另见 DEFM14A（0001193125-22-202163）。
 > 四条款逐字入册（两次独立读取一致）：Section 2.1(a)（每股转换 $54.20 现金）、Section 7.1(c)（终止日 2022-10-24）、Section 8.3（公司终止费 $1,000,000,000）、Section 9.9（特定履约）。

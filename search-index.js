@@ -746,5 +746,14 @@ window.SEARCH_INDEX = [
   "s": "「无限金钱外挂」",
   "q": "“There's not like an obvious limit. So like Optimus is kind of like an infinite money glitch. And maybe there won't even be money in the future.” — “Optimus will actually eliminate poverty… bigger than cell phones.”",
   "zh": ""
+ },
+ {
+  "id": "d2026-01",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2026.01",
+  "s": "Series E（xAI 官方融资公告）",
+  "q": "“We're building AI to accelerate human scientific discovery. Today, we're announcing that we have raised $20 billion at a $230 billion post-money valuation.”",
+  "zh": ""
  }
 ];
