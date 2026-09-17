@@ -33,10 +33,12 @@ for m in re.finditer(r'<li class="ps-row[^"]*" id="(e\d[\d-]*)".*?</li>', s, re.
     assert date and src, m.group(1)
     if not quote:  # 部分条目以行为为主、无逐字引文段：降级取第一段背景文字
         quote = re.search(r'<div class="ps-sec">.*?data-en="[^"]*">([^<]+)</p>', b, re.S)
+    bg = re.search(r'<div class="ps-sec"><h4[^>]*>[^<]*背景[^<]*</h4>\s*<p data-en="([^"]*)"', b)
     items.append({
         'id': m.group(1), 'pg': 'primary.html', 't': '言行实录',
         'd': date.group(1), 's': strip(src.group(1)),
         'q': strip(quote.group(1)) if quote else '', 'zh': strip(zh.group(1)) if zh else '',
+        'bg': strip(bg.group(1)) if bg else '',
     })
 
 # ---------- documents.html 一手文档 ----------
@@ -86,6 +88,24 @@ for part in parts[1:]:
         'd': date.group(1), 's': '@elonmusk',
         'q': strip(text.group(1)), 'zh': strip(zh.group(1)) if zh else '',
     })
+
+# ---------- 公司实体推断（多对多，用于检索过滤） ----------
+import re as _re
+ENTITY_RULES = [
+    ('Zip2', _re.compile(r'Zip2', _re.I)),
+    ('PayPal', _re.compile(r'PayPal|X\.com|Confinity', _re.I)),
+    ('SolarCity', _re.compile(r'SolarCity', _re.I)),
+    ('Tesla', _re.compile(r'Tesla|Model [S3XY]|Battery Day|4680|Roadster|Cybertruck|Fremont', _re.I)),
+    ('SpaceX', _re.compile(r'SpaceX|Falcon|Crew Dragon|NASA|Starbase|Starship|Dragon|BFR', _re.I)),
+    ('X / Twitter', _re.compile(r'Twitter|@elonmusk|bird is freed|DealBook|Parag|charter', _re.I)),
+    ('xAI', _re.compile(r'xAI|Grok', _re.I)),
+    ('Boring Company', _re.compile(r'Boring|flamethrower|tunnel|Loop', _re.I)),
+    ('Neuralink', _re.compile(r'Neuralink', _re.I)),
+]
+for it in items:
+    text = ' '.join([it.get('s',''), it.get('q',''), it.get('zh',''), it.get('bg','')])
+    cs = [name for name, rx in ENTITY_RULES if rx.search(text)]
+    it['c'] = cs if cs else ['综合']
 
 # ---------- 校验与排序 ----------
 counts = {}

@@ -34,6 +34,9 @@
 .sr-filters select { font: inherit; font-size: 13px; padding: 3px 8px; border: 1px solid rgba(26,26,26,.3); border-radius: 4px; background: #fff; color: #1a1a1a; }
 .sr-filters .sr-sort button { font: inherit; font-size: 12px; letter-spacing: .08em; cursor: pointer; border: 1px solid rgba(26,26,26,.25); background: #faf9f6; color: #5c574e; border-radius: 999px; padding: 3px 12px; }
 .sr-filters .sr-sort button[aria-pressed="true"] { background: #7c2d2d; border-color: #7c2d2d; color: #faf9f6; }
+.sr-companies { display: flex; flex-wrap: wrap; gap: 8px 10px; margin: 0 0 18px; }
+.sr-companies button { font: inherit; font-size: 12px; letter-spacing: .08em; cursor: pointer; border: 1px solid rgba(26,26,26,.25); background: #faf9f6; color: #5c574e; border-radius: 999px; padding: 3px 12px; }
+.sr-companies button[aria-pressed="true"] { background: #1f3a5f; border-color: #1f3a5f; color: #faf9f6; }
 .sr-item { display: block; border-top: 1px dotted rgba(26,26,26,.25); padding: 14px 2px; text-decoration: none; color: inherit; }
 .sr-item:hover { background: #f3f0ea; }
 .sr-item-top { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 4px; }
@@ -45,7 +48,7 @@
 .sr-zh { font-size: 13px; color: #5c574e; line-height: 1.7; margin-top: 2px; }
 .sr-empty { border-top: 1px dotted rgba(26,26,26,.25); padding: 22px 2px; color: #5c574e; font-size: 14px; font-style: italic; }
 .sr-foot { margin-top: 26px; font-size: 11px; color: #8a857c; letter-spacing: .04em; line-height: 1.8; }
-@media print { .sr-back, .sr-input-wrap, .sr-types, .sr-filters { display: none !important; } .sr-item { break-inside: avoid; } }
+@media print { .sr-back, .sr-input-wrap, .sr-types, .sr-filters, .sr-companies { display: none !important; } .sr-item { break-inside: avoid; } }
 </style>
 </head>
 <body>
@@ -79,6 +82,7 @@
       <button type="button" data-s="desc" aria-pressed="false">时间倒序</button>
     </span>
   </div>
+  <div class="sr-companies" id="sr-companies" role="group" aria-label="按公司过滤"></div>
 
   <div id="sr-results"></div>
 
@@ -94,6 +98,37 @@
   var INDEX = window.SEARCH_INDEX || [];
   var curType = '全部';
   var curFrom = null, curTo = null, curSort = 'asc';
+  var curCo = '全部';
+  (function () {
+    var counts = {};
+    INDEX.forEach(function (it) { (it.c || ['综合']).forEach(function (c) { counts[c] = (counts[c] || 0) + 1; }); });
+    var names = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+    var box = document.getElementById('sr-companies');
+    var allBtn = document.createElement('button');
+    allBtn.type = 'button';
+    allBtn.setAttribute('data-c', '全部');
+    allBtn.setAttribute('aria-pressed', 'true');
+    allBtn.textContent = '全部 ' + INDEX.length;
+    allBtn.addEventListener('click', function () {
+      curCo = '全部';
+      box.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === allBtn)); });
+      render();
+    });
+    box.appendChild(allBtn);
+    names.forEach(function (n) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('data-c', n);
+      b.setAttribute('aria-pressed', 'false');
+      b.textContent = n + ' ' + counts[n];
+      b.addEventListener('click', function () {
+        curCo = (curCo === n) ? '全部' : n;
+        box.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-c') === curCo)); });
+        render();
+      });
+      box.appendChild(b);
+    });
+  })();
 
   // 年份下拉：从索引收集年份区间
   (function () {
@@ -145,8 +180,9 @@
     if (curType !== '全部' && it.t !== curType) return false;
     var y = yearOf(it);
     if ((curFrom && y < curFrom) || (curTo && y > curTo)) return false;
+    if (curCo !== '全部' && !(it.c || []).includes(curCo)) return false;
     if (!q) return true;
-    return (it.d + ' ' + it.s + ' ' + it.q + ' ' + it.zh + ' ' + it.t).toLowerCase().indexOf(q) !== -1;
+    return (it.d + ' ' + it.s + ' ' + it.q + ' ' + it.zh + ' ' + (it.bg || '')).toLowerCase().indexOf(q) !== -1;
   }
   function cmpDate(a, b) {
     var pa = (a.d || '').match(/(\d{4})\.?(\d{1,2})?\.?(\d{1,2})?/);
