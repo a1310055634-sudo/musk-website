@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.38.0 轮 / 2026-09-18 WebSearch 核实）**：新页 **supplychain.html「供应链与工厂哲学」**（Phase2-2）。
+> ①引语（本人推文 2018-04-13，permalink x.com/elonmusk/status/984882630947753984；Guardian/CNBC/TechCrunch/CNET 多源印证日期与全文）：“Yes, excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”
+> ②Battery Day（2020-09-22）4680 数据：能量 5 倍/功率 6 倍（Electrek）、全链路累计降本目标 56%/kWh（Forbes，路线图目标非已实现值，页面已注明）。
+> ③一体压铸：IDRA 6,000 吨压铸机、Model Y 后底板 70 件→1 件、省去约 300 台机器人（Electrek 2021-02 视频报道/Teslarati）。
+> ④Giga Shanghai 2019 年 1 月动工、同年 12 月底交付（公开报道口径）；垂直整合边界（IDRA/外购电芯）与「整合判据」为编者分析（已标注）。
+
 > **新事实入包（v5.37.0 轮 / 2026-09-18 WebSearch 核实）**：新页 **pricing.html「定价与需求管理」**（Phase2-1）。
 > 核实数据点：①2023-01-13 美国全系降价 6%–20%（史上最大）：Model Y 长续航 65,990→52,990（约 -20%，重获 7,500 美元全额抵免资格）、Model 3 后驱降至 43,990（约 -6%）；部分车型优惠达 1.3 万美元（InsideEVs/Reuters/Fortune/MarketWatch）。
 > ②引语（Q4 2022 财报电话会议 2023-01-25，Motley Fool transcript + CNBC + Fox Business 多源）：“Thus far in January, we've seen the strongest orders year-to-date than ever in our history. We currently are seeing orders at almost twice the rate of production.”（被追问后修正为 1.8 倍）。
