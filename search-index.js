@@ -208,6 +208,15 @@ window.SEARCH_INDEX = [
   "zh": ""
  },
  {
+  "id": "e2017-03-30",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.03.30",
+  "s": "SES-10 发布会 · Universe Today · SpaceNews",
+  "q": "“This represents the culmination of 15 years of work at SpaceX to be able to refly a rocket booster. It’s really a great day, I think, for space as a whole.”",
+  "zh": "这代表着 SpaceX 十五年工作的集大成——让一枚火箭助推器可以再次飞行。我想，对整个航天事业来说，这真是了不起的一天。"
+ },
+ {
   "id": "e2017-07-28",
   "pg": "primary.html",
   "t": "言行实录",

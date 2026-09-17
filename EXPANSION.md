@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.32.0 轮 / 2026-09-18 WebSearch 核实）**：言行实录 44 条——新增 **2017.03.30 SES-10 首次整级复飞**（id e2017-03-30）。
+> 核心引文（发布会）：“This represents the culmination of 15 years of work at SpaceX to be able to refly a rocket booster. It's really a great day, I think, for space as a whole.”
+> 来源：Universe Today（universetoday.com SES-10 报道，含发布会逐字引文）；SpaceNews「SpaceX demonstrates rocket reusability with SES-10 launch and booster landing」。
+> 任务口径：B1021（2016-04 CRS-8 首飞落驳船）复飞 SES-10、再落「Of Course I Still Love You」；SES CTO Martin Halliwell 同席发布会。「商业证明」句为编者分析（已标注）。
+
 > **新事实入包（v5.31.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 43 条——新增 **2002.10.03 PayPal 交割与资金分配**（id e2002-10-03，账本现最早条目）。
 > 核心引文（2012 访谈自述，The Transcript 存档）：“My proceeds from PayPal after tax were about $180M. $100M of that went into SpaceX, $70M into Tesla, and $10M into SolarCity. I had to borrow money for rent.”
 > 来源印证：USA Today《Innovators and Icons》访谈（2013-04-18，「Tesla's Elon Musk had to borrow money to pay rent」主题）；Motley Fool 2017 引用同一分配数字；Jorgenson《The Book of Elon》收录「I literally had to borrow money for rent. It was a close call.」变体。
