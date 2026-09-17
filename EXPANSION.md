@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.31.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 43 条——新增 **2002.10.03 PayPal 交割与资金分配**（id e2002-10-03，账本现最早条目）。
+> 核心引文（2012 访谈自述，The Transcript 存档）：“My proceeds from PayPal after tax were about $180M. $100M of that went into SpaceX, $70M into Tesla, and $10M into SolarCity. I had to borrow money for rent.”
+> 来源印证：USA Today《Innovators and Icons》访谈（2013-04-18，「Tesla's Elon Musk had to borrow money to pay rent」主题）；Motley Fool 2017 引用同一分配数字；Jorgenson《The Book of Elon》收录「I literally had to borrow money for rent. It was a close call.」变体。
+> 措辞差异：多版本措辞略有出入（after-tax / literally），本站取 2012 访谈版。交割日期 2002-10-03 与 15 亿美元对价为公开报道口径（与本站 money.html/deal 图既有事实一致）。「三张牌桌」句为编者分析（已标注）。
+
 > **新事实入包（v5.30.0 轮 / 2026-09-17 WebSearch 核实）**：言行实录 42 条——新增 **2016.09.01 Amos-6 爆燃**（id e2016-09-01）。
 > 核心引文（本人推文 2016-09-09）：“Still working on the Falcon fireball investigation. Turning out to be the most difficult and complex failure we have ever had in 14 years.”
 > 来源印证：Spaceflight Now（2016-09-09，spaceflightnow.com/2016/09/09/musk-no-answers-so-far-in-difficult-failure-investigation/）、CBS News、Phys.org、SpacePolicyOnline 均逐字引用该推文。

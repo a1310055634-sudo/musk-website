@@ -1,6 +1,15 @@
 // 由 tools/build-search-index.py 自动生成，请勿手改。
 window.SEARCH_INDEX = [
  {
+  "id": "e2002-10-03",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2002.10.03",
+  "s": "PayPal 交割 · 本人 2012–2013 访谈自述（USA Today 等）",
+  "q": "“My proceeds from PayPal after tax were about $180M. $100M of that went into SpaceX, $70M into Tesla, and $10M into SolarCity. I had to borrow money for rent.”",
+  "zh": "我 PayPal 的税后所得大约 1.8 亿美元。其中 1 亿投进了 SpaceX，7000 万投进 Tesla，1000 万投进 SolarCity。然后我不得不借钱付房租。"
+ },
+ {
   "id": "e2006-08",
   "pg": "primary.html",
   "t": "言行实录",
