@@ -31,9 +31,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（90 条，v0.1.0 → v5.40.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（91 条，v0.1.0 → v5.41.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v5.41.0 — 2026-09-18 · 新四阶段 Phase4：全站 QA 收官（四阶段计划完成）</h3><h4>全维度审计结果</h4><ul><li>静态：25+ HTML 递归链接/资源引用零断链（唯一标记为检索页 JS 模板字符串已知误报）；全站无重复 id；</li><li>浏览器：27 页 × 375/1280 双宽零溢出；首页双语切换中→英→中回归通过；检索三重组合</li><li>打印抽检（headless Edge + pypdf）：pricing/supplychain/primary 三页无空白页、无返回链接与交互</li></ul><h4>就地修复</h4><ul><li>primary.html 时间轴标题「悬停看摘要，点击跳到该条」在打印稿中泄漏——它生成在 ps-timeline-wrap</li></ul><h4>定版</h4><ul><li>v5.41.0 为四阶段计划收官版本：文档馆 9 份、主题页 2 个、检索（关键词+类型+年份+公司+排序）、</li></ul></li>
 <li class="cl-item"><h3>v5.40.0 — 2026-09-18 · 新四阶段 Phase3-2：账本时间轴可视化 + 公司过滤（第三阶段收官）</h3><h4>主题包成果</h4><ul><li><strong>账本时间轴</strong>：primary.html 账本前新增可交互时间轴——44 个节点按日期线性定位、7 个年份刻度，</li><li><strong>检索页公司过滤</strong>：索引构建器新增实体推断（Zip2/PayPal/SolarCity/Tesla/SpaceX/X·Twitter/xAI/</li><li>检索匹配文本扩展背景段（bg），关键词召回面随之变宽（如 "spacex" 命中从 2 → 4 条）。</li></ul><h4>质量门</h4><ul><li>时间轴 44 节点跳转几何验证；公司过滤组合实测；1280/375 双宽零溢出；node --check 通过。</li></ul><h4>修复</h4><ul><li>公司过滤组初版缺显式「全部」重置药丸（仅靠二次点击同一药丸取消），已补齐。</li></ul></li>
 <li class="cl-item"><h3>v5.39.0 — 2026-09-18 · 新四阶段 Phase3-1：检索页升级（年份区间 + 排序）</h3><h4>主题包成果</h4><ul><li>search.html 新增过滤控件行：<strong>年份区间双下拉</strong>（2002–2026，自动从索引收集）+ <strong>排序切换</strong>（时间正序/倒序），</li><li>实测：区间 2002–2008 → 命中 7 条（PayPal 创世至圣诞夜融资，日期全部带内）；倒序 → 首条 2026.01；</li><li>公司主体过滤（需索引 schema 增加 entity 字段）本轮缩小范围暂缓，留待下轮与时间轴可视化一并处理。</li></ul><h4>质量门</h4><ul><li>功能组合实测全通过；1280/375 双宽零溢出；打印隐藏 filters 行；node --check 通过。</li></ul></li>
 <li class="cl-item"><h3>v5.38.0 — 2026-09-18 · 新四阶段 Phase2-2：新页「供应链与工厂哲学」（第二阶段收官）</h3><h4>主题包成果</h4><ul><li>新页 <strong>supplychain.html</strong>：四节结构——①机器造机器（Giga Shanghai 当年动工当年交付）②过度自动化之错</li><li>数据核实：Guardian/CNBC/TechCrunch（推文）、Electrek/Forbes（4680）、Electrek/Teslarati（压铸）。</li><li>工程规范：与 pricing.html 同款 sc-* 样式、10 节点 pill 导航（含自身 aria-current）、编者分析显式标注、</li></ul><h4>质量门</h4><ul><li>CSSOM 验证打印规则就位；1280/375 双宽零溢出；检索 "excessive automation" 命中访谈页同源条目（覆盖一致）；node --check 通过。</li></ul></li>

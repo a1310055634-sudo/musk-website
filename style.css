@@ -525,7 +525,7 @@ a { color: inherit; }
 
 /* ============ 打印样式（存档 PDF 友好） ============ */
 @media print {
-  .masthead, .cover-actions, .tl-filter, .footer-note, .footer-toplink, .skip-link, .lang-toggle, .ps-nav, .progress, .quote-dots, .footer-hint, .ps-timeline-wrap { display: none !important; }
+  .masthead, .cover-actions, .tl-filter, .footer-note, .footer-toplink, .skip-link, .lang-toggle, .ps-nav, .progress, .quote-dots, .footer-hint, .ps-timeline-wrap, .pt-heading { display: none !important; }
   body { font-size: 11.5pt; background: #fff; }
   .cover-portrait img { box-shadow: none; }
   .section { border-top: 1px solid #999; }
