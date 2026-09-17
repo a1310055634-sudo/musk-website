@@ -134,6 +134,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2014-05-29",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2014.05.29",
+  "s": "Dragon V2 发布会 · Universe Today · NBC · New Scientist",
+  "q": "“It can land anywhere on Earth with the accuracy of a helicopter … I think that's what a spaceship should be able to do.”",
+  "zh": "它可以像直升机一样精准地降落在地球上的任何地方……我认为一艘飞船就应该能做到这一点。",
+  "bg": "NASA was about to pick who would fly its astronauts, and SpaceX's cargo Dragon was a freight truck by design. On May 29, 2014, at SpaceX headquarters in Hawthorne, the crewed Dragon V2 was unveiled: seven seats, touchscreen interiors, and SuperDraco thrusters built to serve as both launch-escape engines and landing engines.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2014-06-12",
   "pg": "primary.html",
   "t": "言行实录",

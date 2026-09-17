@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.43.0 轮 / 2026-09-18 WebSearch 核实）**：言行实录 44 → 45 条——新增 **2014.05.29 Dragon V2 发布**（id e2014-05-29）。
+> 核心引文（发布会）：“It can land anywhere on Earth with the accuracy of a helicopter … I think that's what a spaceship should be able to do.”
+> 来源：Universe Today（完整对句）、NBC News、New Scientist、SCMP 多源同引；发布会 2014-05-29 于霍桑总部。
+> 兑现情况：载人首飞 2020-05-30（本站 e2020-05-30 条目）；推进着陆后来让位于海上溅落、SuperDraco 保留为逃逸系统（公开报道口径）；「教科书案例」句为编者分析（已标注）。
+
 > **新事实入包（v5.38.0 轮 / 2026-09-18 WebSearch 核实）**：新页 **supplychain.html「供应链与工厂哲学」**（Phase2-2）。
 > ①引语（本人推文 2018-04-13，permalink x.com/elonmusk/status/984882630947753984；Guardian/CNBC/TechCrunch/CNET 多源印证日期与全文）：“Yes, excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”
 > ②Battery Day（2020-09-22）4680 数据：能量 5 倍/功率 6 倍（Electrek）、全链路累计降本目标 56%/kWh（Forbes，路线图目标非已实现值，页面已注明）。
