@@ -415,6 +415,15 @@ window.SEARCH_INDEX = [
   "zh": ""
  },
  {
+  "id": "d2022-04-25",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.04.25",
+  "s": "Agreement and Plan of Merger（收购协议关键条款摘录）",
+  "q": "“At the effective time, each Share issued and outstanding immediately prior to the Effective Time … shall be converted into the right to receive $54.20 in Cash, without interest …” —— Section 2.1(a) Conversion; Exchange of Shares",
+  "zh": ""
+ },
+ {
   "id": "e2022-10-26",
   "pg": "primary.html",
   "t": "言行实录",

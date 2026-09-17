@@ -91,7 +91,7 @@ for part in parts[1:]:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 44, '一手文档': 7, '访谈与表态': 18, 'X 帖': 13}, counts
+assert counts == {'言行实录': 44, '一手文档': 8, '访谈与表态': 18, 'X 帖': 13}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

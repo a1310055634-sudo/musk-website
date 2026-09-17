@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.35.0 轮 / 2026-09-18 SEC EDGAR 原文核实）**：一手文档 7 → 8 份——新增 **2022.04.25《Agreement and Plan of Merger》关键条款摘录**（id d2022-04-25）。
+> 来源：Twitter, Inc.（CIK 1418091）Form 8-K Exhibit 2.1，accession 0001193125-22-120461（sec.gov/Archives/edgar/data/1418091/000119312522120461/d310843dex21.htm）；全文另见 DEFM14A（0001193125-22-202163）。
+> 四条款逐字入册（两次独立读取一致）：Section 2.1(a)（每股转换 $54.20 现金）、Section 7.1(c)（终止日 2022-10-24）、Section 8.3（公司终止费 $1,000,000,000）、Section 9.9（特定履约）。
+> 兑现情况：终止日前夜交割（2022-10-27）、公司更名 X；终止费未触发、触发的是 9.9 条（Twitter 曾据此在特拉华州起诉强制履约——公开报道口径）。
+
 > **新事实入包（v5.34.0 轮 / 2026-09-18 核实）**：一手文档 6 → 7 份——新增 **2018.08.07「Taking Tesla Private」致员工私有化方案信**（id d2018-08-07）。
 > 全文来源：Wayback Machine 2018-09-18 存档（tesla.com/blog/taking-tesla-private），页面导语注明「以下邮件今日已发给 Tesla 员工」——证实 8/7 博客文与员工信为同一文本；8/8 另有致批评者的"Hi All"公开信（另一文本，未收录并在注脚说明）。
 > 入册三段引文（公开发布文本，无逐字争议）：「wild swings / quarterly earnings cycle」段、$420 与 20% 溢价段、「nothing to do with accumulating control（持股约 20%）」段。
