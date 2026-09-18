@@ -31,9 +31,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（102 条，v0.1.0 → v5.52.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（103 条，v0.1.0 → v5.53.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v5.53.0 — 2026-09-19 · 新三阶段 Phase1-3：长卷后段五章填充——十章齐备（第一阶段收官）</h3><h4>主题包成果</h4><ul><li>长卷阅读版后段五章一次填充，<strong>十章齐备</strong>：</li><li>「重组中」跳转区块全部移除；目录 10 锚全内联；页头副题更新「十章齐备」。</li></ul><h4>过程注记</h4><ul><li>插入锚点注释与实际标记不一致导致首次替换失败（原子性保住，片段误删一次后重写并在同一脚本内完成插入）。</li></ul><h4>质量门</h4><ul><li>10 章 id 齐全（ch1-ch10）、目录内锚一一对应、跳转实测、双宽零溢出、verify.py 体检通过；node --check 通过。</li></ul></li>
 <li class="cl-item"><h3>v5.52.0 — 2026-09-19 · 新三阶段 Phase1-2：长卷中段两章（肆 公司史 / 伍 商战）</h3><h4>主题包成果</h4><ul><li>长卷阅读版新增两章（重组自站内已核实材料，零新造）：</li><li>目录肆/伍改为内部锚点（内锚 5 = 章节 5 对应）；「重组中」区块更新为第六至十章。</li></ul><h4>质量门</h4><ul><li>5 章齐全、目录内锚一一对应、跳转落位 70px、重组区文案更新；1280/375 双宽零溢出；</li></ul></li>
 <li class="cl-item"><h3>v5.51.0 — 2026-09-19 · 新三阶段 Phase1-1：长卷阅读版上线（框架 + 前三章）</h3><h4>主题包成果</h4><ul><li>新页 <strong>reading.html「长卷阅读版」</strong>：书籍形态的连续叙事，与既有引用式页面互补。</li><li>阅读体验：桌面 sticky 侧目录（IntersectionObserver 高亮当前章）、app.js 阅读进度条复用、</li><li>四至十章以「重组中」跳转卡过渡（指向对应既有板块），后两轮填充。</li><li>已知取舍：长卷中文为主，标题/导语带 data-en，正文暂不做全量英译；页面暂未放语言切换按钮。</li></ul><h4>布线</h4><ul><li>index.html 章节卡 10 子链接新增「长卷版」。</li></ul><h4>质量门</h4><ul><li>目录跳转与滚动高亮实测（#ch3 落位 70px + rd-on 切换）；16 个外链/锚点有效；</li></ul></li>
 <li class="cl-item"><h3>v5.50.0 — 2026-09-19 · 自由精进：全站数字一致性走查（自由精进第二十七轮）</h3><h4>主题包成果</h4><ul><li>普活全站计数声明，抓到主漂移：<strong>页脚「17 个版本，从 v0.1 到 v1.0」</strong>散布在 12 个页面</li><li>修复策略：改为<strong>版本无关表述</strong>「由定时自主迭代持续构建 · 完整修订史见『修订记录』」</li><li>README.md 快照数字同步（账本 45 条标注「随迭代增长」、CHANGELOG 计数改为非快照表述）。</li><li>changelog.html 中残留的同类字样为 v1.0.0 历史修订原文，按「历史记录不改写」原则保留。</li></ul><h4>质量门</h4><ul><li>tools/verify.py 四项全绿；活跃页脚零残留（grep 复验）。</li></ul></li>
