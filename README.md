@@ -13,7 +13,7 @@
 | 板块 | 页面 | 说明 |
 |---|---|---|
 | 封面与导航 | `index.html` | 卷首特稿、章节卡片（全站入口）、双语切换 |
-| 言行实录 | `primary.html` | 账本 44 条第一手言行（2002→2025），每条含稳定锚点 `#e…`、页顶可交互时间轴、实时检索 |
+| 言行实录 | `primary.html` | 账本 45 条第一手言行（2002→2025，随迭代增长），每条含稳定锚点 `#e…`、页顶可交互时间轴、实时检索 |
 | 一手文档馆 | `documents.html` | 9 份关键文本摘录（秘密蓝图系列/私有化方案信/收购协议 SEC 条款/Series E 公告），锚点 `#d…` |
 | 访谈与表态 | `interviews.html` | 18 条公开表态，锚点 `#i…` |
 | X 帖史选辑 | `x-posts.html` | 13 张名帖深读卡，锚点 `#p…` |
@@ -37,7 +37,7 @@ app.js             交互（双语切换/检索/轮播/时间轴/动效）
 search-index.js    检索索引（由 tools/build-search-index.py 生成）
 assets/            图片
 tools/             自动化工具（见下）
-CHANGELOG.md       修订记录（89+ 条）
+CHANGELOG.md       修订记录（随迭代持续追加）
 EXPANSION.md       事实扩展包（每条新事实的核实来源）
 ROADMAP.md         历史规则与方向记录
 VERSION            当前版本号
