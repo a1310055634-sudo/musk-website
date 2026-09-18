@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.61.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 47 → 49 条。
+> ① **2021.10.25 Hertz 订单与万亿市值日**（id e2021-10-25）：Hertz 订购 10 万辆 Model 3（约 $4.2B/14 个月，Hertz 史上最大订单）；当日 Tesla +12.7% 收于 $1,024.86、市值首破 $1T（NPR/CNBC/WSJ/BBC/Reuters/Forbes）。11.01 本人推文对冲："no contract has been signed yet" 与 "zero effect on our economics"——次日约 $40B 市值蒸发（NPR/CBS/CNBC/Bloomberg）。
+> ② **2006 SolarCity 创立**（id e2006，年份级日期）：表兄弟 Lyndon/Peter Rive 按其创意创立、他任董事长；金融租赁模式长成美国最大户用光伏安装商；2016 被 Tesla 约 $2.6B 收购（能源板块并回）+ 多年股东诉讼。口径：公司/公开报道，与本站既有时间线/2016.11 条目一致。
+> 编者分析已标注（每句话双向撬动市值）。
+
 > **新事实入包（v5.60.0 轮 / 2026-09-19 WebSearch 核实）**：finance.html 补齐第三部 X 与第四部 xAI（财务全景四部齐备）。
 > xAI 融资序列（Reuters/CNBC/Forbes/x.ai 官方口径）：2024.05 B 轮 $6B @ 投后 $24B（pre $18B）；2024.12.23 C 轮 $6B @ 约 $40B（x.ai 官方公告）；2025 秋 $10B 股权 + $12B 债务（Series E 公告自述）；2026.01 E 轮 $20B @ 投后 $230B。
 > X 财务口径（Fortune/Axios/USA Today/Entrepreneur 报道）：收入 2022 ≈$5.2B → 2023 ≈$3.4B（-35%）→ 2024 ≈$2.5B；Fidelity 减记 2023.12 约 -72%（隐含 ≈$19B）、2024.10 约 -80%（隐含 ≈$9.4B）；2025.03 并入 xAI 时 X 作价 ≈$33B（含债 $45B）。

@@ -17,6 +17,21 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2006",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2006",
+  "s": "SolarCity 创立 · 马斯克出任董事长 · 公司口径",
+  "q": "Tesla 在造电动车，但马斯克的能源命题需要第二条腿：太阳能发电。2006 年，他的表兄弟 Lyndon 与 Peter Rive 按他的创意创立 SolarCity，他出任董事长——这是 PayPal 套现资助的第三家公司。",
+  "zh": "",
+  "bg": "Tesla was building an electric car, but Musk's energy thesis needed a second leg: solar generation. His cousins Lyndon and Peter Rive founded SolarCity in 2006 on his idea, with Musk as chairman — the third company funded by the PayPal proceeds.",
+  "c": [
+   "PayPal",
+   "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2006-08",
   "pg": "primary.html",
   "t": "言行实录",
@@ -606,6 +621,19 @@ window.SEARCH_INDEX = [
   "q": "“The Optimus robot will eventually be worth more than the car business, worth more than FSD.”",
   "zh": "Optimus 机器人最终的价值将超过汽车业务，超过 FSD。",
   "bg": "Tesla was at peak profitability with two robot programs quietly running. At the first AI Day, Musk put one slide up that wasn't a vehicle at all: a person-shaped robot named Optimus.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2021-10-25",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2021.10.25",
+  "s": "Hertz 十万辆订单 · 万亿市值日 · NPR/CNBC/WSJ",
+  "q": "刚走出破产重整、正在重建租车车队的 Hertz 宣布订购 10 万辆 Tesla Model 3——14 个月合计约 42 亿美元，是这家租车公司史上最大订单。",
+  "zh": "",
+  "bg": "Hertz — fresh out of bankruptcy and rebuilding its rental fleet — announced an order of 100,000 Tesla Model 3s, about $4.2 billion over 14 months, the largest order in the rental company's history.",
   "c": [
    "Tesla"
   ]
