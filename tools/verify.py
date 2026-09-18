@@ -95,6 +95,33 @@ if n_items != total_expected:
     idx_errors.append(f'索引 {n_items} 条 != 页面锚点 {total_expected} 条（先重跑 tools/build-search-index.py）')
 check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}）', idx_errors)
 
+# ---------- 5) 时间轴节点 = 账本条目 ----------
+tl_errors = []
+if os.path.exists('primary.html'):
+    ps = len(re.findall(r'<li class="ps-row', texts.get('primary.html', '')))
+    tl = len(re.findall(r'class="pt-dot"', texts.get('primary.html', '')))
+    if ps != tl:
+        tl_errors.append(f'账本 {ps} 条 != 时间轴 {tl} 节点（重跑 tools/build-ledger-timeline.py）')
+check('时间轴节点一致', tl_errors)
+
+# ---------- 6) 语录核实组卡 = 账本有引文条目（白名单精确核对） ----------
+qs_errors = []
+QS_EXEMPT = {'e2013', 'e2021-07', 'e2025'}  # e2013 在格言组；e2021-07 转述非第一人称；e2025 统计行非引语
+if os.path.exists('quotes.html') and os.path.exists('primary.html'):
+    ph = texts.get('primary.html', '')
+    blocks = re.findall(r'(<li class="ps-row[^"]*" id="(e\d[\d-]*)".*?</li>)', ph, re.S)
+    quoted_ids = {bid for full, bid in blocks if '<blockquote class="ps-quote">' in full}
+    carded_ids = set(re.findall(r'qs-card" href="primary\.html#(e[\d-]+)"',
+                                io.open('quotes.html', encoding='utf-8').read()))
+    missing = sorted(quoted_ids - carded_ids - QS_EXEMPT)
+    orphan = sorted(carded_ids - quoted_ids)
+    if missing:
+        qs_errors.append(f'有引文未上卡: {missing}')
+    if orphan:
+        qs_errors.append(f'卡片无对应引文块: {orphan}')
+    print(f"  · 语录卡 {len(carded_ids)} 张，账本引文块 {len(quoted_ids)} 个，白名单豁免 {len(QS_EXEMPT & (quoted_ids - carded_ids))} 项")
+check('语录卡覆盖（白名单核对）', qs_errors)
+
 # ---------- 汇总 ----------
 print()
 if FAIL:

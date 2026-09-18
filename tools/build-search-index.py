@@ -48,11 +48,13 @@ for m in re.finditer(r'<article class="doc-article" id="(d\d[\d-]*)">(.*?)</arti
     h2 = re.search(r'<h2>([^<]+)</h2>', b)
     badges = re.findall(r'<(?:span|a) class="doc-badge"[^>]*>([^<]+)</(?:span|a)>', b)
     quote = re.search(r'<blockquote>(.*?)</blockquote>', b, re.S)
+    note = re.search(r'<p class="note">(.*?)</p>', b, re.S)
     assert h2 and badges and quote, m.group(1)
     date = next((x for x in badges if re.match(r'2\d{3}', x.strip())), badges[0])
     items.append({
         'id': m.group(1), 'pg': 'documents.html', 't': '一手文档',
         'd': strip(date), 's': strip(h2.group(1)), 'q': strip(quote.group(1)), 'zh': '',
+        'bg': strip(note.group(1)) if note else '',
     })
 
 # ---------- interviews.html 访谈与表态 ----------
@@ -65,10 +67,12 @@ for m in re.finditer(r'<article class="iv-item" id="(i\d[\d-]*)">(.*?)</article>
     assert h2 and badges, m.group(1)
     if not quote:
         quote = re.search(r'<p class="ctx">(.*?)</p>', b, re.S)
+    ctx = re.search(r'<p class="ctx">(.*?)</p>', b, re.S)
     items.append({
         'id': m.group(1), 'pg': 'interviews.html', 't': '访谈与表态',
         'd': strip(badges[0] if re.match(r'2\d{3}', badges[0]) else badges[1] if len(badges) > 1 else badges[0]),
         's': strip(h2.group(1)), 'q': strip(quote.group(1)), 'zh': '',
+        'bg': strip(ctx.group(1)) if ctx else '',
     })
 
 # ---------- x-posts.html X 帖史 ----------
@@ -82,11 +86,13 @@ for part in parts[1:]:
     date = re.search(r'<a class="tweet-date" href="#[^"]*"[^>]*>([^<]+)</a>', b)
     text = re.search(r'<p class="tweet-text">(.*?)</p>', b, re.S)
     zh = re.search(r'<p class="tweet-zh">(.*?)</p>', b, re.S)
+    note = re.search(r'<p class="tweet-note">(.*?)</p>', b, re.S)
     assert date and text, mid.group(1)
     items.append({
         'id': mid.group(1), 'pg': 'x-posts.html', 't': 'X 帖',
         'd': date.group(1), 's': '@elonmusk',
         'q': strip(text.group(1)), 'zh': strip(zh.group(1)) if zh else '',
+        'bg': strip(note.group(1)) if note else '',
     })
 
 # ---------- 公司实体推断（多对多，用于检索过滤） ----------

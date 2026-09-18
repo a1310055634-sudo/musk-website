@@ -52,6 +52,7 @@ window.SEARCH_INDEX = [
   "s": "The Secret Tesla Motors Master Plan（just between you and me）",
   "q": "“As you know, the initial product of Tesla Motors is the Roadster…”",
   "zh": "",
+  "bg": "全文极短，结构却是一个完整的资本循环：高端产品回血 → 逐级降价放量。最后一句玩笑让整份蓝图合法地「藏在明处」十年——媒体与对手都没把它当成路线图来定价。",
   "c": [
    "Tesla"
   ]
@@ -64,8 +65,9 @@ window.SEARCH_INDEX = [
   "s": "把公司战略写成一句玩笑",
   "q": "“Build sports car. Use that money to build an affordable car. Use that money to build an even more affordable car… Don't tell anyone.”",
   "zh": "",
+  "bg": "Tesla 成立三年，行业共识是电动车永远做不大。他以董事长身份把公司真正的路线图——藏在玩笑里——写上了官方博客。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -90,6 +92,7 @@ window.SEARCH_INDEX = [
   "s": "「第四次总会有好运」",
   "q": "“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”",
   "zh": "",
+  "bg": "三连败之后、金融危机最坏的一周，第四次发射前，他公开承诺：只要还有一线可能，公司就继续打下去。火箭入轨后，他在约 500 名员工面前说了下面这段话。",
   "c": [
    "综合"
   ]
@@ -208,6 +211,7 @@ window.SEARCH_INDEX = [
   "s": "「现有电池的问题在于它们很烂」",
   "q": "“The issue with existing batteries is that they suck. They are expensive, unreliable and bad in every way.” — “We're talking about trying to change the fundamental energy infrastructure of the world.”",
   "zh": "",
+  "bg": "发布会前媒体等的是一辆车，他却抱出一块墙挂电池。整场发布的说服策略只有两步：先把行业贬到底，再把价格亮出来。",
   "c": [
    "综合"
   ]
@@ -246,8 +250,9 @@ window.SEARCH_INDEX = [
   "s": "「造机器的机器」",
   "q": "“The machine that builds the machine.”",
   "zh": "",
+  "bg": "Model X 磕磕绊绊、Model 3 量产在即。他告诉投资者：Tesla 最重要的产品不是任何一辆车，而是工厂本身。全自动化未来工厂甚至有内部代号——「外星无畏舰」。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -286,8 +291,10 @@ window.SEARCH_INDEX = [
   "s": "Master Plan, Part Deux",
   "q": "“Create stunning solar roofs and seamlessly integrated battery storage.”",
   "zh": "",
+  "bg": "第一份蓝图讲「产品阶梯」，这一份讲垂直整合：能源、产品线、自动驾驶、闲置资产变现，四条线全部指向「Tesla 自己拥有关键环节」。发表后仅四个月，公司即以约 26 亿美元收购 SolarCity。",
   "c": [
-   "综合"
+   "SolarCity",
+   "Tesla"
   ]
  },
  {
@@ -324,8 +331,9 @@ window.SEARCH_INDEX = [
   "s": "「让人类成为多行星物种」",
   "q": "“Making Humans a Multi-Planetary Species.”",
   "zh": "",
+  "bg": "Falcon 9 连续回收成功之后，他在国际宇航大会上首次公布了完整的火星殖民运输架构（ITS）——这场演讲后来以论文形式刊于《New Space》期刊（2017）。",
   "c": [
-   "综合"
+   "SpaceX"
   ]
  },
  {
@@ -376,8 +384,9 @@ window.SEARCH_INDEX = [
   "s": "「欢迎来到生产地狱」",
   "q": "“Welcome to production hell! That's where we're going to be for at least six months.”",
   "zh": "",
+  "bg": "Model 3 预订压顶、周产 5000 的目标定死、现金时钟在走。第一批车主交付的舞台上，他没有讲愿景，而是讲了一句警告。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -401,6 +410,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "When the zombie apocalypse happens, you'll be glad you bought a flamethrower. Works against hordes of the undead or your money back!",
   "zh": "丧尸末日来临时，你会庆幸自己买了火焰喷射器。对不死军团有效，无效退款！",
+  "bg": "背景/后续：Boring Company「Not-a-Flamethrower」营销战役（原帖 status/957441956874919936 · The Guardian 报道）——两万台售罄，筹资约 1000 万美元。深读版见主页「言行实录」。",
   "c": [
    "X / Twitter",
    "Boring Company"
@@ -428,6 +438,7 @@ window.SEARCH_INDEX = [
   "s": "「人类被低估了」——给自己的公开纠错",
   "q": "“Excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
   "zh": "",
+  "bg": "两年前他还告诉投资者，工厂是「造机器的机器」、全自动化未来工厂代号「外星无畏舰」。生产地狱里，他公开收回了自己的话。",
   "c": [
    "Tesla"
   ]
@@ -454,8 +465,10 @@ window.SEARCH_INDEX = [
   "s": "Taking Tesla Private（致员工私有化方案信）",
   "q": "“As a public company, we are subject to wild swings in our stock price that can be a major distraction for everyone working at Tesla. Being public also subjects us to the quarterly earnings cycle that puts enormous pressure on Tesla to make decisions that may be right for a given quarter, but not necessarily right for the long-term.”",
   "zh": "",
+  "bg": "信件开篇即是制度化理由——股价波动、财报周期、史上被做空最重的股票；收尾落在「无论结果如何，未来都非常光明」。两条线之间的方案设计（全员可选、员工继续持股、每六个月一次买卖窗口、不并 SpaceX）几乎是 SpaceX 结构的一次移植。文中 $420 与推文的 $420 同源，后文见言行实录 2018.08.07 条目。",
   "c": [
-   "Tesla"
+   "Tesla",
+   "SpaceX"
   ]
  },
  {
@@ -466,6 +479,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "Am considering taking Tesla private at $420. Funding secured.",
   "zh": "正考虑以每股 420 美元将 Tesla 私有化。资金已到位。",
+  "bg": "背景/后续：股价异动、SEC 起诉、各罚 2000 万美元和解。深读版见主页「言行实录」。",
   "c": [
    "Tesla",
    "X / Twitter"
@@ -519,7 +533,9 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "Sledgehammer impact on door cracked the base of the glass, which is why the steel ball didn't bounce off. Should have done steel [balls] on wheels.",
   "zh": "大锤砸门时已震裂玻璃底部，所以钢球没有弹开。应该先把钢球砸车轮。",
+  "bg": "背景/后续：Cybertruck 发布会破玻璃次日的技术解释（BBC 报道）。深读版见主页。",
   "c": [
+   "Tesla",
    "X / Twitter"
   ]
  },
@@ -531,8 +547,9 @@ window.SEARCH_INDEX = [
   "s": "「大锤砸门」的技术解释",
   "q": "“Sledgehammer impact on door cracked the base of the glass, which is why the steel ball didn't bounce off. Should have done steel [balls] on wheels.”",
   "zh": "",
+  "bg": "Cybertruck 发布会破玻璃名场面的次日，他在 X 上给出了工程师式的解释——不找借口，只讲机理。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -556,6 +573,7 @@ window.SEARCH_INDEX = [
   "s": "「我不太信教，但这一次我祈祷了」",
   "q": "“This is a dream come true for me and everyone at SpaceX.” — “I'm not very religious, but I prayed for this one.”",
   "zh": "",
+  "bg": "Crew Dragon 载人首飞前夜，公司从 2008 年的棺材边走到了国家载人任务的承运席。发射当日他说了这样两段话。",
   "c": [
    "SpaceX"
   ]
@@ -581,6 +599,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "The Boca Chica Village area (part of Cameron County) will be incorporated as Starbase, Texas.",
   "zh": "博卡奇卡村（卡梅伦县的一部分）将并入为德克萨斯州 Starbase。",
+  "bg": "背景/后续：四年前的一句预言（Starship wiki 帖档收录）——2025.05.03 建市投票通过，预言成真。呼应「STARBASE IS AWESOME」帖。",
   "c": [
    "SpaceX",
    "X / Twitter"
@@ -608,7 +627,9 @@ window.SEARCH_INDEX = [
   "s": "「讨厌当 CEO，但没有我公司会死」",
   "q": "He said he “hates” being Tesla's CEO — but kept the job because, without him, the company would “die”.",
   "zh": "",
+  "bg": "26 亿美元收购 SolarCity 五年后，股东就关联交易起诉他和董事会。宣誓之下、一坐数小时的证人席上，他说出了对自己角色的最坦白定义。",
   "c": [
+   "SolarCity",
    "Tesla"
   ]
  },
@@ -659,6 +680,7 @@ window.SEARCH_INDEX = [
   "s": "「我根本不在乎经济账」",
   "q": "“I don't care about the economics at all… This is not a way to make money… an inclusive arena for free speech… important to the future of civilization.” — “I'm not actually sure I will be able to acquire it.”",
   "zh": "",
+  "bg": "已被拍到成为推特最大股东、拒绝董事会席位之后，他把全现金要约搬上 TED 舞台，当众解释这笔交易的动机。",
   "c": [
    "综合"
   ]
@@ -671,8 +693,9 @@ window.SEARCH_INDEX = [
   "s": "Agreement and Plan of Merger（收购协议关键条款摘录）",
   "q": "“At the effective time, each Share issued and outstanding immediately prior to the Effective Time … shall be converted into the right to receive $54.20 in Cash, without interest …” —— Section 2.1(a) Conversion; Exchange of Shares",
   "zh": "",
+  "bg": "四个条款就是整场收购的骨架：价格锁死在 54.20 美元（推文里那个数字直接写进了法律文本）、终止日定在十月下旬、违约代价十亿美元、而第 9.9 条让「不卖也得卖」成为可执行的法条——特定履约正是三个月后 Twitter 在特拉华州法院起诉马斯克时援引的武器，也是他最终完成交割的法律原因。见言行实录 2022.04.14 要约条目。",
   "c": [
-   "综合"
+   "X / Twitter"
   ]
  },
  {
@@ -696,6 +719,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "Entering Twitter HQ – let that sink in!",
   "zh": "正在进入推特总部——让「水槽」（这件事）沉进去吧。",
+  "bg": "背景/后续：抱着洗手池进总部的视频配文（原帖 status/1585341984679469056）。48 小时后交割完成。",
   "c": [
    "X / Twitter"
   ]
@@ -721,6 +745,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "The bird is freed. Spoiler alert: Let the good times roll",
   "zh": "鸟儿自由了。——剧透警告：让好日子滚滚而来。",
+  "bg": "背景/后续：440 亿交割完成后的两连发（原帖 status/1585841080431321088；后句 Washington Post 记录）。数小时内解雇三高管。",
   "c": [
    "X / Twitter"
   ]
@@ -746,6 +771,7 @@ window.SEARCH_INDEX = [
   "s": "Extremely Hardcore（全员邮件）",
   "q": "“Going forward, to build a breakthrough Twitter 2.0 and succeed in an increasingly competitive world, we will need to be extremely hardcore.”",
   "zh": "",
+  "bg": "邮件附有一个链接：点「yes」即承诺留下，不点则视为辞职、领取三个月遣散费。通牒没有中间项——这是他一贯的二进制决策风格在人事上的应用。",
   "c": [
    "X / Twitter"
   ]
@@ -758,6 +784,7 @@ window.SEARCH_INDEX = [
   "s": "「唯有卓越的表现才算及格」",
   "q": "“Going forward, to build a breakthrough Twitter 2.0… we will need to be extremely hardcore… Only exceptional performance will constitute a passing grade.”",
   "zh": "",
+  "bg": "交割后第三周，裁员已毕、广告主流失、烧钱持续。他选择用一封深夜邮件给全体员工二选一。",
   "c": [
    "X / Twitter"
   ]
@@ -783,6 +810,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "The public deserves to know what really happened and how it happened.",
   "zh": "公众理应知道究竟发生了什么、是如何发生的。",
+  "bg": "背景/后续：Twitter Files 系列预告（首发 2022.12.02 · Taibbi）。诚实标注：此句为广泛征引措辞，逐字文本未经原帖存档复核——不杜撰出处。深读版见主页「言行实录」。",
   "c": [
    "X / Twitter"
   ]
@@ -808,6 +836,7 @@ window.SEARCH_INDEX = [
   "s": "Master Plan Part 3 — Sustainable Energy for All of Earth",
   "q": "“Sustainable Energy for All of Earth.”",
   "zh": "",
+  "bg": "与前两份「叙事式」蓝图不同，Part 3 是一份工程可行性研究：把去化石燃料所需的储能、发电与材料规模逐项量化。语气从「大话」切换成了「公式」。",
   "c": [
    "综合"
   ]
@@ -834,7 +863,9 @@ window.SEARCH_INDEX = [
   "s": "xAI 宣言（章程级一句话）",
   "q": "“To understand the true nature of the universe.”",
   "zh": "",
+  "bg": "第二句出自 7 月 14 日 Twitter Spaces（Reuters 报道）：把「最大限度好奇」当作安全策略——一个一心求真的 AI 没有伤害人类的动机。章程一句话的长度，是他刻意为之的产品定义。",
   "c": [
+   "X / Twitter",
    "xAI"
   ]
  },
@@ -846,8 +877,9 @@ window.SEARCH_INDEX = [
   "s": "「从 AI 安全的角度，这是我能想到的最好方案」",
   "q": "“If it tried to understand the true nature of the universe, that's actually the best thing that I can come up with from an AI safety standpoint.”",
   "zh": "",
+  "bg": "xAI 官宣两天后的 Spaces 对谈里，他解释了为什么一家 AI 公司的章程可以只有一句话。",
   "c": [
-   "综合"
+   "xAI"
   ]
  },
  {
@@ -858,6 +890,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "As soon as it's out of early beta, xAI's Grok system will be available to all X Premium+ subscribers.",
   "zh": "一旦结束早期测试，xAI 的 Grok 系统将面向所有 X Premium+ 订阅用户开放。",
+  "bg": "背景/后续：Grok 首发公告（TechCrunch/BI 记录）；名字出自海因莱因《异乡异客》。",
   "c": [
    "X / Twitter",
    "xAI"
@@ -884,6 +917,7 @@ window.SEARCH_INDEX = [
   "s": "「让全世界知道是谁杀死了这家公司」",
   "q": "“If somebody's going to try to blackmail me with advertising, they can go f*** themselves… The whole world will know that those advertisers killed the company.”",
   "zh": "",
+  "bg": "广告主因他的帖子出走的数周后，他被当面问到想对这些广告主说什么。他的回答一字一顿。",
   "c": [
    "综合"
   ]
@@ -896,6 +930,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "（非帖文）DealBook 峰会访谈实录：「If somebody's going to try to blackmail me with advertising… The whole world will know that those advertisers killed the company.」",
   "zh": "（访谈而非帖文）如果有人想用广告来要挟我……全世界都会知道，是那些广告主杀死了这家公司。",
+  "bg": "背景/后续：严格说是访谈发言而非帖文，收录于此供对照（CNBC 记录）。深读版见主页。",
   "c": [
    "X / Twitter"
   ]
@@ -934,6 +969,7 @@ window.SEARCH_INDEX = [
   "s": "「Telepathy：只需思考，即可控制一切」",
   "q": "“The first @Neuralink product is called Telepathy. Enables control of your phone or computer, and through them almost any device, just by thinking.”",
   "zh": "",
+  "bg": "Neuralink 首例人体植入完成后，他连发两帖：先临床陈述，再命名产品。这是手术新闻上叠的一层销售语言。",
   "c": [
    "Neuralink"
   ]
@@ -946,6 +982,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "The first human received an implant from @neuralink yesterday and is recovering well. Initial results show promising neuron spike detection.",
   "zh": "首位人类昨日接受了 @neuralink 植入，恢复良好。初步结果显示神经元尖峰检测前景良好。",
+  "bg": "背景/后续：首例植入官宣帖（原帖 status/1752098683024220632）——同日的 Telepathy 命名帖见「言行实录」。",
   "c": [
    "X / Twitter",
    "Neuralink"
@@ -959,6 +996,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "This week, @xAI will open source Grok",
   "zh": "本周，@xAI 将开源 Grok。",
+  "bg": "背景/后续：六天后 Grok-1 权重以 Apache 2.0 发布（314B 参数 MoE，xAI 官网）；他同时在回帖里写道「OpenAI is a lie」（Reuters 报道）。",
   "c": [
    "X / Twitter",
    "xAI"
@@ -1011,8 +1049,9 @@ window.SEARCH_INDEX = [
   "s": "「塔接住了火箭」",
   "q": "“The tower has caught the rocket!! … Big step towards making life multiplanetary was made today.” — “Science fiction without the fiction part.”",
   "zh": "",
+  "bg": "Starship 第五飞获监管许可尝试一件从未有人做过的事：让助推器直接回到发射塔的臂弯里。他连发三帖。",
   "c": [
-   "综合"
+   "SpaceX"
   ]
  },
  {
@@ -1023,7 +1062,9 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "The tower has caught the rocket!! Big step towards making life multiplanetary was made today. Science fiction without the fiction part.",
   "zh": "塔接住了火箭！！……今天，向让生命多行星化迈出了一大步。——没有虚构部分的科幻。",
+  "bg": "背景/后续：Starship 第五飞助推器被发射塔捕获（Reuters/AP 引述）。深读版见主页。",
   "c": [
+   "SpaceX",
    "X / Twitter"
   ]
  },
@@ -1061,6 +1102,7 @@ window.SEARCH_INDEX = [
   "s": "「STARBASE IS AWESOME」",
   "q": "“STARBASE IS AWESOME AND ANYONE CAN VISIT.”",
   "zh": "",
+  "bg": "Starbase 建市投票通过当天，他在自己的平台上庆祝——把一座公司城的存在大声宣布给全世界。",
   "c": [
    "SpaceX"
   ]
@@ -1073,6 +1115,7 @@ window.SEARCH_INDEX = [
   "s": "@elonmusk",
   "q": "STARBASE IS AWESOME AND ANYONE CAN VISIT.",
   "zh": "STARBASE 太棒了，任何人都可以来参观。",
+  "bg": "背景/后续：Starbase 建市投票通过当日的庆祝帖（Texas Tribune/13News 报道）；5.20 县认证。",
   "c": [
    "SpaceX",
    "X / Twitter"
@@ -1099,6 +1142,7 @@ window.SEARCH_INDEX = [
   "s": "Master Plan Part IV",
   "q": "“Sustainable abundance — by redefining the fundamental building blocks of labor, mobility and energy at scale and for all.”",
   "zh": "",
+  "bg": "关键词从「车」切换到 AI、Optimus 与自动驾驶。评论界普遍称其过于哲学与含糊——与前作 Part 3 的工程气质形成鲜明反差。他后来又把使命措辞改为「Amazing Abundance」。",
   "c": [
    "综合"
   ]
@@ -1124,6 +1168,7 @@ window.SEARCH_INDEX = [
   "s": "「无限金钱外挂」",
   "q": "“There's not like an obvious limit. So like Optimus is kind of like an infinite money glitch. And maybe there won't even be money in the future.” — “Optimus will actually eliminate poverty… bigger than cell phones.”",
   "zh": "",
+  "bg": "万亿美元薪酬方案通过（约 75% 赞成）后，他刚下表决台就走上演讲台，把承诺推到了逻辑极限。",
   "c": [
    "综合"
   ]
@@ -1136,6 +1181,7 @@ window.SEARCH_INDEX = [
   "s": "Series E（xAI 官方融资公告）",
   "q": "“We're building AI to accelerate human scientific discovery. Today, we're announcing that we have raised $20 billion at a $230 billion post-money valuation.”",
   "zh": "",
+  "bg": "公告本身即是估值宣言：把「加速人类科学发现」写在第一句，把 2300 亿写在第二句——使命叙事与资本规模在同一段落里完成绑定。英伟达与思科的参投还有另一层含义：算力供给方同时成为股东，供应商与投资人在同一张表上（此句为编者分析，非公告文字）。",
   "c": [
    "xAI"
   ]
