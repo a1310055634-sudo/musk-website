@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.59.0 轮 / 2026-09-19 WebSearch 核实）**：新页 **finance.html「财务资本全景」** 第一批（Tesla + SpaceX；X/xAI 下批）。
+> Tesla：2023 收入 ≈$96.8B（+18.8%）、交付 ≈181 万辆；2024 收入 ≈$97.7B（+0.95%）、交付 ≈179 万辆、经营现金流 $14.9B、储能部署 31.4GWh（Macrotrends/CNBC/Tesla 10-K 口径）。2025 收入 ≈$94.8B 首次年度下滑（后续报道口径，页面暂未收录，待确认后入册）。
+> SpaceX 估值时间线（公开报道口径，非公司披露）：2020.08 ≈$46B（$2B 轮后）→ 2021.02 $74B → 2021.10 $100.3B（CNBC）→ 2022.06 $127B → 2023 年中 ≈$150B → 2024.12 tender offer ≈$350B（约 $185/股）。网络流传「$1.75T IPO」等说法未经证实，未收录。
+> 编者分析已标注（Tesla 2024 增长贴地=定价页边界验证；SpaceX 无 IPO 资本结构）。
+
 > **新事实入包（v5.58.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 45 → 47 条。
 > ① **2019.09.28 Starship Mk1 发布**（id e2019-09-28）：引语 “Honestly, I'm in love with steel.”（Ars Technica《Elon Musk, Man of Steel》 headline 级引用 + Popular Mechanics 现场报道）；另一句 “This is the most inspiring thing I've ever seen.”（Popular Mechanics）。发布会于博卡奇卡、猎鹰一号入轨十一周年当晚；「liquid silver」为媒体/粉丝描述而非其原话（已甄别）。
 > ② **2010.06.29 Tesla IPO**（id e2010-06-29）：行为条目（无逐字引语段，事实包既有口径）——募资约 $226M、1956 年福特后美国车企首例。
