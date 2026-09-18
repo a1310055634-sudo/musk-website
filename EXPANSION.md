@@ -1,5 +1,9 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **重组说明（v5.51.0 轮）**：新页 **reading.html「长卷阅读版」**（新三阶段 Phase1-1）——重组不新造：
+> 前三章全部内容取自站内已核实材料（账本条目/人格六卡/资本演化页），每段附账本与板块锚点；
+> 零新增事实，无新增核实需求。四至十章以「重组中」跳转卡过渡（指向对应既有板块），后续两轮填充。
+
 > **新事实入包（v5.43.0 轮 / 2026-09-18 WebSearch 核实）**：言行实录 44 → 45 条——新增 **2014.05.29 Dragon V2 发布**（id e2014-05-29）。
 > 核心引文（发布会）：“It can land anywhere on Earth with the accuracy of a helicopter … I think that's what a spaceship should be able to do.”
 > 来源：Universe Today（完整对句）、NBC News、New Scientist、SCMP 多源同引；发布会 2014-05-29 于霍桑总部。

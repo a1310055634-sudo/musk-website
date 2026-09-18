@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>长卷阅读版 · 马斯克商业志 MUSK, INC.</title>
+<meta name="robots" content="noindex" />
+<meta name="theme-color" content="#faf9f6" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+<style>
+.rd-layout { display: grid; grid-template-columns: 1fr 230px; gap: 34px; max-width: 1120px; margin: 0 auto; padding: 34px 20px 70px; }
+.rd-main { min-width: 0; max-width: 720px; }
+.rd-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.rd-back:hover { text-decoration: underline; }
+.rd-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 20px; }
+.rd-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 42px); letter-spacing: .04em; }
+.rd-head .rd-sub { color: #5c574e; font-size: 14px; margin-top: 8px; font-style: italic; line-height: 1.8; }
+.rd-ch { scroll-margin-top: 70px; padding-top: 30px; margin-top: 10px; border-top: 3px double #1a1a1a; }
+.rd-ch:first-of-type { border-top: none; padding-top: 6px; }
+.rd-ch .rd-kick { font-size: 11px; letter-spacing: .24em; color: #7c2d2d; font-weight: 700; }
+.rd-ch h2 { font-family: Georgia, "STSong", serif; font-size: 26px; line-height: 1.35; margin: 6px 0 4px; }
+.rd-ch .rd-lead { color: #5c574e; font-size: 14px; font-style: italic; line-height: 1.85; margin: 4px 0 14px; }
+.rd-ch p.rd-t { font-size: 15px; line-height: 2.0; margin: 0 0 14px; }
+.rd-ch p.rd-t b { color: #7c2d2d; }
+.rd-more { border-top: 1px dotted rgba(26,26,26,.25); margin-top: 16px; padding-top: 10px; font-size: 12.5px; color: #5c574e; line-height: 2; }
+.rd-more a { color: #7c2d2d; text-decoration: none; }
+.rd-more a:hover { text-decoration: underline; }
+.rd-pending { border: 1px dashed rgba(26,26,26,.3); padding: 16px 18px; margin-top: 30px; font-size: 13.5px; color: #5c574e; line-height: 2; }
+.rd-pending a { color: #7c2d2d; text-decoration: none; }
+.rd-pending a:hover { text-decoration: underline; }
+.rd-pending b { color: #1a1a1a; }
+/* 侧目录 */
+.rd-toc { position: sticky; top: 24px; align-self: start; font-size: 13px; }
+.rd-toc .rd-toc-h { font-size: 11px; letter-spacing: .22em; color: #7c2d2d; font-weight: 700; margin-bottom: 10px; }
+.rd-toc a { display: block; padding: 5px 0 5px 12px; color: #5c574e; text-decoration: none; border-left: 2px solid rgba(26,26,26,.15); line-height: 1.5; }
+.rd-toc a:hover { color: #7c2d2d; }
+.rd-toc a.rd-on { color: #7c2d2d; border-left-color: #7c2d2d; font-weight: 700; }
+.rd-toc a.rd-todo { color: #9a948b; }
+@media (max-width: 960px) {
+  .rd-layout { grid-template-columns: 1fr; gap: 0; }
+  .rd-toc { position: static; border: 1px solid rgba(26,26,26,.2); background: #f3f0ea; padding: 12px 14px; margin-bottom: 22px; }
+  .rd-toc a { display: inline-block; border-left: none; padding: 3px 10px 3px 0; }
+}
+@media print {
+  .rd-layout { grid-template-columns: 1fr; padding: 10px; }
+  .rd-toc, .rd-back, .progress { display: none !important; }
+  .rd-ch { break-before: page; }
+  .rd-ch:first-of-type { break-before: auto; }
+  .rd-pending { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="rd-layout">
+  <main class="rd-main">
+    <a class="rd-back" href="index.html">← 返回网站主页 / Back to site</a>
+    <header class="rd-head">
+      <h1 data-en="The Long Read">长卷阅读版</h1>
+      <p class="rd-sub" data-en="A continuous narrative rebuilt from verified material across this site — read cover to cover, or jump via the table of contents. Chapters 4-10 are being rebuilt in place.">一部从头读到尾的连续叙事——全部内容重组自本站已核实材料，不作新造。右侧目录可跳章；第四至十章正按计划重组（当前可经目录卡直达对应板块）。</p>
+    </header>
+
+    <!-- 第一章 -->
+    <section class="rd-ch" id="ch1">
+      <span class="rd-kick">第一章 · CHAPTER ONE</span>
+      <h2 data-en="Prologue: One Hundred and Eighty Million, Split Three Ways">卷首：一亿八千万，拆成三份</h2>
+      <p class="rd-lead" data-en="Every story in this book starts from a single allocation decision in October 2002.">本书所有的故事，都始于 2002 年 10 月的一笔分配。</p>
+      <p class="rd-t">2002 年 10 月 3 日，eBay 完成 15 亿美元收购 PayPal，31 岁的马斯克税后到手约 1.8 亿美元。他接下来的动作后来被本站概括为「退出即入场」：约 <b>1 亿投进 SpaceX、7000 万投进 Tesla、1000 万投进 SolarCity</b>——三家他自己控制的公司，其中两家被普遍预期会死。然后，他不得不向朋友借钱付房租（<a href="primary.html#e2002-10-03">账本 2002.10.03</a>）。</p>
+      <p class="rd-t">2008 年，两家公司同时走到终点线前。9 月 28 日，Falcon 1 第四次发射入轨，「常言道，第四次总会有好运」；12 月 23 日，NASA 拍板 16 亿美元货运合同；12 月 24 日下午 6 点，Tesla 的融资在「可能的最后一天的最后一个小时」关闭（<a href="primary.html#e2008-12-24">账本 2008.12.24</a>）。背靠背的两天，救下了后来的一切。</p>
+      <p class="rd-t">此后二十年是这条逻辑的反复展开：2012 年 Model S「打破魔咒」，2015 年猎鹰一级着陆、2017 年复飞把复用从特技变成生意，2018 年猎鹰重型把被讥笑的幻灯片变成直播画面（同年的 funding secured 风波则让他付出 4000 万美元与董事长职位），2020 年载人龙上天、Battery Day 立下降本路线，2022 年买下 Twitter 并把「Extremely Hardcore」发给全员，2023 年用史上最大降价打需求战，2024 年星架筷子接火箭，2025 年股东大会批下万亿美元薪酬、Optimus 被他称作「无限金钱外挂」，2026 年初 xAI 完成 200 亿美元 Series E。</p>
+      <p class="rd-more">延伸阅读：<a href="primary.html">言行实录（45 条全账本）</a> · <a href="capital-evolution.html">资本模式演化时间轴</a> · <a href="documents.html">九份一手文档</a></p>
+    </section>
+
+    <!-- 第二章 -->
+    <section class="rd-ch" id="ch2">
+      <span class="rd-kick">第二章 · CHAPTER TWO</span>
+      <h2 data-en="Snapshot: The Business Persona">速览与人格：六张行为证据卡</h2>
+      <p class="rd-lead" data-en="Judge by deeds, not by intentions — six patterns that recur across two decades.">不猜动机，只看行为——二十年间反复出现的六种模式。</p>
+      <p class="rd-t"><b>第一性原理定价</b>：从物理上限倒推成本，而不是从市场价往下谈。电池贵，就拆到原材料再算一遍；隧道贵，就问隧道成本里有多少是「惯例」。<b>极端风险偏好</b>：2008 年把最后一份钱投进去，行为本身成了融资的抵押品。</p>
+      <p class="rd-t"><b>Hardcore 文化</b>：从 2017 年「production hell」的现场睡工厂，到 2022 年发给全员的「Extremely Hardcore」二选一通牒——他反复把组织推到高强度的稳态。<b>垂直整合</b>：但整合有精确判据——只做「决定成本曲线与迭代速度」的环节，压铸机照样外购意大利 IDRA（见<a href="supplychain.html">供应链页</a>）。</p>
+      <p class="rd-t"><b>用人逻辑</b>：从相邻行业挖人重造范式（火箭工程师来自造发动机的、电池专家来自做消费电子的），再用「第一性原理」把新人逼成专家。<b>表达即战略</b>：从秘密蓝图到「funding secured」再到收购买下全球广场，公开发言从来不是公关，而是产品发布与融资工具（这条路的学费单也真实存在——SEC 的 4000 万美元罚单）。</p>
+      <p class="rd-more">延伸阅读：<a href="persona.html">商业人格六卡</a> · <a href="playbook.html">可复用的方法六卡</a> · <a href="profile.html">速览档案</a></p>
+    </section>
+
+    <!-- 第三章 -->
+    <section class="rd-ch" id="ch3">
+      <span class="rd-kick">第三章 · CHAPTER THREE</span>
+      <h2 data-en="The Arc in Time: 2002 to 2026">时间线：2002 → 2026 的六个时代</h2>
+      <p class="rd-lead" data-en="Four eras of capital, five eras of product — read chronologically, everything connects.">按时间读，一切都连得起来。</p>
+      <p class="rd-t"><b>创世（2002–2006）</b>：PayPal 分配定盘；2006 年 8 月《The Secret Tesla Motors Master Plan》把公司战略伪装成一句玩笑写上官方博客——「别告诉任何人」（<a href="primary.html#e2006-08">账本</a> / <a href="documents.html#d2006-08">全文</a>）。</p>
+      <p class="rd-t"><b>至暗与破局（2008–2012）</b>：猎鹰第四次入轨、NASA 16 亿、圣诞夜融资；四年后 Model S 交付，「打破魔咒」。</p>
+      <p class="rd-t"><b>开放与复用（2013–2017）</b>：2013 Hyperloop 白皮书把没时间做的想法开源；2014 年开放专利、发布 Dragon V2；2015 年一级着陆、2017 年 SES-10 复飞——复用从特技变成生意；代价是 2016 年 Amos-6 爆燃与 2017 年的生产地狱。</p>
+      <p class="rd-t"><b>平台与豪赌（2018–2021）</b>：火焰喷射器与首条隧道、猎鹰重型与 funding secured 风波同月发生；2020 年载人龙与 Battery Day；2021 年 Starbase 建市与万亿市值。</p>
+      <p class="rd-t"><b>平台整合与定价战（2022–2026）</b>：440 亿收购 Twitter、the bird is freed、Extremely Hardcore、广告主流失与 DealBook 回应；2023 年降价潮与需求管理；2024 年塔捕与 Robotaxi；2025 年万亿美元薪酬、Optimus 宣言、Starbase 建市与 Part IV；2026 年 xAI 200 亿 Series E。</p>
+      <p class="rd-more">延伸阅读：<a href="primary.html">言行实录（含页顶可交互时间轴）</a> · <a href="timeline.html">商业时间线板块</a> · 每个年份词都已链到账本对应条目</p>
+    </section>
+
+    <!-- 第四至十章：重组中 -->
+    <section class="rd-pending">
+      <b>第四至十章 · 重组中</b>——以下章节将按计划陆续并入长卷，当前可直接阅读对应板块：<br>
+      <a href="companies.html">第四章 · 公司史四部曲</a> ·
+      <a href="stories.html">第五章 · 商战故事</a> ·
+      <a href="deep-dive-04.html">第六章 · 监管与失败</a> ·
+      <a href="playbook.html">第七章 · 方法论</a> ·
+      <a href="money.html">第八章 · 资本与定价</a>（<a href="pricing.html">定价</a>）·
+      <a href="supplychain.html">第九章 · 供应链</a> ·
+      <a href="quotes.html">第十章 · 语录收束</a>
+    </section>
+  </main>
+
+  <aside class="rd-toc" aria-label="长卷目录">
+    <div class="rd-toc-h">目录 · CONTENTS</div>
+    <a href="#ch1" class="rd-on">壹 · 卷首</a>
+    <a href="#ch2">贰 · 速览与人格</a>
+    <a href="#ch3">叁 · 时间线</a>
+    <a href="companies.html" class="rd-todo">肆 · 公司史（重组中）</a>
+    <a href="stories.html" class="rd-todo">伍 · 商战故事（重组中）</a>
+    <a href="deep-dive-04.html" class="rd-todo">陆 · 监管与失败（重组中）</a>
+    <a href="playbook.html" class="rd-todo">柒 · 方法论（重组中）</a>
+    <a href="money.html" class="rd-todo">捌 · 资本与定价（重组中）</a>
+    <a href="supplychain.html" class="rd-todo">玖 · 供应链（重组中）</a>
+    <a href="quotes.html" class="rd-todo">拾 · 语录收束（重组中）</a>
+  </aside>
+</div>
+
+<script>
+(function () {
+  var links = document.querySelectorAll('.rd-toc a[href^="#"]');
+  var chs = [...document.querySelectorAll('.rd-ch')];
+  if (!('IntersectionObserver' in window) || !chs.length) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      links.forEach(function (a) { a.classList.toggle('rd-on', a.getAttribute('href') === '#' + en.target.id); });
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  chs.forEach(function (c) { io.observe(c); });
+})();
+</script>
+<script src="app.js"></script>
+</body>
+</html>
