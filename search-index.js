@@ -112,6 +112,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2009-03-26",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2009.03.26",
+  "s": "Model S 原型发布 · 霍恩设计工作室 · Forbes/New Yorker 口径",
+  "q": "圣诞夜救援三个月后，Tesla 得证明「下一辆车」存在。原型发布选在霍恩的设计工作室——与 SpaceX 总部一门之隔——而联邦 ATVM 贷款申请正在审批中。",
+  "zh": "",
+  "bg": "Three months after the Christmas Eve rescue, Tesla had to prove the next car existed. The prototype reveal was staged at the Hawthorne design studio — next door to SpaceX headquarters — with a federal ATVM loan application pending.",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2010-06-29",
   "pg": "primary.html",
   "t": "言行实录",
