@@ -631,8 +631,8 @@ window.SEARCH_INDEX = [
   "t": "言行实录",
   "d": "2021.10.25",
   "s": "Hertz 十万辆订单 · 万亿市值日 · NPR/CNBC/WSJ",
-  "q": "刚走出破产重整、正在重建租车车队的 Hertz 宣布订购 10 万辆 Tesla Model 3——14 个月合计约 42 亿美元，是这家租车公司史上最大订单。",
-  "zh": "",
+  "q": "“No contract has been signed yet with Hertz … [the deal] has zero effect on our economics.”",
+  "zh": "与 Hertz「尚未签约」……这笔交易「对我们的经济利益毫无影响」。",
   "bg": "Hertz — fresh out of bankruptcy and rebuilding its rental fleet — announced an order of 100,000 Tesla Model 3s, about $4.2 billion over 14 months, the largest order in the rental company's history.",
   "c": [
    "Tesla"
