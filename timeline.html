@@ -57,6 +57,18 @@
         <h4 data-en="How to read this chapter · Editor's guide">阅读路径 · 编者导读</h4>
         <p data-en="Read this chapter as three volumes: Vol.1 Origins &amp; All-in (2006-2008) — Zip2, X.com, the fourth rocket; Vol.2 Scaling (2010-2018) — IPO, production hell, the SEC tweet; Vol.3 Platforms &amp; AI (2022-2026) — the $44B takeover, Grok, the merger. Each entry is a first-hand anchor: follow the links into 商战 and 第一手 for the full stories.">本章可作三卷来读：卷一「起步与豪赌」2006-2008——Zip2、X.com 与第四枚火箭；卷二「规模化」2010-2018——上市、生产地狱与 SEC 推文；卷三「平台与 AI」2022-2026——440 亿收购、Grok 与合并。每一条都是第一手锚点：顺着链接进入「经典商战」与「第一手」板块，可读到完整故事。</p>
       </div>
+      <div class="gx-sec reveal" id="gx-sec">
+        <h3>全局泳道时间轴 · 85 条一手材料</h3>
+        <p class="gx-desc">四家公司泳道并列，对照同一年里马斯克在多家公司同时推进的事。年份下拉可缩放到单年（按月定位）；圆点 hover 看摘要，点击直达对应锚点。数据源：search-index.js（与检索页同源）。</p>
+        <div class="gx-controls">
+          <label>年份 <select id="gx-year" aria-label="选择年份或查看全部"><option value="all">全部年份</option></select></label>
+          <div class="gx-legend" id="gx-legend"></div>
+        </div>
+        <div class="gx-wrap">
+          <div class="gx-board" id="gx-board"><div class="gx-axis" id="gx-axis"></div></div>
+        </div>
+      </div>
+
             <div class="tl-filter reveal" role="group" aria-label="时间线分类筛选">
         <button class="tl-btn is-active" type="button" data-filter="all" data-en="All">全部</button>
         <button class="tl-btn t-start" type="button" data-filter="start" data-en="Origins">创业起步</button>
@@ -226,7 +238,7 @@
   <!-- ============ 页脚 ============ -->
   <footer class="site-footer">
     <div class="container">
-      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <a class="footer-version" href="changelog.html" title="修订记录">v<span class="site-version-val">5.53.0</span></a></p>
+      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <a class="footer-version" href="changelog.html" title="修订记录">v<span class="site-version-val">5.54.0</span></a></p>
       <p class="footer-disclaimer" data-en="An unofficial, study-oriented business profile. Information compiled from public sources (Forbes, Reuters, CNBC, BBC, company announcements); photo via Wikimedia Commons. Not affiliated with or endorsed by Elon Musk or any of his companies.">
         本站为非官方、学习型的商业人物志。信息整理自公开资料（Forbes、Reuters、CNBC、BBC 及公司公告）；
         图片来自 Wikimedia Commons。与马斯克先生及其名下公司无任何隶属或背书关系。
@@ -240,6 +252,91 @@
 
   
 
-  <script src="app.js"></script>
+  <script src="search-index.js"></script>
+<script>
+(function () {
+  var LANES = [
+    { name: 'Tesla', color: '#1f3a5f' },
+    { name: 'SpaceX', color: '#7c2d2d' },
+    { name: 'X / Twitter', color: '#1a1a1a' },
+    { name: 'xAI', color: '#8a6d1f' },
+    { name: '其他', color: '#8a857c' }
+  ];
+  var INDEX = window.SEARCH_INDEX || [];
+  var board = document.getElementById('gx-board');
+  var axis = document.getElementById('gx-axis');
+  var yearSel = document.getElementById('gx-year');
+  var legend = document.getElementById('gx-legend');
+  if (!INDEX.length || !board) return;
+
+  function ym(d) {
+    var m = (d || '').match(/(\d{4})\.?(\d{1,2})?/);
+    return m ? { y: +m[1], m: +(m[2] || 1) } : null;
+  }
+
+  // 图例
+  LANES.forEach(function (ln) {
+    var sp = document.createElement('span');
+    sp.innerHTML = '<i style="background:' + ln.color + '"></i>' + ln.name;
+    legend.appendChild(sp);
+  });
+
+  // 年份下拉
+  var ys = {};
+  INDEX.forEach(function (it) { var d = ym(it.d); if (d) ys[d.y] = true; });
+  Object.keys(ys).map(Number).sort(function (a, b) { return a - b; }).forEach(function (y) {
+    var o = document.createElement('option');
+    o.value = y; o.textContent = y + '（按月）';
+    yearSel.appendChild(o);
+  });
+  yearSel.addEventListener('change', render);
+
+  function laneOf(it) {
+    var cs = (it.c || []).filter(function (c) { return c !== '综合'; });
+    return cs.length ? cs : ['其他'];
+  }
+
+  function render() {
+    var mode = yearSel.value;
+    var start, end, ticks;
+    if (mode === 'all') {
+      start = 2002; end = 2027;
+      ticks = [2002, 2006, 2010, 2014, 2018, 2022, 2026];
+    } else {
+      var y = +mode;
+      start = y; end = y + 1;
+      ticks = [1, 3, 5, 7, 9, 11].map(function (m) { return y + m / 100; });
+    }
+    function pct(d) {
+      var t = ym(d); if (!t) return null;
+      var v = t.y + (t.m - 0.5) / 12;
+      if (v < start || v >= end) return null;
+      return (v - start) / (end - start) * 100;
+    }
+    axis.innerHTML = ticks.map(function (t) {
+      var label = mode === 'all' ? t : Math.round(t % 1 * 100) + '月';
+      return '<span style="left:' + ((t - start) / (end - start) * 100).toFixed(2) + '%">' + label + '</span>';
+    }).join('');
+    // 泳道行
+    var html = '';
+    LANES.forEach(function (ln) {
+      var dots = '';
+      var n = 0;
+      INDEX.forEach(function (it) {
+        if (laneOf(it).indexOf(ln.name) === -1) return;
+        var x = pct(it.d); if (x === null) return;
+        n++;
+        var tip = it.d + ' · ' + (it.s || '').slice(0, 40);
+        dots += '<a class="gx-dot" href="' + it.pg + '#' + it.id + '" style="left:' + x.toFixed(2) + '%;background:' + ln.color + '" title="' + it.pg + '#' + it.id + '"><span class="gx-tip"><b>' + it.d + '</b> ' + (it.s || '').slice(0, 44) + '</span></a>';
+      });
+      if (!n) dots = '<span class="gx-empty">本视图无条目</span>';
+      html += '<div class="gx-lane"><span class="gx-lane-name" style="color:' + ln.color + '">' + ln.name + '</span><div class="gx-track">' + dots + '</div></div>';
+    });
+    board.innerHTML = '<div class="gx-axis">' + axis.innerHTML + '</div>' + html;
+  }
+  render();
+})();
+</script>
+<script src="app.js"></script>
 </body>
 </html>
