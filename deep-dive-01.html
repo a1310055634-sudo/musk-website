@@ -29,7 +29,12 @@
 .dd-note { font-size: 12.5px; color: #5c574e; line-height: 1.85; border: 1px dashed #7c2d2d; padding: 12px 16px; margin: 16px 0; }
 .dd-note b { color: #7c2d2d; letter-spacing: .15em; font-size: 11px; display: block; margin-bottom: 4px; }
 .dd-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
-@media print { .dd-page { padding: 20px; } .dd-sec, blockquote { break-inside: avoid; } .dd-table tr, .dd-note { break-inside: avoid; } .dd-table th { break-after: avoid; } .dd-back { display: none; } }
+.dd-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.dd-table-wrap .dd-table { min-width: 560px; }
+@media (max-width: 640px) {
+  .dd-table-wrap::after { content: "← 左右滑动查看完整表格 →"; display: block; font-size: 11px; color: #8a857c; letter-spacing: .08em; padding-top: 6px; text-align: center; }
+}
+@media print { .dd-page { padding: 20px; } .dd-sec, blockquote { break-inside: avoid; } .dd-table tr, .dd-note { break-inside: avoid; } .dd-table th { break-after: avoid; } .dd-back { display: none; } .dd-table-wrap { overflow-x: visible; } .dd-table-wrap .dd-table { min-width: 0; } .dd-table-wrap::after { content: none; } }
 </style>
 </head>
 <body>
@@ -51,6 +56,7 @@
   <section class="dd-sec">
     <h3>二、融资：四类资金来源的顺序与时机</h3>
     <p>马斯克的融资史有一个稳定模式：先用自己的钱证明可行，再用别人的钱放大。</p>
+    <div class="dd-table-wrap">
     <table class="dd-table">
       <tr><th>融资节点</th><th>金额</th><th>年份</th><th>资金类型</th></tr>
       <tr><td>Tesla A 轮（个人 650 万）</td><td class="num">$7.5M</td><td>2004</td><td>个人资本买信用</td></tr>
@@ -59,6 +65,7 @@
       <tr><td>NASA CRS 合同</td><td class="num">$1.6B</td><td>2008</td><td>政府订单兜底</td></tr>
       <tr><td>xAI Series E</td><td class="num">$20B</td><td>2026</td><td>产业资本收尾</td></tr>
     </table>
+    </div>
     <p class="dd-note"><b>编者注</b>注意顺序：个人资本 → 公开市场 → 政府订单 → 产业资本。四类资金来源被他依次用了一遍，每一类都在为下一类积累信用。</p>
   </section>
 
