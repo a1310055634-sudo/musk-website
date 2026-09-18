@@ -94,6 +94,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2010-06-29",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2010.06.29",
+  "s": "Tesla IPO · 纳斯达克 · 公开报道口径",
+  "q": "2008 年圣诞夜的救援买来两年时间；到 2010 年年中，Tesla 需要资金建 Model S 产线。半个世纪以来汽车公司在公开市场一直是毒资产——Tesla 之前，上一家上市的美国车企是 1956 年的福特。",
+  "zh": "",
+  "bg": "The Christmas Eve rescue of 2008 bought two years; by mid-2010 Tesla needed capital to build the Model S plant. Automakers had been toxic on public markets for half a century — the last American carmaker to IPO before Tesla was Ford in 1956.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2012-06-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -455,6 +468,19 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "Boring Company"
+  ]
+ },
+ {
+  "id": "e2019-09-28",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.09.28",
+  "s": "Starship Mk1 发布会 · Ars Technica · Popular Mechanics",
+  "q": "“Honestly, I'm in love with steel.”",
+  "zh": "说实话，我爱上了钢。",
+  "bg": "The big Falcon Rocket had been mocked since 2016 for a carbon-fiber plan that priced itself out of existence. In 2019 Musk switched the whole design to stainless steel — cheaper, heat-tolerant, and buildable in open air fields in Boca Chica. On the eleventh anniversary of Falcon 1's orbit, he showed the Mk1 prototype.",
+  "c": [
+   "SpaceX"
   ]
  },
  {
