@@ -563,6 +563,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2018-05-20",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.05.20",
+  "s": "本人推文（工会）· The Indiana Lawyer · Reuters · CBS",
+  "q": "“Nothing stopping Tesla team at our car plant from voting union. Could do so tmrw if they wanted. But why pay union dues & give up stock options for nothing?”",
+  "zh": "没有什么能阻止 Tesla 团队在工厂投票成立工会。想的话明天就可以。但为什么要付工会会费、白白放弃股票期权呢？",
+  "bg": "UAW was organizing Tesla's Fremont plant during Model 3 production ramp. A journalist asked Musk on Twitter whether he would",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2018-07-15",
   "pg": "primary.html",
   "t": "言行实录",
