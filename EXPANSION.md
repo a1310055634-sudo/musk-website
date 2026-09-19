@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.66.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 51 → 52 条——新增 **2011.04.05 猎鹰重型公布**（id e2011-04-05）。
+> 核心引文（SpaceX 官方新闻稿逐字，Space Travel/Space Travel 站存档）：“Falcon Heavy, with more than twice the payload, but less than one third the cost of a Delta IV Heavy, will provide much needed relief to...”
+> 数据口径：LEO 53 吨 vs 117 吨（NPR 对比）；单次报价 $80-125M vs Delta $350M+；首飞目标 2013（实际 2018-02-06，七年滑期——「日期会滑，规格不缩水」为编者分析已标注）。
+> 地点：华盛顿国家记者俱乐部（LA Times/AFP 图源）。
+
 > **新事实入包（v5.65.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 50 → 51 条——新增 **2022.07.13 SolarCity 诉讼判决**（id e2022-07-13）。
 > 事实：In re Tesla Motors, Inc. Stockholder Litigation——衡平法院大法官 Kathaleen McCormick 庭审后判决（2022-07-13）支持马斯克与 Tesla 董事；独立委员会谈判批准 + 知情的少数股东多数投票两条结构性保障是判决关键；2023-06-06 特拉华州最高法院维持原判，认定收购「entirely fair」（Morris James / Justia / Dechert 三源）。
 > 与 e2016-11（SolarCity 收购）首尾呼应；「弧线收束」句为编者分析（已标注）。

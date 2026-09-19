@@ -139,6 +139,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2011-04-05",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2011.04.05",
+  "s": "国家记者俱乐部发布会 · SpaceX 官方新闻稿 · NPR",
+  "q": "“Falcon Heavy, with more than twice the payload, but less than one third the cost of a Delta IV Heavy, will provide much needed relief to...”",
+  "zh": "猎鹰重型——载荷是 Delta IV Heavy 的两倍多，成本却不到它的三分之一——将为……提供急需的缓解。",
+  "bg": "The most powerful operational rocket was United Launch Alliance's Delta IV Heavy — and heavy lift was the missing rung between orbit and Mars-scale ambitions. Musk chose the National Press Club in Washington to announce SpaceX's answer.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2012-06-22",
   "pg": "primary.html",
   "t": "言行实录",
