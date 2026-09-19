@@ -431,6 +431,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2017-07-09",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.07.09",
+  "s": "本人推文（首辆生产版下线）· Forbes · AP · CNBC",
+  "q": "“Production unit 1 of Model 3 is now built and going through final checkout.”",
+  "zh": "Model 3 的第一辆生产车已经造好，正在进行最终检验。",
+  "bg": "Eighteen days before the production-hell speech, the first production-intent Model 3 (SN1, red) came off the Fremont line. With roughly half a million reservations on file, this single car was the hinge between promise and volume.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2017-07-28",
   "pg": "primary.html",
   "t": "言行实录",
