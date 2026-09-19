@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.71.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 53 → 54 条——新增 **2020.05.11 Fremont 违令复工**（id e2020-05-11）。
+> 核心引文（本人推文，NPR/NBC/LA Times 多源逐字）：“Tesla is restarting production today against Alameda County rules. I will be on the line with everyone else. If anyone is arrested, I ask that it only be me.”
+> 背景：阿拉米达县否决复工计划；数日前财报电话会威胁「立刻」迁总部至德州/内华达，并推文「give people their freedom back」（2020-04-29）。
+> 兑现：县里数日让步、工厂以防疫措施跑完疫情、县府起诉后撤诉；「先对抗后筹码」模板与 2022 德州迁册呼应（编者分析已标注）。
+
 > **新事实入包（v5.68.0 轮 / 2026-09-19 WebSearch 核实）**：e2023-11-30（Cybertruck 首批交付）补第二引语块。
 > 引文：USA Today 记录完整句 “The apocalypse could come along at any moment, and here at Tesla we have the finest in Apocalypse technology.”；Forbes（2023-11-30）逐字确认「apocalypse-proof」表述。两源互证。
 > 甄别记录：网络流传的「final masterpiece」未证实，未入册；2019 碎玻璃与 2023 玻璃完好为同一演示的两期对照。

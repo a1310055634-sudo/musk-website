@@ -2,6 +2,20 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.71.0 — 2026-09-19 · 自由精进：账本扩容（+2020 Fremont 复工抗命，54 条）
+
+**主题包成果**
+- 言行实录 53 → 54 条：新增 **2020.05.11 Fremont 违令复工推文**（id e2020-05-11）——
+  「Tesla is restarting production today against Alameda County rules… If anyone is arrested, I ask that it only be me.」
+  （NPR/NBC/LA Times 多源逐字）。2020 年叙事线补全：停摆 → 违令复工 → 载人龙 → Battery Day。
+- 流程改进：**先查账本再核实**（上上轮 Cybertruck 重复核实教训的直接应用）——本轮开工前 grep 确认
+  无 e2020-05-11 才启动 WebSearch。
+- 全链同步一次到位：语录卡 45 张（proactive，未等一致性检查抓）、chronicle Tesla +1 行（写盘后断言行序）、
+  索引 94 条、时间轴 54 节点。
+
+**质量门**
+- 54 条时序校验递增；verify.py 体检通过；node --check 通过。
+
 ## v5.70.0 — 2026-09-19 · 自由精进：时间轴 hover 摘要升级（自由精进第三十八轮）
 
 **主题包成果**

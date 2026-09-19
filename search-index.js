@@ -593,6 +593,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2020-05-11",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2020.05.11",
+  "s": "本人推文（Fremont 复工）· NPR · NBC · LA Times",
+  "q": "“Tesla is restarting production today against Alameda County rules. I will be on the line with everyone else. If anyone is arrested, I ask that it only be me.”",
+  "zh": "Tesla 今天违反阿拉米达县的规定重启生产。我会和大家一起站在产线上。如果有人要被逮捕，我要求只逮捕我一个。",
+  "bg": "Pandemic shelter-in-place had idled Fremont since March; Alameda County blocked Tesla's restart plan. Days earlier he had threatened on an earnings call to move headquarters to Texas or Nevada “immediately” — and tweeted to “give people their freedom back.”",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2020-05-30",
   "pg": "primary.html",
   "t": "言行实录",
