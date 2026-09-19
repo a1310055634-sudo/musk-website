@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.75.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 55 → 56 条——新增 **2008.08.02 Falcon 1 第三次发射失败**（id e2008-08-02）。
+> 引文：①“I will never give up.”（Universe Today 2008-08-03 标题句）②“We have one last rocket. Get your shit together, go back to the island, and launch it. You have six weeks.”（传记口径 elonmuskbook.org/Vance）。
+> 失败原因核实：Merlin 1C 关机过渡更长 → 分离时一级残余推力 → 两级再撞（Space.com 2008-08-06「SpaceX Traces Third Rocket Failure to Timing Error」/维基 Falcon 1 条目）。
+> 同轮甄别：**放弃「2013.11 Gruber/NYPSC 争议」候选**——两轮检索无逐字来源（疑为记忆混淆），按纪律不入册。
+
 > **新事实入包（v5.72.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 54 → 55 条——新增 **2023.07.23 X 品牌更替**（id e2023-07-23）。
 > 核心引文（本人推文，Reuters/NYT/PBS 多源逐字）：“And soon we shall bid adieu to the twitter brand and, gradually, all the birds.”
 > 现场：24 小时内蓝鸟退役、黑白 X 标志替换（大楼+App）、X.com 重定向（Reuters/CNBC/PBS 记录）；CEO Linda Yaccarino 确认「X is here」。

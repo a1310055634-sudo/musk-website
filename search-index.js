@@ -71,6 +71,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2008-08-02",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2008.08.02",
+  "s": "Falcon 1 第三次发射失败 · Space.com · Universe Today · 传记口径",
+  "q": "“I will never give up.”",
+  "zh": "我永远不会放弃。",
+  "bg": "Flight 2 had failed on slosh; the money was nearly gone; the fourth attempt was the last rocket that could be paid for. A successful Flight 3 on August 2, 2008 would change the story — instead, the new Merlin 1C's longer shutdown transient meant the first stage still had thrust at separation, and the two stages re-contacted.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2008-09-28",
   "pg": "primary.html",
   "t": "言行实录",
