@@ -576,6 +576,22 @@ a { color: inherit; }
   .masthead-issue { display: none; }
 }
 
+/* ---- 锚点落点高亮（引用跳转定位） ---- */
+.ps-row:target, .doc-article:target, .iv-item:target, .tweet-card:target,
+.cy-year:target, .fn-row:target, .rd-ch:target {
+  animation: tgt-flash 1.8s ease-out;
+}
+@keyframes tgt-flash {
+  0%, 25% { background: rgba(243, 217, 160, .6); }
+  100% { background: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ps-row:target, .doc-article:target, .iv-item:target, .tweet-card:target,
+  .cy-year:target, .fn-row:target, .rd-ch:target {
+    animation: none; outline: 2px solid var(--accent); outline-offset: 4px;
+  }
+}
+
 /* ============ 阅读进度条 / 数字滚动 / 语录轮播 ============ */
 .progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--accent); z-index: 200; }
 .quotes-strip {
