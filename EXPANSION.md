@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.67.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 52 → 53 条——新增 **2017.11.16 Tesla Semi 发布会**（id e2017-11-16，含 Roadster 二代彩蛋）。
+> 核心引文（WAMU/NPR 记录逐字）：“…the fastest production car ever made, period.”（第二代 Roadster）；数据：0-60 1.9 秒、0-100 4.2 秒、基础价约 $20 万（Reuters/SiliconValley.com 口径）；Semi 演示：空载零百 5 秒、满载 8 万磅 20 秒。
+> 地点：霍恩设计工作室（2017-11-16 夜）。
+> 兑现情况：Semi 2022.12 随百事投入实际运营（报道口径）；Roadster 多年跳票未交付（公开口径）。「头条对冲坏消息」为编者分析（已标注）。
+
 > **新事实入包（v5.66.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 51 → 52 条——新增 **2011.04.05 猎鹰重型公布**（id e2011-04-05）。
 > 核心引文（SpaceX 官方新闻稿逐字，Space Travel/Space Travel 站存档）：“Falcon Heavy, with more than twice the payload, but less than one third the cost of a Delta IV Heavy, will provide much needed relief to...”
 > 数据口径：LEO 53 吨 vs 117 吨（NPR 对比）；单次报价 $80-125M vs Delta $350M+；首飞目标 2013（实际 2018-02-06，七年滑期——「日期会滑，规格不缩水」为编者分析已标注）。

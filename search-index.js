@@ -417,6 +417,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2017-11-16",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.11.16",
+  "s": "Tesla Semi 发布会 · 霍恩设计工作室 · WAMU/NPR · Reuters",
+  "q": "“…the fastest production car ever made, period.”",
+  "zh": "……有史以来最快的量产车，就这么简单。",
+  "bg": "Deep inside production hell, with Model 3 output missing targets weekly, Tesla held a truck event: the Tesla Semi, an electric big rig with a 500-mile range promise. The industry saw a toy; freight economics saw a diesel replacement.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2018-01-28",
   "pg": "primary.html",
   "t": "言行实录",
