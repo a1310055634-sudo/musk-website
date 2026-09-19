@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.68.0 轮 / 2026-09-19 WebSearch 核实）**：e2023-11-30（Cybertruck 首批交付）补第二引语块。
+> 引文：USA Today 记录完整句 “The apocalypse could come along at any moment, and here at Tesla we have the finest in Apocalypse technology.”；Forbes（2023-11-30）逐字确认「apocalypse-proof」表述。两源互证。
+> 甄别记录：网络流传的「final masterpiece」未证实，未入册；2019 碎玻璃与 2023 玻璃完好为同一演示的两期对照。
+> 过程注记：上轮重复插入尝试被断言拦截（该条目早已在账本），本轮将上轮核实成果转化为引语块补充。
+
 > **新事实入包（v5.67.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 52 → 53 条——新增 **2017.11.16 Tesla Semi 发布会**（id e2017-11-16，含 Roadster 二代彩蛋）。
 > 核心引文（WAMU/NPR 记录逐字）：“…the fastest production car ever made, period.”（第二代 Roadster）；数据：0-60 1.9 秒、0-100 4.2 秒、基础价约 $20 万（Reuters/SiliconValley.com 口径）；Semi 演示：空载零百 5 秒、满载 8 万磅 20 秒。
 > 地点：霍恩设计工作室（2017-11-16 夜）。
