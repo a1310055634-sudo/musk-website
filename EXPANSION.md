@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.80.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 60 → 61 条——新增 **2018.07.15 pedo guy 推文**（id e2018-07-15）。
+> 核心引文：“Sorry pedo guy, you really did ask for it.”；追加推文 “Bet ya a signed dollar it's true.”（TechCrunch/Guardian 多源）。
+> 道歉：“the fault is mine and mine alone”（BBC 2018-07-18）。
+> 结果：2019-12-06 陪审团约一小时裁决不构成诽谤（BBC/Guardian/NPR）；诉讼索赔 $190M 分文未得。
+> 与 controversy.html#sec-pedo 互链（完整法律分析在争议板块）。
+
 > **新事实入包（v5.79.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 59 → 60 条——新增 **2017.07.09 首辆生产版 Model 3 下线**（id e2017-07-09）。
 > 双推文逐字（Forbes/6abc-AP/CNBC 多源）：①“First Production Model 3”（附红色 SN1 厂外照）；②“Production unit 1 of Model 3 is now built and going through final checkout.”
 > 落位 2016.03.31 与 2017.07.28 之间；SN1 于 7.28 交付首位预订者（既有 2017.07.28 条目互链）。「铰链」句为编者分析（已标注）。

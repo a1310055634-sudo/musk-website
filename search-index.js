@@ -537,6 +537,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2018-07-15",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.07.15",
+  "s": "本人推文（pedo guy）· Guardian · BBC · TechCrunch",
+  "q": "“Sorry pedo guy, you really did ask for it.”",
+  "zh": "抱歉，恋童癖家伙，你确实是自找的。",
+  "bg": "After British cave diver Vernon Unsworth helped rescue 12 boys from a Thai cave, he dismissed Musk's mini-submarine as a “PR stunt” on CNN. Musk retaliated on Twitter with a series of now-deleted posts, the key one ending: “Sorry pedo guy, you really did ask for it.”",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2018-08-07",
   "pg": "primary.html",
   "t": "言行实录",

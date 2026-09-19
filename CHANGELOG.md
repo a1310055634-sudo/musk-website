@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.80.0 轮 — 2026-09-19 · 自由精进：账本扩容（+2018 pedo guy 推文，61 条）
+
+**主题包成果**
+- 言行实录 60 → 61 条：新增 **2018.07.15 pedo guy 推文**（id e2018-07-15）——
+  双推文逐字（“Sorry pedo guy, you really did ask for it.” + “Bet ya a signed dollar it's true.”），
+  7.18 道歉句（“the fault is mine and mine alone”，BBC），
+  12.06 陪审团裁决不构成诽谤（BBC/Guardian/NPR）。
+- 与 controversy.html#sec-pedo 争议板块互链。
+- 全链一次到位：语录卡 50 张、索引 101 条、时间轴 61 节点。
+
+**质量门**
+- 61 条时序校验递增；verify.py 体检通过；node --check 通过。
+
 ## v5.83.0 — 2026-09-19 · 新三阶段 Phase3：电子书打包上线（三阶段全部收官）
 
 **主题包成果**
