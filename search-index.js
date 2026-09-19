@@ -204,6 +204,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2013-05-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2013.05.22",
+  "s": "DOE 贷款提前九年还清 · Tesla IR · NYT DealBook",
+  "q": "4.65 亿美元的 ATVM 贷款——2009 年 6 月有条件批准、2010 年 1 月放款——多年里一直是 Tesla 背在身上的政治话柄：批评者把它读成补贴，原定到期日约在 2022 年。Model S 于 2012 年年中开始交付，其毛利让提前还款成为可能。",
+  "zh": "",
+  "bg": "The $465 million ATVM loan — approved June 2009, drawn January 2010 — had followed Tesla for years as a political talking point: critics read it as a subsidy, the original maturity ran to around 2022. Model S deliveries started mid-2012, and the gross margin from them made early repayment possible.",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2013-08-12",
   "pg": "primary.html",
   "t": "言行实录",
