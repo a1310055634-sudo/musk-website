@@ -204,6 +204,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2013-05-08",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2013.05.08",
+  "s": "Q1 2013 财报 · 股东信 · CNET · IBD",
+  "q": "“Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”",
+  "zh": "Tesla 在 2013 年第一季度实现了盈利——这是我们十年历史中的第一次。",
+  "bg": "Model S deliveries started mid-2012; Q1 2013 was the first full quarter of production sales — and the first chance to prove the business model worked. Musk authored the Q1 shareholder letter himself, announcing: “Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2013-05-22",
   "pg": "primary.html",
   "t": "言行实录",

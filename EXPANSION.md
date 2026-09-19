@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.84.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 61 → 62 条——新增 **2013.05.08 Tesla 首次季度盈利**（id e2013-05-08）。
+> 核心引文（Q1 2013 股东信逐字，Musk 执笔）：“Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”
+> 来源：CNET（2013-05-08）/ Investor's Business Daily / AutomotiveWorld（含股东信全文）。非 GAAP 盈利 $15M，营收 ~$562M；股价当日 +24%。
+> 与 e2013-05-22（DOE 还清）同期。「转折点」句为编者分析（已标注）。
+
 > **新事实入包（v5.80.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 60 → 61 条——新增 **2018.07.15 pedo guy 推文**（id e2018-07-15）。
 > 核心引文：“Sorry pedo guy, you really did ask for it.”；追加推文 “Bet ya a signed dollar it's true.”（TechCrunch/Guardian 多源）。
 > 道歉：“the fault is mine and mine alone”（BBC 2018-07-18）。
