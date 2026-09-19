@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.83.0 — 2026-09-19 · 新三阶段 Phase3：电子书打包上线（三阶段全部收官）
+
+**主题包成果**
+- 新工具 **tools/build-epub.py**：纯 Python zipfile 手写 EPUB 结构（零外部依赖），
+  按章节顺序将 24 页编译为 25 章 XHTML → musk-inc.epub（112KB）。
+  EPUB 结构含 mimetype/container.xml/content.opf/nav.xhtml 目录页，可在 Apple Books/Calibre/Kobo/手机打开。
+- **三阶段全部收官**：Phase 1 修订历史 ✓ / Phase 2 争议板块 ✓ / Phase 3 电子书打包 ✓。
+
+**质量门**
+- EPUB 结构验证：mimetype 首位、OPF 存在、25 个 XHTML 章节文件、ch0 卷首有实质内容、
+  ch12 (primary) 7818 字完整。verify.py 体检通过（32 页）。node --check 通过。
+
 ## v5.82.0 — 2026-09-19 · 新三阶段 Phase2-2：争议板块扩至四篇（Autopilot + 工会）
 
 **主题包成果**
