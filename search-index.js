@@ -271,6 +271,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2015-01-20",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2015.01.20",
+  "s": "Google + Fidelity 投资入股 · WSJ · Reuters · NYT",
+  "q": "SpaceX 需要两件事的资金：可复用火箭（Flight 4 刚成功，但复用尚未证明）和马斯克一直在低调规划的卫星互联网星座。Google 想要太空数据来服务其全球连接愿景。两个愿景交汇了。",
+  "zh": "",
+  "bg": "SpaceX needed capital for two things: reusable rockets (Flight 4 had just succeeded, but reusability was unproven) and a satellite internet constellation that Musk had been quietly planning. Google wanted space-based data for its global connectivity ambitions. The two visions met.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2015-04-30",
   "pg": "primary.html",
   "t": "言行实录",

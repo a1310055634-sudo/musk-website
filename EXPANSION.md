@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.85.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 62 → 63 条——新增 **2015.01.20 Google+Fidelity 投资 SpaceX**（id e2015-01-20，行为条目无引语段）。
+> 数据：$1B / <10% / 估值 ≈$10B（WSJ/Reuters/NYT 多源，2015-01-20）。
+> 背景：支持卫星互联网野心（后成 Starlink）；SpaceX 12 年来首次重大外部投资。
+> 编者分析已标注（Google 赌注→Starlink 产品/估值 7 年→$350B）。
+
 > **新事实入包（v5.84.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 61 → 62 条——新增 **2013.05.08 Tesla 首次季度盈利**（id e2013-05-08）。
 > 核心引文（Q1 2013 股东信逐字，Musk 执笔）：“Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”
 > 来源：CNET（2013-05-08）/ Investor's Business Daily / AutomotiveWorld（含股东信全文）。非 GAAP 盈利 $15M，营收 ~$562M；股价当日 +24%。
