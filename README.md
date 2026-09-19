@@ -8,19 +8,23 @@
 - **直接双击 `index.html`**（全部功能在 file:// 协议下可用，无任何联网依赖）；
 - 或本地起服务：`python -m http.server 8765` 后访问 `http://127.0.0.1:8765/index.html`。
 
-## 站点结构（27 页）
+## 站点结构（30 页）
 
 | 板块 | 页面 | 说明 |
 |---|---|---|
 | 封面与导航 | `index.html` | 卷首特稿、章节卡片（全站入口）、双语切换 |
-| 言行实录 | `primary.html` | 账本 45 条第一手言行（2002→2025，随迭代增长），每条含稳定锚点 `#e…`、页顶可交互时间轴、实时检索 |
+| 言行实录 | `primary.html` | 第一手言行账本（2002→2026，随迭代增长），每条含稳定锚点 `#e…`、页顶可交互时间轴（hover 预览引文）、实时检索 |
 | 一手文档馆 | `documents.html` | 9 份关键文本摘录（秘密蓝图系列/私有化方案信/收购协议 SEC 条款/Series E 公告），锚点 `#d…` |
 | 访谈与表态 | `interviews.html` | 18 条公开表态，锚点 `#i…` |
 | X 帖史选辑 | `x-posts.html` | 13 张名帖深读卡，锚点 `#p…` |
-| 主题深读 | `money.html` `capital-evolution.html` `ai-strategy.html` `pricing.html` `supplychain.html` | 资本解剖 / 资本模式演化 / AI 战略 / 定价与需求 / 供应链与工厂 |
+| 主题深读 | `money.html` `capital-evolution.html` `ai-strategy.html` `pricing.html` `supplychain.html` | 资本解剖（含流向图）/ 资本模式演化 / AI 战略 / 定价与需求 / 供应链与工厂 |
+| 长卷阅读 | `reading.html` | 十章连续叙事（书籍形态，重组自站内已核实材料），侧目录 + 进度条 |
+| 公司专著 | `chronicle.html` `finance.html` | 四公司编年史（Tesla/SpaceX/X/xAI）/ 财务资本全景（融资-估值-收入） |
 | 商战故事 | `stories.html` `deep-dive-01~05.html` | 经典商战长文与五篇深读（资本/用人/失败/监管/AI） |
 | 速览类 | `profile.html` `timeline.html` `companies.html` `numbers.html` `grok.html` `persona.html` `playbook.html` `quotes.html` `indepth.html` | 速览、时间线、公司版图、数据、xAI·Grok、人格、方法、语录、深度总览 |
 | 工具与记录 | `search.html` `changelog.html` | 全站第一手检索（关键词/类型/公司/年份区间/排序）；修订记录（由 CHANGELOG.md 同步生成） |
+
+> 时间轴点击/引用跳转后目标条目有 1.8 秒落点高亮；泳道时间轴与账本时间轴的悬停摘要均含引文片段。
 
 ## 研究功能
 
