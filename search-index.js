@@ -165,6 +165,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2012-05-25",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2012.05.25",
+  "s": "龙飞船首次对接 ISS · Guardian · Inverse · 白宫档案",
+  "q": "“This mission heralds the dawn of a new era of space exploration.”",
+  "zh": "这次任务预示着太空探索新时代的黎明。",
+  "bg": "C2+ was a demonstration flight with one job: prove a private company could safely approach, capture and berth with the International Space Station — a maneuver previously reserved for national agencies. After a last-minute sensor scare, Don Pettit grabbed Dragon with the robotic arm.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2012-06-22",
   "pg": "primary.html",
   "t": "言行实录",

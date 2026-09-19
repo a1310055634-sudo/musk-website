@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.76.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 56 → 57 条——新增 **2012.05.25 龙飞船首次对接 ISS**（id e2012-05-25）。
+> 引文：①发布会 “This mission heralds the dawn of a new era of space exploration.”（Inverse 十周年回顾引用口径）；②推文 “Dragon captured by the International Space Station!”（Guardian 2012-05-25）；③溅落日 “This has been a fantastic day… I'm just overwhelmed with joy.”（CNN）。
+> 交叉：白宫档案 obamawhitehouse.archives.gov 同日「首个商业航天器与 ISS 对接」；Pettit「caught a Dragon by the tail」。
+> 「双子月」观察（5 月 SpaceX 对接 ISS / 6 月 Model S 交付）为编者分析（已标注）。
+
 > **新事实入包（v5.75.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 55 → 56 条——新增 **2008.08.02 Falcon 1 第三次发射失败**（id e2008-08-02）。
 > 引文：①“I will never give up.”（Universe Today 2008-08-03 标题句）②“We have one last rocket. Get your shit together, go back to the island, and launch it. You have six weeks.”（传记口径 elonmuskbook.org/Vance）。
 > 失败原因核实：Merlin 1C 关机过渡更长 → 分离时一级残余推力 → 两级再撞（Space.com 2008-08-06「SpaceX Traces Third Rocket Failure to Timing Error」/维基 Falcon 1 条目）。
