@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.72.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 54 → 55 条——新增 **2023.07.23 X 品牌更替**（id e2023-07-23）。
+> 核心引文（本人推文，Reuters/NYT/PBS 多源逐字）：“And soon we shall bid adieu to the twitter brand and, gradually, all the birds.”
+> 现场：24 小时内蓝鸟退役、黑白 X 标志替换（大楼+App）、X.com 重定向（Reuters/CNBC/PBS 记录）；CEO Linda Yaccarino 确认「X is here」。
+> 兑现：8 个月后 X 被 xAI 吸收（2025.03）——「重点不是图标」为编者分析（已标注）。
+
 > **新事实入包（v5.71.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 53 → 54 条——新增 **2020.05.11 Fremont 违令复工**（id e2020-05-11）。
 > 核心引文（本人推文，NPR/NBC/LA Times 多源逐字）：“Tesla is restarting production today against Alameda County rules. I will be on the line with everyone else. If anyone is arrested, I ask that it only be me.”
 > 背景：阿拉米达县否决复工计划；数日前财报电话会威胁「立刻」迁总部至德州/内华达，并推文「give people their freedom back」（2020-04-29）。

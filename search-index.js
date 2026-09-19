@@ -950,6 +950,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2023-07-23",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2023.07.23",
+  "s": "本人推文（品牌更替）· Reuters · NYT · PBS",
+  "q": "“And soon we shall bid adieu to the twitter brand and, gradually, all the birds.”",
+  "zh": "很快，我们将告别 Twitter 品牌，并且，逐渐地，告别所有的鸟。",
+  "bg": "Nine months after buying the bird, he was ready to retire it. Twitter had been folded into X Corp, an AI-era holding structure; the brand was the last legacy piece — and the most valuable one by conventional accounting. He put it to a poll, then announced.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "p2023-11-04",
   "pg": "x-posts.html",
   "t": "X 帖",
