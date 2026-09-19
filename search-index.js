@@ -566,6 +566,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2019-04-20",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.04.20",
+  "s": "Crew Dragon 静态点火爆燃 · SpaceNews · Ars Technica",
+  "q": "Demo-1 成为首个抵达国际空间站的商业载人舱仅仅一个月后，同一艘飞船在卡纳维拉尔角的 SuperDraco 逃逸发动机地面静态点火中被毁——载人飞行看似近在咫尺，事故让时钟归零。",
+  "zh": "",
+  "bg": "One month after Demo-1 became the first commercial capsule to reach the ISS, the same vehicle was destroyed during a ground test of its SuperDraco abort engines at Cape Canaveral — with crewed flight seemingly close, the accident reset the clock.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2019-09-28",
   "pg": "primary.html",
   "t": "言行实录",

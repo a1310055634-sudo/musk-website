@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.77.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 57 → 58 条——新增 **2019.04.20 Crew Dragon 静态点火爆燃**（id e2019-04-20，行为条目无引语段）。
+> 两轮检索均无马斯克本人逐字引语（5 月电话会由 Koenigsmann 主持）——按纪律做行为条目，公司表态归 Koenigsmann（SpaceNews 2019-07-15：「当把 NTO 挤进单向阀，基本上就会爆炸」），与马斯克原话严格区分。
+> 核实：Demo-1 后一月内静态点火中损毁（Space.com/Ars Technica）；4-21 原因未公开（Americaspace）；调查归因 NTO+钛部件点燃（SpaceNews 7-15）；SuperDraco 弃着陆、2020-01 逃逸测试完美、2020-05 载人。
+> 甄别：「Definitely a mishap」「Eclipse annotations」两句无法核实（疑与 2015 年段事件混淆），未入册。
+
 > **新事实入包（v5.76.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 56 → 57 条——新增 **2012.05.25 龙飞船首次对接 ISS**（id e2012-05-25）。
 > 引文：①发布会 “This mission heralds the dawn of a new era of space exploration.”（Inverse 十周年回顾引用口径）；②推文 “Dragon captured by the International Space Station!”（Guardian 2012-05-25）；③溅落日 “This has been a fantastic day… I'm just overwhelmed with joy.”（CNN）。
 > 交叉：白宫档案 obamawhitehouse.archives.gov 同日「首个商业航天器与 ISS 对接」；Pettit「caught a Dragon by the tail」。
