@@ -646,6 +646,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2019-03-03",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.03.03",
+  "s": "Crew Dragon Demo-1 自主对接 ISS · Business Insider · NASA TV",
+  "q": "Crew Dragon 无人 Demo-1 于 3 月 2 日从 LC-39A（阿波罗 11 号同一工位）由 Falcon 9 发射。任务唯一目标：证明商业航天器能自主与国际空间站对接——无乘员、无手动超控，只有软件、传感器与物理。",
+  "zh": "",
+  "bg": "Crew Dragon's uncrewed Demo-1 launched March 2 on a Falcon 9 from LC-39A — the same pad that sent Apollo 11. The mission's single objective: prove a commercial spacecraft could autonomously dock with the International Space Station. No crew, no manual override — just software, sensors, and physics.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2019-04-20",
   "pg": "primary.html",
   "t": "言行实录",
