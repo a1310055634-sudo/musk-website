@@ -650,6 +650,8 @@ a.pt-dot { position: absolute; top: 47px; width: 10px; height: 10px; border-radi
 a.pt-dot:hover, a.pt-dot:focus-visible { transform: translateX(-50%) scale(1.7); outline: none; }
 .pt-tip { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: none; width: 190px; padding: 7px 10px; background: #1a1a1a; color: #faf9f6; font-size: 11px; line-height: 1.5; border-radius: 4px; font-style: normal; text-align: left; z-index: 30; pointer-events: none; }
 .pt-tip b { color: #fff; }
+.pt-tip i { color: #d9d4cc; font-style: italic; }
+.gx-tip i { color: #d9d4cc; font-style: italic; }
 
 /* ---- 全局泳道大时间轴（timeline.html，数据源 search-index.js） ---- */
 .gx-sec { margin: 0 0 26px; border: 1px solid rgba(26,26,26,.2); background: #fff; padding: 18px 18px 8px; }

@@ -17,8 +17,15 @@ os.chdir(ROOT)
 p = 'primary.html'
 s = io.open(p, encoding='utf-8').read()
 
-rows = re.findall(r'<li class="ps-row[^"]*" id="(e\d[\d-]*)">.*?Permalink">([^<]+)</a>.*?<span class="ps-src">([^<]+)</span>', s, re.S)
-assert len(rows) >= 44, len(rows)
+blocks = re.findall(r'(<li class="ps-row[^"]*" id="(e\d[\d-]*)">.*?</li>)', s, re.S)
+assert len(blocks) >= 44, len(blocks)
+rows = []
+for full, eid in blocks:
+    date = re.search(r'Permalink">([^<]+)</a>', full)
+    src = re.search(r'<span class="ps-src">([^<]+)</span>', full)
+    quote = re.search(r'<blockquote class="ps-quote">(.*?)</blockquote>', full, re.S)
+    assert date and src, eid
+    rows.append((eid, date.group(1), src.group(1), quote.group(1) if quote else None))
 
 def date_key(d):
     m = re.match(r'(\d{4})\.?(\d{1,2})?\.?(\d{1,2})?', d)
@@ -31,12 +38,14 @@ def pct(d):
     return (date_key(d) - Y0) / (Y1 - Y0) * 100.0
 
 dots = []
-for eid, date, src in rows:
-    tip = f'{date} · {src}'
-    tip = re.sub(r'\s+', ' ', tip)
-    if len(tip) > 46:
-        tip = tip[:46] + '…'
-    dots.append(f'<a class="pt-dot" href="#{eid}" style="left:{pct(date):.2f}%"><span class="pt-tip"><b>{date}</b> {tip}</span></a>')
+for eid, date, src, quote in rows:
+    tip = re.sub(r'\s+', ' ', src)
+    if len(tip) > 52:
+        tip = tip[:52] + '…'
+    q = re.sub(r'<[^>]+>', '', quote or '')
+    q = re.sub(r'\s+', ' ', q).strip()[:64]
+    qs = f'<br><i>“{q}…”</i>' if q else ''
+    dots.append(f'<a class="pt-dot" href="#{eid}" style="left:{pct(date):.2f}%"><span class="pt-tip"><b>{date}</b> {tip}{qs}</span></a>')
 
 years = list(range(2002, 2028, 4))
 ticks = ''.join(f'<span class="pt-year" style="left:{(y - Y0) / (Y1 - Y0) * 100:.2f}%">{y}</span>' for y in years)

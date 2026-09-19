@@ -31,9 +31,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（119 条，v0.1.0 → v5.69.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（120 条，v0.1.0 → v5.70.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v5.70.0 — 2026-09-19 · 自由精进：时间轴 hover 摘要升级（自由精进第三十八轮）</h3><h4>主题包成果</h4><ul><li>两处时间轴的悬停摘要加入<strong>引文片段</strong>（截断 64 字、次级灰白斜体）：</li><li>顺手修复存量瑕疵：pt-tip 日期重复显示（「2019.09.28 2019.09.28 · 出处」→ 只留一处）。</li><li>工程修复：build-ledger-timeline.py 的尾部可选组被懒惰匹配吞掉（引文提取恒空），</li></ul><h4>质量门</h4><ul><li>两处 tip 实测含引文片段（含 Starship「I'm in love with steel」样例）；53 节点重建一致；</li></ul></li>
 <li class="cl-item"><h3>v5.69.0 — 2026-09-19 · 自由精进：锚点落点高亮（自由精进第三十七轮）</h3><h4>主题包成果</h4><ul><li>全站七类锚点目标（ps-row / doc-article / iv-item / tweet-card / cy-year / fn-row / rd-ch）</li><li>`prefers-reduced-motion` 用户改为静态酒红轮廓（无闪烁）。</li><li>覆盖全部引用入口：账本日期徽章、语录卡、编年史行、财务行、长卷章节、检索结果。</li></ul><h4>质量门</h4><ul><li>页内注入等价规则实测 :target 动画正确触发（tgt-flash/1.8s）；curl 确认服务器端新规则在位；</li></ul></li>
 <li class="cl-item"><h3>v5.68.0 — 2026-09-19 · 自由精进：Cybertruck 条目补第二引语块（自由精进第三十六轮）</h3><h4>主题包成果</h4><ul><li>e2023-11-30（Cybertruck 首批交付）追加第二引语块：USA Today 记录完整句</li><li>EXPANSION.md 补记甄别记录（「final masterpiece」未证实未入册；2019/2023 玻璃对照）。</li></ul><h4>复盘注记</h4><ul><li>上轮「补原话段」的前提是错的——该条目本就有原话段与语录卡（引语为 future/experts 两句）。</li></ul><h4>质量门</h4><ul><li>双引语块渲染复验；白名单校验不变（同条目加块不改卡片映射）；1280/375 零溢出；</li></ul></li>
 <li class="cl-item"><h3>v5.67.0 — 2026-09-19 · 自由精进：账本扩容（+2017 Semi 发布会，53 条）</h3><h4>主题包成果</h4><ul><li>言行实录 52 → 53 条：新增 <strong>2017.11.16 Tesla Semi 发布会</strong>（id e2017-11-16），与 e2017-07-28 生产地狱、</li><li>引文核实（WebSearch）：「fastest production car ever made, period.」（WAMU/NPR 逐字；Reuters/Bloomberg/CNBC</li><li>后续线：Semi 2022.12 实际运营、Roadster 跳票多年——「头条对冲坏消息」为编者分析（已标注）。</li></ul><h4>质量门</h4><ul><li>53 条时序校验递增；verify.py 体检通过；node --check 通过。</li><li>一致性检查再次当场抓到漏卡（e2017-11-16）——已补卡 43 → 44 并重排时序，校验恢复全绿（5.67.1）。</li><li><strong>编年史同步（5.67.2/5.67.3）</strong>：chronicle.html Tesla 段同步账本新增节点——+6 行</li></ul></li>
