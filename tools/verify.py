@@ -122,6 +122,19 @@ if os.path.exists('quotes.html') and os.path.exists('primary.html'):
     print(f"  · 语录卡 {len(carded_ids)} 张，账本引文块 {len(quoted_ids)} 个，白名单豁免 {len(QS_EXEMPT & (quoted_ids - carded_ids))} 项")
 check('语录卡覆盖（白名单核对）', qs_errors)
 
+# ---------- 7) 修订历史页存在且非空 ----------
+rv_errors = []
+if os.path.exists('revisions.html'):
+    rv = io.open('revisions.html', encoding='utf-8').read()
+    n_rows = len(re.findall(r'href="(?:primary|documents|interviews|x-posts)\.html#', rv))
+    if n_rows < 50:
+        rv_errors.append(f'修订历史仅 {n_rows} 行（预期 ≥50），先重跑 tools/build-revisions.py')
+    else:
+        print(f"  · 修订历史 {n_rows} 个锚点")
+else:
+    rv_errors.append('revisions.html 不存在')
+check('修订历史一致性', rv_errors)
+
 # ---------- 汇总 ----------
 print()
 if FAIL:
