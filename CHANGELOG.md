@@ -2,6 +2,21 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.82.0 — 2026-09-19 · 新三阶段 Phase2-2：争议板块扩至四篇（Autopilot + 工会）
+
+**主题包成果**
+- controversy.html 新增两篇完整深读（四篇总计）：
+  - **第三篇 Autopilot/FSD 安全争议**：加州 DMV 虚假广告指控（2022）→ 行政法官拒驳（2024.06）→
+    DMV 认定违法（2025.12）→ Tesla 起诉 DMV（2026.02）；NHTSA 2024.10 对 240 万辆 FSD 展开调查；
+    参议员 Markey 质疑「误导性和不完整的安全统计数据」（CNBC/PBS 口径）。
+  - **第四篇 工会与劳动争议**：2018.05.20 推文逐字（「Nothing stopping… But why pay union dues & give up
+    stock options for nothing」）+ NLRB(2019)/上诉法院(2023)/后续(2024) 六年法律战完整时间线
+    （The Indiana Lawyer/Reuters/CBS 多源）。
+- 「重组中」卡收缩为仅剩 Twitter 内容审核一篇。
+
+**质量门**
+- 4 篇深读渲染正常；verify.py 体检通过（32 页）；node --check 通过。
+
 ## v5.80.0 — 2026-09-19 · 新三阶段 Phase1-1：修订历史系统上线
 
 **主题包成果**
