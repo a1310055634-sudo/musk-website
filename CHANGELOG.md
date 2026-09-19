@@ -2,6 +2,21 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.87.0 — 2026-09-19 · 自由精进：全面打印 QA + revisions 表格防拆（自由精进第五十四轮）
+
+**主题包成果**
+- **打印 PDF 抽检五页**（controversy/chronicle/finance/reading/revisions），headless Edge + pypdf：
+  - 全部无空白页、无返回链接泄漏；
+  - controversy 5 页含 pedo guy/Autopilot/union dues/NLRB 全部关键术语；
+  - chronicle 8 页含全部年份行；finance 4 页含收入/估值数据；
+  - reading 10 页含十章标题；revisions 5 页含 100 锚点表。
+- **就地修复**：revisions.html 缺表格行防拆规则——100 行表格会被跨页拆断，
+  已补 `.rv-table tr { break-inside: avoid; }` + `.rv-table th { break-after: avoid; }`。
+
+**质量门**
+- 打印复验：controversy/chronicle/finance/reading/revisions 五页全部 ✓；
+  verify.py 体检通过（32 页）；node --check 通过。
+
 ## v5.86.0 — 2026-09-19 · 自由精进：编年史全量同步尝试——回滚与策略调整（自由精进第五十三轮）
 
 **过程记录**
