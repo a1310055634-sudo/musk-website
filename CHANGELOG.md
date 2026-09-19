@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.89.0 — 2026-09-19 · 自由精进：账本扩容（+2025 xAI 收购 X，66 条）
+
+**主题包成果**
+- 言行实录 65 → 66 条：新增 **2025.03.28 xAI 收购 X**（id e2025-03-28）——
+  本人推文逐字（CNBC/Forbes/AP 多源互证）：“@xAI has acquired @X in an all-stock transaction.
+  The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).”
+- 后续线：2022 年 $44B 买入 → 2025 年 $33B 独立估值 → 并入后成为 $80B 公司一部分
+  （「重新定价」为编者分析已标注）。与 chronicle X 部、finance.html X 部完整互链。
+- 全链一次到位：语录卡 52 张、索引 106 条、时间轴 66 节点。
+
+**质量门**
+- 66 条时序校验递增；verify.py 体检通过；node --check 通过。
+
 ## v5.85.0 轮 — 2026-09-19 · 自由精进：账本扩容（+2019 Crew Dragon Demo-1 对接 ISS，65 条）
 
 **主题包成果**

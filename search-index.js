@@ -1294,6 +1294,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2025-03-28",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2025.03.28",
+  "s": "本人推文（xAI 收购 X）· CNBC · Forbes · AP",
+  "q": "“@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).”",
+  "zh": "@xAI 已收购 @X，全股票交易。合并后 xAI 估值 800 亿美元，X 估值 330 亿美元（减去 120 亿债务为 450 亿企业价值）。",
+  "bg": "X Corp had been losing advertisers since 2022 and Fidelity marked down its stake by 80%. But it had something xAI needed: real-time data from 500+ million posts per day, and a distribution channel to half a billion accounts. The merger was structured as all-stock — xAI ($80B) absorbing X ($33B, $45B enterprise with $12B debt).",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
   "id": "e2025-05-03",
   "pg": "primary.html",
   "t": "言行实录",

@@ -1,5 +1,10 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.89.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 65 → 66 条——新增 **2025.03.28 xAI 收购 X**（id e2025-03-28）。
+> 核心引文（本人推文 permalink x.com/elonmusk/status/1905731750275510312）：“@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).” + “This combination will unlock immense potential by blending xAI's advanced AI capability and expertise with X's massive reach.”
+> 来源：CNBC（2025-03-28）/ Forbes / AP / Wikipedia SpaceXAI。多源互证。
+> 交叉：2022 年 $44B 买入 → 2025 年 $33B 独立估值 → 并入后成为 $80B 公司一部分（「重新定价」为编者分析已标注）。
+
 > **新事实入包（v5.85.0 轮 / 2026-09-19 核实）**：言行实录 63 → 65 条——新增 **2019.03.03 Crew Dragon Demo-1 自主对接 ISS**（id e2019-03-03，行为条目无逐字引语段）。
 > 事实：2019-03-02 Falcon 9 从 LC-39A 发射 Demo-1 → 03-03 Crew Dragon 自主对接 ISS Harmony 节点 → 首次商业航天器自主对接 ISS → 03-08 安全溅落（Business Insider/NASA TV）。
 > 与 e2019-04-20（一个月后静态点火事故）和 e2020-05-30（载人首飞）构成完整弧线。
