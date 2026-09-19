@@ -31,9 +31,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（114 条，v0.1.0 → v5.64.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（115 条，v0.1.0 → v5.65.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v5.65.0 — 2026-09-19 · 自由精进：账本扩容（+SolarCity 诉讼判决，51 条）</h3><h4>主题包成果</h4><ul><li>言行实录 50 → 51 条：新增 <strong>2022.07.13 特拉华衡平法院 SolarCity 诉讼判决</strong>（id e2022-07-13），</li><li>三源核实（Morris James / Justia / Dechert）；判决理由两条结构性保障（独立委员会 + 少数股东投票）入册。</li><li>过程注记：首插落在 4 月条目之前（时序审计抓出），已移正至 4.14 与 10.26 之间的正确时序位。</li></ul><h4>质量门</h4><ul><li>51 条时序校验递增；verify.py 体检通过（含语录卡白名单 42/45/3 平衡）；node --check 通过。</li></ul></li>
 <li class="cl-item"><h3>v5.64.0 — 2026-09-19 · 自由精进：账本扩容（50 条里程碑：Model S 原型发布）</h3><h4>主题包成果</h4><ul><li>言行实录 49 → <strong>50 条里程碑</strong>：新增 <strong>2009.03.26 Model S 原型发布</strong>（id e2009-03-26），</li><li>落位 e2008-12-24 与 e2010-06-29 之间（时序校验全局递增）；2009 年账本空缺补上。</li><li>后续线多项来源核实：DOE ATVM 4.65 亿（2009.06 有条件批准 Tesla IR / 2010.01 放款 DOE 页 /</li></ul><h4>联动更新</h4><ul><li>search-index.js 重生成 90 条；search.html 计数文案「言行实录 50 条」；时间轴重建 50 节点；索引断言同步。</li></ul><h4>质量门</h4><ul><li>50 条时序校验递增；verify.py 体检通过；node --check 通过。</li></ul></li>
 <li class="cl-item"><h3>v5.63.0 — 2026-09-19 · 自由精进：一致性校验扩展 + 全类型 bg 字段（自由精进第二十九轮）</h3><h4>主题包成果</h4><ul><li><strong>检索匹配扩展</strong>：search-index.js 为全部类型补 bg 字段（documents=本站注释段、interviews=ctx 背景、</li><li><strong>verify.py 一致性校验升级</strong>：</li></ul><h4>过程修复</h4><ul><li>白名单检查首版引用了 findall 单捕获组的返回值（id 字符串而非整块文本），containment 恒假；</li></ul><h4>质量门</h4><ul><li>verify.py 六项检查全绿（新增两项）；build-search-index 重建后 89 条不变（bg 只加字段不改条数）。</li></ul></li>
 <li class="cl-item"><h3>v5.62.0 — 2026-09-19 · 自由精进：语录核实组补卡（40 → 42）+ Hertz 条目补「原话」段</h3><h4>主题包成果</h4><ul><li>quotes.html 核实组 40 → 42：补入 <strong>2019 Starship「Honestly, I'm in love with steel.」</strong> 与</li><li><strong>账本质量补课</strong>：e2021-10-25 条目原缺「原话」段（两条推文引文嵌在叙述里）——按账本四段规范补上</li><li>reading.html 第十章计数引用同步（核实组 42 条）。</li></ul><h4>工程修复</h4><ul><li>发现并修复「改内存未写盘」丢改：多文件连环修改脚本在中途读写其他文件时，前一个文件的修改必须</li></ul><h4>质量门</h4><ul><li>核实组 42 卡时序递增、新卡内容正确；账本四段结构复验（背景/原话/现场/后续）；</li></ul></li>

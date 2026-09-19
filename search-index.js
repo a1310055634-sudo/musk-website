@@ -713,6 +713,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2022-07-13",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.07.13",
+  "s": "特拉华衡平法院判决 · Morris James · Justia · Dechert",
+  "q": "2016 年的 SolarCity 收购引来多年股东诉讼：主张是马斯克操控 Tesla 董事会、以 26 亿美元股票高估收购一家他本人任董事长的困境太阳能公司。审判于 2022 年 4 月终结；7 月 13 日，衡平法院大法官 Kathaleen McCormick 发布庭审后判决意见。",
+  "zh": "",
+  "bg": "The 2016 SolarCity acquisition drew years of shareholder litigation: the claim was that Musk dominated the Tesla board and caused it to overpay $2.6 billion in stock for a struggling solar company he chaired. The trial ended in April 2022; on July 13, Chancellor Kathaleen McCormick issued her post-trial opinion.",
+  "c": [
+   "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2022-10-26",
   "pg": "primary.html",
   "t": "言行实录",

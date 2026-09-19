@@ -1,5 +1,9 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.65.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 50 → 51 条——新增 **2022.07.13 SolarCity 诉讼判决**（id e2022-07-13）。
+> 事实：In re Tesla Motors, Inc. Stockholder Litigation——衡平法院大法官 Kathaleen McCormick 庭审后判决（2022-07-13）支持马斯克与 Tesla 董事；独立委员会谈判批准 + 知情的少数股东多数投票两条结构性保障是判决关键；2023-06-06 特拉华州最高法院维持原判，认定收购「entirely fair」（Morris James / Justia / Dechert 三源）。
+> 与 e2016-11（SolarCity 收购）首尾呼应；「弧线收束」句为编者分析（已标注）。
+
 > **新事实入包（v5.64.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 49 → 50 条——新增 **2009.03.26 Model S 原型发布**（id e2009-03-26）。
 > 行为条目（无逐字引语段，媒体转述为主，索引降级提取背景段）。核实口径：发布会 2009-03-26 于霍恩设计工作室（SpaceX 总部旁，New Yorker/Forbes）；原型标称约 $50,000、300 英里续航、零百 6 秒内。
 > 后续线（多项来源核实）：2009-06-22 DOE ATVM 有条件批准 ≈$465M（Tesla IR 官方新闻稿）→ 2010-01 放款（$365M Model S 产线 + $100M 动力总成，DOE 页）→ 2010-06 IPO → 2012 交付 → 2013-05 提前九年还清（Tesla IR / NYT DealBook）。
