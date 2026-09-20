@@ -777,6 +777,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2021-01-07",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2021.01.07",
+  "s": "Bloomberg Billionaires Index · 本人推文 · Economic Times",
+  "q": "\"How strange.\" ... \"Well, back to work ...\"",
+  "zh": "真奇怪。……好了，回去工作……",
+  "bg": "Tesla shares surged roughly 5% to close at $816, pushing Musk's ~18% stake past Jeff Bezos on the Bloomberg Billionaires Index — ending Bezos's reign at #1 since 2017. Musk's net worth: approximately $185-190 billion, driven almost entirely by stock (he takes no salary).",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "p2021-03-02",
   "pg": "x-posts.html",
   "t": "X 帖",
