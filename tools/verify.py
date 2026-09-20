@@ -14,6 +14,7 @@ import io
 import os
 import re
 import sys
+import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -134,6 +135,36 @@ if os.path.exists('revisions.html'):
 else:
     rv_errors.append('revisions.html 不存在')
 check('修订历史一致性', rv_errors)
+
+# ---------- 8) CHANGELOG 首条版本 = VERSION（防轮次漏记） ----------
+cl_errors = []
+cl_first = re.search(r'^## (v[\d.]+)(?: 轮)? — ', io.open('CHANGELOG.md', encoding='utf-8').read(), re.M)
+if not cl_first:
+    cl_errors.append('CHANGELOG.md 无可解析的「## v…」条目')
+elif cl_first.group(1) != 'v' + ver_file:
+    cl_errors.append(f'CHANGELOG 首条 {cl_first.group(1)} != VERSION v{ver_file}（本轮漏记，先补 CHANGELOG.md 再跑 tools/sync-changelog.py）')
+check('CHANGELOG 首条版本', cl_errors)
+
+# ---------- 9) EPUB 含最新账本锚点（防电子书过期） ----------
+# build-epub.py 剥除全部标签（锚点 id 不入书），故以最新账本条目的日期文本为新鲜度判据
+ep_errors = []
+if os.path.exists('musk-inc.epub'):
+    anchors = re.findall(r'\bid="(e\d{4}-\d{2}-\d{2})"', texts.get('primary.html', ''))
+    if anchors:
+        latest = max(anchors)
+        date_probes = [latest[1:].replace('-', '.'), latest[1:]]  # 2025.11.06 与 2025-11-06 两种写法
+        with zipfile.ZipFile('musk-inc.epub') as z:
+            epub_txt = ''.join(z.read(n).decode('utf-8', 'ignore')
+                               for n in z.namelist() if n.endswith(('.xhtml', '.html', '.opf', '.ncx')))
+        if not any(p in epub_txt for p in date_probes):
+            ep_errors.append(f'EPUB 缺最新账本条目（{latest}，重跑 tools/build-epub.py）')
+        else:
+            print(f'  · EPUB 含最新账本条目 {latest}')
+    epub_mtime = os.path.getmtime('musk-inc.epub')
+    newer_pages = [f for f in html_files if os.path.getmtime(f) > epub_mtime]
+    if newer_pages:
+        ep_errors.append(f'EPUB 旧于内容页 {newer_pages[:4]}（重跑 tools/build-epub.py）')
+check('EPUB 新鲜度（最新账本条目在内）', ep_errors)
 
 # ---------- 汇总 ----------
 print()

@@ -22,12 +22,16 @@ def inline(t):
 
 entries = []
 cur = None
+dropped = []
 for line in md.splitlines():
-    m = re.match(r'^## (v[\d.]+) — (\d{4}-\d{2}-\d{2}) · (.+)$', line)
+    m = re.match(r'^## (v[\d.]+)(?: 轮)? — (\d{4}-\d{2}-\d{2}) · (.+)$', line)
     if m:
         cur = {'ver': m.group(1), 'date': m.group(2), 'title': m.group(3), 'sections': []}
         entries.append(cur)
         continue
+    if line.startswith('## v'):
+        dropped.append(line)
+        cur = None  # 版本标题无法解析：条目丢弃并记录，防止静默丢失
     if cur is None:
         continue
     ms = re.match(r'^\*\*(.+?)\*\*\s*$', line)
@@ -38,6 +42,11 @@ for line in md.splitlines():
         if not cur['sections']:
             cur['sections'].append({'name': '要点', 'items': []})
         cur['sections'][-1]['items'].append(inline(line[2:].strip()))
+
+if dropped:
+    print('警告：以下版本标题未匹配解析规则，对应条目未渲染：')
+    for d in dropped:
+        print('  ', d)
 
 lis = []
 for e in entries:

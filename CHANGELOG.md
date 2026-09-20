@@ -2,6 +2,34 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.88.1 — 2026-09-20 · 补账：CHANGELOG 漏记补录 + 版本误标澄清 + 门禁加固（自由精进第五十五轮）
+
+**主题包成果**
+- **三轮 CHANGELOG 漏记补录**（内容均已入库，仅缺账面；材料取自 git log 与 EXPANSION.md）：
+  - **v5.84.0（补录）**：2013.05.08 Tesla 首次季度盈利（e2013-05-08，Q1 股东信逐字，CNET/IBD），账本 61 → 62，索引 102 条；
+  - **v5.85.1（补录）**：2018.05.20 工会推文（e2018-05-20，The Indiana Lawyer/Reuters/CBS 逐字），账本 63 → 64，索引 104 条；
+  - **v5.88.0（补录）**：2021.01.07 世界首富日（e2021-01-07，「How strange.」Economic Times/Bloomberg），账本 66 → 67，chronicle+语录卡+EXPANSION 同步，索引 107 条。
+- **四处版本误标加注**（git 历史不改写，条目内加「勘误」小节）：v5.89.0（时序早于 v5.86-5.88 三轮，版本从未到达）、「v5.85.0 轮」（与 Google/Fidelity 轮重号）、「v5.80.0 轮」（与 Phase1-1 轮重号）、工会轮 git 误标 v5.88.0。
+- **sync-changelog.py 解析修复**：标题含「 轮」后缀（如「v5.85.0 轮 —」）此前不匹配正则、条目被静默丢弃，changelog.html 实缺 2 条——正则已容忍该后缀。
+- **verify.py 新增两道门禁**：① CHANGELOG 首条版本 = VERSION（防本轮这类漏记）；② EPUB 含最新账本锚点（防电子书过期）。
+- reading.html 页首英文残留修复（"Chapters 4-10 are being rebuilt in place" → 十章齐备口径）；DEVLOG 待做清单与技术债同步。
+- **musk-inc.epub 重建**：旧版构建于 v5.83.0 轮，此后账本 60 → 67 共 7 条新增、争议第五篇、打印 CSS 修复全部缺位，本轮一并补入。
+
+**质量门**
+- sync-changelog.py 重生成（143 条，v0.1.0 → v5.88.1）；build-epub.py 重建；verify.py 体检通过（含新增两检查）；node --check 通过。
+
+## v5.88.0 — 2026-09-19 · 自由精进：账本扩容（+2021 世界首富日，67 条）（补录）
+
+**勘误（v5.88.1 补注）**
+- 本轮完成时漏记 CHANGELOG（git 241cbcc 已提交），由 v5.88.1 轮依 git log 与 EXPANSION.md 补录；commit 信息「账本 65→67」为笔误，实为 66 → 67。
+
+**主题包成果**
+- 言行实录 66 → 67 条：新增 **2021.01.07 世界首富日**（id e2021-01-07）——双推文逐字（“How strange.” / “Well, back to work …”，Economic Times/Bloomberg），Tesla 当日 +5% 收 $816、净资产 ≈$185-190B、终结 Bezos 全球首富地位。
+- chronicle 补行 + quotes.html 语录卡 + EXPANSION.md 同步；索引 106 → 107 条。
+
+**质量门**
+- 67 条时序校验递增；verify.py 体检通过；node --check 通过。
+
 ## v5.87.0 — 2026-09-19 · 自由精进：全面打印 QA + revisions 表格防拆（自由精进第五十四轮）
 
 **主题包成果**
@@ -31,6 +59,9 @@
 
 ## v5.89.0 — 2026-09-19 · 自由精进：账本扩容（+2025 xAI 收购 X，66 条）
 
+**勘误（v5.88.1 补注）**
+- 版本号误标：该轮 git（1be1eef）时序位于 v5.86/v5.87/v5.88 三轮之前，站点版本从未到达 v5.89——条目位置与内容保持原样，仅此说明。
+
 **主题包成果**
 - 言行实录 65 → 66 条：新增 **2025.03.28 xAI 收购 X**（id e2025-03-28）——
   本人推文逐字（CNBC/Forbes/AP 多源互证）：“@xAI has acquired @X in an all-stock transaction.
@@ -43,6 +74,9 @@
 - 66 条时序校验递增；verify.py 体检通过；node --check 通过。
 
 ## v5.85.0 轮 — 2026-09-19 · 自由精进：账本扩容（+2019 Crew Dragon Demo-1 对接 ISS，65 条）
+
+**勘误（v5.88.1 补注）**
+- 版本号误标：git（2043e21）标 v5.85.0 与 Google/Fidelity 轮重号（时序在其后）；标题「 轮」后缀曾致 changelog.html 渲染丢失，v5.88.1 已修复解析。条目保持原样。
 
 **主题包成果**
 - 言行实录 64 → 65 条：新增 **2019.03.03 Crew Dragon Demo-1 自主对接 ISS**（id e2019-03-03）——
@@ -63,6 +97,18 @@
 **质量门**
 - 5 篇深读渲染正常；verify.py 体检通过（32 页）。
 
+## v5.85.1 — 2026-09-19 · 自由精进：账本扩容（+2018 工会推文，64 条）（补录）
+
+**勘误（v5.88.1 补注）**
+- 本轮 git 提交时误标 v5.88.0（dd13293，时序实际位于 v5.85.0 Google/Fidelity 轮之后、v5.84.1 内容审核轮之前），且当时漏记 CHANGELOG——由 v5.88.1 轮按时序补录并编为 v5.85.1。
+
+**主题包成果**
+- 言行实录 63 → 64 条：新增 **2018.05.20 工会推文**（id e2018-05-20）——「Nothing stopping… But why pay union dues & give up stock options for nothing」逐字核实（The Indiana Lawyer/Reuters/CBS）；与 controversy.html 工会篇完整互链。
+- 索引 103 → 104 条；语录卡同步。
+
+**质量门**
+- 64 条时序校验递增；verify.py 体检通过；node --check 通过。
+
 ## v5.85.0 — 2026-09-19 · 自由精进：账本扩容（+2015 Google/Fidelity 入股 SpaceX，63 条）
 
 **主题包成果**
@@ -74,7 +120,22 @@
 **质量门**
 - 63 条时序校验递增；chronicle SpaceX 14 行断言；索引 103 条；时间轴 63 节点；verify.py 通过；node --check 通过。
 
+## v5.84.0 — 2026-09-19 · 自由精进：账本扩容（+2013 Tesla 首次季度盈利，62 条）（补录）
+
+**勘误（v5.88.1 补注）**
+- 本轮完成时漏记 CHANGELOG（git 2e7c621 已提交），由 v5.88.1 轮依 git log 与 EXPANSION.md 补录；版本号沿用其 git 标签 v5.84.0（时序位于 pedo guy 轮之后，见其勘误注）。
+
+**主题包成果**
+- 言行实录 61 → 62 条：新增 **2013.05.08 Tesla 首次季度盈利**（id e2013-05-08）——Q1 2013 股东信逐字（Musk 执笔）：“Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”（CNET/IBD，股东信全文可查）；非 GAAP 盈利 $15M、营收 ~$562M、股价当日 +24%。
+- chronicle 补行 + EXPANSION.md 五行同步；索引 101 → 102 条。
+
+**质量门**
+- 62 条时序校验递增；verify.py 体检通过；node --check 通过。
+
 ## v5.80.0 轮 — 2026-09-19 · 自由精进：账本扩容（+2018 pedo guy 推文，61 条）
+
+**勘误（v5.88.1 补注）**
+- 版本号误标：git（0f4cc6d）实标 v5.80.1，时序位于 v5.83.0 电子书轮之后；CHANGELOG 标题误写 v5.80.0 与 Phase1-1 轮重号，且「 轮」后缀曾致渲染丢失（v5.88.1 已修复解析）。条目保持原样。
 
 **主题包成果**
 - 言行实录 60 → 61 条：新增 **2018.07.15 pedo guy 推文**（id e2018-07-15）——
