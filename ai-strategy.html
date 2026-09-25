@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>AI 战略布局全景 · 马斯克商业志 MUSK, INC.</title>
-<meta name="description" content="2015 OpenAI 联合创始→2018 退出→2023 xAI→2025 收购 X 的 AI 全景。" />
+<meta name="description" content="2015 OpenAI 联合创始→2018 退出→2023 xAI→2025 收购 X→2026 Series E 的 AI 全景：从捐资者到所有者。" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
@@ -23,8 +23,12 @@
   background: #f3f0ea; border-left: 4px solid #7c2d2d; padding: 12px 18px; margin: 10px 0;
 }
 .ai-node .ai-zh { font-size: 13px; color: #5c574e; margin: 4px 0 0; }
+.ai-node .ai-data { font-size: 13px; color: #5c574e; background: #faf9f6; border: 1px solid rgba(26,26,26,.12); border-radius: 6px; padding: 10px 14px; margin: 10px 0; line-height: 1.9; }
+.ai-node .ai-data b { color: #1a1a1a; }
+.ai-analysis { background: #f3f0ea; border-left: 4px solid #5c574e; padding: 12px 18px; margin: 14px 0 4px; font-size: 14px; line-height: 1.9; }
+.ai-analysis b { font-style: normal; }
 .ai-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
-@media print { .ai-node { break-inside: avoid; } .ai-node p { orphans: 3; widows: 3; } .ai-back { display: none; } }
+@media print { .ai-node { break-inside: avoid; } .ai-node p { orphans: 3; widows: 3; } .ai-back, .ps-nav { display: none; } }
 </style>
 </head>
 <body>
@@ -34,36 +38,55 @@
       <a href="primary.html">言行实录</a><a href="documents.html">一手文档馆</a><a href="interviews.html">访谈与表态</a><a href="x-posts.html">X 帖史选辑</a><a href="money.html">资本解剖</a><a href="ai-strategy.html" aria-current="page">AI 战略布局</a><a href="capital-evolution.html">资本演化</a>
     </nav>
   <header class="ai-head">
-    <h1>AI 战略布局全景</h1>
-    <p class="ai-sub">AI STRATEGY LANDSCAPE — 2015 OpenAI 联合创始→2018 退出→2023 xAI→2025 收购 X 的 AI 全景。本页以第一手材料为锚点，按时间线排列。</p>
+    <h1 data-en="AI Strategy Landscape">AI 战略布局全景</h1>
+    <p class="ai-sub" data-en="AI STRATEGY LANDSCAPE — from OpenAI co-founder and donor (2015) to owner of a vertically integrated AI stack (2026): models, data, distribution and capital in one loop. Anchored to first-hand entries throughout.">AI STRATEGY LANDSCAPE — 从 OpenAI 联合创始人与捐资者（2015）到垂直整合 AI 巨轮的所有者（2026）：模型、数据、分发、资本闭环。本页以第一手材料为锚点，按时间线排列。</p>
   </header>
 
   <div class="ai-node">
-    <div class="ai-date">2015</div>
-    <p>联合创立非营利 AI 研究机构 OpenAI，初衷是「确保通用人工智能对全人类安全」。2018 年退出董事会，公开理由是 Tesla 自身在自动驾驶领域的工作可能与 OpenAI 产生利益冲突。</p>
+    <div class="ai-date">2015 – 2018 · OPENAI</div>
+    <h2 data-en="The donor years: funding the counterweight">捐资者岁月：出资制衡</h2>
+    <p data-en="In 2015 he co-founded the non-profit OpenAI, pledging alongside other donors; the stated mission was to make artificial general intelligence safe for humanity. In 2018 he left the board, citing Tesla's own autonomous-driving work as a potential conflict of interest.">2015 年联合创立非营利研究机构 OpenAI，与其他捐资人共同承诺出资，初衷是「确保通用人工智能对全人类安全」。2018 年退出董事会，公开理由是 Tesla 自身在自动驾驶领域的工作可能与 OpenAI 产生利益冲突。</p>
+    <p data-en="The exit ended his formal role but not the theme: the fear of uncontrolled AGI — first as a funder, later as a competitor — runs through every move on this page.">这次退出结束了他的正式角色，但没结束这条主线：对失控 AGI 的担忧——先是出资人，后是竞争者——贯穿本页每一次动作。</p>
   </div>
 
   <div class="ai-node">
-    <div class="ai-date">2023.07.12</div>
-    <p>官宣成立 xAI——章程一句话：「理解宇宙的真实本质」。同月 Grok 首发上线（X Premium+）。他在 Twitter Spaces 上解释：从 AI 安全的角度看，一个试图理解宇宙真实本质的 AI 是最好的方案。</p>
+    <div class="ai-date">2023.07.12 · XAI</div>
+    <h2 data-en="xAI: one sentence as a charter">xAI：一句话章程</h2>
+    <p data-en="xAI was announced with a one-line mission. In a Twitter Spaces session he framed it as an AI-safety argument (Reuters covered the session):">xAI 官宣，章程只有一句话。他在 Twitter Spaces 上把它论证为一个 AI 安全命题（Reuters 报道）：</p>
+    <blockquote>“To understand the true nature of the universe.” … “If it tried to understand the true nature of the universe, that's actually the best thing that I can come up with from an AI safety standpoint.”
+      <p class="ai-zh">「理解宇宙的真实本质。」——「如果它试图理解宇宙的真实本质，从 AI 安全的角度看，这是我能想到的最好方案。」</p>
+    </blockquote>
+    <p data-en="Same month Grok shipped to X Premium+ subscribers — model, product and distribution inside one group from day one. Ledger entry: <a href='primary.html#e2023-07-12'>e2023-07-12</a>.">同月 Grok 面向 X Premium+ 用户上线——模型、产品、分发从第一天起就在同一集团内。账本条目：<a href="primary.html#e2023-07-12">e2023-07-12</a>。</p>
   </div>
 
   <div class="ai-node">
-    <div class="ai-date">2024.03.11</div>
-    <p>宣布开源 Grok-1。xAI 官网随后发布 Apache 2.0 权重（314B 参数 MoE）——当时最大的开源 MoE 模型。</p>
+    <div class="ai-date">2024 · MODELS &amp; MONEY</div>
+    <h2 data-en="Open-sourcing Grok-1, closing two rounds">开源 Grok-1，两轮快钱</h2>
+    <p data-en="On 2024.03.11 he announced that Grok-1 was open-sourced; xAI then published the weights under Apache 2.0 — a 314B-parameter mixture-of-experts, at the time the largest open MoE model. The gesture targeted the 'closed-lab' critique head-on: the safety-motivated newcomer would show its weights.">2024 年 3 月 11 日宣布开源 Grok-1；xAI 随后以 Apache 2.0 发布权重——3140 亿参数混合专家模型，当时最大的开源 MoE。这一手直接回应「封闭实验室」的批评：以安全为旗号的新入局者，把权重亮了出来。</p>
+    <div class="ai-data" data-en="Funding pace (finance page, reported figures): May 2024 Series B — $6B raised, ~$24B valuation; Dec 2024 Series C — another $6B, ~$40B. Two rounds, eight months, valuation up two-thirds."><b>融资节奏</b>（财务页口径，公开报道数）：2024.05 B 轮募 <b>60 亿美元</b>、估值约 <b>240 亿</b>；2024.12.23 C 轮再募 <b>60 亿</b>、估值约 <b>400 亿</b>——八个月两轮，估值涨三分之二（<a href="finance.html#xai">财务全景 · xAI</a>）。</div>
   </div>
 
   <div class="ai-node">
-    <div class="ai-date">2025.03</div>
-    <p>xAI 以全股票交易收购 X——xAI 估值约 800 亿，X 估值约 330 亿（含债务约 450 亿）。逻辑是垂直整合：数据 × 分发 × 资本三位一体。</p>
+    <div class="ai-date">2025.03.28 · THE REVERSE MERGER</div>
+    <h2 data-en="The AI company buys the platform">AI 公司反向收购平台</h2>
+    <p data-en="Two years after buying X for $44 billion, he merged it into the AI company that had been born on its infrastructure — via an all-stock deal announced in his own words:">在以 440 亿美元买下 X 的两年之后，他把 X 并入了诞生于其基础设施之上的 AI 公司——以本人推文宣布的全股票交易：</p>
+    <blockquote>“@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).”
+      <p class="ai-zh">「@xAI 已全股票收购 @X。合并对 xAI 估值 800 亿美元、X 估值 330 亿美元（450 亿减 120 亿债务）。」</p>
+    </blockquote>
+    <p data-en="Ledger entry: <a href='primary.html#e2025-03-28'>e2025-03-28</a> (per-tweet, corroborated by CNBC/Forbes/AP). The logic is vertical integration — data × distribution × capital in one loop: X's post firehose feeds training; X's surfaces distribute the product; the combined equity raises on the AI story. The chronicle reads the deal as <a href='grok.html'>the AI company buying the platform</a>, not the other way round.">账本条目：<a href="primary.html#e2025-03-28">e2025-03-28</a>（本人推文，CNBC/Forbes/AP 互证）。逻辑是垂直整合——数据 × 分发 × 资本闭环：X 的帖文流喂训练，X 的界面分发产品，合并后的股权以 AI 叙事再融资。编年史把这笔交易读作<a href="grok.html">「AI 公司买下平台」</a>，而非平台收购 AI 公司。</p>
   </div>
 
   <div class="ai-node">
-    <div class="ai-date">2026.01</div>
-    <p>xAI 完成 200 亿美元 Series E——超 150 亿目标，英伟达与思科参投，估值约 2300 亿量级。这是 AI 行业见过最大的私募融资轮之一。</p>
+    <div class="ai-date">2025 – 2026 · SCALE-UP</div>
+    <h2 data-en="Debt, then the largest private round">债务搭桥，然后史上级私募</h2>
+    <div class="ai-data" data-en="Autumn 2025: ~$10B new equity plus $12B debt (reported). Jan 2026: $20B Series E — above the $15B target, with NVIDIA and Cisco participating, valuation on the order of $230B."><b>2025 秋</b>：新增股权约 <b>100 亿美元</b> + 债务 <b>120 亿</b>（报道口径）；<b>2026.01</b>：<b>200 亿美元</b> Series E——超 150 亿目标，英伟达与思科参投，估值约 <b>2300 亿</b>量级（<a href="finance.html#xai">财务全景</a> / <a href="capital-evolution.html">资本演化时间轴</a>）。</div>
+    <p data-en="From first tweet to $230B on paper took about two and a half years — the fastest private-capital ascent of this scale the industry has recorded. The trajectory, in five rounds:">从第一条推文到账面 2300 亿，用时约两年半——该量级下行业记载最快的私募资本攀升。五轮轨迹：</p>
+    <div class="ai-data">创立（2023.07）→ B 轮 <b>240 亿</b>（2024.05）→ C 轮 <b>400 亿</b>（2024.12）→ 股权+债（2025 秋）→ E 轮 <b>2300 亿</b>（2026.01）</div>
   </div>
 
-  <p class="ai-foot">本页由马斯克商业志自动化迭代维护 · 所有日期与金额均来自本站事实扩展包（公开报道口径：CNBC、Reuters、The Information、Fortune、x.ai、tesla.com）· 非官方学习型网站 · 与「言行实录」「资本解剖」「深读长文」板块互为对照 · <a href="capital-evolution.html" style="color:#7c2d2d">资本演化时间轴 →</a> · <a href="index.html" style="color:#7c2d2d">返回主页 ↑</a></p>
+  <div class="ai-analysis"><b>编者分析</b>（非其原话）：这条时间线的头尾互为注脚。2015 年他出钱让别人做 AI 安全，2023 年起改成自己做——理由仍是同一套安全话语；差别在于身份从捐资人变成大股东，制衡者变成被制衡的对象。2025 年的反向收购把「买平台换分发」的旧剧本倒转成「AI 公司吸走平台」，也让 xAI 成为马斯克系第六块主要业务中资本效率最激进的一块：每一步估值跳升都发生在产品大规模验证之前，赌注押在「数据+分发」的闭环最终会兑现为模型优势。</div>
+
+  <p class="ai-foot" data-en="Maintained by the MUSK, INC. automation. Dates and figures from this site's fact-expansion pack (public reporting: CNBC, Reuters, The Information, Fortune, x.ai, tesla.com). Cross-reference with the ledger, finance and deep-dive sections. · <a href='capital-evolution.html' style='color:#7c2d2d'>Capital evolution →</a> · <a href='index.html' style='color:#7c2d2d'>Back to top ↑</a>">本页由马斯克商业志自动化迭代维护 · 所有日期与金额均来自本站事实扩展包（公开报道口径：CNBC、Reuters、The Information、Fortune、x.ai、tesla.com）· 与「言行实录」「财务全景」「深读长文」板块互为对照 · <a href="capital-evolution.html" style="color:#7c2d2d">资本演化时间轴 →</a> · <a href="index.html" style="color:#7c2d2d">返回主页 ↑</a></p>
 </div>
 </body>
 </html>
