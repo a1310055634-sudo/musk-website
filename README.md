@@ -5,6 +5,7 @@
 
 ## 打开方式
 
+- **在线版**：<https://a1310055634-sudo.github.io/musk-website/>（GitHub Pages，随 main 分支自动部署）；
 - **直接双击 `index.html`**（全部功能在 file:// 协议下可用，无任何联网依赖）；
 - 或本地起服务：`python -m http.server 8765` 后访问 `http://127.0.0.1:8765/index.html`。
 

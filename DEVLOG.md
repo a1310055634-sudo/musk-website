@@ -24,6 +24,7 @@
 
 - 双击 `index.html` 即可（纯静态，file:// 协议全功能可用）
 - 或 `python -m http.server 8765` 后访问 `http://127.0.0.1:8765`
+- 在线版：<https://a1310055634-sudo.github.io/musk-website/>（GitHub Pages，随 main 自动部署）
 
 ## 三、目录结构
 
@@ -164,7 +165,7 @@ verify.py 会自动检查：
 
 ## 十一、git 提交习惯
 
-- 每轮提交，从不 push
+- 每轮提交并 `git push`（2026-09-25 起接入 GitHub 远程 `origin`，Pages 随 main 自动部署）
 - 提交消息格式：`v{版本号} 类型: 简述`
 - git log 即完整修订史，修订历史页由此生成
 - **版本号纪律（v5.88.1 教训）**：2026-09-20 凌晨连续多轮迭代时曾出现版本号误标（v5.80.1/v5.89.0 提前使用、v5.85.0/v5.88.0 各重复两次）和三轮 CHANGELOG 漏记（2013 首次盈利 / 2018 工会推文 / 2021 世界首富日）——v5.88.1 已补账（补录 + 勘误加注，git 历史未改写）。提交前先看 `git log --oneline -3` 确认下一个版本号，CHANGELOG 补条目后再提交；verify.py 的「CHANGELOG 首条版本」门禁会拦截漏记。
