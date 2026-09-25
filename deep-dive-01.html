@@ -35,7 +35,17 @@
 @media (max-width: 640px) {
   .dd-table-wrap::after { content: "← 左右滑动查看完整表格 →"; display: block; font-size: 11px; color: #8a857c; letter-spacing: .08em; padding-top: 6px; text-align: center; }
 }
-@media print { .dd-page { padding: 20px; } .dd-sec, blockquote { break-inside: avoid; } .dd-table tr, .dd-note { break-inside: avoid; } .dd-table th { break-after: avoid; } .dd-back { display: none; } .dd-table-wrap { overflow-x: visible; } .dd-table-wrap .dd-table { min-width: 0; } .dd-table-wrap::after { content: none; } }
+@media (max-width: 480px) {
+  .dd-page { padding: 28px 14px 48px; }
+  .dd-head h1 { letter-spacing: 0; }
+  .dd-lead { font-size: 15px; padding-left: 12px; }
+  .dd-sec p { font-size: 14px; }
+  .dd-sec blockquote { padding: 10px 14px; font-size: 14.5px; }
+  .dd-sec .dd-zh { font-size: 12.5px; }
+  .dd-note { padding: 10px 12px; }
+  .dd-data { padding: 8px 10px; font-size: 12.5px; }
+}
+@media print { .dd-sec h3 { break-after: avoid; } .dd-data { break-inside: avoid; } .dd-lead, .dd-sec p { orphans: 3; widows: 3; } .dd-page { padding: 20px; } .dd-sec, blockquote { break-inside: avoid; } .dd-table tr, .dd-note { break-inside: avoid; } .dd-table th { break-after: avoid; } .dd-back { display: none; } .dd-table-wrap { overflow-x: visible; } .dd-table-wrap .dd-table { min-width: 0; } .dd-table-wrap::after { content: none; } }
 </style>
 </head>
 <body>

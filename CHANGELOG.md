@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v6.0.0 — 2026-09-26 · 账本收官候选放弃 + 深读五页排版精进（自由精进第六十七轮）
+
+**账本候选裁定（放弃，Gruber 先例）**
+- **2010.05 Toyota-Tesla NUMMI/Fremont 收购不录入**。核查：账本 2010 年仅 e2010-06-29（IPO），"Toyota" 零提及，确属未录；框架事实多源可证（2010.05.20 官宣合作、$42M 收购 NUMMI、Toyota $50M IPO 前入股、$17M 设备——NYT/Autoblog/Green Car Reports/SFGate）。但三轮定向 WebSearch + 新闻稿原文抓取均**未获得 Musk 逐字引语**（各源均为转述，Toyoda "extreme innovator" 亦非逐字）——按「无逐字不录」纪律放弃，Fremont 作为账本候选序列就此关闭（DEVLOG 待做清单相应清空）。存量 Fremont 内容（e2012-06-22 首批交付、e2020-05-11 违令复工）不受影响。
+
+**主题包成果（改做排版精进）**
+- 深读五页（deep-dive-01~05）批量注入统一的 ≤480px 窄屏块：页边距/引语块/数据框/中译行缩排与字号适配（此前除 dd-01 表格横滑外四页无任何窄屏规则）；
+- 打印规则补充：`.dd-sec h3 { break-after: avoid; }`（标题不孤行）、`.dd-data { break-inside: avoid; }`、`.dd-lead/.dd-sec p { orphans:3; widows:3 }`（参照 v5.87.0 revisions 防拆先例）；
+- **打印抽检**：headless Edge 渲染 deep-dive-05 → PDF 3 页、无近空白页、六个关键术语全命中（含新扩写的「三位一体」「无限金钱外挂」）。
+
+**质量门**
+- verify.py 11 项全绿；EPUB 重建满足新鲜度门禁；临时 PDF 用后即删。
+
 ## v5.99.0 — 2026-09-26 · 薄页充实：AI 战略逻辑深读全量重写（自由精进第六十六轮，deep-dive 系列收官）
 
 **主题包成果**
