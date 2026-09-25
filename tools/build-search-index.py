@@ -129,6 +129,36 @@ for m in re.finditer(r'<section class="ct-ch" id="([a-z-]+)">(.*?)</section>', s
     found_cv.add(m.group(1))
 assert found_cv == set(CV_META), found_cv
 
+# ---------- chronicle.html 编年史（53 行，行 id 为注入的 c* 锚点） ----------
+s = io.open('chronicle.html', encoding='utf-8').read()
+CH_CO = {'tesla': 'Tesla', 'spacex': 'SpaceX', 'x': 'X', 'xai': 'xAI'}
+n_ch = 0
+for ms in re.finditer(r'<section class="cy-co" id="([a-z]+)">(.*?)</section>', s, re.S):
+    co_name = CH_CO[ms.group(1)]
+    intro = re.search(r'<p class="cy-intro">(.*?)</p>', ms.group(2), re.S)
+    for mr in re.finditer(r'<span class="cy-y">([^<]+)</span><div class="cy-ev" id="(c[\w-]+)">(.*?)</div>', ms.group(2), re.S):
+        items.append({
+            'id': mr.group(2), 'pg': 'chronicle.html', 't': '编年史',
+            'd': mr.group(1).strip(), 's': f'{co_name} · 编年史',
+            'q': strip(mr.group(3)), 'zh': '',
+            'bg': strip(intro.group(1)) if intro else '',
+        })
+        n_ch += 1
+assert n_ch == 53, n_ch
+
+# ---------- finance.html 财务全景（四节，id 沿用页内 tesla/spacex/x/xai） ----------
+s = io.open('finance.html', encoding='utf-8').read()
+for m in re.finditer(r'<section class="fn-co" id="([a-z]+)">(.*?)</section>', s, re.S):
+    h2 = re.search(r'<h2>([^<]+)</h2>', m.group(2))
+    intro = re.search(r'<p class="fn-intro">(.*?)</p>', m.group(2), re.S)
+    years = re.findall(r'20\d\d', m.group(2))
+    assert h2 and intro and years, m.group(1)
+    items.append({
+        'id': m.group(1), 'pg': 'finance.html', 't': '财务全景',
+        'd': max(years), 's': strip(h2.group(1)),
+        'q': strip(intro.group(1)), 'zh': '', 'bg': strip(intro.group(1)),
+    })
+
 # ---------- 公司实体推断（多对多，用于检索过滤） ----------
 import re as _re
 ENTITY_RULES = [
@@ -151,7 +181,7 @@ for it in items:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5}, counts
+assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5, '编年史': 53, '财务全景': 4}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

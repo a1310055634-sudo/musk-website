@@ -92,10 +92,12 @@ n_docs = len(re.findall(r'<article class="doc-article" id="d', texts.get('docume
 n_iv = len(re.findall(r'<article class="iv-item" id="i', texts.get('interviews.html', '')))
 n_posts = len(re.findall(r'<div class="tweet-card" id="p', texts.get('x-posts.html', '')))
 n_cv = len(re.findall(r'<section class="ct-ch" id="', texts.get('controversy.html', '')))
-total_expected = n_ps + n_docs + n_iv + n_posts + n_cv
+n_ch = len(re.findall(r'<div class="cy-ev" id="c', texts.get('chronicle.html', '')))
+n_fin = len(re.findall(r'<section class="fn-co" id="', texts.get('finance.html', '')))
+total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin
 if n_items != total_expected:
     idx_errors.append(f'索引 {n_items} 条 != 页面锚点 {total_expected} 条（先重跑 tools/build-search-index.py）')
-check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}）', idx_errors)
+check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}+{n_ch}+{n_fin}）', idx_errors)
 
 # ---------- 5) 时间轴节点 = 账本条目 ----------
 tl_errors = []

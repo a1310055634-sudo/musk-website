@@ -1,6 +1,20 @@
 // 由 tools/build-search-index.py 自动生成，请勿手改。
 window.SEARCH_INDEX = [
  {
+  "id": "c2002-01",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2002",
+  "s": "SpaceX · 编年史",
+  "q": "创立，自投约 1 亿美元——PayPal 套现的最大一笔（账本 / 资本流向图）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "PayPal",
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2002-10-03",
   "pg": "primary.html",
   "t": "言行实录",
@@ -14,6 +28,19 @@ window.SEARCH_INDEX = [
    "SolarCity",
    "Tesla",
    "SpaceX"
+  ]
+ },
+ {
+  "id": "c2004-01",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2004",
+  "s": "Tesla · 编年史",
+  "q": "A 轮融资 750 万美元，马斯克个人出资 650 万并出任董事长（资本运作深读）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -84,6 +111,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2008-08-02",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2008.08.02",
+  "s": "SpaceX · 编年史",
+  "q": "Flight 3 失败——两级再撞；他站在残骸中发话「I will never give up」（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2008-09-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -111,6 +151,33 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2008-09-28",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2008.09.28",
+  "s": "SpaceX · 编年史",
+  "q": "Falcon 1 第四次发射入轨——史上首枚入轨的私营液体燃料火箭；「第四次总会有好运」（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "c2008-12-23",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2008.12.23",
+  "s": "SpaceX · 编年史",
+  "q": "NASA 16 亿美元 CRS 货运合同——与 Tesla 融资背靠背的两天（资本解剖）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2008-12-24",
   "pg": "primary.html",
   "t": "言行实录",
@@ -122,6 +189,19 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "SpaceX"
+  ]
+ },
+ {
+  "id": "c2008-12-24",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2008.12.24",
+  "s": "Tesla · 编年史",
+  "q": "圣诞夜融资关闭——「可能的最后一天的最后一个小时」，公司免于破产（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -139,6 +219,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2010-06",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2010.06",
+  "s": "Tesla · 编年史",
+  "q": "纳斯达克 IPO 募资约 2.26 亿美元——1956 年福特之后首家上市的美国车企（资本解剖）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2010-06-29",
   "pg": "primary.html",
   "t": "言行实录",
@@ -147,6 +240,19 @@ window.SEARCH_INDEX = [
   "q": "2008 年圣诞夜的救援买来两年时间；到 2010 年年中，Tesla 需要资金建 Model S 产线。半个世纪以来汽车公司在公开市场一直是毒资产——Tesla 之前，上一家上市的美国车企是 1956 年的福特。",
   "zh": "",
   "bg": "The Christmas Eve rescue of 2008 bought two years; by mid-2010 Tesla needed capital to build the Model S plant. Automakers had been toxic on public markets for half a century — the last American carmaker to IPO before Tesla was Ford in 1956.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2010-06-29",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2010.06.29",
+  "s": "Tesla · 编年史",
+  "q": "IPO 当日：TSLA 挂牌纳斯达克，募约 2.26 亿美元（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
   ]
@@ -178,6 +284,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2012-05-25",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2012.05.25",
+  "s": "SpaceX · 编年史",
+  "q": "龙飞船首次对接国际空间站——首个商业航天器与 ISS 对接，「新时代的黎明」（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2012-06-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -186,6 +305,19 @@ window.SEARCH_INDEX = [
   "q": "“It’s about breaking a spell. The world has been under this illusion that electric cars cannot be as good as gasoline cars. It’s showing that an electric car can be better than a gasoline car — it can be the best car, period.”",
   "zh": "这关乎打破一个魔咒。全世界一直活在一种幻觉里，以为电动车不可能比燃油车好。而它要证明的是电动车可以比燃油车更好——可以是最好的车，句号。",
   "bg": "Three and a half years after the Christmas Eve financing, Tesla had to prove the bet could make a real car. Roadster had been a hand-built experiment on a Lotus chassis; Model S was the first car designed from the ground up as an electric sedan, built in the former NUMMI plant in Fremont. The company was still small, the auto industry was watching politely, and the first invitations went out.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2012-06-22",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2012.06.22",
+  "s": "Tesla · 编年史",
+  "q": "Model S 首批交付——「打破魔咒：电动车可以比燃油车更好」（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
   ]
@@ -217,6 +349,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2013-05-08",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2013.05.08",
+  "s": "Tesla · 编年史",
+  "q": "Q1 2013 首次盈利——「十年历史中的第一次」（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2013-05-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -228,6 +373,19 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "c2013-05-22",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2013.05.22",
+  "s": "Tesla · 编年史",
+  "q": "DOE 贷款提前九年还清——4.65 亿连本带息，当时唯一全额还清 ATVM 的企业（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -271,6 +429,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2014-06-12",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2014.06.12",
+  "s": "Tesla · 编年史",
+  "q": "开放专利——「不会对善意使用者发起专利诉讼」（账本 / 文档馆）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2015-01-20",
   "pg": "primary.html",
   "t": "言行实录",
@@ -279,6 +450,19 @@ window.SEARCH_INDEX = [
   "q": "SpaceX 需要两件事的资金：可复用火箭（Flight 4 刚成功，但复用尚未证明）和马斯克一直在低调规划的卫星互联网星座。Google 想要太空数据来服务其全球连接愿景。两个愿景交汇了。",
   "zh": "",
   "bg": "SpaceX needed capital for two things: reusable rockets (Flight 4 had just succeeded, but reusability was unproven) and a satellite internet constellation that Musk had been quietly planning. Google wanted space-based data for its global connectivity ambitions. The two visions met.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "c2015-01-20",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2015.01.20",
+  "s": "SpaceX · 编年史",
+  "q": "Google + Fidelity 联合投资 10 亿美元，持股 账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
   ]
@@ -318,6 +502,19 @@ window.SEARCH_INDEX = [
   "q": "“This is a fundamental step change in technology compared to any other rocket that has ever flown.”",
   "zh": "与史上飞过的任何其他火箭相比，这是技术上的根本性台阶变化。",
   "bg": "Every orbital rocket before this day was a disposable: flown once, then dropped into the ocean. Reusability was SpaceX's founding bet — the whole point of the company was to cut the cost of reaching space — but by December 2015 it had never been demonstrated. The return-to-flight mission after the June CRS-7 loss carried 11 Orbcomm satellites, and a first-stage return to Landing Zone 1 was a secondary objective most observers still treated as a lottery ticket.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "c2015-12-21",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2015.12.21",
+  "s": "SpaceX · 编年史",
+  "q": "Falcon 9 一级首次陆上回收——「与史上任何火箭相比的根本性台阶变化」（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
   ]
@@ -363,6 +560,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2016-03-31",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2016.03.31",
+  "s": "Tesla · 编年史",
+  "q": "Model 3 预订夜，约 40 万张订单压顶，周产 5000 生死线开启（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2016-07-20",
   "pg": "primary.html",
   "t": "言行实录",
@@ -391,6 +601,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2016-07-20",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2016.07.20",
+  "s": "Tesla · 编年史",
+  "q": "Part Deux 发布（含 SolarCity 整合路线，文档馆）；同年 11 月完成 26 亿美元收购（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2016-09-01",
   "pg": "primary.html",
   "t": "言行实录",
@@ -399,6 +623,19 @@ window.SEARCH_INDEX = [
   "q": "“Still working on the Falcon fireball investigation. Turning out to be the most difficult and complex failure we have ever had in 14 years.”",
   "zh": "仍在跟进猎鹰火球的调查。结果证明这是我们 14 年来遇到过的最困难、最复杂的失败。",
   "bg": "Falcon 9 had become the workhorse, and a routine fueling for a static fire two days before launch was supposed to be uneventful. Instead, on September 1, 2016, the rocket and its payload — the Amos-6 satellite Facebook was counting on for its internet project — burned on Pad 40 in broad daylight. No one was hurt; the rocket, the satellite and the launch schedule were not so lucky.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "c2016-09-01",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2016.09.01",
+  "s": "SpaceX · 编年史",
+  "q": "Amos-6 加注爆燃，停飞逾四个月；2017 年 1 月携 Iridium 复飞（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
   ]
@@ -457,6 +694,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2017-03-30",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2017.03.30",
+  "s": "SpaceX · 编年史",
+  "q": "SES-10：首次整级复飞——「15 年工作的集大成」，复用从特技变成生意（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2017-07-09",
   "pg": "primary.html",
   "t": "言行实录",
@@ -465,6 +715,19 @@ window.SEARCH_INDEX = [
   "q": "“Production unit 1 of Model 3 is now built and going through final checkout.”",
   "zh": "Model 3 的第一辆生产车已经造好，正在进行最终检验。",
   "bg": "Eighteen days before the production-hell speech, the first production-intent Model 3 (SN1, red) came off the Fremont line. With roughly half a million reservations on file, this single car was the hinge between promise and volume.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2017-07-09",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2017.07.09",
+  "s": "Tesla · 编年史",
+  "q": "首辆生产版 Model 3（SN1）下线——「Production unit 1 … final checkout」（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
   ]
@@ -496,6 +759,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2017-07-28",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2017.07.28",
+  "s": "Tesla · 编年史",
+  "q": "「Welcome to production hell!」——Model 3 量产爬坡，自动化过度的自我纠正随之而来（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2017-11-16",
   "pg": "primary.html",
   "t": "言行实录",
@@ -504,6 +780,19 @@ window.SEARCH_INDEX = [
   "q": "“…the fastest production car ever made, period.”",
   "zh": "……有史以来最快的量产车，就这么简单。",
   "bg": "Deep inside production hell, with Model 3 output missing targets weekly, Tesla held a truck event: the Tesla Semi, an electric big rig with a 500-mile range promise. The industry saw a toy; freight economics saw a diesel replacement.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2017-11-16",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2017.11.16",
+  "s": "Tesla · 编年史",
+  "q": "Semi 发布会 + Roadster 二代彩蛋——「有史以来最快的量产车，句号」（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
   ]
@@ -583,6 +872,20 @@ window.SEARCH_INDEX = [
   "q": "“I think it looks so ridiculous and impossible. And you can tell it’s real because it looks so fake, honestly. We’d have way better CGI if it was fake.”",
   "zh": "我觉得它看起来太荒诞、太不可能了。你之所以能看出它是真的，恰恰是因为它看起来那么假——说实话，要真是假的，我们的特效早该做得好得多。",
   "bg": "Falcon Heavy — three Falcon-9 cores strapped together, 27 engines — had been mocked since its 2011 announcement as a PowerPoint rocket. Real customers refused to risk payloads on a maiden flight, so the demo needed something heavy and useless enough to sacrifice. Musk put up his own midnight-cherry Roadster, with a mannequin in a spacesuit, to a Mars-transfer orbit.",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "c2018-02-06",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2018.02.06",
+  "s": "SpaceX · 编年史",
+  "q": "猎鹰重型首飞：双助推同步着陆 + 一辆 Roadster 入轨火星转移轨道（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "Tesla",
    "SpaceX"
@@ -671,6 +974,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2018-08-07",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2018.08.07",
+  "s": "Tesla · 编年史",
+  "q": "「funding secured」推文 → SEC 起诉与和解（各罚 2000 万、卸任董事长）；同日发出致员工私有化方案信（账本 / 全文）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2018-12-18",
   "pg": "primary.html",
   "t": "言行实录",
@@ -711,6 +1027,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2019-04-20",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2019.04.20",
+  "s": "SpaceX · 编年史",
+  "q": "Crew Dragon 静态点火爆燃——调查归因故障单向阀（NTO+钛点燃），SuperDraco 退出着陆用途（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2019-09-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -719,6 +1048,19 @@ window.SEARCH_INDEX = [
   "q": "“Honestly, I'm in love with steel.”",
   "zh": "说实话，我爱上了钢。",
   "bg": "The big Falcon Rocket had been mocked since 2016 for a carbon-fiber plan that priced itself out of existence. In 2019 Musk switched the whole design to stainless steel — cheaper, heat-tolerant, and buildable in open air fields in Boca Chica. On the eleventh anniversary of Falcon 1's orbit, he showed the Mk1 prototype.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "c2019-09-28",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2019.09.28",
+  "s": "SpaceX · 编年史",
+  "q": "Starship Mk1 发布（猎鹰一号入轨十一周年）——「Honestly, I'm in love with steel.」，不锈钢换材定型（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
   ]
@@ -777,6 +1119,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2020-05-11",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2020.05.11",
+  "s": "Tesla · 编年史",
+  "q": "Fremont 违令复工推文——「如果有人要被逮捕，只逮捕我一个」（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2020-05-30",
   "pg": "primary.html",
   "t": "言行实录",
@@ -803,6 +1158,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2020-05-30",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2020.05.30",
+  "s": "SpaceX · 编年史",
+  "q": "载人龙 Demo-2——商业公司首次送宇航员进入轨道（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2020-09-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -811,6 +1179,19 @@ window.SEARCH_INDEX = [
   "q": "“…when we put it all together and go to our new 80 millimeter length, 4680…” — the $25,000 car was the promise the whole deck was built around.",
   "zh": "……当我们把这些全部组合起来、切换到新的 80 毫米长度——4680——的时候……（全场演示都围绕着「2.5 万美元的车」这一承诺展开。）",
   "bg": "Tesla was at peak profitability, and Musk picked this moment to attack the most expensive part of the car: the battery. The keynote promised a tabless 4680 cell, in-house production, and — the headline — a path to a $25,000 electric car.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2020-09-22",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2020.09.22",
+  "s": "Tesla · 编年史",
+  "q": "Battery Day：4680 电池（能量 5 倍/功率 6 倍）与 56%/kWh 降本路线图，附 2.5 万美元车型承诺（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
   ]
@@ -830,6 +1211,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2021-01",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2021",
+  "s": "Tesla · 编年史",
+  "q": "市值突破 1 万亿美元——史上首家车企（资本解剖）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2021-01-07",
   "pg": "primary.html",
   "t": "言行实录",
@@ -838,6 +1232,19 @@ window.SEARCH_INDEX = [
   "q": "\"How strange.\" ... \"Well, back to work ...\"",
   "zh": "真奇怪。……好了，回去工作……",
   "bg": "Tesla shares surged roughly 5% to close at $816, pushing Musk's ~18% stake past Jeff Bezos on the Bloomberg Billionaires Index — ending Bezos's reign at #1 since 2017. Musk's net worth: approximately $185-190 billion, driven almost entirely by stock (he takes no salary).",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2021-01-07",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2021.01.07",
+  "s": "Tesla · 编年史",
+  "q": "Bloomberg 亿万富翁指数排名首富——「How strange. Well, back to work …」（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
   ]
@@ -911,6 +1318,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2021-10-25",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2021.10.25",
+  "s": "Tesla · 编年史",
+  "q": "Hertz 十万辆订单当日市值首破万亿；一周后对冲推文致约 400 亿美元蒸发（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "autopilot",
   "pg": "controversy.html",
   "t": "争议深读",
@@ -950,6 +1370,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2022-04-14",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.04.14",
+  "s": "X · 编年史",
+  "q": "发出收购要约：「I will acquire Twitter for $54.20 a share」——价格里的 420 大麻梗写进了正式文书（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
   "id": "d2022-04-25",
   "pg": "documents.html",
   "t": "一手文档",
@@ -963,6 +1397,34 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2022-04-25",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.04.25",
+  "s": "X · 编年史",
+  "q": "与 Twitter 董事会签署 Merger Agreement：每股 54.20 美元、十亿美元终止费、第 9.9 条特定履约（协议条款摘录）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2022-07",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.07–10",
+  "s": "X · 编年史",
+  "q": "反悔、被诉、反诉——Twitter 援引第 9.9 条在特拉华州法院要求强制履约；10 月初重启收购意向（交互式时间轴）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
   "id": "e2022-07-13",
   "pg": "primary.html",
   "t": "言行实录",
@@ -971,6 +1433,20 @@ window.SEARCH_INDEX = [
   "q": "2016 年的 SolarCity 收购引来多年股东诉讼：主张是马斯克操控 Tesla 董事会、以 26 亿美元股票高估收购一家他本人任董事长的困境太阳能公司。审判于 2022 年 4 月终结；7 月 13 日，衡平法院大法官 Kathaleen McCormick 发布庭审后判决意见。",
   "zh": "",
   "bg": "The 2016 SolarCity acquisition drew years of shareholder litigation: the claim was that Musk dominated the Tesla board and caused it to overpay $2.6 billion in stock for a struggling solar company he chaired. The trial ended in April 2022; on July 13, Chancellor Kathaleen McCormick issued her post-trial opinion.",
+  "c": [
+   "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
+  "id": "c2022-07-13",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.07.13",
+  "s": "Tesla · 编年史",
+  "q": "特拉华衡平法院判 SolarCity 诉讼胜诉（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "SolarCity",
    "Tesla"
@@ -1003,6 +1479,33 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2022-10-26",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.10.26",
+  "s": "X · 编年史",
+  "q": "抱着水槽走进总部：「Entering Twitter HQ – let that sink in!」（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2022-10-27",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.10.27",
+  "s": "X · 编年史",
+  "q": "在终止日前夜完成交割——440 亿美元，公司私有化。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
   "id": "e2022-10-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1026,6 +1529,20 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：440 亿交割完成后的两连发（原帖 status/1585841080431321088；后句 Washington Post 记录）。数小时内解雇三高管。",
   "c": [
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "c2022-10-28",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.10.28",
+  "s": "X · 编年史",
+  "q": "「the bird is freed」——当天解雇 CEO/CFO/法律负责人，解散董事会、自任 CEO（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
   ]
  },
  {
@@ -1068,6 +1585,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2022-11-16",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.11.16",
+  "s": "X · 编年史",
+  "q": "「Extremely Hardcore」全员通牒：点 yes 留下，否则视为辞职；数百人离开（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
   "id": "e2022-11-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1091,6 +1621,47 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：Twitter Files 系列预告（首发 2022.12.02 · Taibbi）。诚实标注：此句为广泛征引措辞，逐字文本未经原帖存档复核——不杜撰出处。深读版见主页「言行实录」。",
   "c": [
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "c2022-11-28",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2022.11.28",
+  "s": "X · 编年史",
+  "q": "「The public deserves to know what really happened」——Twitter Files 内部文件放行（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2023-01",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2023",
+  "s": "X · 编年史",
+  "q": "品牌更名 X；同年 11 月广告主因内容争议暂停投放，他在 DealBook 会上回应「别想勒索我用广告费」（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2023-01-13",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2023.01.13",
+  "s": "Tesla · 编年史",
+  "q": "史上最大降价：全系 6%–20%（Model Y 长续航 -20% 至 52,990 美元、重获 7,500 美元抵免），需求回路满量程运作（定价页）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -1148,6 +1719,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2023-07-12",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2023.07.12",
+  "s": "xAI · 编年史",
+  "q": "成立宣言：「To understand the true nature of the universe.」——理解宇宙的真实本质（账本）。",
+  "zh": "",
+  "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
   "id": "i2023-07-14",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -1174,6 +1758,21 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2023-07-23",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2023.07.23",
+  "s": "X · 编年史",
+  "q": "品牌更替——「bid adieu to the twitter brand」，鸟标退役、X.com 上线（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "PayPal",
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
   "id": "p2023-11-04",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -1184,6 +1783,19 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：Grok 首发公告（TechCrunch/BI 记录）；名字出自海因莱因《异乡异客》。",
   "c": [
    "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2023-11-04",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2023.11.04",
+  "s": "xAI · 编年史",
+  "q": "Grok 首发公告：早期测试结束后将向所有 X Premium+ 订阅用户开放（帖史）。",
+  "zh": "",
+  "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
+  "c": [
    "xAI"
   ]
  },
@@ -1240,6 +1852,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "spacex",
+  "pg": "finance.html",
+  "t": "财务全景",
+  "d": "2024",
+  "s": "SpaceX（未上市）",
+  "q": "私有公司：估值均为公开报道口径（员工股转让/tender offer），非公司披露。主线：政府订单兜底 → 复用改写成本 → 估值十倍于上市 Tesla 时代的自己。",
+  "zh": "",
+  "bg": "私有公司：估值均为公开报道口径（员工股转让/tender offer），非公司披露。主线：政府订单兜底 → 复用改写成本 → 估值十倍于上市 Tesla 时代的自己。",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2024-01-29",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1277,6 +1903,19 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "Neuralink"
+  ]
+ },
+ {
+  "id": "c2024-03",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2024.03",
+  "s": "xAI · 编年史",
+  "q": "Grok-1 开源（模型权重公开，xAI 宣言兑现注脚）。",
+  "zh": "",
+  "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
+  "c": [
+   "xAI"
   ]
  },
  {
@@ -1360,6 +1999,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2024-10-13",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2024.10.13",
+  "s": "SpaceX · 编年史",
+  "q": "Starship 第五飞：「The tower has caught the rocket!!」——发射塔筷子回收（账本）。",
+  "zh": "",
+  "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2025",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1373,6 +2025,59 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "tesla",
+  "pg": "finance.html",
+  "t": "财务全景",
+  "d": "2025",
+  "s": "Tesla（NASDAQ: TSLA）",
+  "q": "上市公司：数字来自财报与监管文件口径。主线：个人信用 → 公开市场 → 规模盈利 → 万亿市值。",
+  "zh": "",
+  "bg": "上市公司：数字来自财报与监管文件口径。主线：个人信用 → 公开市场 → 规模盈利 → 万亿市值。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "x",
+  "pg": "finance.html",
+  "t": "财务全景",
+  "d": "2025",
+  "s": "X（原 Twitter，私有）",
+  "q": "私有公司：估值为机构持仓减记/报道口径。主线：440 亿买入 → 广告主流失 → 机构减记八成 → 并入 xAI 后估值重估。",
+  "zh": "",
+  "bg": "私有公司：估值为机构持仓减记/报道口径。主线：440 亿买入 → 广告主流失 → 机构减记八成 → 并入 xAI 后估值重估。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2025-03",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2025.03",
+  "s": "X · 编年史",
+  "q": "xAI 全股票收购 X——平台并入模型公司，言论广场成为 AI 的数据与分发底座（AI 战略页）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2025-03-2",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2025.03",
+  "s": "xAI · 编年史",
+  "q": "xAI 全股票收购 X——xAI 估值约 800 亿、X 约 330 亿（含债务约 450 亿），数据 × 分发 × 资本三位一体（AI 战略页）。",
+  "zh": "",
+  "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
   "id": "e2025-03-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1381,6 +2086,19 @@ window.SEARCH_INDEX = [
   "q": "“@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).”",
   "zh": "@xAI 已收购 @X，全股票交易。合并后 xAI 估值 800 亿美元，X 估值 330 亿美元（减去 120 亿债务为 450 亿企业价值）。",
   "bg": "X Corp had been losing advertisers since 2022 and Fidelity marked down its stake by 80%. But it had something xAI needed: real-time data from 500+ million posts per day, and a distribution channel to half a billion accounts. The merger was structured as all-stock — xAI ($80B) absorbing X ($33B, $45B enterprise with $12B debt).",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2025-03-28",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2025.03.28",
+  "s": "X · 编年史",
+  "q": "xAI 全股票收购 X——xAI 估值 $80B、X 作价 $33B（含债 $45B）（账本）。",
+  "zh": "",
+  "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
   "c": [
    "xAI"
   ]
@@ -1478,6 +2196,32 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "c2025-11-06",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2025.11.06",
+  "s": "Tesla · 编年史",
+  "q": "股东大会约 75% 支持批准万亿美元级绩效薪酬；Optimus「无限金钱外挂」演讲同场（账本）。",
+  "zh": "",
+  "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "xai",
+  "pg": "finance.html",
+  "t": "财务全景",
+  "d": "2026",
+  "s": "xAI（私有）",
+  "q": "私有公司：估值为公告/报道口径。主线：用一年半跑完五轮融资，估值从 240 亿到 2300 亿——AI 行业见过最陡的资本曲线。",
+  "zh": "",
+  "bg": "私有公司：估值为公告/报道口径。主线：用一年半跑完五轮融资，估值从 240 亿到 2300 亿——AI 行业见过最陡的资本曲线。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
   "id": "d2026-01",
   "pg": "documents.html",
   "t": "一手文档",
@@ -1486,6 +2230,19 @@ window.SEARCH_INDEX = [
   "q": "“We're building AI to accelerate human scientific discovery. Today, we're announcing that we have raised $20 billion at a $230 billion post-money valuation.”",
   "zh": "",
   "bg": "公告本身即是估值宣言：把「加速人类科学发现」写在第一句，把 2300 亿写在第二句——使命叙事与资本规模在同一段落里完成绑定。英伟达与思科的参投还有另一层含义：算力供给方同时成为股东，供应商与投资人在同一张表上（此句为编者分析，非公告文字）。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "c2026-01",
+  "pg": "chronicle.html",
+  "t": "编年史",
+  "d": "2026.01",
+  "s": "xAI · 编年史",
+  "q": "Series E 完成：200 亿美元 @ 投后 2300 亿——超 150 亿目标，Valor 领投、英伟达与思科参投（公告全文）。",
+  "zh": "",
+  "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
   "c": [
    "xAI"
   ]
