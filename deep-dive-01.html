@@ -22,6 +22,7 @@
   font-family: Georgia, "STSong", serif; font-style: italic; font-size: 15.5px; line-height: 1.8;
   background: #f3f0ea; border-left: 4px solid #7c2d2d; padding: 12px 18px; margin: 12px 0;
 }
+.dd-sec .dd-zh { font-size: 13px; color: #5c574e; margin: 6px 0 0; font-style: normal; }
 .dd-table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 14px 0; }
 .dd-table th, .dd-table td { text-align: left; padding: 9px 12px; border-bottom: 1px dotted rgba(26,26,26,.16); vertical-align: top; }
 .dd-table th { font-size: 11px; letter-spacing: .18em; color: #7c2d2d; font-weight: 700; border-bottom: 1px solid #1a1a1a; }
@@ -42,50 +43,64 @@
   <a class="dd-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="dd-head">
     <div class="dd-kicker">DEEP DIVE 01 · CAPITAL OPERATIONS</div>
-    <h1>马斯克的资本运作全解</h1>
-    <p class="dd-lead" style="font-family:Georgia,'STSong',serif">从 Zip2 3.07 亿到 xAI Series E 200 亿：融资、退出、收购、估值四条线并进。本篇以第一手材料为锚点，逐一拆解他二十年资本运作的每一步。</p>
+    <h1 data-en="The Complete Capital Playbook">马斯克的资本运作全解</h1>
+    <p class="dd-lead" data-en="From Zip2's $307M exit to xAI's $20B Series E: four threads — exits, fundraising, acquisitions, valuations — running in parallel. Every step anchored to a first-hand ledger entry." style="font-family:Georgia,'STSong',serif">从 Zip2 3.07 亿到 xAI Series E 200 亿：融资、退出、收购、估值四条线并进。本篇以第一手材料为锚点，逐一拆解他二十余年资本运作的每一步。</p>
   </header>
 
   <section class="dd-sec">
-    <h3>一、退出：两次出售换来赌桌门票</h3>
-    <p>1999 年 2 月，康柏以约 3.07 亿美元收购 Zip2，马斯克个人套现约 2200 万美元——这是他的第一桶金。同年创办 X.com（后合并为 PayPal），2002 年 eBay 以 15 亿美元收购 PayPal，作为最大个人股东，他套现约 1.75 亿美元。</p>
-    <blockquote>“I would make the same decision again… but I'd probably try to stay more involved.”</blockquote>
-    <p class="dd-note"><b>编者注</b>两次退出合计约 2 亿美元——他没有沉淀为财富，而是拆成了火箭、电动车与太阳能的启动资金。研究要点：退出不是终点，是下一轮入场的门票。</p>
+    <h3 data-en="1. Exits: two sales buy a seat at the table">一、退出：两次出售换来赌桌门票</h3>
+    <p data-en="In February 1999 Compaq acquired Zip2 for about $307M; his personal take was roughly $22M — the first pot. That same year he founded X.com, which became PayPal, and in 2002 eBay bought PayPal for $1.5B. As the largest individual shareholder he netted about $175M after tax.">1999 年 2 月，康柏以约 3.07 亿美元收购 Zip2，马斯克个人套现约 2200 万美元——这是他的第一桶金。同年创办 X.com（后合并为 PayPal），2002 年 eBay 以 15 亿美元收购 PayPal，作为最大个人股东，他税后套现约 1.8 亿美元（<a href="primary.html#e2002-10-03">账本 e2002-10-03</a>）。</p>
+    <blockquote>“My proceeds from PayPal after tax were about $180M. $100M of that went into SpaceX, $70M into Tesla, and $10M into SolarCity. I had to borrow money for rent.”
+      <p class="dd-zh">「我 PayPal 的税后所得大约 1.8 亿美元。1 亿投进 SpaceX，7000 万投进 Tesla，1000 万投进 SolarCity。然后我不得不借钱付房租。」</p>
+    </blockquote>
+    <p class="dd-note"><b data-en="Editor's note">编者注</b><span data-en="~$200M from two exits — not parked as wealth, but split into launch capital for rockets, EVs and solar. The pattern: an exit is not the end, it is the ticket to the next table.">两次退出合计约 2 亿美元——他没有沉淀为财富，而是拆成了火箭、电动车与太阳能的启动资金。研究要点：退出不是终点，是下一轮入场的门票。</span></p>
   </section>
 
   <section class="dd-sec">
-    <h3>二、融资：四类资金来源的顺序与时机</h3>
-    <p>马斯克的融资史有一个稳定模式：先用自己的钱证明可行，再用别人的钱放大。</p>
+    <h3 data-en="2. Fundraising: four kinds of money, in order">二、融资：四类资金来源的顺序与时机</h3>
+    <p data-en="One stable pattern runs through the record: prove feasibility with his own money first, then scale with everyone else's.">融资史有一个稳定模式：先用自己的钱证明可行，再用别人的钱放大。</p>
     <div class="dd-table-wrap">
     <table class="dd-table">
-      <tr><th>融资节点</th><th>金额</th><th>年份</th><th>资金类型</th></tr>
-      <tr><td>Tesla A 轮（个人 650 万）</td><td class="num">$7.5M</td><td>2004</td><td>个人资本买信用</td></tr>
-      <tr><td>SpaceX 创始自投</td><td class="num">≈$100M</td><td>2002</td><td>个人资本押注</td></tr>
-      <tr><td>Tesla IPO</td><td class="num">≈$226M</td><td>2010</td><td>公开市场接棒</td></tr>
-      <tr><td>NASA CRS 合同</td><td class="num">$1.6B</td><td>2008</td><td>政府订单兜底</td></tr>
-      <tr><td>xAI Series E</td><td class="num">$20B</td><td>2026</td><td>产业资本收尾</td></tr>
+      <tr><th data-en="Node">融资节点</th><th data-en="Amount">金额</th><th data-en="Year">年份</th><th data-en="Type">资金类型</th></tr>
+      <tr><td data-en="SpaceX founding stake">SpaceX 创始自投（<a href="primary.html#e2002-10-03">账本</a>）</td><td class="num">≈$100M</td><td>2002</td><td data-en="Personal capital, all-in">个人资本押注</td></tr>
+      <tr><td data-en="Tesla Series A (his $6.5M)">Tesla A 轮（个人 650 万）</td><td class="num">$7.5M</td><td>2004</td><td data-en="Personal capital buys credibility">个人资本买信用</td></tr>
+      <tr><td data-en="NASA CRS contract">NASA CRS 合同（<a href="chronicle.html#c2008-12-23">编年史行</a>）</td><td class="num">$1.6B</td><td>2008</td><td data-en="Government order as backstop">政府订单兜底</td></tr>
+      <tr><td data-en="Tesla IPO">Tesla IPO（<a href="primary.html#e2010-06-29">账本</a>）</td><td class="num">≈$226M</td><td>2010</td><td data-en="Public markets take over">公开市场接棒</td></tr>
+      <tr><td data-en="Google + Fidelity into SpaceX">Google+Fidelity 入股 SpaceX（<a href="primary.html#e2015-01-20">账本</a>）</td><td class="num">≈$1B</td><td>2015</td><td data-en="Industrial capital validates">产业资本背书</td></tr>
+      <tr><td data-en="xAI Series E">xAI Series E（<a href="finance.html#xai">财务全景</a>）</td><td class="num">$20B</td><td>2026</td><td data-en="Industrial capital closes the loop">产业资本收尾</td></tr>
     </table>
     </div>
-    <p class="dd-note"><b>编者注</b>注意顺序：个人资本 → 公开市场 → 政府订单 → 产业资本。四类资金来源被他依次用了一遍，每一类都在为下一类积累信用。</p>
+    <p class="dd-note"><b data-en="Editor's note">编者注</b><span data-en="Watch the order: personal capital → government orders → public markets → industrial capital. Each tier underwrites the next — and the whole ladder rests on the 2008 rung not breaking.">注意顺序：个人资本 → 政府订单 → 公开市场 → 产业资本。每一级都在为下一级积累信用——而整架梯子悬在「2008 年那一格没有断」之上。</span></p>
   </section>
 
   <section class="dd-sec">
-    <h3>三、收购：买下关键环节</h3>
-    <p>他的收购从不买收入，买的是「缺失的那块拼图」。SolarCity 约 26 亿美元（2016.11）买能源；Twitter 440 亿美元（2022.10）买数据与分发入口。两笔收购当时都充满争议，但都服务于同一逻辑：把「受制于人的环节」变成「自己的资产负债表内资产」。</p>
+    <h3 data-en="3. Acquisitions: buying the missing piece">三、收购：买下关键环节</h3>
+    <p data-en="His acquisitions never buy revenue; they buy the missing piece of the puzzle. SolarCity (~$2.6B, Nov 2016) bought energy; Twitter ($44B, Oct 2022) bought data and a distribution gateway. Both were contested at signing — the SolarCity deal survived a shareholder suit (<a href='primary.html#e2022-07-13'>ledger</a>), and Twitter's terminator clause forced the close (<a href='documents.html#d2022-04-25'>deal terms</a>).">他的收购从不买收入，买的是「缺失的那块拼图」。SolarCity 约 26 亿美元（2016.11）买能源——这场关联交易后来被股东诉至特拉华，2022.07.13 判决 Tesla 胜诉（<a href="primary.html#e2022-07-13">账本</a>）；Twitter 440 亿美元（2022.10）买数据与分发入口——反悔后被特定履约条款强制交割（<a href="documents.html#d2022-04-25">协议条款</a>）。两笔收购当时都充满争议，但都服务于同一逻辑：把「受制于人的环节」变成「自己的资产负债表内资产」。</p>
+    <p data-en="2025 wrote the pattern's inverse chapter: the AI company absorbed the platform (<a href='primary.html#e2025-03-28'>e2025-03-28</a>) — acquisition as re-pricing, moving X from a $33B standalone mark into an $80B combined entity. Analysis on the <a href='ai-strategy.html'>AI strategy page</a>.">2025 年出现了该模式的镜像章节：AI 公司反向吸收平台（<a href="primary.html#e2025-03-28">e2025-03-28</a>）——收购作为重新定价，把 X 从独立 330 亿的记账搬进 800 亿的合并体（分析见 <a href="ai-strategy.html">AI 战略页</a>，编者框架）。</p>
   </section>
 
   <section class="dd-sec">
-    <h3>四、估值：从万亿到二十五万亿</h3>
-    <p>2021 年 10 月 Tesla 市值破 1 万亿美元（史上首家车企）；2025.14.06 股东以约 75% 支持率批准他的万亿美元薪酬方案（里程碑含市值 8.5 万亿美元）；xAI 于 2026.01 完成 200 亿美元 Series E（估值约 2300 亿量级）。</p>
+    <h3 data-en="4. Valuations: from one trillion to the promise of more">四、估值：万亿与万亿薪酬</h3>
+    <p data-en="Oct 2021: Tesla became the first carmaker past a $1T market cap — the Hertz order day, followed within a week by a hedge-tweet that erased ~$40B (<a href='primary.html#e2021-10-25'>ledger</a>). Nov 2025: shareholders approved the trillion-dollar pay package with roughly 75% support, milestones locked to market cap (<a href='primary.html#e2025-11-06'>ledger</a>). Jan 2026: xAI's $20B Series E at a ~$230B mark (<a href='finance.html#xai'>finance</a>).">2021 年 10 月，Tesla 市值破 1 万亿美元——史上首家车企，Hertz 订单当天触发，一周后对冲推文致约 400 亿美元蒸发（<a href="primary.html#e2021-10-25">账本</a>）。2025 年 11 月，股东以约 75% 支持率批准万亿美元薪酬方案，里程碑与市值锁定（<a href="primary.html#e2025-11-06">账本</a>）。2026 年 1 月，xAI 完成 200 亿美元 Series E，估值约 2300 亿量级（<a href="finance.html#xai">财务全景</a>）。激励与市值从此锁成同一笔赌注。</p>
   </section>
 
   <section class="dd-sec">
-    <h3>五、「逻辑链」小结</h3>
-    <p class="dd-note"><b>逻辑链 · 编者提炼</b>退出提供本金 → 个人资本买信用 → 公开市场接棒放大 → 政府订单兜底 → 产业资本收尾 → 收购买下关键环节 → 估值数字兑现承诺。四条线并进，每一环都为下一环积累信用与弹药。</p>
-    <p class="dd-note"><b>适用边界</b>这套模式的前提是「物理上可行的事终会成立」。如果物理判断错了，整条链就断了——2008 年差点断掉，但他赌赢了。</p>
+    <h3 data-en="5. Case study: 2008, the year the chain nearly snapped">五、案例深读：2008，链条差点断掉的一年</h3>
+    <p data-en="The playbook assumes physical feasibility wins in the end. 2008 is the year that assumption was tested to failure's edge — twice in ninety days.">这套打法的全部前提是「物理上可行的事终会成立」。2008 年，这个前提在九十天内被两次推到断裂边缘。</p>
+    <p data-en="August 2: Falcon 1's third flight fails — both stages collide on separation. He stands in the debris field and commits in public:">8 月 2 日：Falcon 1 第三次发射失败——级间分离再撞。他站在残骸间当众承诺（<a href="primary.html#e2008-08-02">账本</a>）：</p>
+    <blockquote>“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”
+      <p class="dd-zh">「俗话说第四次总会有好运……这是我人生中最好的日子之一。」（9 月 28 日第四发入轨后，<a href="primary.html#e2008-09-28">账本</a>）</p>
+    </blockquote>
+    <p data-en="Christmas Eve: with Tesla days from insolvency, the financing round closes in the final hours — the money that kept the company alive closed on the last possible day (<a href='primary.html#e2008-12-24'>ledger</a>). Two days later NASA signed the $1.6B CRS contract. The public promise, the private wire, and the state order landed within a ninety-day window; any one of them slipping and the ladder breaks at the bottom.">圣诞夜：Tesla 在破产边缘，融资在最后时刻关账——救命钱压着最后一个可能的时点落定（<a href="primary.html#e2008-12-24">账本</a>）；两天后 NASA 签下 16 亿美元 CRS 合同。公开发誓、私有到账、国家订单，全部压在九十天的窗口里——任何一环滑落，梯子就从底部断掉。</p>
   </section>
 
-  <p class="dd-foot">本篇由马斯克商业志自动化迭代维护 · 所有金额与年份均来自本站事实扩展包（公开报道口径：Reuters、CNBC、Fortune、The Information、Forbes、NASA、tesla.com、x.ai）· 中译为本站所译 · 非官方学习型网站</p>
+  <section class="dd-sec">
+    <h3 data-en="6. The logic chain, summarized">六、「逻辑链」小结</h3>
+    <p class="dd-note"><b data-en="Logic chain · editor-distilled">逻辑链 · 编者提炼</b><span data-en="Exits provide principal → personal capital buys credibility → government orders underwrite → public markets scale → industrial capital closes → acquisitions buy the missing piece → valuations cash the promises. Four threads in parallel; each link funds the next.">退出提供本金 → 个人资本买信用 → 政府订单兜底 → 公开市场放大 → 产业资本收尾 → 收购买下关键环节 → 估值数字兑现承诺。四条线并进，每一环都为下一环积累信用与弹药。</span></p>
+    <p class="dd-note"><b data-en="Boundary conditions">适用边界</b><span data-en="The model presumes physical feasibility eventually holds. If the physics judgment is wrong, the chain snaps — 2008 nearly proved it, and he won the bet. The trillion-dollar pay package re-opens the same wager at ten times the scale: milestones are physical (deliveries, robots) but priced in market cap.">这套模式的前提是「物理上可行的事终会成立」。如果物理判断错了，整条链就断了——2008 年差点断掉，但他赌赢了。万亿美元薪酬把同一笔赌注以十倍规模重开：里程碑是物理的（交付量、机器人），计价却是市值的。</span></p>
+  </section>
+
+  <p class="dd-foot" data-en="Maintained by the MUSK, INC. automation. All figures from this site's fact-expansion pack (public reporting: Reuters, CNBC, Fortune, The Information, Forbes, NASA, tesla.com, x.ai). Chinese translations are this site's own. · <a href='primary.html' style='color:#7c2d2d'>Ledger →</a> · <a href='money.html' style='color:#7c2d2d'>Capital anatomy →</a>">本篇由马斯克商业志自动化迭代维护 · 所有金额与年份均来自本站事实扩展包（公开报道口径：Reuters、CNBC、Fortune、The Information、Forbes、NASA、tesla.com、x.ai）· 中译为本站所译 · 非官方学习型网站 · <a href="primary.html" style="color:#7c2d2d">言行实录 →</a> · <a href="money.html" style="color:#7c2d2d">资本解剖 →</a></p>
 </div>
 </body>
 </html>
