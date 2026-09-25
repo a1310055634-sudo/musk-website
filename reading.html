@@ -42,10 +42,19 @@
   .rd-toc { position: static; border: 1px solid rgba(26,26,26,.2); background: #f3f0ea; padding: 12px 14px; margin-bottom: 22px; }
   .rd-toc a { display: inline-block; border-left: none; padding: 3px 10px 3px 0; }
 }
+@media (max-width: 480px) {
+  .rd-layout { padding: 22px 14px 50px; }
+  .rd-t { font-size: 14px; line-height: 1.85; }
+  .rd-lead { font-size: 15px; }
+  .rd-ch blockquote, .rd-quote { padding: 10px 14px; }
+  .rd-toc { padding: 10px 12px; margin-bottom: 18px; }
+}
 @media print {
   .rd-layout { grid-template-columns: 1fr; padding: 10px; }
   .rd-toc, .rd-back, .progress { display: none !important; }
   .rd-ch { break-before: page; }
+  .rd-ch h2 { break-after: avoid; }
+  .rd-t, .rd-lead { orphans: 3; widows: 3; }
   .rd-ch:first-of-type { break-before: auto; }
   .rd-pending { display: none; }
 }

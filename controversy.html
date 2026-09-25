@@ -29,7 +29,13 @@
 .ct-pending a:hover { text-decoration: underline; }
 .ct-pending b { color: #1a1a1a; }
 .ct-foot { margin-top: 26px; font-size: 11px; color: #8a857c; letter-spacing: .04em; line-height: 1.8; }
-@media print { .ct-page { padding: 20px; } .ct-ch { break-before: page; } .ct-ch:first-of-type { break-before: auto; } .ct-back, .ct-pending { display: none !important; } }
+@media print { .ct-page { padding: 20px; } .ct-ch { break-before: page; } .ct-ch:first-of-type { break-before: auto; } .ct-ch h2 { break-after: avoid; } .ct-t { orphans: 3; widows: 3; } .ct-back, .ct-pending { display: none !important; } }
+@media (max-width: 480px) {
+  .ct-page { padding: 28px 14px 50px; }
+  .ct-t { font-size: 14px; line-height: 1.85; }
+  .ct-lead { font-size: 13.5px; }
+  .ct-ch h2 { font-size: 20px; }
+}
 </style>
   <meta property="og:title" content="争议与批评 · 马斯克商业志 MUSK, INC." />
   <meta property="og:description" content="五篇争议深读——所有引语逐字核实、标注出处；编者分析与事实严格区分。" />

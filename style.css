@@ -677,6 +677,8 @@ a.gx-dot:hover, a.gx-dot:focus-visible { transform: translate(-50%, -50%) scale(
 a.gx-dot:hover .gx-tip, a.gx-dot:focus-visible .gx-tip { display: block; }
 .gx-empty { font-size: 12px; color: #9a948b; padding: 8px 0 8px 4px; font-style: italic; }
 @media (max-width: 640px) { .gx-board { min-width: 640px; } }
+@media (max-width: 640px) { .ps-timeline { overflow-x: auto; -webkit-overflow-scrolling: touch; } }
+@media print { .ps-timeline { break-inside: avoid; } }
 @media print { .gx-sec { display: none !important; } }
 
 /* ---- 有出处的语录（quotes.html） ---- */
