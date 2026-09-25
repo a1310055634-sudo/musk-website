@@ -830,8 +830,8 @@ window.SEARCH_INDEX = [
   "d": "2018",
   "s": "工会与劳动争议",
   "q": "Nothing stopping Tesla team at our car plant from voting union. Could do so tmrw if they wanted. But why pay union dues & give up stock options for nothing.",
-  "zh": "一条推文引发六年 NLRB 法律战：2019 裁定非法威胁 → 2021 要求删帖他拒绝 → 2023.03 第五巡回法院部分支持。",
-  "bg": "一条推文引发六年的 NLRB 法律战——「nothing stopping」到「为什么付会费」。",
+  "zh": "一条推文引发六年 NLRB 法律战：2019 裁定非法威胁 → 2021 要求删帖他拒绝 → 2024.10.25 第五巡回以第一修正案为由撤销删帖令（违法底层认定仍在）。",
+  "bg": "一条推文引发六年的 NLRB 法律战——终点是「国家能不能命令 CEO 删除自己的言论」。",
   "c": [
    "Tesla"
   ]
