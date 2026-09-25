@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（v5.91.0 轮 / 2026-09-26 WebSearch 核实）**：争议板块 Autopilot/FSD 篇深化——补三个精确节点（均为多源核实，无新增 Musk 逐字引语，故不新增语录卡）：
+> ① **2025.12.16 加州 DMV 正式认定违法**并暂缓 30 天销售与制造牌照吊销（条件：Tesla 纠正营销）。来源：CNBC / teslanorth（2026-02 报道引 DMV）。
+> ② **2026.02.13 Tesla 起诉加州 DMV**要求推翻裁决，主张被不公正贴上「虚假广告」标签。来源：CNBC（2026-02-24/25 报道）/ Mashable / teslanorth。
+> ③ **2026.02.17-18 Tesla 遵令停用「Autopilot」营销用语**、修改加州营销材料，避免 30 天销售暂停。来源：**加州 DMV 官方新闻稿**「Tesla Takes Corrective Action to Avoid DMV Suspension」（一手）/ Electrek（2026-02-18）/ The Guardian（2026-02-18）。三源互证。
+> 交叉：DMV 管「名字与广告」，NHTSA 2024.10 调查管「实际道路表现」，两线并行（编者框架已标注）。Tesla 立场（FSD 需驾驶员全程监督、裁决误述能力）为 CNBC 转述，正反两面呈现。
+
 > **新事实入包（v5.88.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 +1条——新增 **2021.01.07 世界首富日**（id e2021-01-07）。引文（Economic Times/Bloomberg）：“How strange.” / “Well, back to work …” Tesla +5% 收 $816；净资产 ≈$185-190B；终结 Bezos 首富地位。
 > **新事实入包（v5.89.0 轮 / 2026-09-19 WebSearch 核实）**：言行实录 65 → 66 条——新增 **2025.03.28 xAI 收购 X**（id e2025-03-28）。
 > 核心引文（本人推文 permalink x.com/elonmusk/status/1905731750275510312）：“@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).” + “This combination will unlock immense potential by blending xAI's advanced AI capability and expertise with X's massive reach.”

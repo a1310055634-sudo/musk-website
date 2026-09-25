@@ -1337,8 +1337,8 @@ window.SEARCH_INDEX = [
   "d": "2022",
   "s": "Autopilot/FSD 安全争议",
   "q": "「Autopilot」和「Full Self-Driving」这两个名字本身，就成了加州 DMV 虚假广告指控的核心。",
-  "zh": "2022 加州 DMV 虚假广告指控 → 2025.12 认定违法 → 2026.02 Tesla 起诉 DMV；2024.10 NHTSA 对 240 万辆 FSD 展开调查。",
-  "bg": "「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线。",
+  "zh": "2022 加州 DMV 虚假广告指控 → 2025.12.16 认定违法 → 2026.02.13 Tesla 起诉 DMV → 2026.02.18 Tesla 停用「Autopilot」营销用语免于 30 天销售暂停；2024.10 NHTSA 对 240 万辆 FSD 展开调查。",
+  "bg": "「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线，以 Tesla 改营销材料暂时收场。",
   "c": [
    "Tesla"
   ]
