@@ -111,8 +111,8 @@ CV_META = {
               'zh': '一条推文引发六年 NLRB 法律战：2019 裁定非法威胁 → 2021 要求删帖他拒绝 → 2024.10.25 第五巡回以第一修正案为由撤销删帖令（违法底层认定仍在）。',
               'bg': '一条推文引发六年的 NLRB 法律战——终点是「国家能不能命令 CEO 删除自己的言论」。'},
     'twitter': {'d': '2021', 'q': 'Much is made lately of unrealized gains being a means of tax avoidance, so I propose selling 10% of my Tesla stock. Do you support this?',
-                'zh': '2021.11 卖股投票（350 万人、57.9% 赞成后售股）与 2022.12.15 记者封禁（48 小时后恢复）——平台规则与个人意志的边界。',
-                'bg': '从「Tax the rich」投票到记者封禁——平台拥有者的推文边界与「言论自由绝对主义者」的自我矛盾。'},
+                'zh': '2021.11 卖股投票（350 万人、57.9% 赞成后售股）、2022.12.15 记者封禁（48 小时后恢复）、2025.12.05 欧盟 DSA 首张罚单 €1.2 亿（蓝勾欺骗性+透明义务）。',
+                'bg': '从「Tax the rich」投票到记者封禁再到欧盟 DSA 首案——平台规则、个人意志与外部制衡的边界之争。'},
 }
 s = io.open('controversy.html', encoding='utf-8').read()
 found_cv = set()
