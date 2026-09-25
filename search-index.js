@@ -509,6 +509,45 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "sec-pedo",
+  "pg": "controversy.html",
+  "t": "争议深读",
+  "d": "2018",
+  "s": "「pedo guy」诽谤诉讼",
+  "q": "Sorry pedo guy, you really did ask for it. / Bet ya a signed dollar it's true.",
+  "zh": "2018.07.15 推文「pedo guy」→ Unsworth 1.9 亿美元诽谤诉讼 → 2019.12.06 陪审团约一小时裁决不构成诽谤。",
+  "bg": "从救援英雄的一句批评到 1.9 亿美元的诉讼——以及陪审团一小时的裁决。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "sec-sec",
+  "pg": "controversy.html",
+  "t": "争议深读",
+  "d": "2018",
+  "s": "SEC：funding secured 与后续",
+  "q": "Am considering taking Tesla private at $420. Funding secured.",
+  "zh": "SEC 认定「funding secured」构成证券欺诈：个人与公司各罚 2000 万美元、卸任董事长、重大推文律师预审。",
+  "bg": "一条推文让他付出 2000 万美元、董事长职位，以及至今仍在约束他发推的律师预审规则。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "union",
+  "pg": "controversy.html",
+  "t": "争议深读",
+  "d": "2018",
+  "s": "工会与劳动争议",
+  "q": "Nothing stopping Tesla team at our car plant from voting union. Could do so tmrw if they wanted. But why pay union dues & give up stock options for nothing.",
+  "zh": "一条推文引发六年 NLRB 法律战：2019 裁定非法威胁 → 2021 要求删帖他拒绝 → 2023.03 第五巡回法院部分支持。",
+  "bg": "一条推文引发六年的 NLRB 法律战——「nothing stopping」到「为什么付会费」。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2018-01-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -777,6 +816,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "twitter",
+  "pg": "controversy.html",
+  "t": "争议深读",
+  "d": "2021",
+  "s": "Twitter 内容审核与言论边界",
+  "q": "Much is made lately of unrealized gains being a means of tax avoidance, so I propose selling 10% of my Tesla stock. Do you support this?",
+  "zh": "2021.11 卖股投票（350 万人、57.9% 赞成后售股）与 2022.12.15 记者封禁（48 小时后恢复）——平台规则与个人意志的边界。",
+  "bg": "从「Tax the rich」投票到记者封禁——平台拥有者的推文边界与「言论自由绝对主义者」的自我矛盾。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2021-01-07",
   "pg": "primary.html",
   "t": "言行实录",
@@ -853,6 +906,19 @@ window.SEARCH_INDEX = [
   "q": "“No contract has been signed yet with Hertz … [the deal] has zero effect on our economics.”",
   "zh": "与 Hertz「尚未签约」……这笔交易「对我们的经济利益毫无影响」。",
   "bg": "Hertz — fresh out of bankruptcy and rebuilding its rental fleet — announced an order of 100,000 Tesla Model 3s, about $4.2 billion over 14 months, the largest order in the rental company's history.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "autopilot",
+  "pg": "controversy.html",
+  "t": "争议深读",
+  "d": "2022",
+  "s": "Autopilot/FSD 安全争议",
+  "q": "「Autopilot」和「Full Self-Driving」这两个名字本身，就成了加州 DMV 虚假广告指控的核心。",
+  "zh": "2022 加州 DMV 虚假广告指控 → 2025.12 认定违法 → 2026.02 Tesla 起诉 DMV；2024.10 NHTSA 对 240 万辆 FSD 展开调查。",
+  "bg": "「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线。",
   "c": [
    "Tesla"
   ]

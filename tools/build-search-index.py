@@ -95,6 +95,40 @@ for part in parts[1:]:
         'bg': strip(note.group(1)) if note else '',
     })
 
+# ---------- controversy.html 争议深读 ----------
+# 五篇深读摘要与代表引语：q/zh/bg 均重组自页内已核实文字（不造新事实）；d 取篇内时间线首个关键年份
+CV_META = {
+    'sec-pedo': {'d': '2018', 'q': 'Sorry pedo guy, you really did ask for it. / Bet ya a signed dollar it\'s true.',
+                 'zh': '2018.07.15 推文「pedo guy」→ Unsworth 1.9 亿美元诽谤诉讼 → 2019.12.06 陪审团约一小时裁决不构成诽谤。',
+                 'bg': '从救援英雄的一句批评到 1.9 亿美元的诉讼——以及陪审团一小时的裁决。'},
+    'sec-sec': {'d': '2018', 'q': 'Am considering taking Tesla private at $420. Funding secured.',
+                'zh': 'SEC 认定「funding secured」构成证券欺诈：个人与公司各罚 2000 万美元、卸任董事长、重大推文律师预审。',
+                'bg': '一条推文让他付出 2000 万美元、董事长职位，以及至今仍在约束他发推的律师预审规则。'},
+    'autopilot': {'d': '2022', 'q': '「Autopilot」和「Full Self-Driving」这两个名字本身，就成了加州 DMV 虚假广告指控的核心。',
+                  'zh': '2022 加州 DMV 虚假广告指控 → 2025.12 认定违法 → 2026.02 Tesla 起诉 DMV；2024.10 NHTSA 对 240 万辆 FSD 展开调查。',
+                  'bg': '「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线。'},
+    'union': {'d': '2018', 'q': 'Nothing stopping Tesla team at our car plant from voting union. Could do so tmrw if they wanted. But why pay union dues & give up stock options for nothing.',
+              'zh': '一条推文引发六年 NLRB 法律战：2019 裁定非法威胁 → 2021 要求删帖他拒绝 → 2023.03 第五巡回法院部分支持。',
+              'bg': '一条推文引发六年的 NLRB 法律战——「nothing stopping」到「为什么付会费」。'},
+    'twitter': {'d': '2021', 'q': 'Much is made lately of unrealized gains being a means of tax avoidance, so I propose selling 10% of my Tesla stock. Do you support this?',
+                'zh': '2021.11 卖股投票（350 万人、57.9% 赞成后售股）与 2022.12.15 记者封禁（48 小时后恢复）——平台规则与个人意志的边界。',
+                'bg': '从「Tax the rich」投票到记者封禁——平台拥有者的推文边界与「言论自由绝对主义者」的自我矛盾。'},
+}
+s = io.open('controversy.html', encoding='utf-8').read()
+found_cv = set()
+for m in re.finditer(r'<section class="ct-ch" id="([a-z-]+)">(.*?)</section>', s, re.S):
+    if m.group(1) not in CV_META:
+        continue
+    h2 = re.search(r'<h2[^>]*>([^<]+)</h2>', m.group(2))
+    assert h2, m.group(1)
+    meta = CV_META[m.group(1)]
+    items.append({
+        'id': m.group(1), 'pg': 'controversy.html', 't': '争议深读',
+        'd': meta['d'], 's': strip(h2.group(1)), 'q': meta['q'], 'zh': meta['zh'], 'bg': meta['bg'],
+    })
+    found_cv.add(m.group(1))
+assert found_cv == set(CV_META), found_cv
+
 # ---------- 公司实体推断（多对多，用于检索过滤） ----------
 import re as _re
 ENTITY_RULES = [
@@ -117,7 +151,7 @@ for it in items:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13}, counts
+assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

@@ -2,6 +2,20 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v5.89.0 — 2026-09-26 · 检索扩容A：争议深读入索引（自由精进第五十六轮）
+
+**主题包成果**
+- **controversy.html 五篇深读纳入站内检索**（索引 107 → 112 条，新类型「争议深读」）：
+  - tools/build-search-index.py 新增 controversy 解析段（CV_META 五条：sec-pedo/sec-sec/autopilot/union/twitter，q/zh/bg 均重组自页内已核实文字，d 取篇内首个关键年份）；
+  - 断言字典同步 '争议深读': 5；
+  - verify.py 检查4 总数公式加入 controversy 计数（ct-ch section 数）；
+  - search.html 类型按钮组加「争议深读」。
+- **就地修复**：search.html 页头 sr-sub 原写死「67 条/9 份/18 条/13 张」违反 v5.50 无写死计数原则——改为板块描述不带数字；controversy.html 页脚一处残破未闭合 `<p class="ct-foot"` 标签（渲染冗余行）修复。
+- 公司过滤自动生效（实体推断复用）：sec-sec/union/autopilot→Tesla，twitter→Tesla+X/Twitter，sec-pedo→综合。
+
+**质量门**
+- build-search-index.py 断言通过（112 条五类型）；verify.py 11 项全绿；EPUB 重建满足新鲜度门禁；node --check 不适用（app.js 未改）。
+
 ## v5.88.1 — 2026-09-20 · 补账：CHANGELOG 漏记补录 + 版本误标澄清 + 门禁加固（自由精进第五十五轮）
 
 **主题包成果**
