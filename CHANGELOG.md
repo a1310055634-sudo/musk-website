@@ -2,6 +2,17 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v6.1.0 — 2026-09-26 · Open Graph 社交标签全站覆盖（自由精进第六十八轮）
+
+**主题包成果**
+- **32 页 og 五件套齐备**（og:title / og:description / og:type / og:url / og:image）：
+  - 新注入 20 页（head 内 </head> 前整块插入，python 批量）；og:title 取页 title，og:description 优先复用既有 meta description（19 页有），其余 13 页自各页页首文字改写一句话（不造新事实）；
+  - 老版 12 页（index/primary 等，v5.5x 时代注入）升级：og:image 由相对路径改绝对 URL（https://a1310055634-sudo.github.io/musk-website/assets/portrait.jpg）、补齐缺失的 og:url。
+- 分享到社交平台将获得标题+摘要+配图的预览卡片。
+
+**质量门**
+- 抽查 index/controversy/deep-dive-05 三页五件套完整、og:image 与 og:url 均为绝对路径；verify.py 11 项全绿（断链不受 og: content 属性影响）；EPUB 重建满足新鲜度门禁。
+
 ## v6.0.0 — 2026-09-26 · 账本收官候选放弃 + 深读五页排版精进（自由精进第六十七轮）
 
 **账本候选裁定（放弃，Gruber 先例）**
