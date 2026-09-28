@@ -16,7 +16,7 @@
 | 轮 | 主题 | 状态 | 版本 | 成果提交 | 推送 |
 |---|---|---|---|---|---|
 | 01 | 视觉基础与基线 | complete | v6.6.0 | 9c4867b | done |
-| 02 | 图片与纪实素材体系 | complete | v6.7.0 | （见回填） | done |
+| 02 | 图片与纪实素材体系 | complete | v6.7.0 | eb007ba | done |
 | 03 | 首页首屏重构 | pending | v6.8.0 | — | — |
 | 04 | 首页编排与全局导航 | pending | v6.9.0 | — | — |
 | 05 | 长文阅读模板 | pending | v6.10.0 | — | — |
@@ -55,4 +55,5 @@
 
 - 交付：ASSETS.md 素材权威清单（来源/作者/许可/核实/加工/用途）；trace-assets.py 感知哈希溯源——portrait/tesla-factory 逐像素命中 Commons 原件（CC BY-SA 3.0 Debbie Rowe / CC BY 2.0 Maurizio Pesce），falcon-heavy 无匹配 → 替换为 SpaceX 官方 CC0 双助推着陆图（同名同尺寸零布局扰动）；新增 starship-catch（CC BY 2.0，2024-10-13 塔捕，与账本 e2024-10-13 互证）/x-hq（CC BY-SA 4.0，2022-11）/cybertruck（CC0）三张纪实图 + portrait-hero 两档封面备用裁切；companies.html 三卡配图带署名行；首页封面署名行（中英）+fetchpriority；indepth 图注补全与 alt 修正、Falcon 底部取景；全站 img height:auto；许可元数据 assets-meta/ 留档。
 - 验证：verify.py 9/9 绿（v6.7.0）；node --check 通过；EN 署名切换/懒加载/3:2 比例/21:9 取景 CDP 实测；真 390px 视口零溢出（确认 qa-shots 手机档 500px 最小窗宽伪影，非站点缺陷）；改后证据 9 张 + QA.md 在 qa/v7-19/round-02/。
-- 提交：[V7-19 R02] 主成果提交 + 推送状态回填提交；推送状态见表格。
+- 提交：[V7-19 R02] 主成果提交 eb007ba + 推送状态回填提交；已推送。
+- 并发事件记录：02:49 一个并发触发（run-b）误判 run-a（本记录方）已停而接管；02:51-02:54 run-b 观察到 run-a 活跃后**主动全部退避**，将自写文件移至仓库外 `D:\vibe coding\v7r2-runb-evidence\`，并在此期间完成了 eb007ba 的推送（run-a 本地推送因网络超时未成）。run-b 的两份审计脚本（tools/verify-attrib.py、verify-tesla-factory.py）与两份元数据（assets-meta/portrait.json、tesla-factory.json）已被 run-a 的 `git add -A` 收入 eb007ba——其署名核验结论（hamming=0）与 run-a 独立溯源结果一致，互为佐证，**保留入库**。后续触发请勿重复删除或重做 R2；接管前先长观察≥10 分钟确认无写入，再核对本表与 git log。
