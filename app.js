@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '6.12.0';
+  var SITE_VERSION = '6.13.0';
 
   /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
   document.documentElement.classList.add('js');
@@ -404,7 +404,10 @@
         + '<button type="button" class="net-d-close" data-net-close>' + (document.documentElement.lang === 'en' ? 'Close' : '关闭') + '</button>'
         + '</div>'
         + '<p class="net-d-blurb">' + netEsc(netT(c.blurb)) + '</p>'
-        + '<p class="net-d-meta">' + netEsc(netT(c.sector)) + ' · ' + netEsc(c.era) + '</p>';
+        + '<p class="net-d-meta">' + netEsc(netT(c.sector)) + ' · ' + netEsc(netT(c.era)) + '</p>';
+      if (c.href) {
+        h += '<p class="net-d-file"><a href="' + netEsc(c.href) + '" data-en="Open the company file →">查看公司档案 →</a></p>';
+      }
       if (c.events.length) {
         h += '<p class="net-d-sec">' + (document.documentElement.lang === 'en' ? 'RELATED EVENTS' : '相关事件') + '</p><div class="net-d-links">';
         c.events.forEach(function (e) {

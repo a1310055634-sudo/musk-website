@@ -35,6 +35,7 @@ NAV_GROUPS = [
         "zh": "公司", "en": "Companies",
         "items": [
             ("companies.html", "公司版图", "Companies"),
+            ("company-files.html", "公司档案", "Company Files"),
             ("indepth.html", "公司深度", "In Depth"),
             ("grok.html", "xAI·Grok", "xAI &amp; Grok"),
             ("numbers.html", "数据一览", "In Numbers"),

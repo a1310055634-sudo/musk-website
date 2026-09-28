@@ -1262,6 +1262,9 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 .net-d-meta { margin-top: 6px; font-size: 12.5px; color: var(--muted); }
 .net-d-sec { margin-top: 14px; font-size: 11.5px; letter-spacing: 0.14em; color: var(--muted); }
 .net-d-links { margin-top: 6px; display: flex; flex-direction: column; gap: 5px; font-size: 13.5px; }
+.net-d-file { margin-top: 8px; }
+.net-d-file a { font-size: 13px; font-weight: 700; color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.5); }
+.net-d-file a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .net-d-links a { color: var(--accent-text); }
 .net-d-links a:hover { text-decoration: none; border-bottom: 1px solid currentColor; }
 .net-d-links span { color: var(--muted); }
@@ -1299,4 +1302,84 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media print {
   .net-detail, .net-d-close { display: none; }
   .net-graphwrap { max-width: 100%; }
+}
+
+
+/* ============================================================
+   V7 R8 公司档案组件层（company-files.html · 生成器输出共用）
+   结构：.cf-head（色标左线档案头 + 截至口径行）→ 五段（定位/里程碑/财务/风险/延伸）
+   纪律：财务行 kind 徽标分列不混用；色标只作辅助，公司以名称文字为准
+   ============================================================ */
+.cf-file { border-top: 1px solid var(--hairline); padding: 30px 0 34px; }
+.cf-file:first-of-type { border-top: none; }
+.cf-head { border-left: 4px solid var(--co-history); padding: 2px 0 2px 16px; margin-bottom: 16px; }
+.cf-head--tesla { border-left-color: var(--co-tesla); }
+.cf-head--spacex { border-left-color: var(--co-spacex); }
+.cf-head--x { border-left-color: var(--co-x); }
+.cf-head--xai { border-left-color: var(--co-xai); }
+.cf-head--briefs { border-left-color: var(--accent); }
+.cf-idrow { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; }
+.cf-name { font-family: var(--serif); font-size: clamp(24px, 3vw, 34px); margin: 0; line-height: 1.25; }
+.cf-ticker { font-size: 12px; letter-spacing: .1em; color: var(--muted); font-family: Georgia, serif; }
+.cf-asof { font-size: 12.5px; color: var(--accent-text); margin: 6px 0 0; line-height: 1.7; }
+.cf-asof::before { content: "● "; font-size: 9px; vertical-align: 2px; }
+.cf-fig { margin: 18px 0 6px; }
+.cf-fig img { display: block; width: 100%; height: auto; border: 1px solid var(--hairline); }
+.cf-fig figcaption { font-size: 11.5px; color: var(--muted); line-height: 1.7; padding-top: 7px; }
+.cf-sec { margin: 26px 0 0; }
+.cf-label { font-size: 11px; letter-spacing: .18em; color: var(--accent-text); font-weight: 700; margin: 0 0 9px; }
+.cf-pos { font-size: var(--fs-body); line-height: 1.9; margin: 0; }
+.cf-note { font-size: 12px; color: var(--muted); margin: 10px 0 0; line-height: 1.7; }
+/* 里程碑：日期列 + 正文列 */
+.cf-ms { list-style: none; padding: 0; margin: 0; }
+.cf-msrow { display: grid; grid-template-columns: 108px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px dotted rgba(23, 25, 29, 0.14); }
+.cf-msrow:last-child { border-bottom: none; }
+.cf-date { font-family: var(--serif); font-weight: 700; font-size: 14px; color: var(--accent-text); letter-spacing: .03em; padding-top: 2px; }
+.cf-msmain p { font-size: var(--fs-body); line-height: 1.85; margin: 0; }
+.cf-src { font-size: 12px; color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); white-space: nowrap; }
+.cf-src:hover { color: var(--accent); border-bottom-color: var(--accent); }
+/* 财务行：kind 徽标 + 日期 + 金额 + 说明（口径分列） */
+.cf-fin { list-style: none; padding: 0; margin: 0; }
+.cf-finrow { padding: 10px 0; border-bottom: 1px dotted rgba(23, 25, 29, 0.14); }
+.cf-finrow:last-child { border-bottom: none; }
+.cf-finline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+.cf-kind { font-size: 10.5px; letter-spacing: .1em; color: var(--ink); background: var(--card); border: 1px solid var(--hairline); padding: 2px 8px; white-space: nowrap; }
+.cf-kind--valuation, .cf-kind--writedown { border-style: dashed; }
+.cf-amount { font-family: Georgia, serif; font-size: 16.5px; color: var(--accent-text); }
+.cf-finnote { font-size: 13.5px; color: var(--muted); line-height: 1.8; margin: 5px 0 0; }
+/* 风险与争议 */
+.cf-rk { list-style: none; padding: 0; margin: 0; }
+.cf-rkrow { padding: 8px 0; border-bottom: 1px dotted rgba(23, 25, 29, 0.14); }
+.cf-rkrow:last-child { border-bottom: none; }
+.cf-rkrow > a { font-weight: 700; font-size: 14.5px; color: var(--ink); text-decoration: none; border-bottom: 1px solid rgba(23, 25, 29, 0.25); }
+.cf-rkrow > a:hover { color: var(--accent-text); border-bottom-color: var(--accent); }
+.cf-rknote { display: block; font-size: 13px; color: var(--muted); line-height: 1.8; margin-top: 3px; }
+/* 相关事件 / 延伸阅读 */
+.cf-evs, .cf-rel { display: flex; flex-wrap: wrap; gap: 8px 14px; }
+.cf-ev, .cf-rel a { font-size: 13px; color: var(--accent-text); text-decoration: none; border: 1px solid var(--hairline); background: var(--card); padding: 5px 12px; line-height: 1.5; transition: border-color var(--t-fast); }
+.cf-ev b { font-family: var(--serif); margin-right: 6px; }
+.cf-ev:hover, .cf-rel a:hover { border-color: var(--accent); color: var(--accent); }
+/* 简介区（六家） */
+.cf-brief { border-top: 1px dotted rgba(23, 25, 29, 0.2); padding: 16px 0 14px; }
+.cf-brief-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+.cf-brief-dot { width: 10px; height: 10px; border-radius: 2px; align-self: center; flex: none; }
+.cf-brief-name { font-family: var(--serif); font-size: 19px; margin: 0; }
+.cf-brief-era { font-size: 11.5px; letter-spacing: .06em; color: var(--muted); }
+.cf-brief-text { font-size: var(--fs-body); line-height: 1.85; margin: 7px 0 8px; }
+.cf-brief-links { font-size: 12.5px; line-height: 2; }
+.cf-brief-lh { color: var(--muted); letter-spacing: .04em; margin-right: 4px; }
+.cf-brief-links a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); margin-right: 14px; }
+.cf-brief-links a:hover { color: var(--accent); }
+.cf-toc-sub { padding-left: 24px !important; font-size: 12px; }
+/* companies.html 卡片 → 档案深链 */
+.company-file-link { display: inline-block; margin-top: 10px; font-size: 13px; font-weight: 700; color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.5); }
+.company-file-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
+@media (max-width: 640px) {
+  .cf-msrow { grid-template-columns: 1fr; gap: 2px; }
+  .cf-date { padding-top: 0; }
+  .cf-finline { align-items: center; }
+}
+@media print {
+  .cf-file { break-inside: avoid; }
+  .cf-fig img { max-height: 300px; object-fit: cover; }
 }

@@ -5,8 +5,9 @@
 - 数据源: tools/companies-data.py（11 节点 · 13 关系，先过结构自检）；
 - 产出 1: companies.html 注入/替换 <!-- V7-R7-NETWORK:BEGIN/END --> 区块
   （section#network：SVG 关系图 + 图例 + 交互详情面板 + 三组文字清单）；
-- 产出 2: companies-data.js（window.COMPANIES_V7，file:// 下以 script 标签加载，
-  供 R8 公司档案 / R9 时间轴 / R10 资本流向复用）；
+- 产出 2: companies-data.js —— 【自 V7-19 R8 起移交 tools/build-company-files.py 写出】
+  （含 window.COMPANIES_V7 + window.FILES_V7；本脚本只负责 companies.html 注入，
+  以避免两个生成器写同一文件互相覆盖）；
 - 幂等: 可重复运行，输出一致。
 
 设计约定：
@@ -304,10 +305,9 @@ def inject(path_html):
 
 def main():
     changed = inject("companies.html")
-    js = "// 公司关系结构化数据（V7-19 R7）· 由 tools/build-network.py 自动生成，勿手改\n// 数据源：tools/companies-data.py · file:// 下以 <script src> 加载（fetch 会被 CORS 拦）\nwindow.COMPANIES_V7 = " + \
-        json.dumps(build_js_data(), ensure_ascii=False, indent=1) + ";\n"
-    io.open("companies-data.js", "w", encoding="utf-8", newline="\n").write(js)
-    print(f"✓ companies-data.js: {len(CD.COMPANIES)} 节点 · {len(CD.LINKS)} 关系")
+    # companies-data.js 自 V7-19 R8 起由 tools/build-company-files.py 写出
+    # （COMPANIES_V7 + FILES_V7 一并导出），本脚本不再写它，避免互相覆盖。
+    print("· companies-data.js 由 tools/build-company-files.py 统一写出（R8 起）")
     if not changed:
         print("· companies.html 区块内容与上次一致（幂等）")
 

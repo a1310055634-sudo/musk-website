@@ -75,7 +75,7 @@ COMPANIES = [
             "zh": "把电动车从「政策合规品」做成人人想要的科技产品；史上首家市值破万亿的车企。",
             "en": "Turned EVs from compliance cars into objects of desire; first carmaker to a $1T market cap.",
         },
-        "href": "companies.html",
+        "href": "company-files.html#file-tesla",
     },
     {
         "id": "spacex",
@@ -90,7 +90,7 @@ COMPANIES = [
             "zh": "用可回收火箭把发射成本打下来；如今既运宇航员，也筹划火星。",
             "en": "Reusability collapsed launch costs; now carries astronauts and plans for Mars.",
         },
-        "href": "companies.html",
+        "href": "company-files.html#file-spacex",
     },
     {
         "id": "x",
@@ -105,7 +105,7 @@ COMPANIES = [
             "zh": "以 440 亿美元买入 Twitter 并更名 X——既是他的扩音器，2025 年并入 xAI 后成为 AI 公司的一部分。",
             "en": "Twitter, bought for $44B and renamed X — his loudspeaker, and since 2025 part of an AI company.",
         },
-        "href": "grok.html",
+        "href": "company-files.html#file-x",
     },
     {
         "id": "xai",
@@ -120,7 +120,7 @@ COMPANIES = [
             "zh": "Grok 之父；2026 年 1 月完成 200 亿美元 Series E（估值约 2300 亿量级），2025 年已先行并入 X 平台。",
             "en": "Maker of Grok; raised $20B in Jan 2026 at a ~$230B scale valuation, after absorbing X in 2025.",
         },
-        "href": "grok.html",
+        "href": "company-files.html#file-xai",
     },
     {
         "id": "neuralink",
@@ -135,7 +135,7 @@ COMPANIES = [
             "zh": "第一批客户是瘫痪患者——用意念移动光标；长期故事是在 AI 变强的年代给人类大脑留一个接口。",
             "en": "First customers are paralyzed patients moving cursors with thought; the long game is human–machine symbiosis.",
         },
-        "href": "companies.html",
+        "href": "company-files.html#brief-neuralink",
     },
     {
         "id": "boring",
@@ -151,7 +151,7 @@ COMPANIES = [
             "zh": "起因是一句堵车抱怨：地面解决不了，就从地下走；卖点是持续压低每英里造价。",
             "en": "Born from one traffic complaint: if the surface is stuck, go under it — competing on cost per mile.",
         },
-        "href": "companies.html",
+        "href": "company-files.html#brief-boring",
     },
     # ------------------------------------------------ 历史 / 已并入
     {
@@ -167,7 +167,7 @@ COMPANIES = [
             "zh": "给报纸做的网上城市指南；1999 年康柏以约 3.07 亿美元买下，个人套现约 2200 万——第一桶金。",
             "en": "A city guide for newspapers; Compaq paid ≈$307M in 1999, netting him ≈$22M — the first fortune.",
         },
-        "href": "profile.html",
+        "href": "company-files.html#brief-zip2",
     },
     {
         "id": "paypal",
@@ -183,7 +183,7 @@ COMPANIES = [
             "zh": "他 1999 年创办的网上银行 X.com 长成了 PayPal；2002 年 eBay 以 15 亿美元收购，税后约 1.8 亿美元全部再投入。",
             "en": "His 1999 online bank X.com grew into PayPal; eBay paid $1.5B in 2002 — and the ≈$180M after tax was reinvested in full.",
         },
-        "href": "primary.html#e2002-10-03",
+        "href": "company-files.html#brief-paypal",
     },
     {
         "id": "solarcity",
@@ -198,7 +198,7 @@ COMPANIES = [
             "zh": "表兄弟按他的创意创立、他任董事长的太阳能公司；2016 年以约 26 亿美元并入 Tesla，2022 年法院认定交易公允。",
             "en": "A solar company his cousins founded on his idea, with him as chairman; absorbed by Tesla for ≈$2.6B in 2016, ruled fair in 2022.",
         },
-        "href": "primary.html#e2016-11",
+        "href": "company-files.html#brief-solarcity",
     },
     {
         "id": "openai",
@@ -213,7 +213,7 @@ COMPANIES = [
             "zh": "2015 年的联合创始人，2018 年退出董事会——数年后成为 xAI 最受关注的对手。",
             "en": "A 2015 co-founder who left the board in 2018 — years later, xAI's most watched rival.",
         },
-        "href": "companies.html",
+        "href": "company-files.html#brief-openai",
     },
 ]
 

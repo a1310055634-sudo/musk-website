@@ -23,7 +23,7 @@
 - 许可：CC BY 2.0
 - 核实：2026-09-29 感知哈希 diff=0（逐像素一致）
 - 加工：原站既有缩放（自 3008×2000 原件）
-- 用途：indepth.html Tesla 档案配图；index.html 首页业务横带（TESLA · 弗里蒙特总装线）；deep-dive-01.html 长文页头大图（R5）
+- 用途：indepth.html Tesla 档案配图；index.html 首页业务横带（TESLA · 弗里蒙特总装线）；deep-dive-01.html 长文页头大图（R5）；company-files.html Tesla 档案页头图带署名（R8）
 
 ### falcon-heavy.jpg — Falcon Heavy 双助推器同步着陆（2026-09-29 替换）
 - 尺寸/体积：960×1440 · 113KB
@@ -42,7 +42,7 @@
 - 许可：CC BY 2.0
 - 核实：Commons 元数据；描述原文「The booster being caught during Starship flight test 5」与本站账本 e2024-10-13 锚点互证
 - 加工：缩放至 1200px 宽，质量 80
-- 用途：companies.html SpaceX 卡片；index.html 首页业务横带（SPACEX · 星舰塔捕）；deep-dive-03.html 长文页头大图（R5）；events.html e2024-10-13 事件配图 + 材料区「纪实图片」互证条目（R6）
+- 用途：companies.html SpaceX 卡片；index.html 首页业务横带（SPACEX · 星舰塔捕）；deep-dive-03.html 长文页头大图（R5）；events.html e2024-10-13 事件配图 + 材料区「纪实图片」互证条目（R6）；company-files.html SpaceX 档案页头图带署名（R8）
 
 ### x-hq.jpg — Twitter/X 总部（新增）
 - 尺寸/体积：1200×800 · 196KB
@@ -51,7 +51,7 @@
 - 许可：CC BY-SA 4.0（裁切属演绎件，同许可延续）
 - 核实：Commons 元数据；拍摄时点即收购交割后一周（收购 2022-10-27 完成），画面仍为 Twitter 标牌
 - 加工：正方形原件上部 3:2 裁切（保住 @twitter 标牌与楼体），缩放至 1200px 宽
-- 用途：companies.html X 卡片；index.html 首页业务横带（X · Twitter 总部）；deep-dive-05.html 长文页头大图（R5）
+- 用途：companies.html X 卡片；index.html 首页业务横带（X · Twitter 总部）；deep-dive-05.html 长文页头大图（R5）；company-files.html X 档案页头图带署名（R8）
 
 ### cybertruck.jpg — Cybertruck 展车（新增）
 - 尺寸/体积：1080×720 · 102KB
