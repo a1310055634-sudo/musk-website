@@ -5,27 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>资本解剖 · 马斯克商业志 MUSK, INC.</title>
 <meta name="robots" content="noindex" />
-<meta name="theme-color" content="#faf9f6" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<meta name="theme-color" content="#F3F0E8" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .my-page { max-width: 900px; margin: 0 auto; padding: 40px 20px 60px; }
-.my-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.my-back { font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }
 .my-back:hover { text-decoration: underline; }
-.my-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 8px; }
+.my-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 8px; }
 .my-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(30px, 5vw, 44px); letter-spacing: .04em; }
-.my-head .my-sub { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
-.my-sec { border-top: 1px solid rgba(26,26,26,.16); padding: 24px 0 16px; }
+.my-head .my-sub { color: var(--muted); font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
+.my-sec { border-top: 1px solid rgba(23,25,29,.16); padding: 24px 0 16px; }
 .my-sec > h2 { font-family: Georgia, "STSong", serif; font-size: 23px; line-height: 1.4; }
-.my-sec .my-intro { font-size: 14px; color: #5c574e; line-height: 1.85; margin: 8px 0 12px; }
-.my-row { display: grid; grid-template-columns: 190px 1fr; gap: 14px; padding: 11px 0; border-bottom: 1px dotted rgba(26,26,26,.16); align-items: baseline; }
+.my-sec .my-intro { font-size: 14px; color: var(--muted); line-height: 1.85; margin: 8px 0 12px; }
+.my-row { display: grid; grid-template-columns: 190px 1fr; gap: 14px; padding: 11px 0; border-bottom: 1px dotted rgba(23,25,29,.16); align-items: baseline; }
 .my-row:last-child { border-bottom: none; }
 .my-row .my-k { font-weight: 700; font-size: 15px; }
-.my-row .my-v { font-size: 14px; color: #5c574e; line-height: 1.75; }
-.my-row .my-v b { color: #7c2d2d; font-family: Georgia, serif; }
-.my-note { font-size: 13.5px; color: #5c574e; line-height: 1.85; border: 1px dashed #7c2d2d; padding: 12px 16px; margin-top: 14px; }
-.my-note b { color: #7c2d2d; letter-spacing: .15em; font-size: 11px; display: block; margin-bottom: 4px; }
-.my-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
+.my-row .my-v { font-size: 14px; color: var(--muted); line-height: 1.75; }
+.my-row .my-v b { color: var(--accent); font-family: Georgia, serif; }
+.my-note { font-size: 13.5px; color: var(--muted); line-height: 1.85; border: 1px dashed var(--accent); padding: 12px 16px; margin-top: 14px; }
+.my-note b { color: var(--accent); letter-spacing: .15em; font-size: 11px; display: block; margin-bottom: 4px; }
+.my-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(23,25,29,.16); padding-top: 12px; }
 @media (max-width: 640px) { .my-row { grid-template-columns: 1fr; gap: 4px; } }
 @media print { .my-page { padding: 20px; } .my-sec > h2 { break-after: avoid; } .my-sec:first-of-type { break-inside: avoid; } .my-row, .my-note { break-inside: avoid; } .my-back { display: none; } .my-foot { color: #555; } }
 </style>
@@ -51,20 +51,20 @@
     <h2>⓪ 资本时间线</h2>
     <p class="my-intro">七笔关键交易，从 307 万到 440 亿——同一根轴上的 20 年。</p>
     <svg viewBox="0 0 720 240" style="width:100%;height:auto" role="img" aria-label="资本时间线图表：从 Zip2 到 xAI 的七笔关键交易">
-      <line x1="30" y1="200" x2="690" y2="200" stroke="#1a1a1a" stroke-width="1"/>
-      <g font-family="Georgia,serif" font-size="11" fill="#5c574e">
+      <line x1="30" y1="200" x2="690" y2="200" stroke="var(--ink)" stroke-width="1"/>
+      <g font-family="Georgia,serif" font-size="11" fill="var(--muted)">
         <text x="40" y="216">1999</text><text x="130" y="216">2002</text><text x="220" y="216">2004</text><text x="310" y="216">2008</text><text x="400" y="216">2016</text><text x="490" y="216">2022</text><text x="580" y="216">2026</text>
       </g>
       <g>
-        <circle cx="55" cy="200" r="5" fill="#7c2d2d"/><text x="40" y="190" font-size="10" fill="#1a1a1a">Zip2 $307M</text>
-        <circle cx="140" cy="200" r="5" fill="#7c2d2d"/><text x="128" y="190" font-size="10" fill="#1a1a1a">PayPal $1.5B</text>
-        <circle cx="230" cy="200" r="5" fill="#1f3a5f"/><text x="218" y="190" font-size="10" fill="#1a1a1a">Tesla A轮</text>
-        <circle cx="320" cy="200" r="5" fill="#1f3a5f"/><text x="308" y="190" font-size="10" fill="#1a1a1a">NASA $1.6B</text>
-        <circle cx="420" cy="200" r="5" fill="#1f3a5f"/><text x="408" y="190" font-size="10" fill="#1a1a1a">SolarCity</text>
-        <circle cx="520" cy="200" r="5" fill="#7c2d2d"/><text x="508" y="190" font-size="10" fill="#1a1a1a">Twitter $44B</text>
-        <circle cx="630" cy="200" r="5" fill="#1f3a5f"/><text x="618" y="190" font-size="10" fill="#1a1a1a">xAI E轮</text>
+        <circle cx="55" cy="200" r="5" fill="#C84032"/><text x="40" y="190" font-size="10" fill="var(--ink)">Zip2 $307M</text>
+        <circle cx="140" cy="200" r="5" fill="#C84032"/><text x="128" y="190" font-size="10" fill="var(--ink)">PayPal $1.5B</text>
+        <circle cx="230" cy="200" r="5" fill="#1f3a5f"/><text x="218" y="190" font-size="10" fill="var(--ink)">Tesla A轮</text>
+        <circle cx="320" cy="200" r="5" fill="#1f3a5f"/><text x="308" y="190" font-size="10" fill="var(--ink)">NASA $1.6B</text>
+        <circle cx="420" cy="200" r="5" fill="#1f3a5f"/><text x="408" y="190" font-size="10" fill="var(--ink)">SolarCity</text>
+        <circle cx="520" cy="200" r="5" fill="#C84032"/><text x="508" y="190" font-size="10" fill="var(--ink)">Twitter $44B</text>
+        <circle cx="630" cy="200" r="5" fill="#1f3a5f"/><text x="618" y="190" font-size="10" fill="var(--ink)">xAI E轮</text>
       </g>
-      <path d="M55 200 Q 200 170 340 200 Q 480 170 630 200" stroke="#7c2d2d" stroke-width="1.5" fill="none" stroke-dasharray="6 3" opacity="0.4"/>
+      <path d="M55 200 Q 200 170 340 200 Q 480 170 630 200" stroke="#C84032" stroke-width="1.5" fill="none" stroke-dasharray="6 3" opacity="0.4"/>
     </svg>
     <p class="my-note"><b>编者注</b>虚线弧线暗示了交易的连续性：每一次退出都在为下一次入场积累信用与弹药。数据来源见下方各节标注。</p>
   </section>
@@ -128,7 +128,7 @@
     <div class="my-row"><span class="my-k">模式四 · 激励即契约</span><span class="my-v">约 75% 支持的万亿美元薪酬方案，把个人激励与 8.5 万亿市值目标锁成同一笔赌注。</span></div>
     <div class="my-note"><b>对照阅读</b>原话与现场细节见「言行实录」板块；战略文本见「一手文档馆」；访谈语气见「访谈与表态」。</div>
   </section>
-  <p class="my-foot">本页由马斯克商业志自动化迭代维护 · 所有金额与年份均来自本站事实扩展包（公开报道口径：Reuters、CNBC、Fortune、The Information、Forbes、NASA、tesla.com、x.ai）· 非官方学习型网站 · 与「言行实录」「数据一览」板块互为对照 · <a href="interviews.html" style="color:#7c2d2d">访谈与表态 →</a> · <a href="documents.html" style="color:#7c2d2d">一手文档馆 →</a></p>
+  <p class="my-foot">本页由马斯克商业志自动化迭代维护 · 所有金额与年份均来自本站事实扩展包（公开报道口径：Reuters、CNBC、Fortune、The Information、Forbes、NASA、tesla.com、x.ai）· 非官方学习型网站 · 与「言行实录」「数据一览」板块互为对照 · <a href="interviews.html" style="color:var(--accent)">访谈与表态 →</a> · <a href="documents.html" style="color:var(--accent)">一手文档馆 →</a></p>
 </div>
 </body>
 </html>

@@ -92,10 +92,10 @@ for (label, aid), data in sorted(lifetimes.items(), key=lambda x: x[0][1]):
     anchor_link = f'{page_file}#{aid}'
     html_rows.append(
         f'<tr><td style="white-space:nowrap">{label}</td>'
-        f'<td style="font-family:Georgia,serif;color:#7c2d2d;font-weight:700">{aid}</td>'
+        f'<td style="font-family:Georgia,serif;color:var(--accent);font-weight:700">{aid}</td>'
         f'<td>{status}</td>'
-        f'<td style="font-size:12.5px;line-height:1.7;color:#5c574e">{versions}</td>'
-        f'<td><a href="{anchor_link}" style="color:#7c2d2d;text-decoration:none">→ 原文</a></td></tr>'
+        f'<td style="font-size:12.5px;line-height:1.7;color:var(--muted)">{versions}</td>'
+        f'<td><a href="{anchor_link}" style="color:var(--accent);text-decoration:none">→ 原文</a></td></tr>'
     )
 
 # 过滤：只保留当前文件中仍存在的锚点
@@ -126,10 +126,10 @@ for (label, aid), data in filtered:
     anchor_link = f'{page_file}#{aid}'
     html_rows.append(
         f'<tr><td style="white-space:nowrap">{label}</td>'
-        f'<td style="font-family:Georgia,serif;color:#7c2d2d;font-weight:700">{aid}</td>'
+        f'<td style="font-family:Georgia,serif;color:var(--accent);font-weight:700">{aid}</td>'
         f'<td>{status}</td>'
-        f'<td style="font-size:12.5px;line-height:1.7;color:#5c574e">{versions}</td>'
-        f'<td><a href="{anchor_link}" style="color:#7c2d2d;text-decoration:none">→ 原文</a></td></tr>'
+        f'<td style="font-size:12.5px;line-height:1.7;color:var(--muted)">{versions}</td>'
+        f'<td><a href="{anchor_link}" style="color:var(--accent);text-decoration:none">→ 原文</a></td></tr>'
     )
 
 html_rows.reverse()  # 最新的在前
@@ -152,14 +152,14 @@ html = f'''<!DOCTYPE html>
 <link rel="stylesheet" href="style.css" />
 <style>
 .rv-page {{ max-width: 1000px; margin: 0 auto; padding: 40px 20px 60px; }}
-.rv-back {{ font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }}
+.rv-back {{ font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }}
 .rv-back:hover {{ text-decoration: underline; }}
-.rv-head {{ border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 14px; }}
+.rv-head {{ border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 14px; }}
 .rv-head h1 {{ font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 42px); }}
-.rv-head p {{ color: #5c574e; font-size: 13.5px; font-style: italic; line-height: 1.8; }}
+.rv-head p {{ color: var(--muted); font-size: 13.5px; font-style: italic; line-height: 1.8; }}
 .rv-table {{ width: 100%; border-collapse: collapse; font-size: 13.5px; }}
-.rv-table th, .rv-table td {{ text-align: left; padding: 8px 10px; border-bottom: 1px dotted rgba(26,26,26,.16); vertical-align: top; }}
-.rv-table th {{ font-size: 11px; letter-spacing: .18em; color: #7c2d2d; font-weight: 700; border-bottom: 1px solid #1a1a1a; }}
+.rv-table th, .rv-table td {{ text-align: left; padding: 8px 10px; border-bottom: 1px dotted rgba(23,25,29,.16); vertical-align: top; }}
+.rv-table th {{ font-size: 11px; letter-spacing: .18em; color: var(--accent); font-weight: 700; border-bottom: 1px solid var(--ink); }}
 .rv-foot {{ margin-top: 26px; font-size: 11px; color: #8a857c; line-height: 1.8; }}
 @media print {{ .rv-page {{ padding: 20px; }} .rv-back {{ display: none; }} }}
 </style>
@@ -175,7 +175,7 @@ html = f'''<!DOCTYPE html>
     <tr><th>板块</th><th>锚点 ID</th><th>状态</th><th>修订轨迹</th><th>原文</th></tr>
 {chr(10).join(html_rows)}
   </table>
-  <p class="rv-foot">本页由 tools/build-revisions.py 自动生成（解析 git log），数据完全可复现 · 非官方学习型网站 · <a href="primary.html" style="color:#7c2d2d">言行实录 →</a> · <a href="search.html" style="color:#7c2d2d">第一手检索 →</a></p>
+  <p class="rv-foot">本页由 tools/build-revisions.py 自动生成（解析 git log），数据完全可复现 · 非官方学习型网站 · <a href="primary.html" style="color:var(--accent)">言行实录 →</a> · <a href="search.html" style="color:var(--accent)">第一手检索 →</a></p>
 </div>
 </body>
 </html>'''

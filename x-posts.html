@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>X 帖史选辑 · 马斯克商业志 MUSK, INC.</title>
 <meta name="robots" content="noindex" />
-<meta name="theme-color" content="#faf9f6" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<meta name="theme-color" content="#F3F0E8" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .xp-page { max-width: 1080px; margin: 0 auto; padding: 40px 20px 60px; }
-.xp-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.xp-back { font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }
 .xp-back:hover { text-decoration: underline; }
-.xp-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 10px; }
+.xp-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 10px; }
 .xp-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(30px, 5vw, 44px); letter-spacing: .04em; }
-.xp-head .xp-sub { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
+.xp-head .xp-sub { color: var(--muted); font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
 .xp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 14px; }
 .tweet-card {
   background: var(--ink); color: var(--paper); border-radius: 16px;
@@ -25,9 +25,9 @@
 .xp-grid .tweet-card:nth-child(4) { grid-column: span 2; }
 .tweet-top { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
 .tweet-avatar {
-  width: 38px; height: 38px; border-radius: 50%; background: #7c2d2d;
+  width: 38px; height: 38px; border-radius: 50%; background: var(--accent);
   display: flex; align-items: center; justify-content: center;
-  font-family: Georgia, serif; font-weight: 700; color: #faf9f6; font-size: 18px;
+  font-family: Georgia, serif; font-weight: 700; color: var(--paper); font-size: 18px;
 }
 .tweet-who b { display: block; font-size: 14px; }
 .tweet-who span { font-size: 12px; color: #9aa3b2; }
@@ -37,17 +37,17 @@ a.tweet-date:hover { text-decoration: underline; text-underline-offset: 3px; }
 .tweet-card { scroll-margin-top: 20px; }
 .tweet-text { font-size: 15px; line-height: 1.65; white-space: pre-line; }
 .tweet-zh { font-size: 12.5px; color: #9aa3b2; margin-top: 10px; line-height: 1.7; }
-.tweet-note { font-size: 12px; color: #9aa3b2; margin-top: 10px; border-top: 1px solid rgba(250,249,246,.18); padding-top: 8px; line-height: 1.7; }
+.tweet-note { font-size: 12px; color: #9aa3b2; margin-top: 10px; border-top: 1px solid rgba(243,240,232,.18); padding-top: 8px; line-height: 1.7; }
 .tweet-note b { color: #d9a7a7; }
-.xp-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
+.xp-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(23,25,29,.16); padding-top: 12px; }
 @media (max-width: 960px) { .xp-grid { grid-template-columns: 1fr; } .xp-grid .tweet-card:nth-child(4) { grid-column: auto; } }
 </style>
   <style>
 .xp-year {
   grid-column: 1 / -1;
   font-family: Georgia, "STSong", serif; font-size: 26px; font-weight: 700;
-  color: #7c2d2d; letter-spacing: 0.06em;
-  border-bottom: 2px solid #7c2d2d; padding-bottom: 6px;
+  color: var(--accent); letter-spacing: 0.06em;
+  border-bottom: 2px solid var(--accent); padding-bottom: 6px;
 }
 @media print { .tweet-card, .xp-year { break-inside: avoid; } .tweet-card { background: #fff; color: #000; border: 1px solid #000; } .tweet-note { color: #555; } .xp-back { display: none; } }
   </style>
@@ -165,7 +165,7 @@ Science fiction without the fiction part.</p>
     <h4 data-en="Wall takeaways · Editor's distillation">帖墙小结 · 编者提炼</h4>
     <p data-en="The posting rhythm itself tells a story: 2018 was the year of maximum-volume promises; 2022 was the year of owning the platform; 2024-2025 turned the feed into infrastructure announcements (cities, robots, robotaxis). The wall reads differently once you see it as one continuous negotiation with the public.">发帖节奏本身就是故事：2018 年是最大音量的承诺之年；2022 年是拿下平台之年；2024-2025 年，信息流变成了基础设施公告（建市、机器人、Robotaxi）。把「与公众的一场连续谈判」看穿之后，这面墙读起来完全不同。</p>
   </div>
-  <p class="xp-foot">本页由马斯克商业志自动化迭代维护 · 帖文措辞与日期经公开报道核实（Reuters、TechCrunch、Washington Post、BBC、CNBC 及 X 原帖）· 中译为本站所译 · 非官方学习型网站 · <a href="money.html" style="color:#7c2d2d">资本解剖 →</a></p>
+  <p class="xp-foot">本页由马斯克商业志自动化迭代维护 · 帖文措辞与日期经公开报道核实（Reuters、TechCrunch、Washington Post、BBC、CNBC 及 X 原帖）· 中译为本站所译 · 非官方学习型网站 · <a href="money.html" style="color:var(--accent)">资本解剖 →</a></p>
 </div>
 </body>
 </html>

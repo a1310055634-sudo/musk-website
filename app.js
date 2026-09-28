@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '6.5.0';
+  var SITE_VERSION = '6.6.0';
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -249,7 +249,7 @@
       var plane = document.createElement('div');
       plane.className = 'fly-plane';
       plane.setAttribute('aria-hidden', 'true');
-      plane.innerHTML = '<svg width="72" height="40" viewBox="0 0 72 40" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"><path d="M2 22 L58 8 L40 26 L30 20 Z"/><path d="M30 20 L34 34 L40 26"/><path d="M44 12 L66 6" stroke="#7c2d2d" stroke-dasharray="4 4"/></svg>';
+      plane.innerHTML = '<svg width="72" height="40" viewBox="0 0 72 40" fill="none" stroke="#17191d" stroke-width="1.6" stroke-linejoin="round"><path d="M2 22 L58 8 L40 26 L30 20 Z"/><path d="M30 20 L34 34 L40 26"/><path d="M44 12 L66 6" stroke="#C84032" stroke-dasharray="4 4"/></svg>';
       document.body.appendChild(plane);
       setTimeout(function () { plane.remove(); }, 2800);
     }

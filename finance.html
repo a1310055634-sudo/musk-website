@@ -5,27 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>财务资本全景 · 马斯克商业志 MUSK, INC.</title>
 <meta name="robots" content="noindex" />
-<meta name="theme-color" content="#faf9f6" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<meta name="theme-color" content="#F3F0E8" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .fn-page { max-width: 860px; margin: 0 auto; padding: 40px 20px 60px; }
-.fn-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.fn-back { font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }
 .fn-back:hover { text-decoration: underline; }
-.fn-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 8px; }
+.fn-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 8px; }
 .fn-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 42px); letter-spacing: .04em; }
-.fn-head .fn-sub { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
-.fn-co { scroll-margin-top: 20px; padding-top: 26px; margin-top: 12px; border-top: 3px double #1a1a1a; }
+.fn-head .fn-sub { color: var(--muted); font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
+.fn-co { scroll-margin-top: 20px; padding-top: 26px; margin-top: 12px; border-top: 3px double var(--ink); }
 .fn-co h2 { font-family: Georgia, "STSong", serif; font-size: 24px; }
-.fn-co .fn-intro { font-size: 13.5px; color: #5c574e; line-height: 1.85; margin: 8px 0 14px; }
-.fn-row { display: grid; grid-template-columns: 150px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px dotted rgba(26,26,26,.16); }
-.fn-row .fn-k { font-weight: 700; font-size: 14.5px; color: #1a1a1a; }
+.fn-co .fn-intro { font-size: 13.5px; color: var(--muted); line-height: 1.85; margin: 8px 0 14px; }
+.fn-row { display: grid; grid-template-columns: 150px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px dotted rgba(23,25,29,.16); }
+.fn-row .fn-k { font-weight: 700; font-size: 14.5px; color: var(--ink); }
 .fn-row .fn-k small { display: block; font-weight: 400; color: #8a857c; font-size: 11px; letter-spacing: .06em; }
-.fn-row .fn-v { font-size: 14px; color: #5c574e; line-height: 1.8; }
-.fn-row .fn-v b { color: #7c2d2d; font-family: Georgia, serif; }
-.fn-note { font-size: 13.5px; color: #5c574e; line-height: 1.85; border-left: 3px solid #1f3a5f; padding: 8px 14px; background: #f3f0ea; margin: 14px 0; }
-.fn-pending { border: 1px dashed rgba(26,26,26,.3); padding: 16px 18px; margin-top: 26px; font-size: 13.5px; color: #5c574e; line-height: 2; }
-.fn-pending a { color: #7c2d2d; text-decoration: none; }
+.fn-row .fn-v { font-size: 14px; color: var(--muted); line-height: 1.8; }
+.fn-row .fn-v b { color: var(--accent); font-family: Georgia, serif; }
+.fn-note { font-size: 13.5px; color: var(--muted); line-height: 1.85; border-left: 3px solid #1f3a5f; padding: 8px 14px; background: #f3f0ea; margin: 14px 0; }
+.fn-pending { border: 1px dashed rgba(23,25,29,.3); padding: 16px 18px; margin-top: 26px; font-size: 13.5px; color: var(--muted); line-height: 2; }
+.fn-pending a { color: var(--accent); text-decoration: none; }
 .fn-foot { margin-top: 26px; font-size: 11px; color: #8a857c; letter-spacing: .04em; line-height: 1.8; }
 @media (max-width: 640px) { .fn-row { grid-template-columns: 1fr; gap: 4px; } }
 @media print { .fn-page { padding: 20px; } .fn-co { break-inside: avoid; } .fn-row { break-inside: avoid; } .fn-back { display: none; } .ps-nav { display: none !important; } .fn-pending { display: none; } }
@@ -97,7 +97,7 @@
     <div class="fn-note"><b>编者分析：</b>xB 轮到 E 轮只用了 20 个月，估值十倍——速度的燃料是三件事：X 的数据与分发（2025.03 并入）、Colossus 级数据中心的建设速度、以及英伟达/思科这类「算力供给方即股东」的结构。唯一同构的先例，是他自己 2002 年的 SpaceX：私募市场替「短期不赚钱的长期叙事」定价。（末句为编者分析，非公告文字。）</div>
   </section>
 
-  <p class="fn-foot">本页由马斯克商业志自动化迭代维护 · 上市公司数字为财报/文件口径，私有公司估值为公开报道口径（非公司披露）· 非官方学习型网站 · <a href="money.html" style="color:#7c2d2d">资本解剖 →</a> · <a href="chronicle.html" style="color:#7c2d2d">编年史 →</a></p>
+  <p class="fn-foot">本页由马斯克商业志自动化迭代维护 · 上市公司数字为财报/文件口径，私有公司估值为公开报道口径（非公司披露）· 非官方学习型网站 · <a href="money.html" style="color:var(--accent)">资本解剖 →</a> · <a href="chronicle.html" style="color:var(--accent)">编年史 →</a></p>
 </div>
 </body>
 </html>

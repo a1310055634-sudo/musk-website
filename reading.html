@@ -5,41 +5,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>长卷阅读版 · 马斯克商业志 MUSK, INC.</title>
 <meta name="robots" content="noindex" />
-<meta name="theme-color" content="#faf9f6" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<meta name="theme-color" content="#F3F0E8" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .rd-layout { display: grid; grid-template-columns: 1fr 230px; gap: 34px; max-width: 1120px; margin: 0 auto; padding: 34px 20px 70px; }
-.rd-main { min-width: 0; max-width: 720px; }
-.rd-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.rd-main { min-width: 0; max-width: var(--read-width, 720px); }
+.rd-back { font-size: 13px; letter-spacing: .1em; color: var(--accent-text); text-decoration: none; }
 .rd-back:hover { text-decoration: underline; }
-.rd-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 20px; }
+.rd-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 20px; }
 .rd-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 42px); letter-spacing: .04em; }
-.rd-head .rd-sub { color: #5c574e; font-size: 14px; margin-top: 8px; font-style: italic; line-height: 1.8; }
-.rd-ch { scroll-margin-top: 70px; padding-top: 30px; margin-top: 10px; border-top: 3px double #1a1a1a; }
+.rd-head .rd-sub { color: var(--muted); font-size: 14px; margin-top: 8px; font-style: italic; line-height: 1.8; }
+.rd-ch { scroll-margin-top: 70px; padding-top: 30px; margin-top: 10px; border-top: 3px double var(--ink); }
 .rd-ch:first-of-type { border-top: none; padding-top: 6px; }
-.rd-ch .rd-kick { font-size: 11px; letter-spacing: .24em; color: #7c2d2d; font-weight: 700; }
+.rd-ch .rd-kick { font-size: 11px; letter-spacing: .24em; color: var(--accent-text); font-weight: 700; }
 .rd-ch h2 { font-family: Georgia, "STSong", serif; font-size: 26px; line-height: 1.35; margin: 6px 0 4px; }
-.rd-ch .rd-lead { color: #5c574e; font-size: 14px; font-style: italic; line-height: 1.85; margin: 4px 0 14px; }
-.rd-ch p.rd-t { font-size: 15px; line-height: 2.0; margin: 0 0 14px; }
-.rd-ch p.rd-t b { color: #7c2d2d; }
-.rd-more { border-top: 1px dotted rgba(26,26,26,.25); margin-top: 16px; padding-top: 10px; font-size: 12.5px; color: #5c574e; line-height: 2; }
-.rd-more a { color: #7c2d2d; text-decoration: none; }
+.rd-ch .rd-lead { color: var(--muted); font-size: 15.5px; font-style: italic; line-height: 1.85; margin: 4px 0 16px; }
+.rd-ch p.rd-t { font-size: 16.5px; line-height: 1.9; margin: 0 0 15px; }
+.rd-ch p.rd-t b { color: var(--accent-text); }
+.rd-more { border-top: 1px dotted rgba(23,25,29,.25); margin-top: 18px; padding-top: 10px; font-size: 12.5px; color: var(--muted); line-height: 2; }
+.rd-more a { color: var(--accent); text-decoration: none; }
 .rd-more a:hover { text-decoration: underline; }
-.rd-pending { border: 1px dashed rgba(26,26,26,.3); padding: 16px 18px; margin-top: 30px; font-size: 13.5px; color: #5c574e; line-height: 2; }
-.rd-pending a { color: #7c2d2d; text-decoration: none; }
+.rd-pending { border: 1px dashed rgba(23,25,29,.3); padding: 16px 18px; margin-top: 30px; font-size: 13.5px; color: var(--muted); line-height: 2; }
+.rd-pending a { color: var(--accent); text-decoration: none; }
 .rd-pending a:hover { text-decoration: underline; }
-.rd-pending b { color: #1a1a1a; }
+.rd-pending b { color: var(--ink); }
 /* 侧目录 */
 .rd-toc { position: sticky; top: 24px; align-self: start; font-size: 13px; }
-.rd-toc .rd-toc-h { font-size: 11px; letter-spacing: .22em; color: #7c2d2d; font-weight: 700; margin-bottom: 10px; }
-.rd-toc a { display: block; padding: 5px 0 5px 12px; color: #5c574e; text-decoration: none; border-left: 2px solid rgba(26,26,26,.15); line-height: 1.5; }
-.rd-toc a:hover { color: #7c2d2d; }
-.rd-toc a.rd-on { color: #7c2d2d; border-left-color: #7c2d2d; font-weight: 700; }
+.rd-toc .rd-toc-h { font-size: 11px; letter-spacing: .22em; color: var(--accent); font-weight: 700; margin-bottom: 10px; }
+.rd-toc a { display: block; padding: 5px 0 5px 12px; color: var(--muted); text-decoration: none; border-left: 2px solid rgba(23,25,29,.15); line-height: 1.5; }
+.rd-toc a:hover { color: var(--accent); }
+.rd-toc a.rd-on { color: var(--accent); border-left-color: var(--accent); font-weight: 700; }
 .rd-toc a.rd-todo { color: #9a948b; }
 @media (max-width: 960px) {
   .rd-layout { grid-template-columns: 1fr; gap: 0; }
-  .rd-toc { position: static; border: 1px solid rgba(26,26,26,.2); background: #f3f0ea; padding: 12px 14px; margin-bottom: 22px; }
+  .rd-toc { position: static; border: 1px solid rgba(23,25,29,.2); background: #f3f0ea; padding: 12px 14px; margin-bottom: 22px; }
   .rd-toc a { display: inline-block; border-left: none; padding: 3px 10px 3px 0; }
 }
 @media (max-width: 480px) {

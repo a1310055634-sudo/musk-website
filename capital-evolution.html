@@ -5,28 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>资本模式演化时间轴 · 马斯克商业志 MUSK, INC.</title>
 <meta name="description" content="从 Web 1.0 退出期到平台整合期——马斯克资本运作的四个时代。" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .ce-page { max-width: 900px; margin: 0 auto; padding: 40px 20px 60px; }
-.ce-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.ce-back { font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }
 .ce-back:hover { text-decoration: underline; }
-.ce-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 8px; }
+.ce-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 8px; }
 .ce-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 44px); letter-spacing: .04em; }
-.ce-head .ce-sub { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
-.ce-era { border-top: 1px solid rgba(26,26,26,.16); padding: 24px 0 16px; }
+.ce-head .ce-sub { color: var(--muted); font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
+.ce-era { border-top: 1px solid rgba(23,25,29,.16); padding: 24px 0 16px; }
 .ce-era h2 { font-family: Georgia, "STSong", serif; font-size: 22px; margin: 0 0 8px; }
-.ce-era h2 span { color: #7c2d2d; font-size: 15px; margin-left: 8px; }
+.ce-era h2 span { color: var(--accent); font-size: 15px; margin-left: 8px; }
 .ce-era p { font-size: 14.5px; line-height: 1.9; margin: 8px 0; }
 .ce-era .ce-nodes { margin: 10px 0; }
-.ce-era .ce-nodes li { font-size: 13.5px; color: #5c574e; padding: 5px 0 5px 16px; position: relative; list-style: none; }
-.ce-era .ce-nodes li::before { content: "▪"; position: absolute; left: 0; color: #7c2d2d; }
-.ce-note { font-size: 13px; color: #5c574e; line-height: 1.85; border: 1px dashed #7c2d2d; padding: 10px 14px; margin-top: 12px; }
-.ce-note b { color: #7c2d2d; letter-spacing: .15em; font-size: 10px; display: block; margin-bottom: 4px; }
-.ce-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
+.ce-era .ce-nodes li { font-size: 13.5px; color: var(--muted); padding: 5px 0 5px 16px; position: relative; list-style: none; }
+.ce-era .ce-nodes li::before { content: "▪"; position: absolute; left: 0; color: var(--accent); }
+.ce-note { font-size: 13px; color: var(--muted); line-height: 1.85; border: 1px dashed var(--accent); padding: 10px 14px; margin-top: 12px; }
+.ce-note b { color: var(--accent); letter-spacing: .15em; font-size: 10px; display: block; margin-bottom: 4px; }
+.ce-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(23,25,29,.16); padding-top: 12px; }
 .ce-flow { margin: 20px 0 6px; overflow-x: auto; }
 .ce-flow svg { min-width: 680px; display: block; }
-.ce-flow .fl-cap { font-size: 12px; color: #5c574e; line-height: 1.8; margin-top: 6px; }
+.ce-flow .fl-cap { font-size: 12px; color: var(--muted); line-height: 1.8; margin-top: 6px; }
 @media print { .ce-era { break-inside: avoid; } .ce-era h2 { break-after: avoid; } .ce-back { display: none; } .ce-flow { break-inside: avoid; overflow-x: visible; } .ce-flow svg { min-width: 0; } }
 </style>
   <meta property="og:title" content="资本模式演化时间轴 · 马斯克商业志 MUSK, INC." />
@@ -51,16 +51,16 @@
   <!-- ⓪ 资本流向图 -->
   <div class="ce-flow" id="ce-flow">
     <svg viewBox="0 0 860 400" role="img" aria-label="资本流向图：PayPal 套现约 1.8 亿美元拆入 SpaceX、Tesla、SolarCity，以及三家公司的关键后续资本事件" style="width:100%;height:auto">
-      <text x="24" y="30" font-family="Georgia,serif" font-size="17" fill="#1a1a1a">资本流向：一笔退出，三条战线（2002 →）</text>
+      <text x="24" y="30" font-family="Georgia,serif" font-size="17" fill="var(--ink)">资本流向：一笔退出，三条战线（2002 →）</text>
       <!-- 左源节点 -->
-      <rect x="24" y="120" width="26" height="180" fill="#7c2d2d"/>
-      <text x="24" y="112" font-size="13" fill="#1a1a1a" font-weight="bold">PayPal 套现（税后）</text>
-      <text x="24" y="316" font-size="12" fill="#5c574e">≈$180M · 2002.10</text>
+      <rect x="24" y="120" width="26" height="180" fill="#C84032"/>
+      <text x="24" y="112" font-size="13" fill="var(--ink)" font-weight="bold">PayPal 套现（税后）</text>
+      <text x="24" y="316" font-size="12" fill="var(--muted)">≈$180M · 2002.10</text>
       <!-- 流带：SpaceX $100M（上） -->
-      <path d="M50,120 C180,120 260,60 380,60 L380,160 C260,160 180,220 50,220 Z" fill="#7c2d2d" opacity="0.55">
+      <path d="M50,120 C180,120 260,60 380,60 L380,160 C260,160 180,220 50,220 Z" fill="#C84032" opacity="0.55">
         <title>→ SpaceX 约 $100M（2002 自投）</title>
       </path>
-      <text x="200" y="100" font-size="12" fill="#7c2d2d">SpaceX ≈$100M</text>
+      <text x="200" y="100" font-size="12" fill="#C84032">SpaceX ≈$100M</text>
       <!-- 流带：Tesla $70M（中下） -->
       <path d="M50,224 C190,224 260,230 380,230 L380,296 C260,296 190,272 50,272 Z" fill="#1f3a5f" opacity="0.55">
         <title>→ Tesla 约 $70M（2004 A 轮领投，个人 650 万）</title>
@@ -72,19 +72,19 @@
       </path>
       <text x="204" y="318" font-size="12" fill="#8a6d1f">SolarCity ≈$10M</text>
       <!-- 右列：关键后续资本事件（非等比标注节点） -->
-      <text x="470" y="52" font-size="13" fill="#5c574e">关键后续资本事件（非等比）</text>
-      <rect x="470" y="62" width="12" height="12" fill="#7c2d2d"/>
-      <text x="490" y="72" font-size="12.5" fill="#1a1a1a">SpaceX · 2008.12 NASA CRS 合同 <tspan font-weight="bold">$1.6B</tspan></text>
-      <rect x="470" y="102" width="12" height="12" fill="#7c2d2d"/>
-      <text x="490" y="112" font-size="12.5" fill="#1a1a1a">SpaceX · 2015–2024 复用与星链规模经济（收入引擎）</text>
+      <text x="470" y="52" font-size="13" fill="var(--muted)">关键后续资本事件（非等比）</text>
+      <rect x="470" y="62" width="12" height="12" fill="#C84032"/>
+      <text x="490" y="72" font-size="12.5" fill="var(--ink)">SpaceX · 2008.12 NASA CRS 合同 <tspan font-weight="bold">$1.6B</tspan></text>
+      <rect x="470" y="102" width="12" height="12" fill="#C84032"/>
+      <text x="490" y="112" font-size="12.5" fill="var(--ink)">SpaceX · 2015–2024 复用与星链规模经济（收入引擎）</text>
       <rect x="470" y="152" width="12" height="12" fill="#1f3a5f"/>
-      <text x="490" y="162" font-size="12.5" fill="#1a1a1a">Tesla · 2010.06 IPO <tspan font-weight="bold">≈$226M</tspan>（1956 年后美国车企首例）</text>
+      <text x="490" y="162" font-size="12.5" fill="var(--ink)">Tesla · 2010.06 IPO <tspan font-weight="bold">≈$226M</tspan>（1956 年后美国车企首例）</text>
       <rect x="470" y="192" width="12" height="12" fill="#1f3a5f"/>
-      <text x="490" y="202" font-size="12.5" fill="#1a1a1a">Tesla · 2021 市值破 <tspan font-weight="bold">$1T</tspan> · 2025 万亿级薪酬获批（激励非现金流）</text>
+      <text x="490" y="202" font-size="12.5" fill="var(--ink)">Tesla · 2021 市值破 <tspan font-weight="bold">$1T</tspan> · 2025 万亿级薪酬获批（激励非现金流）</text>
       <rect x="470" y="242" width="12" height="12" fill="#8a6d1f"/>
-      <text x="490" y="252" font-size="12.5" fill="#1a1a1a">SolarCity · 2016 被 Tesla <tspan font-weight="bold">≈$2.6B</tspan> 收购（能源板块并回）</text>
+      <text x="490" y="252" font-size="12.5" fill="var(--ink)">SolarCity · 2016 被 Tesla <tspan font-weight="bold">≈$2.6B</tspan> 收购（能源板块并回）</text>
       <rect x="470" y="282" width="12" height="12" fill="#8a6d1f"/>
-      <text x="490" y="292" font-size="12.5" fill="#1a1a1a">xAI · 2026.01 Series E <tspan font-weight="bold">$20B</tspan> @ $230B（含 X 合并 lineage）</text>
+      <text x="490" y="292" font-size="12.5" fill="var(--ink)">xAI · 2026.01 Series E <tspan font-weight="bold">$20B</tspan> @ $230B（含 X 合并 lineage）</text>
       <text x="24" y="386" font-size="11" fill="#8a857c">比例说明：左侧流带宽度按启动资本金额等比（1px≈$1M）；右侧后续事件为标注节点，非等比。数字来源：本站事实扩展包。</text>
     </svg>
     <p class="fl-cap">读法：左带宽度 = 启动资本金额。他把一笔退出拆成三条战线，随后四类资金（个人 → 公开市场 → 政府订单 → 产业资本）依次接棒——详见正文四个时代。</p>
@@ -133,7 +133,7 @@
     <div class="ce-note"><b>编者注</b>这一时代的核心逻辑是垂直整合：数据 × 分发 × 资本三位一体。 critic 们质疑估值，但平台整合的逻辑已经从「买缺失的拼图」变成了「建完整的帝国」。</div>
   </div>
 
-  <p class="ce-foot">本页由马斯克商业志自动化迭代维护 · 所有金额与年份均来自本站事实扩展包（公开报道口径：Reuters、CNBC、Fortune、The Information、Forbes、NASA、tesla.com、x.ai）· 非官方学习型网站 · 与「言行实录」「资本解剖」板块互为对照 · <a href="ai-strategy.html" style="color:#7c2d2d">AI 战略布局 →</a> · <a href="index.html" style="color:#7c2d2d">返回主页 ↑</a></p>
+  <p class="ce-foot">本页由马斯克商业志自动化迭代维护 · 所有金额与年份均来自本站事实扩展包（公开报道口径：Reuters、CNBC、Fortune、The Information、Forbes、NASA、tesla.com、x.ai）· 非官方学习型网站 · 与「言行实录」「资本解剖」板块互为对照 · <a href="ai-strategy.html" style="color:var(--accent)">AI 战略布局 →</a> · <a href="index.html" style="color:var(--accent)">返回主页 ↑</a></p>
 </div>
 </body>
 </html>

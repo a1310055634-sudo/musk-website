@@ -5,29 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>AI 战略布局全景 · 马斯克商业志 MUSK, INC.</title>
 <meta name="description" content="2015 OpenAI 联合创始→2018 退出→2023 xAI→2025 收购 X→2026 Series E 的 AI 全景：从捐资者到所有者。" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .ai-page { max-width: 900px; margin: 0 auto; padding: 40px 20px 60px; }
-.ai-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.ai-back { font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }
 .ai-back:hover { text-decoration: underline; }
-.ai-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 8px; }
+.ai-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 8px; }
 .ai-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 44px); letter-spacing: .04em; }
-.ai-head .ai-sub { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
-.ai-node { border-top: 1px solid rgba(26,26,26,.16); padding: 20px 0 14px; }
+.ai-head .ai-sub { color: var(--muted); font-size: 14px; margin-top: 6px; font-style: italic; line-height: 1.8; }
+.ai-node { border-top: 1px solid rgba(23,25,29,.16); padding: 20px 0 14px; }
 .ai-node h2 { font-family: Georgia, "STSong", serif; font-size: 20px; margin: 0 0 6px; }
-.ai-node .ai-date { font-size: 11px; letter-spacing: .15em; color: #7c2d2d; font-weight: 700; display: block; margin-bottom: 6px; }
+.ai-node .ai-date { font-size: 11px; letter-spacing: .15em; color: var(--accent); font-weight: 700; display: block; margin-bottom: 6px; }
 .ai-node p { font-size: 14.5px; line-height: 1.9; margin: 8px 0; }
 .ai-node blockquote {
   font-family: Georgia, "STSong", serif; font-style: italic; font-size: 15px; line-height: 1.8;
-  background: #f3f0ea; border-left: 4px solid #7c2d2d; padding: 12px 18px; margin: 10px 0;
+  background: #f3f0ea; border-left: 4px solid var(--accent); padding: 12px 18px; margin: 10px 0;
 }
-.ai-node .ai-zh { font-size: 13px; color: #5c574e; margin: 4px 0 0; }
-.ai-node .ai-data { font-size: 13px; color: #5c574e; background: #faf9f6; border: 1px solid rgba(26,26,26,.12); border-radius: 6px; padding: 10px 14px; margin: 10px 0; line-height: 1.9; }
-.ai-node .ai-data b { color: #1a1a1a; }
-.ai-analysis { background: #f3f0ea; border-left: 4px solid #5c574e; padding: 12px 18px; margin: 14px 0 4px; font-size: 14px; line-height: 1.9; }
+.ai-node .ai-zh { font-size: 13px; color: var(--muted); margin: 4px 0 0; }
+.ai-node .ai-data { font-size: 13px; color: var(--muted); background: var(--paper); border: 1px solid rgba(23,25,29,.12); border-radius: 6px; padding: 10px 14px; margin: 10px 0; line-height: 1.9; }
+.ai-node .ai-data b { color: var(--ink); }
+.ai-analysis { background: #f3f0ea; border-left: 4px solid var(--muted); padding: 12px 18px; margin: 14px 0 4px; font-size: 14px; line-height: 1.9; }
 .ai-analysis b { font-style: normal; }
-.ai-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(26,26,26,.16); padding-top: 12px; }
+.ai-foot { margin-top: 34px; font-size: 12px; color: #8a857c; line-height: 1.9; border-top: 1px solid rgba(23,25,29,.16); padding-top: 12px; }
 @media (max-width: 480px) {
   .ai-page { padding: 28px 14px 50px; }
   .ai-node p { font-size: 14px; line-height: 1.85; }
@@ -99,7 +99,7 @@
 
   <div class="ai-analysis"><b>编者分析</b>（非其原话）：这条时间线的头尾互为注脚。2015 年他出钱让别人做 AI 安全，2023 年起改成自己做——理由仍是同一套安全话语；差别在于身份从捐资人变成大股东，制衡者变成被制衡的对象。2025 年的反向收购把「买平台换分发」的旧剧本倒转成「AI 公司吸走平台」，也让 xAI 成为马斯克系第六块主要业务中资本效率最激进的一块：每一步估值跳升都发生在产品大规模验证之前，赌注押在「数据+分发」的闭环最终会兑现为模型优势。</div>
 
-  <p class="ai-foot" data-en="Maintained by the MUSK, INC. automation. Dates and figures from this site's fact-expansion pack (public reporting: CNBC, Reuters, The Information, Fortune, x.ai, tesla.com). Cross-reference with the ledger, finance and deep-dive sections. · <a href='capital-evolution.html' style='color:#7c2d2d'>Capital evolution →</a> · <a href='index.html' style='color:#7c2d2d'>Back to top ↑</a>">本页由马斯克商业志自动化迭代维护 · 所有日期与金额均来自本站事实扩展包（公开报道口径：CNBC、Reuters、The Information、Fortune、x.ai、tesla.com）· 与「言行实录」「财务全景」「深读长文」板块互为对照 · <a href="capital-evolution.html" style="color:#7c2d2d">资本演化时间轴 →</a> · <a href="index.html" style="color:#7c2d2d">返回主页 ↑</a></p>
+  <p class="ai-foot" data-en="Maintained by the MUSK, INC. automation. Dates and figures from this site's fact-expansion pack (public reporting: CNBC, Reuters, The Information, Fortune, x.ai, tesla.com). Cross-reference with the ledger, finance and deep-dive sections. · <a href='capital-evolution.html' style='color:var(--accent)'>Capital evolution →</a> · <a href='index.html' style='color:var(--accent)'>Back to top ↑</a>">本页由马斯克商业志自动化迭代维护 · 所有日期与金额均来自本站事实扩展包（公开报道口径：CNBC、Reuters、The Information、Fortune、x.ai、tesla.com）· 与「言行实录」「财务全景」「深读长文」板块互为对照 · <a href="capital-evolution.html" style="color:var(--accent)">资本演化时间轴 →</a> · <a href="index.html" style="color:var(--accent)">返回主页 ↑</a></p>
 </div>
 </body>
 </html>

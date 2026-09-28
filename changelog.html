@@ -5,24 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>修订记录 · 马斯克商业志 MUSK, INC.</title>
 <meta name="robots" content="noindex" />
-<meta name="theme-color" content="#faf9f6" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<meta name="theme-color" content="#F3F0E8" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C84032'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23F3F0E8' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="style.css" />
 <style>
 .cl-page { max-width: 860px; margin: 0 auto; padding: 40px 20px 60px; overflow-wrap: anywhere; }
-.cl-back { font-size: 13px; letter-spacing: .1em; color: #7c2d2d; text-decoration: none; }
+.cl-back { font-size: 13px; letter-spacing: .1em; color: var(--accent); text-decoration: none; }
 .cl-back:hover { text-decoration: underline; }
-.cl-head { border-bottom: 3px double #1a1a1a; padding: 14px 0 12px; margin-bottom: 8px; }
+.cl-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 8px; }
 .cl-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(30px, 5vw, 44px); letter-spacing: .04em; }
-.cl-head p { color: #5c574e; font-size: 14px; margin-top: 6px; font-style: italic; }
+.cl-head p { color: var(--muted); font-size: 14px; margin-top: 6px; font-style: italic; }
 ol.cl-list { list-style: none; }
-.cl-item { border-top: 1px solid rgba(26,26,26,.16); padding: 20px 0 14px; }
+.cl-item { border-top: 1px solid rgba(23,25,29,.16); padding: 20px 0 14px; }
 .cl-item h3 { font-family: Georgia, "STSong", serif; font-size: 19px; margin-bottom: 8px; }
-.cl-item h4 { font-size: 11px; letter-spacing: .22em; color: #7c2d2d; margin: 12px 0 4px; }
+.cl-item h4 { font-size: 11px; letter-spacing: .22em; color: var(--accent); margin: 12px 0 4px; }
 .cl-item ul { list-style: none; }
 .cl-item li { position: relative; font-size: 14px; line-height: 1.8; padding: 3px 0 3px 16px; }
-.cl-item li::before { content: "▪"; position: absolute; left: 0; color: #7c2d2d; }
-.cl-item strong { color: #1a1a1a; }
+.cl-item li::before { content: "▪"; position: absolute; left: 0; color: var(--accent); }
+.cl-item strong { color: var(--ink); }
 @media print { .cl-back { display: none; } }
 </style>
   <meta property="og:title" content="修订记录 · 马斯克商业志 MUSK, INC." />
@@ -36,9 +36,10 @@ ol.cl-list { list-style: none; }
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（160 条，v0.1.0 → v6.5.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（161 条，v0.1.0 → v6.6.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v6.6.0 — 2026-09-29 · V7 改版启动（1/19）：设计基础与全站令牌归一</h3><h4>主题包成果（V7-19 第 1 轮 · 视觉基础与基线）</h4><ul><li><strong>V7 设计令牌基础层</strong>：`:root` 重写——暖白阅读底 `#F3F0E8`、近黑封面底 `#101316`（第 3 轮启用）、墨色 `#17191d`、朱红主强调 `#C84032` + 小号强调文字深阶 `#A63628`（对比度 5.8:1）；新增字号层级（含第 3 轮启用的 88–144px 封面主标题刻度）、4px 间距标尺、阅读宽度 720px 令牌、动效时长令牌；</li><li><strong>全站色彩令牌归一</strong>：32 页 + style.css + app.js 共 853 处硬编码旧色（酒红 `#7c2d2d`/纸白 `#faf9f6`/`#1a1a1a`/`#5c574e`）统一为 CSS 变量（SVG 属性/内嵌 JS/favicon/theme-color 按语境直换新值）；`build-revisions.py` 生成模板同步归一，避免重建回退；</li><li><strong>基础可见应用</strong>：报头 3px 朱红顶条、主按钮朱红填充、kicker 前导红短线、12 处小号强调文字对比度达标；首页封面标题刻度提升（48–104px）；长卷阅读版正文 15→16.5px 进入 16–18px 规范区间、阅读宽度令牌化；</li><li><strong>重复基础规则清理</strong>：删除文件尾重复 print 块；归一化过程中发现的 `:root` 自引用风险随令牌块重写消除；</li><li><strong>改版证据</strong>：`qa/v7-19/round-01/` 存 before/after 各 10 张（5 代表页 × 1440×900 + 390×844）+ QA 验收记录；新增 `tools/qa-shots.py` 截图协议（headless Chrome + 冻结动画）。</li></ul><h4>质量门</h4><ul><li>verify.py 9 项全绿；`node --check app.js` 通过；双语切换/手机菜单/时间轴筛选交互实测正常；断链与锚点零变化（旧链接全兼容）。</li></ul></li>
 <li class="cl-item"><h3>v6.5.0 — 2026-09-26 · 17 轮精进计划收官：全量对账与交接同步（自由精进第七十二轮）</h3><h4>收官对账</h4><ul><li><strong>CHANGELOG 总条数 160</strong>（143 基线 + 17 轮，逐轮有账）；git 172 次提交；32 页；索引 169 条七类型；账本 67 条（无净增——Fremont 候选 v6.0.0 裁定放弃）；</li><li><strong>build-revisions 幂等重跑</strong>：修订历史 100 → <strong>107 锚点</strong>（15 轮迭代的锚点轨迹演进，e* 锚点生命周期补全）；EPUB 重建 121,762 bytes / 24 章（防旧）；</li><li><strong>DEVLOG.md 全量同步</strong>：版本 v6.5.0 / git 172 次 / 索引 169 七类型 / 修订历史 107 / CHANGELOG 160；待做清单重写（账本候选序列关闭、排版与 QA 完成项归档）；</li><li><strong>README</strong> 站点结构表 30 → 32 页口径。</li></ul><h4>质量门</h4><ul><li>verify.py 11 项全绿（含修订历史 107 锚点新口径）；EPUB 新鲜度通过。</li></ul></li>
 <li class="cl-item"><h3>v6.4.0 — 2026-09-26 · 全面 QA：打印五页 + 双语覆盖 + 窄屏自检（自由精进第七十一轮）</h3><h4>QA-1 五页打印抽检（headless Edge + pypdf）</h4><ul><li>chronicle 8 页 / finance 4 页 / revisions 5 页 / controversy 5 页 / reading 10 页——<strong>全部零近空白页</strong>；</li><li>关键术语全命中（初测 finance 缺「2,300」为探针笔误——页面用「2300 亿」口径，复认非缺陷）。</li></ul><h4>QA-2 双语 data-en 覆盖抽查（本轮新写六页）</h4><ul><li>ai-strategy + deep-dive-01~05：data-en 标题 38 个、段落 61 个、引语中译行 17 个、页脚双语 6/6——覆盖完整；</li><li>检查器曾报 29 处 data-en 值含裸 `&lt;a&gt;`——<strong>核实为误报</strong>：app.js 切换用 innerHTML（第 34 行），属性值内 HTML 标签合法且正常渲染为链接，属设计允许。</li></ul><h4>QA-3 窄屏 CSS 自检</h4><ul><li>style.css（450 对）与八页页内 style 括号全部配对；480px 块存在性盘点发现 <strong>ai-strategy.html 缺块</strong>（v5.94 重写遗漏）——<strong>就地修复</strong>：补 480px 块（页边距/正文/引语/数据框/分析块缩排适配），与深读页模式对齐。</li></ul><h4>质量门</h4><ul><li>修复后 verify.py 11 项全绿；EPUB 重建满足新鲜度门禁；本轮净变更 = ai-strategy.html 一处补块 + QA 报告。</li></ul></li>
 <li class="cl-item"><h3>v6.3.0 — 2026-09-26 · 技术债#1 核销：bg 检索匹配诊断与实证（自由精进第七十轮）</h3><h4>主题包成果</h4><ul><li><strong>诊断结论：技术债#1 已不存在</strong>。原记录称「bg 仅限 primary 类型、其他类型匹配未纳入」——实测：169 条索引条目的 bg 字段全部非空（primary=背景段 67、一手文档=note 9、访谈=ctx 18、帖史=note 13、编年史=节主线 53、争议=篇摘要 5、财务=节摘要 4），且 search.html 的 match() 早已含 `(it.bg||'')`——缺口在 v5.89-5.90 检索扩容两轮中被自然消化。</li><li><strong>实证验证</strong>：抽取 6 条「仅存在于 bg 字段、其他字段不含」的独特词（文档/访谈类各半）模拟 match() 全部命中（6/6），含 d2006-08、i2015-04-30 等。</li><li><strong>DEVLOG 技术债清单 #1 核销标注</strong>（划线+核销说明），清单从四项降至有效三项。</li></ul><h4>质量门</h4><ul><li>验证脚本纯只读（未改任何站点文件）；verify.py 11 项全绿；EPUB 重建满足新鲜度门禁。</li></ul></li>
