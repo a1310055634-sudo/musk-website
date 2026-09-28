@@ -20,7 +20,7 @@
 | 03 | 首页首屏重构 | complete | v6.8.0 | 4bf942f | done |
 | 04 | 首页编排与全局导航 | complete | v6.9.0 | 8686143 | done |
 | 05 | 长文阅读模板 | complete | v6.10.0 | 1a6f3c5 | done |
-| 06 | 事件与来源结构 | pending | v6.11.0 | — | — |
+| 06 | 事件与来源结构 | complete | v6.11.0 | 021faf4 | done |
 | 07 | 公司关系总览 | pending | v6.12.0 | — | — |
 | 08 | 公司档案体系 | pending | v6.13.0 | — | — |
 | 09 | 事件时间轴升级 | pending | v6.14.0 | — | — |
@@ -81,3 +81,12 @@
 - 验证：verify.py 9/9 绿（v6.10.0）；node --check 过；CDP 探针 35 项全过——页头/元信息/大图尺寸声明/正文 16.5px、目录=章节且锚点跳转落报头之下（132>121）、滚动定位高亮命中、进度条、EN 全量切换（标题/导语/图注/元信息/目录）、无 JS 正文与静态时长完整、print 页头转白底+目录隐藏、390 零溢出+盒装目录、search 索引 169 与账本深链回归；证据 before 4 张+after 17 张+QA.md 在 qa/v7-19/round-05/。
 - 提交：[V7-19 R05] 一个成果提交；推送状态见表格。
 - 备注：scratch（r05-probe.js 35 断言/dbg/mh/ev 可复跑）在仓库外 D:/vibe coding/v7r5-work/；qa-shots 手机档 500px 最小窗宽裁边为已知工具伪影（R2 已定性），真 390 以探针 Emulation 截图为准。
+
+## 第 6 轮工作记录（事件与来源结构）— complete（2026-09-29）
+
+- 交付：tools/events-data.py 事件数据单一事实来源（6 个代表性事件＝首页深链五节点 + e2006 仅年份精度示范；稳定 ID 沿用账本 e* 体系；显式日期精度 day/month/year；背景/关键事实/逐字引语/后续四段本体；七类材料 24 份关联；结构自检不过拒生成）；tools/build-events.py 生成 events.html（第 33 页，复用 R5 lr-* 模板层：深色页头+口径说明框+五段结构+精度徽标+公司 chip+材料清单+相关事件互链+塔捕图署名懒加载+sticky 目录）与 events-data.js（window.EVENTS_V7 全量数据，file:// script 标签加载，供 R7/R9/R15 复用）；site-nav.py 事件组注册（4→5）全站 33 页重注入；首页 #events 入口行 + 五条事件详情深链（r06-index-links.py）；style.css 增 .ev-* 组件层与 .section-more；VERSION/app.js/12 页 span → 6.11.0；ASSETS.md 补用途；EPUB 重建。
+- 纪律：事实与引语全部取自已核实账本条目（零新增外部事实，5 条引语均在册）；e2006 无逐字原话以 no_quote_note 诚实建档；关键事实统一标注编者归纳；2018 SEC 起诉沿用「八天后」相对表述不虚构日期。
+- 验证：verify.py 9/9 绿（33 页）；node --check 过；CDP 探针 33 断言全过——结构/外部深链落报头下 132px/EN 全量切换/材料链接可达（documents#d2018-08-07）/首页入口+5 深链落地/账本 67+时间轴 67+旧锚点回归/检索 169/无 JS 正文完整/390 真视口零溢出+目录盒装/file:// 六事件+数据+样式；before（v6.10.0 git worktree）/after 截图 11 张 + QA.md 在 qa/v7-19/round-06/；已人工复核干净整页图、EN 图、390 图、首页事件区改前改后。
+- 探针伪影三项排除（非站点缺陷）：懒加载图视口外不取图、同文档 hash 导航不重载、captureBeyondViewport 的 sticky/reveal 冻结（截图前 static 化+强制 is-visible）。
+- 提交：[V7-19 R06] 一个成果提交（amend 清除误入的 --help/ 截图杂物后为 021faf4）；推送状态见表格。
+- 备注：scratch（r06-probe.js 33 断言/reshot 脚本）在仓库外 D:/vibe coding/v7r6-work/；公司色标留 R7/R8（本轮 chip 中性样式）；检索未覆盖 events.html 留 R15 事件聚合处理；并发交接——run-b 完成并推送 R5 后自录锁释放，本实例（run-a）核对 git log/账本/进程/写入四证后接管。
