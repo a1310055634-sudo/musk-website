@@ -21,7 +21,7 @@
 | 04 | 首页编排与全局导航 | complete | v6.9.0 | 8686143 | done |
 | 05 | 长文阅读模板 | complete | v6.10.0 | 1a6f3c5 | done |
 | 06 | 事件与来源结构 | complete | v6.11.0 | 021faf4 | done |
-| 07 | 公司关系总览 | pending | v6.12.0 | — | — |
+| 07 | 公司关系总览 | complete | v6.12.0 | — | done |
 | 08 | 公司档案体系 | pending | v6.13.0 | — | — |
 | 09 | 事件时间轴升级 | pending | v6.14.0 | — | — |
 | 10 | 资本流向可视化 | pending | v6.15.0 | — | — |
@@ -90,3 +90,11 @@
 - 探针伪影三项排除（非站点缺陷）：懒加载图视口外不取图、同文档 hash 导航不重载、captureBeyondViewport 的 sticky/reveal 冻结（截图前 static 化+强制 is-visible）。
 - 提交：[V7-19 R06] 一个成果提交（amend 清除误入的 --help/ 截图杂物后为 021faf4）；推送状态见表格。
 - 备注：scratch（r06-probe.js 33 断言/reshot 脚本）在仓库外 D:/vibe coding/v7r6-work/；公司色标留 R7/R8（本轮 chip 中性样式）；检索未覆盖 events.html 留 R15 事件聚合处理；并发交接——run-b 完成并推送 R5 后自录锁释放，本实例（run-a）核对 git log/账本/进程/写入四证后接管。
+
+## 第 7 轮工作记录（公司关系总览）— complete（2026-09-29）
+
+- 交付：tools/companies-data.py 关系数据单一事实来源（11 节点×13 边：类型/日期精度/双语标签/图上短标签/证据分级 12 verified+1 editorial/站内来源锚点；结构自检不过拒生成；与 events-data.py 交叉引用）；tools/build-network.py 生成器（幂等注入 companies.html#network：SVG 静态关系图+图例+交互详情面板+三组文字清单；自动补挂 companies-data.js）；companies-data.js（window.COMPANIES_V7，供 R8/R9/R10）；全站公司色标体系定稿（:root --co-* 十色，接入关系图/首页六瓦顶条/events chip 三处，色标只作辅助名称文字为准）；首页 #map 入口行；VERSION/app.js/13 页 span → 6.12.0；EPUB 重建。
+- 纪律：13 条关系零新增外部事实；SolarCity 用 e2006「创意发起·任董事长」口径；SpaceX 只用通识年份并标注「创立故事细节未入册」；xAI 收购 X 引账本 e2025-03-28；OpenAI—xAI 标编者关联；金额不混估值与收入。
+- 验证：verify.py 9/9 绿（33 页）；node --check 过；CDP 探针 43 断言全过（结构 14/交互 5/键盘 2/双语 6/首页 2/events 2/无 JS 3/390 真视口 4/file:// 4/版本 1）；探针抓出 2 真 bug（详情面板 evidenceLabel/statusLabel 双语对象字符串化）已修复；截图伪影 2 处排除（smooth-scroll 截图停顶→instant 重拍；懒加载视口外不取图）；桌面/390/EN/file:// 截图人工复核；证据 8 张 + QA.md 在 qa/v7-19/round-07/。
+- 提交：[V7-19 R07] 一个成果提交；推送状态见表格。
+- 备注：scratch（r07-probe.js 43 断言/r07-reshot*.js/d6-debug.js 可复跑）在仓库外 D:/vibe coding/v7r6-work/（应为 v7r7-work）；R6 事件档案未含 e2025-03-28，xai 详情无事件深链为已知口径（本轮不扩，账本锚点直链）；并发交接——本实例（run-a）接管依据：前锁(v7r6-20260929-a) complete、R06 三提交已推送 0/0、仓库 05:35:42 起 ≥12 分钟零写入、残留 http.server 为凌晨孤儿进程。

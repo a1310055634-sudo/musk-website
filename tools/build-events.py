@@ -73,7 +73,12 @@ def render_material(m):
 
 def render_event(ev):
     prec = ED.PRECISION_LABELS[ev["precision"]]
-    chips = "".join(f'<span class="ev-chip" data-en="{esc(c)}">{esc(c)}</span>' for c in ev["companies"])
+    # V7-R7：chip 附公司色标类（名称文字为准，色条只作辅助；映射表与 companies-data.py 同源口径）
+    _co = {"Tesla": "tesla", "SpaceX": "spacex", "X": "x", "X（原 Twitter）": "x",
+           "xAI": "xai", "SolarCity": "solarcity", "PayPal": "paypal"}
+    chips = "".join(
+        f'<span class="ev-chip ev-chip--{_co.get(c, "default")}" data-en="{esc(c)}">{esc(c)}</span>'
+        for c in ev["companies"])
     head = (f'      <div class="ev-head">\n'
             f'        <span class="ev-date">{esc(ev["date"])}</span>'
             f'<span class="ev-precision" data-en="{esc(prec["en"])}">{esc(prec["zh"])}</span>'

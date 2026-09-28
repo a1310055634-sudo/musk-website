@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '6.11.0';
+  var SITE_VERSION = '6.12.0';
 
   /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
   document.documentElement.classList.add('js');
@@ -375,5 +375,94 @@
       psInput.dispatchEvent(new Event('input', { bubbles: true }));
       psInput.focus();
     });
+  }
+
+  /* ---------- V7-R7 公司关系图交互（companies.html#network） ---------- */
+  var netSvg = document.querySelector('.net-graph');
+  var netDetail = document.getElementById('net-detail');
+  if (netSvg && netDetail && window.COMPANIES_V7) {
+    var NET = window.COMPANIES_V7;
+    var netById = {};
+    NET.companies.forEach(function (c) { netById[c.id] = c; });
+    var netCurrent = null;
+
+    function netT(s) { return (document.documentElement.lang === 'en') ? s.en : s.zh; }
+    function netEsc(s) {
+      var d = document.createElement('div');
+      d.textContent = (s == null) ? '' : String(s);
+      return d.innerHTML;
+    }
+
+    function netRender(cid) {
+      var c = netById[cid];
+      if (!c) return;
+      var links = NET.links.filter(function (l) { return l.from === cid || l.to === cid; });
+      var h = '<div class="net-d-head">'
+        + '<span class="net-d-dot" style="background:var(' + c.colorVar + ')"></span>'
+        + '<span class="net-d-name">' + netEsc(c.name) + '</span>'
+        + '<span class="net-d-status">' + netEsc(netT(c.statusLabel)) + '</span>'
+        + '<button type="button" class="net-d-close" data-net-close>' + (document.documentElement.lang === 'en' ? 'Close' : '关闭') + '</button>'
+        + '</div>'
+        + '<p class="net-d-blurb">' + netEsc(netT(c.blurb)) + '</p>'
+        + '<p class="net-d-meta">' + netEsc(netT(c.sector)) + ' · ' + netEsc(c.era) + '</p>';
+      if (c.events.length) {
+        h += '<p class="net-d-sec">' + (document.documentElement.lang === 'en' ? 'RELATED EVENTS' : '相关事件') + '</p><div class="net-d-links">';
+        c.events.forEach(function (e) {
+          h += '<a href="events.html#' + netEsc(e.id) + '">' + netEsc(e.date) + ' · ' + netEsc(netT(e.title)) + ' →</a>';
+        });
+        h += '</div>';
+      }
+      if (links.length) {
+        h += '<p class="net-d-sec">' + (document.documentElement.lang === 'en' ? 'RELATIONSHIPS (' + links.length + ')' : '关系（' + links.length + '）') + '</p><div class="net-d-links">';
+        links.forEach(function (l) {
+          var other = netById[l.from === cid ? l.to : l.from];
+          var arrow = (l.from === cid) ? '→ ' : '← ';
+          var evTag = (l.evidence === 'editorial') ? ' · <em>' + netEsc(netT(l.evidenceLabel)) + '</em>' : '';
+          h += '<span>' + arrow + '<b>' + netEsc(other.name) + '</b> · ' + netEsc(netT(l.label)) + evTag
+            + ' · <a href="' + netEsc(l.source.href) + '">' + (document.documentElement.lang === 'en' ? 'source' : '来源') + '</a></span>';
+        });
+        h += '</div>';
+      }
+      netDetail.innerHTML = h;
+      var closeBtn = netDetail.querySelector('[data-net-close]');
+      if (closeBtn) closeBtn.addEventListener('click', netClose);
+    }
+
+    function netClose() {
+      netCurrent = null;
+      var en = document.documentElement.lang === 'en';
+      netDetail.innerHTML = '<p class="net-detail-empty">' + (en
+        ? 'Select a company in the chart — or browse the list below. No JS: the full list below is complete on its own.'
+        : '在图上点选一家公司（支持 Tab + Enter）——或直接阅读下方清单；无脚本环境下列表即完整信息。')
+        + '</p>';
+      netSvg.querySelectorAll('.net-node.on').forEach(function (n) { n.classList.remove('on'); });
+    }
+
+    netSvg.querySelectorAll('.net-node').forEach(function (n) {
+      var cid = n.getAttribute('data-net-node');
+      function toggle() {
+        if (netCurrent === cid) { netClose(); return; }
+        netCurrent = cid;
+        netSvg.querySelectorAll('.net-node.on').forEach(function (m) { m.classList.remove('on'); });
+        n.classList.add('on');
+        netRender(cid);
+      }
+      n.addEventListener('click', toggle);
+      n.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+        if (e.key === 'Escape') { netClose(); }
+      });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && netCurrent) {
+        var was = netSvg.querySelector('.net-node.on');
+        netClose();
+        if (was) was.focus();
+      }
+    });
+    // 语言切换后重渲染已打开的详情（数据双语，直接换字段）
+    new MutationObserver(function () {
+      if (netCurrent) netRender(netCurrent);
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
   }
 })();

@@ -20,6 +20,17 @@
   --accent-bright: #E4765F; /* 朱红亮阶：暗底小字强调（对 --coal 对比度≈6:1） */
   --mist: rgba(243, 240, 232, 0.74); /* 暗底次级文字（对 --coal 对比度≈8:1） */
   --navy: #1f3a5f;          /* 藏蓝：资本/链接辅色 */
+  /* ---- 公司色标（V7-R7 定稿；全站唯一出处。色标只作辅助，公司一律以名称文字为准） ---- */
+  --co-musk: #17191d;       /* 运营者（中心节点） */
+  --co-tesla: #C8102E;      /* Tesla */
+  --co-spacex: #1f3a5f;     /* SpaceX（同 --navy） */
+  --co-x: #43464d;          /* X */
+  --co-xai: #5B4A8A;        /* xAI */
+  --co-neuralink: #A04E77;  /* Neuralink */
+  --co-boring: #7A601A;     /* The Boring Company */
+  --co-solarcity: #2E7D4F;  /* SolarCity */
+  --co-paypal: #1476A8;     /* X.com / PayPal */
+  --co-history: #6B6558;    /* 历史公司通用（Zip2 / OpenAI） */
   /* ---- 字体 ---- */
   --serif: Georgia, "Times New Roman", "STSong", "SimSun", serif;
   --sans: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
@@ -948,7 +959,7 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   .path-cta { grid-column: 2; justify-self: start; }
 }
 
-/* 公司版图（可点击总览；全站公司色标体系将于 R7 统一定义） */
+/* 公司版图（可点击总览；顶条用 R7 公司色标，见 :root --co-*） */
 .firm-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .firm-tile {
   display: flex; flex-direction: column; gap: 5px; text-decoration: none; color: var(--ink);
@@ -965,6 +976,13 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
 .firm-note { margin-top: 16px; font-size: 13.5px; color: var(--muted); line-height: 2; }
 .firm-note a { color: var(--accent-text); font-weight: 700; text-decoration: none; border-bottom: 1px solid currentColor; }
 .firm-note a:hover { color: var(--ink); }
+/* V7-R7：瓦片顶条 = 公司色标（写在 :hover 规则后，hover 亦保持公司色） */
+.firm-tile--tesla { border-top-color: var(--co-tesla); }
+.firm-tile--spacex { border-top-color: var(--co-spacex); }
+.firm-tile--x { border-top-color: var(--co-x); }
+.firm-tile--xai { border-top-color: var(--co-xai); }
+.firm-tile--neuralink { border-top-color: var(--co-neuralink); }
+.firm-tile--boring { border-top-color: var(--co-boring); }
 @media (max-width: 900px) { .firm-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .firm-grid { grid-template-columns: 1fr; } }
 
@@ -1202,4 +1220,83 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media print {
   .ev-kind { border: 1px solid var(--hairline); color: var(--muted); }
   .ev-materials a { color: var(--ink); }
+}
+
+/* ============================================================
+   V7-R7 公司关系总览（companies.html#network）
+   SVG 静态绘制：无 JS 完整可读；≤760px 隐图以清单为主形态。
+   ============================================================ */
+.net-graphwrap { margin: 20px auto 0; max-width: 1060px; }
+.net-graph { width: 100%; height: auto; display: block; font-family: var(--sans); }
+.net-edge { opacity: 0.9; }
+.net-elabel { font-size: 11px; font-weight: 600; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+.net-node { cursor: pointer; outline: none; }
+.net-node-bg { fill: #fffdf8; stroke: var(--hairline); stroke-width: 1; transition: stroke var(--t-fast), stroke-width var(--t-fast); }
+.net-node-musk { fill: var(--co-musk); }
+.net-node-ring { fill: none; stroke: transparent; stroke-width: 2.5; }
+.net-node-bar { stroke: none; }
+.net-nname { font-size: 14px; font-weight: 700; fill: var(--ink); }
+.net-nname-musk { fill: var(--paper); font-size: 15px; letter-spacing: 0.04em; }
+.net-nera { font-size: 10px; fill: var(--muted); }
+/**/ g.net-node:focus-visible .net-node-musk, g.net-node.on .net-node-musk { stroke: var(--accent-bright); stroke-width: 2.5; }
+.net-node:hover .net-node-bg { stroke: var(--accent); stroke-width: 1.8; }
+.net-node:focus-visible .net-node-bg { stroke: var(--accent); stroke-width: 1.8; }
+.net-node.on .net-node-bg { stroke: var(--accent); stroke-width: 2.4; }
+
+.net-legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; font-size: 12.5px; color: var(--muted); }
+.net-lg { display: inline-flex; align-items: center; gap: 7px; }
+.net-lg-line { width: 26px; height: 0; border-top: 2px solid var(--co-x); display: inline-block; }
+.net-lg-dash { border-top-style: dashed; }
+.net-lg-bar { width: 20px; height: 5px; display: inline-block; background: linear-gradient(90deg, var(--co-tesla) 0 33%, var(--co-spacex) 33% 66%, var(--co-solarcity) 66% 100%); }
+
+.net-detail { margin-top: 16px; border: 1px solid var(--hairline); background: #fffdf8; padding: 18px 20px; min-height: 92px; }
+.net-detail-empty { color: var(--muted); font-size: 13.5px; }
+.net-d-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.net-d-dot { width: 12px; height: 12px; border-radius: 2px; display: inline-block; flex: none; }
+.net-d-name { font-family: var(--serif); font-size: 20px; letter-spacing: 0.02em; }
+.net-d-status { font-size: 11px; letter-spacing: 0.08em; border: 1px solid var(--hairline); padding: 1px 8px; color: var(--muted); }
+.net-d-close { margin-left: auto; font-size: 12.5px; background: none; border: 1px solid var(--hairline); padding: 4px 14px; cursor: pointer; color: var(--ink); transition: border-color var(--t-fast), color var(--t-fast); }
+.net-d-close:hover { border-color: var(--accent); color: var(--accent-text); }
+.net-d-close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.net-d-blurb { margin-top: 10px; font-size: 14.5px; line-height: 1.78; max-width: 74ch; }
+.net-d-meta { margin-top: 6px; font-size: 12.5px; color: var(--muted); }
+.net-d-sec { margin-top: 14px; font-size: 11.5px; letter-spacing: 0.14em; color: var(--muted); }
+.net-d-links { margin-top: 6px; display: flex; flex-direction: column; gap: 5px; font-size: 13.5px; }
+.net-d-links a { color: var(--accent-text); }
+.net-d-links a:hover { text-decoration: none; border-bottom: 1px solid currentColor; }
+.net-d-links span { color: var(--muted); }
+.net-d-links span a, .net-d-links span b { color: var(--ink); font-weight: 600; }
+.net-d-links span a { color: var(--accent-text); }
+
+.net-list { margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px 26px; }
+.net-group { border-top: 2px solid var(--ink); padding-top: 10px; }
+.net-gtitle { font-size: 14px; letter-spacing: 0.06em; }
+.net-ul { list-style: none; margin-top: 10px; display: flex; flex-direction: column; gap: 11px; }
+.net-li { display: flex; gap: 9px; font-size: 13.5px; line-height: 1.7; }
+.net-li-dot { width: 10px; height: 10px; border-radius: 2px; margin-top: 6px; flex: none; }
+.net-li b { font-weight: 700; }
+.net-li-label { color: var(--muted); }
+.net-ev { font-size: 10.5px; letter-spacing: 0.04em; border: 1px solid var(--hairline); padding: 0 6px; margin-left: 6px; white-space: nowrap; }
+.net-ev--verified { color: #1e6b40; border-color: rgba(46, 125, 79, 0.55); }
+.net-ev--editorial { color: #8a5a19; border-color: rgba(122, 96, 26, 0.6); border-style: dashed; }
+.net-li-src { font-size: 12px; color: var(--muted); }
+.net-li-src a { color: var(--accent-text); }
+.net-note { margin-top: 18px; font-size: 12.5px; color: var(--muted); line-height: 1.9; }
+.net-note a { color: var(--accent-text); font-weight: 600; }
+
+/* 事件页公司 chip 顶色条（V7-R7：公司色标接入，名称文字为准） */
+.ev-chip--tesla { box-shadow: inset 0 2px 0 var(--co-tesla); }
+.ev-chip--spacex { box-shadow: inset 0 2px 0 var(--co-spacex); }
+.ev-chip--x { box-shadow: inset 0 2px 0 var(--co-x); }
+.ev-chip--xai { box-shadow: inset 0 2px 0 var(--co-xai); }
+.ev-chip--solarcity { box-shadow: inset 0 2px 0 var(--co-solarcity); }
+.ev-chip--paypal { box-shadow: inset 0 2px 0 var(--co-paypal); }
+
+@media (max-width: 760px) {
+  .net-graphwrap, .net-legend, .net-detail { display: none; }
+  .net-list { grid-template-columns: 1fr; }
+}
+@media print {
+  .net-detail, .net-d-close { display: none; }
+  .net-graphwrap { max-width: 100%; }
 }
