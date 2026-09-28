@@ -32,13 +32,88 @@ ol.cl-list { list-style: none; }
   <meta property="og:image" content="https://a1310055634-sudo.github.io/musk-website/assets/portrait.jpg" />
 </head>
 <body>
+  <!-- ============ 报头（tools/site-nav.py 生成，勿手改分组） ============ -->
+  <header class="masthead">
+    <div class="container masthead-top">
+      <a class="brand" href="index.html">
+        <span class="brand-zh" data-en="Musk Business Review">马斯克商业志</span>
+        <span class="brand-en">MUSK,&nbsp;INC.</span>
+      </a>
+      <span class="masthead-issue" data-en="Business Profile · No. 001">商业人物志 · 创刊号</span>
+      <div class="masthead-tools">
+        <a class="masthead-search" href="search.html" data-en="Search">检索</a>
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / 切换语言">EN</button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="container mainnav" id="site-nav" aria-label="主导航">
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Start">开始</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="index.html" data-en="Home">首页</a>
+          <a href="reading.html" data-en="The Long Read">长卷通读</a>
+          <a href="profile.html" data-en="Profile">速览</a>
+          <a href="persona.html" data-en="Persona">商业人格</a>
+          <a href="playbook.html" data-en="Playbook">可复用的方法</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Companies">公司</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="companies.html" data-en="Companies">公司版图</a>
+          <a href="indepth.html" data-en="In Depth">公司深度</a>
+          <a href="grok.html" data-en="xAI &amp; Grok">xAI·Grok</a>
+          <a href="numbers.html" data-en="In Numbers">数据一览</a>
+          <a href="finance.html" data-en="Finance">财务资本全景</a>
+          <a href="supplychain.html" data-en="Supply Chain">供应链与工厂</a>
+          <a href="pricing.html" data-en="Pricing">定价与需求</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Events">事件</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="timeline.html" data-en="Timeline">商业时间线</a>
+          <a href="chronicle.html" data-en="Chronicles">公司编年史</a>
+          <a href="stories.html" data-en="War Stories">经典商战</a>
+          <a href="controversy.html" data-en="Controversies">争议与批评</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Features">专题</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="deep-dive-01.html" data-en="Deep Dive: Capital">深读·资本运作</a>
+          <a href="deep-dive-02.html" data-en="Deep Dive: Hiring">深读·用人逻辑</a>
+          <a href="deep-dive-03.html" data-en="Deep Dive: Failure">深读·失败模式</a>
+          <a href="deep-dive-04.html" data-en="Deep Dive: Regulation">深读·监管博弈</a>
+          <a href="deep-dive-05.html" data-en="Deep Dive: AI Strategy">深读·AI 战略</a>
+          <a href="ai-strategy.html" data-en="AI Landscape">AI 战略全景</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Archive">资料</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="primary.html" data-en="Ledger">言行账本</a>
+          <a href="quotes.html" data-en="Quotes">语录</a>
+          <a href="documents.html" data-en="Documents">一手文档馆</a>
+          <a href="interviews.html" data-en="Interviews">访谈与表态</a>
+          <a href="x-posts.html" data-en="X Posts">X 帖史</a>
+          <a href="money.html" data-en="Capital">资本解剖</a>
+          <a href="capital-evolution.html" data-en="Capital Evolution">资本演化</a>
+          <a href="search.html" data-en="Search">第一手检索</a>
+          <a href="revisions.html" data-en="Revisions">修订历史</a>
+          <a href="changelog.html" aria-current="page" data-en="Changelog">修订记录</a>
+        </div>
+      </div>
+    </nav>
+  </header>
 <div class="cl-page">
   <a class="cl-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="cl-head">
     <h1>修订记录</h1>
-    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（163 条，v0.1.0 → v6.8.0）。</p>
+    <p>Revision Log — 由定时自主迭代逐版构建，本页由 CHANGELOG.md 同步生成（164 条，v0.1.0 → v6.9.0）。</p>
   </header>
   <ol class="cl-list">
+<li class="cl-item"><h3>v6.9.0 — 2026-09-29 · V7 改版（4/19）：首页编排与全局导航</h3><h4>主题包成果（V7-19 第 4 轮 · 首页编排与全局导航）</h4><ul><li><strong>全站统一导航（五组）</strong>：顶层导航由 11 项平铺重组为 开始 / 公司 / 事件 / 专题 / 资料 五组（覆盖全部 32 页，每页唯一归属）；新建 `tools/site-nav.py` 生成器作为导航单一事实来源——分组注册表 + 单一模板，逐页注入并自动标注 aria-current，幂等可重跑；此前 20 个页头页（深读五篇、账本系、检索、长卷、修订史等）完全没有全局导航，本轮全部补齐，其中 17 页同步挂载 app.js（语言切换/版本号首次覆盖全站）；</li><li><strong>搜索随时可达</strong>：报头新增常驻「检索」胶囊（全站 32 页、桌面手机均在），资料组内保留第一手检索入口；</li><li><strong>桌面下拉 + 手机手风琴</strong>：桌面分组支持 hover / 键盘 focus-within / 点击（触屏）三种展开，aria-expanded 语义完整，外点与 Esc 关闭（Esc 焦点归位分组标签）；手机 ≤760px 汉堡面板改五组手风琴，打开菜单时自动展开当前页所在组；当前页在面板与下拉中均有朱红左边线高亮，分组标签以 :has([aria-current]) 同步高亮（无 :has 支持时优雅降级）；</li><li><strong>首页编排</strong>：16 卡平铺章节目录重组为五个主次分明的分区——三条阅读路径（快速了解 30 分钟 / 深度阅读 / 查找资料，编号大字 + 串联链接 + 各自 CTA）、公司版图总览（六家在营公司瓦片，文案照抄 companies.html 不新造事实，色标体系留给 R7）、旗舰专题（资本运作主推特写 + 四行次级专题 + 更多线索行）、关键事件与证据（账本 67 条中选五个节点：2002 PayPal 交割 / 2008 圣诞夜融资 / 2018 funding secured / 2022 440 亿交割 / 2024 星舰塔捕，全部深链 primary.html#e* 已验证锚点）、最近实质更新（v6.5.0–v6.8.0 四条链修订记录）；</li><li><strong>结构修复</strong>：消除旧「第一手」卡内 &lt;a&gt; 嵌套 &lt;a&gt; 的非法结构（子链接成为资料组导航与版图注释行）；删除 chapter-grid/chapter-card 死样式（chapter-pager 各篇章页沿用保留）；</li><li><strong>健壮性</strong>：.reveal 入场动画改为 html.js 前缀守卫（app.js 首行添加 js 类）——脚本失败时全站正文不再隐形（此前 .reveal 元素依赖 JS 显现）；</li><li><strong>同步</strong>：VERSION / app.js / 12 页版本 span 步进 6.9.0；EPUB 重建；QA 证据在 qa/v7-19/round-04/。</li></ul><h4>质量门</h4><ul><li>verify.py 9 项全绿；node --check app.js 通过；32 页断链校验含新导航与新锚点零断裂；CDP 真视口实测（桌面 1440×900 / 手机 390×844）：五组下拉三态展开、手机手风琴、EN 切换、当前页高亮、深读页导航注入后排版正常；改前改后截图各 10 张 + QA 记录在 qa/v7-19/round-04/。</li></ul></li>
 <li class="cl-item"><h3>v6.8.0 — 2026-09-29 · V7 改版（3/19）：首页首屏重构</h3><h4>主题包成果（V7-19 第 3 轮 · 首页首屏重构）</h4><ul><li><strong>深色纪实封面</strong>：首页首屏整体换为近黑 #101316（--coal）满幅封面，海报式构图——编者大标题「把未来做成生意」通栏一行（88–138px 刻度，≥720px 隐藏手动换行），kicker「编者视角 · 商业档案」明确编者文案属性（非当事人引语）；副标题「从公司、资本与关键决策，读懂马斯克的商业世界。」；</li><li><strong>三入口</strong>：开始阅读（reading.html 长卷版）/ 探索公司版图（companies.html）/ 查找资料（search.html），朱红主按钮 + 暗底描边新 .btn-ghost；</li><li><strong>人物与业务画面主次</strong>：肖像启用 R2 备好的 portrait-hero.jpg 3:2 裁切（&lt;picture&gt; ≤640px 自动换 4:5 竖版），去白框衬纸、改暗底细边框 + 朱红错位色块（18px slab）+ 30% 去灰纪实调色；新增四格业务横带（弗里蒙特总装线 / 猎鹰重型双助推着陆 / 星舰第五飞塔捕 / 2022-11 Twitter 总部），全部为 R2 已溯源素材，图块带公司标签 + 图注 + 作者·许可署名；ASSETS.md 用途记录同步；</li><li><strong>手机首屏修复</strong>：删除 ≤960px「肖像 order:-1 插队首屏」旧规则——手机次序改为 标题→定位→三按钮（通栏）→肖像（4:5）→数字行→横带（scroll-snap 横滑，保留原生滚动）；真 390px CDP 探针零横向溢出，CTA 底缘 546px &lt; 844px 完整落在首屏内；</li><li><strong>英文不破版</strong>：html[lang="en"] 独立标题刻度（桌面 clamp 40–96px 两行、手机 36–44px）+ 行高 1.08；390px EN 实测右缘 372px 零溢出；</li><li><strong>首屏零动画依赖</strong>：封面全部元素不挂 .reveal（CSS 默认可见），脚本或动画失败首屏照常完整；.cnt 计数保留静态数字兜底；</li><li><strong>工程修复（本轮实测发现）</strong>：① auto 网格轨道内 min(480px,100%) 百分比循环解析致文字列被压成 0 宽（计算值 0px 944px）——轨道改 min(480px,44vw) 确定尺寸；② .deal-lines 亮色规则源码顺序靠后压过暗底覆盖（dd 墨字不可读）——覆盖规则提高特异性为 .deal-lines.hero-stats；③ 猎鹰横带图 4:3 裁切 object-position 74% 对准双助推着陆瞬间；</li><li><strong>同步</strong>：index title/description/og:image/og:description/twitter:description/theme-color(#101316) 换新定位；print 模式封面转白底、隐藏横带与按钮；令牌新增 --accent-bright/--mist；12 页版本 span 步进。</li></ul><h4>质量门</h4><ul><li>verify.py 9 项全绿；node --check app.js 通过；CDP 真视口探针：桌面标题 138px 单行、EN 96px 两行、390px 中英零溢出；EN 切换/file:// 冒烟正常；改前改后证据 + QA 记录在 qa/v7-19/round-03/。</li></ul></li>
 <li class="cl-item"><h3>v6.7.0 — 2026-09-29 · V7 改版（2/19）：图片与纪实素材体系</h3><h4>主题包成果（V7-19 第 2 轮 · 图片与纪实素材体系）</h4><ul><li><strong>全站图片溯源建档</strong>：新建 ASSETS.md 作为素材唯一权威清单（来源页/作者/许可/核实日期/加工方式/用途）；portrait.jpg 经感知哈希比对<strong>逐像素命中</strong> Commons「Elon Musk Royal Society (crop2)」（Debbie Rowe · CC BY-SA 3.0）、tesla-factory.jpg 命中「Tesla Factory, Fremont」（Maurizio Pesce · CC BY 2.0）；falcon-heavy.jpg 两轮检索无法定位原文件——整体替换为 SpaceX 官方 CC0 的「Falcon Heavy 演示飞行双助推器同步着陆（2018）」，画面更有冲击力且来源可查；</li><li><strong>新增纪实素材 4 张</strong>：Starship 助推器塔捕（Jurvetson · CC BY 2.0，2024-10-13 第五飞，与账本 e2024-10-13 锚点互证）、Twitter/X 总部（osunpokeh · CC BY-SA 4.0，2022-11 收购交割时点）、Cybertruck 量产展车（N2e · CC0）、及上述 Falcon 替换图；全部经目检、裁切（3:2 上部/偏移构图保主体）、压缩与尺寸声明，检索与下载脚本入 tools/（trace-assets/find-assets/get-files/prep-assets）；</li><li><strong>公司版图卡配图</strong>：companies.html 六卡中 Tesla/SpaceX/X 三家接入纪实配图（带作者·许可署名行），xAI/Neuralink/Boring 暂无可查纪实素材、诚实保持文字卡；新增 `.card-photo` 样式（3:2 object-fit、边框衬纸、署名行、打印灰度）；</li><li><strong>首页与深读页素材治理</strong>：首页封面肖像补 figcaption 署名行（中英双语）+ fetchpriority=high；indepth.html 图注升级为完整署名并修正 alt 与实拍内容不符处（「工厂外景」实为总装线内景）；全站 `img` 补 `height:auto` 防拉伸；</li><li><strong>封面备用裁切入库</strong>：portrait-hero.jpg（3:2 横版）与 portrait-hero-mobile.jpg（4:5 竖版）供第 3 轮首页首屏重构取用；</li><li><strong>加载策略</strong>：三张公司卡图 loading=lazy + decoding=async；首屏肖像 eager+高优先级；真实 390px 视口（CDP 仿真）验证零横向溢出——此前截图「裁字」系 headless Chrome 最小窗宽 500px 伪影，已用 CDP 探针（tools/r02-probe.js）实证排除。</li></ul><h4>质量门</h4><ul><li>verify.py 9 项全绿；`node --check app.js` 通过；EN 切换署名行/懒加载滚动加载/21:9 底部取景（object-position）实测正常；断链与锚点零变化。</li></ul></li>
 <li class="cl-item"><h3>v6.6.0 — 2026-09-29 · V7 改版启动（1/19）：设计基础与全站令牌归一</h3><h4>主题包成果（V7-19 第 1 轮 · 视觉基础与基线）</h4><ul><li><strong>V7 设计令牌基础层</strong>：`:root` 重写——暖白阅读底 `#F3F0E8`、近黑封面底 `#101316`（第 3 轮启用）、墨色 `#17191d`、朱红主强调 `#C84032` + 小号强调文字深阶 `#A63628`（对比度 5.8:1）；新增字号层级（含第 3 轮启用的 88–144px 封面主标题刻度）、4px 间距标尺、阅读宽度 720px 令牌、动效时长令牌；</li><li><strong>全站色彩令牌归一</strong>：32 页 + style.css + app.js 共 853 处硬编码旧色（酒红 `#7c2d2d`/纸白 `#faf9f6`/`#1a1a1a`/`#5c574e`）统一为 CSS 变量（SVG 属性/内嵌 JS/favicon/theme-color 按语境直换新值）；`build-revisions.py` 生成模板同步归一，避免重建回退；</li><li><strong>基础可见应用</strong>：报头 3px 朱红顶条、主按钮朱红填充、kicker 前导红短线、12 处小号强调文字对比度达标；首页封面标题刻度提升（48–104px）；长卷阅读版正文 15→16.5px 进入 16–18px 规范区间、阅读宽度令牌化；</li><li><strong>重复基础规则清理</strong>：删除文件尾重复 print 块；归一化过程中发现的 `:root` 自引用风险随令牌块重写消除；</li><li><strong>改版证据</strong>：`qa/v7-19/round-01/` 存 before/after 各 10 张（5 代表页 × 1440×900 + 390×844）+ QA 验收记录；新增 `tools/qa-shots.py` 截图协议（headless Chrome + 冻结动画）。</li></ul><h4>质量门</h4><ul><li>verify.py 9 项全绿；`node --check app.js` 通过；双语切换/手机菜单/时间轴筛选交互实测正常；断链与锚点零变化（旧链接全兼容）。</li></ul></li>

@@ -18,7 +18,7 @@
 | 01 | 视觉基础与基线 | complete | v6.6.0 | 9c4867b | done |
 | 02 | 图片与纪实素材体系 | complete | v6.7.0 | eb007ba | done |
 | 03 | 首页首屏重构 | complete | v6.8.0 | 4bf942f | done |
-| 04 | 首页编排与全局导航 | pending | v6.9.0 | — | — |
+| 04 | 首页编排与全局导航 | complete | v6.9.0 | （提交后回填） | — |
 | 05 | 长文阅读模板 | pending | v6.10.0 | — | — |
 | 06 | 事件与来源结构 | pending | v6.11.0 | — | — |
 | 07 | 公司关系总览 | pending | v6.12.0 | — | — |
@@ -65,3 +65,11 @@
 - 验证：verify.py 9/9 绿；node --check 过；CDP 真视口：桌面标题 138px 单行、EN 96px 两行、390 中英零页面溢出、CTA 底 546<844 在首屏、封面零 .reveal 无动画依赖；file:// 冒烟过；EN 切换/计数器/章节 reveal 正常；证据 9 张 + QA.md 在 qa/v7-19/round-03/。
 - 提交：[V7-19 R03] 一个成果提交；推送状态见表格。
 - 备注：本轮 scratch（手术脚本/探针）在仓库外 D:ibe coding7r3-work\；qa-shots 工具伪影（500px 最小窗宽/虚拟时间图片未绘）已 CDP 排除，见 QA.md。
+
+## 第 4 轮工作记录（首页编排与全局导航）— complete（2026-09-29）
+
+- 交付：新建 tools/site-nav.py 导航生成器（五组注册表 开始5/公司7/事件4/专题6/资料10=32 页唯一归属 + 单一模板 + aria-current + 缺 app.js 自动补挂，幂等）；32 页统一导航落地（12 masthead 页替换 + 20 页头页插入，17 页补挂 app.js，语言切换/版本号首次覆盖全站）；报头常驻「检索」胶囊；桌面下拉三态（hover/focus-within/点击）+ 外点/Esc 关闭焦点归位 + 互斥 + :has 当前组高亮；手机 ≤760px 五组手风琴 + 当前组自动展开；首页 16 卡平铺重组为五分区（#paths 三条路径 / #map 公司版图六瓦 / #features 旗舰专题主推+次级行 / #events 关键事件五条深链 primary#e* / #updates 最近更新四条）；消除 <a> 嵌套 <a>；删除 chapter-grid 死样式；.reveal 改 html.js 守卫（脚本失败正文不再隐形）。
+- 实测修复两缺陷：① 汉堡点击冒泡触发外点关闭监听、清掉自动展开的当前组 → 外点处理排除 #nav-toggle；② data-en 放在按钮上会被 EN 切换的 innerHTML 替换吞掉下拉箭头 → 模板改内层 .nav-txt 承载文案。
+- 验证：verify.py 9/9 绿（v6.9.0，含 32 页断链校验覆盖新导航与新锚点）；node --check 过；CDP 探针 29 项全过（下拉三态/互斥/外点/Esc 焦点/跳转落地/分区计数/EN/深读页注入/检索共存/锚点落视野/无 JS 正文可见/390 手风琴+零溢出）；reading/money/documents/timeline 注入回归零溢出；证据：before/after 各 10 张 + 整页长图 + 下拉与手机菜单交互截图 + QA.md 在 qa/v7-19/round-04/。
+- 提交：[V7-19 R04] 一个成果提交；推送状态见表格。
+- 备注：scratch（探针）在仓库外 D:/vibe coding/v7r4-work/；遗留两项到后续轮——20 个注入页页脚统一（R17）、公司色标体系（R7/R8，首页瓦片暂用中性编号）。

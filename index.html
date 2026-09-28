@@ -22,7 +22,7 @@
   <div class="progress" aria-hidden="true"></div>
   <a class="skip-link" href="#main">跳到主要内容</a>
 
-  <!-- ============ 报头 ============ -->
+  <!-- ============ 报头（tools/site-nav.py 生成，勿手改分组） ============ -->
   <header class="masthead">
     <div class="container masthead-top">
       <a class="brand" href="index.html">
@@ -30,21 +30,70 @@
         <span class="brand-en">MUSK,&nbsp;INC.</span>
       </a>
       <span class="masthead-issue" data-en="Business Profile · No. 001">商业人物志 · 创刊号</span>
-      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单"><span></span><span></span><span></span></button>
+      <div class="masthead-tools">
+        <a class="masthead-search" href="search.html" data-en="Search">检索</a>
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / 切换语言">EN</button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单"><span></span><span></span><span></span></button>
+      </div>
     </div>
     <nav class="container mainnav" id="site-nav" aria-label="主导航">
-      <a href="profile.html" data-en="Profile">速览</a>
-      <a href="timeline.html" data-en="Timeline">商业时间线</a>
-      <a href="companies.html" data-en="Companies">公司版图</a>
-      <a href="indepth.html" data-en="Deep Dives">深度</a>
-      <a href="stories.html" data-en="Wars">商战</a>
-      <a href="persona.html" data-en="Persona">人格</a>
-      <a href="playbook.html" data-en="Playbook">方法</a>
-      <a href="numbers.html" data-en="Numbers">数据</a>
-      <a href="grok.html" data-en="xAI &amp; Grok">xAI·Grok</a>
-      <a href="quotes.html" data-en="Quotes">语录</a>
-      <a href="primary.html" data-en="Primary">第一手</a>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Start">开始</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="index.html" aria-current="page" data-en="Home">首页</a>
+          <a href="reading.html" data-en="The Long Read">长卷通读</a>
+          <a href="profile.html" data-en="Profile">速览</a>
+          <a href="persona.html" data-en="Persona">商业人格</a>
+          <a href="playbook.html" data-en="Playbook">可复用的方法</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Companies">公司</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="companies.html" data-en="Companies">公司版图</a>
+          <a href="indepth.html" data-en="In Depth">公司深度</a>
+          <a href="grok.html" data-en="xAI &amp; Grok">xAI·Grok</a>
+          <a href="numbers.html" data-en="In Numbers">数据一览</a>
+          <a href="finance.html" data-en="Finance">财务资本全景</a>
+          <a href="supplychain.html" data-en="Supply Chain">供应链与工厂</a>
+          <a href="pricing.html" data-en="Pricing">定价与需求</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Events">事件</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="timeline.html" data-en="Timeline">商业时间线</a>
+          <a href="chronicle.html" data-en="Chronicles">公司编年史</a>
+          <a href="stories.html" data-en="War Stories">经典商战</a>
+          <a href="controversy.html" data-en="Controversies">争议与批评</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Features">专题</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="deep-dive-01.html" data-en="Deep Dive: Capital">深读·资本运作</a>
+          <a href="deep-dive-02.html" data-en="Deep Dive: Hiring">深读·用人逻辑</a>
+          <a href="deep-dive-03.html" data-en="Deep Dive: Failure">深读·失败模式</a>
+          <a href="deep-dive-04.html" data-en="Deep Dive: Regulation">深读·监管博弈</a>
+          <a href="deep-dive-05.html" data-en="Deep Dive: AI Strategy">深读·AI 战略</a>
+          <a href="ai-strategy.html" data-en="AI Landscape">AI 战略全景</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Archive">资料</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="primary.html" data-en="Ledger">言行账本</a>
+          <a href="quotes.html" data-en="Quotes">语录</a>
+          <a href="documents.html" data-en="Documents">一手文档馆</a>
+          <a href="interviews.html" data-en="Interviews">访谈与表态</a>
+          <a href="x-posts.html" data-en="X Posts">X 帖史</a>
+          <a href="money.html" data-en="Capital">资本解剖</a>
+          <a href="capital-evolution.html" data-en="Capital Evolution">资本演化</a>
+          <a href="search.html" data-en="Search">第一手检索</a>
+          <a href="revisions.html" data-en="Revisions">修订历史</a>
+          <a href="changelog.html" data-en="Changelog">修订记录</a>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -99,112 +148,234 @@
         </figure>
       </div>
     </section>
-    <!-- ============ 章节目录 ============ -->
-    <section id="chapters" class="section container">
+    <!-- ============ V7 R4 编排：三条阅读路径 ============ -->
+    <section id="paths" class="section container">
       <header class="section-head reveal">
-        <p class="kicker">CONTENTS</p>
-        <h2 data-en="Enter the chapters">进入篇章</h2>
-        <p class="section-standfirst" data-en="Eleven chapters. Every fact traceable to the public record.">十一个篇章，每个事实都可溯源。</p>
+        <p class="kicker">WAYS IN</p>
+        <h2 data-en="Three ways in">三条进入路径</h2>
+        <p class="section-standfirst" data-en="You don&rsquo;t have to read it cover to cover. Pick a lane by the time you have &mdash; every lane ends at sources.">不必从头读到尾。按你手头的时间选一条路进来——每条路的尽头都是出处。</p>
       </header>
-      <div class="chapter-grid">
-        <a class="chapter-card reveal" href="profile.html">
-          <span class="ch-num" aria-hidden="true">01</span>
-          <h3 data-en="Profile">速览</h3>
-          <p data-en="Profile">用生意人的方式认识他</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
+      <ol class="path-list">
+        <li class="path-row">
+          <span class="path-no" aria-hidden="true">01</span>
+          <div>
+            <h3 data-en="Quick pass · about 30 minutes">快速了解 · 约 30 分钟</h3>
+            <p class="path-desc" data-en="Who he is as an operator, how big the empire actually is, and the five lines he keeps repeating in deals.">先认识这个运营者：他做了哪些公司、盘子有多大、反复说的是哪几句话。</p>
+            <p class="path-links"><a href="profile.html" data-en="Profile">速览</a><span class="sep">→</span><a href="numbers.html" data-en="In Numbers">数据一览</a><span class="sep">→</span><a href="quotes.html" data-en="Quotes">语录</a></p>
+          </div>
+          <span class="path-cta"><a class="btn btn-line" href="profile.html" data-en="Start here">从速览开始</a></span>
+        </li>
+        <li class="path-row">
+          <span class="path-no" aria-hidden="true">02</span>
+          <div>
+            <h3 data-en="Deep reads · 15&ndash;25 min each">深度阅读 · 每篇 15–25 分钟</h3>
+            <p class="path-desc" data-en="Five features each take one theme apart &mdash; capital, hiring, failure, regulation, AI &mdash; plus four company files.">五篇专题各拆一个主题——资本、用人、失败、监管、AI，另有四份公司档案。</p>
+            <p class="path-links"><a href="deep-dive-01.html" data-en="Capital playbook">资本运作全解</a><span class="sep">→</span><a href="indepth.html" data-en="Company files">公司深度</a><span class="sep">→</span><a href="stories.html" data-en="War stories">经典商战</a></p>
+          </div>
+          <span class="path-cta"><a class="btn btn-line" href="deep-dive-01.html" data-en="Read a feature">进一篇专题</a></span>
+        </li>
+        <li class="path-row">
+          <span class="path-no" aria-hidden="true">03</span>
+          <div>
+            <h3 data-en="Check the record · anytime">查找资料 · 随时查证</h3>
+            <p class="path-desc" data-en="Every conclusion here ends at a source: a 67-entry ledger, primary documents, interviews and posts &mdash; one search box covers them all.">每个结论都能回到出处：67 条言行账本、一手文档、访谈与帖子——一个搜索框全覆盖。</p>
+            <p class="path-links"><a href="search.html" data-en="Search">检索</a><span class="sep">→</span><a href="primary.html" data-en="Ledger">言行账本</a><span class="sep">→</span><a href="documents.html" data-en="Documents">文档馆</a></p>
+          </div>
+          <span class="path-cta"><a class="btn btn-line" href="search.html" data-en="Search now">去检索</a></span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ 公司版图总览 ============ -->
+    <section id="map" class="section container">
+      <header class="section-head reveal">
+        <p class="kicker">THE EMPIRE</p>
+        <h2 data-en="The company map">公司版图</h2>
+        <p class="section-standfirst" data-en="Six operating companies, one operator. One line each here; files, photos and sources one click away.">六家在营公司，一个运营者。这里一句话一家；档案、配图与来源一键可达。</p>
+      </header>
+      <div class="firm-grid">
+        <a class="firm-tile" href="companies.html">
+          <span class="firm-idx">01 · EV &amp; ENERGY</span>
+          <h3>Tesla</h3>
+          <span class="firm-meta" data-en="Joined 2004 · CEO since 2008">2004 年入主 · 2008 年任 CEO</span>
+          <p class="firm-desc" data-en="Made electric cars desirable instead of compliant; the first carmaker ever to pass a trillion-dollar market cap.">把电动车从「政策合规品」做成人人想要的科技产品；史上首家市值破万亿的车企。</p>
+          <span class="firm-go" data-en="Company file →">公司档案 →</span>
         </a>
-        <a class="chapter-card reveal" href="timeline.html">
-          <span class="ch-num" aria-hidden="true">02</span>
-          <h3 data-en="Timeline">商业时间线</h3>
-          <p data-en="Timeline">一部用交易写成的生涯</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
+        <a class="firm-tile" href="companies.html">
+          <span class="firm-idx">02 · SPACE</span>
+          <h3>SpaceX</h3>
+          <span class="firm-meta" data-en="Founded 2002">2002 年创立</span>
+          <p class="firm-desc" data-en="Reused rockets pushed launch costs down; now it flies astronauts and plans for Mars.">用可回收火箭把发射成本打下来；如今既运宇航员，也筹划火星。</p>
+          <span class="firm-go" data-en="Company file →">公司档案 →</span>
         </a>
-        <a class="chapter-card reveal" href="companies.html">
-          <span class="ch-num" aria-hidden="true">03</span>
-          <h3 data-en="Companies">公司版图</h3>
-          <p data-en="Companies">六家公司，一个运营者</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
+        <a class="firm-tile" href="companies.html">
+          <span class="firm-idx">03 · PLATFORM</span>
+          <h3>𝕏</h3>
+          <span class="firm-meta" data-en="Acquired 2022 · renamed 2023">2022 年收购 · 2023 年更名</span>
+          <p class="firm-desc" data-en="Bought for $44B and renamed X &mdash; first his loudspeaker, later part of an AI company.">以 440 亿美元买入并更名 X——既是他的扩音器，后来也成为 AI 公司的一部分。</p>
+          <span class="firm-go" data-en="Company file →">公司档案 →</span>
         </a>
-        <a class="chapter-card reveal" href="indepth.html">
-          <span class="ch-num" aria-hidden="true">04</span>
-          <h3 data-en="In Depth">公司深度</h3>
-          <p data-en="In Depth">四份公司档案，四种下注方式</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
+        <a class="firm-tile" href="companies.html">
+          <span class="firm-idx">04 · AI</span>
+          <h3>xAI</h3>
+          <span class="firm-meta" data-en="Founded 2023">2023 年创立</span>
+          <p class="firm-desc" data-en="Maker of Grok; closed a $20B Series E in Jan 2026 (on the order of a $230B valuation) with NVIDIA and Cisco participating.">Grok 之父；2026 年 1 月完成 200 亿美元 Series E（估值约 2300 亿量级），英伟达、思科参投。</p>
+          <span class="firm-go" data-en="Company file →">公司档案 →</span>
         </a>
-        <a class="chapter-card reveal" href="stories.html">
-          <span class="ch-num" aria-hidden="true">05</span>
-          <h3 data-en="War Stories">经典商战</h3>
-          <p data-en="War Stories">至暗时刻，与它的翻盘</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
+        <a class="firm-tile" href="companies.html">
+          <span class="firm-idx">05 · BRAIN&ndash;COMPUTER</span>
+          <h3>Neuralink</h3>
+          <span class="firm-meta" data-en="Founded 2016">2016 年创立</span>
+          <p class="firm-desc" data-en="First customers are paralyzed patients moving cursors with thought; the long game is human&ndash;machine symbiosis &mdash; keeping an interface open for the human brain as AI scales.">第一批客户是瘫痪患者——用意念移动光标与设备；长期故事是在 AI 变强的年代，给人类大脑留一个接口。</p>
+          <span class="firm-go" data-en="Company file →">公司档案 →</span>
         </a>
-        <a class="chapter-card reveal" href="persona.html">
-          <span class="ch-num" aria-hidden="true">06</span>
-          <h3 data-en="Persona">商业人格</h3>
-          <p data-en="Persona">用行为写成的性格</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="playbook.html">
-          <span class="ch-num" aria-hidden="true">07</span>
-          <h3 data-en="Playbook">可复用的方法</h3>
-          <p data-en="Playbook">六步打法，附适用边界</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="numbers.html">
-          <span class="ch-num" aria-hidden="true">08</span>
-          <h3 data-en="In Numbers">数据一览</h3>
-          <p data-en="In Numbers">把帝国画在坐标纸上</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="grok.html">
-          <span class="ch-num" aria-hidden="true">09</span>
-          <h3 data-en="xAI & Grok">xAI·Grok</h3>
-          <p data-en="xAI & Grok">用 AI 公司反向收购平台</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="primary.html">
-          <span class="ch-num" aria-hidden="true">10</span>
-          <h3 data-en="Primary">第一手</h3>
-          <p data-en="Primary">他自己的话，他亲手做的事</p>
-          <span class="ch-sub"><a href="primary.html" data-en="Ledger">账本</a> · <a href="documents.html" data-en="Documents">文档馆</a> · <a href="interviews.html" data-en="Interviews">访谈</a> · <a href="x-posts.html" data-en="Posts">帖史</a> · <a href="money.html" data-en="Capital">资本解剖</a> · <a href="capital-evolution.html" data-en="Capital evolution">资本演化</a> · <a href="ai-strategy.html" data-en="AI strategy">AI 战略</a> · <a href="search.html" data-en="Search">检索</a> · <a href="pricing.html" data-en="Pricing">定价</a> · <a href="supplychain.html" data-en="Supply chain">供应链</a> · <a href="chronicle.html" data-en="Chronicles">编年史</a> · <a href="finance.html" data-en="Finance">财务</a> · <a href="reading.html" data-en="Long read">长卷版</a> · <a href="revisions.html" data-en="Revisions">修订史</a> · <a href="controversy.html" data-en="Controversies">争议</a></span>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="deep-dive-01.html">
-          <span class="ch-num" aria-hidden="true">🔍</span>
-          <h3 data-en="Deep Dive: Capital Operations">深读：资本运作全解</h3>
-          <p data-en="From Zip2 $307M to xAI Series E $20B — four lines of capital operations in parallel.">从 Zip2 3.07 亿到 xAI 200 亿：融资、退出、收购、估值四条线并进。</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-<a class="chapter-card reveal" href="deep-dive-02.html">
-          <span class="ch-num" aria-hidden="true">🔍</span>
-          <h3 data-en="Deep Dive: Hiring Logic">深读：用人逻辑</h3>
-          <p data-en="First-principles hiring, company towns, and why humans are underrated.">第一性原理招聘、公司城模式、以及为什么「人类被低估了」。</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="deep-dive-03.html">
-          <span class="ch-num" aria-hidden="true">🔍</span>
-          <h3 data-en="Deep Dive: Failure Patterns">深读：面对失败的模式</h3>
-          <p data-en="2008, 2018, 2022 — three crises, one operating pattern.">2008 三连败、2018 生产地狱、2022 Twitter 混乱——同一套「先开火后瞄准」节奏。</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-<a class="chapter-card reveal" href="deep-dive-04.html">
-          <span class="ch-num" aria-hidden="true">🔍</span>
-          <h3 data-en="Deep Dive: Regulation">深读：监管博弈</h3>
-          <p data-en="SEC settlement, FAA permits, Texas reincorporation — regulation as strategic resource.">SEC 和解、FAA 塔捕许可、德州迁册——监管如何成为他的战略资源。</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="deep-dive-05.html">
-          <span class="ch-num" aria-hidden="true">🔍</span>
-          <h3 data-en="Deep Dive: AI Strategy">深读：AI 战略布局</h3>
-          <p data-en="2015 OpenAI → 2023 xAI → 2025 X acquisition — the full AI landscape.">2015 OpenAI 联合创始 → 2023 xAI → 2025 收购 X 的 AI 全景。</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
-        </a>
-        <a class="chapter-card reveal" href="quotes.html">
-          <span class="ch-num" aria-hidden="true">11</span>
-          <h3 data-en="Quotes">语录</h3>
-          <p data-en="Five lines that keep showing up in his deals.">五句话，反复出现在他的交易里</p>
-          <span class="ch-go" data-en="Read →">阅读 →</span>
+        <a class="firm-tile" href="companies.html">
+          <span class="firm-idx">06 · TUNNELS</span>
+          <h3>The Boring Company</h3>
+          <span class="firm-meta" data-en="Founded 2016">2016 年创立</span>
+          <p class="firm-desc" data-en="Started as one traffic complaint: if the surface can&rsquo;t solve it, go underground &mdash; civic and transit tunnels, priced per ever-cheaper mile.">起因是一句堵车抱怨：地面解决不了，就从地下走。业务聚焦市政与交通隧道，卖点是持续压低每英里成本。</p>
+          <span class="firm-go" data-en="Company file →">公司档案 →</span>
         </a>
       </div>
+      <p class="firm-note" data-en="Before Tesla there were Zip2 and X.com/PayPal &mdash; see <a href=&quot;companies.html&quot;>early deals</a>; for the capital thread see <a href=&quot;money.html&quot;>Capital</a> and <a href=&quot;capital-evolution.html&quot;>Capital Evolution</a>.">Tesla 之前还有 Zip2 与 X.com/PayPal——见<a href="companies.html">早期交易记录</a>；资本脉络另见<a href="money.html">资本解剖</a>与<a href="capital-evolution.html">资本演化时间轴</a>。</p>
+    </section>
+
+    <!-- ============ 旗舰专题 ============ -->
+    <section id="features" class="section container">
+      <header class="section-head reveal">
+        <p class="kicker">FEATURES</p>
+        <h2 data-en="Flagship features">旗舰专题</h2>
+        <p class="section-standfirst" data-en="One theme, taken all the way down &mdash; every feature anchored to first-hand entries.">一个主题拆到底——每篇专题都锚定第一手材料。</p>
+      </header>
+      <div class="feature-lead">
+        <div class="feature-lead-body">
+          <p class="kicker">DEEP DIVE 01 · CAPITAL</p>
+          <h3 data-en="The Complete Capital Playbook">资本运作全解</h3>
+          <p data-en="From Zip2&rsquo;s $307M exit to xAI&rsquo;s $20B Series E &mdash; exits, fundraising, acquisitions and valuations in four parallel threads, every step anchored to a ledger entry.">从 Zip2 3.07 亿美元到 xAI 200 亿美元——退出、融资、收购、估值四条线并进，每一步都锚定账本条目。</p>
+          <a class="btn btn-ink" href="deep-dive-01.html" data-en="Read the feature">进入专题</a>
+          <div class="feature-lead-stat">
+            <div><b>4</b><small data-en="capital threads">条资本主线</small></div>
+            <div><b data-en="27+ yrs">27+ 年</b><small data-en="of deals traced">交易轨迹</small></div>
+            <div><b>100%</b><small data-en="steps sourced">步骤有出处</small></div>
+          </div>
+        </div>
+        <aside class="feature-lead-side">
+          <p class="fls-title" data-en="Four threads in this feature">本篇四条主线</p>
+          <ol class="fls-list">
+            <li data-en="Exits &mdash; Zip2 $307M, PayPal $1.5B">退出——Zip2 3.07 亿、PayPal 15 亿</li>
+            <li data-en="Fundraising &mdash; from Christmas Eve 2008 to xAI Series E">融资——从 2008 圣诞夜到 xAI Series E</li>
+            <li data-en="Acquisitions &mdash; including the $44B Twitter deal">收购——包括 440 亿美元的 Twitter</li>
+            <li data-en="Valuations &mdash; Tesla, SpaceX and the AI stack">估值——Tesla、SpaceX 与 AI 栈</li>
+          </ol>
+        </aside>
+      </div>
+      <div class="feature-rows">
+        <a class="feature-row" href="deep-dive-02.html">
+          <span class="fk">DEEP DIVE 02</span>
+          <div>
+            <h3 data-en="Hiring Logic">用人逻辑</h3>
+            <p data-en="First-principles hiring, company towns, and why humans are underrated.">第一性原理招聘、公司城模式、以及为什么「人类被低估了」。</p>
+          </div>
+          <span class="fgo" data-en="Read →">阅读 →</span>
+        </a>
+        <a class="feature-row" href="deep-dive-03.html">
+          <span class="fk">DEEP DIVE 03</span>
+          <div>
+            <h3 data-en="Failure Patterns">面对失败的模式</h3>
+            <p data-en="2008&rsquo;s triple strike, 2018&rsquo;s production hell, 2022&rsquo;s Twitter chaos &mdash; one fire-first-aim-later rhythm.">2008 三连败、2018 生产地狱、2022 Twitter 混乱——同一套「先开火后瞄准」节奏。</p>
+          </div>
+          <span class="fgo" data-en="Read →">阅读 →</span>
+        </a>
+        <a class="feature-row" href="deep-dive-04.html">
+          <span class="fk">DEEP DIVE 04</span>
+          <div>
+            <h3 data-en="Playing the Regulators">监管博弈</h3>
+            <p data-en="SEC settlement, FAA catch permit, Texas reincorporation &mdash; regulation as a strategic resource.">SEC 和解、FAA 塔捕许可、德州迁册——监管如何成为他的战略资源。</p>
+          </div>
+          <span class="fgo" data-en="Read →">阅读 →</span>
+        </a>
+        <a class="feature-row" href="deep-dive-05.html">
+          <span class="fk">DEEP DIVE 05</span>
+          <div>
+            <h3 data-en="The AI Strategy">AI 战略布局</h3>
+            <p data-en="2015 OpenAI co-founding → 2023 xAI → 2025 acquiring X &mdash; the full AI landscape.">2015 OpenAI 联合创始 → 2023 xAI → 2025 收购 X 的 AI 全景。</p>
+          </div>
+          <span class="fgo" data-en="Read →">阅读 →</span>
+        </a>
+      </div>
+      <p class="feature-more" data-en="Company files: <a href=&quot;indepth.html&quot;>four dossiers</a> · More threads: <a href=&quot;ai-strategy.html&quot;>AI landscape</a> · <a href=&quot;chronicle.html&quot;>chronicles</a> · <a href=&quot;persona.html&quot;>persona</a> · <a href=&quot;playbook.html&quot;>playbook</a>">公司深度：<a href="indepth.html">四份公司档案</a> · 更多线索：<a href="ai-strategy.html">AI 战略全景</a> · <a href="chronicle.html">公司编年史</a> · <a href="persona.html">商业人格</a> · <a href="playbook.html">可复用的方法</a></p>
+    </section>
+
+    <!-- ============ 关键事件与证据 ============ -->
+    <section id="events" class="section container">
+      <header class="section-head reveal">
+        <p class="kicker">KEY EVENTS</p>
+        <h2 data-en="Key events &amp; evidence">关键事件与证据</h2>
+        <p class="section-standfirst" data-en="Five entries picked from the 67-entry ledger &mdash; each links back to the original record.">从 67 条言行账本里选出的五个节点——每条都链回原始记录。</p>
+      </header>
+      <div class="event-list">
+        <div class="event-row">
+          <span class="event-date">2002.10.03</span>
+          <div>
+            <h3 data-en="PayPal closes &mdash; and the money question that starts everything">PayPal 交割——钱去哪，一切由此开始</h3>
+            <p class="event-src" data-en="Ledger e2002-10-03 · his own 2012&ndash;13 interviews (USA Today etc.)">账本 e2002-10-03 · 本人 2012–2013 访谈自述（USA Today 等）</p>
+            <p class="event-desc" data-en="eBay pays $1.5B; at 31 he nets about $180M after tax &mdash; enough to never work again. Where that money went next is where the rest of this site begins.">eBay 完成 15 亿美元收购；31 岁税后到手约 1.8 亿美元——足够此生不再工作。钱的去向，是本站其余一切故事的起点。</p>
+          </div>
+          <span class="event-links"><a href="primary.html#e2002-10-03" data-en="Ledger entry">账本原文</a><span class="sep">·</span><a href="deep-dive-01.html" data-en="Capital thread">资本主线</a></span>
+        </div>
+        <div class="event-row">
+          <span class="event-date">2008.12.24</span>
+          <div>
+            <h3 data-en="Christmas Eve financing &mdash; the last hour of the last day">圣诞夜融资——最后一天的最后一个小时</h3>
+            <p class="event-src" data-en="Ledger e2008-12-24 · Business Insider · his own posts">账本 e2008-12-24 · Business Insider · 本人 X 自述</p>
+            <p class="event-desc" data-en="SpaceX had just been saved by a $1.6B NASA contract the day before; Tesla&rsquo;s round was shaking in the credit crunch &mdash; it closed on Christmas Eve, hours from missing payroll.">SpaceX 前一天刚被 NASA 16 亿美元合同救起；Tesla 的融资在信贷紧缩中摇摇欲坠，最终关闭于圣诞夜——距发不出工资只差几个小时。</p>
+          </div>
+          <span class="event-links"><a href="primary.html#e2008-12-24" data-en="Ledger entry">账本原文</a><span class="sep">·</span><a href="stories.html" data-en="War stories">经典商战</a></span>
+        </div>
+        <div class="event-row">
+          <span class="event-date">2018.08.07</span>
+          <div>
+            <h3 data-en="&ldquo;Funding secured&rdquo; &mdash; one tweet becomes a lawsuit">「资金已落实」——一条推文变成一场官司</h3>
+            <p class="event-src" data-en="Ledger e2018-08-07 · X post · SEC litigation &amp; settlement filings">账本 e2018-08-07 · X 帖 · SEC 诉讼与和解文件</p>
+            <p class="event-desc" data-en="Model 3 had just crawled out of production hell and shorts were circling; on the morning of Aug 7 he typed the sentence that turned a company&rsquo;s stock into a court case.">Model 3 刚爬出生产地狱，做空者围猎；8 月 7 日上午，他敲下把一家公司股票变成一场官司的那句话。</p>
+          </div>
+          <span class="event-links"><a href="primary.html#e2018-08-07" data-en="Ledger entry">账本原文</a><span class="sep">·</span><a href="controversy.html" data-en="Controversies">争议与批评</a></span>
+        </div>
+        <div class="event-row">
+          <span class="event-date">2022.10.28</span>
+          <div>
+            <h3 data-en="The $44B close &mdash; the town square changes hands">440 亿美元交割——城市广场易主</h3>
+            <p class="event-src" data-en="Ledger e2022-10-28 · X posts · Reuters · Washington Post">账本 e2022-10-28 · X 帖 · Reuters · Washington Post</p>
+            <p class="event-desc" data-en="He tried to walk away, got sued, and was forced to close at the original $54.20 a share. On Oct 28 the deal was done.">他试图退出、被起诉、被强制按原价 54.20 美元交割；10 月 28 日，交易完成。</p>
+          </div>
+          <span class="event-links"><a href="primary.html#e2022-10-28" data-en="Ledger entry">账本原文</a><span class="sep">·</span><a href="x-posts.html" data-en="X posts record">X 帖史</a></span>
+        </div>
+        <div class="event-row">
+          <span class="event-date">2024.10.13</span>
+          <div>
+            <h3 data-en="Flight 5 &mdash; a twenty-storey booster comes home to the tower">星舰第五飞——二十层楼高的助推器回到塔臂</h3>
+            <p class="event-src" data-en="Ledger e2024-10-13 · X posts (via Reuters · AP)">账本 e2024-10-13 · X 帖（Reuters · AP 引述）</p>
+            <p class="event-desc" data-en="Every flight before was learning; this one was meant to catch. With the regulatory permit in hand, the booster didn&rsquo;t return to a landing zone &mdash; it came back into the launch tower&rsquo;s arms.">此前每一飞都在学习；这一飞，是为了接住——监管许可拿到后，助推器不落回着陆场，而是直接回到发射塔的臂弯里。</p>
+          </div>
+          <span class="event-links"><a href="primary.html#e2024-10-13" data-en="Ledger entry">账本原文</a><span class="sep">·</span><a href="timeline.html" data-en="Timeline">商业时间线</a></span>
+        </div>
+      </div>
+      <p class="event-more"><a href="primary.html" data-en="All 67 ledger entries →">账本全部 67 条 →</a><a href="timeline.html" data-en="Business timeline →">商业时间线 →</a></p>
+    </section>
+
+    <!-- ============ 最近实质更新 ============ -->
+    <section id="updates" class="section container">
+      <header class="section-head reveal">
+        <p class="kicker">RECENT</p>
+        <h2 data-en="Recent substantive updates">最近实质更新</h2>
+        <p class="section-standfirst" data-en="Substantive changes only &mdash; the full record lives in the <a href=&quot;changelog.html&quot;>changelog</a>.">只列实质变化；完整修订记录见<a href="changelog.html">修订记录</a>。</p>
+      </header>
+      <ul class="update-list">
+        <li><span><span class="update-ver">v6.8.0</span>&nbsp;<span class="update-date">2026-09-29</span></span><a href="changelog.html" data-en="Homepage documentary cover &amp; mobile first-screen rebuild">首页深色纪实封面与手机首屏重构</a><span class="update-go" data-en="Changelog →">修订记录 →</span></li>
+        <li><span><span class="update-ver">v6.7.0</span>&nbsp;<span class="update-date">2026-09-29</span></span><a href="changelog.html" data-en="Image provenance archive &amp; new documentary photos">素材溯源体系与新增纪实图片</a><span class="update-go" data-en="Changelog →">修订记录 →</span></li>
+        <li><span><span class="update-ver">v6.6.0</span>&nbsp;<span class="update-date">2026-09-29</span></span><a href="changelog.html" data-en="V7 design tokens &amp; site-wide color normalization">V7 设计令牌基础层与全站色彩归一</a><span class="update-go" data-en="Changelog →">修订记录 →</span></li>
+        <li><span><span class="update-ver">v6.5.0</span>&nbsp;<span class="update-date">2026-09-26</span></span><a href="changelog.html" data-en="17-round refinement plan wrap-up &amp; full reconciliation">17 轮精进计划收官与全量对账</a><span class="update-go" data-en="Changelog →">修订记录 →</span></li>
+      </ul>
     </section>
 
   </main>
@@ -212,7 +383,7 @@
   <!-- ============ 页脚 ============ -->
   <footer class="site-footer">
     <div class="container">
-      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <a class="footer-version" href="changelog.html" title="修订记录">v<span class="site-version-val">6.8.0</span></a></p>
+      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <a class="footer-version" href="changelog.html" title="修订记录">v<span class="site-version-val">6.9.0</span></a></p>
       <p class="footer-disclaimer" data-en="An unofficial, study-oriented business profile. Information compiled from public sources (Forbes, Reuters, CNBC, BBC, company announcements); photo via Wikimedia Commons. Not affiliated with or endorsed by Elon Musk or any of his companies.">
         本站为非官方、学习型的商业人物志。信息整理自公开资料（Forbes、Reuters、CNBC、BBC 及公司公告）；
         图片来自 Wikimedia Commons。与马斯克先生及其名下公司无任何隶属或背书关系。

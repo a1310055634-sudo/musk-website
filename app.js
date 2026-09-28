@@ -7,7 +7,10 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '6.8.0';
+  var SITE_VERSION = '6.9.0';
+
+  /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
+  document.documentElement.classList.add('js');
 
   /* ---------- 版本号（页脚与报头共用 .site-version-val） ---------- */
   document.querySelectorAll('.site-version-val').forEach(function (el) {
@@ -217,15 +220,27 @@
   /* ---------- 汉堡菜单开合 ---------- */
   var nbtn = document.getElementById('nav-toggle');
   var mh = document.querySelector('.masthead');
+  /* 打开面板时自动展开含当前页的分组 */
+  function openCurrentGroup() {
+    var cur = document.querySelector('#site-nav a[aria-current="page"]');
+    var g = cur ? cur.closest('.nav-group') : null;
+    if (g) {
+      g.classList.add('open');
+      var l = g.querySelector('.nav-label');
+      if (l) l.setAttribute('aria-expanded', 'true');
+    }
+  }
   if (nbtn && mh) {
     nbtn.addEventListener('click', function () {
       var open = mh.classList.toggle('nav-open');
       nbtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) { openCurrentGroup(); } else { closeAllGroups(); }
     });
     document.querySelectorAll('#site-nav a').forEach(function (link) {
       link.addEventListener('click', function () {
         mh.classList.remove('nav-open');
         nbtn.setAttribute('aria-expanded', 'false');
+        closeAllGroups();
       });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && mh.classList.contains('nav-open')) {
@@ -236,6 +251,44 @@
     });
     });
   }
+
+  /* ---------- 全局导航分组下拉（R4：点击开合 / 外点关闭 / Esc 归位） ----------
+     桌面 hover 与键盘 focus-within 由 CSS 负责；这里补触屏点击与关闭语义。 */
+  var navLabels = Array.prototype.slice.call(document.querySelectorAll('.nav-label'));
+  function closeAllGroups() {
+    navLabels.forEach(function (l) {
+      l.setAttribute('aria-expanded', 'false');
+      var g = l.closest('.nav-group');
+      if (g) g.classList.remove('open');
+    });
+  }
+  navLabels.forEach(function (label) {
+    label.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var g = label.closest('.nav-group');
+      if (!g) return;
+      var willOpen = !g.classList.contains('open');
+      closeAllGroups();
+      if (willOpen) {
+        g.classList.add('open');
+        label.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('#nav-toggle')) return; /* 汉堡开合不触发外点关闭（否则清掉自动展开的当前组） */
+    if (!e.target.closest('.nav-group')) closeAllGroups();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      var opened = document.querySelector('.nav-group.open');
+      if (opened) {
+        closeAllGroups();
+        var l = opened.querySelector('.nav-label');
+        if (l) l.focus();
+      }
+    }
+  });
 
   /* ---------- Konami 彩蛋：纸飞机掠过纸面 ---------- */
   var KONAMI = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
