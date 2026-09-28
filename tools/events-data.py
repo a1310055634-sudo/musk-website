@@ -35,12 +35,23 @@ PRECISION_LABELS = {
     "year":  {"zh": "仅年份", "en": "Year only"},
 }
 
+# 事件类型 → 双语徽标（V7-19 R9；与 timeline.html 静态清单五类同源口径：
+# 创业起步 / 资本运作 / 豪赌翻身 / 产品里程碑 / 争议时刻）
+ETYPE_LABELS = {
+    "start":     {"zh": "创业起步", "en": "Origins"},
+    "deal":      {"zh": "资本运作", "en": "Capital moves"},
+    "gamble":    {"zh": "豪赌翻身", "en": "All-in"},
+    "milestone": {"zh": "产品里程碑", "en": "Milestone"},
+    "risk":      {"zh": "争议时刻", "en": "Controversy"},
+}
+
 EVENTS = [
     # ------------------------------------------------ 2002.10.03 PayPal 交割
     {
         "id": "e2002-10-03",
         "date": "2002.10.03",
         "precision": "day",
+        "etype": "deal",
         "companies": ["PayPal", "Tesla", "SpaceX", "SolarCity"],
         "title": {"zh": "PayPal 交割——1.8 亿美元的去向",
                   "en": "PayPal closes — where $180M went next"},
@@ -95,6 +106,7 @@ EVENTS = [
         "id": "e2006",
         "date": "2006",
         "precision": "year",
+        "etype": "start",
         "companies": ["SolarCity", "Tesla"],
         "title": {"zh": "SolarCity 创立——PayPal 套现资助的第三家公司",
                   "en": "SolarCity founded — the third PayPal-funded bet"},
@@ -145,6 +157,7 @@ EVENTS = [
         "id": "e2008-12-24",
         "date": "2008.12.24",
         "precision": "day",
+        "etype": "gamble",
         "companies": ["Tesla", "SpaceX"],
         "title": {"zh": "圣诞夜融资——最后一天的最后一个小时",
                   "en": "Christmas Eve financing — the last hour of the last day"},
@@ -199,6 +212,7 @@ EVENTS = [
         "id": "e2018-08-07",
         "date": "2018.08.07",
         "precision": "day",
+        "etype": "risk",
         "companies": ["Tesla"],
         "title": {"zh": "「资金已落实」——一条推文变成一场官司",
                   "en": "“Funding secured” — one tweet becomes a lawsuit"},
@@ -257,6 +271,7 @@ EVENTS = [
         "id": "e2022-10-28",
         "date": "2022.10.28",
         "precision": "day",
+        "etype": "deal",
         "companies": ["X（原 Twitter）"],
         "title": {"zh": "440 亿美元交割——「鸟儿自由了」",
                   "en": "The $44B close — “the bird is freed”"},
@@ -315,6 +330,7 @@ EVENTS = [
         "id": "e2024-10-13",
         "date": "2024.10.13",
         "precision": "day",
+        "etype": "milestone",
         "companies": ["SpaceX"],
         "title": {"zh": "星舰塔捕——助推器回到塔的臂弯",
                   "en": "The tower catch — a booster in the tower's arms"},
@@ -371,6 +387,60 @@ EVENTS = [
         },
         "related": [],
     },
+    # ------------------------------------------------ 2025.03.28 xAI 收购 X
+    {
+        "id": "e2025-03-28",
+        "date": "2025.03.28",
+        "precision": "day",
+        "etype": "deal",
+        "companies": ["xAI", "X（原 Twitter）"],
+        "title": {"zh": "xAI 收购 X——信息流与模型合并成一家",
+                  "en": "xAI acquires X — the feed and the model become one"},
+        "summary": {
+            "zh": "全股票交易：xAI（估值约 800 亿美元）吸收 X（估值约 330 亿美元）。他两年前 440 亿买下的平台，成了模型公司的训练数据与分发渠道。",
+            "en": "An all-stock merger: xAI (reported at ~$80B) absorbs X (reported at ~$33B). The platform he bought for $44B two years earlier became the model company's training data and distribution channel.",
+        },
+        "background": {
+            "zh": "X Corp 自 2022 年以来持续流失广告主，Fidelity 将持仓减记 80%。但它有 xAI 需要的东西：每天 5 亿+条帖子的实时数据，以及通往 5 亿账户的分发渠道。合并结构为全股票——xAI（800 亿美元）吸收 X（330 亿美元，含 120 亿债务企业价值 450 亿）。",
+            "en": "X Corp had been losing advertisers since 2022 and Fidelity marked down its stake by 80%. But it had something xAI needed: real-time data from 500+ million posts per day, and a distribution channel to half a billion accounts. The merger was structured as all-stock — xAI ($80B) absorbing X ($33B, $45B enterprise value with $12B debt).",
+        },
+        "facts": [
+            {"zh": "2025.03.28 本人宣布：@xAI 已收购 @X，全股票交易——合并后 xAI 估值约 800 亿美元、X 约 330 亿美元（减 120 亿债务为企业价值 450 亿）。",
+             "en": "Announced by him on 2025-03-28: @xAI has acquired @X in an all-stock transaction — xAI reported at $80B, X at $33B ($45B enterprise value less $12B debt)."},
+            {"zh": "交易背景：X 自 2022 年起持续流失广告主，Fidelity 将其持仓减记 80%。",
+             "en": "Context: X had been losing advertisers since 2022; Fidelity marked down its stake by 80%."},
+            {"zh": "合并后 Grok 用 X 的实时数据训练，X 用户内置 Grok——信息流与模型融合为一个产品。",
+             "en": "After the merger Grok trains on X's real-time data and X users get Grok built in — the feed and the model fused into one product."},
+            {"zh": "估值口径为本人宣布的合并对价数字，由 CNBC · Forbes · AP 等多方报道转述；两家公司均未上市，无公开市场报价。",
+             "en": "Valuations are the deal figures as announced by him, as reported by CNBC · Forbes · AP; neither company is public, so there is no market quote."},
+        ],
+        "quotes": [
+            {"en": "@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).",
+             "zh": "@xAI 已收购 @X，全股票交易。合并后 xAI 估值 800 亿美元，X 估值 330 亿美元（减去 120 亿债务为 450 亿企业价值）。",
+             "source": {"zh": "本人 X 帖 · 2025.03.28（CNBC · Forbes · AP 报道口径）",
+                        "en": "His post on X · 2025-03-28 (as reported by CNBC · Forbes · AP)"}},
+        ],
+        "no_quote_note": None,
+        "outcome": {
+            "zh": "2022 年他以 440 亿买下 X；两年后其独立估值降至 330 亿。但并入 xAI 后，同一个平台成为了 800 亿美元公司的一部分。440 亿没有浪费——它被重新定价了。（末句为编者分析，非其原话。）",
+            "en": "He bought X for $44B in 2022; two years later its standalone valuation had dropped to $33B. But merged into xAI, the same platform became part of an $80B company. The $44B wasn't wasted — it was repriced. (The last sentence is editorial analysis, not his words.)",
+        },
+        "materials": [
+            {"kind": "ledger", "href": "primary.html#e2025-03-28", "date": "2025.03.28",
+             "label": {"zh": "言行账本 e2025-03-28 · xAI 收购 X", "en": "Ledger e2025-03-28 · xAI acquires X"},
+             "note": {"zh": "一手言行记录：背景 / 原话 / 现场 / 后续四段全文", "en": "First-hand record: background / words / scene / aftermath"}},
+            {"kind": "feature", "href": "grok.html", "date": None,
+             "label": {"zh": "xAI·Grok 专页——合并后的模型与产品线", "en": "xAI & Grok — the model and product line after the merger"},
+             "note": {"zh": "交易在 AI 战略线中的展开", "en": "The deal inside the AI-strategy thread"}},
+            {"kind": "external", "href": None, "date": "2025.03",
+             "label": {"zh": "CNBC · Forbes · AP（合并与估值报道口径）", "en": "CNBC · Forbes · AP (merger and valuation coverage)"},
+             "note": {"zh": "估值数字与交易结构的外部报道口径", "en": "External record of the deal figures and structure"}},
+        ],
+        "image": None,
+        "related": [
+            {"href": "#e2022-10-28", "label": {"zh": "2022.10.28 · 440 亿买下平台（两年后重新定价）", "en": "2022-10-28 · the $44B purchase (repriced two years later)"}},
+        ],
+    },
 ]
 
 # 结构自检：生成器运行前先验证数据完整性（锚点/字段/精度枚举）
@@ -384,6 +454,8 @@ def validate():
         ids.add(eid)
         if ev["precision"] not in PRECISION_LABELS:
             errs.append(f"{eid}: 未知精度 {ev['precision']}")
+        if ev.get("etype") not in ETYPE_LABELS:
+            errs.append(f"{eid}: 未知或缺失事件类型 {ev.get('etype')}")
         for sec in ("title", "summary", "background", "outcome"):
             if not ev.get(sec, {}).get("zh") or not ev[sec].get("en"):
                 errs.append(f"{eid}: {sec} 缺中/英文")

@@ -73,6 +73,7 @@ def render_material(m):
 
 def render_event(ev):
     prec = ED.PRECISION_LABELS[ev["precision"]]
+    etype = ED.ETYPE_LABELS[ev["etype"]]
     # V7-R7：chip 附公司色标类（名称文字为准，色条只作辅助；映射表与 companies-data.py 同源口径）
     _co = {"Tesla": "tesla", "SpaceX": "spacex", "X": "x", "X（原 Twitter）": "x",
            "xAI": "xai", "SolarCity": "solarcity", "PayPal": "paypal"}
@@ -82,6 +83,7 @@ def render_event(ev):
     head = (f'      <div class="ev-head">\n'
             f'        <span class="ev-date">{esc(ev["date"])}</span>'
             f'<span class="ev-precision" data-en="{esc(prec["en"])}">{esc(prec["zh"])}</span>'
+            f'<span class="ev-etype ev-etype--{ev["etype"]}" data-en="{esc(etype["en"])}">{esc(etype["zh"])}</span>'
             f'<span class="ev-companies">{chips}</span>\n'
             f'      </div>')
 
@@ -138,6 +140,12 @@ def render_event(ev):
 
 sections = "\n".join(render_event(ev) for ev in ED.EVENTS)
 
+# V7-R9：计数与年份跨度动态取自数据，避免措辞随事件扩容过期
+N_EV = len(ED.EVENTS)
+YEARS = sorted(int(e["date"][:4]) for e in ED.EVENTS)
+SPAN_ZH = f'{YEARS[0]}&ndash;{YEARS[-1]}'
+SPAN_TXT = f'{YEARS[0]}\u2013{YEARS[-1]}'
+
 toc_links = "\n".join(
     f'          <a href="#{ev["id"]}">{esc(ev["date"])} · {esc(t(ev["title"], "zh"))}</a>'
     for ev in ED.EVENTS)
@@ -145,8 +153,8 @@ toc_links = "\n".join(
 readme = (
     '<div class="lr-note" id="ev-readme">'
     '<b data-en="HOW TO READ">读法与口径</b>'
-    '<span data-en="The event record answers what happened; the materials section lists the different records describing it — ledger entries are the first-hand baseline, documents and posts are checkable originals, editorial summaries are labeled as such. Date precision is badged (day / month / year) for honest filing, never fabricated.">'
-    '「事件」记录回答发生了什么；「材料与证据」列出描述同一事件的不同记录——账本条目是一手基准口径，文档与帖子是可查原件，编者归纳均已标注。日期精度以徽标标明（精确到日 / 精确到月 / 仅年份），只作诚实的档案分层，不作超出材料的日期断言。'
+    '<span data-en="The event record answers what happened; the materials section lists the different records describing it — ledger entries are the first-hand baseline, documents and posts are checkable originals, editorial summaries are labeled as such. Each node is typed (origins / capital moves / all-in / milestone / controversy) and date precision is badged (day / month / year) for honest filing, never fabricated.">'
+    '「事件」记录回答发生了什么；「材料与证据」列出描述同一事件的不同记录——账本条目是一手基准口径，文档与帖子是可查原件，编者归纳均已标注。每个事件带类型徽标（创业起步 / 资本运作 / 豪赌翻身 / 产品里程碑 / 争议时刻）与日期精度徽标（精确到日 / 精确到月 / 仅年份），只作诚实的档案分层，不作超出材料的日期断言。'
     '</span></div>')
 
 PAGE = f"""<!DOCTYPE html>
@@ -155,7 +163,7 @@ PAGE = f"""<!DOCTYPE html>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>事件档案 · 马斯克商业志 MUSK, INC.</title>
-<meta name="description" content="六个代表性商业事件的结构化档案：背景、关键事实、逐字原话、后续结果与全部材料关联——事件与材料分开建档。" />
+<meta name="description" content="七个代表性商业事件的结构化档案：背景、关键事实、逐字原话、后续结果与全部材料关联——事件与材料分开建档，附类型与日期精度徽标。" />
 <meta property="og:title" content="事件档案 · 马斯克商业志 MUSK, INC." />
 <meta property="og:description" content="事件与材料分开建档：每个节点汇齐背景、事实、原话、后续与全部证据。" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
@@ -166,12 +174,12 @@ PAGE = f"""<!DOCTYPE html>
   <main>
     <div class="lr-hero">
       <div class="container lr-hero-inner">
-        <p class="ev-kicker">EVENT FILES · V7-R6</p>
+        <p class="ev-kicker">EVENT FILES · V7-R6·R9</p>
         <h1 data-en="Event Files">事件档案</h1>
-        <p class="ev-lead" data-en="Events and the records describing them, filed separately: background, facts, verbatim quotes, aftermath and every linked piece of evidence for each node. First batch: six representative events migrated from the 67-entry ledger.">把「事件」和「描述它的材料」分开建档：每个节点汇齐背景、关键事实、逐字原话、后续结果与全部材料关联。首批从 67 条言行账本迁移六个代表性事件。</p>
+        <p class="ev-lead" data-en="Events and the records describing them, filed separately: background, facts, verbatim quotes, aftermath and every linked piece of evidence for each node — typed and precision-badged to drive the timeline.">把「事件」和「描述它的材料」分开建档：每个节点汇齐背景、关键事实、逐字原话、后续结果与全部材料关联，并带类型与日期精度徽标（驱动时间轴与检索联动）。从 67 条言行账本迁移七个代表性事件。</p>
         <div class="lr-meta">
-          <span data-en="6 representative events">6 个代表性事件</span>
-          <span data-en="2002&ndash;2024">2002–2024</span>
+          <span data-en="{N_EV} representative events">{N_EV} 个代表性事件</span>
+          <span data-en="{SPAN_ZH}">{SPAN_TXT}</span>
           <span data-en="First batch from the 67-entry ledger">首批迁移自 67 条言行账本</span>
           <span data-en="Built at v{VERSION}">v{VERSION} 建档</span>
         </div>

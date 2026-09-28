@@ -446,8 +446,9 @@ def validate():
 
 
 # 事件档案（events-data.py）中的公司名 → 本表公司 id 的别名映射。
-# R6 事件档案只收录六个代表性事件（不含 e2025-03-28），且 2022 交割记作「X（原 Twitter）」；
-# xai—x 关系的证据锚点直接用账本 primary.html#e2025-03-28（在册），不为此扩充事件口径。
+# R9 起事件档案含 e2025-03-28（xAI 收购 X，记作「X（原 Twitter）」），
+# xai—x 关系的证据锚点仍用账本 primary.html#e2025-03-28（在册口径不变）；
+# 2022 交割同样记作「X（原 Twitter）」，故 x 节点别名保留两种写法。
 EVENT_NAME_ALIASES = {
     "tesla": ["Tesla"],
     "spacex": ["SpaceX"],

@@ -167,6 +167,14 @@ window.COMPANIES_V7 = {
       "zh": "440 亿美元交割——「鸟儿自由了」",
       "en": "The $44B close — “the bird is freed”"
      }
+    },
+    {
+     "id": "e2025-03-28",
+     "date": "2025.03.28",
+     "title": {
+      "zh": "xAI 收购 X——信息流与模型合并成一家",
+      "en": "xAI acquires X — the feed and the model become one"
+     }
     }
    ]
   },
@@ -193,7 +201,16 @@ window.COMPANIES_V7 = {
     "en": "Maker of Grok; raised $20B in Jan 2026 at a ~$230B scale valuation, after absorbing X in 2025."
    },
    "href": "company-files.html#file-xai",
-   "events": []
+   "events": [
+    {
+     "id": "e2025-03-28",
+     "date": "2025.03.28",
+     "title": {
+      "zh": "xAI 收购 X——信息流与模型合并成一家",
+      "en": "xAI acquires X — the feed and the model become one"
+     }
+    }
+   ]
   },
   {
    "id": "neuralink",
