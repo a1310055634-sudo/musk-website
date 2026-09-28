@@ -21,7 +21,7 @@
 | 04 | 首页编排与全局导航 | complete | v6.9.0 | 8686143 | done |
 | 05 | 长文阅读模板 | complete | v6.10.0 | 1a6f3c5 | done |
 | 06 | 事件与来源结构 | complete | v6.11.0 | 021faf4 | done |
-| 07 | 公司关系总览 | complete | v6.12.0 | — | done |
+| 07 | 公司关系总览 | complete | v6.12.0 | 9a718da | done |
 | 08 | 公司档案体系 | pending | v6.13.0 | — | — |
 | 09 | 事件时间轴升级 | pending | v6.14.0 | — | — |
 | 10 | 资本流向可视化 | pending | v6.15.0 | — | — |
