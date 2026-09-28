@@ -17,7 +17,7 @@
 |---|---|---|---|---|---|
 | 01 | 视觉基础与基线 | complete | v6.6.0 | 9c4867b | done |
 | 02 | 图片与纪实素材体系 | complete | v6.7.0 | eb007ba | done |
-| 03 | 首页首屏重构 | pending | v6.8.0 | — | — |
+| 03 | 首页首屏重构 | complete | v6.8.0 | (见 git log R03) | done |
 | 04 | 首页编排与全局导航 | pending | v6.9.0 | — | — |
 | 05 | 长文阅读模板 | pending | v6.10.0 | — | — |
 | 06 | 事件与来源结构 | pending | v6.11.0 | — | — |
@@ -57,3 +57,11 @@
 - 验证：verify.py 9/9 绿（v6.7.0）；node --check 通过；EN 署名切换/懒加载/3:2 比例/21:9 取景 CDP 实测；真 390px 视口零溢出（确认 qa-shots 手机档 500px 最小窗宽伪影，非站点缺陷）；改后证据 9 张 + QA.md 在 qa/v7-19/round-02/。
 - 提交：[V7-19 R02] 主成果提交 eb007ba + 推送状态回填提交；已推送。
 - 并发事件记录：02:49 一个并发触发（run-b）误判 run-a（本记录方）已停而接管；02:51-02:54 run-b 观察到 run-a 活跃后**主动全部退避**，将自写文件移至仓库外 `D:\vibe coding\v7r2-runb-evidence\`，并在此期间完成了 eb007ba 的推送（run-a 本地推送因网络超时未成）。run-b 的两份审计脚本（tools/verify-attrib.py、verify-tesla-factory.py）与两份元数据（assets-meta/portrait.json、tesla-factory.json）已被 run-a 的 `git add -A` 收入 eb007ba——其署名核验结论（hamming=0）与 run-a 独立溯源结果一致，互为佐证，**保留入库**。后续触发请勿重复删除或重做 R2；接管前先长观察≥10 分钟确认无写入，再核对本表与 git log。
+
+## 第 3 轮工作记录（首页首屏重构）— complete（2026-09-29）
+
+- 交付：首页 section#cover 重构为近黑 #101316 深色纪实封面（海报式构图：编者大标题「把未来做成生意」通栏 88–138px + 副标题定位句 + 开始阅读/探索版图/查找资料三入口 + hero-body 左文右图 + 关键数字行 + 四格业务横带带署名）；<picture> 手机档 4:5 肖像；html[lang=en] 英文标题独立刻度；删除 ≤960px 肖像 order:-1（手机照片抢占首屏根源）；print 转白底；令牌 +--accent-bright/--mist；index title/description/og/theme-color 换新定位；ASSETS.md 六处用途同步；12 页版本 span + VERSION → 6.8.0。
+- 实测修复三缺陷：① 旧栅格列 144px×4 字放不下标题折三行 → 改标题通栏；② auto 轨道 min(480px,100%) 百分比循环致文字列 0 宽 → 轨道改 min(480px,44vw)；③ .deal-lines 亮色规则顺序压过暗底覆盖 → 特异性升 .deal-lines.hero-stats。
+- 验证：verify.py 9/9 绿；node --check 过；CDP 真视口：桌面标题 138px 单行、EN 96px 两行、390 中英零页面溢出、CTA 底 546<844 在首屏、封面零 .reveal 无动画依赖；file:// 冒烟过；EN 切换/计数器/章节 reveal 正常；证据 9 张 + QA.md 在 qa/v7-19/round-03/。
+- 提交：[V7-19 R03] 一个成果提交；推送状态见表格。
+- 备注：本轮 scratch（手术脚本/探针）在仓库外 D:ibe coding7r3-work\；qa-shots 工具伪影（500px 最小窗宽/虚拟时间图片未绘）已 CDP 排除，见 QA.md。
