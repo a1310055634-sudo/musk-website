@@ -1,0 +1,13 @@
+{
+  "title": "File:Tesla Factory, Fremont (CA, USA) (8763130149).jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tesla_Factory,_Fremont_(CA,_USA)_(8763130149).jpg",
+  "w": 3008,
+  "h": 2000,
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "artist": "Maurizio Pesce from Milan, Italia",
+  "credit": "Tesla Factory, Fremont (CA, USA)",
+  "date": "2011-10-01 20:54",
+  "desc": "White Model S body on red assembly carrier inside the Tesla Fremont factory (2011).",
+  "match": "perceptual hamming 0 / mse 0.0 at 32x32 vs assets/tesla-factory.jpg (exact); local file is a 960x638 downscale"
+}

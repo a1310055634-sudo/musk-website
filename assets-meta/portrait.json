@@ -1,0 +1,13 @@
+{
+  "title": "File:Elon Musk Royal Society (crop2).jpg",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Royal_Society_(crop2).jpg",
+  "w": 1337,
+  "h": 1771,
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Debbie Rowe",
+  "credit": "Elon Musk Royal Society",
+  "date": "2018-07-13 14:10",
+  "desc": "Elon Musk at the Royal Society announcement, London (2018).",
+  "match": "perceptual hamming 0 / mse 0.0 at 32x32 vs assets/portrait.jpg (exact); local file is a 960x1272 downscale"
+}

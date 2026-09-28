@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """V7-19 QA 截图协议：headless Chrome + force-prefers-reduced-motion 冻结入场动画。
-用法: python tools/qa-shots.py <outdir> <round-tag>
-拍 5 个代表页 x 桌面1440x900 / 手机390x844，存 <outdir>/。"""
+用法: python tools/qa-shots.py <outdir> [page1,page2,...]
+默认拍 5 个代表页 x 桌面1440x900 / 手机390x844，存 <outdir>/。"""
 import subprocess, os, sys, time
 
 CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
@@ -11,9 +11,13 @@ VIEWPORTS = [("desktop", 1440, 900), ("mobile", 390, 844)]
 
 def main():
     outdir = sys.argv[1] if len(sys.argv) > 1 else "qa/v7-19/round-01/before"
+    if len(sys.argv) > 2:
+        pages = [p.strip() for p in sys.argv[2].split(",") if p.strip()]
+    else:
+        pages = PAGES
     os.makedirs(outdir, exist_ok=True)
     for tag, w, h in VIEWPORTS:
-        for p in PAGES:
+        for p in pages:
             out = os.path.abspath(os.path.join(outdir, f"{p}-{tag}.png"))
             cmd = [
                 CHROME, "--headless=new", "--disable-gpu",

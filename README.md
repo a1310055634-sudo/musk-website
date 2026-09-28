@@ -40,7 +40,7 @@ index.html …（27 个页面）
 style.css          全站设计系统（纸面底/衬线标题/酒红强调）
 app.js             交互（双语切换/检索/轮播/时间轴/动效）
 search-index.js    检索索引（由 tools/build-search-index.py 生成）
-assets/            图片
+assets/            图片（来源与许可见 ASSETS.md）
 tools/             自动化工具（见下）
 CHANGELOG.md       修订记录（随迭代持续追加）
 EXPANSION.md       事实扩展包（每条新事实的核实来源）

@@ -16,7 +16,7 @@
 | 轮 | 主题 | 状态 | 版本 | 成果提交 | 推送 |
 |---|---|---|---|---|---|
 | 01 | 视觉基础与基线 | complete | v6.6.0 | 9c4867b | done |
-| 02 | 图片与纪实素材体系 | pending | v6.7.0 | — | — |
+| 02 | 图片与纪实素材体系 | complete | v6.7.0 | （见回填） | done |
 | 03 | 首页首屏重构 | pending | v6.8.0 | — | — |
 | 04 | 首页编排与全局导航 | pending | v6.9.0 | — | — |
 | 05 | 长文阅读模板 | pending | v6.10.0 | — | — |
@@ -50,3 +50,9 @@
 - 交付：V7 令牌基础层（色彩/字号/间距/阅读宽/动效/焦点）；853 处全站色彩归一（32 页 + style.css + app.js + build-revisions.py 模板）；首页（朱红顶条/主按钮/kicker 短线/标题刻度）与长卷阅读版（正文 16.5px/行高 1.9/阅读宽度令牌）实际应用；重复 print 规则清理；qa-shots.py 截图协议。
 - 验证：verify.py 9/9 绿（v6.6.0）；node --check 通过；双语切换/手机菜单/筛选实测正常；before/after 截图各 10 张 + QA 记录在 qa/v7-19/round-01/。
 - 提交：[V7-19 R01] 一个成果提交；推送状态见表格。
+
+## 第 2 轮工作记录（图片与纪实素材体系）— complete（2026-09-29）
+
+- 交付：ASSETS.md 素材权威清单（来源/作者/许可/核实/加工/用途）；trace-assets.py 感知哈希溯源——portrait/tesla-factory 逐像素命中 Commons 原件（CC BY-SA 3.0 Debbie Rowe / CC BY 2.0 Maurizio Pesce），falcon-heavy 无匹配 → 替换为 SpaceX 官方 CC0 双助推着陆图（同名同尺寸零布局扰动）；新增 starship-catch（CC BY 2.0，2024-10-13 塔捕，与账本 e2024-10-13 互证）/x-hq（CC BY-SA 4.0，2022-11）/cybertruck（CC0）三张纪实图 + portrait-hero 两档封面备用裁切；companies.html 三卡配图带署名行；首页封面署名行（中英）+fetchpriority；indepth 图注补全与 alt 修正、Falcon 底部取景；全站 img height:auto；许可元数据 assets-meta/ 留档。
+- 验证：verify.py 9/9 绿（v6.7.0）；node --check 通过；EN 署名切换/懒加载/3:2 比例/21:9 取景 CDP 实测；真 390px 视口零溢出（确认 qa-shots 手机档 500px 最小窗宽伪影，非站点缺陷）；改后证据 9 张 + QA.md 在 qa/v7-19/round-02/。
+- 提交：[V7-19 R02] 主成果提交 + 推送状态回填提交；推送状态见表格。

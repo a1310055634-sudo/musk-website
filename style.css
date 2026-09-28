@@ -61,7 +61,7 @@ body {
 
 .container { max-width: var(--content-width); margin: 0 auto; padding: 0 clamp(18px, 4vw, 32px); }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 
 .skip-link {
   position: absolute; left: -9999px; top: 0;
@@ -329,6 +329,13 @@ a { color: inherit; }
 .company-card h3 { font-family: var(--serif); font-size: 24px; letter-spacing: 0.04em; }
 .company-meta { font-size: 12px; color: var(--accent-text); font-weight: 700; letter-spacing: 0.05em; margin: 6px 0 10px; }
 .company-desc { font-size: 14px; color: var(--muted); }
+/* 公司卡纪实配图（V7 R02） */
+.company-card .card-photo { margin: 0 0 14px; }
+.company-card .card-photo img {
+  width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block;
+  border: 1px solid var(--ink); background: #fff; padding: 4px; box-sizing: border-box;
+}
+.company-card .card-photo figcaption { font-size: 11px; color: var(--muted); margin-top: 6px; letter-spacing: 0.05em; }
 
 .deal-table { margin-top: 34px; border-top: 1px solid var(--ink); }
 .deal-table h3 { font-family: var(--serif); font-size: 20px; letter-spacing: 0.08em; padding: 14px 0 8px; }
@@ -572,7 +579,7 @@ a { color: inherit; }
   .method-card { break-inside: avoid; }
   .chart-fig { break-inside: avoid; }
   .feature-photo { break-inside: avoid; }
-  .feature-photo img { filter: grayscale(20%); }
+  .feature-photo img, .company-card .card-photo img { filter: grayscale(20%); }
   .ps-row, .ps-doc { break-inside: avoid; }
   .ps-doc { background: #fff; color: #000; border: 2px solid #000; }
   .ps-doc .ps-note, .ps-doc-title span { color: #555; } /* 打印更接近纸媒质感 */
