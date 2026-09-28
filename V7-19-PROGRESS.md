@@ -19,7 +19,7 @@
 | 02 | 图片与纪实素材体系 | complete | v6.7.0 | eb007ba | done |
 | 03 | 首页首屏重构 | complete | v6.8.0 | 4bf942f | done |
 | 04 | 首页编排与全局导航 | complete | v6.9.0 | 8686143 | done |
-| 05 | 长文阅读模板 | complete | v6.10.0 | （本轮成果提交） | done |
+| 05 | 长文阅读模板 | complete | v6.10.0 | 1a6f3c5 | done |
 | 06 | 事件与来源结构 | pending | v6.11.0 | — | — |
 | 07 | 公司关系总览 | pending | v6.12.0 | — | — |
 | 08 | 公司档案体系 | pending | v6.13.0 | — | — |
