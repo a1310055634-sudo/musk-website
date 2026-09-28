@@ -23,7 +23,7 @@
 | 06 | 事件与来源结构 | complete | v6.11.0 | 021faf4 | done |
 | 07 | 公司关系总览 | complete | v6.12.0 | 9a718da | done |
 | 08 | 公司档案体系 | complete | v6.13.0 | 7f1d402 | done |
-| 09 | 事件时间轴升级 | pending | v6.14.0 | — | — |
+| 09 | 事件时间轴升级 | complete | v6.14.0 | beb55fa | done |
 | 10 | 资本流向可视化 | pending | v6.15.0 | — | — |
 | 11 | 2008 旗舰专题 | pending | v6.16.0 | — | — |
 | 12 | 平台与 AI 旗舰专题 | pending | v6.17.0 | — | — |
@@ -107,3 +107,11 @@
 - 验证：verify.py 9/9 绿（34 页，索引 169 不变口径）；node --check 过；CDP 探针 51/51（结构 13/接入 8/双语 9/联动 5/无 JS 4/390 真视口 3/network 回归 3/file:// 5/版本 1）；桌面/390/EN/file:// 截图人工复核；证据 before 1 + after 10 张 + QA.md 在 qa/v7-19/round-08/。
 - 提交：[V7-19 R08] 一个成果提交（7f1d402）；已推送。
 - 备注：scratch（r08-probe.js 51 断言/r08-reshot.js 可复跑/before worktree 已清理）在仓库外 D:/vibe coding/v7r8-work/；Tesla 档案 4 条事件深链为 R6 既定口径（e2002-10-03 companies 含四家、e2006 含 Tesla），非本轮扩写；检索未覆盖本页留 R15；下一轮 R9 事件时间轴升级（v6.14.0）。
+
+## 第 9 轮工作记录（事件时间轴升级）— complete（2026-09-29）
+
+- 交付：tools/events-data.py 事件类型五类 etype + 第 7 事件档案 e2025-03-28（xAI 收购 X，账本四段全口径+推文逐字，估值标注报道口径，validate 枚举校验）；tools/build-timeline-events.py 聚合生成器（search-index pg#id 匹配事件材料 href 吸收 16 条→不重复画点，timeline-events.js 出口 153 独立记录，静态清单 160 行注入 timeline.html，幂等）；timeline.html 泳道重构（事件档案泳道 7 类型色环节点+详情面板：类型/精度徽标·公司 chips·摘要·逐字引语·材料清单·档案深链·Esc 焦点归还；9 公司泳道修复旧五泳道整丢 PayPal/SolarCity/Neuralink/Boring 16 条；公司/年份/类型三维筛选+清除+aria-live 状态行；同年同月贪心子行 ≤5；图/清单切换 ≤760px 默认清单；无 JS 静态清单可读、打印可见）；style.css .gx-* v2 层 + .ev-etype 五色徽标；联动扩容（events_for_company 交叉引用：xAI 档案自动获得事件深链、X 档案 +1，事件联动 8→10；index 措辞 六个→七个；companies-data.py 注释更新）；VERSION/app.js/14 页 span → 6.14.0；EPUB 重建。
+- 纪律：零新增外部事实（第 7 事件全部取自账本 e2025-03-28 在册四段）；估值口径「本人宣布·多方报道转述·均未上市无市场报价」；事件 7/记录 153/吸收 16/材料 27 分列统计。
+- 验证：verify.py 9/9 绿（34 页）；node --check（app.js+内联脚本）过；CDP 探针 64/64（结构聚合 13/筛选 11/详情面板焦点 9/键盘 3/双语 6/390 真视口 5/无 JS 3/file:// 3/联动回归 10）；探针抓出 1 真缺陷（跨公司记录重复画点→主泳道去重，筛选时归位所选泳道）已修；before/after 截图 11 张+QA.md 在 qa/v7-19/round-09/。
+- 提交：[V7-19 R09] 一个成果提交（beb55fa）；已推送。
+- 备注：scratch（r09-probe.js 64 断言/gx-app.js/shot-panel.js 可复跑）在仓库外 D:/vibe coding/v7r9-work/；静态清单记录行为中文原文口径（检索索引无译文字段），R17 双语统一再议；记录层精度以日期原文呈现（2002/2006.08/2018.08.07），事件层徽标已覆盖验收；下一轮 R10 资本流向可视化（v6.15.0）。
