@@ -22,7 +22,7 @@
 | 05 | 长文阅读模板 | complete | v6.10.0 | 1a6f3c5 | done |
 | 06 | 事件与来源结构 | complete | v6.11.0 | 021faf4 | done |
 | 07 | 公司关系总览 | complete | v6.12.0 | 9a718da | done |
-| 08 | 公司档案体系 | pending | v6.13.0 | — | — |
+| 08 | 公司档案体系 | complete | v6.13.0 | 7f1d402 | done |
 | 09 | 事件时间轴升级 | pending | v6.14.0 | — | — |
 | 10 | 资本流向可视化 | pending | v6.15.0 | — | — |
 | 11 | 2008 旗舰专题 | pending | v6.16.0 | — | — |
@@ -98,3 +98,12 @@
 - 验证：verify.py 9/9 绿（33 页）；node --check 过；CDP 探针 43 断言全过（结构 14/交互 5/键盘 2/双语 6/首页 2/events 2/无 JS 3/390 真视口 4/file:// 4/版本 1）；探针抓出 2 真 bug（详情面板 evidenceLabel/statusLabel 双语对象字符串化）已修复；截图伪影 2 处排除（smooth-scroll 截图停顶→instant 重拍；懒加载视口外不取图）；桌面/390/EN/file:// 截图人工复核；证据 8 张 + QA.md 在 qa/v7-19/round-07/。
 - 提交：[V7-19 R07] 一个成果提交；推送状态见表格。
 - 备注：scratch（r07-probe.js 43 断言/r07-reshot*.js/d6-debug.js 可复跑）在仓库外 D:/vibe coding/v7r6-work/（应为 v7r7-work）；R6 事件档案未含 e2025-03-28，xai 详情无事件深链为已知口径（本轮不扩，账本锚点直链）；并发交接——本实例（run-a）接管依据：前锁(v7r6-20260929-a) complete、R06 三提交已推送 0/0、仓库 05:35:42 起 ≥12 分钟零写入、残留 http.server 为凌晨孤儿进程。
+
+## 第 8 轮工作记录（公司档案体系）— complete（2026-09-29）
+
+- 交付：tools/company-files-data.py 档案数据单一事实来源（4 档案五段结构：定位·里程碑·财务口径·风险·延伸阅读 = 33 里程碑·19 财务行·13 风险项 + 6 简介；结构自检：id 必须在 companies-data.py 节点表/逐条站内锚点/财务 kind 枚举 12 类/as_of 必填/双语完整，不过拒生成）；tools/build-company-files.py 生成器 → company-files.html 第 34 页（lr-* 模板层 + 三张 R2 已溯源大图署名 + 财务 kind 徽标分列 + as_of 截至行 + 8 条事件联动 + 目录 4+6）；companies-data.js 自 R8 起由该生成器统一写出（新增 window.FILES_V7 出口供 R9/R10/R15，COMPANIES_V7 格式与 R7 逐字节一致，build-network.py 移交写责避免双写）；10 节点 href 升级档案锚点；关系图详情面板补「查看公司档案 →」；companies.html 六卡片档案深链；site-nav.py 公司组 7→8 全站 34 页重注入；style.css .cf-* 层；ASSETS.md 三处用途同步；VERSION/app.js/13 页 span → 6.13.0；EPUB 重建。
+- 纪律：零新增外部事实（账本/编年史/财务全景/争议深读/文档馆在册口径逐条锚点）；估值/减记徽标虚线边框强调「报道口径，非公司披露」；每档案 as_of（Tesla 2025-11 / SpaceX 2024-12 / X 2025-03 / xAI 2026-01），SpaceX 估值停 2024-12 不冒充当前；定位统一标「编者归纳」；xAI 无纪实图不放占位图。
+- 实测修复：① 详情面板 era 漏 netT() 致 [object Object]（R7 遗留，本轮截图暴露）；② 详情面板从未渲染 href——补档案链接（键盘/点选可达）；③ 目录三条链接缺 data-en。
+- 验证：verify.py 9/9 绿（34 页，索引 169 不变口径）；node --check 过；CDP 探针 51/51（结构 13/接入 8/双语 9/联动 5/无 JS 4/390 真视口 3/network 回归 3/file:// 5/版本 1）；桌面/390/EN/file:// 截图人工复核；证据 before 1 + after 10 张 + QA.md 在 qa/v7-19/round-08/。
+- 提交：[V7-19 R08] 一个成果提交（7f1d402）；已推送。
+- 备注：scratch（r08-probe.js 51 断言/r08-reshot.js 可复跑/before worktree 已清理）在仓库外 D:/vibe coding/v7r8-work/；Tesla 档案 4 条事件深链为 R6 既定口径（e2002-10-03 companies 含四家、e2006 含 Tesla），非本轮扩写；检索未覆盖本页留 R15；下一轮 R9 事件时间轴升级（v6.14.0）。
