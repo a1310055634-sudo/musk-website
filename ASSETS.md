@@ -42,7 +42,7 @@
 - 许可：CC BY 2.0
 - 核实：Commons 元数据；描述原文「The booster being caught during Starship flight test 5」与本站账本 e2024-10-13 锚点互证
 - 加工：缩放至 1200px 宽，质量 80
-- 用途：companies.html SpaceX 卡片；index.html 首页业务横带（SPACEX · 星舰塔捕）；deep-dive-03.html 长文页头大图（R5）
+- 用途：companies.html SpaceX 卡片；index.html 首页业务横带（SPACEX · 星舰塔捕）；deep-dive-03.html 长文页头大图（R5）；events.html e2024-10-13 事件配图 + 材料区「纪实图片」互证条目（R6）
 
 ### x-hq.jpg — Twitter/X 总部（新增）
 - 尺寸/体积：1200×800 · 196KB

@@ -50,6 +50,7 @@ NAV_GROUPS = [
             ("chronicle.html", "公司编年史", "Chronicles"),
             ("stories.html", "经典商战", "War Stories"),
             ("controversy.html", "争议与批评", "Controversies"),
+            ("events.html", "事件档案", "Event Files"),
         ],
     },
     {

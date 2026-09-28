@@ -296,6 +296,10 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
   font-family: var(--serif); font-style: italic;
   color: var(--muted); font-size: 16px; margin-top: 10px;
 }
+.section-more { margin-top: 12px; font-size: 13.5px; }
+.section-more a { color: var(--accent-text); font-weight: 700; text-decoration: none; }
+.section-more a:hover { text-decoration: underline; }
+.section-more a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* ============ 公司深度特稿 ============ */
 .feature { border-top: 3px double var(--ink); padding-top: 26px; scroll-margin-top: 110px; }
@@ -1148,4 +1152,54 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
   .lr-sec p { orphans: 3; widows: 3; }
   .lr-data-wrap { overflow-x: visible; }
   .lr-data-wrap::after { content: none; }
+}
+
+/* ============================================================
+   V7-R6 事件档案组件层（events.html · 复用 .lr-hero/.lr-layout/.lr-toc/.lr-sec/.lr-quote/.lr-note）
+   结构：.ev-head（日期+精度徽标+公司chip）→ .ev-title/.ev-summary
+        → .ev-sec 五段（背景/关键事实/原话/后续/材料与证据）→ .ev-fig/.ev-related
+   ============================================================ */
+.ev-kicker { font-size: 11px; letter-spacing: .24em; color: var(--accent-bright); font-weight: 700; margin: 0; }
+.ev-lead { font-family: var(--serif); font-style: italic; color: var(--mist); font-size: 15.5px; line-height: 1.85; margin: 12px 0 0; max-width: 66ch; }
+.ev-item { padding-bottom: 26px; }
+.ev-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 12px; }
+.ev-date { font-family: var(--serif); font-weight: 700; font-size: 15.5px; color: var(--accent-text); letter-spacing: .04em; }
+.ev-precision { font-size: 10.5px; letter-spacing: .12em; color: var(--muted); border: 1px solid var(--hairline); padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+.ev-companies { display: inline-flex; flex-wrap: wrap; gap: 6px; }
+.ev-chip { font-size: 11px; letter-spacing: .05em; color: var(--ink); background: var(--card); border: 1px solid var(--hairline); padding: 2px 9px; white-space: nowrap; }
+.ev-title { margin: 0 0 8px; }
+.ev-summary { font-size: 15px; color: var(--muted); line-height: 1.8; margin: 0; }
+.ev-sec { margin: 20px 0 0; }
+.ev-label { font-size: 11px; letter-spacing: .18em; color: var(--accent-text); font-weight: 700; margin: 0 0 7px; }
+.ev-sec p { font-size: var(--fs-body); line-height: 1.88; margin: 8px 0; }
+.ev-sec p a { color: var(--accent-text); }
+.ev-facts { list-style: none; padding: 0; margin: 8px 0; }
+.ev-facts li { position: relative; padding: 5px 0 5px 22px; font-size: var(--fs-body); line-height: 1.85; }
+.ev-facts li::before { content: ""; position: absolute; left: 4px; top: 15px; width: 8px; height: 8px; background: var(--accent); transform: rotate(45deg); }
+.ev-facts-note, .ev-materials-note { font-size: 12px; color: var(--muted); margin: 8px 0 0; line-height: 1.7; }
+.ev-noquote { font-size: 13.5px; color: var(--muted); font-style: italic; }
+.ev-quote-src { display: block; font-size: 12px; color: var(--muted); font-style: normal; margin-top: 9px; font-family: var(--sans); }
+.ev-materials { list-style: none; margin: 10px 0 0; padding: 0; }
+.ev-materials li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; padding: 9px 0; border-top: 1px dotted var(--hairline); }
+.ev-kind { flex: none; font-size: 10.5px; letter-spacing: .08em; font-weight: 700; padding: 2px 8px; min-width: 64px; text-align: center; border: 1px solid var(--hairline); color: var(--muted); white-space: nowrap; }
+.ev-kind-ledger { color: var(--accent-text); border-color: var(--accent); }
+.ev-materials a { color: var(--accent-text); text-decoration: none; }
+.ev-materials a:hover { text-decoration: underline; }
+.ev-mat-plain { color: var(--ink); }
+.ev-mat-date { font-family: var(--serif); font-size: 12px; color: var(--muted); flex: none; }
+.ev-mat-note { flex-basis: 100%; font-size: 12.5px; color: var(--muted); line-height: 1.7; }
+.ev-fig { margin: 20px 0 4px; }
+.ev-fig img { display: block; width: 100%; height: auto; border: 1px solid var(--hairline); background: var(--card); }
+.ev-fig figcaption { font-size: 11.5px; color: var(--muted); line-height: 1.7; padding-top: 7px; }
+.ev-related { margin-top: 20px; font-size: 13px; color: var(--muted); }
+.ev-related-h { font-size: 11px; letter-spacing: .18em; color: var(--accent-text); font-weight: 700; margin-right: 10px; }
+.ev-related a { color: var(--accent-text); text-decoration: none; margin-right: 14px; line-height: 2; }
+.ev-related a:hover { text-decoration: underline; }
+@media (max-width: 640px) {
+  .ev-head { gap: 6px 8px; }
+  .ev-companies { flex-basis: 100%; }
+}
+@media print {
+  .ev-kind { border: 1px solid var(--hairline); color: var(--muted); }
+  .ev-materials a { color: var(--ink); }
 }
