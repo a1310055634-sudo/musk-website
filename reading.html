@@ -16,7 +16,7 @@
 .rd-head { border-bottom: 3px double var(--ink); padding: 14px 0 12px; margin-bottom: 20px; }
 .rd-head h1 { font-family: Georgia, "STSong", serif; font-size: clamp(28px, 5vw, 42px); letter-spacing: .04em; }
 .rd-head .rd-sub { color: var(--muted); font-size: 14px; margin-top: 8px; font-style: italic; line-height: 1.8; }
-.rd-ch { scroll-margin-top: 70px; padding-top: 30px; margin-top: 10px; border-top: 3px double var(--ink); }
+.rd-ch { scroll-margin-top: 132px; padding-top: 30px; margin-top: 10px; border-top: 3px double var(--ink); }
 .rd-ch:first-of-type { border-top: none; padding-top: 6px; }
 .rd-ch .rd-kick { font-size: 11px; letter-spacing: .24em; color: var(--accent-text); font-weight: 700; }
 .rd-ch h2 { font-family: Georgia, "STSong", serif; font-size: 26px; line-height: 1.35; margin: 6px 0 4px; }
@@ -63,7 +63,7 @@
   <meta property="og:description" content="长卷阅读版——十章连续叙事，全部内容重组自本站已核实材料。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://a1310055634-sudo.github.io/musk-website/reading.html" />
-  <meta property="og:image" content="https://a1310055634-sudo.github.io/musk-website/assets/portrait.jpg" />
+  <meta property="og:image" content="https://a1310055634-sudo.github.io/musk-website/assets/portrait-hero.jpg" />
 </head>
 <body>
   <!-- ============ 报头（tools/site-nav.py 生成，勿手改分组） ============ -->
@@ -141,13 +141,28 @@
     </nav>
   </header>
 <div class="progress"></div>
+<!-- V7-R5-LONGREAD：长卷页头（深色大图 + 元信息） -->
+<header class="lr-hero">
+  <div class="container lr-hero-inner">
+    <a class="lr-back" href="index.html" data-en="← Back to site">← 返回网站主页</a>
+    <div class="lr-kick" data-en="THE LONG READ · TEN CHAPTERS">长卷通读 · 全十章</div>
+    <h1 data-en="The Long Read">长卷阅读版</h1>
+    <p class="lr-lead" data-en="A continuous narrative rebuilt from verified material across this site — read cover to cover, or jump via the table of contents.">一部从头读到尾的连续叙事——全部内容重组自本站已核实材料，不作新造；可通读，也可经目录跳章。</p>
+    <div class="lr-meta">
+      <span class="lr-m"><span class="lr-m-k" data-en="Reading time">阅读时长</span><b data-en="≈ 11 min">约 11 分钟</b></span>
+      <span class="lr-m"><span class="lr-m-k" data-en="Chapters">章节</span><b data-en="10 chapters">10 章</b></span>
+      <span class="lr-m"><span class="lr-m-k" data-en="Length">字数</span><b data-en="≈ 2,900 chars">约 2,900 字</b></span>
+      <span class="lr-m"><span class="lr-m-k" data-en="Updated">更新</span><b>v6.10.0 · 2026-09-29</b></span>
+    </div>
+  </div>
+  <figure class="lr-hero-fig">
+    <img src="assets/portrait-hero.jpg" width="960" height="640" alt="马斯克肖像（2018，Royal Society）" loading="eager" fetchpriority="high" style="object-position:50% 30%">
+    <figcaption data-en="Portrait at the Royal Society, July 2018. Photo: Debbie Rowe / CC BY-SA 3.0, via Wikimedia Commons">肖像摄于 2018 年 7 月 Royal Society 活动。图：Debbie Rowe / CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+  </figure>
+</header>
 <div class="rd-layout">
   <main class="rd-main">
     <a class="rd-back" href="index.html">← 返回网站主页 / Back to site</a>
-    <header class="rd-head">
-      <h1 data-en="The Long Read">长卷阅读版</h1>
-      <p class="rd-sub" data-en="A continuous narrative rebuilt from verified material across this site — read cover to cover, or jump via the table of contents. All ten chapters are complete, and each chapter's further-reading links lead back to the corresponding sections for verification.">一部从头读到尾的连续叙事——全部内容重组自本站已核实材料，不作新造。右侧目录可跳章；十章齐备，随时可经各章「延伸阅读」回到对应板块查证。</p>
-    </header>
 
     <!-- 第一章 -->
     <section class="rd-ch" id="ch1">

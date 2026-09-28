@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '6.9.0';
+  var SITE_VERSION = '6.10.0';
 
   /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
   document.documentElement.classList.add('js');
@@ -138,6 +138,36 @@
     }, { rootMargin: '-40% 0px -55% 0px' });
     watchedSections.forEach(function (sec) { spy.observe(sec); });
   }
+
+  /* ---------- 长文目录滚动定位（R5：.lr-toc 链接 ↔ 文内章节） ---------- */
+  document.querySelectorAll('.lr-toc').forEach(function (toc) {
+    var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+    if (!links.length || !('IntersectionObserver' in window)) return;
+    /* 链接↔章节配对：id 在标题上，观察对象取整节（高亮带需要足够高的元素穿过） */
+    var pairs = [];
+    links.forEach(function (a) {
+      var el = document.getElementById(a.getAttribute('href').slice(1));
+      if (!el) return;
+      pairs.push({ sec: el.closest('.lr-sec') || el, link: a });
+    });
+    if (!pairs.length) return;
+    var lspy = new IntersectionObserver(function (entries) {
+      /* 相邻短章节可能同时触带：取与高亮带相交最多的一节；
+         不足 8px 的擦边相交无参选资格（状态变化分批送达时会单独成批，防其覆盖真胜者） */
+      var best = null;
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var h = en.intersectionRect.height;
+        if (h < 8) return;
+        if (!best || h > best.h) best = { t: en.target, h: h };
+      });
+      if (!best) return;
+      pairs.forEach(function (p) {
+        p.link.classList.toggle('lr-on', p.sec === best.t);
+      });
+    }, { rootMargin: '-25% 0px -65% 0px' });
+    pairs.forEach(function (p) { lspy.observe(p.sec); });
+  });
 
   /* ---------- 顶部阅读进度条 ---------- */
   var pbar = document.querySelector('.progress');
