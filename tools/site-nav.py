@@ -59,6 +59,7 @@ NAV_GROUPS = [
         "items": [
             ("survival-2008.html", "专题·2008 生死役", "Feature: Survival 2008"),
             ("platform-x.html", "专题·平台变局", "Feature: Platform X"),
+            ("promises.html", "专题·承诺与结果", "Feature: Promises"),
             ("deep-dive-01.html", "深读·资本运作", "Deep Dive: Capital"),
             ("deep-dive-02.html", "深读·用人逻辑", "Deep Dive: Hiring"),
             ("deep-dive-03.html", "深读·失败模式", "Deep Dive: Failure"),

@@ -304,6 +304,19 @@ window.EVENTS_V7 = [
     }
    },
    {
+    "kind": "feature",
+    "href": "promises.html",
+    "date": null,
+    "label": {
+     "zh": "专题 · 承诺与结果——六周复飞案（第 01 案）",
+     "en": "Feature · Promises vs. Outcomes — case 01: the six-week order"
+    },
+    "note": {
+     "zh": "「六个星期」承诺与 57 天结果的对账视图",
+     "en": "The six-week promise vs. the day-57 outcome, checked"
+    }
+   },
+   {
     "kind": "external",
     "href": null,
     "date": "2008.08",
@@ -641,6 +654,19 @@ window.EVENTS_V7 = [
     "note": {
      "zh": "同日的私有化方案原文——与推文互为对照",
      "en": "Same-day plan in his own words — read against the tweet"
+    }
+   },
+   {
+    "kind": "feature",
+    "href": "promises.html",
+    "date": null,
+    "label": {
+     "zh": "专题 · 承诺与结果——Funding secured 案（第 03 案）",
+     "en": "Feature · Promises vs. Outcomes — case 03: funding secured"
+    },
+    "note": {
+     "zh": "私有化目标与放弃结果的分类对账视图",
+     "en": "The take-private goal vs. the dropped outcome, bucketed"
     }
    },
    {

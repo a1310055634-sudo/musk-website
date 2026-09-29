@@ -1699,3 +1699,30 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 .grok-px-link { margin: 10px 0 0; font-size: 12.5px; }
 .grok-px-link a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200,64,50,.45); }
 .grok-px-link a:hover { color: var(--accent); }
+
+/* ============================================================
+   V7-R13 承诺与结果专题扩展（.pv-* / .sv- 续）— promises.html
+   ============================================================ */
+.sv-stats--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.pv-b-met { color: var(--accent-text); }
+.pv-b-drop { color: #8a2b20; }
+.pv-b-open { color: var(--muted); }
+.pv-b-note { color: var(--ink); }
+.pv-case { position: relative; border-left: 2px solid rgba(23, 25, 29, 0.16); padding: 2px 0 6px 24px; margin: 24px 0 30px; scroll-margin-top: 132px; }
+.pv-case::before { content: ""; position: absolute; left: -5px; top: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--paper); }
+.pv-case-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.pv-no { font-family: var(--serif); font-size: 19px; font-weight: 700; color: var(--accent-text); letter-spacing: 0.06em; }
+.pv-when { font-size: 12px; color: var(--muted); letter-spacing: 0.04em; }
+.pv-case h3 { font-family: var(--serif); font-size: clamp(18px, 2.4vw, 21px); line-height: 1.5; margin: 10px 0 4px; }
+.pv-case p { font-size: var(--fs-body); line-height: 1.92; margin: 10px 0; }
+.pv-case p a { color: var(--accent-text); }
+.pv-case blockquote { font-family: var(--serif); font-style: italic; font-size: 16px; line-height: 1.8; background: var(--card); border-left: 4px solid var(--accent); padding: 12px 18px; margin: 14px 0; }
+.pv-case .lr-quote-zh { font-size: 13.5px; color: var(--muted); margin: 8px 0 0; font-style: normal; line-height: 1.85; }
+.sv-ax-t2 { fill: var(--accent-bright); }
+@media (max-width: 760px) {
+  .sv-stats--4 { grid-template-columns: 1fr; }
+  .pv-case { padding-left: 18px; }
+}
+@media print {
+  .pv-case { break-inside: avoid; }
+}
