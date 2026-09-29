@@ -1644,3 +1644,58 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media (prefers-reduced-motion: reduce) {
   .sv-links a, .sv-ev li a, .sv-axis a .sv-nd { transition: none; }
 }
+
+/* ============================================================
+   V7-R12 平台与 AI 专题扩展（.sv- 续）— platform-x.html
+   三阶段页头图 + 阶段徽标三色 + 所有权三时代图
+   ============================================================ */
+.sv-scope { list-style: none; margin: 10px 0 2px; }
+.sv-scope li { padding: 9px 0; border-top: 1px dotted rgba(23, 25, 29, 0.16); font-size: 13.5px; line-height: 1.8; }
+.sv-scope li:first-child { border-top: none; }
+.sv-scope b { display: inline-block; margin-right: 8px; font-size: 14px; }
+.sv-scope li a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); margin-right: 8px; }
+.sv-scope li a:hover { color: var(--accent); }
+.sv-scope li span { display: block; color: var(--muted); font-size: 12.5px; }
+/* 页头三阶段方块 */
+.sv-stage-box { fill: #fff; stroke: rgba(243, 240, 232, 0.28); stroke-width: 1.4; }
+.sv-sb1 { fill: rgba(200, 64, 50, 0.24); stroke: var(--accent-bright); }
+.sv-sb2 { fill: rgba(243, 240, 232, 0.06); stroke: var(--mist); }
+.sv-sb3 { fill: rgba(243, 240, 232, 0.14); stroke: var(--paper); }
+.sv-stage-k { font-family: var(--sans); font-size: 10.5px; letter-spacing: 0.16em; fill: var(--accent-bright); text-anchor: middle; }
+.sv-sb2 + .sv-stage-k, .sv-sb3 + .sv-stage-k { fill: var(--mist); }
+.sv-stage-t { font-family: var(--serif); font-size: 14.5px; font-weight: 700; fill: var(--paper); text-anchor: middle; }
+.sv-stage-arrow { stroke: var(--accent-bright); stroke-width: 2; fill: none; marker-end: url(#px-arrow); }
+.sv-axis--wide .sv-stage-arrow { marker-end: none; }
+.sv-ax-t2 { font-family: var(--sans); font-size: 11px; fill: var(--mist); }
+.sv-ax-t3 { font-family: var(--sans); font-size: 11.5px; fill: rgba(243, 240, 232, 0.62); }
+.sv-stage-box:hover, .sv-stage-box:focus-visible { stroke-width: 2.4; }
+.sv-axis a:focus-visible .sv-stage-box, .sv-axis a:focus-visible .sv-own-box { outline: 2px solid var(--accent-bright); }
+/* 阶段徽标三色 */
+.sv-tag-s1 { background: var(--accent); border-color: var(--accent); color: #fff; }
+.sv-tag-s2 { border-style: dotted; color: var(--muted); }
+.sv-tag-s3 { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+/* 所有权三时代图 */
+.sv-own-fig { margin: 16px 0 4px; }
+.sv-own { display: block; width: 100%; height: auto; }
+.sv-own-box { fill: var(--card); stroke: rgba(23, 25, 29, 0.24); stroke-width: 1.2; }
+.sv-own-era { font-family: var(--sans); font-size: 10.5px; letter-spacing: 0.14em; fill: var(--accent-text); text-anchor: middle; font-weight: 700; }
+.sv-own-co { fill: #fff; stroke: var(--ink); stroke-width: 1.4; }
+.sv-own-co--his { fill: var(--ink); }
+.sv-own-co--x { fill: #fff; stroke: var(--accent); stroke-dasharray: 3 3; }
+.sv-own-co-t { font-family: var(--serif); font-size: 13.5px; font-weight: 700; fill: var(--ink); text-anchor: middle; }
+.sv-own-co--his + .sv-own-co-t { fill: var(--paper); }
+.sv-own-co-x-t { font-family: var(--serif); font-size: 11px; fill: var(--accent-text); text-anchor: middle; }
+.sv-own-line { stroke: var(--ink); stroke-width: 1.4; fill: none; }
+.sv-own-note { font-family: var(--sans); font-size: 10.5px; fill: var(--muted); text-anchor: middle; }
+.sv-own-his { font-family: var(--sans); font-size: 10.5px; fill: var(--ink); text-anchor: middle; font-weight: 700; }
+/* 手机 ≤760px */
+@media (max-width: 760px) {
+  .sv-own-fig { display: none; }
+}
+@media print {
+  .sv-own-fig, .sv-axis-fig { break-inside: avoid; }
+  .sv-own-fig { display: none; }
+}
+.grok-px-link { margin: 10px 0 0; font-size: 12.5px; }
+.grok-px-link a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200,64,50,.45); }
+.grok-px-link a:hover { color: var(--accent); }

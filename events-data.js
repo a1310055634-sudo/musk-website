@@ -775,6 +775,19 @@ window.EVENTS_V7 = [
     }
    },
    {
+    "kind": "feature",
+    "href": "platform-x.html",
+    "date": null,
+    "label": {
+     "zh": "专题 · 平台变局——Twitter、X 与并入 xAI",
+     "en": "Feature · Platform: Twitter, X, and the xAI merger"
+    },
+    "note": {
+     "zh": "本事件在平台三阶段叙事（买下）中的展开",
+     "en": "This event inside the platform three-stage narrative (Stage 1: Buying)"
+    }
+   },
+   {
     "kind": "post",
     "href": "x-posts.html#p2022-10-28",
     "date": "2022.10.28",
@@ -1022,6 +1035,19 @@ window.EVENTS_V7 = [
     "note": {
      "zh": "一手言行记录：背景 / 原话 / 现场 / 后续四段全文",
      "en": "First-hand record: background / words / scene / aftermath"
+    }
+   },
+   {
+    "kind": "feature",
+    "href": "platform-x.html",
+    "date": null,
+    "label": {
+     "zh": "专题 · 平台变局——Twitter、X 与并入 xAI",
+     "en": "Feature · Platform: Twitter, X, and the xAI merger"
+    },
+    "note": {
+     "zh": "本事件在平台三阶段叙事（并入）中的展开",
+     "en": "This event inside the platform three-stage narrative (Stage 3: Merging)"
     }
    },
    {
