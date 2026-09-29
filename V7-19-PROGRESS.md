@@ -29,7 +29,7 @@
 | 12 | 平台与 AI 旗舰专题 | complete | v6.17.0 | 0feb862 | done |
 | 13 | 承诺与结果专题 | complete | v6.18.0 | 0884dd4 | done |
 | 14 | 原始资料阅读体验 | complete | v6.19.0 | 379485b | done |
-| 15 | 搜索与发现 | complete | v6.20.0 | (本轮) | done |
+| 15 | 搜索与发现 | complete | v6.20.0 | dff5d02 | done |
 | 16 | 手机全流程打磨 | pending | v6.21.0 | — | — |
 | 17 | 双语与全站统一 | pending | v6.22.0 | — | — |
 | 18 | 动效、无障碍与性能 | pending | v6.23.0 | — | — |
