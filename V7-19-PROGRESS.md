@@ -26,7 +26,7 @@
 | 09 | 事件时间轴升级 | complete | v6.14.0 | beb55fa | done |
 | 10 | 资本流向可视化 | complete | v6.15.0 | 9827183 | done |
 | 11 | 2008 旗舰专题 | complete | v6.16.0 | 142313e | done |
-| 12 | 平台与 AI 旗舰专题 | complete | v6.17.0 | (本轮) | done |
+| 12 | 平台与 AI 旗舰专题 | complete | v6.17.0 | 0feb862 | done |
 | 13 | 承诺与结果专题 | pending | v6.18.0 | — | — |
 | 14 | 原始资料阅读体验 | pending | v6.19.0 | — | — |
 | 15 | 搜索与发现 | pending | v6.20.0 | — | — |
