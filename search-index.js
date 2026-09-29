@@ -1311,6 +1311,32 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2019-04",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2019.04",
+  "s": "「模拟之外是什么？」",
+  "q": "“What's outside the simulation?”",
+  "zh": "",
+  "bg": "访谈结尾的收束一问：如果你造出 AGI，你会问它什么问题？他此前刚用物理学家式的判据讨论过「与 AI 的爱」——若没有任何检验能分辨真假，那便没有区别；随后他给出了自己要问的那个问题。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "i2019-04-12",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2019.04.12",
+  "s": "「两吨重的死亡机器」",
+  "q": "“Frankly, it's pretty crazy letting people drive a two-ton death machine manually.” — “In the future, any car that does not have autonomy would be about as useful as a horse.”",
+  "zh": "",
+  "bg": "Autopilot 两度卷入致死事故、媒体追问不断。他在 MIT 的演播室里把手动驾驶定义为异常状态——问题不是机器为什么开车，而是人为什么还在开车。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "e2019-04-20",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1386,6 +1412,32 @@ window.SEARCH_INDEX = [
   "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
+  ]
+ },
+ {
+  "id": "i2019-11",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2019.11",
+  "s": "「这是错的：火星」",
+  "q": "“I wonder how many dead one-planet civilizations there are out there in the cosmos.” — [读萨根：] “There is nowhere else, at least in the near future, to which our species could migrate.” — “This is not true. This is false, Mars. And I think Carl Sagan would agree with that.”",
+  "zh": "",
+  "bg": "应 Lex 所请，他在访谈最后读了卡尔·萨根《暗淡蓝点》的名段——读着读着停下来，当场反驳了自己正在朗读的文本。此前一分钟的铺垫同样惊人：“It's only just possible to travel to Mars. Just barely. If G was 10% more, wouldn't work really.”——去火星只是勉强可行，引力再高百分之十就不成立。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "i2019-11-12",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2019.11.12",
+  "s": "「打不过，就加入」",
+  "q": "“So therefore, if you cannot beat them, join them.” — “I think the chance is above 0%.”",
+  "zh": "",
+  "bg": "Neuralink 发布会三个月后，他在公司总部坐下来解释脑机接口的终极理由：人类终将无法在智能上胜过数字超级计算机，所以要做那道算术。被追问「合并成功的概率」时，他先给了一个数字，再补了一句电影台词。",
+  "c": [
+   "Neuralink"
   ]
  },
  {
@@ -1676,6 +1728,33 @@ window.SEARCH_INDEX = [
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "i2021-12",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2021.12",
+  "s": "「金钱是信息」",
+  "q": "“Money is information, and it does not have power in and of itself.” — “Just think of money as a database for resource allocation across time and space.”",
+  "zh": "",
+  "bg": "从美联储的 COBOL 大型机谈到加密货币，他把整个货币体系翻译成信息论：政府「对货币数据库有编辑权限」，增发就是往数据库里制造误差。他给出归谬法——被困荒岛时，“all the Bitcoin in the world will not stop you from starving”。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "i2021-12-28",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2021.12.28",
+  "s": "「物理是法律，其余都是建议」",
+  "q": "“I like saying physics is law and everything else is a recommendation. I've met a lot of people that can break the law, but I haven't met anyone who could break physics.” — “Let's boil something down to the most fundamental principles, the things that we are most confident are true at a foundational level, and that sets your axiomatic base, and then you reason up from there.”",
+  "zh": "",
+  "bg": "SpaceX 一年 31 发、Tesla 市值破万亿美元之后的年尾，他用两个半小时系统讲了自己的思维方法。开场 Lex 谢他「给世界希望」，他的回答是：人类有种种问题，“despite all that, I love humanity”——随后才进入正题。被问到「你如何思考问题」，他给出这句流传最广的方法论表述。",
+  "c": [
+   "Tesla",
+   "SpaceX"
   ]
  },
  {
@@ -2360,6 +2439,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2023-11",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2023.11",
+  "s": "「speciesist / Team Robot」",
+  "q": "“At one point he called me a speciesist for being pro-human, and I'm like, well, what team are you on, Larry? He's still on Team Robot to be clear.” — “I'd like to be friends with Larry again.”",
+  "zh": "",
+  "bg": "谈 OpenAI 起源时，他给出内部版本：这家日后与他反目的公司，诞生于他与 Google 联合创始人 Larry Page 的深夜争论——当时他借住在 Page 家里谈 AI 安全，而对方不在乎。他回忆当时 Google 刚收购 DeepMind，“probably two thirds of all AI researchers in the world”、算力与资金近乎无限，掌门人却“did not care about safety and even yelled at me”。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "p2023-11-04",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -2384,6 +2476,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
   "c": [
    "xAI"
+  ]
+ },
+ {
+  "id": "i2023-11-10",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2023.11.10",
+  "s": "「病态乐观」",
+  "q": "“I've been far too optimistic about autopilot.” — “I would say that I'm pathologically optimistic on schedule. This is true.”",
+  "zh": "",
+  "bg": "第 400 期，Lex 当面向他转述一份 AI 整理的「预测清单」——他名下各公司承诺过的交付日期与兑现日的落差，结论是 “you're often too optimistic about how long it takes to get something done”。他刚讲完自己两场诉讼全胜，紧接着主动认领了这一条，整段没有任何辩解。",
+  "c": [
+   "综合"
   ]
  },
  {
