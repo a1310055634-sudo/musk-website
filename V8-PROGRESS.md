@@ -15,7 +15,7 @@
 | 轮 | 主题 | 状态 | 版本 | 成果提交 | 推送 |
 |---|---|---|---|---|---|
 | 01 | 建 V8-PROGRESS.md + funding secured 案（SEC v. Musk） | complete | v7.1.0 | 398b249 | done |
-| 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | pending | — | — | — |
+| 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | in_progress | — | — | — |
 | 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | pending | — | — | — |
 | 04 | 财报电话会 I（2013–2018） | pending | — | — | — |
 | 05 | 财报电话会 II（2019–2026） | pending | — | — | — |

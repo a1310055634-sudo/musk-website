@@ -1,5 +1,17 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（V8 R02 轮 / 2026-09-30 WebSearch 核实）**：账本 +9 条（74→83）——Twitter, Inc. v. Musk（Del. Ch. C.A. No. 2022-0613-KSJM，McCormick 大法官）2022 年披露的马斯克私信逐字件。九条锚点：e2022-03-26（Dorsey 劝进）/ e2022-04-05（Dorsey「board is terrible」）/ e2022-04-09（Agrawal 决裂 + Kimbal Plan B）/ e2022-04-16（Lonsdale-DeSantis）/ e2022-04-20（Ellison $1B）/ e2022-04-22（Gates 空头对峙，Musk 自晒件非法院披露）/ e2022-04-25（拒 SBF，签署日）/ e2022-04-26（Dorsey 斡旋）/ e2022-06-28（「lawyers causing trouble」）。核实来源（可点击）：
+> - TIME 全文转载（Dorsey/Agrawal/Kimbal/SBF/Lonsdale/Ellison 逐字，2022-09-30 发布、披露件 9-29 提交）：https://time.com/6218578/elon-musk-texts-twitter/
+> - BBC 决裂往来逐字（2022-09-30）：https://www.bbc.co.uk/news/technology-63098117
+> - Guardian Agrawal 关系线（2022-10-01）：https://www.theguardian.com/technology/2022/oct/01/elon-musk-and-twitter-boss-parag-agrawal-messages-show-blossoming-relationship
+> - Fortune/AP「40 秒后回复」披露语境（2022-09-30，Musk 律师周四提交、@chancery_daily 首发）：https://fortune.com/2022/09/30/elon-musk-friendly-text-messages-twitter-ceo-parag-agrawal-court-trial/
+> - WaPo Ellison「Roughly what dollar size?」（2022-10-01）：https://www.washingtonpost.com/technology/2022/10/01/elon-musk-texts-twitter-lawsuit/
+> - Gates 空头短信（CNBC 2022-04-23 转载自晒截图+本人确认）：https://www.cnbc.com/2022/04/23/elon-musk-tweets-that-he-confronted-bill-gates-about-shorting-tesla.html
+> - SBF $5B 参投与作罢（Axios 2022-10-03 复盘 + TIME/Yahoo Finance 转载 Grimes 4-25 短信）：https://www.axios.com/2022/10/03/sam-bankman-fried-elon-musk-twitter-deal
+> - 「Your lawyers are using these conversations to cause trouble. That needs to stop」（Musk→Agrawal/Segal，2022-06-28；BI 报道 · Economic Times 转载）：https://economictimes.indiatimes.com/magazines/panache/elon-musks-warning-text-to-twitter-ceo-parag-agrawal-your-lawyers-are-causing-trouble/articleshow/92899468.cms
+> - 案卷索引（The Chancery Daily 运营，C.A. No. 2022-0613-KSJM）：https://www.chancerydocket.com/
+> 甄别注：Ellison 回复原文仅采「Roughly what dollar size?」一问（TIME/WaPo 双源），其回复以 TIME「within an hour committed $1B」转述呈现，未杜撰原句；Kim Kardashian/Tim Cook 短信两源检索无果未收录；「I love the idea of buying Twitter」Ellison 名句两源检索无印证未采用。
+
 > **新事实入包（v5.93.0 轮 / 2026-09-26 WebSearch 核实）**：争议板块 Twitter 内容审核篇深化——欧盟 DSA 时间线（无新增 Musk 逐字引语，不新增语录卡）：
 > ① 2023.10 欧盟委员 Breton 致信警告 X（TechCrunch）；2023.12 正式立案（Euronews）。
 > ② **2025.12.05 欧盟委员会对 X 开出 DSA 生效以来首张罚单 €1.2 亿**（约 $140M，远低于全球营收 6% 上限）：付费蓝勾「欺骗性」+ 广告商/研究者数据透明义务违反。来源：The Register / AP / PCMag / Pinsent Masons（2025-12-18 报道）——多源互证。

@@ -1520,6 +1520,45 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2022-03-26",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.03.26",
+  "s": "私信（Twitter v. Musk, Del. Ch. C.A. No. 2022-0613-KSJM 披露件）· TIME/BBC 全文转载",
+  "q": "“You care so much, get its importance, and could def help in immeasurable ways.”",
+  "zh": "你这么在乎它、懂它的重要，绝对能以不可估量的方式帮上忙。（Dorsey 语，3 月 26 日）",
+  "bg": "On March 25, 2022, Musk tweeted that Twitter — the de facto public town square — was failing free-speech principles, and polled his followers: roughly seventy percent said Twitter did not adhere to them. That night, Jack Dorsey, pushed out of the CEO chair a year earlier by the board he once ran, opened a private line to him.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2022-04-05",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.05",
+  "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/BBC 全文转载",
+  "q": "“Thank you for joining! Parag is an incredible engineer. The board is terrible. Always here to talk through anything you want.” — “I couldn't be happier you're doing this. I've wanted it for a long time. Got very emotional when I learned it was finally possible.”",
+  "zh": "谢谢你加入！Parag 是个了不起的工程师。董事会糟透了。任何时候想聊都可以找我。——你做这件事我高兴得不能再高兴了。我盼这一天很久了。得知终于有可能时，我激动得不行。",
+  "bg": "On April 4 his 9.2% passive stake was disclosed — the largest single shareholder; on April 5 Twitter announced he would join the board. That same day, Dorsey congratulated him in private — and delivered his verdict on the company's power structure.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2022-04-09",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.09",
+  "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/BBC/Guardian 三源全文转载",
+  "q": "“You are free to tweet 'is Twitter dying?' or anything else about Twitter – but it's my responsibility to tell you that it's not helping me make Twitter better in the current context.” — his reply, forty seconds later: “What did you get done this week?” “I'm not joining the board. This is a waste of time. Will make an offer to take Twitter private.”",
+  "zh": "你有权发推说「Twitter 正在死吗」或任何关于 Twitter 的话——但我有责任告诉你：在当前语境下，这对把 Twitter 做好没有帮助。——他四十秒后回复：「你这周干了什么？」「我不进董事会了。这是浪费时间。我会发起要约把 Twitter 私有化。」",
+  "bg": "On April 7 the two CEOs were still trading engineer-to-engineer warmth — he wrote “I just want Twitter to be maximum amazing,” and Agrawal answered: “treat me like an engineer instead of a CEO and let's see where we get to.” The break came on April 9, when he tweeted “Is Twitter dying?” — and Agrawal answered in private.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-04-14",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1560,6 +1599,58 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2022-04-16",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.16",
+  "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME 全文转载",
+  "q": "“Governor DeSantis just called me just now with ideas how to help you. Let me know if you or somebody on your side wants to chat [with] him.” — his reply: “Haha cool.”",
+  "zh": "州长 DeSantis 刚刚亲自打电话给我，说了些能帮你的想法。如果你或你的人想跟他聊聊，告诉我。——他的回复：「哈哈，酷。」",
+  "bg": "Two days after the tender offer went public, the political world reached in. Venture investor Joe Lonsdale — Palantir co-founder — relayed a call from Florida governor Ron DeSantis.",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "e2022-04-20",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.20",
+  "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/WaPo/Gizmodo 转载",
+  "q": "“Roughly what dollar size?”",
+  "zh": "大概要多大规模？（4 月 20 日问 Ellison 参投规模；Ellison 不到一小时回复，承诺 10 亿美元——TIME 记录）",
+  "bg": "A $44B all-cash bid needed an equity consortium: Musk put in his own slice, banks arranged $13B in debt, and he recruited the rest one text at a time. His first big anchor: Larry Ellison — Tesla board colleague and Oracle founder.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2022-04-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.22",
+  "s": "私信截图（Musk 2022.04.22 自晒推文公开）· CNBC/BI/Fox Business 报道",
+  "q": "“Do you still have a half billion dollar short position against Tesla?” — Gates: “Sorry to say I haven't closed it out. I would like to discuss philanthropy possibilities.” — his reply: “Sorry, I cannot take your philanthropy on climate change seriously when you have a massive short position against Tesla, the company doing the most to solve climate change.”",
+  "zh": "你对 Tesla 还有 5 亿美元空头头寸吗？——Gates：「很遗憾还没平掉。我想聊聊慈善合作的可能性。」——他的回复：「抱歉，当你对 Tesla——这家为解决气候变化做得最多的公司——持有巨额空头头寸时，我没法把你的气候慈善当真。」",
+  "bg": "In the sensitive week between tender offer (April 14) and signing (April 25), Bill Gates sought a meeting on climate philanthropy. Musk had heard at TED that Gates still held a multibillion-dollar short position against Tesla — and asked him straight.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2022-04-25",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.25",
+  "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/Yahoo Finance 转载 · Axios 复盘",
+  "q": "“Blockchain Twitter isn't possible. The bandwidth and latency requirements cannot be supported by a peer to peer network, unless those 'peers' are absolutely gigantic, thus defeating the purpose of a decentralized network.” — “So long as I don't have to have a laborious blockchain debate.”",
+  "zh": "区块链版 Twitter 行不通。带宽与延迟要求是点对点网络撑不住的——除非那些「节点」大到失去去中心化的意义。前提是：我不用陷入一场冗长的区块链辩论。",
+  "bg": "April 25 was signing day for the merger agreement. That same day, FTX founder Sam Bankman-Fried came in through a chain of introductions — philosopher Will MacAskill, then Grimes, who texted: SBF would commit up to $5 billion in equity, and “I do believe you will like him.”",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "d2022-04-25",
   "pg": "documents.html",
   "t": "一手文档",
@@ -1585,6 +1676,32 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "e2022-04-26",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.04.26",
+  "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/BBC 全文转载",
+  "q": "“I just want to make this amazing and feel bound to it. I won't let this fail and will do whatever it takes. It's just too critical to humanity.” — his answer: “You and I are in complete agreement. Parag is just moving far too slowly and trying to please people who will not be happy no matter what he does.” Dorsey: “At least it became clear that you can't work together.”",
+  "zh": "我只想把它变棒，并且我觉得自己与之绑定。我不会让它失败，愿意做任何事。它对人类太关键了。——他的回答：你我完全一致。Parag 只是推进得太慢，而且一直在试图取悦那些无论如何都不会高兴的人。Dorsey 回：至少现在清楚了——你们俩没法共事。",
+  "bg": "The day after signing, Dorsey called both men, then texted each a coda — trying one last time to find a place for Agrawal in the new structure.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2022-06-28",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.06.28",
+  "s": "私信（诉讼初期披露件）· Business Insider 报道 · Economic Times 转载",
+  "q": "“Your lawyers are using these conversations to cause trouble. That needs to stop.”",
+  "zh": "你们的律师在用这些对话制造麻烦。这必须停止。",
+  "bg": "Two months after signing, execution had turned adversarial: Twitter demanded disclosure of his financing plans and public statements, his lawyers contested the scope, and on May 13 he had publicly put the deal “on hold” over the spam-account question. On June 28 he bypassed the lawyers and texted Agrawal and CFO Ned Segal directly.",
+  "c": [
+   "X / Twitter"
   ]
  },
  {

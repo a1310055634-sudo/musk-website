@@ -2,6 +2,15 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v7.2.0 — 2026-09-30 · V8 扩充（2/10）：Twitter 收购案私信原件
+
+**主题包成果（V8 R02 · 特拉华衡平法院披露件）**
+- **账本 +9 条（74→83）**：Twitter, Inc. v. Musk（Del. Ch. C.A. No. 2022-0613-KSJM）2022 年披露的私信逐字件——e2022-03-26 Dorsey 劝进（「could def help in immeasurable ways」）、e2022-04-05 Dorsey 祝贺入董事会（「Parag is an incredible engineer. The board is terrible.」）、e2022-04-09 Musk↔Agrawal 决裂（「What did you get done this week?」/「I'm not joining the board. This is a waste of time.」+ 同日 Kimbal「no throat to choke」Plan B）、e2022-04-16 Lonsdale 转达 DeSantis（政治入场）、e2022-04-20 Ellison 一小时承诺 10 亿美元（「Roughly what dollar size?」）、e2022-04-22 Gates 空头对峙（Musk 自晒件 · CNBC/BI 印证）、e2022-04-25 签署日拒 SBF（「Blockchain Twitter isn't possible」）、e2022-04-26 Dorsey 斡旋收尾（「too critical to humanity」/「At least it became clear that you can't work together」）、e2022-06-28 「Your lawyers are using these conversations to cause trouble」（BI/Economic Times 披露）；
+- **quotes.html 核实卡 +9（61→70）**：每条新账本引文块逐一对卡；
+- **交叉引用**：platform-x.html 阶段一补两处账本链接（px-0414 要约 → e2022-04-09 私信；px-0425 协议 → e2022-04-25 SBF 拒绝信）；index.html 三处「74 条」计数文案升 83；
+- **管线**：build-ledger-timeline（时间轴 83 节点）/ build-search-index（断言 74→83，索引 185→194）/ sync-changelog / build-epub 全部重跑；
+- 来源留档：V8-PROGRESS.md「核实来源留档（R02）」节（TIME/BBC/Guardian/WaPo/Gizmodo/CNBC 全文转载 + 案号 C.A. No. 2022-0613-KSJM；Gates 短信为 Musk 2022-04-22 自晒件）。
+
 ## v7.1.0 — 2026-09-30 · V8 扩充（1/10）：funding secured 案（SEC v. Musk）
 
 **主题包成果（V8 R01 · 第一手信息扩充计划启动轮）**
