@@ -627,6 +627,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2016-02-10",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2016.02.10",
+  "s": "Tesla Q4 2015 财报电话会 · stockanalysis.com 逐字稿 · The Guardian",
+  "q": "“We’re really looking forward to the unveiling of the Model 3 at the end of next month. I think this is going to be really well-received, getting into production and delivery at the end of next year.”",
+  "zh": "我们非常期待下个月底的 Model 3 发布。我认为它会大受欢迎，然后在明年底进入生产和交付。",
+  "bg": "Ten weeks before the Model 3 unveiling, Tesla was burning cash on the Model X ramp and 2015 had ended with a bigger loss. On the Q4 2015 call, Musk set the stage: the mass-market car was seven weeks from being shown.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2016-03-31",
   "pg": "primary.html",
   "t": "言行实录",
@@ -649,6 +662,19 @@ window.SEARCH_INDEX = [
   "q": "Model 3 预订夜，约 40 万张订单压顶，周产 5000 生死线开启（账本）。",
   "zh": "",
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2016-05-04",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2016.05.04",
+  "s": "Tesla Q1 2016 财报电话会 · stockanalysis.com 逐字稿",
+  "q": "“The date we are setting with suppliers to get to a volume production capability with the Model 3 is July 1st next year. I would say we would aim to produce 100,000 to 200,000 Model 3s in the second half of next year.”",
+  "zh": "我们与供应商约定的日期，是让 Model 3 在明年 7 月 1 日具备量产能力。我想我们的目标是明年下半年生产 10 万到 20 万辆 Model 3。",
+  "bg": "Five weeks after the record-order night, suppliers, analysts and short sellers were all asking the same question: could a company that had never built a car at volume actually do it? On the Q1 2016 call, Musk answered with a date.",
   "c": [
    "Tesla"
   ]
@@ -692,6 +718,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2016-08-03",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2016.08.03",
+  "s": "Tesla Q2 2016 财报电话会 · stockanalysis.com 逐字稿",
+  "q": "“Full autonomy is gonna come a hell of a lot faster than anyone thinks it will. … It’s really a software limitation. The hardware is, I mean, the hardware exists to create full autonomy.”",
+  "zh": "完全自动驾驶的到来会快得超出所有人的想象。……这其实只是软件的限制。硬件——我是说，实现完全自动驾驶的硬件已经存在。",
+  "bg": "The world had just learned that a Tesla driver died in Florida with Autopilot engaged, and days earlier Mobileye said it would not renew the partnership. The question hanging over the Q2 2016 call was whether Autopilot would be pulled back. It was Musk’s first earnings call since the news broke.",
+  "c": [
    "Tesla"
   ]
  },
@@ -748,6 +787,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2016-10-26",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2016.10.26",
+  "s": "Tesla Q3 2016 财报电话会 · stockanalysis.com 逐字稿",
+  "q": "“You’ll, I think you will be quite pleasantly surprised by what we debut on Friday. It’s exceeded my expectations. … I expect SolarCity to be approximately cash neutral, all things considered, next year.”",
+  "zh": "我想，你会对我们周五发布的东西相当惊喜——它超出了我自己的预期。……我预计明年，SolarCity 大致能做到现金流打平。",
+  "bg": "Two days before the solar-roof reveal, and three weeks before shareholders voted on the SolarCity merger he had championed against investor objections (see 2016.11), Musk used the Q3 2016 call to sell both at once.",
+  "c": [
+   "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2016-11",
   "pg": "primary.html",
   "t": "言行实录",
@@ -758,6 +811,19 @@ window.SEARCH_INDEX = [
   "bg": "The $2.6B acquisition of SolarCity — a company founded by his cousins, where he was chairman and largest shareholder — was the most controversial deal of his career. Shareholders approved it in November, but the lawsuit lasted for years.",
   "c": [
    "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2017-02-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.02.22",
+  "s": "Tesla Q4 2016 财报电话会 · stockanalysis.com 逐字稿",
+  "q": "“I currently think that we should be able to do 500,000 vehicles next year and 1 million vehicles by 2020.”",
+  "zh": "我目前认为，我们明年（2018）应该能做到 50 万辆，到 2020 年做到 100 万辆。",
+  "bg": "Entering 2017, Tesla had never delivered more than 77,000 cars in a year. On the Q4 2016 call, Musk projected a 6.5x jump for 2018 — every unit of it hinging on a car that had not yet entered production.",
+  "c": [
    "Tesla"
   ]
  },
@@ -848,6 +914,32 @@ window.SEARCH_INDEX = [
   "q": "「Welcome to production hell!」——Model 3 量产爬坡，自动化过度的自我纠正随之而来（账本）。",
   "zh": "",
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2017-08-02",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.08.02",
+  "s": "Tesla Q2 2017 财报电话会 · stockanalysis.com 逐字稿",
+  "q": "“Yeah, when I said manufacturing hell and supply chain hell on Friday, I meant it. … I’m very confident that we will be able to reach a production rate of 10,000 vehicles per week towards the end of next year.”",
+  "zh": "是的，我周五说生产地狱、供应链地狱，是认真的。……我非常有信心，我们能在明年年底达到周产 10,000 辆。",
+  "bg": "Four days after telling the first 30 Model 3 owners “Welcome to production hell!” (see 2017.07.28), Musk faced analysts for the first time since. Q2 2017 had just set a record loss.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2017-11-01",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.11.01",
+  "s": "Tesla Q3 2017 财报电话会 · stockanalysis.com 逐字稿 · MediaPost",
+  "q": "“How hot is it in hell right now? Is it getting hotter or less hot?” — “We were in level 9. We’re now in level 8, and I think we’re close to exiting level 8.”",
+  "zh": "「地狱现在有几热？是更热了还是没那么热了？」——「我们曾在第 9 层。现在在第 8 层，而且我想我们快走出第 8 层了。」",
+  "bg": "Q3 2017 ended with 260 Model 3s built against a 1,500 target, a record $671 million loss, and a bottleneck nobody had named publicly. Morgan Stanley’s Adam Jonas opened his question like a weather report.",
   "c": [
    "Tesla"
   ]
@@ -987,6 +1079,34 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2018-04-13",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.04.13",
+  "s": "本人推文 · Gadgets360/NDTV · The Guardian（2018 年表）",
+  "q": "“Yes, excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
+  "zh": "是的，Tesla 的过度自动化是个错误。精确地说，是我的错误。人类被低估了。",
+  "bg": "Model 3 output had missed another weekly target, and Musk spent the evening on Twitter dissecting the automation doctrine his factory had been built on. The verdict came in three sentences.",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2018-05-02",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.05.02",
+  "s": "Tesla Q1 2018 财报电话会 · BBC · Slate · The Verge",
+  "q": "“Excuse me. Next. Boring, bonehead questions are not cool. Next. … We’re going to go to YouTube. Sorry, these questions are so dry. They’re killing me.”",
+  "zh": "抱歉，下一个。无聊的蠢问题不酷。下一个。……我们去 YouTube。抱歉，这些问题太干了，快把我无聊死了。",
+  "bg": "Tesla reported a record quarterly loss; Wall Street’s questions were about cash. Musk had other plans for the microphone.",
+  "c": [
+   "Tesla",
+   "Boring Company"
+  ]
+ },
+ {
   "id": "e2018-05-20",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1011,6 +1131,19 @@ window.SEARCH_INDEX = [
   "bg": "After British cave diver Vernon Unsworth helped rescue 12 boys from a Thai cave, he dismissed Musk's mini-submarine as a “PR stunt” on CNN. Musk retaliated on Twitter with a series of now-deleted posts, the key one ending: “Sorry pedo guy, you really did ask for it.”",
   "c": [
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2018-08-01",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.08.01",
+  "s": "Tesla Q2 2018 财报电话会 · Business Insider · Bloomberg",
+  "q": "“I’d like to apologize for being impolite on the prior call. … There’s no excuse for bad manners.”",
+  "zh": "我想为上次电话会上的失礼道歉。……没礼貌没有任何借口。",
+  "bg": "Six days before the “funding secured” tweet (see 2018.08.07), Tesla’s Q2 report showed the cash burn slowing. Musk opened the call by returning to a wound of his own making.",
+  "c": [
+   "Tesla"
   ]
  },
  {

@@ -2,6 +2,28 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v7.4.0 — 2026-09-30 · V8 扩充（4/10）：财报电话会 I（2013–2018）
+
+**主题包成果（V8 R04 · 账本 primary.html 83 → 93 条）**
+- **账本 +10 条（9 条财报电话会 + 1 条推文前史，逐字均直读逐字稿/多源印证）**：
+  e2016-02-10 Q4 2015 call（Model 3 发布预告：「really well-received, getting into production and delivery at the end of next year」）；
+  e2016-05-04 Q1 2016 call（供应商契约式承诺：「volume production capability … July 1st next year」+ 下半年 10–20 万辆目标，2017 实产 2,685 辆落差约 50 倍）；
+  e2016-08-03 Q2 2016 call（Joshua Brown 事故后首个 call：「full autonomy is gonna come a hell of a lot faster than anyone thinks」+「hardware exists」口径 +「35,000 automotive deaths」反问）；
+  e2016-10-26 Q3 2016 call（solar roof 周五发布预告 +「SolarCity to be approximately cash neutral, next year」）；
+  e2017-02-22 Q4 2016 call（500,000 vehicles next year + 1 million by 2020 预测 +「We anti-sell the Model 3」，2018 实交 245,240）；
+  e2017-08-02 Q2 2017 call（「when I said manufacturing hell and supply chain hell on Friday, I meant it」+ 2018 年底周产 10,000 预测 + S-curve 金句）；
+  e2017-11-01 Q3 2017 call（Jonas「How hot is it in hell?」→「We were in level 9. We're now in level 8」+ 电池模组线瓶颈点破）；
+  e2018-04-13 自动化认错推文（「excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.」· Gadgets360/The Guardian 印证，作为 Q1 call flufferbot 展开段的前史入册）；
+  e2018-05-02 Q1 2018 call（「Boring, bonehead questions are not cool. Next」+ 转 YouTube + flufferbot 故事 · BBC/Slate/The Verge 三源）；
+  e2018-08-01 Q2 2018 call（「I'd like to apologize for being impolite on the prior call … There's no excuse for bad manners」· Business Insider/Bloomberg，funding secured 六天前）。
+- **quotes.html 核实卡 +10（70→80）**：每条新账本引文块逐一对卡；
+- **管线**：build-ledger-timeline（时间轴 93 节点）/ build-search-index（断言 83→93，索引 194→209）/ build-revisions / sync-changelog / build-epub 全部重跑；index.html 计数文案 83→93 ×5；
+- **甄别记录（宁缺毋滥）**：①Q4 2013 call（2014-02-19）Gigafactory 表述全为「下周官宣再谈」的推迟口径，无出彩逐字，弃；②Q2 2016 call Autopilot 辩护各家转述不一（「more deaths」「50%」均无稳定逐字），改以逐字稿直读的 full autonomy/hardware 句立条；③Q3 2017「level 9→level 8」采用 stockanalysis.com（Quartr）转写并以 MediaPost「one to nine」与 CNBC「deep in production hell」双源印证；④「manufacturing hell and supply chain hell on Friday」按转写照录，并在条目内注明台上原话为「production hell」（两场合措辞差异如实呈现）。
+- 来源留档：V8-PROGRESS.md「核实来源留档（R04）」节。
+
+**质量门**
+- verify.py 9 项全绿；node --check app.js/cite.js 通过。
+
 ## v7.3.0 — 2026-09-30 · V8 扩充（3/10）：SEC EDGAR 公文扩容
 
 **主题包成果（V8 R03 · documents.html 9 → 14 份）**
