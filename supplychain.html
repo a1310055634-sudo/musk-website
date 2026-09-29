@@ -28,6 +28,11 @@
 .sc-src { font-size: 11px; letter-spacing: .12em; color: var(--muted); border: 1px solid rgba(23,25,29,.16); border-radius: 999px; padding: 2px 12px; display: inline-block; margin: 6px 0 10px; }
 .sc-note { font-size: 13.5px; color: var(--muted); line-height: 1.85; border-left: 3px solid #1f3a5f; padding: 8px 14px; background: #f3f0ea; margin: 12px 0; }
 .sc-foot { margin-top: 26px; font-size: 11px; color: #8a857c; letter-spacing: .04em; line-height: 1.8; }
+@media (max-width: 560px) {
+  .sc-row { grid-template-columns: 1fr; gap: 3px; padding: 10px 0; }
+  .sc-row .sc-v { overflow-wrap: anywhere; }
+  .sc-src { letter-spacing: .06em; padding: 2px 8px; }
+}
 @media print { .sc-page { padding: 20px; } .sc-sec > h2 { break-after: avoid; } .sc-row, .sc-note { break-inside: avoid; } .sc-back { display: none; } .ps-nav { display: none !important; } .sc-foot { color: #555; } }
 </style>
   <meta property="og:title" content="供应链与工厂哲学 · 马斯克商业志 MUSK, INC." />

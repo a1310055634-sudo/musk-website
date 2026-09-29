@@ -1763,3 +1763,12 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 .sr-evmat li a:hover { color: var(--accent); }
 .sr-clear { font-size: 11.5px; font-weight: 700; letter-spacing: 0.06em; color: var(--accent-text); background: #fff; border: 1px solid var(--accent); border-radius: 3px; padding: 2px 10px; cursor: pointer; margin-left: 8px; }
 .sr-clear:hover { background: var(--accent); color: #fff; }
+
+/* ============================================================
+   V7-R16 手机全流程打磨修复层（320/390/768 扫描结果）
+   ============================================================ */
+/* companies.html 320px 微溢出：关系行内不可断内容 */
+.net-li-main, .net-gtitle, .net-ul li { overflow-wrap: anywhere; }
+/* 触摸目标：筛选芯片与引用按钮 ≥26px 高 */
+.gx-fchip { min-height: 28px; padding-top: 4px; padding-bottom: 4px; }
+.cite-btn { min-height: 26px; padding-top: 3px; padding-bottom: 3px; }

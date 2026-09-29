@@ -28,6 +28,11 @@
 .cy-pending a { color: var(--accent); text-decoration: none; }
 .cy-pending a:hover { text-decoration: underline; }
 .cy-foot { margin-top: 26px; font-size: 11px; color: #8a857c; letter-spacing: .04em; line-height: 1.8; }
+@media (max-width: 420px) {
+  .cy-year { grid-template-columns: 1fr; gap: 2px; padding: 9px 0; }
+  .cy-y { text-align: left; font-size: 15px; }
+  .cy-ev { overflow-wrap: anywhere; }
+}
 @media print { .cy-page { padding: 20px; } .cy-co { break-inside: avoid; } .cy-year { break-inside: avoid; } .cy-back { display: none; } .ps-nav { display: none !important; } .cy-pending { display: none; } }
 </style>
   <meta property="og:title" content="四家公司编年史 · 马斯克商业志 MUSK, INC." />
