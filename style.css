@@ -1464,3 +1464,101 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
   .cf-file { break-inside: avoid; }
   .cf-fig img { max-height: 300px; object-fit: cover; }
 }
+
+/* ============================================================
+   V7-R10 资本流向组件层（.cap-*）— capital-evolution.html#flow
+   数据：tools/capital-data.py · 生成：tools/build-capital.py
+   ============================================================ */
+.cap-meta { font-size: 12.5px; color: var(--muted); line-height: 1.8; margin: 8px 0 12px; }
+.cap-controls { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin: 0 0 8px; }
+.cap-chip { display: inline-flex; align-items: center; gap: 5px; font: inherit; font-size: 12px; letter-spacing: .02em; padding: 3px 10px; background: #fff; border: 1px solid var(--hairline); border-radius: 999px; color: var(--ink); cursor: pointer; transition: background .18s, color .18s, border-color .18s; }
+.cap-chip i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+.cap-chip:hover { border-color: var(--ink); }
+.cap-chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.cap-clear { font: inherit; font-size: 12px; background: none; border: none; color: var(--accent-text); text-decoration: underline; cursor: pointer; padding: 3px 4px; }
+.cap-clear:hover { color: var(--ink); }
+.cap-statusline { margin: 0 0 10px; }
+.cap-status { font-size: 12px; color: var(--muted); line-height: 1.7; }
+/* 图 */
+.cap-graphwrap { overflow-x: auto; padding-bottom: 4px; border: 1px solid rgba(23,25,29,.14); background: #fff; border-radius: 6px; }
+.cap-graph { display: block; width: 100%; height: auto; min-width: 700px; }
+.cap-flow { cursor: pointer; }
+.cap-flow .cap-ribbon { transition: opacity var(--t-fast), stroke-width var(--t-fast); }
+.cap-flow:hover .cap-ribbon, .cap-flow.on .cap-ribbon, .cap-flow.hl .cap-ribbon { opacity: .88; }
+.cap-flow.dim .cap-ribbon { opacity: .08; }
+.cap-flow.dim .cap-elabel { opacity: .25; }
+.cap-elabel { font-family: var(--serif); font-size: 11px; fill: var(--ink); pointer-events: none; }
+.cap-node { cursor: pointer; }
+.cap-node-bg { fill: #fff; stroke: rgba(23,25,29,.28); stroke-width: 1; transition: stroke var(--t-fast); }
+.cap-node:hover .cap-node-bg, .cap-node.on .cap-node-bg { stroke: var(--accent); stroke-width: 1.6; }
+.cap-node.dim { opacity: .35; }
+.cap-nlabel { font-family: var(--serif); font-size: 13.5px; font-weight: 700; fill: var(--ink); pointer-events: none; }
+.cap-nsub { font-family: var(--serif); font-size: 10px; fill: var(--muted); pointer-events: none; }
+.cap-flow:focus-visible, .cap-node:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* 图例 */
+.cap-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 11.5px; color: var(--muted); line-height: 1.9; margin: 8px 0 4px; }
+.cap-lg { display: inline-flex; align-items: center; gap: 6px; }
+.cap-lg b { color: var(--ink); }
+.cap-lg-line { display: inline-block; width: 26px; height: 2px; background: #8a857c; }
+.cap-lg-line--w2 { height: 6px; }
+.cap-lg-line--dash { background: repeating-linear-gradient(90deg, #8a857c 0 3px, transparent 3px 6px); }
+.cap-lg-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+/* 详情面板 */
+.cap-detail { border-top: 2px solid var(--ink); margin-top: 12px; padding: 12px 2px 6px; min-height: 30px; }
+.cap-detail-empty { font-size: 12.5px; color: #9a948b; font-style: italic; line-height: 1.8; margin: 0; }
+.cap-d-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-bottom: 8px; }
+.cap-d-dot { width: 11px; height: 11px; border-radius: 2px; flex: none; }
+.cap-d-name { font-family: var(--serif); font-size: 17px; }
+.cap-d-close { margin-left: auto; font: inherit; font-size: 12px; background: none; border: 1px solid var(--hairline); border-radius: 4px; padding: 3px 12px; cursor: pointer; color: var(--ink); }
+.cap-d-close:hover { border-color: var(--accent); color: var(--accent); }
+.cap-d-amt { font-size: 14.5px; margin: 0 0 6px; }
+.cap-d-amt b { font-family: Georgia, serif; color: var(--accent-text); font-size: 16px; }
+.cap-d-caliber { font-size: 13px; color: var(--muted); line-height: 1.85; margin: 0 0 8px; }
+.cap-d-caliber b { color: var(--accent-text); letter-spacing: .12em; font-size: 11px; margin-right: 6px; }
+.cap-d-sec { font-size: 11.5px; letter-spacing: .12em; color: var(--muted); margin: 10px 0 4px; }
+.cap-d-links { display: flex; flex-direction: column; gap: 5px; font-size: 13px; line-height: 1.6; }
+.cap-d-links a, .cap-d-links .cap-d-jump { color: var(--accent-text); text-decoration: none; text-align: left; font: inherit; font-size: 13px; background: none; border: none; padding: 0; cursor: pointer; border-bottom: 1px dotted rgba(200,64,50,.45); align-self: flex-start; }
+.cap-d-links a:hover, .cap-d-links .cap-d-jump:hover { color: var(--accent); }
+.cap-d-src { font-size: 12.5px; line-height: 2; margin: 0 0 6px; color: var(--muted); }
+.cap-d-src a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200,64,50,.45); margin-right: 10px; }
+.cap-d-src a:hover { color: var(--accent); }
+/* 清单 */
+.cap-list { margin-top: 14px; }
+.cap-group { margin-bottom: 18px; }
+.cap-gtitle { font-family: var(--serif); font-size: 17px; display: flex; align-items: center; gap: 8px; margin: 0 0 8px; }
+.cap-gdot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.cap-gcount { font-size: 12px; color: var(--muted); font-family: var(--sans); font-weight: 400; }
+.cap-ul { list-style: none; }
+.cap-li { display: flex; gap: 10px; padding: 10px 2px; border-top: 1px dotted rgba(23,25,29,.18); cursor: pointer; }
+.cap-li:hover { background: rgba(23,25,29,.03); }
+.cap-li-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 7px; flex: none; }
+.cap-li-main { font-size: 13.5px; line-height: 1.8; }
+.cap-li-dir { font-family: var(--serif); font-size: 14.5px; }
+.cap-li-amt { font-family: Georgia, serif; color: var(--accent-text); }
+.cap-li-date { font-size: 12px; color: var(--muted); margin: 0 4px; }
+.cap-li-badge { display: inline-block; font-size: 10.5px; letter-spacing: .04em; border: 1px solid var(--hairline); border-radius: 3px; padding: 0 6px; margin-left: 4px; color: var(--muted); background: #fff; vertical-align: 1px; }
+.cap-li-badge--p { border-style: dotted; }
+.cap-li-caliber { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.8; margin-top: 2px; }
+.cap-li-src { display: block; font-size: 12px; color: var(--muted); line-height: 2; }
+.cap-li-src a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200,64,50,.45); margin-right: 8px; }
+.cap-li-src a:hover { color: var(--accent); }
+.cap-hidden { display: none !important; }
+/* 不入图声明 */
+.cap-nonflow { font-size: 12.5px; color: var(--muted); line-height: 1.9; border: 1px dashed var(--accent); padding: 11px 14px; margin: 14px 0 4px; }
+.cap-nonflow b { color: var(--accent); letter-spacing: .14em; font-size: 11px; display: block; margin-bottom: 4px; }
+.cap-nonflow a { color: var(--accent-text); }
+/* 手机 ≤760px：清单为主形态（清单桌面同样可见，不是降级） */
+@media (max-width: 760px) {
+  .cap-graphwrap { display: none; }
+  .cap-legend { display: none; }
+  .cap-detail { display: none; }
+}
+@media print {
+  .cap-controls, .cap-statusline, .cap-detail { display: none; }
+  .cap-graphwrap { border: none; overflow: visible; }
+  .cap-graph { min-width: 0; }
+  .cap-li { break-inside: avoid; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cap-flow .cap-ribbon, .cap-node-bg, .cap-chip { transition: none; }
+}
