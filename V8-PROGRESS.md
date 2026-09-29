@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|
 | 01 | 建 V8-PROGRESS.md + funding secured 案（SEC v. Musk） | complete | v7.1.0 | 398b249 | done |
 | 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | complete | v7.2.0 | a48c1df | done |
-| 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | in_progress | — | — | — |
+| 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | complete | v7.3.0 | eceb6ee | done |
 | 04 | 财报电话会 I（2013–2018） | pending | — | — | — |
 | 05 | 财报电话会 II（2019–2026） | pending | — | — | — |
 | 06 | 长访谈 I：Lex Fridman 四期 | pending | — | — | — |
@@ -46,6 +46,27 @@ Twitter, Inc. v. Musk（Del. Ch. **C.A. No. 2022-0613-KSJM**，McCormick 大法�
 - Gates 空头短信（Musk 2022-04-22 自晒截图+发推确认，CNBC 2022-04-23 转载，注明无法独立核实）：https://www.cnbc.com/2022/04/23/elon-musk-tweets-that-he-confronted-bill-gates-about-shorting-tesla.html
 - SBF $5B 参投与作罢（Axios 2022-10-03）：https://www.axios.com/2022/10/03/sam-bankman-fried-elon-musk-twitter-deal
 - 「Your lawyers are using these conversations to cause trouble. That needs to stop」（2022-06-28，Musk→Agrawal/Segal；BI 报道 · Economic Times 转载）：https://economictimes.indiatimes.com/magazines/panache/elon-musks-warning-text-to-twitter-ceo-parag-agrawal-your-lawyers-are-causing-trouble/articleshow/92899468.cms
+
+## 核实来源留档（R03）
+
+五份 EDGAR 文书（全部 curl 直读原文逐字核验，Acc-no 在册；清单页 https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=… 按 type+dateb 检索）：
+- **d2018-08-14** Tesla 8-K（Item 7.01 + Ex-99.1 新闻稿，Acc-no 0001564590-18-021585）：https://www.sec.gov/Archives/edgar/data/1318605/000156459018021585/tsla-ex991_6.htm ——「not yet received a formal proposal」；委员会 Buss/Denholm/Johnson Rice；「no Going Private Transaction will be consummated without the approval of the special committee」
+- **d2022-04-11** Twitter 8-K/A（Acc-no 0001193125-22-101041）：https://www.sec.gov/Archives/edgar/data/1418091/000119312522101041/0001193125-22-101041.txt ——4.04 letter agreement / 4.09 辞谢；原始 4.05 8-K 不在 EDGAR 8-K 列表（甄别后不引用）
+- **d2022-07-26** Twitter DEFM14A（Acc-no 0001193125-22-202163）：https://www.sec.gov/Archives/edgar/data/1418091/000119312522202163/d283119ddefm14a.htm ——4.13 要约信全文 + Background of the Merger 全节（9.2% 曝光 / 15% 持股上限谈判 / 毒丸 4.15 / 融资承诺 4.21 / Taylor 4.23「压价不太可能成功」/ 4.24–25 放行）
+- **d2022-10-27** Twitter 最后一份 8-K（10.27 交割 / 10.31 备案，Acc-no 0001193125-22-272772）：https://www.sec.gov/Archives/edgar/data/1418091/000119312522272772/d411753d8k.htm ——「Mr. Musk became the sole director of Twitter」/ 九董事列名 / NYSE 10.28 摘牌（Form 25→15）/ 债券 101% 控制权要约 / 终止 2018-08-07 循环信贷
+- **d2024-04-29** Tesla DEF 14A（Acc-no 0001104659-24-053333）：https://www.sec.gov/Archives/edgar/data/1318605/000110465924053333/tm2326076d15_def14a.htm ——议案三迁州德州 / 议案四追认 2018 奖励 / 2024-02-04 与 02-10 董事会及特别委员会 / 引马斯克 X 帖 / Tornetta No. 2018-0408-KSJM / Denholm 信「reinstate your vote」
+- 表决与迁州补充（多源）：2024-06-13 两案皆过、薪酬项约 77%（CNBC/Reuters/AP/Tesla IR）；2024-12 特拉华重申撤销（Bloomberg Law）；Tesla 2024-07-02 8-K 封面注册地 Texas（Acc-no 0001628280-24-030714）
+
+## 第 3 轮工作记录（SEC EDGAR 公文扩容）— complete（2026-09-30）
+
+- **交付**：documents.html +5 份（9→14，编号/结构严格克隆既有 `<article class="doc-article" id="d…">` 模板，四段式「原文摘录+本站注释+兑现情况」双语）：d2018-08-14（funding secured 一周后的特别委员会 8-K，监管口径急刹车）、d2022-04-11（董事会提名五日始末 8-K/A，收购案第一份法律文书）、d2022-07-26（DEFM14A：4.13 要约信全文 + Background 逐日大事记）、d2022-10-27（最后一份 8-K：交割、唯一董事、退市，与 d2022-04-25 协议首尾呼应）、d2024-04-29（Tornetta 后 2018 奖励再批 + 迁州德州双议案 proxy）。
+- **交叉引用**：platform-x px-0414 补 d2022-04-11/d2022-07-26 两链、px-1028 补 d2022-10-27；promises.html 2018 私有化案 sv-links 与来源列表各补 d2018-08-14；documents.html d2022-04-25 词条补 d2022-07-26 站内链；reading.html「九份」→「十四份」；doc-path 导读链改写十四份版（中英双语）；og:description 同步。
+- **管线**：build-search-index（断言 9→14，索引 194→199）/ build-revisions（128 锚点，文档馆 14）/ sync-changelog / build-epub 全重跑；版本 v7.2.0→v7.3.0（VERSION/app.js/14 页 span，node --check 通过）；CHANGELOG 首条 v7.3.0。
+- **验证**：verify.py 9/9 全绿（断链含全部新锚点与跨页链）。
+- **提交**：主成果 `eceb6ee`（30 文件，+433/−27）已推送 main；本回填+revisions/EPUB 刷新为第二个提交。
+- **采料甄别（宁缺毋滥）**：①Tesla 2018-09-29 SEC 和解无对应 8-K，未强收；②Twitter 2022-04-05 董事会任命原始 8-K 在 EDGAR 8-K 列表缺失，standstill 细节改引 DEFM14A Background（proxy 原文），不杜撰；③候选「Tesla 2022 年会 proxy」经直读议程证伪（无 SolarCity 追认——Chancery 2022-04-27 判 Tornetta 败诉后无需追认），弃用；④2018 CEO Performance Award 授予当年 proxy 未定位到文件，改由 2024 DEF 14A 承载（含「no salary, no cash bonuses」原始条款逐字）；⑤Sharktank 式候选「Tesla 8-K 2018-08-07（推文当日）」经清单核验不存在——推文当日无任何备案，这本身已成为 d2018-08-14 词条注脚的一部分。
+- **实现备注**：片段文件 tools/r03-snippet.html + 单次重建 tools/r03-integrate.py（八处 replace 全部唯一性断言）；r03-release.py 的 span 正则有未闭合括号笔误（与 R02 同款），span 步进由临时脚本补跑完成——下次直接复制已修好的版本。
+- **下一轮预告**：R04 财报电话会 I（2013–2018：Model 3 量产地狱、solar roof、自动驾驶承诺），账本目标 +8~10 条，逐字稿源 Motley Fool / ir.tesla.com。
 
 ## 第 2 轮工作记录（Twitter 收购案私信原件）— complete（2026-09-30）
 
