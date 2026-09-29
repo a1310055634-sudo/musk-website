@@ -914,6 +914,7 @@ window.FILES_V7 = {
      "kind": "founder_invest",
      "date": "2004",
      "amount": "650 万美元",
+     "amount_en": "$650K",
      "note": {
       "zh": "A 轮 750 万中的个人份额，并任董事长。",
       "en": "His personal share of the $7.5M Series A; he also chaired."
@@ -924,6 +925,7 @@ window.FILES_V7 = {
      "kind": "ipo",
      "date": "2010.06",
      "amount": "约 2.26 亿美元",
+     "amount_en": "≈$226M",
      "note": {
       "zh": "IPO 募资额（财报/文件口径）。",
       "en": "IPO proceeds (filing-based figures)."
@@ -934,6 +936,7 @@ window.FILES_V7 = {
      "kind": "marketcap",
      "date": "2021",
      "amount": "1 万亿美元",
+     "amount_en": "$1T",
      "note": {
       "zh": "史上首家市值破万亿的车企。",
       "en": "First carmaker to a $1T market cap."
@@ -944,6 +947,7 @@ window.FILES_V7 = {
      "kind": "revenue",
      "date": "2023",
      "amount": "约 $96.8B",
+     "amount_en": "≈$96.8B",
      "note": {
       "zh": "全年收入同比 +18.8%；交付约 181 万辆（Macrotrends/CNBC 口径）。",
       "en": "FY revenue +18.8%; ≈1.81M vehicles delivered (Macrotrends/CNBC)."
@@ -954,6 +958,7 @@ window.FILES_V7 = {
      "kind": "revenue",
      "date": "2024",
      "amount": "约 $97.7B",
+     "amount_en": "≈$97.7B",
      "note": {
       "zh": "全年收入同比 +0.95% 基本走平；交付约 179 万辆，经营现金流 $14.9B（10-K 口径）。站内在册最新年度数据。",
       "en": "FY revenue +0.95%, basically flat; ≈1.79M vehicles, $14.9B operating cash flow (10-K). Latest on file."
@@ -964,6 +969,7 @@ window.FILES_V7 = {
      "kind": "compensation",
      "date": "2025.11",
      "amount": "万亿美元级",
+     "amount_en": "trillion-dollar scale",
      "note": {
       "zh": "绩效薪酬包约 75% 股东通过——期权性质与市值目标互锁，非现金流支出。",
       "en": "Performance package approved by ≈75% — equity tied to market-cap goals, not a cash outlay."
@@ -1161,6 +1167,7 @@ window.FILES_V7 = {
      "kind": "founder_invest",
      "date": "2002",
      "amount": "约 1 亿美元",
+     "amount_en": "≈$100M",
      "note": {
       "zh": "个人投入创立（PayPal 套现的最大一笔）。",
       "en": "Founder capital — the largest single chunk of his PayPal proceeds."
@@ -1171,6 +1178,7 @@ window.FILES_V7 = {
      "kind": "contract",
      "date": "2008.12",
      "amount": "16 亿美元",
+     "amount_en": "$1.6B",
      "note": {
       "zh": "NASA CRS 货运合同——至暗时刻的「救命现金流」。",
       "en": "NASA CRS contract — the life-saving cash line at the darkest hour."
@@ -1181,6 +1189,7 @@ window.FILES_V7 = {
      "kind": "funding",
      "date": "2015.01",
      "amount": "10 亿美元",
+     "amount_en": "$1B",
      "note": {
       "zh": "Google + Fidelity 联合投资，持股 <10%（对应估值约 100 亿，账本在册）。",
       "en": "Google + Fidelity invested $1B for <10% (≈$10B implied, on file in the ledger)."
@@ -1191,6 +1200,7 @@ window.FILES_V7 = {
      "kind": "valuation",
      "date": "2021.10",
      "amount": "约 $100.3B",
+     "amount_en": "≈$100.3B",
      "note": {
       "zh": "股转 tender offer 后进入私人「千亿俱乐部」（CNBC 报道口径）。",
       "en": "Tender-offer valuation entering the private “$100B club” (CNBC-reported)."
@@ -1201,6 +1211,7 @@ window.FILES_V7 = {
      "kind": "valuation",
      "date": "2024.12",
      "amount": "约 $350B",
+     "amount_en": "≈$350B",
      "note": {
       "zh": "tender offer 协议估值（约合每股 185 美元，报道口径）。站内在册最新估值，非当前报价。",
       "en": "Tender-offer valuation (≈$185/share, reported). Latest on file — not a current quote."
@@ -1309,6 +1320,7 @@ window.FILES_V7 = {
    "id": "x",
    "slug": "file-x",
    "name": "X（原 Twitter）",
+   "name_en": "X (formerly Twitter)",
    "ticker": null,
    "color_var": "--co-x",
    "as_of": {
@@ -1390,6 +1402,7 @@ window.FILES_V7 = {
      "kind": "acquisition",
      "date": "2022.10",
      "amount": "440 亿美元",
+     "amount_en": "$44B",
      "note": {
       "zh": "每股 54.20 美元要约交割；同期背上约 130 亿美元银行债务（协议条款在册）。",
       "en": "Closed at $54.20/share; ≈$13B of bank debt came with it (clause excerpts on file)."
@@ -1420,6 +1433,7 @@ window.FILES_V7 = {
      "kind": "merger",
      "date": "2025.03",
      "amount": "约 $33B",
+     "amount_en": "≈$33B",
      "note": {
       "zh": "并入 xAI 的全股票对价（含债务约 $45B）——从机构减记价到并购对价，一年内反转。",
       "en": "The all-stock merger price (≈$45B with debt) — from writedown marks to deal price within a year."
@@ -1582,6 +1596,7 @@ window.FILES_V7 = {
      "kind": "funding",
      "date": "2024.05",
      "amount": "60 亿美元（B 轮）",
+     "amount_en": "$6B (Series B)",
      "note": {
       "zh": "投后约 240 亿（pre-money 180 亿；Reuters/CNBC/Forbes 报道口径）。",
       "en": "≈$24B post-money ($18B pre; Reuters/CNBC/Forbes-reported)."
@@ -1592,6 +1607,7 @@ window.FILES_V7 = {
      "kind": "funding",
      "date": "2024.12",
      "amount": "60 亿美元（C 轮）",
+     "amount_en": "$6B (Series C)",
      "note": {
       "zh": "估值约 400 亿（x.ai 官方公告口径）。",
       "en": "≈$40B valuation (x.ai's own announcement)."
@@ -1602,6 +1618,7 @@ window.FILES_V7 = {
      "kind": "funding",
      "date": "2025 秋",
      "amount": "股权 100 亿 + 债务 120 亿",
+     "amount_en": "$10B equity + $12B debt",
      "note": {
       "zh": "Series E 公告原文自述口径。",
       "en": "As stated in the Series E announcement itself."
@@ -1612,6 +1629,7 @@ window.FILES_V7 = {
      "kind": "funding",
      "date": "2026.01",
      "amount": "200 亿美元（E 轮）",
+     "amount_en": "$20B (Series E)",
      "note": {
       "zh": "投后约 2300 亿量级，超募 33%；Valor 领投、英伟达与思科参投（公告全文在册）。",
       "en": "≈$230B post-money, 33% oversubscribed; led by Valor with Nvidia and Cisco (announcement on file)."

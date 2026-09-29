@@ -137,13 +137,13 @@
     </nav>
   </header>
 <div class="sr-page">
-  <a class="sr-back" href="index.html">← 返回网站主页 / Back to site</a>
+  <a class="sr-back" href="index.html" data-en="← Back to site">← 返回网站主页</a>
   <nav class="ps-nav" aria-label="第一手板块导航">
-    <a href="primary.html">言行实录</a><a href="documents.html">一手文档馆</a><a href="interviews.html">访谈与表态</a><a href="x-posts.html">X 帖史选辑</a><a href="money.html">资本解剖</a><a href="ai-strategy.html">AI 战略布局</a><a href="capital-evolution.html">资本演化</a><a href="search.html" aria-current="page">第一手检索</a>
+    <a href="primary.html" data-en="Ledger">言行实录</a><a href="documents.html" data-en="Documents">一手文档馆</a><a href="interviews.html" data-en="Interviews">访谈与表态</a><a href="x-posts.html" data-en="X Posts">X 帖史选辑</a><a href="money.html" data-en="Capital">资本解剖</a><a href="ai-strategy.html" data-en="AI Landscape">AI 战略布局</a><a href="capital-evolution.html" data-en="Capital Evolution">资本演化</a><a href="search.html" aria-current="page" data-en="Search">第一手检索</a>
   </nav>
   <header class="sr-head">
-    <h1>第一手检索</h1>
-    <p class="sr-sub">PRIMARY SOURCES SEARCH — 一个搜索框，覆盖言行实录、一手文档、访谈与表态、X 帖史及争议深读、编年史、财务全景等板块；每条结果直链可引用锚点。Index built from tools/build-search-index.py.</p>
+    <h1 data-en="Primary Sources Search">第一手检索</h1>
+    <p class="sr-sub" data-en="PRIMARY SOURCES SEARCH — one search box across the ledger, documents, interviews, X posts, controversies, chronicles and finance.">PRIMARY SOURCES SEARCH — 一个搜索框，覆盖言行实录、一手文档、访谈与表态、X 帖史及争议深读、编年史、财务全景等板块；每条结果直链可引用锚点。Index built from tools/build-search-index.py.</p>
   </header>
 
   <div class="sr-input-wrap">
@@ -188,6 +188,10 @@
   var curFrom = null, curTo = null, curSort = 'asc';
   var curCo = '全部';
   var evIndex = {}; // ev-id -> [records]
+  var srLang = function () {
+    var b = document.getElementById('lang-toggle');
+    return b && b.textContent === '中文' ? 'en' : 'zh';
+  };
 
   INDEX.forEach(function (it) {
     if (it.ev) { (evIndex[it.ev] = evIndex[it.ev] || []).push(it); }
@@ -229,7 +233,7 @@
     allBtn.type = 'button';
     allBtn.setAttribute('data-c', '全部');
     allBtn.setAttribute('aria-pressed', String(curCo === '全部'));
-    allBtn.textContent = '全部 ' + INDEX.length;
+    allBtn.textContent = (srLang() === 'en' ? 'All ' : '全部 ') + INDEX.length;
     allBtn.addEventListener('click', function () {
       curCo = '全部';
       cbox.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === allBtn)); });
@@ -241,7 +245,7 @@
       b.type = 'button';
       b.setAttribute('data-c', n);
       b.setAttribute('aria-pressed', String(curCo === n));
-      b.textContent = n + ' ' + counts[n];
+      b.textContent = n + ' ' + counts[n]; // 公司名为拉丁实体名，双语同形
       b.addEventListener('click', function () {
         curCo = (curCo === n) ? '全部' : n;
         cbox.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-c') === curCo)); });
@@ -362,12 +366,17 @@
     var hits = INDEX.filter(function (it) { return match(it, q); });
     hits = hits.slice().sort(function (a, b) { return curSort === 'desc' ? -cmpDate(a, b) : cmpDate(a, b); });
     var parts = [];
-    if (q) parts.push('关键词「' + input.value.trim() + '」');
-    if (curType !== '全部') parts.push('类型:' + curType);
+    var zh = srLang() !== 'en';
+    if (q) parts.push(zh ? '关键词「' + input.value.trim() + '」' : 'keyword &quot;' + input.value.trim() + '&quot;');
+    if (curType !== '全部') parts.push((zh ? '类型:' : 'type:') + curType);
     if (curFrom || curTo) parts.push((curFrom || '…') + '–' + (curTo || '…'));
     if (curCo !== '全部') parts.push('公司:' + curCo);
-    var clearBtn = parts.length ? '<button type="button" class="sr-clear" id="sr-clearbtn">清除全部筛选</button>' : '';
-    count.innerHTML = '命中 ' + hits.length + ' / ' + INDEX.length + ' 条' + (parts.length ? ' · ' + esc(parts.join(' · ')) : '') + ' ' + clearBtn;
+    var clearBtn = parts.length ? '<button type="button" class="sr-clear" id="sr-clearbtn">' + (zh ? '清除全部筛选' : 'Clear filters') + '</button>' : '';
+    var zh = srLang() !== 'en';
+    var countLine = zh
+      ? '命中 ' + hits.length + ' / ' + INDEX.length + ' 条'
+      : hits.length + ' / ' + INDEX.length + ' hits';
+    count.innerHTML = countLine + (parts.length ? ' · ' + esc(parts.join(' · ')) : '') + ' ' + clearBtn;
     var cb = document.getElementById('sr-clearbtn');
     if (cb) cb.addEventListener('click', function () {
       input.value = '';
@@ -383,7 +392,9 @@
       render();
     });
     if (!hits.length) {
-      box.innerHTML = '<p class="sr-empty">没有命中的条目——试试更短的关键词（如「火箭」「funding」），换一个出处名称，或点击上方「清除全部筛选」。</p>';
+      box.innerHTML = zh
+        ? '<p class="sr-empty">没有命中的条目——试试更短的关键词（如「火箭」「funding」），换一个出处名称，或点击上方「清除全部筛选」。</p>'
+        : '<p class="sr-empty">No hits — try a shorter keyword (e.g. &quot;rocket&quot;, &quot;funding&quot;), a source name, or the clear-filters button above.</p>';
       return;
     }
     box.innerHTML = hits.map(function (it) {

@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v6.22.0 — 2026-09-30 · V7 改版（17/19）：双语与全站统一
+
+**主题包成果（V7-19 第 17 轮 · 双语与全站统一）**
+- **全站双语审计（新工具 r17-scan.js）**：37 页 EN 模式逐元素扫描漏翻（区分设计意图豁免：译文并置块/语言按钮目标语言名/图注署名），首轮 385 类型→去重 130 模式→逐类修复；
+- **系统性公共项清零**：skip-link「跳到主要内容」data-en（12 页）· 资料子导航 ps-nav 八项 data-en（12 页）· footer-brand 文本 span 包裹 data-en（14 页）· lr-toc-h 目录头（8 页）· 各页「← 返回网站主页 / Back to site」双语并列改纯 data-en；
+- **页面级补漏翻**：controversy.html **五篇 22 段正文全量 data-en 英文**（pedo guy 诽谤案/SEC funding secured/Autopilot-FSD DMV 与 NHTSA 双线/工会 NLRB 六年战/Twitter 审核与 DSA 首罚，含第三至五篇 h2 与 ct-lead）· interviews.html 10 标题+10 语境段+12 徽标 · reading.html 长卷 **8 章 28 段全量 data-en** + 8 章节标 + 延伸阅读行 · platform-x/survival-2008/promises 深链与 SVG 轴标签 · 主要内容页 h1 data-en（12 页）· 各页页副题（sr/doc/iv/xp/my/ce/cy/fn/pr/sc sub）纯英文 data-en；
+- **动态产物双语**：search.html 计数行/空结果/清除按钮/芯片计数 EN 感知（修复 srLang 作用域错误——原定义在子 IIFE 内致 EN 模式 render 抛 ReferenceError 检索完全失效，**探针抓出的真缺陷**）· timeline.html 年份选项双语（全部年份/按月，生成时读语言偏好）· timeline data-en 混排中文词修正 · grok h3 data-en 含 CJK 修正 · company-files-data.py 19 笔财务金额补 amount_en（data-en 美元记法）与 X 档案 name_en · build-events.py 材料标签双语渲染（ev-mat-plain 与链接均带 data-en）· capital-evolution 口径/来源与 companies 来源标签 data-en · changelog.html 页顶英文说明（开发日志以中文维护）；
+- **已知限制（如实入册）**：capital-evolution 四时代正文、money/ai-strategy/grok 等深色页叙事正文与 changelog 条目正文仍以中文为主（正文层长尾；高频路径与全部结构性元素已双语）；changelog 页顶已加英文说明；
+- VERSION/app.js/14 页 span → 6.22.0；EPUB 重建。
+
+**质量门**
+- verify.py 9 项全绿（37 页，索引 178 条）；node --check 通过；CDP 验收探针 **10/10**（EN 交互回归 4：检索命中行英文格式/空结果英文/时间轴年份选项/事件档案标题与材料标签 · 跨页语言保持 2：EN 状态跨 5 页跳转含返回首页 · EN 不破版 3：controversy/reading/promises 390px 英文长段无溢出 · 缓存往返 1：切回中文原文完整恢复）；截图 1 张（EN 争议页）人工复核；证据在 qa/v7-19/round-17/。
+
 ## v6.21.0 — 2026-09-30 · V7 改版（16/19）：手机全流程打磨
 
 **主题包成果（V7-19 第 16 轮 · 手机全流程打磨）**

@@ -31,7 +31,7 @@
 | 14 | 原始资料阅读体验 | complete | v6.19.0 | 379485b | done |
 | 15 | 搜索与发现 | complete | v6.20.0 | dff5d02 | done |
 | 16 | 手机全流程打磨 | complete | v6.21.0 | fa44b91 | done |
-| 17 | 双语与全站统一 | pending | v6.22.0 | — | — |
+| 17 | 双语与全站统一 | complete | v6.22.0 | (本轮) | done |
 | 18 | 动效、无障碍与性能 | pending | v6.23.0 | — | — |
 | 19 | 全站验收、交接与发布 | pending | v7.0.0 | — | — |
 
@@ -115,6 +115,14 @@
 - 验证：verify.py 9/9 绿（34 页）；node --check（app.js+内联脚本）过；CDP 探针 64/64（结构聚合 13/筛选 11/详情面板焦点 9/键盘 3/双语 6/390 真视口 5/无 JS 3/file:// 3/联动回归 10）；探针抓出 1 真缺陷（跨公司记录重复画点→主泳道去重，筛选时归位所选泳道）已修；before/after 截图 11 张+QA.md 在 qa/v7-19/round-09/。
 - 提交：[V7-19 R09] 一个成果提交（beb55fa）；已推送。
 - 备注：scratch（r09-probe.js 64 断言/gx-app.js/shot-panel.js 可复跑）在仓库外 D:/vibe coding/v7r9-work/；静态清单记录行为中文原文口径（检索索引无译文字段），R17 双语统一再议；记录层精度以日期原文呈现（2002/2006.08/2018.08.07），事件层徽标已覆盖验收；下一轮 R10 资本流向可视化（v6.15.0）。
+
+## 第 17 轮工作记录（双语与全站统一）— complete（2026-09-30）
+
+- 交付：全站双语审计工具 r17-scan.js（37 页 EN 模式逐元素扫描，区分设计意图豁免）；系统性公共项清零（skip-link 12 页/ps-nav 八项 12 页/footer-brand 14 页/lr-toc-h 8 页/back 链接双语并列改纯 data-en）；页面级补漏翻（controversy 五篇 22 段正文全量英文 data-en · interviews 10 标题+10 语境段+12 徽标 · reading 8 章 28 段全量+章节标+延伸阅读行 · platform-x/survival/promises 深链与 SVG 轴标签 · h1×12 · 各页页副题 data-en）；动态产物双语（search 计数行/空结果/清除按钮 EN 感知 · timeline 年份选项 · cf-amount 19 笔 amount_en 美元记法 + X 档案 name_en · build-events 材料标签双语渲染 · capital-evolution/companies 口径来源标签 · timeline/grok data-en 混排修正 · changelog 页顶英文说明）；VERSION/app.js/14 页 span → 6.22.0；EPUB 重建。
+- 纪律：零新增事实；译文均为站内既有口径的编辑型翻译；「设计意图豁免」分类如实（译文并置块/语言按钮目标语言名/图注署名不 EN 化）；changelog 条目正文以中文维护+页顶英文说明（如实入册）。
+- 验证：verify.py 9/9 绿；node --check 过；CDP 探针 10/10（EN 交互回归 4/跨页语言保持 2/EN 不破版 3/缓存往返 1）；**探针抓出 1 个真缺陷**（srLang 定义在子 IIFE 内致 EN 模式检索 render 抛 ReferenceError 完全失效——提升至顶层修复，正是「语言切换不致交互失效」验收项）；修复过程中一次批量 sub 替换损坏 8 页段落内容——立即发现（全站 parser 对比 HEAD）并从 HEAD 恢复内容重建，终态 37 页解析仅 2 页历史存量（money/quotes 在 R16 前已如此，浏览器容错正常）；截图 1 张复核；证据在 qa/v7-19/round-17/。
+- 提交：[V7-19 R17] 一个成果提交；推送状态见表格。
+- 备注：scratch（r17-scan.js 审计/r17-probe.js 可复跑，misses 清单在 v7r16-work/r17-misses.json）在 v7r16/v7r17-work/；**已知限制如实入册**：capital-evolution 四时代正文、money/ai-strategy/grok 深色页叙事正文与 changelog 条目正文仍以中文为主（正文层长尾，高频路径与结构性元素已双语）；lr-meta v6.1x 为页面级更新记录口径不变；下一轮 R18 动效、无障碍与性能（v6.23.0）。
 
 ## 第 16 轮工作记录（手机全流程打磨）— complete（2026-09-30）
 

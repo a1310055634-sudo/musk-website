@@ -63,10 +63,11 @@ def render_material(m):
     label = t(m["label"], "zh")
     note = (f'<span class="ev-mat-note" data-en="{attr_en(m.get("note"))}">{esc(t(m["note"], "zh"))}</span>'
             if m.get("note") else "")
+    lab_en = f' data-en="{esc(t(m["label"], "en"))}"' if m.get("label", {}).get("en") else ""
     if m.get("href"):
-        inner = f'<a href="{esc(m["href"])}">{esc(label)}</a>'
+        inner = f'<a href="{esc(m["href"])}"{lab_en}>{esc(label)}</a>'
     else:
-        inner = f'<span class="ev-mat-plain">{esc(label)}</span>'
+        inner = f'<span class="ev-mat-plain"{lab_en}>{esc(label)}</span>'
     return (f'        <li><span class="ev-kind ev-kind-{m["kind"]}" data-en="{esc(kind["en"])}">{esc(kind["zh"])}</span>'
             f'{inner}{date}{note}</li>')
 

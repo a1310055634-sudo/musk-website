@@ -109,7 +109,7 @@ def render_file(f):
     co_class = f["id"]
     head = (f'      <header class="cf-head cf-head--{co_class}">\n'
             f'        <div class="cf-idrow">\n'
-            f'          <h2 class="cf-name" data-en="{attr_en({"zh": f["name"], "en": f["name"]})}">{esc(f["name"])}</h2>\n'
+            f'          <h2 class="cf-name" data-en="{esc(f.get("name_en", f["name"]))}">{esc(f["name"])}</h2>\n'
             + (f'          <span class="cf-ticker">{esc(f["ticker"])}</span>\n' if f.get("ticker") else "")
             + f'        </div>\n'
             f'        <p class="cf-asof" data-en="{attr_en(f["as_of"])}">{esc(t(f["as_of"], "zh"))}</p>\n'
@@ -144,7 +144,7 @@ def render_file(f):
             f'        <li class="cf-finrow">\n'
             f'          <div class="cf-finline"><span class="cf-kind cf-kind--{fn["kind"]}" data-en="{esc(kind["en"])}">{esc(kind["zh"])}</span>'
             f'<span class="cf-date">{esc(fn["date"])}</span>'
-            f'<b class="cf-amount" data-en="{esc(fn["amount"])}">{esc(fn["amount"])}</b></div>\n'
+            f'<b class="cf-amount" data-en="{esc(fn.get("amount_en", fn["amount"]))}">{esc(fn["amount"])}</b></div>\n'
             f'          <p class="cf-finnote" data-en="{attr_en(fn["note"])}">{esc(t(fn["note"], "zh"))}{render_link(fn["href"], "zh")}</p>\n'
             f'        </li>')
     fin = (f'      <div class="cf-sec"><h3 class="cf-label" data-en="Financials by kind">财务口径（分列，不混用）</h3>\n'

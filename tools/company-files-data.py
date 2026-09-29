@@ -65,12 +65,12 @@ FILES = [
             {"date": "2025.11.06", "text": {"zh": "股东大会约 75% 支持批准万亿美元级绩效薪酬——激励与市值目标互锁。", "en": "≈75% of shareholders approved the trillion-dollar performance package — pay locked to market-cap goals."}, "href": "primary.html#e2025-11-06"},
         ],
         "finances": [
-            {"kind": "founder_invest", "date": "2004", "amount": "650 万美元", "note": {"zh": "A 轮 750 万中的个人份额，并任董事长。", "en": "His personal share of the $7.5M Series A; he also chaired."}, "href": "deep-dive-01.html"},
-            {"kind": "ipo", "date": "2010.06", "amount": "约 2.26 亿美元", "note": {"zh": "IPO 募资额（财报/文件口径）。", "en": "IPO proceeds (filing-based figures)."}, "href": "primary.html#e2010-06-29"},
-            {"kind": "marketcap", "date": "2021", "amount": "1 万亿美元", "note": {"zh": "史上首家市值破万亿的车企。", "en": "First carmaker to a $1T market cap."}, "href": "money.html"},
-            {"kind": "revenue", "date": "2023", "amount": "约 $96.8B", "note": {"zh": "全年收入同比 +18.8%；交付约 181 万辆（Macrotrends/CNBC 口径）。", "en": "FY revenue +18.8%; ≈1.81M vehicles delivered (Macrotrends/CNBC)."}, "href": "finance.html#tesla"},
-            {"kind": "revenue", "date": "2024", "amount": "约 $97.7B", "note": {"zh": "全年收入同比 +0.95% 基本走平；交付约 179 万辆，经营现金流 $14.9B（10-K 口径）。站内在册最新年度数据。", "en": "FY revenue +0.95%, basically flat; ≈1.79M vehicles, $14.9B operating cash flow (10-K). Latest on file."}, "href": "finance.html#tesla"},
-            {"kind": "compensation", "date": "2025.11", "amount": "万亿美元级", "note": {"zh": "绩效薪酬包约 75% 股东通过——期权性质与市值目标互锁，非现金流支出。", "en": "Performance package approved by ≈75% — equity tied to market-cap goals, not a cash outlay."}, "href": "primary.html#e2025-11-06"},
+            {"kind": "founder_invest", "date": "2004", "amount": "650 万美元", "amount_en": "$650K", "note": {"zh": "A 轮 750 万中的个人份额，并任董事长。", "en": "His personal share of the $7.5M Series A; he also chaired."}, "href": "deep-dive-01.html"},
+            {"kind": "ipo", "date": "2010.06", "amount": "约 2.26 亿美元", "amount_en": "≈$226M", "note": {"zh": "IPO 募资额（财报/文件口径）。", "en": "IPO proceeds (filing-based figures)."}, "href": "primary.html#e2010-06-29"},
+            {"kind": "marketcap", "date": "2021", "amount": "1 万亿美元", "amount_en": "$1T", "note": {"zh": "史上首家市值破万亿的车企。", "en": "First carmaker to a $1T market cap."}, "href": "money.html"},
+            {"kind": "revenue", "date": "2023", "amount": "约 $96.8B", "amount_en": "≈$96.8B", "note": {"zh": "全年收入同比 +18.8%；交付约 181 万辆（Macrotrends/CNBC 口径）。", "en": "FY revenue +18.8%; ≈1.81M vehicles delivered (Macrotrends/CNBC)."}, "href": "finance.html#tesla"},
+            {"kind": "revenue", "date": "2024", "amount": "约 $97.7B", "amount_en": "≈$97.7B", "note": {"zh": "全年收入同比 +0.95% 基本走平；交付约 179 万辆，经营现金流 $14.9B（10-K 口径）。站内在册最新年度数据。", "en": "FY revenue +0.95%, basically flat; ≈1.79M vehicles, $14.9B operating cash flow (10-K). Latest on file."}, "href": "finance.html#tesla"},
+            {"kind": "compensation", "date": "2025.11", "amount": "万亿美元级", "amount_en": "trillion-dollar scale", "note": {"zh": "绩效薪酬包约 75% 股东通过——期权性质与市值目标互锁，非现金流支出。", "en": "Performance package approved by ≈75% — equity tied to market-cap goals, not a cash outlay."}, "href": "primary.html#e2025-11-06"},
         ],
         "risks": [
             {"title": {"zh": "SEC：funding secured 与后续", "en": "SEC: “funding secured” and its aftermath"}, "note": {"zh": "2018 年推文引发 SEC 起诉，和解各罚 2000 万、卸任董事长。", "en": "The 2018 tweet brought an SEC suit; the settlement fined $20M each and he left the chair."}, "href": "controversy.html#sec-sec"},
@@ -118,11 +118,11 @@ FILES = [
             {"date": "2024.10.13", "text": {"zh": "Starship 第五飞：「The tower has caught the rocket!!」——发射塔筷子回收。", "en": "Starship's fifth flight: “The tower has caught the rocket!!” — the chopstick catch."}, "href": "primary.html#e2024-10-13"},
         ],
         "finances": [
-            {"kind": "founder_invest", "date": "2002", "amount": "约 1 亿美元", "note": {"zh": "个人投入创立（PayPal 套现的最大一笔）。", "en": "Founder capital — the largest single chunk of his PayPal proceeds."}, "href": "primary.html#e2002-10-03"},
-            {"kind": "contract", "date": "2008.12", "amount": "16 亿美元", "note": {"zh": "NASA CRS 货运合同——至暗时刻的「救命现金流」。", "en": "NASA CRS contract — the life-saving cash line at the darkest hour."}, "href": "money.html"},
-            {"kind": "funding", "date": "2015.01", "amount": "10 亿美元", "note": {"zh": "Google + Fidelity 联合投资，持股 <10%（对应估值约 100 亿，账本在册）。", "en": "Google + Fidelity invested $1B for <10% (≈$10B implied, on file in the ledger)."}, "href": "primary.html#e2015-01-20"},
-            {"kind": "valuation", "date": "2021.10", "amount": "约 $100.3B", "note": {"zh": "股转 tender offer 后进入私人「千亿俱乐部」（CNBC 报道口径）。", "en": "Tender-offer valuation entering the private “$100B club” (CNBC-reported)."}, "href": "finance.html#spacex"},
-            {"kind": "valuation", "date": "2024.12", "amount": "约 $350B", "note": {"zh": "tender offer 协议估值（约合每股 185 美元，报道口径）。站内在册最新估值，非当前报价。", "en": "Tender-offer valuation (≈$185/share, reported). Latest on file — not a current quote."}, "href": "finance.html#spacex"},
+            {"kind": "founder_invest", "date": "2002", "amount": "约 1 亿美元", "amount_en": "≈$100M", "note": {"zh": "个人投入创立（PayPal 套现的最大一笔）。", "en": "Founder capital — the largest single chunk of his PayPal proceeds."}, "href": "primary.html#e2002-10-03"},
+            {"kind": "contract", "date": "2008.12", "amount": "16 亿美元", "amount_en": "$1.6B", "note": {"zh": "NASA CRS 货运合同——至暗时刻的「救命现金流」。", "en": "NASA CRS contract — the life-saving cash line at the darkest hour."}, "href": "money.html"},
+            {"kind": "funding", "date": "2015.01", "amount": "10 亿美元", "amount_en": "$1B", "note": {"zh": "Google + Fidelity 联合投资，持股 <10%（对应估值约 100 亿，账本在册）。", "en": "Google + Fidelity invested $1B for <10% (≈$10B implied, on file in the ledger)."}, "href": "primary.html#e2015-01-20"},
+            {"kind": "valuation", "date": "2021.10", "amount": "约 $100.3B", "amount_en": "≈$100.3B", "note": {"zh": "股转 tender offer 后进入私人「千亿俱乐部」（CNBC 报道口径）。", "en": "Tender-offer valuation entering the private “$100B club” (CNBC-reported)."}, "href": "finance.html#spacex"},
+            {"kind": "valuation", "date": "2024.12", "amount": "约 $350B", "amount_en": "≈$350B", "note": {"zh": "tender offer 协议估值（约合每股 185 美元，报道口径）。站内在册最新估值，非当前报价。", "en": "Tender-offer valuation (≈$185/share, reported). Latest on file — not a current quote."}, "href": "finance.html#spacex"},
         ],
         "risks": [
             {"title": {"zh": "早期三连败与第四发背水", "en": "Three early failures, one last chance"}, "note": {"zh": "2008 年 Flight 3 失败后资金与技术都到悬崖边，第四次发射前已预留 Flight 5 部件。", "en": "After Flight 3 (2008), money and hardware were both at the cliff edge; Flight 5 parts were already on hand."}, "href": "primary.html#e2008-08-02"},
@@ -148,6 +148,7 @@ FILES = [
         "id": "x",
         "slug": "file-x",
         "name": "X（原 Twitter）",
+        "name_en": "X (formerly Twitter)",
         "ticker": None,
         "color_var": "--co-x",
         "as_of": {
@@ -169,10 +170,10 @@ FILES = [
             {"date": "2025.03.28", "text": {"zh": "xAI 全股票收购 X——平台并入模型公司，X 作为独立公司时代结束。", "en": "xAI bought X in an all-stock deal — the platform merged into the model company, ending standalone X."}, "href": "primary.html#e2025-03-28"},
         ],
         "finances": [
-            {"kind": "acquisition", "date": "2022.10", "amount": "440 亿美元", "note": {"zh": "每股 54.20 美元要约交割；同期背上约 130 亿美元银行债务（协议条款在册）。", "en": "Closed at $54.20/share; ≈$13B of bank debt came with it (clause excerpts on file)."}, "href": "documents.html#d2022-04-25"},
+            {"kind": "acquisition", "date": "2022.10", "amount": "440 亿美元", "amount_en": "$44B", "note": {"zh": "每股 54.20 美元要约交割；同期背上约 130 亿美元银行债务（协议条款在册）。", "en": "Closed at $54.20/share; ≈$13B of bank debt came with it (clause excerpts on file)."}, "href": "documents.html#d2022-04-25"},
             {"kind": "revenue", "date": "2022–2024", "amount": "$5.2B → $3.4B → $2.5B", "note": {"zh": "收入曲线（Fortune/Axios/Entrepreneur 报道口径）：2023 年 -35%，广告主流失是主因。", "en": "Revenue path (Fortune/Axios/Entrepreneur-reported): -35% in 2023 as advertisers left."}, "href": "finance.html#x"},
             {"kind": "writedown", "date": "2023–2024", "amount": "-72% → -80%", "note": {"zh": "Fidelity 对持仓连续减记（2023-12 隐含约 $19B，2024-10 隐含约 $9.4B）；马斯克本人有异议（USA Today/Fortune 口径）。", "en": "Fidelity repeatedly marked down its stake (implied ≈$19B in Dec 2023, ≈$9.4B in Oct 2024); Musk disputed the marks (USA Today/Fortune)."}, "href": "finance.html#x"},
-            {"kind": "merger", "date": "2025.03", "amount": "约 $33B", "note": {"zh": "并入 xAI 的全股票对价（含债务约 $45B）——从机构减记价到并购对价，一年内反转。", "en": "The all-stock merger price (≈$45B with debt) — from writedown marks to deal price within a year."}, "href": "primary.html#e2025-03-28"},
+            {"kind": "merger", "date": "2025.03", "amount": "约 $33B", "amount_en": "≈$33B", "note": {"zh": "并入 xAI 的全股票对价（含债务约 $45B）——从机构减记价到并购对价，一年内反转。", "en": "The all-stock merger price (≈$45B with debt) — from writedown marks to deal price within a year."}, "href": "primary.html#e2025-03-28"},
         ],
         "risks": [
             {"title": {"zh": "内容审核与言论边界争议", "en": "Content moderation and speech controversies"}, "note": {"zh": "收购后的审核政策变化与广告主撤离是持续争议主线。", "en": "Post-acquisition moderation changes and advertiser walkouts form the main controversy line."}, "href": "controversy.html#twitter"},
@@ -216,10 +217,10 @@ FILES = [
             {"date": "2026.01", "text": {"zh": "Series E 完成：200 亿美元 @ 投后约 2300 亿——超 150 亿目标，Valor 领投、英伟达与思科参投。", "en": "Series E closed: $20B at ≈$230B post-money — above the $15B target, led by Valor with Nvidia and Cisco aboard."}, "href": "documents.html#d2026-01"},
         ],
         "finances": [
-            {"kind": "funding", "date": "2024.05", "amount": "60 亿美元（B 轮）", "note": {"zh": "投后约 240 亿（pre-money 180 亿；Reuters/CNBC/Forbes 报道口径）。", "en": "≈$24B post-money ($18B pre; Reuters/CNBC/Forbes-reported)."}, "href": "finance.html#xai"},
-            {"kind": "funding", "date": "2024.12", "amount": "60 亿美元（C 轮）", "note": {"zh": "估值约 400 亿（x.ai 官方公告口径）。", "en": "≈$40B valuation (x.ai's own announcement)."}, "href": "finance.html#xai"},
-            {"kind": "funding", "date": "2025 秋", "amount": "股权 100 亿 + 债务 120 亿", "note": {"zh": "Series E 公告原文自述口径。", "en": "As stated in the Series E announcement itself."}, "href": "documents.html#d2026-01"},
-            {"kind": "funding", "date": "2026.01", "amount": "200 亿美元（E 轮）", "note": {"zh": "投后约 2300 亿量级，超募 33%；Valor 领投、英伟达与思科参投（公告全文在册）。", "en": "≈$230B post-money, 33% oversubscribed; led by Valor with Nvidia and Cisco (announcement on file)."}, "href": "documents.html#d2026-01"},
+            {"kind": "funding", "date": "2024.05", "amount": "60 亿美元（B 轮）", "amount_en": "$6B (Series B)", "note": {"zh": "投后约 240 亿（pre-money 180 亿；Reuters/CNBC/Forbes 报道口径）。", "en": "≈$24B post-money ($18B pre; Reuters/CNBC/Forbes-reported)."}, "href": "finance.html#xai"},
+            {"kind": "funding", "date": "2024.12", "amount": "60 亿美元（C 轮）", "amount_en": "$6B (Series C)", "note": {"zh": "估值约 400 亿（x.ai 官方公告口径）。", "en": "≈$40B valuation (x.ai's own announcement)."}, "href": "finance.html#xai"},
+            {"kind": "funding", "date": "2025 秋", "amount": "股权 100 亿 + 债务 120 亿", "amount_en": "$10B equity + $12B debt", "note": {"zh": "Series E 公告原文自述口径。", "en": "As stated in the Series E announcement itself."}, "href": "documents.html#d2026-01"},
+            {"kind": "funding", "date": "2026.01", "amount": "200 亿美元（E 轮）", "amount_en": "$20B (Series E)", "note": {"zh": "投后约 2300 亿量级，超募 33%；Valor 领投、英伟达与思科参投（公告全文在册）。", "en": "≈$230B post-money, 33% oversubscribed; led by Valor with Nvidia and Cisco (announcement on file)."}, "href": "documents.html#d2026-01"},
         ],
         "risks": [
             {"title": {"zh": "资本速度依赖（编者归纳）", "en": "Dependence on capital speed (editorial)"}, "note": {"zh": "编者分析：B→E 二十个月估值十倍——「AI 行业见过最陡的资本曲线」，速度本身是叙事的一部分（编者归纳，非公告文字）。", "en": "Editorial: 10× valuation in 20 months — the steepest curve AI has seen; the speed is itself part of the story (editorial, not from the announcement)."}, "href": "finance.html#xai"},
