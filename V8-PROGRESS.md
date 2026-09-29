@@ -19,7 +19,7 @@
 | 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | complete | v7.3.0 | eceb6ee | done |
 | 04 | 财报电话会 I（2013–2018） | complete | v7.4.0 | 7440bd7 | done |
 | 05 | 财报电话会 II（2019–2026） | complete | v7.5.0 | 10b41bd | done |
-| 06 | 长访谈 I：Lex Fridman 四期 | in_progress | — | — | — |
+| 06 | 长访谈 I：Lex Fridman 四期 | complete | v7.6.0 | 51023ee | done |
 | 07 | 长访谈 II：Rogan / TED / All-In / DealBook | pending | — | — | — |
 | 08 | X 帖史扩容（含 Wayback 核对已删帖） | pending | — | — | — |
 | 09 | SpaceX / Neuralink / xAI 官方演讲 | pending | — | — | — |
@@ -35,7 +35,28 @@
 - 采料纪律：查不到原文不写；媒体转载两源印证；引语保留英文原文+中文对照。
 - 本计划不再新建分支，直接在 main 上逐轮提交（V7 时代分支流程已完成使命）。
 
-## 核实来源留档（R05）
+## 第 6 轮工作记录（长访谈 I：Lex Fridman 四期）— complete（2026-09-30）
+
+- **交付**：interviews.html +8 条（18→26，严格克隆 `<article class="iv-item" id="i…">` 模板六件套，四段式双语）：i2019-04-12（#18「两吨重的死亡机器」+「像马一样有用」+ view-all-input-as-error）、i2019-04（#18「What's outside the simulation?」+ #400 回溯印证 + 「philosophy of curiosity」收束）、i2019-11-12（#49「打不过，就加入」+ chance above 0% + Dumb and Dumber 现场 + AI 监管机构呼吁）、i2019-11（#49 淡蓝点时刻：读萨根当场反驳「This is false, Mars」+ G+10% 论证）、i2021-12-28（#252「物理是法律，其余都是建议」+ 公理基础方法论）、i2021-12（#252「金钱是信息」+ 荒岛归谬 + 货币数据库）、i2023-11-10（#400「病态乐观」+「对 Autopilot 实在太乐观了」当事人自认）、i2023-11（#400 speciesist/Team Robot + OpenAI 起源内幕 +「想和 Larry 重新做朋友」）。**四期正确期数勘定：#18（2019-04-12）/ #49（2019-11-12）/ #252（2021-12-28）/ #400（2023-11-10）**——任务书只写「四期」未定期数，以 lexfidman.com 官方页 datePublished 为准；#438 为 Neuralink 团体访谈不计入。同日第二条用月份级 ID（i2019-04/i2019-11/i2021-12/i2023-11，沿用站内 i2006-08/i2018-04 先例，生成器正则 i\d[\d-]* 兼容）。
+- **交叉引用**：promises.html s4 模式注（双语双处）+ s5 第一手记录清单补 i2023-11-10（「病态乐观」=「把期限当工程变量」模式的当事人自认）；ai-strategy.html 捐资者岁月双语补 i2023-11（OpenAI 起源于与 Page 的争论）。
+- **管线**：build-search-index（断言 18→26，索引 219→227 = 103+14+26+13+5+53+4+9）/ sync-changelog（185 条）/ build-epub（184,368 B，24 章）主提交前重跑；版本 v7.5.0→v7.6.0（VERSION/app.js/14 页 span，node --check 通过）；CHANGELOG 首条 v7.6.0；EXPANSION.md 顶部补 R06 入包块。提交后 build-revisions（156 锚点）+ EPUB 重刷为第二个提交。
+- **验证**：verify.py 9/9 全绿（37 页，索引 227）；八条新条目结构抽查全过（六件套+permalink 日期徽章，索引日期解析全部正确）。
+- **提交**：主成果 `51023ee`（28 文件，+392/−22），已推送 main；本回填+revisions/EPUB 刷新为第二个提交。
+- **实现备注**：①tools/r06-integrate.py 复用「片段文件 + 整块单次重建 + 唯一性断言」修好版模式，一次通过（8 条插入 + promises×3 + ai-strategy×2 共 7 处 replace 全部先断言后执行）；②插入锚 `<p class="iv-foot"`（页尾唯一，无需拼回收尾——在 anchor 前插入即可，与 r04 的「条目间插入」不同，更简单且无吞行风险）；③CRLF：片段按目标文件行尾统一后再插入；④podscript.ai/lexfridman.com/muskwiki.com 本机 curl 直读可用（Happy Scribe 被 Cloudflare 拦、patricknielson.com 已 404）。
+- **采料甄别（宁缺毋滥）**：①#18「What's outside the simulation?」靠 #400 官方逐字稿回溯印证（跨四年双源）；②#49 Rev 转写噪音三处（"We will not feel to be smarter"/"Have you've seen"/"it is, does not represent"）——引语只取干净子句，噪音句以转述呈现；③萨根句按《Pale Blue Dot》出版原文引用（Rev 误听 was/is），如实归因于书；④#252「break physics」句两个第三方转写有细微出入，条目内如实注明；⑤#400「I always [inaudible]」逐字稿缺失处不补写，只注句意；⑥birthday-party 争吵年份不确定不写；⑦#252「I love humanity」「life insurance for life」「bang or a whimper」与 #400 free-speech/media 段已核实（逐字在档）但受 8 条上限未立条，EXPANSION 留档为后续候选。
+- **下一轮预告**：R07 长访谈 II：Rogan / TED / All-In / DealBook（interviews.html +6~8 条；注意 TED 2022 与 DealBook 2023 已有在册条目 i2022-04-14 / i2023-11-29，查重后补新；JRE #1169/#1470 逐字稿源待勘定）。
+
+## 核实来源留档（R06）
+
+四期 Lex Fridman 访谈（官方页 datePublished 为准；#18/#49 原名 Artificial Intelligence Podcast）：
+- **#18**（2019-04-12，Tesla Autopilot，MIT）：https://lexfridman.com/elon-musk/ ；官网无逐字稿；YouTube dEv99vxKjVI。引语印证：ZDNet 2019-04 https://www.zdnet.com/article/elon-musk-on-teslas-autopilot-in-a-year-a-human-intervening-will-decrease-safety/ + CleanTechnica 2019-04-14 + autopilotreview.com/elon-musk-autopilot-interview-mit/ + muskwiki.com/wiki/lex-fridman-18-2019/（带 t= 时间戳锚，YouTube 字幕口径）
+- **#49**（2019-11-12，Neuralink 总部）：https://lexfridman.com/elon-musk-2/ ；**官方 PDF 逐字稿**：https://lexfridman.com/wordpress/wp-content/uploads/2019/11/elon_musk_lex_fridman_2_transcript.pdf （Rev.com，本机 curl 直读 + pdftotext 提取）
+- **#252**（2021-12-28）：https://lexfridman.com/elon-musk-3/ ；官网无逐字稿；**PodScript.ai 全文**：https://podscript.ai/podcasts/lex-fridman-podcast/252-elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and-ai/ （curl 直读）+ muskwiki.com/wiki/lex-fridman-252-2021/ + podcastnotes.org 同名页
+- **#400**（2023-11-10）：https://lexfridman.com/elon-musk-4/ ；**整页官方逐字稿**：https://lexfridman.com/elon-musk-4-transcript/ （320KB，curl 直读；时间戳定位 01:53:50 / 01:54:38 / 01:25 段 / 00:35:00）
+- 通用工具：muskwiki.com/wiki/index/（四期词条导航，Tier 分级注明来源口径）；patricknielson.com 的 #18 全文逐字稿已 404（曾存在）；Happy Scribe 公开目录 Cloudflare 拦 curl
+- 站内新增「病态乐观」→ promises.html#promises-s4/s5 与 i2023-11-10 的互链为 V8 R06 起的固定交叉引用对
+
+
 
 十场 Tesla 财报电话会逐字稿（stockanalysis.com/stocks/tsla/transcripts/ 全文直读，Quartr 转写；索引页含 2011–2026 全部季度 ID）：
 - Q1 2019（2019-04-24）= /23954-q1-2019/；Q4 2019（2020-01-29）= /459-q4-2019/；Q2 2020（2020-07-22）= /7605-q2-2020/；Q4 2021（2022-01-26）= /12798-q4-2021/；Q3 2022（2022-10-19）= /27338-q3-2022/；Q3 2023（2023-10-18）= /83764-q3-2023/；Q1 2024（2024-04-23）= /161624-q1-2024/；Q3 2024（2024-10-23）= /215125-q3-2024/；Q1 2025（2025-04-22）= /310668-q1-2025/；Q2 2026（2026-07-22）= /653184-q2-2026/
