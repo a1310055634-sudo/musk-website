@@ -1337,6 +1337,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2019-04-24",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.04.24",
+  "s": "Tesla Q1 2019 财报电话会 · stockanalysis.com 逐字稿 · Reuters",
+  "q": "“I don’t think raising capital should be a substitute for making the company operate more effectively. … I think it is healthy to be on a Spartan diet for a while.”",
+  "zh": "我不认为融资应当成为「让公司运转得更有效」的替代品。……我认为，斯巴达式的紧衣缩食对一段时间来说倒是健康的。",
+  "bg": "Tesla came into the call amid its darkest stretch yet — Q1 deliveries down 31% from the previous quarter, a fresh round of store closures, and Wall Street openly asking whether the company could reach profitability without new money. Asked by Bernstein’s Toni Sacconaghi about a capital raise, Musk chose to lecture on finance itself.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2019-04-30",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1416,6 +1429,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2020-01-29",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2020.01.29",
+  "s": "Tesla Q4 2019 财报电话会 · stockanalysis.com 逐字稿 · Fortune",
+  "q": "“The demand has been incredible. We’ve never seen actually such a level of demand. … We will sell as many as we can make. It’s going to be pretty nuts.”",
+  "zh": "需求一直难以置信地强。我们其实从未见过这种 level 的需求。……我们能造多少就卖多少。场面会相当疯狂。",
+  "bg": "Six weeks after the Cybertruck unveiling — and the broken-window memes (see 2019.11.21) — Tesla’s shares had quietly gone vertical. On the Q4 2019 call Musk had two data points to report: one about the truck everyone was still laughing at, one about self-driving.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2020-05-11",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1478,6 +1504,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
+  ]
+ },
+ {
+  "id": "e2020-07-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2020.07.22",
+  "s": "Tesla Q2 2020 财报电话会 · stockanalysis.com 逐字稿 · CNBC TV18",
+  "q": "“This is why I’m very confident about Full Self-Driving functionality being complete by the end of this year.”",
+  "zh": "这就是为什么我非常有信心：完全自动驾驶（Full Self-Driving）功能将在今年年底前完成。",
+  "bg": "Tesla had just become the world’s most valuable carmaker (2020.07, market cap passing Toyota), and two weeks earlier at a Shanghai AI conference Musk had said the company was “very close” to Level 5 autonomy. Profitability was the story of the day; autonomy was the story he wanted to tell.",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -1648,6 +1687,19 @@ window.SEARCH_INDEX = [
   "q": "「Autopilot」和「Full Self-Driving」这两个名字本身，就成了加州 DMV 虚假广告指控的核心。",
   "zh": "2022 加州 DMV 虚假广告指控 → 2025.12.16 认定违法 → 2026.02.13 Tesla 起诉 DMV → 2026.02.18 Tesla 停用「Autopilot」营销用语免于 30 天销售暂停；2024.10 NHTSA 对 240 万辆 FSD 展开调查。",
   "bg": "「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线，以 Tesla 改营销材料暂时收场。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2022-01-26",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.01.26",
+  "s": "Tesla Q4 2021 财报电话会 · stockanalysis.com 逐字稿 · CNN Business",
+  "q": "“In terms of priority of products, I think the most important product development we’re doing this year is actually the Optimus humanoid robot. … This I think has the potential to be more significant than the vehicle business over time.”",
+  "zh": "论产品优先级，我认为我们今年最重要的产品开发，其实是 Optimus 人形机器人。……我认为它有潜力随时间变得比汽车业务更重要。",
+  "bg": "Optimus had been a one-slide surprise at AI Day in 2021.08 (see 2021.08). Five months later, on the Q4 2021 call, the humanoid robot got its first earnings-call billing — ranked above every car Tesla made.",
   "c": [
    "Tesla"
   ]
@@ -1916,6 +1968,19 @@ window.SEARCH_INDEX = [
   "bg": "要约信之外，这份 definitive proxy 的「Background of the Merger」按日记录了整个春天：4 月 4 日 9.2% 持股曝光，公司与马斯克交换含 standstill 条款的合作协议草案，他拒绝限制公开发言、只接受约 15% 的持股上限；4 月 9 日宣布不加入董事会并预告私有化要约；4 月 13 日这封信由他亲手递给董事长 Bret Taylor，次日公开；4 月 15 日董事会通过 15% 触发线的毒丸计划；4 月 21 日融资承诺函公开在册；4 月 23 日 Taylor 向同僚坦言，任何压价尝试「都不太可能成功，且有促使马斯克发动敌意收购之虞」；4 月 24–25 日董事会连日审议后放行。整场收购，再没有比这更完整的单一第一手叙事。",
   "c": [
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2022-10-19",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.10.19",
+  "s": "Tesla Q3 2022 财报电话会 · stockanalysis.com 逐字稿 · Business Insider",
+  "q": "“Now I’m of the opinion that we can far exceed Apple’s current market cap. … In fact, I see a potential path for Tesla to be worth more than Apple and Saudi Aramco combined.”",
+  "zh": "现在我的看法是，我们可以远超 Apple 当前的市值。……事实上，我看到了一条路，能让 Tesla 比 Apple 与沙特阿美加起来还值钱。",
+  "bg": "Tesla had just missed its quarterly delivery estimates, and the market wanted to talk about a buyback. Musk was willing to discuss both — but first he escalated a claim he had been building for years: several years earlier he had said it was possible for Tesla to be worth more than Apple. Now, he said, the number had a bigger ceiling.",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -2282,6 +2347,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2023-10-18",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2023.10.18",
+  "s": "Tesla Q3 2023 财报电话会 · stockanalysis.com 逐字稿 · TechRadar",
+  "q": "“I do want to emphasize that there will be enormous challenges in reaching volume production with the Cybertruck. … I mean, we dug our own grave with Cybertruck, you know?”",
+  "zh": "我确实想强调：Cybertruck 在达到量产这件事上会有巨大的挑战。……我是说，我们给自己挖了坟——就是 Cybertruck，你们知道吗？",
+  "bg": "Margins were compressed by the year’s aggressive price cuts, and the Cybertruck delivery event was 43 days out (see 2023.11.30). On this call, Musk’s task was to temper expectations — starting with the product he had promised would change everything.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "p2023-11-04",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -2442,6 +2520,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2024-04-23",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2024.04.23",
+  "s": "Tesla Q1 2024 财报电话会 · stockanalysis.com 逐字稿 · Seeking Alpha",
+  "q": "“As we’ve announced, we will be showcasing our purpose-built Robotaxi or Cybercab in August.”",
+  "zh": "如我们所宣布的，我们将在八月展示我们专为 Robotaxi 打造的 Cybercab。",
+  "bg": "Tesla had just posted its worst quarter in years — revenue down year-on-year, a double-digit workforce cut announced a week earlier (2024.04.15), and Reuters reporting the $25,000 car shelved. The pivot Musk announced instead had two names: robotaxi, and Optimus.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "d2024-04-29",
   "pg": "documents.html",
   "t": "一手文档",
@@ -2551,6 +2642,19 @@ window.SEARCH_INDEX = [
   "ev": "e2024-10-13"
  },
  {
+  "id": "e2024-10-23",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2024.10.23",
+  "s": "Tesla Q3 2024 财报电话会 · stockanalysis.com 逐字稿 · Investopedia · Fortune",
+  "q": "“My prediction is Tesla will become the most valuable company in the world, and probably by a long shot.”",
+  "zh": "我的预测是，Tesla 将成为世界上最有价值的公司——而且很可能遥遥领先。",
+  "bg": "Thirteen days after “We, Robot” (see 2024.10.10), Tesla posted a quarter that beat on margins, and the stock jumped about 22% the next day — its best session in over a decade (Fortune). On the call, Musk packaged the results and the event into a single prediction.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2025",
   "pg": "primary.html",
   "t": "言行实录",
@@ -2657,6 +2761,19 @@ window.SEARCH_INDEX = [
    "X / Twitter"
   ],
   "ev": "e2025-03-28"
+ },
+ {
+  "id": "e2025-04-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2025.04.22",
+  "s": "Tesla Q1 2025 财报电话会 · stockanalysis.com 逐字稿 · The Hill",
+  "q": "“I think starting probably next month, May, my time allocation to DOGE will drop significantly.”",
+  "zh": "我想大概从下个月、五月开始，我分配给 DOGE 的时间将大幅减少。",
+  "bg": "Tesla’s Q1 net income had fallen 71% (USA Today), the brand was taking daily damage from his Washington role, and the question hanging over the call was simple: where is the CEO? His answer became the headline of the day.",
+  "c": [
+   "Tesla"
+  ]
  },
  {
   "id": "e2025-05-03",
@@ -2800,6 +2917,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
   "c": [
    "xAI"
+  ]
+ },
+ {
+  "id": "e2026-07-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2026.07.22",
+  "s": "Tesla Q2 2026 财报电话会 · stockanalysis.com 逐字稿 · elonmuskarchive.org 转写存档",
+  "q": "“I think Optimus will be the biggest product ever.”",
+  "zh": "我认为 Optimus 会是有史以来最大的产品。",
+  "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
+  "c": [
+   "Tesla"
   ]
  }
 ];
