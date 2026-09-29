@@ -15,7 +15,7 @@
 | 轮 | 主题 | 状态 | 版本 | 成果提交 | 推送 |
 |---|---|---|---|---|---|
 | 01 | 建 V8-PROGRESS.md + funding secured 案（SEC v. Musk） | complete | v7.1.0 | 398b249 | done |
-| 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | in_progress | — | — | — |
+| 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | complete | v7.2.0 | a48c1df | done |
 | 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | pending | — | — | — |
 | 04 | 财报电话会 I（2013–2018） | pending | — | — | — |
 | 05 | 财报电话会 II（2019–2026） | pending | — | — | — |
@@ -34,6 +34,28 @@
 - 账本/一手页变动后必跑：`build-ledger-timeline.py` / `build-search-index.py`（改断言）/ `build-epub.py`；CHANGELOG 更新后跑 `sync-changelog.py`；最后 `verify.py` 9 项全绿。
 - 采料纪律：查不到原文不写；媒体转载两源印证；引语保留英文原文+中文对照。
 - 本计划不再新建分支，直接在 main 上逐轮提交（V7 时代分支流程已完成使命）。
+
+## 核实来源留档（R02）
+
+Twitter, Inc. v. Musk（Del. Ch. **C.A. No. 2022-0613-KSJM**，McCormick 大法官；案卷索引 chancerydocket.com——注意本案无 CourtListener 公开 docket，勿再误引）：
+- TIME 全文转载（2022-09-30 发布；披露件 9-29 周四由 Musk 律师提交、@chancery_daily 首发）：https://time.com/6218578/elon-musk-texts-twitter/ （Dorsey/Agrawal/Kimbal/SBF/Lonsdale 逐字 + Ellison 时间线）
+- BBC 决裂往来逐字（2022-09-30）：https://www.bbc.co.uk/news/technology-63098117
+- Guardian（2022-10-01）：https://www.theguardian.com/technology/2022/oct/01/elon-musk-and-twitter-boss-parag-agrawal-messages-show-blossoming-relationship
+- Fortune/AP 披露语境（2022-09-30，Musk 回复 Agrawal「40 秒后」）：https://fortune.com/2022/09/30/elon-musk-friendly-text-messages-twitter-ceo-parag-agrawal-court-trial/
+- WaPo Ellison「Roughly what dollar size?」（2022-10-01）：https://www.washingtonpost.com/technology/2022/10/01/elon-musk-texts-twitter-lawsuit/
+- Gates 空头短信（Musk 2022-04-22 自晒截图+发推确认，CNBC 2022-04-23 转载，注明无法独立核实）：https://www.cnbc.com/2022/04/23/elon-musk-tweets-that-he-confronted-bill-gates-about-shorting-tesla.html
+- SBF $5B 参投与作罢（Axios 2022-10-03）：https://www.axios.com/2022/10/03/sam-bankman-fried-elon-musk-twitter-deal
+- 「Your lawyers are using these conversations to cause trouble. That needs to stop」（2022-06-28，Musk→Agrawal/Segal；BI 报道 · Economic Times 转载）：https://economictimes.indiatimes.com/magazines/panache/elon-musks-warning-text-to-twitter-ceo-parag-agrawal-your-lawyers-are-causing-trouble/articleshow/92899468.cms
+
+## 第 2 轮工作记录（Twitter 收购案私信原件）— complete（2026-09-30）
+
+- **交付**：账本 primary.html +9 条（74→83，严格克隆既有结构、四段深读双语）：e2022-03-26 Dorsey 劝进（「could def help in immeasurable ways」+ 逼宫旧事）、e2022-04-05 Dorsey 祝贺入董事会（「Parag is an incredible engineer. The board is terrible.」「Got very emotional」）、e2022-04-09 Musk↔Agrawal 决裂（「What did you get done this week?」「I'm not joining the board. This is a waste of time. Will make an offer to take Twitter private.」+ 同日 Kimbal blockchain Plan B「no throat to choke」揉入现场段）、e2022-04-16 Lonsdale 转达 DeSantis（政治入场，「Haha cool」）、e2022-04-20 Ellison 一小时承诺 $1B（「Roughly what dollar size?」）、e2022-04-22 Gates 空头对峙（三行往来逐字，Musk 自晒件，ps-src 如实注明非法院披露）、e2022-04-25 签署日拒 SBF（「Blockchain Twitter isn't possible」，Grimes 转达 $5B 参投）、e2022-04-26 Dorsey 斡旋收尾（「too critical to humanity」「At least it became clear that you can't work together」）、e2022-06-28 「Your lawyers are using these conversations to cause trouble. That needs to stop」。
+- **quotes.html** +9 卡（61→70）。**交叉引用**：platform-x.html px-0414（要约）补 → e2022-04-09、px-0425（协议）补 → e2022-04-25；index.html 三处「74」计数升 83。
+- **管线**：build-ledger-timeline（83 节点）/ build-search-index（断言 74→83，索引 185→194 = 83+9+18+13+5+53+4+9）/ sync-changelog / build-epub 全重跑；版本 v7.1.0→v7.2.0（VERSION/app.js/16 文件 span，node --check 通过）；CHANGELOG 首条 v7.2.0；EXPANSION.md 顶部补 R02 入包块（含可点击来源与甄别注）。
+- **验证**：verify.py 9/9 全绿（语录卡 70 vs 引文块 73 + 3 豁免；EPUB 新鲜）。
+- **提交**：主成果 `a48c1df`（24 文件，+338/−25），已推送 main。
+- **甄别记录（宁缺毋滥）**：①案号勘误——Del. Ch. 正确案号 2022-0613-KSJM（此前记忆中的 2027-01-JTL 有误，CourtListener 63108355 是无关案件，已核实纠正）；②Ellison 回复原句只找到 Musk 问句两源逐字，其回复以 TIME「within an hour committed $1B」转述呈现，网传「I love the idea of buying Twitter」名句两源检索无印证，未采用；③Kim Kardashian / Tim Cook 短信两源检索无果，未收录（留 R08 X 帖史轮再评估，那条实为 Musk 自曝推文而非法庭件）；④Rogan「liberate Twitter from the censorship happy mob」逐字确凿（BBC）但日期仅「late March/early April」模糊，按纪律未单独立条，揉入 e2022-04-05 现场段；⑤Gates 短信为收购案窗口期（4-22，要约与签署之间）的私信原件，主题相容，如实标注来源性质收录。
+- **下一轮预告**：R03 SEC EDGAR 公文扩容（documents.html +4~6 份：关键 8-K/proxy/2022-04-25 合并协议条款已有 d2022-04-25 在册，注意查重补新）。
 
 ## 核实来源留档（R01）
 
