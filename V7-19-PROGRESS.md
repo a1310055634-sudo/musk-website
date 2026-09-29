@@ -24,7 +24,7 @@
 | 07 | 公司关系总览 | complete | v6.12.0 | 9a718da | done |
 | 08 | 公司档案体系 | complete | v6.13.0 | 7f1d402 | done |
 | 09 | 事件时间轴升级 | complete | v6.14.0 | beb55fa | done |
-| 10 | 资本流向可视化 | complete | v6.15.0 | (本轮) | done |
+| 10 | 资本流向可视化 | complete | v6.15.0 | 9827183 | done |
 | 11 | 2008 旗舰专题 | pending | v6.16.0 | — | — |
 | 12 | 平台与 AI 旗舰专题 | pending | v6.17.0 | — | — |
 | 13 | 承诺与结果专题 | pending | v6.18.0 | — | — |
