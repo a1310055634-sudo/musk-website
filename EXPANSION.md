@@ -1,5 +1,14 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（V8 R03 轮 / 2026-09-30 EDGAR 原文直读核实）**：一手文档馆 9 → 14 份，五份 SEC EDGAR 文书全文逐字核验（curl 直读备案原文，非转述）：
+> - **d2018-08-14** Tesla 8-K 私有化特别委员会成立（Item 7.01 + Ex-99.1，Acc-no 0001564590-18-021585）：https://www.sec.gov/Archives/edgar/data/1318605/000156459018021585/tsla-ex991_6.htm ——「not yet received a formal proposal」；委员会 Buss/Denholm/Johnson Rice，Latham & Watkins 任法律顾问。
+> - **d2022-04-11** Twitter 8-K/A（Acc-no 0001193125-22-101041）：https://www.sec.gov/Archives/edgar/data/1418091/000119312522101041/0001193125-22-101041.txt ——4.04 letter agreement 邀请、4.09 辞谢（任命尚未生效）。甄别注：4.04 原始 8-K 不在 EDGAR 8-K 列表（仅见一号修正案），standstill 细节以 DEFM14A Background 4.04 段为源，未杜撰。
+> - **d2022-07-26** Twitter DEFM14A（Acc-no 0001193125-22-202163）：https://www.sec.gov/Archives/edgar/data/1418091/000119312522202163/d283119ddefm14a.htm ——4.13 要约信全文 + Background of the Merger 全节（9.2% 曝光 / standstill 谈判 / 毒丸 4.15 / 融资承诺 4.21 / Taylor 4.23「压价不太可能成功」/ 4.24-25 放行）。
+> - **d2022-10-27** Twitter 最后一份 8-K（10.27 交割、10.31 备案，Acc-no 0001193125-22-272772）：https://www.sec.gov/Archives/edgar/data/1418091/000119312522272772/d411753d8k.htm ——「Mr. Musk became the sole director of Twitter」、九董事列名离任、NYSE 10.28 摘牌、债券 101% 控制权要约、终止 2018-08-07 循环信贷协议。
+> - **d2024-04-29** Tesla DEF 14A（Acc-no 0001104659-24-053333）：https://www.sec.gov/Archives/edgar/data/1318605/000110465924053333/tm2326076d15_def14a.htm ——议案三迁州德州 / 议案四追认 2018 奖励、董事会 2024-02-04 与 02-10 会议及特别委员会、proxy 引马斯克 X 帖与 Tornetta 案号 2018-0408-KSJM、Denholm 署名信「reinstate your vote」。
+> - 表决结果补充核实（多源）：2024-06-13 两案皆过、薪酬项约 77% 赞成（CNBC / Reuters / AP、Tesla IR）；2024-12 特拉华法官重申撤销不因追认失效（Bloomberg Law）；Tesla 2024-07-02 8-K 封面注册地已为 Texas（Acc-no 0001628280-24-030714）——迁州完成的一手证据。
+> 甄别注：①Tesla 2018-09-29 SEC 和解无对应 8-K（EDGAR 8-K 列表核实），未强收；②Twitter 2022-04-05 董事会任命原始 8-K 缺失，改用 8-K/A + DEFM14A 双证呈现；③2022 年会 proxy（6.23）议程无 SolarCity 追认提案（Chancery 2022-04-27 判 Tornetta 败诉后无需追认）——候选纠正后弃用；④2018 CEO Performance Award 授予当年的特别会议 proxy 未能定位文件，改由 2024 DEF 14A 承载该奖励叙事（含原始条款「no salary, no cash bonuses」逐字）。
+
 > **新事实入包（V8 R02 轮 / 2026-09-30 WebSearch 核实）**：账本 +9 条（74→83）——Twitter, Inc. v. Musk（Del. Ch. C.A. No. 2022-0613-KSJM，McCormick 大法官）2022 年披露的马斯克私信逐字件。九条锚点：e2022-03-26（Dorsey 劝进）/ e2022-04-05（Dorsey「board is terrible」）/ e2022-04-09（Agrawal 决裂 + Kimbal Plan B）/ e2022-04-16（Lonsdale-DeSantis）/ e2022-04-20（Ellison $1B）/ e2022-04-22（Gates 空头对峙，Musk 自晒件非法院披露）/ e2022-04-25（拒 SBF，签署日）/ e2022-04-26（Dorsey 斡旋）/ e2022-06-28（「lawyers causing trouble」）。核实来源（可点击）：
 > - TIME 全文转载（Dorsey/Agrawal/Kimbal/SBF/Lonsdale/Ellison 逐字，2022-09-30 发布、披露件 9-29 提交）：https://time.com/6218578/elon-musk-texts-twitter/
 > - BBC 决裂往来逐字（2022-09-30）：https://www.bbc.co.uk/news/technology-63098117

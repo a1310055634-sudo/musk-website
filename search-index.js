@@ -1086,6 +1086,19 @@ window.SEARCH_INDEX = [
   "ev": "e2018-08-07"
  },
  {
+  "id": "d2018-08-14",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2018.08.14",
+  "s": "Tesla Announces Formation of Special Committee（私有化特别委员会公告 8-K）",
+  "q": "“The special committee has not yet received a formal proposal from Mr. Musk regarding any Going Private Transaction nor has it reached any conclusion as to the advisability or feasibility of such a transaction.”",
+  "zh": "",
+  "bg": "推文发出整整一周后，公司才第一次以监管文件回应「funding secured」——而这份 8-K 的核心信息恰是反向的：所谓「资金已到位」的交易，连一份正式提案都还没有收到。三位董事组成的特别委员会拿到的是代表董事会的全部权力，交易审批权与马斯克本人被制度性隔开。对照四天前那封从容的私有化方案信（d2018-08-07），这份公告是公司在监管口径上踩下的急刹车。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2018-09-27",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1559,6 +1572,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2022-04-11",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.04.11 备案 · 事件日 04.04",
+  "s": "Twitter Form 8-K/A（董事会提名五日始末）",
+  "q": "“Pursuant to the April 4, 2022 letter agreement, Elon Musk was invited to serve on the board of directors (the “Board”) of Twitter, Inc. (the “Company”).”",
+  "zh": "",
+  "bg": "美国公司史上最短的一次董事会邀请-辞谢：4 月 4 日签约邀请、4 月 9 日放弃（任命甚至尚未生效）、4 月 11 日公司以一号修正案的形式备案收场。合并 proxy 的 Background 章节补全了动机——他拒绝限制公开言论的 standstill 条款，只肯接受约 15% 的持股上限（见 d2022-07-26）。董事会席位附带的是信托义务与发言约束，他要的是标的，不是席位。辞席前后的私信原话见言行实录 2022.04.09 条目。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-04-14",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1747,6 +1773,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2022-07-26",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.07.26",
+  "s": "Twitter DEFM14A（4.13 要约信全文与交易全日程）",
+  "q": "“I invested in Twitter as I believe in its potential to be the platform for free speech around the globe, and I believe free speech is a societal imperative for a functioning democracy.”",
+  "zh": "",
+  "bg": "要约信之外，这份 definitive proxy 的「Background of the Merger」按日记录了整个春天：4 月 4 日 9.2% 持股曝光，公司与马斯克交换含 standstill 条款的合作协议草案，他拒绝限制公开发言、只接受约 15% 的持股上限；4 月 9 日宣布不加入董事会并预告私有化要约；4 月 13 日这封信由他亲手递给董事长 Bret Taylor，次日公开；4 月 15 日董事会通过 15% 触发线的毒丸计划；4 月 21 日融资承诺函公开在册；4 月 23 日 Taylor 向同僚坦言，任何压价尝试「都不太可能成功，且有促使马斯克发动敌意收购之虞」；4 月 24–25 日董事会连日审议后放行。整场收购，再没有比这更完整的单一第一手叙事。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-10-26",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1785,6 +1824,19 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "d2022-10-27",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.10.27 交割 · 10.31 备案",
+  "s": "Twitter Form 8-K（最后一份 8-K：交割与退市）",
+  "q": "“On October 27, 2022, pursuant to the terms of the Merger Agreement, the Merger was consummated. At the effective time of the Merger, each issued and outstanding share of Twitter’s common stock … was canceled and converted into the right to receive the Merger Consideration.” —— Item 2.01",
+  "zh": "",
+  "bg": "这是 Twitter 作为上市公司的最后一份 8-K，十个条目一次写完一个时代的收尾：交割、控制权变更、九名董事逐一列名离任（Bret Taylor、Parag Agrawal、Omid Kordestani、David Rosenblatt、Martha Lane Fox、Patrick Pichette、Egon Durban、Fei-Fei Li、Mimi Alemayehou）、章程按并购协议重写、以及债券持有人的控制权回购要约（面值 101%）。Item 1.02 还顺手终止了 2018-08-07 签订的循环信贷协议——与「funding secured」推文同一天落笔的银行授信，在交割日画上句号（时间上的押韵是巧合，编者注）。",
+  "c": [
+   "X / Twitter"
   ]
  },
  {
@@ -2254,6 +2306,19 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "d2024-04-29",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2024.04.29",
+  "s": "Tesla 2024 年度股东大会 proxy（2018 奖励再批 + 迁州德州）",
+  "q": "“A Tesla proposal to ratify the 100% performance-based stock option award to Elon Musk that was proposed to and approved by our stockholders in 2018.”",
+  "zh": "",
+  "bg": "这是 2018 年那场十年对赌（十二档、零底薪、全业绩）被特拉华衡平法院 Tornetta 判决撤销后的「重新计票」：同一份奖励再次交付全体股东表决，并捆绑了迁州德州议案。proxy 还留下了罕见的程序内幕——马斯克发帖次日（2024-02-04）董事会即开会讨论，2 月 10 日五位无利害关系董事另行开会、成立特别委员会，以「程序正当」回应外界「马斯克已替公司做决定」的质疑。董事长信里那句「让你们的投票重新算数」（reinstate your vote），把这次投票的性质说得直白：这不是新合同，是对旧合同的再追认。",
+  "c": [
+   "Tesla"
   ]
  },
  {
