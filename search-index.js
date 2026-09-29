@@ -127,9 +127,9 @@ window.SEARCH_INDEX = [
   "s": "把公司战略写成一句玩笑",
   "q": "“Build sports car. Use that money to build an affordable car. Use that money to build an even more affordable car… Don't tell anyone.”",
   "zh": "",
-  "bg": "Tesla 成立三年，行业共识是电动车永远做不大。他以董事长身份把公司真正的路线图——藏在玩笑里——写上了官方博客。",
+  "bg": "",
   "c": [
-   "Tesla"
+   "综合"
   ]
  },
  {
@@ -196,7 +196,7 @@ window.SEARCH_INDEX = [
   "s": "「第四次总会有好运」",
   "q": "“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”",
   "zh": "",
-  "bg": "三连败之后、金融危机最坏的一周，第四次发射前，他公开承诺：只要还有一线可能，公司就继续打下去。火箭入轨后，他在约 500 名员工面前说了下面这段话。",
+  "bg": "",
   "c": [
    "综合"
   ]
@@ -569,7 +569,7 @@ window.SEARCH_INDEX = [
   "s": "「现有电池的问题在于它们很烂」",
   "q": "“The issue with existing batteries is that they suck. They are expensive, unreliable and bad in every way.” — “We're talking about trying to change the fundamental energy infrastructure of the world.”",
   "zh": "",
-  "bg": "发布会前媒体等的是一辆车，他却抱出一块墙挂电池。整场发布的说服策略只有两步：先把行业贬到底，再把价格亮出来。",
+  "bg": "",
   "c": [
    "综合"
   ]
@@ -621,9 +621,9 @@ window.SEARCH_INDEX = [
   "s": "「造机器的机器」",
   "q": "“The machine that builds the machine.”",
   "zh": "",
-  "bg": "Model X 磕磕绊绊、Model 3 量产在即。他告诉投资者：Tesla 最重要的产品不是任何一辆车，而是工厂本身。全自动化未来工厂甚至有内部代号——「外星无畏舰」。",
+  "bg": "",
   "c": [
-   "Tesla"
+   "综合"
   ]
  },
  {
@@ -834,9 +834,9 @@ window.SEARCH_INDEX = [
   "s": "「欢迎来到生产地狱」",
   "q": "“Welcome to production hell! That's where we're going to be for at least six months.”",
   "zh": "",
-  "bg": "Model 3 预订压顶、周产 5000 的目标定死、现金时钟在走。第一批车主交付的舞台上，他没有讲愿景，而是讲了一句警告。",
+  "bg": "",
   "c": [
-   "Tesla"
+   "综合"
   ]
  },
  {
@@ -981,7 +981,7 @@ window.SEARCH_INDEX = [
   "s": "「人类被低估了」——给自己的公开纠错",
   "q": "“Excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
   "zh": "",
-  "bg": "两年前他还告诉投资者，工厂是「造机器的机器」、全自动化未来工厂代号「外星无畏舰」。生产地狱里，他公开收回了自己的话。",
+  "bg": "",
   "c": [
    "Tesla"
   ]
@@ -1086,6 +1086,45 @@ window.SEARCH_INDEX = [
   "ev": "e2018-08-07"
  },
  {
+  "id": "e2018-09-27",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.09.27",
+  "s": "SEC 诉状（S.D.N.Y. No. 1:18-cv-08865）· SEC 新闻稿 2018-219",
+  "q": "“Musk knew or was reckless in not knowing that each of these statements was false and/or misleading because he did not have an adequate basis in fact for his assertions.”",
+  "zh": "马斯克明知上述陈述虚假和/或具有误导性，或因疏于知情而构成轻率，因为他的断言没有充分的事实基础。（诉状第 3 段）",
+  "bg": "Eight days after the “Funding secured” tweet, the SEC sued. The complaint, filed in the Southern District of New York (No. 1:18-cv-08865), charged violations of the antifraud provisions of the federal securities laws and sought a permanent injunction, disgorgement, civil penalties — and an officer-and-director bar.",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "e2018-09-29",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.09.29",
+  "s": "SEC 新闻稿 2018-226 · 同意动议（Dkt. 6，CourtListener 案卷）",
+  "q": "“The total package of remedies and relief announced today are specifically designed to address the misconduct at issue by strengthening Tesla's corporate governance and oversight in order to protect investors.”",
+  "zh": "今天宣布的全部救济与处罚方案，专为处置本案的不当行为而设——强化 Tesla 的公司治理与监督，以保护投资者。（SEC 执法联席主任 Stephanie Avakian）",
+  "bg": "Two days after the suit, a settlement: Musk kept the CEO seat, while Tesla separately settled a charge of failing to have required disclosure controls (No. 1:18-cv-08947). The market's question — Tesla without Musk — was answered; for Musk, it was the first time he signed onto someone else's rules.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "e2018-12-09",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.12.09",
+  "s": "CBS《60 分钟》访谈（Lesley Stahl）· LA Times · Ars Technica",
+  "q": "“I do not respect the SEC. I do not respect them.”",
+  "zh": "我不尊重 SEC。我不尊重他们。",
+  "bg": "Less than two months after the settlement won court approval, he sat down with Lesley Stahl on 60 Minutes — his first televised remarks on the SEC since the deal, with his tweets now under lawyer pre-clearance.",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "e2018-12-18",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1097,6 +1136,19 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "Boring Company"
+  ]
+ },
+ {
+  "id": "e2019-02-19",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.02.19",
+  "s": "本人推文（两条）· SEC 函件（Dkt. 18-2）· 藐视动议（Dkt. 18）",
+  "q": "“Tesla made 0 cars in 2011, but will make around 500k in 2019”",
+  "zh": "Tesla 2011 年造了 0 辆车，但 2019 年将造约 50 万辆。",
+  "bg": "At 7:15 pm ET on February 19, 2019, he tweeted a production forecast for 2019 — the number the Tesla story lived on. For the first time since the settlement, one of his tweets was headed into a contempt proceeding.",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -1136,6 +1188,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
+  ]
+ },
+ {
+  "id": "e2019-04-30",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.04.30",
+  "s": "修正终审判决令（Dkt. 47）· 驳回令（Dkt. 48）· CourtListener 案卷",
+  "q": "“The Court has now granted the motion and entered the proposed Order amending the Final Judgment. Accordingly, the SEC's contempt motion, Dkt. No. 18, is denied as moot.”",
+  "zh": "本院已批准该动议并录入拟议的修正终审判决令。故 SEC 的藐视动议（案卷编号 18）因失去标的而驳回。（Nathan 法官，5 月 1 日令）",
+  "bg": "On April 5, Judge Nathan ordered the parties “to meet and confer for at least one hour in an effort to resolve the pending motion to hold Mr. Musk in contempt, as well as any modifications to the consent judgment.” On April 26 they filed a consent motion to amend (Dkt. 46): a rewritten clause in exchange for dropping the contempt fight.",
+  "c": [
+   "综合"
   ]
  },
  {
@@ -1251,7 +1316,7 @@ window.SEARCH_INDEX = [
   "s": "「我不太信教，但这一次我祈祷了」",
   "q": "“This is a dream come true for me and everyone at SpaceX.” — “I'm not very religious, but I prayed for this one.”",
   "zh": "",
-  "bg": "Crew Dragon 载人首飞前夜，公司从 2008 年的棺材边走到了国家载人任务的承运席。发射当日他说了这样两段话。",
+  "bg": "",
   "c": [
    "SpaceX"
   ]
@@ -1384,9 +1449,8 @@ window.SEARCH_INDEX = [
   "s": "「讨厌当 CEO，但没有我公司会死」",
   "q": "He said he “hates” being Tesla's CEO — but kept the job because, without him, the company would “die”.",
   "zh": "",
-  "bg": "26 亿美元收购 SolarCity 五年后，股东就关联交易起诉他和董事会。宣誓之下、一坐数小时的证人席上，他说出了对自己角色的最坦白定义。",
+  "bg": "",
   "c": [
-   "SolarCity",
    "Tesla"
   ]
  },
@@ -1443,6 +1507,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2022-03-08",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.03.08",
+  "s": "终止动议与备忘录（Dkt. 70/71/72）· SEC 反对简报（Dkt. 78，Reuters/Boing Boing 转载）",
+  "q": "“When it comes to civil settlements, a deal is a deal, absent far more compelling circumstances than are here presented.”",
+  "zh": "说到民事和解，签了就是签了——除非出现比本案所提交的远为有力的情形。（SEC 反对简报，3 月 22 日提交）",
+  "bg": "In spring 2022, while bidding publicly for Twitter (formal offer April 14), he launched a frontal attack on the 2018 judgment: a March 8 motion to quash parts of the SEC's subpoena and terminate the consent decree outright, with his own declaration attached (Dkt. 72).",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-04-14",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1463,7 +1540,7 @@ window.SEARCH_INDEX = [
   "s": "「我根本不在乎经济账」",
   "q": "“I don't care about the economics at all… This is not a way to make money… an inclusive arena for free speech… important to the future of civilization.” — “I'm not actually sure I will be able to acquire it.”",
   "zh": "",
-  "bg": "已被拍到成为推特最大股东、拒绝董事会席位之后，他把全现金要约搬上 TED 舞台，当众解释这笔交易的动机。",
+  "bg": "",
   "c": [
    "综合"
   ]
@@ -1805,6 +1882,19 @@ window.SEARCH_INDEX = [
   "bg": "与前两份「叙事式」蓝图不同，Part 3 是一份工程可行性研究：把去化石燃料所需的储能、发电与材料规模逐项量化。语气从「大话」切换成了「公式」。",
   "c": [
    "综合"
+  ]
+ },
+ {
+  "id": "e2023-05-15",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2023.05.15",
+  "s": "第二巡回 Summary Order（No. 22-1291）· mandate 入卷（Dkt. 97）",
+  "q": "“Had Musk wished to preserve his right to tweet without even limited internal oversight concerning certain Tesla-related topics, he had ‘the right to litigate and defend against the [SEC's] charges’ or to negotiate a different agreement—but he chose not to do so. Having made that choice, he may not use Rule 60 to collaterally re-open a final judgment merely because he has now changed his mind.”",
+  "zh": "如果马斯克想保留连特定 Tesla 话题上有限的内部监督都不要的推文权利，他本有权「起诉抗辩 SEC 的指控」，或去谈判一份不同的协议——但他没有那样选。既然作了选择，他就不能仅仅因为如今改了主意，便借 Rule 60 从侧翼重开一份已生效的判决。",
+  "bg": "Eleven months after the appeal, a three-judge panel of the Second Circuit (Chief Judge Livingston, Raggi, Kahn) ended the campaign with a summary order: affirmed.",
+  "c": [
+   "Tesla"
   ]
  },
  {

@@ -2,6 +2,15 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v7.1.0 — 2026-09-30 · V8 扩充（1/10）：funding secured 案（SEC v. Musk）
+
+**主题包成果（V8 R01 · 第一手信息扩充计划启动轮）**
+- **账本 +7 条（67→74）**：SEC v. Musk（S.D.N.Y. No. 1:18-cv-08865）完整法庭弧线，逐条 SEC/CourtListener 第一手锚点——e2018-09-27 起诉（诉状第 3 段逐字 + 新闻稿 2018-219）、e2018-09-29 和解（新闻稿 2018-226 条款全文 + 10/16 Final Judgment）、e2018-12-09 60 Minutes「I do not respect the SEC」（四源印证）、e2019-02-19 产量推文（SEC 函件 Dkt.18-2 引述两条推文全文 + 藐视动议/show cause 令）、e2019-04-30 修正终审判决（Dkt.47/48 逐字，藐视战终结）、e2022-03-08 终结动议（Dkt.70-72 + SEC「a deal is a deal」反对简报 + Liman 2022-04-27 驳回）、e2023-05-15 第二巡回维持（Summary Order 22-1291 逐字 + Fair Fund 分发收尾）；
+- **quotes.html 核实卡 +7（54→61）**：每条新账本引文块逐一对卡；
+- **交叉引用**：controversy.html#sec-sec「结果」段补法庭弧线入口并把「暂作参考记录」的 60 Minutes 引语转正链接账本 e2018-12-09；promises.html 第 03 案来源列表补 e2018-09-27–e2023-05-15 一行；index.html 三处「67 条」计数文案升 74；
+- **管线**：build-ledger-timeline（时间轴 74 节点）/ build-search-index（断言 67→74，索引 178→185）/ build-revisions / build-epub 全部重跑；
+- 来源留档：V8-PROGRESS.md「核实来源留档（R01）」节（SEC 官网 / CourtListener / RECAP 公开件 / 四源媒体印证）。
+
 ## v7.0.0 — 2026-09-30 · V7 改版（19/19）：全站验收、交接与发布 🎉
 
 **收官条目（V7-19 第 19 轮 · 最终轮）——「马斯克商业志 MUSK, INC.」v7.0 正式发布**

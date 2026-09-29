@@ -61,7 +61,7 @@ for m in re.finditer(r'<article class="doc-article" id="(d\d[\d-]*)">(.*?)</arti
 s = io.open('interviews.html', encoding='utf-8').read()
 for m in re.finditer(r'<article class="iv-item" id="(i\d[\d-]*)">(.*?)</article>', s, re.S):
     b = m.group(2)
-    h2 = re.search(r'<h2>([^<]+)</h2>', b)
+    h2 = re.search(r'<h2[^>]*>([^<]+)</h2>', b)
     badges = re.findall(r'<a class="iv-badge" href="#[^"]*"[^>]*>([^<]+)</a>', b)
     quote = re.search(r'<blockquote>(.*?)</blockquote>', b, re.S)
     assert h2 and badges, m.group(1)
@@ -219,7 +219,7 @@ for _ev in ED.EVENTS:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
+assert counts == {'言行实录': 74, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 
