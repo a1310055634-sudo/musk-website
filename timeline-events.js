@@ -4,7 +4,7 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "6.18.0",
+  "version": "6.23.0",
   "nEvents": 9,
   "nRecords": 151,
   "nAbsorbed": 18,

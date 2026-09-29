@@ -1,8 +1,27 @@
 # 马斯克商业志 MUSK, INC. — 开发日志与交接文档
 
-> 本文档供新会话接手时快速了解项目全貌。最后更新：v6.5.0（2026-09-26）。
+> 本文档供新会话接手时快速了解项目全貌。最后更新：v7.0.0（2026-09-30，V7-19 十九轮改版发布）。
 >
 > **技术增补**：2026-09-26 的 17 轮自动化冲刺（v5.89.0→v6.5.0）架构变更、作业模板与坑位清单见 `DEVLOG-SPRINT17.md`（接手 agent 必读第二篇）。
+
+> **技术增补（二）**：2026-09-29/30 的 **V7 十九轮改版（v6.6.0→v7.0.0）已完成并发布**。接手必读第三篇：本节末尾的「V7-19 交接要点」+ `V7-19-PROGRESS.md`（19 轮全记录）+ `qa/v7-19/`（每轮探针与截图）。
+
+---
+
+## 〇、V7-19 交接要点（v7.0.0，2026-09-30 发布）
+
+**十九轮成果地图**（细节见 V7-19-PROGRESS.md 每轮记录，qa/v7-19/round-NN/ 有探针+截图）：
+- 视觉（R1–R4）：深色纪实封面 + 浅色长文 + 统一色标字体；素材体系（8 图全溯源）；首页「把未来做成生意」+ 五组导航（开始/公司/事件/专题/资料，site-nav.py 单一来源）；
+- 阅读（R5/R11–R13）：lr-* 长文模板；三个旗舰专题——`survival-2008.html`（144 天逐节点）、`platform-x.html`（平台三阶段+所有权图+口径三分列）、`promises.html`（承诺-结果五案对账+四类归类+排除项声明）；
+- 数据（R6–R10/R15）：`events-data.py` 9 事件档案（37 材料关联）→ events.html/events-data.js；时间轴聚合（151 独立+18 吸收，timeline-events.py）；公司关系图（companies-data.py）；公司档案 4+6（company-files-data.py）；资本流向 18 笔（capital-data.py → capital-evolution.html#flow）；检索 178 条含事件聚合与命中解释（search.html ?q=&type=&co=）；
+- 资料（R14）：cite.js 复制引用（107 单元三级退路）；账本关联建档卡（build-ledger-links.py）；四层结构图例；
+- 工程收尾（R16–R18）：320/390/768 全站 111 组合扫描零溢出；双语审计修复（controversy 五篇/interviews/reading 全量 data-en；已知限制：深色页叙事正文长尾以中文为主）；性能实测五页 load<1500ms（本地）+defer+reduced-motion/焦点/对比度实测达标。
+
+**数据单一事实来源清单**（改数据只改 .py 再重跑生成器）：events-data.py（事件+材料）→ build-events.py / build-timeline-events.py（151+18 口径）/ companies-data.py 交叉引用；company-files-data.py → build-company-files.py；capital-data.py → build-capital.py；site-nav.py → 全站导航；search-index 由 build-search-index.py（178 = 169 一手 + 9 事件档案）。verify.py 9 项是发布底线。
+
+**已知限制**：money/ai-strategy/grok/capital-evolution 深色页叙事正文与 changelog 条目以中文为主（结构性元素已双语）；money/quotes 两页有历史存量未闭合标签（浏览器容错正常，HEAD 时代即如此）；changelog.html 无脚本（静态日志页）。
+
+**续作指南**：新触发先查 V7-19-PROGRESS.md 末行与 git log——若 v7.0.0 已发布且线上验证过，则**静默退出勿再改**；若要做 v7.1，从「已知限制」的正文层双语与新增专题选题入手；每轮仍走「扫描→修复→探针→截图→verify→提交推送」闭环。
 
 ---
 

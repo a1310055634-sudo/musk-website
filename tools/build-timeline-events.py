@@ -79,7 +79,9 @@ for ev in ED.EVENTS:
     if n:
         absorbed_by_event[ev["id"]] = n
 
-records = [it for it in items if (it["pg"] + "#" + it["id"]) not in absorbed]
+# V7-19 R19 口径修正：events.html 的事件档案索引记录（R15 入检索）不是一手材料记录，
+# 不入时间轴记录池——否则同一事件被「档案 + 材料」双重表达（151→160 的漂移即由此来）。
+records = [it for it in items if it["pg"] != "events.html" and (it["pg"] + "#" + it["id"]) not in absorbed]
 
 # ---------------- timeline-events.js ----------------
 data = {
