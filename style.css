@@ -1726,3 +1726,21 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media print {
   .pv-case { break-inside: avoid; }
 }
+
+/* ============================================================
+   V7-R14 原始资料阅读体验（.cite-* / .ps-linkcard）— 四资料页
+   ============================================================ */
+.cite-btn { font-size: 10.5px; letter-spacing: 0.08em; font-weight: 700; color: var(--muted); background: #fff; border: 1px solid var(--hairline); border-radius: 3px; padding: 2px 8px; cursor: pointer; margin-left: auto; flex: none; transition: color var(--t-fast), border-color var(--t-fast); }
+.cite-btn:hover { color: var(--accent); border-color: var(--accent); }
+.cite-btn.cite-ok { color: #1c7c40; border-color: #1c7c40; }
+.cite-btn.cite-fail { color: var(--accent); border-style: dashed; }
+.ps-head, .iv-meta { display: flex; align-items: center; gap: 8px; }
+.tweet-card .cite-btn, .doc-article .cite-btn { float: right; }
+/* 账本条目关联建档卡（生成器注入） */
+.ps-linkcard { font-size: 12.5px; line-height: 1.9; color: var(--muted); border-top: 1px dotted rgba(23, 25, 29, 0.2); margin-top: 10px; padding-top: 8px; }
+.ps-linkcard b { display: inline-block; font-size: 10.5px; letter-spacing: 0.16em; color: var(--accent-text); margin-right: 8px; }
+.ps-linkcard a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); margin-right: 10px; }
+.ps-linkcard a:hover { color: var(--accent); }
+@media print {
+  .cite-btn, .cite-box { display: none !important; }
+}
