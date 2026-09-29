@@ -32,7 +32,7 @@
 | 15 | 搜索与发现 | complete | v6.20.0 | dff5d02 | done |
 | 16 | 手机全流程打磨 | complete | v6.21.0 | fa44b91 | done |
 | 17 | 双语与全站统一 | complete | v6.22.0 | c51749c | done |
-| 18 | 动效、无障碍与性能 | complete | v6.23.0 | (本轮) | done |
+| 18 | 动效、无障碍与性能 | complete | v6.23.0 | 5f3036d | done |
 | 19 | 全站验收、交接与发布 | pending | v7.0.0 | — | — |
 
 状态取值：pending / in_progress / complete / blocked。失败不推进轮次；推送失败时仅恢复推送。
