@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v6.23.0 — 2026-09-30 · V7 改版（18/19）：动效、无障碍与性能
+
+**主题包成果（V7-19 第 18 轮 · 动效、无障碍与性能）**
+- **全站审计（新探针 r18-probe.js，12/12 断言全过）**：①性能实测——条件为本机 headless Chrome + 127.0.0.1 静态服务器（无网络延迟，如实标注非真实网络分数），index/survival-2008/timeline/primary/search 五页 load 全部 <1500ms，首页最大资源 x-hq.jpg 196KB（明细 qa/v7-19/round-18/perf-log.txt）；②reduced-motion 模拟（CDP features 注入）——reveal 全部立即可见、首屏标题不依赖动画（app.js matchMedia 分支 + CSS 13 处 @media 块既有机制回归验证）；③键盘焦点——CDP Input.dispatchKeyEvent **真实 Tab 按键** 8 次逐个进入可交互元素（修正审计方法：合成 KeyboardEvent 不触发真实焦点移动）、:focus 规则 19 处在册；④对比度实测（WCAG 公式计算）——浅底次级文字与深底文字均 ≥4.5（AA）；⑤Esc 焦点恢复回归——资本流向图 Enter 开详情 → Esc 焦点归还（R10 机制正常）；
+- **静态基线复核**：全站 20/20 img 均有 width/height（布局稳定）；加载策略正确（首页肖像 fetchpriority="high" 首屏优先、其余 19 张 loading 懒加载）；
+- **本轮改动**：app.js/cite.js 全站 36 页挂载点加 defer（解析不阻塞、执行顺序保持）；changelog.html 无脚本引用为历史合理现状（静态日志页）不动；
+- **站点零缺陷**：审计发现的 3 处问题均为探针自身方法问题（结构顺序/CDP API 更名/合成按键无效），逐一定位修正——此前 17 轮的无障碍与性能基础良好，本轮以实测留档为主；
+- VERSION/app.js/14 页 span → 6.23.0；EPUB 重建。
+
+**质量门**
+- verify.py 9 项全绿（37 页，索引 178 条）；node --check（app.js + cite.js）通过；审计探针 12/12；实测数据留档 qa/v7-19/round-18/perf-log.txt。
+
 ## v6.22.0 — 2026-09-30 · V7 改版（17/19）：双语与全站统一
 
 **主题包成果（V7-19 第 17 轮 · 双语与全站统一）**

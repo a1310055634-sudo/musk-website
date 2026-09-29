@@ -1,0 +1,6 @@
+index.html  DCL 232ms · load 235ms · 资源 7 个 / 789KB · DOM 446 节点
+survival-2008.html  DCL 224ms · load 224ms · 资源 2 个 / 139KB · DOM 385 节点
+timeline.html  DCL 300ms · load 301ms · 资源 4 个 / 274KB · DOM 2159 节点
+primary.html  DCL 343ms · load 367ms · 资源 3 个 / 146KB · DOM 1784 节点
+search.html  DCL 198ms · load 198ms · 资源 3 个 / 246KB · DOM 1725 节点
+首页最大资源: [{"n":"x-hq.jpg","kb":196},{"n":"tesla-factory.jpg","kb":133},{"n":"starship-catch.jpg","kb":127},{"n":"falcon-heavy.jpg","kb":113},{"n":"style.css","kb":108}]
