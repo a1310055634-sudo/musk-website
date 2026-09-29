@@ -17,7 +17,7 @@
 | 01 | 建 V8-PROGRESS.md + funding secured 案（SEC v. Musk） | complete | v7.1.0 | 398b249 | done |
 | 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | complete | v7.2.0 | a48c1df | done |
 | 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | complete | v7.3.0 | eceb6ee | done |
-| 04 | 财报电话会 I（2013–2018） | in_progress | — | — | — |
+| 04 | 财报电话会 I（2013–2018） | complete | v7.4.0 | 7440bd7 | done |
 | 05 | 财报电话会 II（2019–2026） | pending | — | — | — |
 | 06 | 长访谈 I：Lex Fridman 四期 | pending | — | — | — |
 | 07 | 长访谈 II：Rogan / TED / All-In / DealBook | pending | — | — | — |
@@ -47,7 +47,27 @@ Twitter, Inc. v. Musk（Del. Ch. **C.A. No. 2022-0613-KSJM**，McCormick 大法�
 - SBF $5B 参投与作罢（Axios 2022-10-03）：https://www.axios.com/2022/10/03/sam-bankman-fried-elon-musk-twitter-deal
 - 「Your lawyers are using these conversations to cause trouble. That needs to stop」（2022-06-28，Musk→Agrawal/Segal；BI 报道 · Economic Times 转载）：https://economictimes.indiatimes.com/magazines/panache/elon-musks-warning-text-to-twitter-ceo-parag-agrawal-your-lawyers-are-causing-trouble/articleshow/92899468.cms
 
-## 核实来源留档（R03）
+## 核实来源留档（R04）
+
+九期 Tesla 财报电话会逐字稿（stockanalysis.com/stocks/tsla/transcripts/ 全文直读，Quartr 转写；索引页含 2013–2026 全部季度 ID）：
+- Q4 2015（2016-02-10）= /23975-q4-2015/；Q1 2016（05-04）= /23974-q1-2016/；Q2 2016（08-03）= /23973-q2-2016/；Q3 2016（10-26）= /23972-q3-2016/；Q4 2016（2017-02-22）= /23971-q4-2016/；Q2 2017（08-02）= /23968-q2-2017/；Q3 2017（11-01）= /23967-q3-2017/；Q1 2018（05-02）= /23958-q1-2018/；Q2 2018（08-01）= /23957-q2-2018/
+- 采料方法备忘：本机 curl 到 stockanalysis.com 被 Cloudflare 拦（Just a moment），**WebFetch 服务端可过**（全文可读，但单次引用限 125 字符，长引语需多轮问询）；web.archive.org 本机 curl 与 WebFetch 均 TLS 中断，不可用；Seeking Alpha/fool.com 直链 404/403。
+- 三源印证（Q1 2018 call）：BBC https://www.bbc.com/news/business-43987141 （bonehead/killing me 逐字 + 股价 -5% + Sacconaghi/Levy 反应）、Slate https://slate.com/technology/2018/05/elon-musk-says-a-flufferbot-caused-the-model-3-delays.html （flufferbot 段逐字，Will Oremus 2018-05-02）、The Verge 2018-08-31 回顾 https://www.theverge.com/2018/8/31/17802234/this-week-in-elon-musk-tesla-twitter-investor-shorts （bonehead + YouTube + 「apologized in a subsequent earnings call」）
+- Q2 2018 call 道歉：Business Insider https://www.businessinsider.com/elon-musk-apologizes-to-analyst-on-tesla-q2-earnings-call-2018-8 （Mark Matousek 2018-08-01：「I'd like to apologize for being impolite on the prior call」「no excuse for bad manners」+ 110–120 小时工作周 + Jonas「20 年最怪 call」）；Bloomberg 同日报道；Chief Executive 2018-08-02 https://chiefexecutive.net 「the power of a good apology」
+- 4·13 自动化推文：Gadgets360/NDTV（2018-04-14）逐字引推文；The Guardian 2018 年表 https://www.theguardian.com/technology/2018/aug/19/elon-musk-tesla-timeline-difficult-painful-year （4 月条目引两句 + 5/3 call bonehead 条目）；注意 Guardian 年表排 4/16，美媒主流口径 4/13（周五晚），锚点从 4/13
+- Q3 2017 call 印证：MediaPost（2017-11-02）「one to nine scale」；CNBC 2018-01-03 https://www.cnbc.com/2018/01/03/tesla-q4-2017-production-and-delivery-numbers.html 「deep in production hell」
+- 交付数据（条目后续段用）：2017 全年 Model 3 产量 2,685（Q3 260 + Q4 2,425，Tesla 季度报告）；2018 全年交付 245,240 / 2020 交付 499,550 / 2022 交付 1,313,851（Tesla 年度交付报告口径，条目内已注明）
+
+## 第 4 轮工作记录（财报电话会 I，2013–2018）— complete（2026-09-30）
+
+- **交付**：账本 primary.html +10 条（83→93，严格克隆 `<li class="ps-row ps-deep reveal">` 模板，四段深读双语）：e2016-02-10（Q4 2015 call：Model 3 发布预告与「明年底」量产承诺）、e2016-05-04（Q1 2016 call：7/1/2017 供应商契约 + 下半年 10–20 万辆目标，实际落差约 50 倍）、e2016-08-03（Q2 2016 call：Brown 事故后「hardware exists」口径与「35,000 deaths」反问——FSD 时间线膨胀的基准点）、e2016-10-26（Q3 2016 call：solar roof 周五发布预告 + SolarCity「cash neutral」预测）、e2017-02-22（Q4 2016 call：500K/2018 + 1M/2020 预测 +「We anti-sell the Model 3」）、e2017-08-02（Q2 2017 call：「manufacturing hell and supply chain hell on Friday…I meant it」+ 周产 10K 预测 + S-curve 金句）、e2017-11-01（Q3 2017 call：Jonas「How hot is it in hell?」→「level 9→level 8」+ 电池模组线瓶颈）、e2018-04-13（自动化认错推文，作为 flufferbot 前史入册并如实标注非 call 场合）、e2018-05-02（Q1 2018 call：bonehead/killing me/YouTube/flufferbot）、e2018-08-01（Q2 2018 call：道歉开场，funding secured 六天前）。
+- **quotes.html** +10 卡（70→80）。**index.html** 计数文案 83→93 ×5。无新专题页交叉引用需求（Model 3 弧线与 2018 私有化弧线已有对应账本行；500K/1M 预测与 promises.html 承诺案的挂接留给 R10 收官轮统一评估）。
+- **管线**：build-ledger-timeline（93 节点）/ build-search-index（断言 83→93，索引 209 = 93+14+18+13+5+53+4+9）/ build-revisions（128 锚点）/ sync-changelog（183 条）/ build-epub（172,325 B，24 章）全重跑；版本 v7.3.0→v7.4.0（VERSION/app.js/14 页 span，node --check 通过）；CHANGELOG 首条 v7.4.0。
+- **验证**：verify.py 9/9 全绿（语录卡 80 vs 引文块 83 + 3 豁免；EPUB 含最新条目）。
+- **提交**：主成果 `7440bd7`（24 文件，+813/−28）；本回填+revisions/EPUB 刷新为第二个提交。
+- **实现备注**：①r04-integrate.py 首跑被自建断言拦截（6 处 sub1 的 new 参数漏拼回 anchor，会吞掉下一现有条目的 `<li>` 开头——计数 87≠93 暴露），修复后成功；quotes.html 同款问题由断言拦截（73≠80），改用 r04-quotes-fix.py 独立补齐。**教训已固化：凡「在现有条目前插入新条目」的 replace，new 必须以新条目开头、以 anchor 字符串结尾**。②span 步进本次一次成功（正则复制 r02-spans.py 修好版：`site-version-val">7.3.0<`，断言 14）。③stockanalysis.com 逐字稿是本轮采料主力（Cloudflare 拦 curl 不拦 WebFetch），已记入来源留档。
+- **采料甄别（宁缺毋滥）**：①Q4 2013 call（2014-02-19）Gigafactory 表述全为「下周官宣再谈」推迟口径，无出彩逐字，弃收；②Q2 2016 call Autopilot 辩护（Brown 后）各家媒体转述不一（「more deaths」「50%」），无稳定逐字，改以逐字稿直读的 full autonomy/hardware 句立条；③「manufacturing hell and supply chain hell」按转写照录，条目现场段如实注明台上原话为「production hell」（7/28 交付活动已有 e2017-07-28 在册，未重复立条）；④「I'm very confident…10,000 vehicles per week」与「bought the ticket」句中后者疑为转写噪音，未采用。
+- **下一轮预告**：R05 财报电话会 II（2019–2026：cybertruck、FSD 时间线、Robotaxi、Optimus 历次表态），账本目标 +8~10 条，同一逐字稿管线（stockanalysis.com ID 已在留档）。
 
 五份 EDGAR 文书（全部 curl 直读原文逐字核验，Acc-no 在册；清单页 https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=… 按 type+dateb 检索）：
 - **d2018-08-14** Tesla 8-K（Item 7.01 + Ex-99.1 新闻稿，Acc-no 0001564590-18-021585）：https://www.sec.gov/Archives/edgar/data/1318605/000156459018021585/tsla-ex991_6.htm ——「not yet received a formal proposal」；委员会 Buss/Denholm/Johnson Rice；「no Going Private Transaction will be consummated without the approval of the special committee」
