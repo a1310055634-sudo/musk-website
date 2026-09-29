@@ -57,6 +57,7 @@ NAV_GROUPS = [
     {
         "zh": "专题", "en": "Features",
         "items": [
+            ("survival-2008.html", "专题·2008 生死役", "Feature: Survival 2008"),
             ("deep-dive-01.html", "深读·资本运作", "Deep Dive: Capital"),
             ("deep-dive-02.html", "深读·用人逻辑", "Deep Dive: Hiring"),
             ("deep-dive-03.html", "深读·失败模式", "Deep Dive: Failure"),

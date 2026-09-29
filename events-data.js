@@ -220,6 +220,230 @@ window.EVENTS_V7 = [
   ]
  },
  {
+  "id": "e2008-08-02",
+  "date": "2008.08.02",
+  "precision": "day",
+  "etype": "gamble",
+  "companies": [
+   "SpaceX"
+  ],
+  "title": {
+   "zh": "Falcon 1 第三次发射失败——最后一枚火箭之前的最黑一夜",
+   "en": "Falcon 1's third failure — the darkest night before the last rocket"
+  },
+  "summary": {
+   "zh": "新型 Merlin 1C 关机过渡更长，分离时一级仍有残余推力，两级再撞。钱几乎见底——第四次发射，是付得起账的最后一枚火箭。",
+   "en": "The new Merlin 1C's longer shutdown transient left residual thrust on the first stage at separation; the two stages re-contacted. Money was nearly gone — the fourth attempt was the last rocket that could be paid for."
+  },
+  "background": {
+   "zh": "第二次失败归因于燃料晃动；钱几乎见底。2008 年 8 月 2 日的第三次发射若成功，故事就此改写——结果，新型 Merlin 1C 关机过渡更长，分离时一级仍有推力，两级再撞。",
+   "en": "Flight 2 had failed on slosh; the money was nearly gone. A successful third flight on August 2, 2008 would have rewritten the story — instead, the new Merlin 1C's longer shutdown transient meant the first stage still had thrust at separation, and the two stages re-contacted."
+  },
+  "facts": [
+   {
+    "zh": "2008.08.02，Falcon 1 第三次发射失败：级间分离时一级仍有残余推力，两级再撞。",
+    "en": "On 2008-08-02, Falcon 1's third launch fails: residual first-stage thrust at separation, the two stages re-contacting."
+   },
+   {
+    "zh": "此前第二次失败归因于燃料晃动；第四次是付得起账的最后一枚火箭。",
+    "en": "Flight 2 had been attributed to propellant slosh; the fourth attempt was the last rocket that could be paid for."
+   },
+   {
+    "zh": "他飞到 Omelek 环礁、站在第三次失败的残骸中间，随后给团队发出书面指示。",
+    "en": "He flew to Omelek, stood among the wreckage of Flight 3, then messaged the team his written orders."
+   }
+  ],
+  "quotes": [
+   {
+    "en": "I will never give up.",
+    "zh": "我永远不会放弃。",
+    "source": {
+     "zh": "发给团队的消息 · 被 Universe Today 做进报道标题",
+     "en": "His message to the team, headlined by Universe Today"
+    }
+   },
+   {
+    "en": "We have one last rocket. Get your shit together, go back to the island, and launch it. You have six weeks.",
+    "zh": "我们还剩最后一枚火箭。打起精神，回岛上去，把它发射了。你们有六个星期。",
+    "source": {
+     "zh": "据 Vance 传记记载的更具操作性版本",
+     "en": "The more operational version, per the Vance biography"
+    }
+   }
+  ],
+  "no_quote_note": null,
+  "outcome": {
+   "zh": "五十七天后（2008.09.28），第四次发射入轨。分离残余推力的教训刻进了此后每一次级间分离设计；同年 12 月，NASA 16 亿美元 CRS 合同到账。（末句为编者分析：整条叙事弧里最黑的一夜，恰好排在黎明的前一条。）",
+   "en": "Fifty-seven days later (2008-09-28), the fourth flight reached orbit. The separation-thrust lesson was burned into every future stage-separation design; that December, NASA's $1.6B CRS contract landed. (Editorial analysis: the darkest night of the arc sits exactly one entry before the dawn.)"
+  },
+  "materials": [
+   {
+    "kind": "ledger",
+    "href": "primary.html#e2008-08-02",
+    "date": "2008.08.02",
+    "label": {
+     "zh": "言行账本 e2008-08-02 · Falcon 1 三飞失败",
+     "en": "Ledger e2008-08-02 · Falcon 1's third failure"
+    },
+    "note": {
+     "zh": "一手言行记录：背景 / 原话 / 现场 / 后续四段全文",
+     "en": "First-hand record: background / words / scene / aftermath"
+    }
+   },
+   {
+    "kind": "feature",
+    "href": "survival-2008.html",
+    "date": null,
+    "label": {
+     "zh": "专题 · 2008 生死役——从三连败到圣诞夜的 144 天",
+     "en": "Feature · Survival: 2008 — 144 days from the third failure to Christmas Eve"
+    },
+    "note": {
+     "zh": "本事件在 2008 全年生死叙事线中的展开",
+     "en": "This event inside the full 2008 survival narrative"
+    }
+   },
+   {
+    "kind": "external",
+    "href": null,
+    "date": "2008.08",
+    "label": {
+     "zh": "Universe Today（「I will never give up」标题口径）· Vance 传记",
+     "en": "Universe Today (“I will never give up” headline) · the Vance biography"
+    },
+    "note": {
+     "zh": "两段原话的口径来源",
+     "en": "Sources for both quotes"
+    }
+   }
+  ],
+  "image": null,
+  "related": [
+   {
+    "href": "#e2008-09-28",
+    "label": {
+     "zh": "2008.09.28 · 第四次发射入轨（57 天后）",
+     "en": "2008-09-28 · orbit on the fourth try (57 days later)"
+    }
+   },
+   {
+    "href": "#e2008-12-24",
+    "label": {
+     "zh": "2008.12.24 · 圣诞夜融资",
+     "en": "2008-12-24 · Christmas Eve financing"
+    }
+   }
+  ]
+ },
+ {
+  "id": "e2008-09-28",
+  "date": "2008.09.28",
+  "precision": "day",
+  "etype": "milestone",
+  "companies": [
+   "SpaceX"
+  ],
+  "title": {
+   "zh": "Falcon 1 第四次发射入轨——史上第一枚入轨的私营液体燃料火箭",
+   "en": "Falcon 1 reaches orbit on the fourth try — the first private liquid-fuel rocket to orbit"
+  },
+  "summary": {
+   "zh": "成立六年、三枚火箭全炸、个人资金接近见底——第四次发射在霍桑总部约 500 名员工注视下入轨。华尔街正处在金融危机最坏的一周。",
+   "en": "Six years old, three rockets blown up, personal funds nearly spent — the fourth flight reached orbit before some 500 employees at Hawthorne HQ. Wall Street was in the worst week of the financial crisis."
+  },
+  "background": {
+   "zh": "SpaceX 成立六年，三枚火箭全部炸毁，马斯克投入的已接近 PayPal 套现的最后所得——按他本人多次公开讲述，那时他在借钱付房租。华尔街正处在金融危机最坏的一周。第四次失败，大概率就是公司终点。",
+   "en": "SpaceX was six years old with three rockets blown up, and Musk had put in roughly the last of his PayPal money — by his own repeated public account, he was borrowing for rent. Wall Street was in the worst week of the financial crisis. A fourth failure would most likely end the company."
+  },
+  "facts": [
+   {
+    "zh": "2008.09.28，Falcon 1 第四次发射入轨——史上第一枚入轨的私营液体燃料火箭。",
+    "en": "On 2008-09-28, Falcon 1 reaches orbit on its fourth flight — the first privately built liquid-fuel rocket ever to orbit."
+   },
+   {
+    "zh": "现场为霍桑总部约 500 名员工；据现场记者描述，整栋楼沸腾。",
+    "en": "Some 500 employees filled SpaceX's Hawthorne headquarters; per reporters on site, the room erupted."
+   },
+   {
+    "zh": "同周华尔街正处金融危机最坏的一周——公司层面与宏观层面同时见底。",
+    "en": "The same week sat in the worst stretch of the financial crisis — the company and the macro bottom together."
+   }
+  ],
+  "quotes": [
+   {
+    "en": "As the saying goes, the fourth time's the charm… This is one of the best days of my life.",
+    "zh": "常言道，第四次总会有好运……这是我人生中最好的日子之一。",
+    "source": {
+     "zh": "Space.com · Spaceflight Now · 现场报道口径",
+     "en": "Space.com · Spaceflight Now · on-site reporting"
+    }
+   }
+  ],
+  "no_quote_note": null,
+  "outcome": {
+   "zh": "当年 12 月，NASA 16 亿美元 CRS 合同到账，SpaceX 得救。Falcon 1 又飞了一次便退役，公司全押 Falcon 9。此后每一个复用里程碑——包括 2024 年的「筷子」塔捕——都能追溯到第四枚火箭成功的那一天。",
+   "en": "That December, NASA's $1.6B CRS contract landed and SpaceX was saved. Falcon 1 flew once more and was retired; the company bet everything on Falcon 9. Every reusability milestone since — including the 2024 tower catch — traces back to the day the fourth rocket worked."
+  },
+  "materials": [
+   {
+    "kind": "ledger",
+    "href": "primary.html#e2008-09-28",
+    "date": "2008.09.28",
+    "label": {
+     "zh": "言行账本 e2008-09-28 · 第四飞入轨",
+     "en": "Ledger e2008-09-28 · orbit on the fourth try"
+    },
+    "note": {
+     "zh": "一手言行记录：背景 / 原话 / 现场 / 后续四段全文",
+     "en": "First-hand record: background / words / scene / aftermath"
+    }
+   },
+   {
+    "kind": "feature",
+    "href": "survival-2008.html",
+    "date": null,
+    "label": {
+     "zh": "专题 · 2008 生死役——从三连败到圣诞夜的 144 天",
+     "en": "Feature · Survival: 2008 — 144 days from the third failure to Christmas Eve"
+    },
+    "note": {
+     "zh": "本事件在 2008 全年生死叙事线中的展开",
+     "en": "This event inside the full 2008 survival narrative"
+    }
+   },
+   {
+    "kind": "external",
+    "href": null,
+    "date": "2008.09",
+    "label": {
+     "zh": "Space.com · Spaceflight Now（现场报道口径）",
+     "en": "Space.com · Spaceflight Now (on-site reporting)"
+    },
+    "note": {
+     "zh": "入轨事实与现场引语的口径来源",
+     "en": "Sources for the orbit milestone and the on-site quote"
+    }
+   }
+  ],
+  "image": null,
+  "related": [
+   {
+    "href": "#e2008-08-02",
+    "label": {
+     "zh": "2008.08.02 · 第三次发射失败（57 天前）",
+     "en": "2008-08-02 · the third failure (57 days earlier)"
+    }
+   },
+   {
+    "href": "#e2008-12-24",
+    "label": {
+     "zh": "2008.12.24 · 圣诞夜融资",
+     "en": "2008-12-24 · Christmas Eve financing"
+    }
+   }
+  ]
+ },
+ {
   "id": "e2008-12-24",
   "date": "2008.12.24",
   "precision": "day",
@@ -321,6 +545,13 @@ window.EVENTS_V7 = [
     "label": {
      "zh": "2002.10.03 · PayPal 交割（最后一份钱从哪来）",
      "en": "2002-10-03 · PayPal closes (where the last money came from)"
+    }
+   },
+   {
+    "href": "#e2008-09-28",
+    "label": {
+     "zh": "2008.09.28 · 第四飞入轨（三个月前）",
+     "en": "2008-09-28 · orbit on the fourth try (three months earlier)"
     }
    },
    {

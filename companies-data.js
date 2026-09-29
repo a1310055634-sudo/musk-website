@@ -119,6 +119,22 @@ window.COMPANIES_V7 = {
      }
     },
     {
+     "id": "e2008-08-02",
+     "date": "2008.08.02",
+     "title": {
+      "zh": "Falcon 1 第三次发射失败——最后一枚火箭之前的最黑一夜",
+      "en": "Falcon 1's third failure — the darkest night before the last rocket"
+     }
+    },
+    {
+     "id": "e2008-09-28",
+     "date": "2008.09.28",
+     "title": {
+      "zh": "Falcon 1 第四次发射入轨——史上第一枚入轨的私营液体燃料火箭",
+      "en": "Falcon 1 reaches orbit on the fourth try — the first private liquid-fuel rocket to orbit"
+     }
+    },
+    {
      "id": "e2008-12-24",
      "date": "2008.12.24",
      "title": {

@@ -4,13 +4,15 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "6.14.0",
-  "nEvents": 7,
-  "nRecords": 153,
-  "nAbsorbed": 16,
+  "version": "6.16.0",
+  "nEvents": 9,
+  "nRecords": 151,
+  "nAbsorbed": 18,
   "absorbedByEvent": {
    "e2002-10-03": 1,
    "e2006": 2,
+   "e2008-08-02": 1,
+   "e2008-09-28": 1,
    "e2008-12-24": 1,
    "e2018-08-07": 4,
    "e2022-10-28": 4,
@@ -74,19 +76,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "e2008-08-02",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2008.08.02",
-   "s": "Falcon 1 第三次发射失败 · Space.com · Universe Today · 传记口径",
-   "q": "“I will never give up.”",
-   "zh": "我永远不会放弃。",
-   "bg": "Flight 2 had failed on slosh; the money was nearly gone; the fourth attempt was the last rocket that could be paid for. A successful Flight 3 on August 2, 2008 would change the story — instead, the new Merlin 1C's longer shutdown transient meant the first stage still had thrust at separation, and the two stages re-contacted.",
-   "c": [
-    "SpaceX"
-   ]
-  },
-  {
    "id": "c2008-08-02",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -96,20 +85,6 @@ window.TIMELINE_V7 = {
    "zh": "",
    "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
    "c": [
-    "SpaceX"
-   ]
-  },
-  {
-   "id": "e2008-09-28",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2008.09.28",
-   "s": "Space.com · Spaceflight Now · 现场约 500 名员工",
-   "q": "“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”",
-   "zh": "常言道，第四次总会有好运……这是我人生中最好的日子之一。",
-   "bg": "SpaceX was six years old with three rockets blown up, and Musk had put in roughly the last of his PayPal money — by his own repeated public account, he was borrowing for rent. Wall Street was in the worst week of the financial crisis. A fourth failure would most likely end the company.",
-   "c": [
-    "PayPal",
     "SpaceX"
    ]
   },

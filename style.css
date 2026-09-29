@@ -1562,3 +1562,85 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media (prefers-reduced-motion: reduce) {
   .cap-flow .cap-ribbon, .cap-node-bg, .cap-chip { transition: none; }
 }
+
+/* ============================================================
+   V7-R11 2008 生死役专题组件层（.sv-*）— survival-2008.html
+   叙事：144 天五节点 · 数据全部锚定账本/编年史/事件档案/资本流
+   ============================================================ */
+.sv-hero-row { display: flex; align-items: flex-end; gap: clamp(18px, 3vw, 40px); margin-top: 16px; }
+.sv-year { font-family: var(--serif); font-weight: 700; font-size: clamp(72px, 9vw, 128px); line-height: .9; color: rgba(243, 240, 232, 0.13); letter-spacing: 0.02em; user-select: none; flex: none; }
+.sv-hero-text h1 { font-size: clamp(30px, 4.6vw, 52px); }
+.sv-axis-fig { margin: 22px 0 0; border-top: 1px solid rgba(243, 240, 232, 0.18); padding-top: 14px; padding-bottom: 18px; }
+.sv-axis { display: block; width: 100%; height: auto; }
+.sv-ax-h { font-family: var(--sans); font-size: 11px; letter-spacing: 0.18em; fill: var(--mist); }
+.sv-ax-base { stroke: rgba(243, 240, 232, 0.28); stroke-width: 1.5; }
+.sv-ax-red { stroke: var(--accent-bright); stroke-width: 2.5; }
+.sv-nd { fill: var(--coal); stroke: var(--accent-bright); stroke-width: 1.8; }
+.sv-nd--ok, .sv-nd--nasa { fill: var(--paper); stroke: var(--paper); }
+.sv-nd--eve { fill: var(--accent-bright); stroke: var(--accent-bright); }
+.sv-nd--step { fill: none; stroke: var(--mist); stroke-width: 1.6; }
+.sv-nd-x { stroke: var(--accent-bright); stroke-width: 1.6; }
+.sv-nd-up { stroke: var(--coal); stroke-width: 1.6; fill: none; }
+.sv-nd-core { fill: var(--coal); }
+.sv-ax-d { font-family: var(--serif); font-size: 13.5px; font-weight: 700; fill: var(--paper); text-anchor: middle; }
+.sv-ax-t { font-family: var(--sans); font-size: 11px; fill: var(--mist); text-anchor: middle; }
+.sv-axis a { cursor: pointer; }
+.sv-axis a:hover .sv-nd, .sv-axis a:focus-visible .sv-nd { stroke-width: 2.6; }
+.sv-axis a:focus-visible { outline: 2px solid var(--accent-bright); outline-offset: 2px; }
+.sv-axis-cap { font-size: 11.5px; color: var(--mist); line-height: 1.7; margin-top: 8px; }
+/* 四个数字 */
+.sv-stats { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 12px 0 2px; border-top: 1px solid var(--hairline); }
+.sv-stats li { padding: 12px 14px; border-bottom: 1px solid var(--hairline); }
+.sv-stats li:nth-child(odd) { border-right: 1px solid var(--hairline); }
+.sv-stats b { display: block; font-family: var(--serif); font-size: clamp(22px, 3vw, 30px); line-height: 1.15; color: var(--accent-text); }
+.sv-stats span { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.7; margin-top: 4px; }
+/* 逐节点推进 */
+.sv-node { position: relative; border-left: 2px solid rgba(23, 25, 29, 0.16); padding: 2px 0 6px 24px; margin: 22px 0 26px; scroll-margin-top: 132px; }
+.sv-node::before { content: ""; position: absolute; left: -5px; top: 6px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--paper); }
+.sv-node-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.sv-node-date { font-family: var(--serif); font-size: 17px; font-weight: 700; color: var(--accent-text); }
+.sv-node-tag { display: inline-block; font-size: 10.5px; letter-spacing: 0.1em; font-weight: 700; border: 1px solid var(--ink); border-radius: 3px; padding: 2px 8px; color: var(--ink); background: #fff; }
+.sv-tag-fail, .sv-tag-eve { background: var(--accent); border-color: var(--accent); color: #fff; }
+.sv-tag-ok { border-color: var(--ink); }
+.sv-tag-step { border-style: dotted; color: var(--muted); }
+.sv-tag-nasa { border-color: var(--accent-text); color: var(--accent-text); }
+.sv-node h3 { font-family: var(--serif); font-size: clamp(18px, 2.4vw, 21px); line-height: 1.5; margin: 10px 0 4px; }
+.sv-node p { font-size: var(--fs-body); line-height: 1.92; margin: 10px 0; }
+.sv-node p a { color: var(--accent-text); }
+.sv-node blockquote { font-family: var(--serif); font-style: italic; font-size: 16px; line-height: 1.8; background: var(--card); border-left: 4px solid var(--accent); padding: 12px 18px; margin: 14px 0; }
+.sv-node .lr-quote-zh { font-size: 13.5px; color: var(--muted); margin: 8px 0 0; font-style: normal; line-height: 1.85; }
+.lr-quote-src { display: block; font-size: 11.5px; color: var(--muted); margin-top: 6px; font-style: normal; letter-spacing: 0.02em; }
+.sv-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; font-size: 12.5px; color: var(--muted); border-top: 1px dotted rgba(23, 25, 29, 0.2); padding-top: 10px; margin-top: 14px; }
+.sv-links a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); }
+.sv-links a:hover { color: var(--accent); border-bottom-style: solid; }
+/* 证据清单 */
+.sv-ev { border: 1px solid var(--hairline); background: var(--card); padding: 6px 20px 14px; margin: 14px 0 4px; }
+.sv-ev-h { font-size: 11px; letter-spacing: 0.2em; color: var(--accent-text); font-weight: 700; margin: 16px 0 4px; }
+.sv-ev ul { list-style: none; margin: 0; }
+.sv-ev li { padding: 7px 0; border-top: 1px dotted rgba(23, 25, 29, 0.16); font-size: 13.5px; line-height: 1.8; }
+.sv-ev li a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); margin-right: 8px; }
+.sv-ev li a:hover { color: var(--accent); }
+.sv-ev li span { color: var(--muted); font-size: 12.5px; }
+.sv-ev li:first-child { border-top: none; }
+/* 方法与边界 */
+.sv-method { list-style: none; margin: 12px 0; padding: 0; }
+.sv-method li { padding: 10px 0 10px 18px; border-top: 1px dotted rgba(23, 25, 29, 0.16); position: relative; }
+.sv-method li::before { content: "·"; position: absolute; left: 2px; top: 8px; color: var(--accent); font-weight: 700; }
+.sv-method b { display: block; font-size: 14.5px; margin-bottom: 3px; }
+.sv-method span { display: block; font-size: 13px; color: var(--muted); line-height: 1.85; }
+/* 手机 ≤760px：SVG 轴由正文节点列表替代；年份缩小防挤压 */
+@media (max-width: 760px) {
+  .sv-axis-fig { display: none; }
+  .sv-hero-row { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .sv-year { font-size: clamp(56px, 17vw, 84px); }
+  .sv-node { padding-left: 18px; }
+  .sv-stats { grid-template-columns: 1fr; }
+  .sv-stats li:nth-child(odd) { border-right: none; }
+}
+@media print {
+  .sv-node { break-inside: avoid; }
+  .sv-ev li, .sv-method li, .sv-stats li { break-inside: avoid; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sv-links a, .sv-ev li a, .sv-axis a .sv-nd { transition: none; }
+}
