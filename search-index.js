@@ -28,7 +28,25 @@ window.SEARCH_INDEX = [
    "SolarCity",
    "Tesla",
    "SpaceX"
-  ]
+  ],
+  "ev": "e2002-10-03"
+ },
+ {
+  "id": "ev-e2002-10-03",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2002.10.03",
+  "s": "PayPal 交割——1.8 亿美元的去向",
+  "q": "eBay 以 15 亿美元完成收购；31 岁的马斯克税后到手约 1.8 亿美元——足够此生不再工作。钱的去向，是本站其余一切故事的起点。",
+  "zh": "eBay closes its $1.5B acquisition; at 31, Musk nets about $180M after tax — enough to never work again. Where the money went next is where the rest of this site begins.",
+  "bg": "eBay 于 2002.10.03 完成 15 亿美元收购 PayPal 的交割。 · 税后所得约 1.8 亿美元——口径为其本人 2012–2013 年访谈自述。 · 分配去向：约 1 亿美元投 SpaceX、7,000 万投 Tesla、1,000 万投 SolarCity，全部是本人控制的公司。 · 此后数年，他在多个公开访谈中自述靠向朋友借钱付房租。",
+  "c": [
+   "PayPal",
+   "Tesla",
+   "SpaceX",
+   "SolarCity"
+  ],
+  "ev": "e2002-10-03"
  },
  {
   "id": "c2004-01",
@@ -56,7 +74,23 @@ window.SEARCH_INDEX = [
    "PayPal",
    "SolarCity",
    "Tesla"
-  ]
+  ],
+  "ev": "e2006"
+ },
+ {
+  "id": "ev-e2006",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2006",
+  "s": "SolarCity 创立——PayPal 套现资助的第三家公司",
+  "q": "表兄弟按他的创意创立 SolarCity，他出任董事长——第三笔押注落子能源。",
+  "zh": "His cousins founded SolarCity on his idea, with Musk as chairman — the third bet, this time on energy.",
+  "bg": "仅年份口径（2006 年）：Lyndon 与 Peter Rive 创立 SolarCity，创意来自马斯克。 · 马斯克出任董事长，不负责日常经营。 · 模式是金融而非制造：太阳能系统零首付租赁给房主；公司后成为美国最大户用光伏安装商。",
+  "c": [
+   "SolarCity",
+   "Tesla"
+  ],
+  "ev": "e2006"
  },
  {
   "id": "e2006-08",
@@ -82,7 +116,8 @@ window.SEARCH_INDEX = [
   "bg": "全文极短，结构却是一个完整的资本循环：高端产品回血 → 逐级降价放量。最后一句玩笑让整份蓝图合法地「藏在明处」十年——媒体与对手都没把它当成路线图来定价。",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2006"
  },
  {
   "id": "i2006-08",
@@ -108,7 +143,8 @@ window.SEARCH_INDEX = [
   "bg": "Flight 2 had failed on slosh; the money was nearly gone; the fourth attempt was the last rocket that could be paid for. A successful Flight 3 on August 2, 2008 would change the story — instead, the new Merlin 1C's longer shutdown transient meant the first stage still had thrust at separation, and the two stages re-contacted.",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2008-08-02"
  },
  {
   "id": "c2008-08-02",
@@ -124,6 +160,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "ev-e2008-08-02",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2008.08.02",
+  "s": "Falcon 1 第三次发射失败——最后一枚火箭之前的最黑一夜",
+  "q": "新型 Merlin 1C 关机过渡更长，分离时一级仍有残余推力，两级再撞。钱几乎见底——第四次发射，是付得起账的最后一枚火箭。",
+  "zh": "The new Merlin 1C's longer shutdown transient left residual thrust on the first stage at separation; the two stages re-contacted. Money was nearly gone — the fourth attempt was the last rocket that could be paid for.",
+  "bg": "2008.08.02，Falcon 1 第三次发射失败：级间分离时一级仍有残余推力，两级再撞。 · 此前第二次失败归因于燃料晃动；第四次是付得起账的最后一枚火箭。 · 他飞到 Omelek 环礁、站在第三次失败的残骸中间，随后给团队发出书面指示。",
+  "c": [
+   "SpaceX"
+  ],
+  "ev": "e2008-08-02"
+ },
+ {
   "id": "e2008-09-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -135,7 +185,8 @@ window.SEARCH_INDEX = [
   "c": [
    "PayPal",
    "SpaceX"
-  ]
+  ],
+  "ev": "e2008-09-28"
  },
  {
   "id": "i2008-09-28",
@@ -164,6 +215,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "ev-e2008-09-28",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2008.09.28",
+  "s": "Falcon 1 第四次发射入轨——史上第一枚入轨的私营液体燃料火箭",
+  "q": "成立六年、三枚火箭全炸、个人资金接近见底——第四次发射在霍桑总部约 500 名员工注视下入轨。华尔街正处在金融危机最坏的一周。",
+  "zh": "Six years old, three rockets blown up, personal funds nearly spent — the fourth flight reached orbit before some 500 employees at Hawthorne HQ. Wall Street was in the worst week of the financial crisis.",
+  "bg": "2008.09.28，Falcon 1 第四次发射入轨——史上第一枚入轨的私营液体燃料火箭。 · 现场为霍桑总部约 500 名员工；据现场记者描述，整栋楼沸腾。 · 同周华尔街正处金融危机最坏的一周——公司层面与宏观层面同时见底。",
+  "c": [
+   "SpaceX"
+  ],
+  "ev": "e2008-09-28"
+ },
+ {
   "id": "c2008-12-23",
   "pg": "chronicle.html",
   "t": "编年史",
@@ -189,7 +254,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "SpaceX"
-  ]
+  ],
+  "ev": "e2008-12-24"
  },
  {
   "id": "c2008-12-24",
@@ -203,6 +269,21 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla"
   ]
+ },
+ {
+  "id": "ev-e2008-12-24",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2008.12.24",
+  "s": "圣诞夜融资——最后一天的最后一个小时",
+  "q": "金融危机最深处：SpaceX 前一天刚被 NASA 16 亿美元合同救起；Tesla 的融资在圣诞夜 18:00 关闭——距发不出工资只差几个小时。",
+  "zh": "At the bottom of the crisis: SpaceX saved by a $1.6B NASA contract the day before; Tesla's round closed at 6 p.m. on Christmas Eve — hours from missing payroll.",
+  "bg": "2008.12.23，NASA 向 SpaceX 授出 16 亿美元商业货运合同——SpaceX 先获救。 · Tesla 该轮融资于 2008.12.24 18:00 关闭（本人多次自述口径）——离发薪日只差几个小时。 · 他已投入自己最后一份钱，并自述当时在借钱付房租。 · 融资过程由本人多次公开讲述：2015 年巴黎演讲、其后在 X 发帖自述。",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ],
+  "ev": "e2008-12-24"
  },
  {
   "id": "e2009-03-26",
@@ -821,7 +902,8 @@ window.SEARCH_INDEX = [
   "bg": "一条推文让他付出 2000 万美元、董事长职位，以及至今仍在约束他发推的律师预审规则。",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2018-08-07"
  },
  {
   "id": "union",
@@ -943,7 +1025,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2018-08-07"
  },
  {
   "id": "d2018-08-07",
@@ -957,7 +1040,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "SpaceX"
-  ]
+  ],
+  "ev": "e2018-08-07"
  },
  {
   "id": "p2018-08-07",
@@ -971,7 +1055,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2018-08-07"
  },
  {
   "id": "c2018-08-07",
@@ -985,6 +1070,20 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla"
   ]
+ },
+ {
+  "id": "ev-e2018-08-07",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2018.08.07",
+  "s": "「资金已落实」——一条推文变成一场官司",
+  "q": "Model 3 刚爬出生产地狱；2018.08.07 上午，他敲下把一家公司的股票变成一场官司的那句话。",
+  "zh": "Model 3 had just clawed out of production hell; on the morning of August 7, 2018, he typed the sentence that turned a stock into a courtroom.",
+  "bg": "2018.08.07 推文：正考虑以每股 420 美元将 Tesla 私有化，「资金已落实」。 · 420 这个数字他后来承认是玩笑；股价当日异动。 · 八天后，SEC 以证券欺诈起诉，并寻求禁止他执掌上市公司。 · 和解：他与公司各罚 2,000 万美元；卸任董事长、保留 CEO；重大推文自此需经律师预审。",
+  "c": [
+   "Tesla"
+  ],
+  "ev": "e2018-08-07"
  },
  {
   "id": "e2018-12-18",
@@ -1394,7 +1493,8 @@ window.SEARCH_INDEX = [
   "bg": "四个条款就是整场收购的骨架：价格锁死在 54.20 美元（推文里那个数字直接写进了法律文本）、终止日定在十月下旬、违约代价十亿美元、而第 9.9 条让「不卖也得卖」成为可执行的法条——特定履约正是三个月后 Twitter 在特拉华州法院起诉马斯克时援引的武器，也是他最终完成交割的法律原因。见言行实录 2022.04.14 要约条目。",
   "c": [
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2022-10-28"
  },
  {
   "id": "c2022-04-25",
@@ -1476,7 +1576,8 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：抱着洗手池进总部的视频配文（原帖 status/1585341984679469056）。48 小时后交割完成。",
   "c": [
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2022-10-28"
  },
  {
   "id": "c2022-10-26",
@@ -1516,7 +1617,8 @@ window.SEARCH_INDEX = [
   "bg": "He had tried to walk away, been sued, and been forced to close at the original $54.20 a share. On October 28, 2022, the $44B deal was done and he owned the world's town square.",
   "c": [
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2022-10-28"
  },
  {
   "id": "p2022-10-28",
@@ -1529,7 +1631,8 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：440 亿交割完成后的两连发（原帖 status/1585841080431321088；后句 Washington Post 记录）。数小时内解雇三高管。",
   "c": [
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2022-10-28"
  },
  {
   "id": "c2022-10-28",
@@ -1544,6 +1647,20 @@ window.SEARCH_INDEX = [
    "X / Twitter",
    "xAI"
   ]
+ },
+ {
+  "id": "ev-e2022-10-28",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2022.10.28",
+  "s": "440 亿美元交割——「鸟儿自由了」",
+  "q": "试图退出、被起诉、被强制按 54.20 美元原价交割。2022.10.28，全球的「城市广场」归他所有。",
+  "zh": "He tried to walk away, was sued, and was forced to close at the original $54.20. On October 28, 2022, the world's town square became his.",
+  "bg": "收购协议签署于 2022.04.25：每股 54.20 美元、总额约 440 亿美元。 · 他随后试图退出、被起诉，最终被强制按原价完成交割（2022.10.28）。 · 交割前两天（2022.10.26），他抱着水槽走进总部，发帖「let that sink in」。 · 交割后数小时内：解雇 CEO Parag Agrawal、CFO Ned Segal 与法律负责人 Vijaya Gadde，解散董事会，自任 CEO。",
+  "c": [
+   "X / Twitter"
+  ],
+  "ev": "e2022-10-28"
  },
  {
   "id": "e2022-11-16",
@@ -1969,7 +2086,8 @@ window.SEARCH_INDEX = [
   "bg": "Starship's fifth test flight had regulatory clearance to attempt something never tried: bringing a 20-story-tall booster back not to a landing pad, but into the arms of the launch tower itself. Every prior flight had been about learning; this one was about catching.",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2024-10-13"
  },
  {
   "id": "i2024-10-13",
@@ -1982,7 +2100,8 @@ window.SEARCH_INDEX = [
   "bg": "Starship 第五飞获监管许可尝试一件从未有人做过的事：让助推器直接回到发射塔的臂弯里。他连发三帖。",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2024-10-13"
  },
  {
   "id": "p2024-10-13",
@@ -1996,7 +2115,8 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2024-10-13"
  },
  {
   "id": "c2024-10-13",
@@ -2010,6 +2130,20 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX"
   ]
+ },
+ {
+  "id": "ev-e2024-10-13",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2024.10.13",
+  "s": "星舰塔捕——助推器回到塔的臂弯",
+  "q": "第五次试飞拿到监管许可，去尝试从未有人做过的事：让二十层楼高的助推器直接回到发射塔的机械臂里。",
+  "zh": "Flight 5 had regulatory clearance to attempt what had never been tried: bringing a 20-story booster back into the launch tower's arms.",
+  "bg": "2024.10.13，Starship 第五次试飞：超重型助推器发射约 7 分钟后返回，被发射塔机械臂在半空接住。 · 此为监管批准的首次「塔捕」尝试；此前每一飞都以验证学习为目标。 · 接住、加注、再飞是 Starship 经济学命题的支点——塔捕把最大成本项（硬件）变成可复用资产。（本条为编者归纳）",
+  "c": [
+   "SpaceX"
+  ],
+  "ev": "e2024-10-13"
  },
  {
   "id": "e2025",
@@ -2088,7 +2222,8 @@ window.SEARCH_INDEX = [
   "bg": "X Corp had been losing advertisers since 2022 and Fidelity marked down its stake by 80%. But it had something xAI needed: real-time data from 500+ million posts per day, and a distribution channel to half a billion accounts. The merger was structured as all-stock — xAI ($80B) absorbing X ($33B, $45B enterprise with $12B debt).",
   "c": [
    "xAI"
-  ]
+  ],
+  "ev": "e2025-03-28"
  },
  {
   "id": "c2025-03-28",
@@ -2102,6 +2237,21 @@ window.SEARCH_INDEX = [
   "c": [
    "xAI"
   ]
+ },
+ {
+  "id": "ev-e2025-03-28",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2025.03.28",
+  "s": "xAI 收购 X——信息流与模型合并成一家",
+  "q": "全股票交易：xAI（估值约 800 亿美元）吸收 X（估值约 330 亿美元）。他两年前 440 亿买下的平台，成了模型公司的训练数据与分发渠道。",
+  "zh": "An all-stock merger: xAI (reported at ~$80B) absorbs X (reported at ~$33B). The platform he bought for $44B two years earlier became the model company's training data and distribution channel.",
+  "bg": "2025.03.28 本人宣布：@xAI 已收购 @X，全股票交易——合并后 xAI 估值约 800 亿美元、X 约 330 亿美元（减 120 亿债务为企业价值 450 亿）。 · 交易背景：X 自 2022 年起持续流失广告主，Fidelity 将其持仓减记 80%。 · 合并后 Grok 用 X 的实时数据训练，X 用户内置 Grok——信息流与模型融合为一个产品。 · 估值口径为本人宣布的合并对价数字，由 CNBC · Forbes · AP 等多方报道转述；两家公司均未上市，无公开市场报价。",
+  "c": [
+   "xAI",
+   "X / Twitter"
+  ],
+  "ev": "e2025-03-28"
  },
  {
   "id": "e2025-05-03",

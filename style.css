@@ -1744,3 +1744,22 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media print {
   .cite-btn, .cite-box { display: none !important; }
 }
+
+/* ============================================================
+   V7-R15 搜索与发现（.sr- 扩展）— search.html
+   ============================================================ */
+.sr-itemwrap { border-bottom: 1px dotted rgba(23, 25, 29, 0.14); }
+.sr-hit { display: inline-block; font-size: 11px; letter-spacing: 0.06em; color: var(--accent-text); background: rgba(200, 64, 50, 0.06); border: 1px solid rgba(200, 64, 50, 0.25); border-radius: 3px; padding: 1px 8px; margin: 6px 0 0; }
+.sr-evline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; font-size: 12.5px; color: var(--muted); margin-top: 8px; padding-top: 7px; border-top: 1px dashed rgba(23, 25, 29, 0.16); }
+.sr-evtag { font-size: 10px; letter-spacing: 0.14em; font-weight: 700; color: var(--accent); }
+.sr-evline a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); }
+.sr-evline a:hover { color: var(--accent); }
+.sr-evbtn { font-size: 11.5px; color: var(--ink); background: var(--card); border: 1px solid var(--hairline); border-radius: 3px; padding: 2px 10px; cursor: pointer; }
+.sr-evbtn:hover { border-color: var(--accent); color: var(--accent); }
+.sr-evmat { margin-top: 6px; }
+.sr-evmat ul { list-style: none; margin: 0; padding: 0 0 0 14px; }
+.sr-evmat li { font-size: 12.5px; line-height: 2; border-top: 1px dotted rgba(23, 25, 29, 0.12); }
+.sr-evmat li a { color: var(--accent-text); text-decoration: none; }
+.sr-evmat li a:hover { color: var(--accent); }
+.sr-clear { font-size: 11.5px; font-weight: 700; letter-spacing: 0.06em; color: var(--accent-text); background: #fff; border: 1px solid var(--accent); border-radius: 3px; padding: 2px 10px; cursor: pointer; margin-left: 8px; }
+.sr-clear:hover { background: var(--accent); color: #fff; }

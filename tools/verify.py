@@ -55,6 +55,8 @@ for f, s in texts.items():
         if t.lower() not in os_files:
             link_errors.append(f'{f} -> {t}')
         anc = m.group(3)
+        if anc and ("'" in anc or '+' in anc):
+            continue  # 运行期拼接的锚点（JS 模板，如 '#'+eid），静态检查无法验证——与上方 t 含引号豁免同精神（V7-19 R15）
         if anc and t.lower().endswith('.html'):
             tgt = t.lower()
             if tgt in page_ids and anc[1:] not in page_ids[tgt]:
@@ -94,10 +96,13 @@ n_posts = len(re.findall(r'<div class="tweet-card" id="p', texts.get('x-posts.ht
 n_cv = len(re.findall(r'<section class="ct-ch" id="', texts.get('controversy.html', '')))
 n_ch = len(re.findall(r'<div class="cy-ev" id="c', texts.get('chronicle.html', '')))
 n_fin = len(re.findall(r'<section class="fn-co" id="', texts.get('finance.html', '')))
-total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin
+# V7-19 R15：索引新增「事件档案」类型（events.html 的 ev-item 锚点数，动态取）——
+# 原七类锚点约束保留不变，事件档案为生成器产出的合法新增类型（events-data.py 单一事实来源）。
+n_ev = len(re.findall(r'<section class="ev-item lr-sec" id="', texts.get('events.html', '')))
+total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin + n_ev
 if n_items != total_expected:
     idx_errors.append(f'索引 {n_items} 条 != 页面锚点 {total_expected} 条（先重跑 tools/build-search-index.py）')
-check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}+{n_ch}+{n_fin}）', idx_errors)
+check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}+{n_ch}+{n_fin}+{n_ev}）', idx_errors)
 
 # ---------- 5) 时间轴节点 = 账本条目 ----------
 tl_errors = []

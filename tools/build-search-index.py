@@ -177,11 +177,49 @@ for it in items:
     cs = [name for name, rx in ENTITY_RULES if rx.search(text)]
     it['c'] = cs if cs else ['综合']
 
+# ---------- 事件档案与事件聚合（V7-19 R15） ----------
+def _load(fname, modname):
+    spec = _impu.spec_from_file_location(modname, os.path.join(ROOT, 'tools', fname))
+    mod = _impu.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+import importlib.util as _impu
+ED = _load('events-data.py', 'events_data')
+
+# 公司名映射：events-data 命名 -> 索引实体名
+CO_MAP = {'X（原 Twitter）': 'X / Twitter'}
+# 材料 href -> 事件 id（聚合依据，与 build-timeline-events.py 吸收逻辑同源）
+href_to_ev = {}
+for _ev in ED.EVENTS:
+    for _m in _ev.get('materials', []):
+        _h = _m.get('href') or ''
+        if _h and not _h.startswith('#'):
+            href_to_ev[_h] = _ev['id']
+
+for it in items:
+    key = it['pg'] + '#' + it['id']
+    if key in href_to_ev:
+        it['ev'] = href_to_ev[key]
+
+for _ev in ED.EVENTS:
+    _d = _ev['date']
+    items.append({
+        'id': 'ev-' + _ev['id'], 'pg': 'events.html', 't': '事件档案',
+        'd': _d,
+        's': _ev['title']['zh'],
+        'q': _ev['summary']['zh'],
+        'zh': _ev['summary']['en'],
+        'bg': ' · '.join(f['zh'] for f in _ev.get('facts', []))[:300],
+        'c': [CO_MAP.get(c, c) for c in (_ev.get('companies') or ['综合'])],
+        'ev': _ev['id'],
+    })
+
 # ---------- 校验与排序 ----------
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5, '编年史': 53, '财务全景': 4}, counts
+assert counts == {'言行实录': 67, '一手文档': 9, '访谈与表态': 18, 'X 帖': 13, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

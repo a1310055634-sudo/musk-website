@@ -152,6 +152,7 @@
   <p class="sr-count" id="sr-count" aria-live="polite"></p>
   <div class="sr-types" role="group" aria-label="按类型过滤">
     <button type="button" data-t="全部" aria-pressed="true">全部</button>
+    <button type="button" data-t="事件档案" aria-pressed="false">事件档案</button>
     <button type="button" data-t="言行实录" aria-pressed="false">言行实录</button>
     <button type="button" data-t="一手文档" aria-pressed="false">一手文档</button>
     <button type="button" data-t="访谈与表态" aria-pressed="false">访谈与表态</button>
@@ -186,34 +187,67 @@
   var curType = '全部';
   var curFrom = null, curTo = null, curSort = 'asc';
   var curCo = '全部';
+  var evIndex = {}; // ev-id -> [records]
+
+  INDEX.forEach(function (it) {
+    if (it.ev) { (evIndex[it.ev] = evIndex[it.ev] || []).push(it); }
+  });
+
+  /* ---------- URL 参数（q/type/co）——支持分享与返回 ---------- */
+  function readURL() {
+    try {
+      var sp = new URLSearchParams(location.search);
+      var q = sp.get('q');
+      if (q !== null) input.value = q;
+      var t = sp.get('type');
+      var hit = false;
+      buttons.forEach(function (b) { if (b.getAttribute('data-t') === t) hit = true; });
+      if (t && hit) curType = t;
+      var co = sp.get('co');
+      if (co) curCo = co;
+    } catch (e) { /* URLSearchParams 不可用时忽略 */ }
+  }
+  function writeURL() {
+    try {
+      var sp = new URLSearchParams();
+      if (input.value.trim()) sp.set('q', input.value.trim());
+      if (curType !== '全部') sp.set('type', curType);
+      if (curCo !== '全部') sp.set('co', curCo);
+      var qs = sp.toString();
+      history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+    } catch (e) { /* replaceState 不可用时忽略 */ }
+  }
+  readURL();
+  buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-t') === curType)); });
+
   (function () {
     var counts = {};
     INDEX.forEach(function (it) { (it.c || ['综合']).forEach(function (c) { counts[c] = (counts[c] || 0) + 1; }); });
     var names = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
-    var box = document.getElementById('sr-companies');
+    var cbox = document.getElementById('sr-companies');
     var allBtn = document.createElement('button');
     allBtn.type = 'button';
     allBtn.setAttribute('data-c', '全部');
-    allBtn.setAttribute('aria-pressed', 'true');
+    allBtn.setAttribute('aria-pressed', String(curCo === '全部'));
     allBtn.textContent = '全部 ' + INDEX.length;
     allBtn.addEventListener('click', function () {
       curCo = '全部';
-      box.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === allBtn)); });
+      cbox.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === allBtn)); });
       render();
     });
-    box.appendChild(allBtn);
+    cbox.appendChild(allBtn);
     names.forEach(function (n) {
       var b = document.createElement('button');
       b.type = 'button';
       b.setAttribute('data-c', n);
-      b.setAttribute('aria-pressed', 'false');
+      b.setAttribute('aria-pressed', String(curCo === n));
       b.textContent = n + ' ' + counts[n];
       b.addEventListener('click', function () {
         curCo = (curCo === n) ? '全部' : n;
-        box.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-c') === curCo)); });
+        cbox.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-c') === curCo)); });
         render();
       });
-      box.appendChild(b);
+      cbox.appendChild(b);
     });
   })();
 
@@ -228,16 +262,22 @@
     if (!ys.length) return;
     var fSel = document.getElementById('sr-from'), tSel = document.getElementById('sr-to');
     [fSel, tSel].forEach(function (sel) {
+      var blank = document.createElement('option');
+      blank.value = '';
+      blank.textContent = sel.id === 'sr-from' ? '起' : '止';
+      sel.appendChild(blank);
       ys.forEach(function (y) {
         var o = document.createElement('option');
-        o.value = y; o.textContent = y;
+        o.value = y;
+        o.textContent = y;
         sel.appendChild(o);
       });
+      sel.addEventListener('change', function () {
+        if (sel === fSel) curFrom = +sel.value || null;
+        else curTo = +sel.value || null;
+        render();
+      });
     });
-    fSel.value = ys[0]; tSel.value = ys[ys.length - 1];
-    curFrom = ys[0]; curTo = ys[ys.length - 1];
-    fSel.addEventListener('change', function () { curFrom = +fSel.value || null; render(); });
-    tSel.addEventListener('change', function () { curTo = +tSel.value || null; render(); });
   })();
 
   document.querySelectorAll('.sr-sort button').forEach(function (b) {
@@ -269,7 +309,18 @@
     if ((curFrom && y < curFrom) || (curTo && y > curTo)) return false;
     if (curCo !== '全部' && !(it.c || []).includes(curCo)) return false;
     if (!q) return true;
-    return (it.d + ' ' + it.s + ' ' + it.q + ' ' + it.zh + ' ' + (it.bg || '')).toLowerCase().indexOf(q) !== -1;
+    return (it.d + ' ' + it.s + ' ' + it.q + ' ' + it.zh + ' ' + (it.bg || '') + ' ' + (it.c || []).join(' ')).toLowerCase().indexOf(q) !== -1;
+  }
+  /* 命中解释：说明"为什么搜到它" */
+  function hitWhere(it, q) {
+    if (!q) return '';
+    var where = [];
+    if (((it.q || '') + ' ' + (it.zh || '')).toLowerCase().indexOf(q) !== -1) where.push('原话/摘要');
+    if ((it.s || '').toLowerCase().indexOf(q) !== -1) where.push('出处');
+    if ((it.d || '').toLowerCase().indexOf(q) !== -1) where.push('日期');
+    if ((it.bg || '').toLowerCase().indexOf(q) !== -1) where.push('背景');
+    if ((it.c || []).join(' ').toLowerCase().indexOf(q) !== -1) where.push('公司');
+    return where.length ? where.join(' · ') : '综合匹配';
   }
   function cmpDate(a, b) {
     var pa = (a.d || '').match(/(\d{4})\.?(\d{1,2})?\.?(\d{1,2})?/);
@@ -287,22 +338,78 @@
     }
     return all.length > 240 ? all.slice(0, 240) + '…' : all;
   }
+  /* 事件聚合条：同事件其他材料 */
+  function evLine(it) {
+    var eid = it.ev;
+    var sibs = (evIndex[eid] || []).filter(function (x) { return x !== it; });
+    var html = '<div class="sr-evline"><span class="sr-evtag">◈ 事件聚合</span>';
+    if (it.t !== '事件档案') {
+      html += '属于<a href="events.html#' + eid + '">事件档案 ' + eid + '</a>';
+    }
+    if (sibs.length) {
+      html += '<button type="button" class="sr-evbtn" data-ev="' + eid + '" aria-expanded="false">同事件另外 ' + sibs.length + ' 份材料 ▾</button>';
+    }
+    html += '</div>';
+    if (sibs.length) {
+      html += '<div class="sr-evmat" hidden><ul>' + sibs.map(function (x) {
+        return '<li><a href="' + x.pg + '#' + x.id + '">' + esc(x.t) + ' · ' + esc(x.d) + ' · ' + esc((x.s || '').slice(0, 50)) + '</a></li>';
+      }).join('') + '</ul></div>';
+    }
+    return html;
+  }
   function render() {
     var q = input.value.trim().toLowerCase();
     var hits = INDEX.filter(function (it) { return match(it, q); });
     hits = hits.slice().sort(function (a, b) { return curSort === 'desc' ? -cmpDate(a, b) : cmpDate(a, b); });
-    count.textContent = '命中 ' + hits.length + ' / ' + INDEX.length + ' 条';
+    var parts = [];
+    if (q) parts.push('关键词「' + input.value.trim() + '」');
+    if (curType !== '全部') parts.push('类型:' + curType);
+    if (curFrom || curTo) parts.push((curFrom || '…') + '–' + (curTo || '…'));
+    if (curCo !== '全部') parts.push('公司:' + curCo);
+    var clearBtn = parts.length ? '<button type="button" class="sr-clear" id="sr-clearbtn">清除全部筛选</button>' : '';
+    count.innerHTML = '命中 ' + hits.length + ' / ' + INDEX.length + ' 条' + (parts.length ? ' · ' + esc(parts.join(' · ')) : '') + ' ' + clearBtn;
+    var cb = document.getElementById('sr-clearbtn');
+    if (cb) cb.addEventListener('click', function () {
+      input.value = '';
+      curType = '全部';
+      curFrom = curTo = null;
+      curCo = '全部';
+      buttons.forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-t') === '全部')); });
+      var fSel = document.getElementById('sr-from'), tSel = document.getElementById('sr-to');
+      if (fSel) fSel.value = '';
+      if (tSel) tSel.value = '';
+      var cbox = document.getElementById('sr-companies');
+      cbox.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x.getAttribute('data-c') === '全部')); });
+      render();
+    });
     if (!hits.length) {
-      box.innerHTML = '<p class="sr-empty">没有命中的第一手条目——换个关键词，或按出处（如 Tesla 官方博客）试试。</p>';
+      box.innerHTML = '<p class="sr-empty">没有命中的条目——试试更短的关键词（如「火箭」「funding」），换一个出处名称，或点击上方「清除全部筛选」。</p>';
       return;
     }
     box.innerHTML = hits.map(function (it) {
-      return '<a class="sr-item" href="' + it.pg + '#' + it.id + '">' +
+      var where = hitWhere(it, q);
+      return '<div class="sr-itemwrap">' +
+        '<a class="sr-item" href="' + it.pg + '#' + it.id + '">' +
         '<span class="sr-item-top"><span class="sr-type">' + esc(it.t) + '</span>' +
         '<span class="sr-date">' + esc(it.d) + '</span>' +
         '<span class="sr-src">' + hl(it.s, q) + '</span></span>' +
-        '<p class="sr-q">' + hl(snippet(it, q), q) + '</p></a>';
+        (where ? '<span class="sr-hit">命中于：' + esc(where) + '</span>' : '') +
+        '<p class="sr-q">' + hl(snippet(it, q), q) + '</p>' +
+        '</a>' +
+        (it.ev ? evLine(it) : '') +
+        '</div>';
     }).join('');
+    box.querySelectorAll('.sr-evbtn').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var wrap = b.closest('.sr-itemwrap');
+        var mat = wrap.querySelector('.sr-evmat');
+        var open = mat.hasAttribute('hidden');
+        if (open) mat.removeAttribute('hidden'); else mat.setAttribute('hidden', '');
+        b.setAttribute('aria-expanded', String(open));
+        b.textContent = open ? b.textContent.replace('▾', '▴') : b.textContent.replace('▴', '▾');
+      });
+    });
+    writeURL();
   }
   input.addEventListener('input', render);
   buttons.forEach(function (b) {
