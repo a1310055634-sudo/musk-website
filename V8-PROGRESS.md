@@ -18,7 +18,7 @@
 | 02 | Twitter 收购案私信原件（特拉华衡平法院披露件） | complete | v7.2.0 | a48c1df | done |
 | 03 | SEC EDGAR 公文扩容（8-K/proxy/合并协议条款） | complete | v7.3.0 | eceb6ee | done |
 | 04 | 财报电话会 I（2013–2018） | complete | v7.4.0 | 7440bd7 | done |
-| 05 | 财报电话会 II（2019–2026） | in_progress | — | — | — |
+| 05 | 财报电话会 II（2019–2026） | complete | v7.5.0 | 10b41bd | done |
 | 06 | 长访谈 I：Lex Fridman 四期 | pending | — | — | — |
 | 07 | 长访谈 II：Rogan / TED / All-In / DealBook | pending | — | — | — |
 | 08 | X 帖史扩容（含 Wayback 核对已删帖） | pending | — | — | — |
@@ -35,7 +35,25 @@
 - 采料纪律：查不到原文不写；媒体转载两源印证；引语保留英文原文+中文对照。
 - 本计划不再新建分支，直接在 main 上逐轮提交（V7 时代分支流程已完成使命）。
 
+## 核实来源留档（R05）
+
+十场 Tesla 财报电话会逐字稿（stockanalysis.com/stocks/tsla/transcripts/ 全文直读，Quartr 转写；索引页含 2011–2026 全部季度 ID）：
+- Q1 2019（2019-04-24）= /23954-q1-2019/；Q4 2019（2020-01-29）= /459-q4-2019/；Q2 2020（2020-07-22）= /7605-q2-2020/；Q4 2021（2022-01-26）= /12798-q4-2021/；Q3 2022（2022-10-19）= /27338-q3-2022/；Q3 2023（2023-10-18）= /83764-q3-2023/；Q1 2024（2024-04-23）= /161624-q1-2024/；Q3 2024（2024-10-23）= /215125-q3-2024/；Q1 2025（2025-04-22）= /310668-q1-2025/；Q2 2026（2026-07-22）= /653184-q2-2026/
+- 两源印证：**Q1 2019 增发** Reuters 2019-05-02「Tesla ends 'Spartan diet'…$2.3B」+ Reuters 2019-05-03「Tesla boosts capital raise to $2.7 billion, Musk buys more」（本人认购约 $25M）；**Q4 2019 FSD** Fortune 2020-01-29（「We got pretty close, it's looking like we might be feature complete in a few months」）+ Seeking Alpha 逐字稿（article/4320044）；**Q2 2020 同款表态前哨** CNBC TV18 2020-07-09（WAIC「very close to Level 5」）；**Q4 2021 Optimus** CNN Business（「more significant than the vehicle business」）；**Q3 2022** Business Insider markets（Apple+Aramco 合计约 $4.4T）+ Fortune India/Benzinga/Observer；**Q3 2023** TechRadar 2023-10-19（dug our own grave）+ Wccftech（Bernstein note）；**Q1 2024** Seeking Alpha（「We'll talk about this more on August 8」）+ Shacknews/Teslarati（8/8 最早出自 Musk X 帖 2024-04-05，Reuters 等报道）；**Q3 2024** Investopedia takeaways + Fortune 2024-10-24（次日 +22%、单日 +$30B）+ Last Bastion（含「if we execute on our objectives」条件从句全句）；**Q1 2025** The Hill 2025-04-22（DOGE 原句逐字）+ Yahoo Finance（股价反应）+ USA Today（净利 -71%、「a day or two per week」）；**Q2 2026** elonmuskarchive.org 转写存档（「Optimus will be the biggest product ever」）+ investing.com 预告（call 日期 2026-07-22）
+- 甄别记录（宁缺毋滥）：①「Tesla 工厂是 money printing machines」传闻经 Q2 2022 逐字稿直读证伪——原话「license to print money」「minting money」实指锂精炼业务而非工厂，弃收；②Q1 2020「Give people back their goddamn freedom」「this is fascist」逐字确凿（逐字稿在档），但与在册 e2020-05-11 复工弧线重叠（其背景段已引该 call），本轮不单独立条；③Q1 2019「有理由融资」句两家转写有出入（stockanalysis vs Motley Fool），以两句一致立条、该句转述并注明；④估值名句定位在 Q3 2022 call（10-19）而非 Q4 2022（2023-01-25 该场原话为「Long-term, I am convinced that Tesla will be the most valuable company on Earth」，未立条）；⑤Q2 2026 第三方交付数字（如 480,126）仅粉丝站来源，未采信入条。
+
+## 第 5 轮工作记录（财报电话会 II，2019–2026）— complete（2026-09-30）
+
+- **交付**：账本 primary.html +10 条（93→103，严格克隆 `<li class="ps-row ps-deep reveal">` 模板，四段深读双语）：e2019-04-24（Q1 2019 call：斯巴达饮食/强制函数 → 八天后 23→27 亿美元增发，含转写出入如实注）、e2020-01-29（Q4 2019 call：Cybertruck 需求「难以置信」+ FSD「几个月 feature complete」新期限）、e2020-07-22（Q2 2020 call：FSD「年底前完成」+「一场『九』的长征」）、e2022-01-26（Q4 2021 call：Optimus 首获财报会排位「比汽车业务更重要」）、e2022-10-19（Q3 2022 call：「比 Apple 与沙特阿美加起来还值钱」，罕见对冲句一并收录）、e2023-10-18（Q3 2023 call：Cybertruck「我们给自己挖了坟」+「原型到量产难 10,000%」）、e2024-04-23（Q1 2024 call：Robotaxi 8/8 之约 + Optimus「年内工厂做有用任务」，两条期限双双失守）、e2024-10-23（Q3 2024 call：「全球最有价值公司，遥遥领先」+ Cybercab 2026 量产 +「至少每年 200 万台」）、e2025-04-22（Q1 2025 call：DOGE 减时 + 抗议者「拿了钱的」）、e2026-07-22（Q2 2026 call：「Optimus 会是有史以来最大的产品」+ 里程周增 10%——账本 2026 年首条，账上最新一场电话会）。
+- **quotes.html** +10 卡（80→90）。**index.html** 计数文案 93→103 ×5。**EXPANSION.md** 顶部补 R05 入包块（含十场逐字稿链接与甄别注）。无新专题页交叉引用需求（估值/FSD 承诺与 promises.html 的挂接，连同 R04 遗留项一并留给 R10 收官轮统一评估）。
+- **管线**：build-ledger-timeline（103 节点）/ build-search-index（断言 93→103，索引 219 = 103+14+18+13+5+53+4+9）/ build-revisions（138 锚点）/ sync-changelog / build-epub（179,708 B，24 章）全重跑；版本 v7.4.0→v7.5.0（VERSION/app.js/14 页 span，node --check 通过）；CHANGELOG 首条 v7.5.0。
+- **验证**：verify.py 9/9 全绿（语录卡 90 vs 引文块 93 + 3 豁免；EPUB 含 e2026-07-22）；提交后抽查 10 条新条目结构完整（4 段+引语块+中文对照）。
+- **提交**：主成果 `10b41bd`（24 文件，+822/−27）；本回填+revisions/EPUB 刷新为第二个提交。
+- **实现备注**：①quotes 段首跑被自建断言拦截（81≠90）——根因是 r04-integrate.py 里残留的 quotes 段本就是被 r04-quotes-fix.py 推翻前的错误版本（sub1 吞掉现有卡片开头标签），本轮复制时踩中；回滚 primary.html 后按 r04-quotes-fix.py 修好版（**new = 新卡 + anchor 拼回**）重跑一次通过。**教训固化：复制历史脚本模板前先核对它是否是该坑的修好版，r04-integrate.py 的 quotes 段不可直接复用**。②CRLF 坑：工作区文件经 git checkout 带 CRLF 行尾，split('\n') 后行尾残留 \r，行级插入的精确比较必须 rstrip('\r') 且新行补 \r。③span 步进复制 r02-spans.py 修好版正则（断言 14）一次成功。
+- **下一轮预告**：R06 长访谈 I：Lex Fridman 四期（interviews.html +6~8 条，沿用现有访谈页前缀与结构）。
+
 ## 核实来源留档（R02）
+
 
 Twitter, Inc. v. Musk（Del. Ch. **C.A. No. 2022-0613-KSJM**，McCormick 大法官；案卷索引 chancerydocket.com——注意本案无 CourtListener 公开 docket，勿再误引）：
 - TIME 全文转载（2022-09-30 发布；披露件 9-29 周四由 Musk 律师提交、@chancery_daily 首发）：https://time.com/6218578/elon-musk-texts-twitter/ （Dorsey/Agrawal/Kimbal/SBF/Lonsdale 逐字 + Ellison 时间线）
