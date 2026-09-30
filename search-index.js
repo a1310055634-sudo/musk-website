@@ -627,6 +627,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2015-12-02",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2015.12.02",
+  "s": "COP21 气候大会索邦演讲 · YouTube 公开录像 · 镜像全档转写",
+  "q": "“This is why I call it the dumbest experiment in history ever. Why would you do this?”",
+  "zh": "这就是我为什么称它为「史上最愚蠢的实验」。你为什么要做这件事？",
+  "bg": "Seven months after launching Tesla Energy, Musk took the Sorbonne stage during the Paris climate summit and reframed the question: humanity exiting the fossil-fuel era was never an if, only a how fast.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2015-12-21",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1362,6 +1375,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2018-09-17",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2018.09.17",
+  "s": "SpaceX BFR 环月旅客发布会（Hawthorne）· 23ABC 直播录像 · 镜像全档转写",
+  "q": "“It's dangerous. To be clear, this is dangerous. This is no, you know, walk in the park here.”",
+  "zh": "这很危险。说明白点：这就是危险的事，可不是什么公园散步。",
+  "bg": "One year after the BFR roadmap at IAC 2017, SpaceX announced its first private passenger: Japanese billionaire Yusaku Maezawa, booked for a circumlunar flight “in 2023” — the payload, six to eight artists.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2018-09-27",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1490,6 +1516,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
   "c": [
    "SpaceX"
+  ]
+ },
+ {
+  "id": "e2019-04-22",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.04.22",
+  "s": "Tesla Autonomy Day 投资者日（Palo Alto）· Tesla 官方直播录像 · 镜像全档转写",
+  "q": "“LIDAR is a fool's errand and anyone relying on LIDAR is doomed. Doomed. Expensive, expensive sensors that are unnecessary.”",
+  "zh": "激光雷达是徒劳之举，谁依赖它谁注定失败。注定。又贵又没必要的传感器。",
+  "bg": "Tesla's first autonomy investor day unveiled the in-house FSD computer (HW3) and set the promise that would define the decade: feature-complete self-driving in 2020.",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -2458,6 +2497,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2022-09-30",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.09.30",
+  "s": "Tesla AI Day 2022（Palo Alto）· Tesla 官方直播录像 · 镜像全档转写",
+  "q": "“As you know, last year it was just a person in a robot suit. But we've come a long way.”",
+  "zh": "如你所知，去年那就是个穿机器人服装的人。但我们已经走了很远。",
+  "bg": "A year after AI Day 2021 introduced the Tesla Bot with a dancer in a suit, Musk opened by confessing it — and then the real robot walked.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2022-10-19",
   "pg": "primary.html",
   "t": "言行实录",
@@ -2696,6 +2748,19 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "e2022-11-30",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.11.30",
+  "s": "Neuralink Show and Tell 发布会 · Neuralink 官方直播录像 · 镜像全档转写",
+  "q": "“We've submitted, I think, most of our paperwork to the FDA and we think probably in about six months we should be able to have a first Neuralink in a human.”",
+  "zh": "我们大概已经向 FDA 交了大部分申报材料，估计再过六个月左右，我们应该能把第一颗 Neuralink 植入人体。（镜像转写将产品名听写拆为 “neural link”，引语按镜像口径收录。）",
+  "bg": "Two years after the Three Little Pigs (e2020-08-28) and eighteen months after Pager's telepathic Pong (e2021-04-09), Neuralink's first full Show & Tell put the whole stack on stage: the R1 surgical robot, brain-typing monkeys — and a date, of sorts, for human implantation.",
+  "c": [
+   "Neuralink"
   ]
  },
  {
@@ -3111,6 +3176,19 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "e2024-03-18",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2024.03.18",
+  "s": "SpaceX Starship Update at Starbase 员工演讲 · The Launch Pad 转播录像 · 镜像全档转写（日期为镜像归档锚）",
+  "q": "“And one day we will indeed occupy Mars.”",
+  "zh": "总有一天，我们会真正在火星上安家。",
+  "bg": "Addressing the Starbase workforce, Musk reviewed two flights of Starship data and set expectations for the third: “a really good shot of reaching orbit with Flight 3” — noting, ironically, that the last vehicle would likely have made orbit with a payload aboard. The archive date (2024-03-18) is the mirror's; the content points at the eve of Flight 3 (2024-03-14), and the date is recorded as archived.",
+  "c": [
+   "SpaceX"
   ]
  },
  {

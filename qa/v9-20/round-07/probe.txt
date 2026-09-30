@@ -1,0 +1,52 @@
+[文件级] search-index.js
+  ✓ 索引含新条目 e2015-12-02
+  ✓ 索引含新条目 e2018-09-17
+  ✓ 索引含新条目 e2019-04-22
+  ✓ 索引含新条目 e2022-09-30
+  ✓ 索引含新条目 e2022-11-30
+  ✓ 索引含新条目 e2024-03-18
+  ✓ 索引言行实录计数=115
+  ✓ 索引总数=277
+  ✓ 六条逐字句入索引
+  · CDP 已连上，targets=5
+[桌面] 结构与渲染
+  ✓ 账本条目总数=115
+  ✓ 六条新条目全部渲染
+  ✓ 新条四段五件套（ps-head/ps-sec×4/ps-quote/ps-zh/permalink）
+  ✓ 新条双语（4 个 data-en 标签 + 中文正文）
+  ✓ Permalink 一一对应（115/115）
+[桌面] 六条逐字（源=镜像 /video/{id} 全场逐字转写）
+  ✓ COP21 逐字
+  ✓ BFR 逐字
+  ✓ Autonomy Day 逐字
+  ✓ AI Day 2022 逐字
+  ✓ Neuralink 逐字
+  ✓ Starbase 逐字
+  ✓ e2024-03-18 双日期口径注（镜像归档锚+IFT-3）
+  ✓ ASR 口径注明（Yusaku/Usage 类）
+[桌面] 互链与锚完整性
+  ✓ 全页 #e… 锚零缺失
+  ✓ COP21 互链 e2015-04-30 页内存在
+  ✓ BFR 互链 e2017-09-29/e2019-09-28 存在
+  ✓ AI Day 2022 互链 e2021-08 存在
+  ✓ Neuralink 互链 e2020-08-28/e2021-04-09/e2024-01-29 存在
+  ✓ Starbase 互链 e2024-10-13 页内 + x-posts.html#p2024-10-13 跨页真实
+  ✓ Autonomy Day 互链 promises.html 页面存在
+[桌面] quotes.html
+  ✓ 语录卡总数=102
+  ✓ 六张新卡渲染且链向正确条目
+  ✓ 新卡结构（qs-date/qs-en/qs-zh/qs-src）
+  ✓ 六张新卡英文引语逐字
+  ✓ index 计数 115（中文）
+  ✓ index 计数 115（data-en 属性）
+[检索] 新条命中 + 存量回归
+  ✓ dumbest experiment 命中 e2015-12-02
+  ✓ robot suit 命中 e2022-09-30
+  ✓ LIDAR 命中 e2019-04-22
+  ✓ 存量回归：funding secured 不回退
+[390] primary.html
+  ✓ scrollWidth≤390（零横向溢出）
+  ✓ 六条新条 390 可见且无内部溢出
+  ✓ quotes 390 零溢出
+
+探针结论：42 过 / 0 败
