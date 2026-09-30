@@ -115,7 +115,10 @@ check('时间轴节点一致', tl_errors)
 
 # ---------- 6) 语录核实组卡 = 账本有引文条目（白名单精确核对） ----------
 qs_errors = []
-QS_EXEMPT = {'e2013', 'e2021-07', 'e2025'}  # e2013 在格言组；e2021-07 转述非第一人称；e2025 统计行非引语
+# v8.9.0（V9-20 R09）：e2013 已立卡入册（qs-grid 时间序），白名单收窄；
+# e2021-07 保留豁免（The Next Web 转述「he hates…」为第三人称转述，非本人逐字）；
+# e2025 保留豁免（Boring Company 官网项目页统计口径，非本人引语）。
+QS_EXEMPT = {'e2021-07', 'e2025'}
 if os.path.exists('quotes.html') and os.path.exists('primary.html'):
     ph = texts.get('primary.html', '')
     blocks = re.findall(r'(<li class="ps-row[^"]*" id="(e\d[\d-]*)".*?</li>)', ph, re.S)
