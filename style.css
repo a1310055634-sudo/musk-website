@@ -1772,3 +1772,54 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 /* 触摸目标：筛选芯片与引用按钮 ≥26px 高 */
 .gx-fchip { min-height: 28px; padding-top: 4px; padding-bottom: 4px; }
 .cite-btn { min-height: 26px; padding-top: 3px; padding-bottom: 3px; }
+
+/* ============================================================
+   V9-20 R10 社区资源组件层（resources.html · 复用 .lr-hero/.lr-layout/.lr-toc/.lr-sec/.lr-note）
+   结构：.rs-chipbar 筛选芯片（仿 gx-fchip）→ .rs-status 状态行
+        → .rs-cat 分类节 → .rs-item 资源卡（.rs-meta 字段行 + .rs-reason 收录理由）
+   无 JS：芯片惰性、全量可见；筛选只做分类节显隐（.rs-cat-off）。不加新过渡（reduced-motion 免复核）。
+   ============================================================ */
+.rs-chipbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 0; }
+.rs-status { font-size: 12.5px; color: var(--muted); margin: 10px 0 2px; }
+.rs-cat-off { display: none; }
+.rs-cat h2 { display: flex; align-items: baseline; gap: 10px; }
+.rs-catcount { font-family: var(--serif); font-size: 12.5px; font-weight: 400; color: var(--muted); border: 1px solid var(--hairline); border-radius: 999px; padding: 1px 10px; white-space: nowrap; }
+.rs-item { padding: 16px 0 20px; border-top: 1px dotted var(--hairline); }
+.rs-cat .rs-item:first-of-type { border-top: none; }
+.rs-name { font-family: var(--serif); font-size: 17.5px; line-height: 1.5; margin: 0 0 6px; }
+.rs-name a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--hairline); }
+.rs-name a:hover { color: var(--accent-text); border-bottom-color: var(--accent); }
+.rs-ext { color: var(--muted); font-size: 13px; margin-left: 7px; }
+.rs-desc { font-size: var(--fs-body); line-height: 1.85; margin: 0 0 12px; }
+.rs-meta { margin: 0; padding: 6px 14px; background: var(--card); border: 1px solid var(--hairline); }
+.rs-mrow { display: flex; flex-wrap: wrap; gap: 2px 12px; padding: 5px 0; border-top: 1px dotted rgba(23, 25, 29, 0.10); align-items: baseline; }
+.rs-mrow:first-child { border-top: none; }
+.rs-meta dt { flex: none; width: 66px; font-size: 11px; letter-spacing: .1em; color: var(--muted); font-weight: 700; }
+.rs-meta dd { margin: 0; min-width: 0; flex: 1 1 auto; font-size: 13px; line-height: 1.8; }
+.rs-url { color: var(--accent-text); text-decoration: none; overflow-wrap: anywhere; font-size: 12.5px; }
+.rs-url:hover { color: var(--accent); text-decoration: underline; }
+.rs-badge, .rs-act { display: inline-block; font-size: 10.5px; letter-spacing: .08em; font-weight: 700; padding: 2px 9px; border-radius: 999px; color: #fff; background: #55524c; white-space: nowrap; }
+.rs-badge--official { background: var(--navy); }
+.rs-badge--opensource { background: #4a6b3a; }
+.rs-badge--community { background: #8a5a00; }
+.rs-badge--tools { background: #55524c; }
+.rs-act--on { background: #4a6b3a; }
+.rs-act--stale { background: #8a5a00; }
+.rs-act--arch { background: #55524c; }
+.rs-co { display: inline-block; font-size: 11px; letter-spacing: .05em; color: var(--ink); border: 1px solid var(--hairline); background: var(--paper); padding: 1.5px 9px; margin-right: 6px; white-space: nowrap; }
+.rs-gh, .rs-check { font-variant-numeric: tabular-nums; }
+.rs-note { color: var(--muted); }
+.rs-reason { font-size: 13px; color: var(--muted); line-height: 1.8; margin: 10px 0 0; }
+.rs-reason b { color: var(--accent-text); letter-spacing: .14em; font-size: 11px; margin-right: 10px; }
+.rs-toc-sub { padding-left: 24px !important; font-size: 12px; }
+@media (max-width: 640px) {
+  .rs-meta { padding: 4px 12px; }
+  .rs-meta dt { width: 100%; padding-bottom: 1px; }
+}
+@media print {
+  .rs-chipbar, .rs-status { display: none !important; }
+  .rs-item { break-inside: avoid; }
+  .rs-name a { color: var(--ink); }
+  .rs-url { color: var(--ink); }
+  .rs-meta { background: none; }
+}

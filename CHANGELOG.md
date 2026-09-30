@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v8.10.0 — 2026-10-01 · V9-20 R10/20：资源页基建（开源社区资源板块开工）
+
+**主题包成果（V9-20 R10 · 新板块第 38 页 resources.html 打通管线）**
+- **数据单一事实来源 tools/resources-data.py**：字段 url / name(zh,en) / desc(zh,en) / category / 语言 / 活跃度（维护中|停更|存档）/ 许可 / 收录理由 / 关联公司 / 核活日期，内置 validate()（url 须 http(s)、双语完整、category∈枚举、核活日期必填，不过拒生成）；首批种子 10 条（官方与标准 2 · 开源项目 2 · 社区与档案 2 · 工具与数据 4——工具类 4 条为当批核活清单全量入库，超「每类 1~2」软指引、在 8~12 硬区间内）：SEC EDGAR Tesla 文件 / Tesla 官方开源 vehicle-command / Teslamate（★9,061）/ xAI Grok-1 权重（★52,239）/ Elon Musk Archive 镜像 / Wait But Why Neuralink 长文 / Flight Club / Next Spaceflight / Launch Library 2 / starlink.sx。
+- **核活口径**：每条 URL 于 2026-10-01 实测（curl http_code 或 WebFetch），GitHub 记 stars 与最近提交月（api.github.com 无认证串行）；grok 仓库已改名 grok-1（52 跳转跟随后建档）。本机不可核活 7 条留档 EXPANSION.md 待重验（tesla.com 与 spacex.com 反爬 403、neuralink.com/tesla-api.io 连接失败、en.wikipedia.org DNS 不可达等），未编造任何一条。
+- **生成器 tools/build-resources.py**：幂等生成 resources.html——lr-hero 页头 + 分类筛选芯片（仿 gx-fchip，min-height 28px 由既有移动层继承）+ 四分类清单 + 逐条详情字段行（网址/分类/语言/活跃度/许可/关联公司/GitHub 实测/核活码/口径备注/收录理由）；无 JS 完整可读（芯片惰性、全量可见，筛选仅做分类节显隐）；≤640 字段行纵向堆叠；print 隐藏筛选保留清单；rs-* 组件层入 style.css（无新过渡，reduced-motion 免复核）。
+- **管线**：site-nav.py「资料」组注册 resources.html（37 页重注入）；build-search-index 增「社区资源」类型，索引 282 → 292；search.html 类型按钮 +1。**verify.py 第 4 项断言扩展**（索引=页面锚点约束原样保留，新增 rs-item 锚点计数）——理由：社区资源为生成器产出的合法新增类型，同 V7-19 R15 事件档案先例，CHANGELOG 特此说明。
+- **资源纪律声明**：外链不构成运行时依赖，页面本体静态、file:// 离线可读；资源条目一律不作为引语出处（页内明示，查证原话走账本/文档/访谈/X 帖）。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 292）；CDP 探针 ≥10 断言（结构/筛选/双语/无 JS/390）；node --check 通过；EPUB 重跑。本轮仅本地提交，不推送。
+
 ## v8.9.0 — 2026-10-01 · V9-20 R09/20：语录卡补齐 + 质量节点①（盘点总表与缺口清单）
 
 **主题包成果（V9-20 R09 · 语录核实组全覆盖收口 + 第一手信息盘点）**

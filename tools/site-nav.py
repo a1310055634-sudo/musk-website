@@ -19,7 +19,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# ---- 导航注册表：五组 32 页，顺序即展示顺序 ----
+# ---- 导航注册表：五组 38 页，顺序即展示顺序 ----
 NAV_GROUPS = [
     {
         "zh": "开始", "en": "Start",
@@ -76,6 +76,7 @@ NAV_GROUPS = [
             ("documents.html", "一手文档馆", "Documents"),
             ("interviews.html", "访谈与表态", "Interviews"),
             ("x-posts.html", "X 帖史", "X Posts"),
+            ("resources.html", "社区资源", "Resources"),
             ("money.html", "资本解剖", "Capital"),
             ("capital-evolution.html", "资本演化", "Capital Evolution"),
             ("search.html", "第一手检索", "Search"),

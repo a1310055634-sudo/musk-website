@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **R10 资源板块候选池（2026-10-01 种子建档后的待重验清单，非第一手事实）**：resources.html 首批 10 条已入库（核活留档 qa/v9-20/round-10/sources/liveness.md）。**本机不可核活 7 条留档待重验**（核活路径：浏览器 UA curl → WebFetch → api.github.com；web_reader MCP 当日 429 限流）：
+> - **R11 目标（反爬 403/连接失败，非死链判定）**：tesla.com/blog/all-our-patent-are-belong-you（专利开放博文落地页）、spacex.com/vehicles/starship/、neuralink.com/patient-registry/、developer.tesla.com/——重验条件=换 UA/代理路径或用户环境实访；openai.com 早期博客（2015-2018 Musk 相关文）同轮试。
+> - **R13 目标（本机 DNS 污染）**：en.wikipedia.org/wiki/Elon_Musk（解析被污染至 31.13.88.26）——重验条件=镜像快照或用户环境实访。
+> - **R12 疑似死链**：tesla-api.io（DNS ENOTFOUND，域名可能失效）——重验条件=独立 DNS 解析确认；若确认死链，按纪律 B 标「存档」收录或弃收并注明。
+> - **R12/R13 扩容提示**：种子轮 tools 类实收 4 条（Flight Club/Next Spaceflight/Launch Library 2/starlink.sx）——为当批核活清单全量入库，超出「每类 1~2」软指引（硬区间 8~12 内，账本已注明）；后续轮次开源类（Tessie、Starlink 观测项目、r/SpaceX 百科等）与社区档案类（Reuters/AP 专题页等）候选按纪律 B 逐条实访核活后入库。
+
 > **R09 质量节点① · 第一手信息缺口清单（2026-10-01 盘点，后续候选池）**：全站第一手材料 282 条（言行实录 115 / 一手文档 18 / 访谈 42 / X 帖 31 / 争议深读 5 / 编年史 53 / 财务全景 4 / 事件档案 14）。逐类型年份分布盘点出的薄弱区，按「可回捞性」分列（详细统计表见 V9-20-PROGRESS.md 盘点总表节）：
 > - **账本早期年代稀薄**（2003/2004/2005/2007 零覆盖；2009–2011 各仅 1 条）：候选=SpaceX 创立早期（2002 前后 Falcon 1 立项表态）、2004–2005 Tesla A/B 轮融资期表态、2009 Roadster 交付与戴姆勒投资（媒体逐字难觅，重验条件=找到当年访谈/发布会逐字稿）。e2010-06-29（IPO 日）账本无本人逐字的缺口**永久如实**（事件档案已如实引 SEC 文件口径）。
 > - **访谈早期断档**（2007/2009–2012 零；2006/2008 各 1）：R05 保留池已有 60-minutes-2012-03-18、allthingsd-d11-2013-05-29 两场官方转写在档可立（各 +1）；2007–2011 年代镜像库覆盖同样稀薄（161 场全清单存 qa/v9-20/round-04/interviews-all.json，2003 起但 2007–2011 仅个位数）。

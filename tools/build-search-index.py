@@ -215,11 +215,28 @@ for _ev in ED.EVENTS:
         'ev': _ev['id'],
     })
 
+# ---------- 社区资源（V9-20 R10，resources-data.py 单一事实来源） ----------
+# 只收链接+简介+元数据的资源条目也入检索：命中时给出资源名/简介/收录理由；
+# d 取核活日期（2026.10 口径，排序沉底属预期——资源无事件年份）。companies 直接用
+# resources-data.COMPANIES_VOCAB 实体词表（与 ENTITY_RULES 同表），「按公司过滤」直接可用。
+RD = _load('resources-data.py', 'resources_data')
+assert not RD.validate(), RD.validate()
+for _r in RD.RESOURCES:
+    items.append({
+        'id': 'r-' + _r['id'], 'pg': 'resources.html', 't': '社区资源',
+        'd': _r['checked'].replace('-', '.')[:7],
+        's': _r['name']['zh'],
+        'q': _r['desc']['zh'],
+        'zh': _r['desc']['en'],
+        'bg': _r['reason']['zh'],
+        'c': [CO_MAP.get(c, c) for c in _r['companies']],
+    })
+
 # ---------- 校验与排序 ----------
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 115, '一手文档': 18, '访谈与表态': 42, 'X 帖': 31, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
+assert counts == {'言行实录': 115, '一手文档': 18, '访谈与表态': 42, 'X 帖': 31, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS), '社区资源': len(RD.RESOURCES)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>社区资源 · 马斯克商业志 MUSK, INC.</title>
+<meta name="description" content="开源社区马斯克相关网站与资源清单：官方与标准、开源项目、社区与档案、工具与数据——只收链接、一句话简介与元数据，不复制外部正文；每条 URL 实测核活，外链不构成运行时依赖，file:// 离线可读。" />
+<meta property="og:title" content="社区资源 · 马斯克商业志 MUSK, INC." />
+<meta property="og:description" content="马斯克相关开源社区资源：官方与标准、开源项目、社区与档案、工具与数据，逐条核活、逐字段建档。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%237c2d2d'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ 报头（tools/site-nav.py 生成，勿手改分组） ============ -->
+  <header class="masthead">
+    <div class="container masthead-top">
+      <a class="brand" href="index.html">
+        <span class="brand-zh" data-en="Musk Business Review">马斯克商业志</span>
+        <span class="brand-en">MUSK,&nbsp;INC.</span>
+      </a>
+      <span class="masthead-issue" data-en="Business Profile · No. 001">商业人物志 · 创刊号</span>
+      <div class="masthead-tools">
+        <a class="masthead-search" href="search.html" data-en="Search">检索</a>
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / 切换语言">EN</button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="container mainnav" id="site-nav" aria-label="主导航">
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Start">开始</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="index.html" data-en="Home">首页</a>
+          <a href="reading.html" data-en="The Long Read">长卷通读</a>
+          <a href="profile.html" data-en="Profile">速览</a>
+          <a href="persona.html" data-en="Persona">商业人格</a>
+          <a href="playbook.html" data-en="Playbook">可复用的方法</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Companies">公司</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="companies.html" data-en="Companies">公司版图</a>
+          <a href="company-files.html" data-en="Company Files">公司档案</a>
+          <a href="indepth.html" data-en="In Depth">公司深度</a>
+          <a href="grok.html" data-en="xAI &amp; Grok">xAI·Grok</a>
+          <a href="numbers.html" data-en="In Numbers">数据一览</a>
+          <a href="finance.html" data-en="Finance">财务资本全景</a>
+          <a href="supplychain.html" data-en="Supply Chain">供应链与工厂</a>
+          <a href="pricing.html" data-en="Pricing">定价与需求</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Events">事件</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="timeline.html" data-en="Timeline">商业时间线</a>
+          <a href="chronicle.html" data-en="Chronicles">公司编年史</a>
+          <a href="stories.html" data-en="War Stories">经典商战</a>
+          <a href="controversy.html" data-en="Controversies">争议与批评</a>
+          <a href="events.html" data-en="Event Files">事件档案</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Features">专题</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="survival-2008.html" data-en="Feature: Survival 2008">专题·2008 生死役</a>
+          <a href="platform-x.html" data-en="Feature: Platform X">专题·平台变局</a>
+          <a href="promises.html" data-en="Feature: Promises">专题·承诺与结果</a>
+          <a href="deep-dive-01.html" data-en="Deep Dive: Capital">深读·资本运作</a>
+          <a href="deep-dive-02.html" data-en="Deep Dive: Hiring">深读·用人逻辑</a>
+          <a href="deep-dive-03.html" data-en="Deep Dive: Failure">深读·失败模式</a>
+          <a href="deep-dive-04.html" data-en="Deep Dive: Regulation">深读·监管博弈</a>
+          <a href="deep-dive-05.html" data-en="Deep Dive: AI Strategy">深读·AI 战略</a>
+          <a href="ai-strategy.html" data-en="AI Landscape">AI 战略全景</a>
+        </div>
+      </div>
+      <div class="nav-group">
+        <button class="nav-label" type="button" aria-expanded="false"><span class="nav-txt" data-en="Archive">资料</span><span class="nav-caret" aria-hidden="true"></span></button>
+        <div class="nav-drop">
+          <a href="primary.html" data-en="Ledger">言行账本</a>
+          <a href="quotes.html" data-en="Quotes">语录</a>
+          <a href="documents.html" data-en="Documents">一手文档馆</a>
+          <a href="interviews.html" data-en="Interviews">访谈与表态</a>
+          <a href="x-posts.html" data-en="X Posts">X 帖史</a>
+          <a href="resources.html" aria-current="page" data-en="Resources">社区资源</a>
+          <a href="money.html" data-en="Capital">资本解剖</a>
+          <a href="capital-evolution.html" data-en="Capital Evolution">资本演化</a>
+          <a href="search.html" data-en="Search">第一手检索</a>
+          <a href="revisions.html" data-en="Revisions">修订历史</a>
+          <a href="changelog.html" data-en="Changelog">修订记录</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="lr-hero">
+      <div class="container lr-hero-inner">
+        <p class="ev-kicker">COMMUNITY RESOURCES · V9-R10</p>
+        <h1 data-en="Community Resources">社区资源</h1>
+        <p class="ev-lead" data-en="Open-source and community web resources on Elon Musk and his companies — official &amp; standards, open source, community &amp; archives, tools &amp; data. Links plus a one-line description and metadata only; every URL live-checked, no external content reproduced, fully readable offline.">马斯克及其公司相关的开源社区网站与资源：官方与标准 · 开源项目 · 社区与档案 · 工具与数据。只收链接、一句话简介与元数据；逐条 URL 实测核活，不复制外部正文，离线可读。</p>
+        <div class="lr-meta">
+          <span data-en="10 resources · 4 categories">10 条资源 · 4 类</span>
+          <span data-en="All live-checked 2026-10-01">全部核活于 2026-10-01</span>
+          <span data-en="3 GitHub entries with measured stars">3 条 GitHub 实测</span>
+          <span data-en="Links only — no external content reproduced">只收链接，不复制正文</span>
+          <span data-en="Built at v8.10.0">v8.10.0 建档</span>
+        </div>
+      </div>
+    </div>
+    <div class="lr-layout">
+      <div class="lr-main">
+<div class="lr-note" id="rs-readme"><b data-en="HOW TO READ">读法与口径</b><span data-en="This section lists community and open-source web resources related to Elon Musk and his companies — links plus a one-line description and metadata only; no external content is reproduced. External links are not a runtime dependency: the page itself is static and fully readable offline (file://). Every URL was live-checked on its &quot;live check&quot; date (curl status or fetch); dead links would be marked &quot;Archived&quot;, not removed. GitHub entries record stars and last-push month as measured on that date — they age. Nothing here is an official source for quotations; for verbatim sourcing use the ledger, documents, interviews and X posts sections.">本板块收录马斯克及其公司相关的开源社区网站与资源：只收「链接 + 一句话简介 + 元数据」，不复制外部内容正文。外链不构成运行时依赖——页面本体静态、file:// 离线可读。每条 URL 都在「核活」栏注明的日期实测过（curl 状态码或抓取核验）；死链会如实标「存档」，不会悄悄删除。GitHub 条目的星数与最近提交为核活当日实测值，会随时间过期。本板块资源一律不作为引语出处；查证原话请走言行账本、一手文档、访谈与 X 帖史。</span></div>
+        <div class="rs-chipbar" role="group" aria-label="按分类筛选资源">
+        <button type="button" class="gx-fchip rs-fchip" data-cat="all" aria-pressed="true" data-zh-label="全部" data-en-label="All"><span data-en="All (10)">全部 · 10</span></button>
+        <button type="button" class="gx-fchip rs-fchip" data-cat="official" aria-pressed="false" data-zh-label="官方与标准" data-en-label="Official &amp; Standards"><span data-en="Official &amp; Standards (2)">官方与标准 · 2</span></button>
+        <button type="button" class="gx-fchip rs-fchip" data-cat="opensource" aria-pressed="false" data-zh-label="开源项目" data-en-label="Open Source"><span data-en="Open Source (2)">开源项目 · 2</span></button>
+        <button type="button" class="gx-fchip rs-fchip" data-cat="community" aria-pressed="false" data-zh-label="社区与档案" data-en-label="Community &amp; Archives"><span data-en="Community &amp; Archives (2)">社区与档案 · 2</span></button>
+        <button type="button" class="gx-fchip rs-fchip" data-cat="tools" aria-pressed="false" data-zh-label="工具与数据" data-en-label="Tools &amp; Data"><span data-en="Tools &amp; Data (4)">工具与数据 · 4</span></button>
+        </div>
+        <p class="rs-status" id="rs-status" data-en="Showing all 10 resources · 4 categories · filtering needs JavaScript; without it the full list below is complete.">显示全部 10 条资源 · 4 类 · 筛选需脚本支持；无脚本环境下方清单即完整信息。</p>
+    <section class="lr-sec rs-cat" id="cat-official" data-cat="official">
+      <h2><span class="rs-catname" data-en="Official &amp; Standards">官方与标准</span><span class="rs-catcount">2</span></h2>
+      <article class="rs-item" id="r-sec-edgar-tesla">
+        <h3 class="rs-name"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001318605&amp;type=10-K&amp;dateb=&amp;owner=include&amp;count=40" data-en="SEC EDGAR — Tesla filings">SEC EDGAR · Tesla 上市公司文件</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="The SEC EDGAR index for Tesla, Inc. (CIK 0001318605): full texts of 10-K / 10-Q / 8-K / S-1 filings, free and public.">美国证监会 EDGAR 库中 Tesla, Inc.（CIK 0001318605）的申报文件总目：10-K / 10-Q / 8-K / S-1 全文免费公开。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001318605&amp;type=10-K&amp;dateb=&amp;owner=include&amp;count=40">https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001318605&amp;type=10-K&amp;dateb=&amp;owner=include&amp;count=40</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--official" data-en="Official &amp; Standards">官方与标准</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="U.S. government public data">美国政府公开数据</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">Tesla</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Note">口径备注</dt><dd class="rs-note" data-en="SEC fair-access policy requires a declared User-Agent with contact e-mail for scripted access (~10 req/s).">SEC 公平访问政策要求脚本访问申报含联系邮箱的 User-Agent 并限速（约 10 次/秒）。</dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="Where this site anchors its filing quotes; the first stop for verifying the company side of any claim.">本站财报与风险表述的原文锚点所在库；核对公司口径时「原文优先」的第一站。</span></p>
+      </article>
+      <article class="rs-item" id="r-tesla-vehicle-command">
+        <h3 class="rs-name"><a href="https://github.com/teslamotors/vehicle-command" data-en="Tesla (official) — vehicle-command">Tesla 官方开源 · vehicle-command</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="Tesla&#x27;s official Go library for the vehicle command protocol — the reference implementation for signed commands (lock, charge, …).">Tesla 官方维护的车端指令协议库（Go）：解锁、充电等签名指令的参考实现。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://github.com/teslamotors/vehicle-command">https://github.com/teslamotors/vehicle-command</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--official" data-en="Official &amp; Standards">官方与标准</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Apache-2.0">Apache-2.0</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">Tesla</span></dd></div>
+          <div class="rs-mrow"><dt data-en="GitHub (measured)">GitHub 实测</dt><dd><span class="rs-gh">★ 705 · 2026-09 <span data-en="last push">最近提交</span></span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="Official code is the authoritative caliber: the protocol source the whole third-party Tesla API ecosystem builds on.">官方代码即权威口径：第三方 Tesla API 生态的协议事实来源。</span></p>
+      </article>
+    </section>
+    <section class="lr-sec rs-cat" id="cat-opensource" data-cat="opensource">
+      <h2><span class="rs-catname" data-en="Open Source">开源项目</span><span class="rs-catcount">2</span></h2>
+      <article class="rs-item" id="r-teslamate">
+        <h3 class="rs-name"><a href="https://github.com/teslamate-org/teslamate" data-en="Teslamate — self-hosted Tesla logger">Teslamate · 自托管特斯拉数据记录</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="Community-maintained, self-hosted Tesla telemetry logger (Elixir/Phoenix): your car&#x27;s data stays on your own server.">社区维护的自托管 Tesla 遥测记录器（Elixir/Phoenix）：车辆数据留在自己的服务器上。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://github.com/teslamate-org/teslamate">https://github.com/teslamate-org/teslamate</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--opensource" data-en="Open Source">开源项目</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="AGPL-3.0">AGPL-3.0</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">Tesla</span></dd></div>
+          <div class="rs-mrow"><dt data-en="GitHub (measured)">GitHub 实测</dt><dd><span class="rs-gh">★ 9,061 · 2026-09 <span data-en="last push">最近提交</span></span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The most-starred, actively maintained self-hosted project in the Tesla API ecosystem — the community&#x27;s data-sovereignty route.">Tesla API 生态中星数最高、仍在活跃维护的自托管方案，代表社区「数据自主」路线。</span></p>
+      </article>
+      <article class="rs-item" id="r-grok-1">
+        <h3 class="rs-name"><a href="https://github.com/xai-org/grok-1" data-en="xAI (official) — Grok-1 weights">xAI 官方开源 · Grok-1 权重</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="xAI&#x27;s March 2024 open release of Grok-1, a 314B-parameter MoE LLM: weights and inference code (repo renamed from `grok` to `grok-1`).">xAI 于 2024-03 开源的 3140 亿参数 MoE 语言模型 Grok-1：权重与推理代码（仓库由 grok 改名 grok-1）。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://github.com/xai-org/grok-1">https://github.com/xai-org/grok-1</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--opensource" data-en="Open Source">开源项目</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--stale" data-en="Stale">停更</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Apache-2.0">Apache-2.0</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">xAI</span></dd></div>
+          <div class="rs-mrow"><dt data-en="GitHub (measured)">GitHub 实测</dt><dd><span class="rs-gh">★ 52,239 · 2024-08 <span data-en="last push">最近提交</span></span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Note">口径备注</dt><dd class="rs-note" data-en="A one-shot weights release: no pushes since Aug 2024 is expected — &#x27;stale&#x27; here does not mean discontinued.">权重库为一次性发布物：2024-08 后无新提交属预期，「停更」不代表下线或方向变化。</dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The one full open-weights release of a flagship model by a Musk company — physical evidence of xAI&#x27;s open-source stance.">马斯克系公司把旗舰模型权重整体开源的唯一一例，xAI 开源立场的实物证据。</span></p>
+      </article>
+    </section>
+    <section class="lr-sec rs-cat" id="cat-community" data-cat="community">
+      <h2><span class="rs-catname" data-en="Community &amp; Archives">社区与档案</span><span class="rs-catcount">2</span></h2>
+      <article class="rs-item" id="r-elonmuskarchive">
+        <h3 class="rs-name"><a href="https://elonmuskarchive.org/" data-en="Elon Musk Archive">Elon Musk Archive · 言行镜像库</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="An unofficial archive of Musk&#x27;s public record — posts, interviews, keynotes and documents, searchable in time order (this site&#x27;s first-hand pipeline source).">马斯克公开言行的非官方镜像档案：X 帖、访谈、演讲、文档按时间可检索（本站第一手采料的镜像来源）。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://elonmuskarchive.org/">https://elonmuskarchive.org/</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--community" data-en="Community &amp; Archives">社区与档案</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Unofficial mirror; rights remain with original owners">非官方镜像，版权归原权利人</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">综合</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The direct source of this site&#x27;s verbatim pipeline; listed with its unofficial nature and use stated.">本站 X 帖 / 访谈 / 演讲逐字采料的直接来源，收录以注明其非官方性质与用途。</span></p>
+      </article>
+      <article class="rs-item" id="r-wbw-neuralink">
+        <h3 class="rs-name"><a href="https://waitbutwhy.com/2017/04/neuralink.html" data-en="Wait But Why — Neuralink and the Brain&#x27;s Magical Future">Wait But Why · Neuralink 与大脑的魔法未来</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="Tim Urban&#x27;s 2017 mega-essay on Neuralink, brain-computer interfaces and the brain, after long conversations with Musk.">Tim Urban 2017 年长文：与马斯克数次长谈后对 Neuralink、脑机接口与大脑的科普解读。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://waitbutwhy.com/2017/04/neuralink.html">https://waitbutwhy.com/2017/04/neuralink.html</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--community" data-en="Community &amp; Archives">社区与档案</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--stale" data-en="Stale">停更</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Blog copyright (free to read)">博客版权所有（免费阅读）</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">Neuralink</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Note">口径备注</dt><dd class="rs-note" data-en="&#x27;Stale&#x27; refers to this 2017 essay being final, not to Wait But Why shutting down.">「停更」指这篇 2017 定稿长文不再修订，非 Wait But Why 博客停运。</dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The most widely read Neuralink explainer — a first-hand portrait of the founding moment.">流传最广的 Neuralink 科普定稿，2017 年创立期的第一手侧写。</span></p>
+      </article>
+    </section>
+    <section class="lr-sec rs-cat" id="cat-tools" data-cat="tools">
+      <h2><span class="rs-catname" data-en="Tools &amp; Data">工具与数据</span><span class="rs-catcount">4</span></h2>
+      <article class="rs-item" id="r-flight-club">
+        <h3 class="rs-name"><a href="https://www.flightclub.io/" data-en="Flight Club — rocket trajectory simulator">Flight Club · 火箭轨迹仿真</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="Real-time 3D rocket trajectory simulation and prediction; a staple visualization in SpaceX launch coverage.">火箭发射实时三维轨迹仿真与预测站点，SpaceX 发射报道常引用其弹道可视化。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://www.flightclub.io/">https://www.flightclub.io/</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--tools" data-en="Tools &amp; Data">工具与数据</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Web service (no open license declared)">站点服务（未声明开源许可）</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">SpaceX</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The oldest trajectory simulator in the launch-tracking toolbox — turns launch data into checkable trajectories.">发射追踪工具链中最老牌的轨迹仿真站，把发射数据变成可核对的弹道。</span></p>
+      </article>
+      <article class="rs-item" id="r-next-spaceflight">
+        <h3 class="rs-name"><a href="https://nextspaceflight.com/" data-en="Next Spaceflight — launch schedule">Next Spaceflight · 发射日历</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="Global launch schedule and tracker: upcoming launches, webcast links and statistics, incl. every SpaceX mission card.">全球航天发射日历与追踪：即将进行的发射、直播链接与统计，含 SpaceX 各次任务卡片。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://nextspaceflight.com/">https://nextspaceflight.com/</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--tools" data-en="Tools &amp; Data">工具与数据</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Web service">站点服务</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">SpaceX</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The fastest public calendar to check which launch, when, and whether it succeeded.">核对「哪次发射、何时、成没成」的最快公共日历。</span></p>
+      </article>
+      <article class="rs-item" id="r-launch-library-2">
+        <h3 class="rs-name"><a href="https://thespacedevs.com/llapi" data-en="Launch Library 2 — launch data API">Launch Library 2 · 发射数据 API</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="The Space Devs&#x27; community-run open API: structured data on launches, missions and orbital events.">The Space Devs 社区维护的航天发射开放 API：发射、任务与轨道事件的结构化数据接口。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://thespacedevs.com/llapi">https://thespacedevs.com/llapi</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--tools" data-en="Tools &amp; Data">工具与数据</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Community open API (terms per official docs)">社区开放 API（条款见官方文档）</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">SpaceX</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The de-facto open interface for launch data; a candidate cross-check for this site&#x27;s launch dates.">发射数据的事实标准接口；本站时间线交叉核对发射日期的候选工具。</span></p>
+      </article>
+      <article class="rs-item" id="r-starlink-sx">
+        <h3 class="rs-name"><a href="https://starlink.sx/" data-en="starlink.sx — Starlink tracker">starlink.sx · 星链卫星追踪</a><span class="rs-ext" aria-hidden="true">↗</span></h3>
+        <p class="rs-desc" data-en="Independent Starlink constellation visualization and coverage simulation by Mike Puchol (unofficial): live satellites, gateways and links.">独立 Starlink 星座可视化与覆盖模拟（Mike Puchol 维护，非 SpaceX 官方）：在轨卫星、网关与链路实时图。</p>
+        <dl class="rs-meta">
+          <div class="rs-mrow"><dt data-en="URL">网址</dt><dd><a class="rs-url" href="https://starlink.sx/">https://starlink.sx/</a></dd></div>
+          <div class="rs-mrow"><dt data-en="Category">分类</dt><dd><span class="rs-badge rs-badge--tools" data-en="Tools &amp; Data">工具与数据</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Language">语言</dt><dd><span data-en="English">英文</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Status">活跃度</dt><dd><span class="rs-act rs-act--on" data-en="Active">维护中</span></dd></div>
+          <div class="rs-mrow"><dt data-en="License">许可</dt><dd data-en="Web service">站点服务</dd></div>
+          <div class="rs-mrow"><dt data-en="Companies">关联公司</dt><dd><span class="rs-co">SpaceX</span></dd></div>
+          <div class="rs-mrow"><dt data-en="Live check">核活</dt><dd><span class="rs-check">2026-10-01 · HTTP 200</span></dd></div>
+        </dl>
+        <p class="rs-reason"><b data-en="WHY LISTED">收录理由</b><span data-en="The clearest independent quantitative view of Starlink&#x27;s scale and coverage, clearly labeled unofficial.">Starlink 规模与覆盖最直观的独立量化视图，非官方口径标注清晰。</span></p>
+      </article>
+    </section>
+        <p class="lr-foot" data-en="Filed by tools/build-resources.py from tools/resources-data.py — the single source of truth. Live checks were run from the build machine on the date each entry records; regional blocking may differ. External links are independent third-party resources, listed not endorsed.">本页由 tools/build-resources.py 从单一事实来源 tools/resources-data.py 生成。核活在生成机于各条注明日期实测，地区性屏蔽可能造成差异；外链均为独立第三方资源，收录不构成背书。第一手引语的核对入口见 <a href="primary.html">言行账本</a> 与 <a href="search.html">第一手检索</a>。</p>
+      </div>
+      <aside class="lr-toc" aria-label="本页资源目录">
+        <p class="lr-toc-h">资源目录 · RESOURCE INDEX</p>
+          <a href="#cat-official" data-en="Official &amp; Standards">官方与标准</a>
+          <a href="#cat-opensource" data-en="Open Source">开源项目</a>
+          <a href="#cat-community" data-en="Community &amp; Archives">社区与档案</a>
+          <a href="#cat-tools" data-en="Tools &amp; Data">工具与数据</a>
+          <a href="#r-sec-edgar-tesla" class="rs-toc-sub" data-en="SEC EDGAR — Tesla filings">SEC EDGAR · Tesla 上市公司文件</a>
+          <a href="#r-tesla-vehicle-command" class="rs-toc-sub" data-en="Tesla (official) — vehicle-command">Tesla 官方开源 · vehicle-command</a>
+          <a href="#r-teslamate" class="rs-toc-sub" data-en="Teslamate — self-hosted Tesla logger">Teslamate · 自托管特斯拉数据记录</a>
+          <a href="#r-grok-1" class="rs-toc-sub" data-en="xAI (official) — Grok-1 weights">xAI 官方开源 · Grok-1 权重</a>
+          <a href="#r-elonmuskarchive" class="rs-toc-sub" data-en="Elon Musk Archive">Elon Musk Archive · 言行镜像库</a>
+          <a href="#r-wbw-neuralink" class="rs-toc-sub" data-en="Wait But Why — Neuralink and the Brain&#x27;s Magical Future">Wait But Why · Neuralink 与大脑的魔法未来</a>
+          <a href="#r-flight-club" class="rs-toc-sub" data-en="Flight Club — rocket trajectory simulator">Flight Club · 火箭轨迹仿真</a>
+          <a href="#r-next-spaceflight" class="rs-toc-sub" data-en="Next Spaceflight — launch schedule">Next Spaceflight · 发射日历</a>
+          <a href="#r-launch-library-2" class="rs-toc-sub" data-en="Launch Library 2 — launch data API">Launch Library 2 · 发射数据 API</a>
+          <a href="#r-starlink-sx" class="rs-toc-sub" data-en="starlink.sx — Starlink tracker">starlink.sx · 星链卫星追踪</a>
+          <a href="#rs-readme" data-en="How to read">读法与口径</a>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ============ 页脚 ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">马斯克商业志 <span class="brand-en">MUSK,&nbsp;INC.</span> <a class="footer-version" href="changelog.html" title="修订记录">v<span class="site-version-val">8.10.0</span></a></p>
+      <p class="footer-disclaimer" data-en="An unofficial, study-oriented business profile. Information compiled from public sources (Forbes, Reuters, CNBC, BBC, company announcements); photo via Wikimedia Commons. Not affiliated with or endorsed by Elon Musk or any of his companies.">
+        本站为非官方、学习型的商业人物志。信息整理自公开资料（Forbes、Reuters、CNBC、BBC 及公司公告）；
+        图片来自 Wikimedia Commons。与马斯克先生及其名下公司无任何隶属或背书关系。
+      </p>
+      <p class="footer-note" data-en="Built by scheduled autonomous iteration · full revision history in the changelog">由定时自主迭代持续构建 · 完整修订史见「修订记录」</p>
+      <p class="footer-toplink"><a href="index.html" data-en="Back to top ↑">返回顶部 ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+  (function () {
+    var chips = Array.prototype.slice.call(document.querySelectorAll('.rs-fchip'));
+    var cats = Array.prototype.slice.call(document.querySelectorAll('.rs-cat'));
+    var status = document.getElementById('rs-status');
+    function apply(cat) {
+      chips.forEach(function (c) {
+        c.setAttribute('aria-pressed', String(c.getAttribute('data-cat') === cat));
+      });
+      var n = 0;
+      cats.forEach(function (sec) {
+        var show = (cat === 'all') || (sec.getAttribute('data-cat') === cat);
+        sec.classList.toggle('rs-cat-off', !show);
+        if (show) n += sec.querySelectorAll('.rs-item').length;
+      });
+      if (status) {
+        var en = document.documentElement.lang === 'en';
+        var label = 'all';
+        chips.forEach(function (c) {
+          if (c.getAttribute('data-cat') === cat) label = en ? c.getAttribute('data-en-label') : c.getAttribute('data-zh-label');
+        });
+        status.textContent = en
+          ? 'Showing ' + n + ' resources · ' + label + ' · without JavaScript the full list above is complete.'
+          : '显示 ' + n + ' 条资源 · ' + label + ' · 无脚本环境上方清单即完整信息。';
+      }
+    }
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () { apply(c.getAttribute('data-cat')); });
+    });
+  })();
+  </script>
+</body>
+</html>

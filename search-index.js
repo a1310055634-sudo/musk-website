@@ -3789,5 +3789,135 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla"
   ]
+ },
+ {
+  "id": "r-sec-edgar-tesla",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SEC EDGAR · Tesla 上市公司文件",
+  "q": "美国证监会 EDGAR 库中 Tesla, Inc.（CIK 0001318605）的申报文件总目：10-K / 10-Q / 8-K / S-1 全文免费公开。",
+  "zh": "The SEC EDGAR index for Tesla, Inc. (CIK 0001318605): full texts of 10-K / 10-Q / 8-K / S-1 filings, free and public.",
+  "bg": "本站财报与风险表述的原文锚点所在库；核对公司口径时「原文优先」的第一站。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-tesla-vehicle-command",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Tesla 官方开源 · vehicle-command",
+  "q": "Tesla 官方维护的车端指令协议库（Go）：解锁、充电等签名指令的参考实现。",
+  "zh": "Tesla's official Go library for the vehicle command protocol — the reference implementation for signed commands (lock, charge, …).",
+  "bg": "官方代码即权威口径：第三方 Tesla API 生态的协议事实来源。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-teslamate",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Teslamate · 自托管特斯拉数据记录",
+  "q": "社区维护的自托管 Tesla 遥测记录器（Elixir/Phoenix）：车辆数据留在自己的服务器上。",
+  "zh": "Community-maintained, self-hosted Tesla telemetry logger (Elixir/Phoenix): your car's data stays on your own server.",
+  "bg": "Tesla API 生态中星数最高、仍在活跃维护的自托管方案，代表社区「数据自主」路线。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-grok-1",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "xAI 官方开源 · Grok-1 权重",
+  "q": "xAI 于 2024-03 开源的 3140 亿参数 MoE 语言模型 Grok-1：权重与推理代码（仓库由 grok 改名 grok-1）。",
+  "zh": "xAI's March 2024 open release of Grok-1, a 314B-parameter MoE LLM: weights and inference code (repo renamed from `grok` to `grok-1`).",
+  "bg": "马斯克系公司把旗舰模型权重整体开源的唯一一例，xAI 开源立场的实物证据。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "r-elonmuskarchive",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Elon Musk Archive · 言行镜像库",
+  "q": "马斯克公开言行的非官方镜像档案：X 帖、访谈、演讲、文档按时间可检索（本站第一手采料的镜像来源）。",
+  "zh": "An unofficial archive of Musk's public record — posts, interviews, keynotes and documents, searchable in time order (this site's first-hand pipeline source).",
+  "bg": "本站 X 帖 / 访谈 / 演讲逐字采料的直接来源，收录以注明其非官方性质与用途。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "r-wbw-neuralink",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Wait But Why · Neuralink 与大脑的魔法未来",
+  "q": "Tim Urban 2017 年长文：与马斯克数次长谈后对 Neuralink、脑机接口与大脑的科普解读。",
+  "zh": "Tim Urban's 2017 mega-essay on Neuralink, brain-computer interfaces and the brain, after long conversations with Musk.",
+  "bg": "流传最广的 Neuralink 科普定稿，2017 年创立期的第一手侧写。",
+  "c": [
+   "Neuralink"
+  ]
+ },
+ {
+  "id": "r-flight-club",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Flight Club · 火箭轨迹仿真",
+  "q": "火箭发射实时三维轨迹仿真与预测站点，SpaceX 发射报道常引用其弹道可视化。",
+  "zh": "Real-time 3D rocket trajectory simulation and prediction; a staple visualization in SpaceX launch coverage.",
+  "bg": "发射追踪工具链中最老牌的轨迹仿真站，把发射数据变成可核对的弹道。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-next-spaceflight",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Next Spaceflight · 发射日历",
+  "q": "全球航天发射日历与追踪：即将进行的发射、直播链接与统计，含 SpaceX 各次任务卡片。",
+  "zh": "Global launch schedule and tracker: upcoming launches, webcast links and statistics, incl. every SpaceX mission card.",
+  "bg": "核对「哪次发射、何时、成没成」的最快公共日历。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-launch-library-2",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Launch Library 2 · 发射数据 API",
+  "q": "The Space Devs 社区维护的航天发射开放 API：发射、任务与轨道事件的结构化数据接口。",
+  "zh": "The Space Devs' community-run open API: structured data on launches, missions and orbital events.",
+  "bg": "发射数据的事实标准接口；本站时间线交叉核对发射日期的候选工具。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-starlink-sx",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "starlink.sx · 星链卫星追踪",
+  "q": "独立 Starlink 星座可视化与覆盖模拟（Mike Puchol 维护，非 SpaceX 官方）：在轨卫星、网关与链路实时图。",
+  "zh": "Independent Starlink constellation visualization and coverage simulation by Mike Puchol (unofficial): live satellites, gateways and links.",
+  "bg": "Starlink 规模与覆盖最直观的独立量化视图，非官方口径标注清晰。",
+  "c": [
+   "SpaceX"
+  ]
  }
 ];

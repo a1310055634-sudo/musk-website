@@ -99,10 +99,14 @@ n_fin = len(re.findall(r'<section class="fn-co" id="', texts.get('finance.html',
 # V7-19 R15：索引新增「事件档案」类型（events.html 的 ev-item 锚点数，动态取）——
 # 原七类锚点约束保留不变，事件档案为生成器产出的合法新增类型（events-data.py 单一事实来源）。
 n_ev = len(re.findall(r'<section class="ev-item lr-sec" id="', texts.get('events.html', '')))
-total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin + n_ev
+# V9-20 R10：索引新增「社区资源」类型（resources.html 的 rs-item 锚点数，动态取）——
+# 同 V7-19 R15 先例：原八类锚点约束保留不变，社区资源为生成器产出的合法新增类型
+# （tools/resources-data.py 单一事实来源，纪律 B：只收链接+简介+元数据，不复制外部正文）。
+n_res = len(re.findall(r'<article class="rs-item" id="r-', texts.get('resources.html', '')))
+total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin + n_ev + n_res
 if n_items != total_expected:
     idx_errors.append(f'索引 {n_items} 条 != 页面锚点 {total_expected} 条（先重跑 tools/build-search-index.py）')
-check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}+{n_ch}+{n_fin}+{n_ev}）', idx_errors)
+check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}+{n_ch}+{n_fin}+{n_ev}+{n_res}）', idx_errors)
 
 # ---------- 5) 时间轴节点 = 账本条目 ----------
 tl_errors = []
