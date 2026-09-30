@@ -1,0 +1,1744 @@
+{
+ "trump-endorse": {
+  "phrase": "\"I fully endorse President Trump\"",
+  "extra": "",
+  "total": 1,
+  "hits": [
+   {
+    "id": "x-1812256998588662068",
+    "type": "post",
+    "date": "2024-07-13",
+    "org": null,
+    "title": "I fully endorse President Trump and hope for his rapid recovery https://t.co/ZdxkF63EqF",
+    "summary": "I fully endorse President Trump and hope for his rapid recovery https://t.co/ZdxkF63EqF",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 13, 2024",
+    "url": "https://elonmuskarchive.org/posts/1812256998588662068",
+    "source": "https://x.com/elonmusk/status/1812256998588662068",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1812256998588662068",
+    "score": 51.7,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "I fully endorse President Trump and hope for his rapid recovery https://t.co/ZdxkF63EqF",
+      "start": 0,
+      "end": 87
+     }
+    ],
+    "snippet": "I fully endorse President Trump and hope for his rapid recovery https://t.co/ZdxkF63EqF",
+    "textLength": 87,
+    "approxTokens": 22,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1812256998588662068&q=%22I%20fully%20endorse%20President%20Trump%22"
+   }
+  ]
+ },
+ "delaware-never": {
+  "phrase": "\"Never incorporate your company in the state of Delaware\"",
+  "extra": "",
+  "total": 1,
+  "hits": [
+   {
+    "id": "x-1752455348106166598",
+    "type": "post",
+    "date": "2024-01-30",
+    "org": null,
+    "title": "Never incorporate your company in the state of Delaware",
+    "summary": "Never incorporate your company in the state of Delaware",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), January 30, 2024",
+    "url": "https://elonmuskarchive.org/posts/1752455348106166598",
+    "source": "https://x.com/elonmusk/status/1752455348106166598",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1752455348106166598",
+    "score": 51.7,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Never incorporate your company in the state of Delaware",
+      "start": 0,
+      "end": 55
+     }
+    ],
+    "snippet": "Never incorporate your company in the state of Delaware",
+    "textLength": 55,
+    "approxTokens": 14,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1752455348106166598&q=%22Never%20incorporate%20your%20company%20in%20the%20state%20of%20Delaware%22"
+   }
+  ]
+ },
+ "delaware-vote-tx": {
+  "phrase": "\"Should Tesla change its state of incorporation to Texas\"",
+  "extra": "",
+  "total": 2,
+  "hits": [
+   {
+    "id": "x-1752491924848820595",
+    "type": "post",
+    "date": "2024-01-31",
+    "org": null,
+    "title": "Should Tesla change its state of incorporation to Texas, home of its physical headquarters?",
+    "summary": "Should Tesla change its state of incorporation to Texas, home of its physical headquarters?",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), January 31, 2024",
+    "url": "https://elonmuskarchive.org/posts/1752491924848820595",
+    "source": "https://x.com/elonmusk/status/1752491924848820595",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1752491924848820595",
+    "score": 51.7,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Should Tesla change its state of incorporation to Texas, home of its physical headquarters?",
+      "start": 0,
+      "end": 91
+     }
+    ],
+    "snippet": "Should Tesla change its state of incorporation to Texas, home of its physical headquarters?",
+    "textLength": 91,
+    "approxTokens": 23,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1752491924848820595&q=%22Should%20Tesla%20change%20its%20state%20of%20incorporation%20to%20Texas%22"
+   },
+   {
+    "id": "x-1752922071229722990",
+    "type": "post",
+    "date": "2024-02-01",
+    "org": null,
+    "title": "The public vote is unequivocally in favor of Texas!\n\nTesla will move immediately to hold a shareholder vote to transfer state of incorporation to Texas.",
+    "summary": "The public vote is unequivocally in favor of Texas!\n\nTesla will move immediately to hold a shareholder vote to transfer state of incorporation to Texas.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 1, 2024",
+    "url": "https://elonmuskarchive.org/posts/1752922071229722990",
+    "source": "https://x.com/elonmusk/status/1752922071229722990",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1752922071229722990",
+    "score": 2.7,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 152,
+    "approxTokens": 38,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1752922071229722990&q=%22Should%20Tesla%20change%20its%20state%20of%20incorporation%20to%20Texas%22"
+   }
+  ]
+ },
+ "cybertruck-day": {
+  "phrase": "\"Cybertruck\"",
+  "extra": "from=2023-11-30&to=2023-12-01",
+  "total": 11,
+  "hits": [
+   {
+    "id": "x-1730278921248161877",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "Cybertruck production line https://t.co/sGYuVFLy3c",
+    "summary": "Cybertruck production line https://t.co/sGYuVFLy3c",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730278921248161877",
+    "source": "https://x.com/elonmusk/status/1730278921248161877",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730278921248161877",
+    "score": 51.65,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Cybertruck production line https://t.co/sGYuVFLy3c",
+      "start": 0,
+      "end": 50
+     }
+    ],
+    "snippet": "Cybertruck production line https://t.co/sGYuVFLy3c",
+    "textLength": 50,
+    "approxTokens": 13,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730278921248161877&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730283187127964138",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "First Cybertruck deliveries in 2 hours!",
+    "summary": "First Cybertruck deliveries in 2 hours!",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730283187127964138",
+    "source": "https://x.com/elonmusk/status/1730283187127964138",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730283187127964138",
+    "score": 51.65,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "First Cybertruck deliveries in 2 hours!",
+      "start": 0,
+      "end": 39
+     }
+    ],
+    "snippet": "First Cybertruck deliveries in 2 hours!",
+    "textLength": 39,
+    "approxTokens": 10,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730283187127964138&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730341640009605171",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "“All your based are belong to us” – Cybertruck",
+    "summary": "“All your based are belong to us” – Cybertruck",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730341640009605171",
+    "source": "https://x.com/elonmusk/status/1730341640009605171",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730341640009605171",
+    "score": 51.65,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "“All your based are belong to us” – Cybertruck",
+      "start": 0,
+      "end": 46
+     }
+    ],
+    "snippet": "“All your based are belong to us” – Cybertruck",
+    "textLength": 46,
+    "approxTokens": 12,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730341640009605171&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730342317993701521",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "Massive congrats to the incredible Tesla team, from design through to manufacturing, for making Cybertruck real! I love you.",
+    "summary": "Massive congrats to the incredible Tesla team, from design through to manufacturing, for making Cybertruck real! I love you.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730342317993701521",
+    "source": "https://x.com/elonmusk/status/1730342317993701521",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730342317993701521",
+    "score": 51.65,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Massive congrats to the incredible Tesla team, from design through to manufacturing, for making Cybertruck real! I love you.",
+      "start": 0,
+      "end": 124
+     }
+    ],
+    "snippet": "Massive congrats to the incredible Tesla team, from design through to manufacturing, for making Cybertruck real! I love you.",
+    "textLength": 124,
+    "approxTokens": 31,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730342317993701521&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730680292157858120",
+    "type": "post",
+    "date": "2023-12-01",
+    "org": null,
+    "title": "@alexisohanian @Tesla Glad you like it ❤️",
+    "summary": "@alexisohanian @Tesla Glad you like it ❤️",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), December 1, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730680292157858120",
+    "source": "https://x.com/elonmusk/status/1730680292157858120",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730680292157858120",
+    "score": 4.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 41,
+    "approxTokens": 11,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730680292157858120&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730331848570511571",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "@0xgaut Advertise this mf lmao",
+    "summary": "@0xgaut Advertise this mf lmao",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730331848570511571",
+    "source": "https://x.com/elonmusk/status/1730331848570511571",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730331848570511571",
+    "score": 2.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 30,
+    "approxTokens": 8,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730331848570511571&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730338945601270016",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "@wintonARK 😂",
+    "summary": "@wintonARK 😂",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730338945601270016",
+    "source": "https://x.com/elonmusk/status/1730338945601270016",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730338945601270016",
+    "score": 2.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 13,
+    "approxTokens": 4,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730338945601270016&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730340127929495708",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "@0xgaut It’s just what the product does",
+    "summary": "@0xgaut It’s just what the product does",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730340127929495708",
+    "source": "https://x.com/elonmusk/status/1730340127929495708",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730340127929495708",
+    "score": 2.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 39,
+    "approxTokens": 10,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730340127929495708&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730341463307784387",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "@dogeofficialceo Maximum based!",
+    "summary": "@dogeofficialceo Maximum based!",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730341463307784387",
+    "source": "https://x.com/elonmusk/status/1730341463307784387",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730341463307784387",
+    "score": 2.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 31,
+    "approxTokens": 8,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730341463307784387&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730343377973940377",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "@ianmiles The apocalypse feels a little closer every year",
+    "summary": "@ianmiles The apocalypse feels a little closer every year",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730343377973940377",
+    "source": "https://x.com/elonmusk/status/1730343377973940377",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730343377973940377",
+    "score": 2.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 57,
+    "approxTokens": 15,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730343377973940377&q=%22Cybertruck%22"
+   },
+   {
+    "id": "x-1730345431605907488",
+    "type": "post",
+    "date": "2023-11-30",
+    "org": null,
+    "title": "@TrungTPhan Accurate",
+    "summary": "@TrungTPhan Accurate",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), November 30, 2023",
+    "url": "https://elonmuskarchive.org/posts/1730345431605907488",
+    "source": "https://x.com/elonmusk/status/1730345431605907488",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1730345431605907488",
+    "score": 2.65,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 20,
+    "approxTokens": 5,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1730345431605907488&q=%22Cybertruck%22"
+   }
+  ]
+ },
+ "grok3": {
+  "phrase": "\"Grok 3\"",
+  "extra": "from=2025-02-01&to=2025-03-01",
+  "total": 71,
+  "hits": [
+   {
+    "id": "x-1893865293681734087",
+    "type": "post",
+    "date": "2025-02-24",
+    "org": null,
+    "title": "Grok 3 AI girlfriend or boyfriend is 🔥🔥",
+    "summary": "Grok 3 AI girlfriend or boyfriend is 🔥🔥",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 24, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893865293681734087",
+    "source": "https://x.com/elonmusk/status/1893865293681734087",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893865293681734087",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 AI girlfriend or boyfriend is 🔥🔥",
+      "start": 0,
+      "end": 41
+     }
+    ],
+    "snippet": "Grok 3 AI girlfriend or boyfriend is 🔥🔥",
+    "textLength": 41,
+    "approxTokens": 11,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893865293681734087&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1893870468249141688",
+    "type": "post",
+    "date": "2025-02-24",
+    "org": null,
+    "title": "Grok 3 customer support",
+    "summary": "Grok 3 customer support",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 24, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893870468249141688",
+    "source": "https://x.com/elonmusk/status/1893870468249141688",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893870468249141688",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 customer support",
+      "start": 0,
+      "end": 23
+     }
+    ],
+    "snippet": "Grok 3 customer support",
+    "textLength": 23,
+    "approxTokens": 6,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893870468249141688&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1893974973468770400",
+    "type": "post",
+    "date": "2025-02-24",
+    "org": null,
+    "title": "Grok 3 is now the most powerful AI\n https://t.co/TQX4AgxZbf",
+    "summary": "Grok 3 is now the most powerful AI\n https://t.co/TQX4AgxZbf",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 24, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893974973468770400",
+    "source": "https://x.com/elonmusk/status/1893974973468770400",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893974973468770400",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 is now the most powerful AI https://t.co/TQX4AgxZbf",
+      "start": 0,
+      "end": 59
+     }
+    ],
+    "snippet": "Grok 3 is now the most powerful AI https://t.co/TQX4AgxZbf",
+    "textLength": 59,
+    "approxTokens": 15,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893974973468770400&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1893778820185960485",
+    "type": "post",
+    "date": "2025-02-23",
+    "org": null,
+    "title": "Grok 3 is becoming superhuman",
+    "summary": "Grok 3 is becoming superhuman",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 23, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893778820185960485",
+    "source": "https://x.com/elonmusk/status/1893778820185960485",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893778820185960485",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 is becoming superhuman",
+      "start": 0,
+      "end": 29
+     }
+    ],
+    "snippet": "Grok 3 is becoming superhuman",
+    "textLength": 29,
+    "approxTokens": 8,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893778820185960485&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1892974622049488952",
+    "type": "post",
+    "date": "2025-02-21",
+    "org": null,
+    "title": "Grok 3 can make any arcade game you can think of. \n\nThis year, we will add the ability to apply high resolution imagery. I think we’ve got a shot at making a AAA game sometime next year. \n\nJoin us to make it happen!",
+    "summary": "Grok 3 can make any arcade game you can think of. \n\nThis year, we will add the ability to apply high resolution imagery. I think we’ve got a shot at making a AAA game sometime next year. \n\nJoin us to make it happen!",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 21, 2025",
+    "url": "https://elonmuskarchive.org/posts/1892974622049488952",
+    "source": "https://x.com/elonmusk/status/1892974622049488952",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1892974622049488952",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 can make any arcade game you can think of. This year, we will add the ability to apply high resolution imagery. I think we’ve got a shot at making…",
+      "start": 0,
+      "end": 155
+     }
+    ],
+    "snippet": "Grok 3 can make any arcade game you can think of. This year, we will add the ability to apply high resolution imagery. I think we’ve got a shot at making…",
+    "textLength": 215,
+    "approxTokens": 54,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1892974622049488952&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1892417111479238898",
+    "type": "post",
+    "date": "2025-02-20",
+    "org": null,
+    "title": "For a short time, Grok 3 is available for free to all!",
+    "summary": "For a short time, Grok 3 is available for free to all!",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 20, 2025",
+    "url": "https://elonmuskarchive.org/posts/1892417111479238898",
+    "source": "https://x.com/elonmusk/status/1892417111479238898",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1892417111479238898",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "For a short time, Grok 3 is available for free to all!",
+      "start": 0,
+      "end": 54
+     }
+    ],
+    "snippet": "For a short time, Grok 3 is available for free to all!",
+    "textLength": 54,
+    "approxTokens": 14,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1892417111479238898&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1892055337408049281",
+    "type": "post",
+    "date": "2025-02-19",
+    "org": null,
+    "title": "@mariusfanu @actuallyajoke System was incorrectly serving Grok 2 instead of Grok 3",
+    "summary": "@mariusfanu @actuallyajoke System was incorrectly serving Grok 2 instead of Grok 3",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 19, 2025",
+    "url": "https://elonmuskarchive.org/posts/1892055337408049281",
+    "source": "https://x.com/elonmusk/status/1892055337408049281",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1892055337408049281",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "@mariusfanu @actuallyajoke System was incorrectly serving Grok 2 instead of Grok 3",
+      "start": 0,
+      "end": 82
+     }
+    ],
+    "snippet": "@mariusfanu @actuallyajoke System was incorrectly serving Grok 2 instead of Grok 3",
+    "textLength": 82,
+    "approxTokens": 21,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1892055337408049281&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1892149043544965446",
+    "type": "post",
+    "date": "2025-02-19",
+    "org": null,
+    "title": "Btw, Grok 2 is still being used to explain 𝕏 posts. That will update to Grok 3 in a day or two.",
+    "summary": "Btw, Grok 2 is still being used to explain 𝕏 posts. That will update to Grok 3 in a day or two.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 19, 2025",
+    "url": "https://elonmuskarchive.org/posts/1892149043544965446",
+    "source": "https://x.com/elonmusk/status/1892149043544965446",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1892149043544965446",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Btw, Grok 2 is still being used to explain 𝕏 posts. That will update to Grok 3 in a day or two.",
+      "start": 0,
+      "end": 96
+     }
+    ],
+    "snippet": "Btw, Grok 2 is still being used to explain 𝕏 posts. That will update to Grok 3 in a day or two.",
+    "textLength": 96,
+    "approxTokens": 24,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1892149043544965446&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1892166193152135229",
+    "type": "post",
+    "date": "2025-02-19",
+    "org": null,
+    "title": "Try our new Grok 3 image generator",
+    "summary": "Try our new Grok 3 image generator",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 19, 2025",
+    "url": "https://elonmuskarchive.org/posts/1892166193152135229",
+    "source": "https://x.com/elonmusk/status/1892166193152135229",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1892166193152135229",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Try our new Grok 3 image generator",
+      "start": 0,
+      "end": 34
+     }
+    ],
+    "snippet": "Try our new Grok 3 image generator",
+    "textLength": 34,
+    "approxTokens": 9,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1892166193152135229&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1892298657375928613",
+    "type": "post",
+    "date": "2025-02-19",
+    "org": null,
+    "title": "Grok 3 images",
+    "summary": "Grok 3 images",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 19, 2025",
+    "url": "https://elonmuskarchive.org/posts/1892298657375928613",
+    "source": "https://x.com/elonmusk/status/1892298657375928613",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1892298657375928613",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 images",
+      "start": 0,
+      "end": 13
+     }
+    ],
+    "snippet": "Grok 3 images",
+    "textLength": 13,
+    "approxTokens": 4,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1892298657375928613&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1891699076267217406",
+    "type": "post",
+    "date": "2025-02-18",
+    "org": null,
+    "title": "Grok 3 presentation starting shortly",
+    "summary": "Grok 3 presentation starting shortly",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 18, 2025",
+    "url": "https://elonmuskarchive.org/posts/1891699076267217406",
+    "source": "https://x.com/elonmusk/status/1891699076267217406",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1891699076267217406",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 presentation starting shortly",
+      "start": 0,
+      "end": 36
+     }
+    ],
+    "snippet": "Grok 3 presentation starting shortly",
+    "textLength": 36,
+    "approxTokens": 9,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1891699076267217406&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1891793575010050474",
+    "type": "post",
+    "date": "2025-02-18",
+    "org": null,
+    "title": "And Grok 3 coming soon",
+    "summary": "And Grok 3 coming soon",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 18, 2025",
+    "url": "https://elonmuskarchive.org/posts/1891793575010050474",
+    "source": "https://x.com/elonmusk/status/1891793575010050474",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1891793575010050474",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "And Grok 3 coming soon",
+      "start": 0,
+      "end": 22
+     }
+    ],
+    "snippet": "And Grok 3 coming soon",
+    "textLength": 22,
+    "approxTokens": 6,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1891793575010050474&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1891911120572567983",
+    "type": "post",
+    "date": "2025-02-18",
+    "org": null,
+    "title": "The @xAI Grok 3 release will improve rapidly every day this week. \n\nPlease report any issues as a reply to this post.",
+    "summary": "The @xAI Grok 3 release will improve rapidly every day this week. \n\nPlease report any issues as a reply to this post.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 18, 2025",
+    "url": "https://elonmuskarchive.org/posts/1891911120572567983",
+    "source": "https://x.com/elonmusk/status/1891911120572567983",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1891911120572567983",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "The @xAI Grok 3 release will improve rapidly every day this week. Please report any issues as a reply to this post.",
+      "start": 0,
+      "end": 117
+     }
+    ],
+    "snippet": "The @xAI Grok 3 release will improve rapidly every day this week. Please report any issues as a reply to this post.",
+    "textLength": 117,
+    "approxTokens": 30,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1891911120572567983&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1890958798841389499",
+    "type": "post",
+    "date": "2025-02-16",
+    "org": null,
+    "title": "Grok 3 release with live demo on Monday night at 8pm PT. \n\nSmartest AI on Earth.",
+    "summary": "Grok 3 release with live demo on Monday night at 8pm PT. \n\nSmartest AI on Earth.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 16, 2025",
+    "url": "https://elonmuskarchive.org/posts/1890958798841389499",
+    "source": "https://x.com/elonmusk/status/1890958798841389499",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1890958798841389499",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 release with live demo on Monday night at 8pm PT. Smartest AI on Earth.",
+      "start": 0,
+      "end": 80
+     }
+    ],
+    "snippet": "Grok 3 release with live demo on Monday night at 8pm PT. Smartest AI on Earth.",
+    "textLength": 80,
+    "approxTokens": 20,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1890958798841389499&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1891108275736711483",
+    "type": "post",
+    "date": "2025-02-16",
+    "org": null,
+    "title": "Grok 3\n https://t.co/yF1CyuvLgL",
+    "summary": "Grok 3\n https://t.co/yF1CyuvLgL",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 16, 2025",
+    "url": "https://elonmuskarchive.org/posts/1891108275736711483",
+    "source": "https://x.com/elonmusk/status/1891108275736711483",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1891108275736711483",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 https://t.co/yF1CyuvLgL",
+      "start": 0,
+      "end": 31
+     }
+    ],
+    "snippet": "Grok 3 https://t.co/yF1CyuvLgL",
+    "textLength": 31,
+    "approxTokens": 8,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1891108275736711483&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1891112681538523215",
+    "type": "post",
+    "date": "2025-02-16",
+    "org": null,
+    "title": "Grok 3 is so based 😂 https://t.co/Rfphquqk2b",
+    "summary": "Grok 3 is so based 😂 https://t.co/Rfphquqk2b",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 16, 2025",
+    "url": "https://elonmuskarchive.org/posts/1891112681538523215",
+    "source": "https://x.com/elonmusk/status/1891112681538523215",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1891112681538523215",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Grok 3 is so based 😂 https://t.co/Rfphquqk2b",
+      "start": 0,
+      "end": 45
+     }
+    ],
+    "snippet": "Grok 3 is so based 😂 https://t.co/Rfphquqk2b",
+    "textLength": 45,
+    "approxTokens": 12,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1891112681538523215&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1893874039845744777",
+    "type": "post",
+    "date": "2025-02-24",
+    "org": null,
+    "title": "Try Grok DeepSearch. \n\nTell it to use more time for a better result.",
+    "summary": "Try Grok DeepSearch. \n\nTell it to use more time for a better result.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 24, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893874039845744777",
+    "source": "https://x.com/elonmusk/status/1893874039845744777",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893874039845744777",
+    "score": 6.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 68,
+    "approxTokens": 17,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893874039845744777&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1893977704694755471",
+    "type": "post",
+    "date": "2025-02-24",
+    "org": null,
+    "title": "@ericweinstein Please cite examples",
+    "summary": "@ericweinstein Please cite examples",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 24, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893977704694755471",
+    "source": "https://x.com/elonmusk/status/1893977704694755471",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893977704694755471",
+    "score": 6.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 35,
+    "approxTokens": 9,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893977704694755471&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1893441788968607788",
+    "type": "post",
+    "date": "2025-02-22",
+    "org": null,
+    "title": "Cool",
+    "summary": "Cool",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 22, 2025",
+    "url": "https://elonmuskarchive.org/posts/1893441788968607788",
+    "source": "https://x.com/elonmusk/status/1893441788968607788",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1893441788968607788",
+    "score": 6.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 4,
+    "approxTokens": 1,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1893441788968607788&q=%22Grok%203%22"
+   },
+   {
+    "id": "x-1891774168263426235",
+    "type": "post",
+    "date": "2025-02-18",
+    "org": null,
+    "title": "It’s a start",
+    "summary": "It’s a start",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), February 18, 2025",
+    "url": "https://elonmuskarchive.org/posts/1891774168263426235",
+    "source": "https://x.com/elonmusk/status/1891774168263426235",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1891774168263426235",
+    "score": 6.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 12,
+    "approxTokens": 3,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1891774168263426235&q=%22Grok%203%22"
+   }
+  ]
+ },
+ "america-party": {
+  "phrase": "\"America Party\"",
+  "extra": "from=2025-06-01&to=2025-07-31",
+  "total": 21,
+  "hits": [
+   {
+    "id": "x-1941999399195861470",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "The America Party is the solution",
+    "summary": "The America Party is the solution",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941999399195861470",
+    "source": "https://x.com/elonmusk/status/1941999399195861470",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941999399195861470",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "The America Party is the solution",
+      "start": 0,
+      "end": 33
+     }
+    ],
+    "snippet": "The America Party is the solution",
+    "textLength": 33,
+    "approxTokens": 9,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941999399195861470&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1942003079521472760",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "The America Party is needed to fight the Republican/Democrat Uniparty",
+    "summary": "The America Party is needed to fight the Republican/Democrat Uniparty",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1942003079521472760",
+    "source": "https://x.com/elonmusk/status/1942003079521472760",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1942003079521472760",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "The America Party is needed to fight the Republican/Democrat Uniparty",
+      "start": 0,
+      "end": 69
+     }
+    ],
+    "snippet": "The America Party is needed to fight the Republican/Democrat Uniparty",
+    "textLength": 69,
+    "approxTokens": 18,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1942003079521472760&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941584569523732930",
+    "type": "post",
+    "date": "2025-07-05",
+    "org": null,
+    "title": "By a factor of 2 to 1, you want a new political party and you shall have it!\n\nWhen it comes to bankrupting our country with waste & graft, we live in a one-party system, not a democracy.\n\nToday, the America Party is formed to give you back your freedom.",
+    "summary": "By a factor of 2 to 1, you want a new political party and you shall have it!\n\nWhen it comes to bankrupting our country with waste & graft, we live in a one-party system, not a democracy.\n\nToday, the America Party is formed to give you back your freedom.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 5, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941584569523732930",
+    "source": "https://x.com/elonmusk/status/1941584569523732930",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941584569523732930",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "…and you shall have it! When it comes to bankrupting our country with waste & graft, we live in a one-party system, not a democracy. Today, the America Party is formed to give you back your freedom.",
+      "start": 54,
+      "end": 253
+     }
+    ],
+    "snippet": "…and you shall have it! When it comes to bankrupting our country with waste & graft, we live in a one-party system, not a democracy. Today, the America Party is formed to give you back your freedom.",
+    "textLength": 253,
+    "approxTokens": 64,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941584569523732930&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941119099532378580",
+    "type": "post",
+    "date": "2025-07-04",
+    "org": null,
+    "title": "Independence Day is the perfect time to ask if you want independence from the two-party (some would say uniparty) system!\n\nShould we create the America Party?",
+    "summary": "Independence Day is the perfect time to ask if you want independence from the two-party (some would say uniparty) system!\n\nShould we create the America Party?",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 4, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941119099532378580",
+    "source": "https://x.com/elonmusk/status/1941119099532378580",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941119099532378580",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "Independence Day is the perfect time to ask if you want independence from the two-party (some would say uniparty) system! Should we create the America Party?",
+      "start": 0,
+      "end": 158
+     }
+    ],
+    "snippet": "Independence Day is the perfect time to ask if you want independence from the two-party (some would say uniparty) system! Should we create the America Party?",
+    "textLength": 158,
+    "approxTokens": 40,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941119099532378580&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1939806847504105683",
+    "type": "post",
+    "date": "2025-06-30",
+    "org": null,
+    "title": "If this insane spending bill passes, the America Party will be formed the next day. \n\nOur country needs an alternative to the Democrat-Republican uniparty so that the people actually have a VOICE.",
+    "summary": "If this insane spending bill passes, the America Party will be formed the next day. \n\nOur country needs an alternative to the Democrat-Republican uniparty so that the people actually have a VOICE.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), June 30, 2025",
+    "url": "https://elonmuskarchive.org/posts/1939806847504105683",
+    "source": "https://x.com/elonmusk/status/1939806847504105683",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1939806847504105683",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "If this insane spending bill passes, the America Party will be formed the next day. Our country needs an alternative to the Democrat-Republican uniparty so that the people actually have a VOICE.",
+      "start": 0,
+      "end": 196
+     }
+    ],
+    "snippet": "If this insane spending bill passes, the America Party will be formed the next day. Our country needs an alternative to the Democrat-Republican uniparty so that the people actually have a VOICE.",
+    "textLength": 196,
+    "approxTokens": 49,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1939806847504105683&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1931111534861935069",
+    "type": "post",
+    "date": "2025-06-06",
+    "org": null,
+    "title": "@benruel58 “America Party” has a nice ring to it. \n\nThe party that actually represents America!",
+    "summary": "@benruel58 “America Party” has a nice ring to it. \n\nThe party that actually represents America!",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), June 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1931111534861935069",
+    "source": "https://x.com/elonmusk/status/1931111534861935069",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1931111534861935069",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "@benruel58 “America Party” has a nice ring to it. The party that actually represents America!",
+      "start": 0,
+      "end": 95
+     }
+    ],
+    "snippet": "@benruel58 “America Party” has a nice ring to it. The party that actually represents America!",
+    "textLength": 95,
+    "approxTokens": 24,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1931111534861935069&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1931112942495523014",
+    "type": "post",
+    "date": "2025-06-06",
+    "org": null,
+    "title": "The America Party",
+    "summary": "The America Party",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), June 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1931112942495523014",
+    "source": "https://x.com/elonmusk/status/1931112942495523014",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1931112942495523014",
+    "score": 51.75,
+    "matchedIn": [
+     "title",
+     "summary",
+     "body"
+    ],
+    "passages": [
+     {
+      "field": "body",
+      "text": "The America Party",
+      "start": 0,
+      "end": 17
+     }
+    ],
+    "snippet": "The America Party",
+    "textLength": 17,
+    "approxTokens": 5,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1931112942495523014&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941586416384790698",
+    "type": "post",
+    "date": "2025-07-05",
+    "org": null,
+    "title": "The replies to this announcement are comedy gold 🤣🤣",
+    "summary": "The replies to this announcement are comedy gold 🤣🤣",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 5, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941586416384790698",
+    "source": "https://x.com/elonmusk/status/1941586416384790698",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941586416384790698",
+    "score": 4.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 53,
+    "approxTokens": 14,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941586416384790698&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941608862856994982",
+    "type": "post",
+    "date": "2025-07-05",
+    "org": null,
+    "title": "The way we’re going to crack the uniparty system is by using a variant of how Epaminondas shattered the myth of Spartan invincibility at Leuctra:\n\nExtremely concentrated force at a precise location on the battlefield.",
+    "summary": "The way we’re going to crack the uniparty system is by using a variant of how Epaminondas shattered the myth of Spartan invincibility at Leuctra:\n\nExtremely concentrated force at a precise location on the battlefield.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 5, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941608862856994982",
+    "source": "https://x.com/elonmusk/status/1941608862856994982",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941608862856994982",
+    "score": 4.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 217,
+    "approxTokens": 55,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941608862856994982&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1942654992021873081",
+    "type": "post",
+    "date": "2025-07-08",
+    "org": null,
+    "title": "@CNviolations 💯",
+    "summary": "@CNviolations 💯",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 8, 2025",
+    "url": "https://elonmuskarchive.org/posts/1942654992021873081",
+    "source": "https://x.com/elonmusk/status/1942654992021873081",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1942654992021873081",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 16,
+    "approxTokens": 4,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1942654992021873081&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1942028633670848810",
+    "type": "post",
+    "date": "2025-07-07",
+    "org": null,
+    "title": "@RenatoLima_X Fiat is hopeless, so yes",
+    "summary": "@RenatoLima_X Fiat is hopeless, so yes",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 7, 2025",
+    "url": "https://elonmuskarchive.org/posts/1942028633670848810",
+    "source": "https://x.com/elonmusk/status/1942028633670848810",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1942028633670848810",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 38,
+    "approxTokens": 10,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1942028633670848810&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941779544169386272",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "@cb_doge 💯",
+    "summary": "@cb_doge 💯",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941779544169386272",
+    "source": "https://x.com/elonmusk/status/1941779544169386272",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941779544169386272",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 11,
+    "approxTokens": 3,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941779544169386272&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941786171085881355",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "@teslaownersSV 💯",
+    "summary": "@teslaownersSV 💯",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941786171085881355",
+    "source": "https://x.com/elonmusk/status/1941786171085881355",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941786171085881355",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 17,
+    "approxTokens": 5,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941786171085881355&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941788068333187432",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "💯",
+    "summary": "💯",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941788068333187432",
+    "source": "https://x.com/elonmusk/status/1941788068333187432",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941788068333187432",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 2,
+    "approxTokens": 1,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941788068333187432&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941998325122609325",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "@EricLDaugh @ScottAdamsSays Backing a candidate for president is not out of the question, but the focus for the next 12 months is on the House and the Senate",
+    "summary": "@EricLDaugh @ScottAdamsSays Backing a candidate for president is not out of the question, but the focus for the next 12 months is on the House and the Senate",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941998325122609325",
+    "source": "https://x.com/elonmusk/status/1941998325122609325",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941998325122609325",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 157,
+    "approxTokens": 40,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941998325122609325&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1942002358830997796",
+    "type": "post",
+    "date": "2025-07-06",
+    "org": null,
+    "title": "@ResethO The Second Amendment is sacred",
+    "summary": "@ResethO The Second Amendment is sacred",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 6, 2025",
+    "url": "https://elonmuskarchive.org/posts/1942002358830997796",
+    "source": "https://x.com/elonmusk/status/1942002358830997796",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1942002358830997796",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 39,
+    "approxTokens": 10,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1942002358830997796&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941616039827017825",
+    "type": "post",
+    "date": "2025-07-05",
+    "org": null,
+    "title": "@tylerpalmer Yeah!",
+    "summary": "@tylerpalmer Yeah!",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 5, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941616039827017825",
+    "source": "https://x.com/elonmusk/status/1941616039827017825",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941616039827017825",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 18,
+    "approxTokens": 5,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941616039827017825&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941125459628179641",
+    "type": "post",
+    "date": "2025-07-04",
+    "org": null,
+    "title": "One way to execute on this would be to laser-focus on just 2 or 3 Senate seats and 8 to 10 House districts. \n\nGiven the razor-thin legislative margins, that would be enough to serve as the deciding vote on contentious laws, ensuring that they serve the true will of the people.",
+    "summary": "One way to execute on this would be to laser-focus on just 2 or 3 Senate seats and 8 to 10 House districts. \n\nGiven the razor-thin legislative margins, that would be enough to serve as the deciding vote on contentious laws, ensuring that they serve the true will of the people.",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 4, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941125459628179641",
+    "source": "https://x.com/elonmusk/status/1941125459628179641",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941125459628179641",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 277,
+    "approxTokens": 70,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941125459628179641&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1941193819313275198",
+    "type": "post",
+    "date": "2025-07-04",
+    "org": null,
+    "title": "Important to vote in this poll",
+    "summary": "Important to vote in this poll",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 4, 2025",
+    "url": "https://elonmuskarchive.org/posts/1941193819313275198",
+    "source": "https://x.com/elonmusk/status/1941193819313275198",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1941193819313275198",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 30,
+    "approxTokens": 8,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1941193819313275198&q=%22America%20Party%22"
+   },
+   {
+    "id": "x-1940714085559222472",
+    "type": "post",
+    "date": "2025-07-03",
+    "org": null,
+    "title": "Encouraging",
+    "summary": "Encouraging",
+    "sourceLabel": "X (Twitter)",
+    "citation": "X (Twitter), July 3, 2025",
+    "url": "https://elonmuskarchive.org/posts/1940714085559222472",
+    "source": "https://x.com/elonmusk/status/1940714085559222472",
+    "embedUrl": null,
+    "hasTranscript": false,
+    "hasBody": true,
+    "hasTimings": false,
+    "transcriptUrl": "https://elonmuskarchive.org/agents/transcript/x-1940714085559222472",
+    "score": 2.75,
+    "matchedIn": [
+     "body"
+    ],
+    "passages": [],
+    "snippet": null,
+    "textLength": 11,
+    "approxTokens": 3,
+    "excerptUrl": "https://elonmuskarchive.org/agents/excerpt?id=x-1940714085559222472&q=%22America%20Party%22"
+   }
+  ]
+ }
+}

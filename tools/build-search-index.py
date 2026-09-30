@@ -219,7 +219,7 @@ for _ev in ED.EVENTS:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 109, '一手文档': 14, '访谈与表态': 33, 'X 帖': 27, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
+assert counts == {'言行实录': 109, '一手文档': 14, '访谈与表态': 33, 'X 帖': 31, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

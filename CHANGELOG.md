@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v8.3.0 — 2026-10-01 · V9-20 R03/20：X 帖回捞 II（2022–2025 深水区）
+
+**主题包成果（V9-20 R03 · X 帖 27 → 31 张）**
+- **四张帖卡入册（全部经 elonmuskarchive.org Agent API 精确短语检索逐字直读 + snowflake 解码对表，镜像日期与解码 UTC 全部同日）**：**p2023-11-30**「First Cybertruck deliveries in 2 hours!」——跳票四年兑现时刻，同日致谢帖（Massive congrats…I love you）一并存证，互链账本 e2023-11-30；**p2024-01-30**「Never incorporate your company in the state of Delaware」——特拉华衡平法院撤销 2018 薪酬包当日怒斥，01.31 投票帖与 02.01「The public vote is unequivocally in favor of Texas!」两帖逐字在档，弧线闭合于账本 e2024-06-13（股东大会重批+迁册德州）；**p2024-07-13**「I fully endorse President Trump and hope for his rapid recovery」——**V8 弃收件重验入册**（计划指定项），snowflake 解码显示距巴特勒枪响约 34 分钟，America PAC/出资/集会弧线注齐，卡内直通 p2025-07-05；**p2025-07-05** America Party 建党宣言三段全文（2:1 投票、one-party system、give you back your freedom），前情 06.30 预告帖与 07.04 独立日投票帖镜像逐字在档，07.07 Tesla 股价计价（Reuters）。
+- **采料管线适配深水区**：清单管线（/agents/index 按年按月）在 2023–2025 大量触及单次 1000 上限（2024 全年 12 个月全满，12 月仅覆盖至 12-12），本轮确立深水区以 /agents/search 精确短语检索为主路径（六组短语全命中，total 精确），清单数据保留用于 2022 年全量（5,063 帖完整）。检索证据与 10 帖 transcript 存档 qa/v9-20/round-03/sources/（清单工作副本 _tmp_r03/ 不入库）。
+- **帖墙小结增补**：章末编者提炼补政治维度（「并在 2024 年中之后变成政治武器——背书、决裂、建党」，EN/中文同步）。
+- **检索断言同步**：tools/build-search-index.py X 帖断言 27→31，索引 254→258 条（109+14+33+31+5+53+4+9）。
+- **甄别与留档（EXPANSION.md 详录）**：Grok 3 发布帖不立卡（账本 e2025-02-18 已覆盖同日两帖，页卡不重复）；Grok 3 免费/OpenAI 关系帖入候选池；2024-01-30 建议注册地帖（Nevada 变体）未单独检索到逐字、以 01.31 投票帖替代；2025 帖量巨大（年 12,000+ 触上限），2025-12 段未完整覆盖已注明。
+
+**质量门**
+- verify.py 9 项全绿（37 页/索引 258）；node --check 通过；CDP 探针全过（新卡渲染/时序/五件套唯一/Permalink 31 对/双语/年份分组/互链/390 无溢出/检索命中）；EPUB 重跑。纯本地提交，不推送。
+
 ## v8.2.0 — 2026-10-01 · V9-20 R02/20：X 帖回捞 I（2020–2021）
 
 **主题包成果（V9-20 R02 · X 帖 23 → 27 张）**

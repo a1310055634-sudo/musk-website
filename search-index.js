@@ -2848,6 +2848,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2023-11-30",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2023.11.30",
+  "s": "@elonmusk",
+  "q": "First Cybertruck deliveries in 2 hours!",
+  "zh": "首批 Cybertruck 两小时后交付！",
+  "bg": "背景/后续：跳票四年的兑现时刻（原帖 status/1730283187127964138 · 镜像逐字存档；snowflake 解码 UTC 2023-11-30 17:50）——交付活动在得州超级工厂举行，首批仅十位左右车主提车（CNBC/AP 口径）。两小时后他补发致谢：「Massive congrats to the incredible Tesla team, from design through to manufacturing, for making Cybertruck real! I love you.」（status/1730342317993701521 · 镜像逐字在档）。从 2019.11 发布会防弹玻璃砸窗名场面到此整四年，起步价也从当年公布的 $39,900 走到 $60,990（CNBC 当日报道）——跳票与溢价一并入账，见账本 e2023-11-30。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "spacex",
   "pg": "finance.html",
   "t": "财务全景",
@@ -2899,6 +2913,20 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "Neuralink"
+  ]
+ },
+ {
+  "id": "p2024-01-30",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2024.01.30",
+  "s": "@elonmusk",
+  "q": "Never incorporate your company in the state of Delaware",
+  "zh": "永远不要在特拉华州注册你的公司。",
+  "bg": "背景/后续：判决日怒斥（原帖 status/1752455348106166598 · 镜像逐字存档；snowflake 解码 UTC 2024-01-30 22:14）——数小时前，特拉华衡平法院 Chancellor Kathaleen McCormick 就 Tornetta 案裁定：2018 年那笔峰值约 560 亿美元的期权薪酬包批准程序失当，判决撤销（Reuters/AP 广泛报道）。动作链三连：次日发起投票「Should Tesla change its state of incorporation to Texas, home of its physical headquarters?」（01.31 · 镜像逐字在档），再次日宣布「The public vote is unequivocally in favor of Texas! Tesla will move immediately to hold a shareholder vote to transfer state of incorporation to Texas.」（02.01 · 镜像逐字在档）。弧线在 6.13 股东大会闭合：薪酬包重批与迁册德州双通过（账本 e2024-06-13）；当年 12 月初特拉华法院驳回翻案动议、维持原判（Reuters 报道）。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
   ]
  },
  {
@@ -2979,6 +3007,19 @@ window.SEARCH_INDEX = [
   "bg": "Delaware had voided his 2018 pay package; the same shareholders he once enraged were asked to re-ratify it, re-elect the board, and approve moving Tesla's incorporation to Texas. He flew in for the vote — and opened like a victory lap even before results were read.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "p2024-07-13",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2024.07.13",
+  "s": "@elonmusk",
+  "q": "I fully endorse President Trump and hope for his rapid recovery",
+  "zh": "我完全支持特朗普总统，并祝愿他迅速康复。",
+  "bg": "背景/后续：巴特勒集会枪击约半小时后的站队帖（原帖 status/1812256998588662068 · 镜像逐字存档；snowflake 解码 UTC 2024-07-13 22:45，Reuters 记录枪响于 UTC 22:11 前后；帖尾附现场照片链接）。V8 期间因镜像覆盖率不足弃收，本轮以 Agent API 精确短语检索一击重验入册。此帖把数年「中间派」姿态一步切换为明确站队：同月 America PAC 成立接管战场州地面行动（FEC 文件 · Reuters 报道），大选周期他个人出资约 2.5 亿美元级（FEC 披露 · AP 汇总口径），10 月起直接登台集会；X 平台同步成为政治放大器（平台变局）。商业与政治自此合流——弧线下一站：决裂与建党，见 p2025-07-05。",
+  "c": [
+   "X / Twitter"
   ]
  },
  {
@@ -3275,6 +3316,20 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：Starbase 建市投票通过当日的庆祝帖（Texas Tribune/13News 报道）；5.20 县认证。",
   "c": [
    "SpaceX",
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "p2025-07-05",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2025.07.05",
+  "s": "@elonmusk",
+  "q": "By a factor of 2 to 1, you want a new political party and you shall have it! When it comes to bankrupting our country with waste & graft, we live in a one-party system, not a democracy. Today, the America Party is formed to give you back your freedom.",
+  "zh": "以 2 比 1，你们想要一个新政党——那就给它！ 在以浪费与贪腐掏空国家这件事上，我们活在一体制之中，而非民主之中。 今天，「美国党」成立，把你们的自由还给你们。",
+  "bg": "背景/后续：从金主到组党的宣言帖（原帖 status/1941584569523732930 · 镜像逐字存档；snowflake 解码 UTC 2025-07-05 19:46）。前情：05 月底卸任 DOGE、06.05 与特朗普公开决裂（Reuters/AP 广泛报道）；06.30 他预告「If this insane spending bill passes, the America Party will be formed the next day」（status/1939806847504105683 · 镜像逐字在档）；07.04 独立日，大漂亮法案（One Big Beautiful Bill Act）签署同日，他发起独立日投票（status/1941119099532378580 · 镜像逐字在档）；本卡 2:1 宣言次日，他补上纲领——「The America Party is needed to fight the Republican/Democrat Uniparty」（07.06 · 镜像逐字在档）。市场当即计价政治风险：下一交易日（07.07）Tesla 股价收跌约 7%（Reuters 报道）。以个人公司版图为杠杆另立政党，美国商业史上几无先例；政治弧线起点见 p2024-07-13。",
+  "c": [
+   "Tesla",
    "X / Twitter"
   ]
  },
