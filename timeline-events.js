@@ -4,9 +4,9 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "6.23.0",
+  "version": "7.9.0",
   "nEvents": 9,
-  "nRecords": 151,
+  "nRecords": 223,
   "nAbsorbed": 18,
   "absorbedByEvent": {
    "e2002-10-03": 1,
@@ -70,9 +70,9 @@ window.TIMELINE_V7 = {
    "s": "把公司战略写成一句玩笑",
    "q": "“Build sports car. Use that money to build an affordable car. Use that money to build an even more affordable car… Don't tell anyone.”",
    "zh": "",
-   "bg": "Tesla 成立三年，行业共识是电动车永远做不大。他以董事长身份把公司真正的路线图——藏在玩笑里——写上了官方博客。",
+   "bg": "",
    "c": [
-    "Tesla"
+    "综合"
    ]
   },
   {
@@ -96,7 +96,7 @@ window.TIMELINE_V7 = {
    "s": "「第四次总会有好运」",
    "q": "“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”",
    "zh": "",
-   "bg": "三连败之后、金融危机最坏的一周，第四次发射前，他公开承诺：只要还有一线可能，公司就继续打下去。火箭入轨后，他在约 500 名员工面前说了下面这段话。",
+   "bg": "",
    "c": [
     "综合"
    ]
@@ -425,7 +425,7 @@ window.TIMELINE_V7 = {
    "s": "「现有电池的问题在于它们很烂」",
    "q": "“The issue with existing batteries is that they suck. They are expensive, unreliable and bad in every way.” — “We're talking about trying to change the fundamental energy infrastructure of the world.”",
    "zh": "",
-   "bg": "发布会前媒体等的是一辆车，他却抱出一块墙挂电池。整场发布的说服策略只有两步：先把行业贬到底，再把价格亮出来。",
+   "bg": "",
    "c": [
     "综合"
    ]
@@ -477,7 +477,20 @@ window.TIMELINE_V7 = {
    "s": "「造机器的机器」",
    "q": "“The machine that builds the machine.”",
    "zh": "",
-   "bg": "Model X 磕磕绊绊、Model 3 量产在即。他告诉投资者：Tesla 最重要的产品不是任何一辆车，而是工厂本身。全自动化未来工厂甚至有内部代号——「外星无畏舰」。",
+   "bg": "",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "e2016-02-10",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2016.02.10",
+   "s": "Tesla Q4 2015 财报电话会 · stockanalysis.com 逐字稿 · The Guardian",
+   "q": "“We’re really looking forward to the unveiling of the Model 3 at the end of next month. I think this is going to be really well-received, getting into production and delivery at the end of next year.”",
+   "zh": "我们非常期待下个月底的 Model 3 发布。我认为它会大受欢迎，然后在明年底进入生产和交付。",
+   "bg": "Ten weeks before the Model 3 unveiling, Tesla was burning cash on the Model X ramp and 2015 had ended with a bigger loss. On the Q4 2015 call, Musk set the stage: the mass-market car was seven weeks from being shown.",
    "c": [
     "Tesla"
    ]
@@ -505,6 +518,19 @@ window.TIMELINE_V7 = {
    "q": "Model 3 预订夜，约 40 万张订单压顶，周产 5000 生死线开启（账本）。",
    "zh": "",
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2016-05-04",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2016.05.04",
+   "s": "Tesla Q1 2016 财报电话会 · stockanalysis.com 逐字稿",
+   "q": "“The date we are setting with suppliers to get to a volume production capability with the Model 3 is July 1st next year. I would say we would aim to produce 100,000 to 200,000 Model 3s in the second half of next year.”",
+   "zh": "我们与供应商约定的日期，是让 Model 3 在明年 7 月 1 日具备量产能力。我想我们的目标是明年下半年生产 10 万到 20 万辆 Model 3。",
+   "bg": "Five weeks after the record-order night, suppliers, analysts and short sellers were all asking the same question: could a company that had never built a car at volume actually do it? On the Q1 2016 call, Musk answered with a date.",
    "c": [
     "Tesla"
    ]
@@ -548,6 +574,19 @@ window.TIMELINE_V7 = {
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
    "c": [
     "SolarCity",
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2016-08-03",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2016.08.03",
+   "s": "Tesla Q2 2016 财报电话会 · stockanalysis.com 逐字稿",
+   "q": "“Full autonomy is gonna come a hell of a lot faster than anyone thinks it will. … It’s really a software limitation. The hardware is, I mean, the hardware exists to create full autonomy.”",
+   "zh": "完全自动驾驶的到来会快得超出所有人的想象。……这其实只是软件的限制。硬件——我是说，实现完全自动驾驶的硬件已经存在。",
+   "bg": "The world had just learned that a Tesla driver died in Florida with Autopilot engaged, and days earlier Mobileye said it would not renew the partnership. The question hanging over the Q2 2016 call was whether Autopilot would be pulled back. It was Musk’s first earnings call since the news broke.",
+   "c": [
     "Tesla"
    ]
   },
@@ -604,6 +643,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2016-10-26",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2016.10.26",
+   "s": "Tesla Q3 2016 财报电话会 · stockanalysis.com 逐字稿",
+   "q": "“You’ll, I think you will be quite pleasantly surprised by what we debut on Friday. It’s exceeded my expectations. … I expect SolarCity to be approximately cash neutral, all things considered, next year.”",
+   "zh": "我想，你会对我们周五发布的东西相当惊喜——它超出了我自己的预期。……我预计明年，SolarCity 大致能做到现金流打平。",
+   "bg": "Two days before the solar-roof reveal, and three weeks before shareholders voted on the SolarCity merger he had championed against investor objections (see 2016.11), Musk used the Q3 2016 call to sell both at once.",
+   "c": [
+    "SolarCity",
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2016-11",
    "pg": "primary.html",
    "t": "言行实录",
@@ -614,6 +667,19 @@ window.TIMELINE_V7 = {
    "bg": "The $2.6B acquisition of SolarCity — a company founded by his cousins, where he was chairman and largest shareholder — was the most controversial deal of his career. Shareholders approved it in November, but the lawsuit lasted for years.",
    "c": [
     "SolarCity",
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2017-02-22",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2017.02.22",
+   "s": "Tesla Q4 2016 财报电话会 · stockanalysis.com 逐字稿",
+   "q": "“I currently think that we should be able to do 500,000 vehicles next year and 1 million vehicles by 2020.”",
+   "zh": "我目前认为，我们明年（2018）应该能做到 50 万辆，到 2020 年做到 100 万辆。",
+   "bg": "Entering 2017, Tesla had never delivered more than 77,000 cars in a year. On the Q4 2016 call, Musk projected a 6.5x jump for 2018 — every unit of it hinging on a car that had not yet entered production.",
+   "c": [
     "Tesla"
    ]
   },
@@ -641,6 +707,19 @@ window.TIMELINE_V7 = {
    "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "i2017-04-28",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2017.04.28",
+   "s": "「最摧残灵魂的东西，是堵车」",
+   "q": "“Right now, one of the most soul-destroying things is traffic. It affects people in every part of the world. It takes away so much of your life. It’s horrible.”",
+   "zh": "",
+   "bg": "Boring Company 成立五个月，他带着隧道概念视频第一次登上 TED 舞台。开场问题略带反讽——「Why are you boring?」——他把一家玩笑公司讲成城市交通的系统性方案：地铁贵，是因为巨型定制机器挖大断面隧道；把隧道直径砍半、挖掘与加固同时完成，成本就能降一个数量级。",
+   "c": [
+    "Boring Company"
    ]
   },
   {
@@ -690,9 +769,9 @@ window.TIMELINE_V7 = {
    "s": "「欢迎来到生产地狱」",
    "q": "“Welcome to production hell! That's where we're going to be for at least six months.”",
    "zh": "",
-   "bg": "Model 3 预订压顶、周产 5000 的目标定死、现金时钟在走。第一批车主交付的舞台上，他没有讲愿景，而是讲了一句警告。",
+   "bg": "",
    "c": [
-    "Tesla"
+    "综合"
    ]
   },
   {
@@ -704,6 +783,45 @@ window.TIMELINE_V7 = {
    "q": "「Welcome to production hell!」——Model 3 量产爬坡，自动化过度的自我纠正随之而来（账本）。",
    "zh": "",
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2017-08-02",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2017.08.02",
+   "s": "Tesla Q2 2017 财报电话会 · stockanalysis.com 逐字稿",
+   "q": "“Yeah, when I said manufacturing hell and supply chain hell on Friday, I meant it. … I’m very confident that we will be able to reach a production rate of 10,000 vehicles per week towards the end of next year.”",
+   "zh": "是的，我周五说生产地狱、供应链地狱，是认真的。……我非常有信心，我们能在明年年底达到周产 10,000 辆。",
+   "bg": "Four days after telling the first 30 Model 3 owners “Welcome to production hell!” (see 2017.07.28), Musk faced analysts for the first time since. Q2 2017 had just set a record loss.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2017-09-29",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2017.09.29",
+   "s": "IAC 2017 阿德莱德全会演讲（Business Insider 报道逐字 · SpaceX 官方视频在档 · 社区逐字稿对勘）",
+   "q": "“The future is vastly more interesting and exciting if we’re a space-faring civilization and a multiplanet species than if we’re not.”",
+   "zh": "如果我们是一个太空文明、一个多行星物种，未来会远比不是如此的情形更有趣、更振奋。",
+   "bg": "A year after Guadalajara, the 12-meter ITS was criticized as too big to land anywhere. Musk came back with a rocket cut roughly in half — BFR — and folded Moon bases, Earth point-to-point trips and a Mars city into one single architecture.",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "e2017-11-01",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2017.11.01",
+   "s": "Tesla Q3 2017 财报电话会 · stockanalysis.com 逐字稿 · MediaPost",
+   "q": "“How hot is it in hell right now? Is it getting hotter or less hot?” — “We were in level 9. We’re now in level 8, and I think we’re close to exiting level 8.”",
+   "zh": "「地狱现在有几热？是更热了还是没那么热了？」——「我们曾在第 9 层。现在在第 8 层，而且我想我们快走出第 8 层了。」",
+   "bg": "Q3 2017 ended with 260 Model 3s built against a 1,500 target, a record $671 million loss, and a bottleneck nobody had named publicly. Morgan Stanley’s Adam Jonas opened his question like a weather report.",
    "c": [
     "Tesla"
    ]
@@ -823,9 +941,37 @@ window.TIMELINE_V7 = {
    "s": "「人类被低估了」——给自己的公开纠错",
    "q": "“Excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
    "zh": "",
-   "bg": "两年前他还告诉投资者，工厂是「造机器的机器」、全自动化未来工厂代号「外星无畏舰」。生产地狱里，他公开收回了自己的话。",
+   "bg": "",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "e2018-04-13",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2018.04.13",
+   "s": "本人推文 · Gadgets360/NDTV · The Guardian（2018 年表）",
+   "q": "“Yes, excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
+   "zh": "是的，Tesla 的过度自动化是个错误。精确地说，是我的错误。人类被低估了。",
+   "bg": "Model 3 output had missed another weekly target, and Musk spent the evening on Twitter dissecting the automation doctrine his factory had been built on. The verdict came in three sentences.",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2018-05-02",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2018.05.02",
+   "s": "Tesla Q1 2018 财报电话会 · BBC · Slate · The Verge",
+   "q": "“Excuse me. Next. Boring, bonehead questions are not cool. Next. … We’re going to go to YouTube. Sorry, these questions are so dry. They’re killing me.”",
+   "zh": "抱歉，下一个。无聊的蠢问题不酷。下一个。……我们去 YouTube。抱歉，这些问题太干了，快把我无聊死了。",
+   "bg": "Tesla reported a record quarterly loss; Wall Street’s questions were about cash. Musk had other plans for the microphone.",
+   "c": [
+    "Tesla",
+    "Boring Company"
    ]
   },
   {
@@ -856,6 +1002,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2018-08-01",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2018.08.01",
+   "s": "Tesla Q2 2018 财报电话会 · Business Insider · Bloomberg",
+   "q": "“I’d like to apologize for being impolite on the prior call. … There’s no excuse for bad manners.”",
+   "zh": "我想为上次电话会上的失礼道歉。……没礼貌没有任何借口。",
+   "bg": "Six days before the “funding secured” tweet (see 2018.08.07), Tesla’s Q2 report showed the cash burn slowing. Musk opened the call by returning to a wound of his own making.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "c2018-08-07",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -866,6 +1025,84 @@ window.TIMELINE_V7 = {
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "d2018-08-14",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2018.08.14",
+   "s": "Tesla Announces Formation of Special Committee（私有化特别委员会公告 8-K）",
+   "q": "“The special committee has not yet received a formal proposal from Mr. Musk regarding any Going Private Transaction nor has it reached any conclusion as to the advisability or feasibility of such a transaction.”",
+   "zh": "",
+   "bg": "推文发出整整一周后，公司才第一次以监管文件回应「funding secured」——而这份 8-K 的核心信息恰是反向的：所谓「资金已到位」的交易，连一份正式提案都还没有收到。三位董事组成的特别委员会拿到的是代表董事会的全部权力，交易审批权与马斯克本人被制度性隔开。对照四天前那封从容的私有化方案信（d2018-08-07），这份公告是公司在监管口径上踩下的急刹车。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "i2018-09",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2018.09",
+   "s": "「AI 一定会被用作武器」",
+   "q": "“It’s going to be very tempting to use A.I. as a weapon. In fact, it will be used as a weapon.” — “It’s not necessarily bad; it’s just, it’s definitely going to be outside of human control.”",
+   "zh": "",
+   "bg": "同一场对话的前半段。罗根说 Sam Harris 那期把他吓得够呛，马斯克则给出他讲了多年的判断——但这次多了一层现实政治的冷峻：危险的第一站不是机器觉醒，而是人拿它对付人。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "i2018-09-07",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2018.09.07",
+   "s": "「那是大麻卷烟，还是雪茄？」",
+   "q": "“So, is that a joint? Or is it a cigar?” — “I mean, it’s legal, right?” — “Alcohol is a drug that’s been grandfathered in.”",
+   "zh": "",
+   "bg": "私有化推文风暴（e2018-08-07）整整一个月后，他第一次坐上乔·罗根的播客台，节目直播两个半小时。谈到酒与烟时，罗根递来一支烟草与大麻的混合卷烟——特斯拉正处在私有化调查与 Model 3 量产的双重压力下，CEO 当众吸食大麻的画面成了企业史上被引用最多的播客片段之一。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2018-09-27",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2018.09.27",
+   "s": "SEC 诉状（S.D.N.Y. No. 1:18-cv-08865）· SEC 新闻稿 2018-219",
+   "q": "“Musk knew or was reckless in not knowing that each of these statements was false and/or misleading because he did not have an adequate basis in fact for his assertions.”",
+   "zh": "马斯克明知上述陈述虚假和/或具有误导性，或因疏于知情而构成轻率，因为他的断言没有充分的事实基础。（诉状第 3 段）",
+   "bg": "Eight days after the “Funding secured” tweet, the SEC sued. The complaint, filed in the Southern District of New York (No. 1:18-cv-08865), charged violations of the antifraud provisions of the federal securities laws and sought a permanent injunction, disgorgement, civil penalties — and an officer-and-director bar.",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "e2018-09-29",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2018.09.29",
+   "s": "SEC 新闻稿 2018-226 · 同意动议（Dkt. 6，CourtListener 案卷）",
+   "q": "“The total package of remedies and relief announced today are specifically designed to address the misconduct at issue by strengthening Tesla's corporate governance and oversight in order to protect investors.”",
+   "zh": "今天宣布的全部救济与处罚方案，专为处置本案的不当行为而设——强化 Tesla 的公司治理与监督，以保护投资者。（SEC 执法联席主任 Stephanie Avakian）",
+   "bg": "Two days after the suit, a settlement: Musk kept the CEO seat, while Tesla separately settled a charge of failing to have required disclosure controls (No. 1:18-cv-08947). The market's question — Tesla without Musk — was answered; for Musk, it was the first time he signed onto someone else's rules.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2018-12-09",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2018.12.09",
+   "s": "CBS《60 分钟》访谈（Lesley Stahl）· LA Times · Ars Technica",
+   "q": "“I do not respect the SEC. I do not respect them.”",
+   "zh": "我不尊重 SEC。我不尊重他们。",
+   "bg": "Less than two months after the settlement won court approval, he sat down with Lesley Stahl on 60 Minutes — his first televised remarks on the SEC since the deal, with his tweets now under lawyer pre-clearance.",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -883,6 +1120,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2019-02-19",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2019.02.19",
+   "s": "本人推文（两条）· SEC 函件（Dkt. 18-2）· 藐视动议（Dkt. 18）",
+   "q": "“Tesla made 0 cars in 2011, but will make around 500k in 2019”",
+   "zh": "Tesla 2011 年造了 0 辆车，但 2019 年将造约 50 万辆。",
+   "bg": "At 7:15 pm ET on February 19, 2019, he tweeted a production forecast for 2019 — the number the Tesla story lived on. For the first time since the settlement, one of his tweets was headed into a contempt proceeding.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2019-03-03",
    "pg": "primary.html",
    "t": "言行实录",
@@ -893,6 +1143,32 @@ window.TIMELINE_V7 = {
    "bg": "Crew Dragon's uncrewed Demo-1 launched March 2 on a Falcon 9 from LC-39A — the same pad that sent Apollo 11. The mission's single objective: prove a commercial spacecraft could autonomously dock with the International Space Station. No crew, no manual override — just software, sensors, and physics.",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "i2019-04",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2019.04",
+   "s": "「模拟之外是什么？」",
+   "q": "“What's outside the simulation?”",
+   "zh": "",
+   "bg": "访谈结尾的收束一问：如果你造出 AGI，你会问它什么问题？他此前刚用物理学家式的判据讨论过「与 AI 的爱」——若没有任何检验能分辨真假，那便没有区别；随后他给出了自己要问的那个问题。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "i2019-04-12",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2019.04.12",
+   "s": "「两吨重的死亡机器」",
+   "q": "“Frankly, it's pretty crazy letting people drive a two-ton death machine manually.” — “In the future, any car that does not have autonomy would be about as useful as a horse.”",
+   "zh": "",
+   "bg": "Autopilot 两度卷入致死事故、媒体追问不断。他在 MIT 的演播室里把手动驾驶定义为异常状态——问题不是机器为什么开车，而是人为什么还在开车。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -922,6 +1198,45 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2019-04-24",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2019.04.24",
+   "s": "Tesla Q1 2019 财报电话会 · stockanalysis.com 逐字稿 · Reuters",
+   "q": "“I don’t think raising capital should be a substitute for making the company operate more effectively. … I think it is healthy to be on a Spartan diet for a while.”",
+   "zh": "我不认为融资应当成为「让公司运转得更有效」的替代品。……我认为，斯巴达式的紧衣缩食对一段时间来说倒是健康的。",
+   "bg": "Tesla came into the call amid its darkest stretch yet — Q1 deliveries down 31% from the previous quarter, a fresh round of store closures, and Wall Street openly asking whether the company could reach profitability without new money. Asked by Bernstein’s Toni Sacconaghi about a capital raise, Musk chose to lecture on finance itself.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2019-04-30",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2019.04.30",
+   "s": "修正终审判决令（Dkt. 47）· 驳回令（Dkt. 48）· CourtListener 案卷",
+   "q": "“The Court has now granted the motion and entered the proposed Order amending the Final Judgment. Accordingly, the SEC's contempt motion, Dkt. No. 18, is denied as moot.”",
+   "zh": "本院已批准该动议并录入拟议的修正终审判决令。故 SEC 的藐视动议（案卷编号 18）因失去标的而驳回。（Nathan 法官，5 月 1 日令）",
+   "bg": "On April 5, Judge Nathan ordered the parties “to meet and confer for at least one hour in an effort to resolve the pending motion to hold Mr. Musk in contempt, as well as any modifications to the consent judgment.” On April 26 they filed a consent motion to amend (Dkt. 46): a rewritten clause in exchange for dropping the contempt fight.",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "e2019-07-16",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2019.07.16",
+   "s": "Neuralink 2019 发布会（旧金山 · CT Insider/Mashable 报道逐字）",
+   "q": "“A monkey has been able to control a computer with his brain.”",
+   "zh": "一只猴子已经能用它的大脑控制一台电脑了。",
+   "bg": "Three years after its founding, Neuralink finally showed its work: a sewing-machine robot, flexible polymer threads with up to 1,024 channels, the N1 sensor chip — and a timeline: human trials as early as 2020.",
+   "c": [
+    "Neuralink"
+   ]
+  },
+  {
    "id": "e2019-09-28",
    "pg": "primary.html",
    "t": "言行实录",
@@ -945,6 +1260,32 @@ window.TIMELINE_V7 = {
    "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "i2019-11",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2019.11",
+   "s": "「这是错的：火星」",
+   "q": "“I wonder how many dead one-planet civilizations there are out there in the cosmos.” — [读萨根：] “There is nowhere else, at least in the near future, to which our species could migrate.” — “This is not true. This is false, Mars. And I think Carl Sagan would agree with that.”",
+   "zh": "",
+   "bg": "应 Lex 所请，他在访谈最后读了卡尔·萨根《暗淡蓝点》的名段——读着读着停下来，当场反驳了自己正在朗读的文本。此前一分钟的铺垫同样惊人：“It's only just possible to travel to Mars. Just barely. If G was 10% more, wouldn't work really.”——去火星只是勉强可行，引力再高百分之十就不成立。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "i2019-11-12",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2019.11.12",
+   "s": "「打不过，就加入」",
+   "q": "“So therefore, if you cannot beat them, join them.” — “I think the chance is above 0%.”",
+   "zh": "",
+   "bg": "Neuralink 发布会三个月后，他在公司总部坐下来解释脑机接口的终极理由：人类终将无法在智能上胜过数字超级计算机，所以要做那道算术。被追问「合并成功的概率」时，他先给了一个数字，再补了一句电影台词。",
+   "c": [
+    "Neuralink"
    ]
   },
   {
@@ -985,6 +1326,72 @@ window.TIMELINE_V7 = {
    "bg": "Cybertruck 发布会破玻璃名场面的次日，他在 X 上给出了工程师式的解释——不找借口，只讲机理。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "e2020-01-29",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2020.01.29",
+   "s": "Tesla Q4 2019 财报电话会 · stockanalysis.com 逐字稿 · Fortune",
+   "q": "“The demand has been incredible. We’ve never seen actually such a level of demand. … We will sell as many as we can make. It’s going to be pretty nuts.”",
+   "zh": "需求一直难以置信地强。我们其实从未见过这种 level 的需求。……我们能造多少就卖多少。场面会相当疯狂。",
+   "bg": "Six weeks after the Cybertruck unveiling — and the broken-window memes (see 2019.11.21) — Tesla’s shares had quietly gone vertical. On the Q4 2019 call Musk had two data points to report: one about the truck everyone was still laughing at, one about self-driving.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "p2020-03-06",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2020.03.06",
+   "s": "@elonmusk",
+   "q": "The coronavirus panic is dumb",
+   "zh": "对冠状病毒的恐慌很蠢。",
+   "bg": "背景/后续：美国疫情初期的一句轻率断言（原帖 status/1236029449042198528 · 镜像逐字存档；CNBC/Reuters 当日报道）。此后数月他持续淡化疫情——「essentially immune」论、加州复工对抗、五月的「文明脆弱」冷面段（见本站 JRE #1470 条目），构成一条完整的疫情言论弧线；两年后收购 Twitter 时，他的「真实世界数据」执念在这条帖子里已有预演。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "i2020-05",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2020.05",
+   "s": "「火星更重要，还是房子？」",
+   "q": "“Like what’s more important? Mars or a house? I’m like Mars.”",
+   "zh": "",
+   "bg": "六天前他在推特上宣布「卖掉几乎所有有形财产，不再拥有房子」，全网猜测动机。节目中他给出了自己的时间经济学——连给自己盖房的时间，都要与「把人类送上火星」做机会成本比较。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "p2020-05-01",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2020.05.01",
+   "s": "@elonmusk",
+   "q": "I am selling almost all physical possessions. Will own no house. Tesla stock price is too high imo",
+   "zh": "我正在卖掉几乎所有有形财产。不会再拥有房子。——特斯拉股价太高了，在我看来。",
+   "bg": "背景/后续：相隔一分钟的震慑两连发（status/1256239554148724737 + status/1256239815256797184 · 镜像逐字存档），后者当日砸出可观跌幅、前一句让全网猜了两年动机——五周后他在 JRE #1470 给出答案：「火星还是房子？我选火星」（见本站 i2020-05）。2021 年他确认名下已无房产；「现金换火星船票」自此成为其个人财务的公开叙事。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "i2020-05-07",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2020.05.07",
+   "s": "「文明现在看起来很脆弱」",
+   "q": "“Well, assuming civilization is still around, it’s looking fragile right now.”",
+   "zh": "",
+   "bg": "疫情封锁第九周，复工之争正酣——两周前他刚在财报会上放话对峙加州（背景见账本 e2020-05-11），四天前刚得第三子。罗根请他畅想 25 年后的世界，他先给了一句定调。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -1034,7 +1441,7 @@ window.TIMELINE_V7 = {
    "s": "「我不太信教，但这一次我祈祷了」",
    "q": "“This is a dream come true for me and everyone at SpaceX.” — “I'm not very religious, but I prayed for this one.”",
    "zh": "",
-   "bg": "Crew Dragon 载人首飞前夜，公司从 2008 年的棺材边走到了国家载人任务的承运席。发射当日他说了这样两段话。",
+   "bg": "",
    "c": [
     "SpaceX"
    ]
@@ -1050,6 +1457,32 @@ window.TIMELINE_V7 = {
    "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "e2020-07-22",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2020.07.22",
+   "s": "Tesla Q2 2020 财报电话会 · stockanalysis.com 逐字稿 · CNBC TV18",
+   "q": "“This is why I’m very confident about Full Self-Driving functionality being complete by the end of this year.”",
+   "zh": "这就是为什么我非常有信心：完全自动驾驶（Full Self-Driving）功能将在今年年底前完成。",
+   "bg": "Tesla had just become the world’s most valuable carmaker (2020.07, market cap passing Toyota), and two weeks earlier at a Shanghai AI conference Musk had said the company was “very close” to Level 5 autonomy. Profitability was the story of the day; autonomy was the story he wanted to tell.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2020-08-28",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2020.08.28",
+   "s": "Neuralink 2020 线上发布会「三只小猪」（TechCrunch · Globe and Mail 报道逐字）",
+   "q": "“a Fitbit in your skull with tiny wires”",
+   "zh": "「颅骨里戴着细电线的 Fitbit。」——他在整场演示中多次用这个说法形容设备（TechCrunch 记录）。",
+   "bg": "A cleared-stage demo in the pandemic year: three pigs, one of them Gertrude, implanted for two months, her neurons ticking live on the big screen. The coin-sized device had gone from slideware to something that fit inside a skull.",
+   "c": [
+    "Neuralink"
    ]
   },
   {
@@ -1146,6 +1579,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2021-04-09",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2021.04.09",
+   "s": "本人 X 转发与回帖（镜像逐字存档 elonmuskarchive.org · CNBC/CNET 报道）",
+   "q": "“Sure.” — “Hopefully, later this year.”",
+   "zh": "「当然。」——「希望今年晚些时候。」被问「没有瘫痪的健康人能否申请植入、像打游戏一样意念操作」，他答前者；被问人体试验何时开始，他答后者（镜像回帖逐字，status/1380314267077894148 + status/1380314485324308482）。",
+   "bg": "Neuralink released Pager, a macaque playing Pong with decoded brain signals — “MindPong”, the first behavioral proof after the 2020 pig demo. Musk amplified it and took questions in the replies himself.",
+   "c": [
+    "Neuralink"
+   ]
+  },
+  {
    "id": "e2021-07",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1167,9 +1613,8 @@ window.TIMELINE_V7 = {
    "s": "「讨厌当 CEO，但没有我公司会死」",
    "q": "He said he “hates” being Tesla's CEO — but kept the job because, without him, the company would “die”.",
    "zh": "",
-   "bg": "26 亿美元收购 SolarCity 五年后，股东就关联交易起诉他和董事会。宣誓之下、一坐数小时的证人席上，他说出了对自己角色的最坦白定义。",
+   "bg": "",
    "c": [
-    "SolarCity",
     "Tesla"
    ]
   },
@@ -1213,6 +1658,33 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2021-12",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2021.12",
+   "s": "「金钱是信息」",
+   "q": "“Money is information, and it does not have power in and of itself.” — “Just think of money as a database for resource allocation across time and space.”",
+   "zh": "",
+   "bg": "从美联储的 COBOL 大型机谈到加密货币，他把整个货币体系翻译成信息论：政府「对货币数据库有编辑权限」，增发就是往数据库里制造误差。他给出归谬法——被困荒岛时，“all the Bitcoin in the world will not stop you from starving”。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "i2021-12-28",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2021.12.28",
+   "s": "「物理是法律，其余都是建议」",
+   "q": "“I like saying physics is law and everything else is a recommendation. I've met a lot of people that can break the law, but I haven't met anyone who could break physics.” — “Let's boil something down to the most fundamental principles, the things that we are most confident are true at a foundational level, and that sets your axiomatic base, and then you reason up from there.”",
+   "zh": "",
+   "bg": "SpaceX 一年 31 发、Tesla 市值破万亿美元之后的年尾，他用两个半小时系统讲了自己的思维方法。开场 Lex 谢他「给世界希望」，他的回答是：人类有种种问题，“despite all that, I love humanity”——随后才进入正题。被问到「你如何思考问题」，他给出这句流传最广的方法论表述。",
+   "c": [
+    "Tesla",
+    "SpaceX"
+   ]
+  },
+  {
    "id": "autopilot",
    "pg": "controversy.html",
    "t": "争议深读",
@@ -1223,6 +1695,123 @@ window.TIMELINE_V7 = {
    "bg": "「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线，以 Tesla 改营销材料暂时收场。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "e2022-01-26",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.01.26",
+   "s": "Tesla Q4 2021 财报电话会 · stockanalysis.com 逐字稿 · CNN Business",
+   "q": "“In terms of priority of products, I think the most important product development we’re doing this year is actually the Optimus humanoid robot. … This I think has the potential to be more significant than the vehicle business over time.”",
+   "zh": "论产品优先级，我认为我们今年最重要的产品开发，其实是 Optimus 人形机器人。……我认为它有潜力随时间变得比汽车业务更重要。",
+   "bg": "Optimus had been a one-slide surprise at AI Day in 2021.08 (see 2021.08). Five months later, on the Q4 2021 call, the humanoid robot got its first earnings-call billing — ranked above every car Tesla made.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2022-02-10",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.02.10",
+   "s": "Starbase 星舰更新发布会（Space.com 报道逐字 · Spaceflight Now/Everyday Astronaut 同日记录）",
+   "q": "“I feel, at this point, highly confident that we’ll get to orbit this year.” — “We’ll probably lose a few vehicles along the way.”",
+   "zh": "「我此刻高度自信，我们今年就能入轨。」——「过程中我们大概会烧掉几枚。」",
+   "bg": "Days after Booster 4 and Ship 20 completed the first full stacking on the orbital launch mount, Musk took the Starbase stage to lay out the year: orbital flight, Raptor 2 production, and the FAA environmental review hanging over it all.",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "e2022-03-08",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.03.08",
+   "s": "终止动议与备忘录（Dkt. 70/71/72）· SEC 反对简报（Dkt. 78，Reuters/Boing Boing 转载）",
+   "q": "“When it comes to civil settlements, a deal is a deal, absent far more compelling circumstances than are here presented.”",
+   "zh": "说到民事和解，签了就是签了——除非出现比本案所提交的远为有力的情形。（SEC 反对简报，3 月 22 日提交）",
+   "bg": "In spring 2022, while bidding publicly for Twitter (formal offer April 14), he launched a frontal attack on the 2018 judgment: a March 8 motion to quash parts of the SEC's subpoena and terminate the consent decree outright, with his own declaration attached (Dkt. 72).",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2022-03-26",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.03.26",
+   "s": "私信（Twitter v. Musk, Del. Ch. C.A. No. 2022-0613-KSJM 披露件）· TIME/BBC 全文转载",
+   "q": "“You care so much, get its importance, and could def help in immeasurable ways.”",
+   "zh": "你这么在乎它、懂它的重要，绝对能以不可估量的方式帮上忙。（Dorsey 语，3 月 26 日）",
+   "bg": "On March 25, 2022, Musk tweeted that Twitter — the de facto public town square — was failing free-speech principles, and polled his followers: roughly seventy percent said Twitter did not adhere to them. That night, Jack Dorsey, pushed out of the CEO chair a year earlier by the board he once ran, opened a private line to him.",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "p2022-03-26",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2022.03.26",
+   "s": "@elonmusk",
+   "q": "Given that Twitter serves as the de facto public town square, failing to adhere to free speech principles fundamentally undermines democracy. What should be done?",
+   "zh": "鉴于 Twitter 实际上就是公共广场，不遵守言论自由原则从根本上损害民主。该怎么办？",
+   "bg": "背景/后续：收购案的公开起点（原帖 status/1507777261654605828 · 镜像逐字存档）——贴在他前夜的言论自由投票（status/1507596559831101446，镜像以引用嵌套完整存档）之后，自问自答式铺垫。三周后答案是「I made an offer」（见 p2022-04-14）；「公共广场」一词自此成为他平台叙事的锚点，贯穿收购案全程（平台变局）。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2022-04-05",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.05",
+   "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/BBC 全文转载",
+   "q": "“Thank you for joining! Parag is an incredible engineer. The board is terrible. Always here to talk through anything you want.” — “I couldn't be happier you're doing this. I've wanted it for a long time. Got very emotional when I learned it was finally possible.”",
+   "zh": "谢谢你加入！Parag 是个了不起的工程师。董事会糟透了。任何时候想聊都可以找我。——你做这件事我高兴得不能再高兴了。我盼这一天很久了。得知终于有可能时，我激动得不行。",
+   "bg": "On April 4 his 9.2% passive stake was disclosed — the largest single shareholder; on April 5 Twitter announced he would join the board. That same day, Dorsey congratulated him in private — and delivered his verdict on the company's power structure.",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "i2022-04-06",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2022.04.06",
+   "s": "「人口崩溃是文明最大的威胁之一」",
+   "q": "“Population collapse is one of the biggest threats to the future of human civilization. And that is what is going on right now.”",
+   "zh": "",
+   "bg": "得州超级工厂开幕日前夜，Chris Anderson 到厂区录这期长谈：Optimus、可持续能源、火星，最后落到「你为什么做这一切」。八天后他在 TED 温哥华现场解释 Twitter 要约（见本页 i2022-04-14）——「文明叙事」与「平台收购」同一周先后成为头条。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2022-04-09",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.09",
+   "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/BBC/Guardian 三源全文转载",
+   "q": "“You are free to tweet 'is Twitter dying?' or anything else about Twitter – but it's my responsibility to tell you that it's not helping me make Twitter better in the current context.” — his reply, forty seconds later: “What did you get done this week?” “I'm not joining the board. This is a waste of time. Will make an offer to take Twitter private.”",
+   "zh": "你有权发推说「Twitter 正在死吗」或任何关于 Twitter 的话——但我有责任告诉你：在当前语境下，这对把 Twitter 做好没有帮助。——他四十秒后回复：「你这周干了什么？」「我不进董事会了。这是浪费时间。我会发起要约把 Twitter 私有化。」",
+   "bg": "On April 7 the two CEOs were still trading engineer-to-engineer warmth — he wrote “I just want Twitter to be maximum amazing,” and Agrawal answered: “treat me like an engineer instead of a CEO and let's see where we get to.” The break came on April 9, when he tweeted “Is Twitter dying?” — and Agrawal answered in private.",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "d2022-04-11",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.04.11 备案 · 事件日 04.04",
+   "s": "Twitter Form 8-K/A（董事会提名五日始末）",
+   "q": "“Pursuant to the April 4, 2022 letter agreement, Elon Musk was invited to serve on the board of directors (the “Board”) of Twitter, Inc. (the “Company”).”",
+   "zh": "",
+   "bg": "美国公司史上最短的一次董事会邀请-辞谢：4 月 4 日签约邀请、4 月 9 日放弃（任命甚至尚未生效）、4 月 11 日公司以一号修正案的形式备案收场。合并 proxy 的 Background 章节补全了动机——他拒绝限制公开言论的 standstill 条款，只肯接受约 15% 的持股上限（见 d2022-07-26）。董事会席位附带的是信托义务与发言约束，他要的是标的，不是席位。辞席前后的私信原话见言行实录 2022.04.09 条目。",
+   "c": [
+    "X / Twitter"
    ]
   },
   {
@@ -1246,9 +1835,22 @@ window.TIMELINE_V7 = {
    "s": "「我根本不在乎经济账」",
    "q": "“I don't care about the economics at all… This is not a way to make money… an inclusive arena for free speech… important to the future of civilization.” — “I'm not actually sure I will be able to acquire it.”",
    "zh": "",
-   "bg": "已被拍到成为推特最大股东、拒绝董事会席位之后，他把全现金要约搬上 TED 舞台，当众解释这笔交易的动机。",
+   "bg": "",
    "c": [
     "综合"
+   ]
+  },
+  {
+   "id": "p2022-04-14",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2022.04.14",
+   "s": "@elonmusk",
+   "q": "I made an offer",
+   "zh": "我出价了。",
+   "bg": "背景/后续：三个字配 SEC 13D/A 附件链接，$54.20/股、约 430 亿美元要约公开（原帖 status/1514564966564651008 · 镜像逐字存档）；同日补发「Will endeavor to keep as many shareholders in privatized Twitter as allowed by law」（status/1514681422212128770）。当晚 TED 温哥华舞台给出「我根本不在乎经济账」（见本站 i2022-04-14）；十一天后协议签署（documents.html#d2022-04-25），平台变局正式开局（platform-x.html px-0414）。",
+   "c": [
+    "X / Twitter"
    ]
   },
   {
@@ -1266,6 +1868,58 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2022-04-16",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.16",
+   "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME 全文转载",
+   "q": "“Governor DeSantis just called me just now with ideas how to help you. Let me know if you or somebody on your side wants to chat [with] him.” — his reply: “Haha cool.”",
+   "zh": "州长 DeSantis 刚刚亲自打电话给我，说了些能帮你的想法。如果你或你的人想跟他聊聊，告诉我。——他的回复：「哈哈，酷。」",
+   "bg": "Two days after the tender offer went public, the political world reached in. Venture investor Joe Lonsdale — Palantir co-founder — relayed a call from Florida governor Ron DeSantis.",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "e2022-04-20",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.20",
+   "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/WaPo/Gizmodo 转载",
+   "q": "“Roughly what dollar size?”",
+   "zh": "大概要多大规模？（4 月 20 日问 Ellison 参投规模；Ellison 不到一小时回复，承诺 10 亿美元——TIME 记录）",
+   "bg": "A $44B all-cash bid needed an equity consortium: Musk put in his own slice, banks arranged $13B in debt, and he recruited the rest one text at a time. His first big anchor: Larry Ellison — Tesla board colleague and Oracle founder.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2022-04-22",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.22",
+   "s": "私信截图（Musk 2022.04.22 自晒推文公开）· CNBC/BI/Fox Business 报道",
+   "q": "“Do you still have a half billion dollar short position against Tesla?” — Gates: “Sorry to say I haven't closed it out. I would like to discuss philanthropy possibilities.” — his reply: “Sorry, I cannot take your philanthropy on climate change seriously when you have a massive short position against Tesla, the company doing the most to solve climate change.”",
+   "zh": "你对 Tesla 还有 5 亿美元空头头寸吗？——Gates：「很遗憾还没平掉。我想聊聊慈善合作的可能性。」——他的回复：「抱歉，当你对 Tesla——这家为解决气候变化做得最多的公司——持有巨额空头头寸时，我没法把你的气候慈善当真。」",
+   "bg": "In the sensitive week between tender offer (April 14) and signing (April 25), Bill Gates sought a meeting on climate philanthropy. Musk had heard at TED that Gates still held a multibillion-dollar short position against Tesla — and asked him straight.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2022-04-25",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.25",
+   "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/Yahoo Finance 转载 · Axios 复盘",
+   "q": "“Blockchain Twitter isn't possible. The bandwidth and latency requirements cannot be supported by a peer to peer network, unless those 'peers' are absolutely gigantic, thus defeating the purpose of a decentralized network.” — “So long as I don't have to have a laborious blockchain debate.”",
+   "zh": "区块链版 Twitter 行不通。带宽与延迟要求是点对点网络撑不住的——除非那些「节点」大到失去去中心化的意义。前提是：我不用陷入一场冗长的区块链辩论。",
+   "bg": "April 25 was signing day for the merger agreement. That same day, FTX founder Sam Bankman-Fried came in through a chain of introductions — philosopher Will MacAskill, then Grimes, who texted: SBF would commit up to $5 billion in equity, and “I do believe you will like him.”",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "c2022-04-25",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1277,6 +1931,45 @@ window.TIMELINE_V7 = {
    "c": [
     "X / Twitter",
     "xAI"
+   ]
+  },
+  {
+   "id": "e2022-04-26",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.04.26",
+   "s": "私信（同案披露件 C.A. No. 2022-0613-KSJM）· TIME/BBC 全文转载",
+   "q": "“I just want to make this amazing and feel bound to it. I won't let this fail and will do whatever it takes. It's just too critical to humanity.” — his answer: “You and I are in complete agreement. Parag is just moving far too slowly and trying to please people who will not be happy no matter what he does.” Dorsey: “At least it became clear that you can't work together.”",
+   "zh": "我只想把它变棒，并且我觉得自己与之绑定。我不会让它失败，愿意做任何事。它对人类太关键了。——他的回答：你我完全一致。Parag 只是推进得太慢，而且一直在试图取悦那些无论如何都不会高兴的人。Dorsey 回：至少现在清楚了——你们俩没法共事。",
+   "bg": "The day after signing, Dorsey called both men, then texted each a coda — trying one last time to find a place for Agrawal in the new structure.",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "p2022-05-13",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2022.05.13",
+   "s": "@elonmusk",
+   "q": "Twitter deal temporarily on hold pending details supporting calculation that spam/fake accounts do indeed represent less than 5% of users",
+   "zh": "Twitter 交易暂时搁置，等待细节以支持「垃圾/虚假账户确实不足用户 5%」的计算。",
+   "bg": "背景/后续：一句「暂时搁置」开启 spam 占比之争，成为 7 月单方撤单与 10 月特拉华互诉的直接引线（Del. Ch. 2022-0613-KSJM），最终以 10 月底强行交割收场（documents.html#d2022-10-27）——这条帖子是把 440 亿合同推向法庭的第一块多米诺（原帖 status/1525049369552048129 · 镜像逐字存档；Reuters 当日报道）。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2022-06-28",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.06.28",
+   "s": "私信（诉讼初期披露件）· Business Insider 报道 · Economic Times 转载",
+   "q": "“Your lawyers are using these conversations to cause trouble. That needs to stop.”",
+   "zh": "你们的律师在用这些对话制造麻烦。这必须停止。",
+   "bg": "Two months after signing, execution had turned adversarial: Twitter demanded disclosure of his financing plans and public statements, his lawyers contested the scope, and on May 13 he had publicly put the deal “on hold” over the spam-account question. On June 28 he bypassed the lawyers and texted Agrawal and CFO Ned Segal directly.",
+   "c": [
+    "X / Twitter"
    ]
   },
   {
@@ -1322,6 +2015,32 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2022-07-26",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.07.26",
+   "s": "Twitter DEFM14A（4.13 要约信全文与交易全日程）",
+   "q": "“I invested in Twitter as I believe in its potential to be the platform for free speech around the globe, and I believe free speech is a societal imperative for a functioning democracy.”",
+   "zh": "",
+   "bg": "要约信之外，这份 definitive proxy 的「Background of the Merger」按日记录了整个春天：4 月 4 日 9.2% 持股曝光，公司与马斯克交换含 standstill 条款的合作协议草案，他拒绝限制公开发言、只接受约 15% 的持股上限；4 月 9 日宣布不加入董事会并预告私有化要约；4 月 13 日这封信由他亲手递给董事长 Bret Taylor，次日公开；4 月 15 日董事会通过 15% 触发线的毒丸计划；4 月 21 日融资承诺函公开在册；4 月 23 日 Taylor 向同僚坦言，任何压价尝试「都不太可能成功，且有促使马斯克发动敌意收购之虞」；4 月 24–25 日董事会连日审议后放行。整场收购，再没有比这更完整的单一第一手叙事。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2022-10-19",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2022.10.19",
+   "s": "Tesla Q3 2022 财报电话会 · stockanalysis.com 逐字稿 · Business Insider",
+   "q": "“Now I’m of the opinion that we can far exceed Apple’s current market cap. … In fact, I see a potential path for Tesla to be worth more than Apple and Saudi Aramco combined.”",
+   "zh": "现在我的看法是，我们可以远超 Apple 当前的市值。……事实上，我看到了一条路，能让 Tesla 比 Apple 与沙特阿美加起来还值钱。",
+   "bg": "Tesla had just missed its quarterly delivery estimates, and the market wanted to talk about a buyback. Musk was willing to discuss both — but first he escalated a claim he had been building for years: several years earlier he had said it was possible for Tesla to be worth more than Apple. Now, he said, the number had a bigger ceiling.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2022-10-26",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1349,6 +2068,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2022-10-27",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.10.27 交割 · 10.31 备案",
+   "s": "Twitter Form 8-K（最后一份 8-K：交割与退市）",
+   "q": "“On October 27, 2022, pursuant to the terms of the Merger Agreement, the Merger was consummated. At the effective time of the Merger, each issued and outstanding share of Twitter’s common stock … was canceled and converted into the right to receive the Merger Consideration.” —— Item 2.01",
+   "zh": "",
+   "bg": "这是 Twitter 作为上市公司的最后一份 8-K，十个条目一次写完一个时代的收尾：交割、控制权变更、九名董事逐一列名离任（Bret Taylor、Parag Agrawal、Omid Kordestani、David Rosenblatt、Martha Lane Fox、Patrick Pichette、Egon Durban、Fei-Fei Li、Mimi Alemayehou）、章程按并购协议重写、以及债券持有人的控制权回购要约（面值 101%）。Item 1.02 还顺手终止了 2018-08-07 签订的循环信贷协议——与「funding secured」推文同一天落笔的银行授信，在交割日画上句号（时间上的押韵是巧合，编者注）。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "c2022-10-27",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1373,6 +2105,19 @@ window.TIMELINE_V7 = {
    "c": [
     "X / Twitter",
     "xAI"
+   ]
+  },
+  {
+   "id": "p2022-11-01",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2022.11.01",
+   "s": "@elonmusk",
+   "q": "Twitter’s current lords & peasants system for who has or doesn’t have a blue checkmark is bullshit. Power to the people! Blue for $8/month.",
+   "zh": "Twitter 现行这套「谁有蓝勾谁没有」的贵族与平民制度是胡扯。权力归人民！蓝勾每月 8 美元。",
+   "bg": "背景/后续：交割后第四天的定价宣言（原帖 status/1587498907336118274 · 镜像逐字存档；The Verge 等广泛报道）。$8 认证随即引发仿冒潮——礼来、任天堂等品牌假账号风波迫使方案两度回撤改造，「官方」标签上线又弃用——认证从身份符号变成产品，是「Twitter 变 X」最先落地的一环。",
+   "c": [
+    "X / Twitter"
    ]
   },
   {
@@ -1468,6 +2213,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2022-12-18",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2022.12.18",
+   "s": "@elonmusk",
+   "q": "Should I step down as head of Twitter? I will abide by the results of this poll.",
+   "zh": "我应该卸任 Twitter 负责人吗？我将遵守这次投票的结果。",
+   "bg": "背景/后续：交割 52 天后把自己交给投票（原帖 status/1604617643973124097 · 镜像逐字存档）——1750 万票、57.5% 赞成（Reuters/BBC/CNBC 口径）。三天后他说「一旦找到足够蠢的人接任 CEO 就会辞职」；半年后 Yaccarino 上任，他转任 CTO——「遵守结果」以自己的节奏兑现。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "c2023-01",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1518,6 +2276,19 @@ window.TIMELINE_V7 = {
    "bg": "与前两份「叙事式」蓝图不同，Part 3 是一份工程可行性研究：把去化石燃料所需的储能、发电与材料规模逐项量化。语气从「大话」切换成了「公式」。",
    "c": [
     "综合"
+   ]
+  },
+  {
+   "id": "e2023-05-15",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2023.05.15",
+   "s": "第二巡回 Summary Order（No. 22-1291）· mandate 入卷（Dkt. 97）",
+   "q": "“Had Musk wished to preserve his right to tweet without even limited internal oversight concerning certain Tesla-related topics, he had ‘the right to litigate and defend against the [SEC's] charges’ or to negotiate a different agreement—but he chose not to do so. Having made that choice, he may not use Rule 60 to collaterally re-open a final judgment merely because he has now changed his mind.”",
+   "zh": "如果马斯克想保留连特定 Tesla 话题上有限的内部监督都不要的推文权利，他本有权「起诉抗辩 SEC 的指控」，或去谈判一份不同的协议——但他没有那样选。既然作了选择，他就不能仅仅因为如今改了主意，便借 Rule 60 从侧翼重开一份已生效的判决。",
+   "bg": "Eleven months after the appeal, a three-judge panel of the Second Circuit (Chief Judge Livingston, Raggi, Kahn) ended the campaign with a summary order: affirmed.",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -1588,6 +2359,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2023-07-23",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2023.07.23",
+   "s": "@elonmusk",
+   "q": "And soon we shall bid adieu to the twitter brand and, gradually, all the birds If a good enough X logo is posted tonight, we’ll make go live worldwide tomorrow",
+   "zh": "很快我们将告别 twitter 品牌，并逐渐告别所有的鸟。——如果今晚有人 posted 一个足够好的 X 标志，我们明天就让它全球上线。",
+   "bg": "背景/后续：十七年鸟标的死刑判决书（两帖 status/1682964919325724673 + status/1682965462886535168 · 镜像逐字存档）。次日 X 临时标志上楼，一周后 X.com 跳转全球生效——Twitter, Inc. 走向 X Corp（更名全程与口径三分列见 platform-x.html px-0723）。",
+   "c": [
+    "PayPal",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "c2023-07-23",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1600,6 +2385,32 @@ window.TIMELINE_V7 = {
     "PayPal",
     "X / Twitter",
     "xAI"
+   ]
+  },
+  {
+   "id": "e2023-10-18",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2023.10.18",
+   "s": "Tesla Q3 2023 财报电话会 · stockanalysis.com 逐字稿 · TechRadar",
+   "q": "“I do want to emphasize that there will be enormous challenges in reaching volume production with the Cybertruck. … I mean, we dug our own grave with Cybertruck, you know?”",
+   "zh": "我确实想强调：Cybertruck 在达到量产这件事上会有巨大的挑战。……我是说，我们给自己挖了坟——就是 Cybertruck，你们知道吗？",
+   "bg": "Margins were compressed by the year’s aggressive price cuts, and the Cybertruck delivery event was 43 days out (see 2023.11.30). On this call, Musk’s task was to temper expectations — starting with the product he had promised would change everything.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "i2023-11",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2023.11",
+   "s": "「speciesist / Team Robot」",
+   "q": "“At one point he called me a speciesist for being pro-human, and I'm like, well, what team are you on, Larry? He's still on Team Robot to be clear.” — “I'd like to be friends with Larry again.”",
+   "zh": "",
+   "bg": "谈 OpenAI 起源时，他给出内部版本：这家日后与他反目的公司，诞生于他与 Google 联合创始人 Larry Page 的深夜争论——当时他借住在 Page 家里谈 AI 安全，而对方不在乎。他回忆当时 Google 刚收购 DeepMind，“probably two thirds of all AI researchers in the world”、算力与资金近乎无限，掌门人却“did not care about safety and even yelled at me”。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -1627,6 +2438,19 @@ window.TIMELINE_V7 = {
    "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
    "c": [
     "xAI"
+   ]
+  },
+  {
+   "id": "i2023-11-10",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2023.11.10",
+   "s": "「病态乐观」",
+   "q": "“I've been far too optimistic about autopilot.” — “I would say that I'm pathologically optimistic on schedule. This is true.”",
+   "zh": "",
+   "bg": "第 400 期，Lex 当面向他转述一份 AI 整理的「预测清单」——他名下各公司承诺过的交付日期与兑现日的落差，结论是 “you're often too optimistic about how long it takes to get something done”。他刚讲完自己两场诉讼全胜，紧接着主动认领了这一条，整段没有任何辩解。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -1763,6 +2587,46 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2024-04-05",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2024.04.05",
+   "s": "@elonmusk",
+   "q": "Tesla Robotaxi unveil on 8/8",
+   "zh": "Tesla Robotaxi 8 月 8 日发布。",
+   "bg": "背景/后续：一句话撬动市场的预告（原帖 status/1776351450542768368 · 镜像逐字存档；Reuters 等当日报道），十八天后财报会重申「8 月 8 日见」（primary.html#e2024-04-23）。发布会实际在 10/10 举行、主角是 Cybercab——两个月的跳票进入本站承诺档案的既有模式（promises.html）。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2024-04-23",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2024.04.23",
+   "s": "Tesla Q1 2024 财报电话会 · stockanalysis.com 逐字稿 · Seeking Alpha",
+   "q": "“As we’ve announced, we will be showcasing our purpose-built Robotaxi or Cybercab in August.”",
+   "zh": "如我们所宣布的，我们将在八月展示我们专为 Robotaxi 打造的 Cybercab。",
+   "bg": "Tesla had just posted its worst quarter in years — revenue down year-on-year, a double-digit workforce cut announced a week earlier (2024.04.15), and Reuters reporting the $25,000 car shelved. The pivot Musk announced instead had two names: robotaxi, and Optimus.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "d2024-04-29",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2024.04.29",
+   "s": "Tesla 2024 年度股东大会 proxy（2018 奖励再批 + 迁州德州）",
+   "q": "“A Tesla proposal to ratify the 100% performance-based stock option award to Elon Musk that was proposed to and approved by our stockholders in 2018.”",
+   "zh": "",
+   "bg": "这是 2018 年那场十年对赌（十二档、零底薪、全业绩）被特拉华衡平法院 Tornetta 判决撤销后的「重新计票」：同一份奖励再次交付全体股东表决，并捆绑了迁州德州议案。proxy 还留下了罕见的程序内幕——马斯克发帖次日（2024-02-04）董事会即开会讨论，2 月 10 日五位无利害关系董事另行开会、成立特别委员会，以「程序正当」回应外界「马斯克已替公司做决定」的质疑。董事长信里那句「让你们的投票重新算数」（reinstate your vote），把这次投票的性质说得直白：这不是新合同，是对旧合同的再追认。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2024-06-13",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1799,6 +2663,32 @@ window.TIMELINE_V7 = {
    "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "e2024-10-23",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2024.10.23",
+   "s": "Tesla Q3 2024 财报电话会 · stockanalysis.com 逐字稿 · Investopedia · Fortune",
+   "q": "“My prediction is Tesla will become the most valuable company in the world, and probably by a long shot.”",
+   "zh": "我的预测是，Tesla 将成为世界上最有价值的公司——而且很可能遥遥领先。",
+   "bg": "Thirteen days after “We, Robot” (see 2024.10.10), Tesla posted a quarter that beat on margins, and the stock jumped about 22% the next day — its best session in over a decade (Fortune). On the call, Musk packaged the results and the event into a single prediction.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "i2024-11-04",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2024.11.04",
+   "s": "「这是最后一届选举」",
+   "q": "“I think this was the last election. If Trump doesn’t win, this is the last election.”",
+   "zh": "",
+   "bg": "投票日前一天，他登上罗根节目为特朗普站台——罗根选前最后一位嘉宾。从收购 Twitter（本页 i2022-04-14）到 2024 年 7 月背书、10 月起深度介入摇摆州地面战，这是他政治转向的收官陈述。",
+   "c": [
+    "X / Twitter"
    ]
   },
   {
@@ -1842,6 +2732,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2025-02-18",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2025.02.18",
+   "s": "本人 X 帖（镜像逐字存档 elonmuskarchive.org · status/1891699076267217406 + status/1891933115502809320）",
+   "q": "“Grok 3 presentation starting shortly.” — “Subscribe to Premium+ to get the world’s smartest AI!”",
+   "zh": "「Grok 3 发布会马上开始。」——「订阅 Premium+，获得全世界最聪明的 AI！」",
+   "bg": "Grok 3 was xAI's third big swing, trained on the Colossus cluster, and the launch itself was held on X — the platform and the model had become one business. Both anchor posts are verbatim in the mirror archive (snowflake-decoded 03:59 and 19:29 UTC).",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
    "id": "c2025-03",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1868,6 +2771,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2025-03-28",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2025.03.28",
+   "s": "@elonmusk",
+   "q": "@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).",
+   "zh": "xAI 已以全股票交易收购 X。合并对 xAI 估值 800 亿美元、X 估值 330 亿美元（450 亿减去 120 亿债务）。",
+   "bg": "背景/后续：两年半前 440 亿买下的平台，以缩水四分之一的价格并进自己的 AI 公司（原帖 status/1905731750275510312 · 镜像逐字存档；CNBC/Forbes/AP 多源）。「买平台是为 AI 铺路」的猜想就此收官——账本深读见 primary.html#e2025-03-28，公司档案见 company-files.html。",
+   "c": [
+    "X / Twitter",
+    "xAI"
+   ]
+  },
+  {
    "id": "c2025-03-28",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1878,6 +2795,19 @@ window.TIMELINE_V7 = {
    "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
    "c": [
     "xAI"
+   ]
+  },
+  {
+   "id": "e2025-04-22",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2025.04.22",
+   "s": "Tesla Q1 2025 财报电话会 · stockanalysis.com 逐字稿 · The Hill",
+   "q": "“I think starting probably next month, May, my time allocation to DOGE will drop significantly.”",
+   "zh": "我想大概从下个月、五月开始，我分配给 DOGE 的时间将大幅减少。",
+   "bg": "Tesla’s Q1 net income had fallen 71% (USA Today), the brand was taking daily damage from his Washington role, and the question hanging over the call was simple: where is the CEO? His answer became the headline of the day.",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -2022,6 +2952,19 @@ window.TIMELINE_V7 = {
    "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
    "c": [
     "xAI"
+   ]
+  },
+  {
+   "id": "e2026-07-22",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2026.07.22",
+   "s": "Tesla Q2 2026 财报电话会 · stockanalysis.com 逐字稿 · elonmuskarchive.org 转写存档",
+   "q": "“I think Optimus will be the biggest product ever.”",
+   "zh": "我认为 Optimus 会是有史以来最大的产品。",
+   "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
+   "c": [
+    "Tesla"
    ]
   }
  ]

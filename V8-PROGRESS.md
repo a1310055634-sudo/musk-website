@@ -23,7 +23,7 @@
 | 07 | 长访谈 II：Rogan / TED / All-In / DealBook | complete | v7.7.0 | d5513cf | done |
 | 08 | X 帖史扩容（含 Wayback 核对已删帖） | complete | v7.8.0 | 8ba772d | done |
 | 09 | SpaceX / Neuralink / xAI 官方演讲 | complete | v7.9.0 | ff340bc | done |
-| 10 | 全站验收与发布 v8.0.0 | pending | — | — | — |
+| 10 | 全站验收与发布 v8.0.0（本地版） | complete | v8.0.0 | 本地提交 | 不推送（用户验收后自行推送） |
 
 状态取值：pending / in_progress / complete / blocked。失败不推进轮次；推送失败时仅恢复推送。
 
@@ -229,3 +229,9 @@ SEC v. Musk（S.D.N.Y. No. 1:18-cv-08865；CourtListener docket 7946295）：
 - **提交**：主成果 `398b249`（25 文件，+449/−231），已推送 main；本回填为第二个提交。
 - **范围说明**：本轮按计划只动账本一手体系；编年史行未加（2018.08.07 行已覆盖 SEC 案入口，chronicle 53 断言不动）；新条目暂未挂 ps-linkcard（事件档案归 events-data.py 体系，如需建档卡建议在后续轮统一评估）。
 - **下一轮预告**：R02 Twitter 收购案私信原件（特拉华衡平法院 2022 披露件），账本目标 +8~10 条。
+
+## 第 10 轮工作记录（全站验收与发布 v8.0.0 · 本地版）— complete（2026-10-01）
+
+- **交付**：口径总核对（索引 250 = 109+14+33+23+5+53+4+9；37 页；时间轴 109 节点；语录卡 96 vs 引文块 99 豁免 3）；生成器全家桶幂等重跑（events / timeline-events / network / company-files / capital / ledger-links / search-index / sync-changelog / revisions / epub）全过；版本三件套 7.9.0 → 8.0.0（14 span 替换计数在案）；CHANGELOG 首条 v8.0.0；changelog.html 189 条；修订史 179 锚点；EPUB 24 章 201,489 B；verify.py 9/9 全绿。
+- **本地模式说明**：按用户 V9-20 计划指令，本版仅在本地 main 提交，**不推送**——origin/main 仍停在 355fc0d（v7.9.0 时代），待用户验收后自行 。
+- **下一计划**：V9-20（20 轮：第一手信息回捞 + 开源社区资源板块 + 美术升级），账本 V9-20-PROGRESS.md，版本自 v8.1.0 起步。

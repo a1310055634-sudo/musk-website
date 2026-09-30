@@ -2,6 +2,17 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v8.0.0 — 2026-10-01 · V8 扩充（10/10）收官：全站验收（本地版）
+
+**主题包成果（V8 R10 · 发布节点，本地完成待用户推送）**
+- **口径总核对**：检索索引 250 条 = 言行实录 109 + 一手文档 14 + 访谈与表态 33 + X 帖 23 + 争议深读 5 + 编年史 53 + 财务全景 4 + 事件档案 9；37 个 HTML 页面；账本时间轴 109 节点；语录卡 96；事件档案 9 档 37 材料。
+- **生成器全家桶幂等重跑**：build-events / build-timeline-events / build-network / build-company-files / build-capital / build-ledger-links / build-search-index / sync-changelog / build-revisions / build-epub 全部通过；修订史 179 锚点；EPUB 24 章 201,489 字节。
+- **版本节点**：VERSION / app.js SITE_VERSION / 14 页 site-version-val 三件套同步 7.9.0 → 8.0.0（替换计数 14 打印在案）。
+- **本版为 V8 计划（10 轮）收官**：账本 67 → 109 条、文档 14、访谈 33、X 帖 23、语录卡 54 → 96、索引 178 → 250。下一计划 V9-20（20 轮：第一手信息回捞 + 开源社区资源板块 + 美术升级）自 v8.1.0 起步，详见 V9-20-PROGRESS.md。
+
+**质量门**
+- verify.py 9 项全绿；node --check（app.js + cite.js）通过；EPUB 重跑。本轮按用户指令仅本地提交，不推送。
+
 ## v7.9.0 — 2026-10-01 · V8 扩充（9/10）：SpaceX / Neuralink / xAI 官方演讲与 demo
 
 **主题包成果（V8 R09 · 账本 103 → 109 条）**
