@@ -22,7 +22,7 @@
 | 06 | 长访谈 I：Lex Fridman 四期 | complete | v7.6.0 | 51023ee | done |
 | 07 | 长访谈 II：Rogan / TED / All-In / DealBook | complete | v7.7.0 | d5513cf | done |
 | 08 | X 帖史扩容（含 Wayback 核对已删帖） | complete | v7.8.0 | 8ba772d | done |
-| 09 | SpaceX / Neuralink / xAI 官方演讲 | complete | v7.9.0 | ff340bc | pending-push |
+| 09 | SpaceX / Neuralink / xAI 官方演讲 | complete | v7.9.0 | ff340bc | done |
 | 10 | 全站验收与发布 v8.0.0 | pending | — | — | — |
 
 状态取值：pending / in_progress / complete / blocked。失败不推进轮次；推送失败时仅恢复推送。
