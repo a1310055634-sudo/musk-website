@@ -1572,6 +1572,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2020-04-29",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2020.04.29",
+  "s": "@elonmusk",
+  "q": "FREE AMERICA NOW",
+  "zh": "解放美国，现在！",
+  "bg": "背景/后续：加州「禁足令」进入第六周、Fremont 工厂停产逾月之际，他把这条全大写怒吼顶上时间线（原帖 status/1255380013488189440 · 镜像逐字存档；snowflake 解码 UTC 2020-04-29 06:14，美西为 4.28 深夜）。十二天后他宣布「违反阿拉米达县令重启生产」（5.11，status/1259945593805221891 · 镜像逐字在档；此前 5.9 特斯拉已起诉该县），数日后县府放行复工——这场对抗常被视为其与加州关系恶化的转折点，此后得州奥斯汀建厂与 2021 年总部南迁相继落地。疫情言论弧线上承 p2020-03-06。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "i2020-05",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -1782,6 +1796,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2021-01-26",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2021.01.26",
+  "s": "@elonmusk",
+  "q": "Gamestonk!!",
+  "zh": "Gamestonk！！（GameStop 与迷因词「stonks」的拼贴，戏指游戏驿站）",
+  "bg": "背景/后续：散户逼空 GameStop 大战的标志性助燃帖（原帖 status/1354174279894642703 · 镜像逐字存档；snowflake 解码 UTC 2021-01-26 21:08，美股当日收盘后）。帖内附一条 t.co 链接，指向 Reddit 论坛 r/wallstreetbets（CNBC/Reuters 当日报道）；次日 GME 再涨逾 130%，两日后 Robinhood 限制 GME 买入、风波一路烧到国会听证（Reuters/AP 口径）。两词帖撬动百亿美元级行情，是其「个人账号即市场变量」的实证之一——反面案例见 Hertz 对冲帖 p2021-11-02。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "p2021-03-02",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -1806,6 +1833,20 @@ window.SEARCH_INDEX = [
   "bg": "Neuralink released Pager, a macaque playing Pong with decoded brain signals — “MindPong”, the first behavioral proof after the 2020 pig demo. Musk amplified it and took questions in the replies himself.",
   "c": [
    "Neuralink"
+  ]
+ },
+ {
+  "id": "p2021-05-05",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2021.05.05",
+  "s": "@elonmusk",
+  "q": "Starship landing nominal!",
+  "zh": "星舰着陆正常！",
+  "bg": "背景/后续：SN15 成为第一艘完整着陆后保住机体的星舰原型（原帖 status/1390073153347592192 · 镜像逐字存档；snowflake 解码 UTC 2021-05-05 22:37）——此前 SN8/SN9/SN10/SN11 四次高空试飞全部炸毁（SN10 落地后数分钟解体），「快速非计划解体」（rapid unscheduled disassembly）的自嘲梗随之流传；SN15 落地后底部虽有小面积起火，整机完好立于着陆区。「nominal」（一切正常）自此成为 SpaceX 直播的标志性用语。轨道级组合首飞又等了两年（2023.04 IFT-1），迭代路线由此节点展开。",
+  "c": [
+   "SpaceX",
+   "X / Twitter"
   ]
  },
  {
@@ -1872,6 +1913,20 @@ window.SEARCH_INDEX = [
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "p2021-11-02",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2021.11.02",
+  "s": "@elonmusk",
+  "q": "@teslaownersSV You’re welcome! If any of this is based on Hertz, I’d like to emphasize that no contract has been signed yet. Tesla has far more demand than production, therefore we will only sell cars to Hertz for the same margin as to consumers. Hertz deal has zero effect on our economics.",
+  "zh": "@teslaownersSV 不客气！ 如果其中任何说法是基于 Hertz，我要强调：合同还没有签。 Tesla 的需求远大于产量，所以我们只会以与消费者相同的毛利向 Hertz 卖车。 Hertz 订单对我们的经济账没有任何影响。",
+  "bg": "背景/后续：万亿市值日的泼水帖——V8 期间曾因镜像未收录而弃收，本轮回捞重验入册（原帖 status/1455351085170823169 · 镜像逐字存档；snowflake 解码 UTC 2021-11-02 01:48，美国时间为 11.01 晚，账本「11.01 对冲」即此帖，见 e2021-10-25）。背景：一周前 Hertz 宣布订购 10 万辆 Model 3，特斯拉市值首破 $1T；此帖把「大订单=大利好」的线性叙事当场对冲——次日（11.02）特斯拉市值蒸发约 400 亿美元（NPR/CBS/CNBC 报道），但万亿俱乐部席位未失。他亲手管理「账号叙事」与「真实经济账」落差的又一实证（参 p2021-01-26）。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
   ]
  },
  {
