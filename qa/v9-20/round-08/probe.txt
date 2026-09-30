@@ -1,0 +1,47 @@
+[文件级] timeline-events.js 口径红线
+  ✓ nEvents=14
+  ✓ nAbsorbed=39
+  ✓ nRecords=229
+  ✓ 口径公式 282−14−39=229 成立
+  ✓ version 已刷 8.8.0
+  ✓ 五新档案均入 absorbedByEvent
+  ✓ records 池不含 events.html 条目
+  ✓ records 池不含已吸收 href（抽 e2021-10-25）
+  ✓ 索引总数=282
+  ✓ 索引事件档案计数=14
+  ✓ 新引语入索引（Technoking/Telepathy/same margin/love with steel）
+  · CDP 已连上，targets=5
+[桌面] events.html 14 档案
+  ✓ 档案 section 总数=14
+  ✓ 五新卡全部渲染
+  ✓ 五新卡结构（ev-item 内 head/summary/facts/quotes/materials）
+  ✓ 新卡双语（标题 data-en + 中文正文）
+  ✓ chronicle 徽标渲染（e2021-10-25 内「编年史条目」）
+  ✓ IPO 档案三引语（S-1/10-K/股东信）
+  ✓ Starship 档案五材料 + 破产警报逐字
+  ✓ Neuralink 档案预言与兑现同卡
+  ✓ Autonomy 档案 LIDAR 逐字 + promises 对账注
+[桌面] 互链与深链
+  ✓ 五新卡页内 related 锚全部实存
+  ✓ e2019-04-22 互链 controversy.html#autopilot 跨页真实
+  ✓ e2021-11-26 互链 documents.html#d2021-11-26 跨页真实
+  ✓ hash 深链定位（#e2021-11-26 进入视口）
+  · 截图 events-newfiles-desktop.png
+[桌面] timeline.html 口径
+  ✓ gx-listmeta 文本=14 事件 · 229 记录 · 39 归档
+  ✓ window.TIMELINE_V7.meta 探针（14/229/39）
+  ✓ 静态清单含五个新档案行
+  ✓ 已吸收记录不再单列（抽 e2021-10-25 / e2024-03-18）
+  · 截图 timeline-desktop.png
+[桌面] primary.html 建档卡
+  ✓ 建档卡注入=23 处
+  ✓ e2010-06-29 条目含建档卡链
+[检索] 新档案命中 + 类型筛选
+  ✓ Telepathy 命中 e2024-01-29
+  ✓ Technoking 命中（IPO 档案或 10-K 文档）
+  ✓ 类型筛选「事件档案」可用（有结果区）
+  ✓ [390] events.html 零横向溢出（scrollWidth 390 ≤ clientWidth 390）
+  · 截图 events-newfile-390.png
+  ✓ [390] timeline.html 零横向溢出（scrollWidth 390 ≤ clientWidth 390）
+
+RESULT: PASS=35 FAIL=0

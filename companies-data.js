@@ -83,6 +83,30 @@ window.COMPANIES_V7 = {
       "zh": "「资金已落实」——一条推文变成一场官司",
       "en": "“Funding secured” — one tweet becomes a lawsuit"
      }
+    },
+    {
+     "id": "e2010-06-29",
+     "date": "2010.06.29",
+     "title": {
+      "zh": "Tesla IPO——1956 年以来第一家上市的美国车企",
+      "en": "Tesla IPOs — the first American car company to go public since 1956"
+     }
+    },
+    {
+     "id": "e2021-10-25",
+     "date": "2021.10.25",
+     "title": {
+      "zh": "万亿市值日——Hertz 订单与「合同还没有签」",
+      "en": "The trillion-dollar day — Hertz, and \"no contract has been signed yet\""
+     }
+    },
+    {
+     "id": "e2019-04-22",
+     "date": "2019.04.22",
+     "title": {
+      "zh": "从 Autonomy Day 到 Optimus——十年之期的连续赌注",
+      "en": "From Autonomy Day to Optimus — a running bet with a ten-year clock"
+     }
     }
    ]
   },
@@ -148,6 +172,14 @@ window.COMPANIES_V7 = {
      "title": {
       "zh": "星舰塔捕——助推器回到塔的臂弯",
       "en": "The tower catch — a booster in the tower's arms"
+     }
+    },
+    {
+     "id": "e2021-11-26",
+     "date": "2021.11.26",
+     "title": {
+      "zh": "「没有任何粉饰」——Raptor 危机与星舰翻身",
+      "en": "\"No way to sugarcoat this\" — the Raptor crisis and Starship's comeback"
      }
     }
    ]

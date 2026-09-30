@@ -310,7 +310,8 @@ window.SEARCH_INDEX = [
   "bg": "商业模式宣言与赤字实况同页并置：一面是「有意识地背离传统汽车业模式」，一面是累亏 2.364 亿美元——这正是 2008 圣诞夜生死线之后、IPO 前夜的 Tesla 真实刻度。上市募资是 2006 蓝图产品阶梯走到第三级（Model S）的入场券（见 d2006-08）。",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2010-06-29"
  },
  {
   "id": "d2010-05-04",
@@ -349,7 +350,8 @@ window.SEARCH_INDEX = [
   "bg": "The Christmas Eve rescue of 2008 bought two years; by mid-2010 Tesla needed capital to build the Model S plant. Automakers had been toxic on public markets for half a century — the last American carmaker to IPO before Tesla was Ford in 1956.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2010-06-29"
  },
  {
   "id": "c2010-06-29",
@@ -363,6 +365,20 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla"
   ]
+ },
+ {
+  "id": "ev-e2010-06-29",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2010.06.29",
+  "s": "Tesla IPO——1956 年以来第一家上市的美国车企",
+  "q": "圣诞夜救援买来两年时间；2010 年 6 月 29 日，Tesla 以 TSLA 挂牌纳斯达克，募资约 2.26 亿美元。招股书写下第一份「关键人风险」——十二年后，同一条风险因子还在，只是头衔变成了 Technoking。",
+  "zh": "The Christmas Eve rescue bought two years; on June 29, 2010, Tesla listed as TSLA on Nasdaq, raising about $226M. The S-1 carried the first \"key person\" risk factor — twelve years later the same factor was still there, only the title had become Technoking.",
+  "bg": "2010.01.29 Tesla 向 SEC 递交 Form S-1（备案号 0001193125-10-017054）：截至 2009.09.30 累计亏损 2.364 亿美元，1997–2009 年间总营收 1.082 亿美元。 · S-1 首次载明关键人风险因子：Musk 与 Straubel 均无固定期限雇佣协议。 · 2010.06.29 TSLA 挂牌纳斯达克，募资约 2.26 亿美元——1956 年福特之后第一家上市的美国车企。 · 上市近三年后的 2013 Q1，Tesla 首次实现季度盈利（2013.05.08 股东信）；商业模式在公开市场注视下跑通。",
+  "c": [
+   "Tesla"
+  ],
+  "ev": "e2010-06-29"
  },
  {
   "id": "e2011-04-05",
@@ -466,7 +482,8 @@ window.SEARCH_INDEX = [
   "bg": "Model S deliveries started mid-2012; Q1 2013 was the first full quarter of production sales — and the first chance to prove the business model worked. Musk authored the Q1 shareholder letter himself, announcing: “Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2010-06-29"
  },
  {
   "id": "c2013-05-08",
@@ -1385,7 +1402,8 @@ window.SEARCH_INDEX = [
   "bg": "One year after the BFR roadmap at IAC 2017, SpaceX announced its first private passenger: Japanese billionaire Yusaku Maezawa, booked for a circumlunar flight “in 2023” — the payload, six to eight artists.",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2021-11-26"
  },
  {
   "id": "e2018-09-27",
@@ -1529,7 +1547,22 @@ window.SEARCH_INDEX = [
   "bg": "Tesla's first autonomy investor day unveiled the in-house FSD computer (HW3) and set the promise that would define the decade: feature-complete self-driving in 2020.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2019-04-22"
+ },
+ {
+  "id": "ev-e2019-04-22",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2019.04.22",
+  "s": "从 Autonomy Day 到 Optimus——十年之期的连续赌注",
+  "q": "2019 年 4 月 22 日，他发布自研 FSD 芯片、宣判 LIDAR 路线「doomed」，并立誓 2020 年「功能完整」自动驾驶；三年半后，Optimus 从一页幻灯片变成真机行走。承诺与兑现的账，逐一在案。",
+  "zh": "On April 22, 2019, he unveiled Tesla's in-house FSD chip, declared the LIDAR route \"doomed,\" and pledged \"full self-driving\" capability for 2020; three and a half years later Optimus walked out for real. The promises, and how each one settled, are on the record.",
+  "bg": "2019.04.22 Autonomy Day：HW3 自研 FSD 芯片发布；承诺 2020 年「功能完整」自动驾驶——未兑现，promises.html 对账在案。 · 同场路线宣言：LIDAR 是「愚人的差事」，依赖它的玩家「注定失败」。 · 2021.08 首届 AI Day：Optimus 只是一页幻灯片；他称其未来价值将超过汽车业务与 FSD（媒体口径条目）。 · 2022.01.26 Q4 2021 财报电话会：Optimus 排到「今年最重要的产品开发」，高于所有车。 · 2022.09.30 AI Day 2022：开场自首去年是真人扮装，Bumble C 真机行走。",
+  "c": [
+   "Tesla"
+  ],
+  "ev": "e2019-04-22"
  },
  {
   "id": "e2019-04-24",
@@ -1581,7 +1614,8 @@ window.SEARCH_INDEX = [
   "bg": "The big Falcon Rocket had been mocked since 2016 for a carbon-fiber plan that priced itself out of existence. In 2019 Musk switched the whole design to stainless steel — cheaper, heat-tolerant, and buildable in open air fields in Boca Chica. On the eleventh anniversary of Falcon 1's orbit, he showed the Mk1 prototype.",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2021-11-26"
  },
  {
   "id": "c2019-09-28",
@@ -1844,7 +1878,8 @@ window.SEARCH_INDEX = [
   "bg": "A cleared-stage demo in the pandemic year: three pigs, one of them Gertrude, implanted for two months, her neurons ticking live on the big screen. The coin-sized device had gone from slideware to something that fit inside a skull.",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "e2020-09-22",
@@ -1963,7 +1998,8 @@ window.SEARCH_INDEX = [
   "bg": "Neuralink released Pager, a macaque playing Pong with decoded brain signals — “MindPong”, the first behavioral proof after the 2020 pig demo. Musk amplified it and took questions in the replies himself.",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "p2021-05-05",
@@ -1977,7 +2013,8 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2021-11-26"
  },
  {
   "id": "e2021-07",
@@ -2031,7 +2068,8 @@ window.SEARCH_INDEX = [
   "bg": "Tesla was at peak profitability with two robot programs quietly running. At the first AI Day, Musk put one slide up that wasn't a vehicle at all: a person-shaped robot named Optimus.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2019-04-22"
  },
  {
   "id": "e2021-10-25",
@@ -2044,7 +2082,8 @@ window.SEARCH_INDEX = [
   "bg": "Hertz — fresh out of bankruptcy and rebuilding its rental fleet — announced an order of 100,000 Tesla Model 3s, about $4.2 billion over 14 months, the largest order in the rental company's history.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2021-10-25"
  },
  {
   "id": "c2021-10-25",
@@ -2057,7 +2096,23 @@ window.SEARCH_INDEX = [
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2021-10-25"
+ },
+ {
+  "id": "ev-e2021-10-25",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2021.10.25",
+  "s": "万亿市值日——Hertz 订单与「合同还没有签」",
+  "q": "Hertz 十万辆订单把 Tesla 送进万亿俱乐部；一周后他一句「合同还没有签」让约 400 亿美元蒸发。俱乐部席位保住了——而这句话成了「马斯克语言市值弹性」最经典的双向样本。",
+  "zh": "A 100,000-car Hertz order carried Tesla into the trillion-dollar club; a week later one sentence — \"no contract has been signed yet\" — evaporated about $40B. The club seat held. The quote remains the canonical two-way sample of Musk-language market elasticity.",
+  "bg": "2021.10.25 Hertz 宣布订购 10 万辆 Model 3（14 个月约 42 亿美元）；当日 Tesla 涨约 12.7% 收 1,024.86 美元，市值首破 1 万亿美元。 · 2021.11.02（UTC；美国时间 11.01 晚）他在 X 回帖：合同还没有签；Tesla 需求远大于产量，卖给 Hertz 的毛利与给消费者相同；订单对经济账没有影响。 · 次日（11.02）Tesla 市值蒸发约 400 亿美元（NPR/CBS/CNBC 报道口径）。 · 万亿俱乐部席位未失——该事件成为他「一句话撬动市值，两个方向都算数」的经典案例。",
+  "c": [
+   "Tesla",
+   "Hertz"
+  ],
+  "ev": "e2021-10-25"
  },
  {
   "id": "p2021-11-02",
@@ -2071,7 +2126,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2021-10-25"
  },
  {
   "id": "d2021-11-26",
@@ -2084,7 +2140,22 @@ window.SEARCH_INDEX = [
   "bg": "这封信把 Starship 从远景拉回报表：不是「去火星的浪漫」，而是「每两周一次发射」的现金流纪律。Raptor 引擎量产爬坡失利叠加 Starlink 的巨额现金消耗，感恩节周末被要求继续工作——「第一性原理」的背面是「第一性现金流」。",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2021-11-26"
+ },
+ {
+  "id": "ev-e2021-11-26",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2021.11.26",
+  "s": "「没有任何粉饰」——Raptor 危机与星舰翻身",
+  "q": "2021 年感恩节前夜，一封全员信把「破产风险」摆上台面：星舰必须在下一年做到每两周一次飞行。三年多后，Starbase 全体员工听到的是塔架捕获的欢呼——但警报当时的每一步，都如实在案。",
+  "zh": "On the eve of Thanksgiving 2021, an all-hands email put \"bankruptcy risk\" on the table: Starship had to fly at least once every two weeks the next year. Three years on, Starbase heard the roar of the tower catch — but every step from the alarm is on the record here.",
+  "bg": "2018.09.17 BFR 环月旅客发布会：前田裕二订 2023 年环月；本人风险声明在案，dearMoon 后于 2024 年中取消。 · 2019.09.28 Mk1 发布：设计整体转向不锈钢，首秀当天是猎鹰一号入轨十一周年。 · 2021.05.05 SN15 完整着陆并保住机体——「Starship landing nominal!」（原帖 status/1390073153347592192）。 · 2021.11.26 全员信：Raptor 生产危机 + 「如果星舰明年做不到至少每两周飞一次，我们面临真实的破产风险」。 · 2024.03.18 Starbase 员工演讲：复盘 ",
+  "c": [
+   "SpaceX"
+  ],
+  "ev": "e2021-11-26"
  },
  {
   "id": "i2021-12",
@@ -2150,7 +2221,8 @@ window.SEARCH_INDEX = [
   "bg": "Optimus had been a one-slide surprise at AI Day in 2021.08 (see 2021.08). Five months later, on the Q4 2021 call, the humanoid robot got its first earnings-call billing — ranked above every car Tesla made.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2019-04-22"
  },
  {
   "id": "d2022-02-07",
@@ -2163,7 +2235,8 @@ window.SEARCH_INDEX = [
   "bg": "把这一段与 2010 年 S-1 的同名风险因子逐行对照（d2010-01-29），十二年间唯一的实质变化是头衔：从「Chief Executive Officer, Product Architect and Chairman」变成「Technoking of Tesla and our Chief Executive Officer」。「Technoking」是公司 2021 年向 SEC 报备的正式职务名称（10-K 签名页同样署此衔）——玩笑进入了监管文本，而风险因子一字未删。",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2010-06-29"
  },
  {
   "id": "e2022-02-10",
@@ -2507,7 +2580,8 @@ window.SEARCH_INDEX = [
   "bg": "A year after AI Day 2021 introduced the Tesla Bot with a dancer in a suit, Musk opened by confessing it — and then the real robot walked.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2019-04-22"
  },
  {
   "id": "e2022-10-19",
@@ -2761,7 +2835,8 @@ window.SEARCH_INDEX = [
   "bg": "Two years after the Three Little Pigs (e2020-08-28) and eighteen months after Pager's telepathic Pong (e2021-04-09), Neuralink's first full Show & Tell put the whole stack on stage: the R1 surgical robot, brain-typing monkeys — and a date, of sorts, for human implantation.",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "p2022-12-18",
@@ -3108,7 +3183,8 @@ window.SEARCH_INDEX = [
   "bg": "Eight years after founding Neuralink, the first human implant was done. He broke the news the way he breaks all news — on X, in two posts: one clinical, one naming the product and its promise.",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "i2024-01-29",
@@ -3135,7 +3211,22 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
+ },
+ {
+  "id": "ev-e2024-01-29",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2024.01.29",
+  "s": "首位人类植入——八年，从三只小猪到 Telepathy",
+  "q": "2022 年 11 月底他说「大概六个月内」完成首例人体植入；约十四个月后，他在 X 上官宣兑现——并给产品命了名：Telepathy。这条档案把四场发布、两张帖子串成一条完整的「预言→兑现」时间线。",
+  "zh": "In late November 2022 he said a first human implant was \"probably in about six months\" away; roughly fourteen months later he announced it on X — and named the product: Telepathy. This file strings four demos and two posts into one verifiable prophecy-to-delivery timeline.",
+  "bg": "2020.08.28「三只小猪」线上发布会：Gertrude 植入两月、信号实时可视；硬币大小的设备从幻灯片走进颅骨。 · 2021.04.09 猕猴 Pager「MindPong」视频发布；他在评论区答「人体试验何时」——「希望今年晚些时候」。 · 2022.11.30 Show and Tell：「FDA 文件基本交齐，大概六个月内应该能做成首例人体 Neuralink」。 · 2024.01.29 官宣：首位人类前一日接受植入、恢复良好，神经元棘波检测初步结果令人鼓舞；产品命名 Telepathy。",
+  "c": [
+   "Neuralink"
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "p2024-01-30",
@@ -3189,7 +3280,8 @@ window.SEARCH_INDEX = [
   "bg": "Addressing the Starbase workforce, Musk reviewed two flights of Starship data and set expectations for the third: “a really good shot of reaching orbit with Flight 3” — noting, ironically, that the last vehicle would likely have made orbit with a payload aboard. The archive date (2024-03-18) is the mirror's; the content points at the eve of Flight 3 (2024-03-14), and the date is recorded as archived.",
   "c": [
    "SpaceX"
-  ]
+  ],
+  "ev": "e2021-11-26"
  },
  {
   "id": "p2024-04-05",

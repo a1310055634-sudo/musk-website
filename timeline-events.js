@@ -4,10 +4,10 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "7.9.0",
-  "nEvents": 9,
-  "nRecords": 223,
-  "nAbsorbed": 18,
+  "version": "8.8.0",
+  "nEvents": 14,
+  "nRecords": 229,
+  "nAbsorbed": 39,
   "absorbedByEvent": {
    "e2002-10-03": 1,
    "e2006": 2,
@@ -17,7 +17,12 @@ window.TIMELINE_V7 = {
    "e2018-08-07": 4,
    "e2022-10-28": 4,
    "e2024-10-13": 3,
-   "e2025-03-28": 1
+   "e2025-03-28": 1,
+   "e2010-06-29": 4,
+   "e2021-10-25": 3,
+   "e2021-11-26": 5,
+   "e2024-01-29": 5,
+   "e2019-04-22": 4
   },
   "source": "tools/events-data.py + search-index.js"
  },
@@ -70,9 +75,9 @@ window.TIMELINE_V7 = {
    "s": "把公司战略写成一句玩笑",
    "q": "“Build sports car. Use that money to build an affordable car. Use that money to build an even more affordable car… Don't tell anyone.”",
    "zh": "",
-   "bg": "",
+   "bg": "Tesla 成立三年，行业共识是电动车永远做不大。他以董事长身份把公司真正的路线图——藏在玩笑里——写上了官方博客。",
    "c": [
-    "综合"
+    "Tesla"
    ]
   },
   {
@@ -96,7 +101,7 @@ window.TIMELINE_V7 = {
    "s": "「第四次总会有好运」",
    "q": "“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”",
    "zh": "",
-   "bg": "",
+   "bg": "三连败之后、金融危机最坏的一周，第四次发射前，他公开承诺：只要还有一线可能，公司就继续打下去。火箭入轨后，他在约 500 名员工面前说了下面这段话。",
    "c": [
     "综合"
    ]
@@ -156,6 +161,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2010-05-04",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2010.05.04",
+   "s": "Acronyms Seriously Suck（SpaceX 全员信）",
+   "q": "“There is a creeping tendency to use made up acronyms at SpaceX. Excessive use of made up acronyms is a significant impediment to communication and keeping communication good as we grow is incredibly important.”",
+   "zh": "",
+   "bg": "这不是词汇洁癖，是沟通半径的制度化：扩张期最大的隐性成本是「新人读不懂的黑话」，他的解法是让 CEO 本人来当全公司的词表闸门。为两个音节较真，与后来的「五步算法」（i2021-07-30：先质疑需求、再删部件、最后删掉一切不必要的词）一脉相承——都是对复杂度的宣战。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
    "id": "c2010-06",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -164,19 +182,6 @@ window.TIMELINE_V7 = {
    "q": "纳斯达克 IPO 募资约 2.26 亿美元——1956 年福特之后首家上市的美国车企（资本解剖）。",
    "zh": "",
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
-   "c": [
-    "Tesla"
-   ]
-  },
-  {
-   "id": "e2010-06-29",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2010.06.29",
-   "s": "Tesla IPO · 纳斯达克 · 公开报道口径",
-   "q": "2008 年圣诞夜的救援买来两年时间；到 2010 年年中，Tesla 需要资金建 Model S 产线。半个世纪以来汽车公司在公开市场一直是毒资产——Tesla 之前，上一家上市的美国车企是 1956 年的福特。",
-   "zh": "",
-   "bg": "The Christmas Eve rescue of 2008 bought two years; by mid-2010 Tesla needed capital to build the Model S plant. Automakers had been toxic on public markets for half a century — the last American carmaker to IPO before Tesla was Ford in 1956.",
    "c": [
     "Tesla"
    ]
@@ -273,16 +278,16 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "e2013-05-08",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2013.05.08",
-   "s": "Q1 2013 财报 · 股东信 · CNET · IBD",
-   "q": "“Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”",
-   "zh": "Tesla 在 2013 年第一季度实现了盈利——这是我们十年历史中的第一次。",
-   "bg": "Model S deliveries started mid-2012; Q1 2013 was the first full quarter of production sales — and the first chance to prove the business model worked. Musk authored the Q1 shareholder letter himself, announcing: “Tesla reached profitability in the first quarter of 2013 for the first time in our ten year history.”",
+   "id": "i2013-02-27",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2013.02.27",
+   "s": "「一枚完全且快速可复用的火箭」",
+   "q": "“The goal of SpaceX is to try to advance rocket technology, and in particular to try to crack a problem that I think is vital for humanity to become a space-faring civilization, which is to have a rapidly and fully reusable rocket.” — “The space shuttle was an attempt at a reusable rocket… the parts that were reusable took a 10,000-person group nine months to refurbish for flight. So the space shuttle ended up costing a billion dollars per flight.”",
+   "zh": "",
+   "bg": "SpaceX 成立五岁，Falcon 9 刚飞过两次。他在 TED 讲台上把真正的使命摆上台面——火星还在其次，先让火箭可复用：今天的每一枚火箭都只飞一次，就像游轮每航一次就烧掉船。他在这里给出的目标宣言，要到十一年后的塔架接住那一刻才被证明。",
    "c": [
-    "Tesla"
+    "SpaceX"
    ]
   },
   {
@@ -379,6 +384,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2014-09-25",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2014.09.25",
+   "s": "「火星宪法草案」",
+   "q": "“I think most likely the form of government on Mars would be a direct democracy… people voting directly on issues… I would recommend some adjustment for the inertia of laws… it should probably be easier to remove a law than create one… My recommendation would be, let's say, 60 of people need to vote in a law, but at any point greater than 40 percent of people can remove it. And any law should come with a sunset… a built-in sunset provision.”",
+   "zh": "",
+   "bg": "Kara Swisher 把最后一问留给火星：那上面的政府、法律和法院怎么办？他以「刚宣布自己是火星国王」的玩笑开场——随后给出了他历次登台以来最具体的一份治理方案。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
    "id": "e2015-01-20",
    "pg": "primary.html",
    "t": "言行实录",
@@ -425,9 +443,22 @@ window.TIMELINE_V7 = {
    "s": "「现有电池的问题在于它们很烂」",
    "q": "“The issue with existing batteries is that they suck. They are expensive, unreliable and bad in every way.” — “We're talking about trying to change the fundamental energy infrastructure of the world.”",
    "zh": "",
-   "bg": "",
+   "bg": "发布会前媒体等的是一辆车，他却抱出一块墙挂电池。整场发布的说服策略只有两步：先把行业贬到底，再把价格亮出来。",
    "c": [
     "综合"
+   ]
+  },
+  {
+   "id": "e2015-12-02",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2015.12.02",
+   "s": "COP21 气候大会索邦演讲 · YouTube 公开录像 · 镜像全档转写",
+   "q": "“This is why I call it the dumbest experiment in history ever. Why would you do this?”",
+   "zh": "这就是我为什么称它为「史上最愚蠢的实验」。你为什么要做这件事？",
+   "bg": "Seven months after launching Tesla Energy, Musk took the Sorbonne stage during the Paris climate summit and reframed the question: humanity exiting the fossil-fuel era was never an if, only a how fast.",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -477,9 +508,9 @@ window.TIMELINE_V7 = {
    "s": "「造机器的机器」",
    "q": "“The machine that builds the machine.”",
    "zh": "",
-   "bg": "",
+   "bg": "Model X 磕磕绊绊、Model 3 量产在即。他告诉投资者：Tesla 最重要的产品不是任何一辆车，而是工厂本身。全自动化未来工厂甚至有内部代号——「外星无畏舰」。",
    "c": [
-    "综合"
+    "Tesla"
    ]
   },
   {
@@ -531,6 +562,19 @@ window.TIMELINE_V7 = {
    "q": "“The date we are setting with suppliers to get to a volume production capability with the Model 3 is July 1st next year. I would say we would aim to produce 100,000 to 200,000 Model 3s in the second half of next year.”",
    "zh": "我们与供应商约定的日期，是让 Model 3 在明年 7 月 1 日具备量产能力。我想我们的目标是明年下半年生产 10 万到 20 万辆 Model 3。",
    "bg": "Five weeks after the record-order night, suppliers, analysts and short sellers were all asking the same question: could a company that had never built a car at volume actually do it? On the Q1 2016 call, Musk answered with a date.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "i2016-06-01",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2016.06.01",
+   "s": "「我们活在『基础现实』的概率只有十亿分之一」",
+   "q": "“The argument makes sense… There's a one in billions chance that this is base reality… Either we're going to create simulations that are indistinguishable from reality, or civilization will cease to exist. Those are the two options.”",
+   "zh": "",
+   "bg": "Model 3 与 Autopilot 的追问刚过，一位观众把「仿真论证」抛上台——他的回答成了整场大会被引用最多的七分钟。6 月 2 日凌晨他本人转发访谈链接（X 帖 x-738470842695176192，snowflake 解码 2016-06-02 20:42 UTC）。",
    "c": [
     "Tesla"
    ]
@@ -769,9 +813,9 @@ window.TIMELINE_V7 = {
    "s": "「欢迎来到生产地狱」",
    "q": "“Welcome to production hell! That's where we're going to be for at least six months.”",
    "zh": "",
-   "bg": "",
+   "bg": "Model 3 预订压顶、周产 5000 的目标定死、现金时钟在走。第一批车主交付的舞台上，他没有讲愿景，而是讲了一句警告。",
    "c": [
-    "综合"
+    "Tesla"
    ]
   },
   {
@@ -941,7 +985,7 @@ window.TIMELINE_V7 = {
    "s": "「人类被低估了」——给自己的公开纠错",
    "q": "“Excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
    "zh": "",
-   "bg": "",
+   "bg": "两年前他还告诉投资者，工厂是「造机器的机器」、全自动化未来工厂代号「外星无畏舰」。生产地狱里，他公开收回了自己的话。",
    "c": [
     "Tesla"
    ]
@@ -1036,6 +1080,19 @@ window.TIMELINE_V7 = {
    "q": "“The special committee has not yet received a formal proposal from Mr. Musk regarding any Going Private Transaction nor has it reached any conclusion as to the advisability or feasibility of such a transaction.”",
    "zh": "",
    "bg": "推文发出整整一周后，公司才第一次以监管文件回应「funding secured」——而这份 8-K 的核心信息恰是反向的：所谓「资金已到位」的交易，连一份正式提案都还没有收到。三位董事组成的特别委员会拿到的是代表董事会的全部权力，交易审批权与马斯克本人被制度性隔开。对照四天前那封从容的私有化方案信（d2018-08-07），这份公告是公司在监管口径上踩下的急刹车。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "i2018-08-15",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2018.08.15",
+   "s": "「我们不花一分钱广告费」",
+   "q": "“The way to sell any product is through word of mouth… the key is to have a product that people love… We're not spending money on advertising or endorsements… Anyone who buys our car, they just bought it because they like the car. And it's genuine. No discounts — I actually even pay full retail price for my own cars.”",
+   "zh": "",
+   "bg": "「生产地狱」最深处，Model 3 爬坡正焦头烂额。他在弗里蒙特工厂的鸟瞰平台上，接待了 YouTube 最大的科技频道——并解释了 Tesla 为什么从来不买广告。",
    "c": [
     "Tesla"
    ]
@@ -1237,19 +1294,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "e2019-09-28",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2019.09.28",
-   "s": "Starship Mk1 发布会 · Ars Technica · Popular Mechanics",
-   "q": "“Honestly, I'm in love with steel.”",
-   "zh": "说实话，我爱上了钢。",
-   "bg": "The big Falcon Rocket had been mocked since 2016 for a carbon-fiber plan that priced itself out of existence. In 2019 Musk switched the whole design to stainless steel — cheaper, heat-tolerant, and buildable in open air fields in Boca Chica. On the eleventh anniversary of Falcon 1's orbit, he showed the Mk1 prototype.",
-   "c": [
-    "SpaceX"
-   ]
-  },
-  {
    "id": "c2019-09-28",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1355,6 +1399,33 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2020-03-09",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2020.03.09",
+   "s": "「对天文发现不会有任何影响——零」",
+   "q": "“I am confident that we will not cause any impact whatsoever in astronomical discoveries. Zero. That's my prediction. We'll take corrective action if it's above zero.” — “There's really just one thing that matters, that is a fully and rapidly reusable rocket.”",
+   "zh": "",
+   "bg": "Starlink 卫星一批批升空，天文界对亮度的抗议正盛。在华盛顿的卫星业大会上他被当面问到这个问题，当场给出一个数字式的承诺——连说两遍「零」。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "p2020-04-29",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2020.04.29",
+   "s": "@elonmusk",
+   "q": "FREE AMERICA NOW",
+   "zh": "解放美国，现在！",
+   "bg": "背景/后续：加州「禁足令」进入第六周、Fremont 工厂停产逾月之际，他把这条全大写怒吼顶上时间线（原帖 status/1255380013488189440 · 镜像逐字存档；snowflake 解码 UTC 2020-04-29 06:14，美西为 4.28 深夜）。十二天后他宣布「违反阿拉米达县令重启生产」（5.11，status/1259945593805221891 · 镜像逐字在档；此前 5.9 特斯拉已起诉该县），数日后县府放行复工——这场对抗常被视为其与加州关系恶化的转折点，此后得州奥斯汀建厂与 2021 年总部南迁相继落地。疫情言论弧线上承 p2020-03-06。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "i2020-05",
    "pg": "interviews.html",
    "t": "访谈与表态",
@@ -1441,7 +1512,7 @@ window.TIMELINE_V7 = {
    "s": "「我不太信教，但这一次我祈祷了」",
    "q": "“This is a dream come true for me and everyone at SpaceX.” — “I'm not very religious, but I prayed for this one.”",
    "zh": "",
-   "bg": "",
+   "bg": "Crew Dragon 载人首飞前夜，公司从 2008 年的棺材边走到了国家载人任务的承运席。发射当日他说了这样两段话。",
    "c": [
     "SpaceX"
    ]
@@ -1470,19 +1541,6 @@ window.TIMELINE_V7 = {
    "bg": "Tesla had just become the world’s most valuable carmaker (2020.07, market cap passing Toyota), and two weeks earlier at a Shanghai AI conference Musk had said the company was “very close” to Level 5 autonomy. Profitability was the story of the day; autonomy was the story he wanted to tell.",
    "c": [
     "Tesla"
-   ]
-  },
-  {
-   "id": "e2020-08-28",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2020.08.28",
-   "s": "Neuralink 2020 线上发布会「三只小猪」（TechCrunch · Globe and Mail 报道逐字）",
-   "q": "“a Fitbit in your skull with tiny wires”",
-   "zh": "「颅骨里戴着细电线的 Fitbit。」——他在整场演示中多次用这个说法形容设备（TechCrunch 记录）。",
-   "bg": "A cleared-stage demo in the pandemic year: three pigs, one of them Gertrude, implanted for two months, her neurons ticking live on the big screen. The coin-sized device had gone from slideware to something that fit inside a skull.",
-   "c": [
-    "Neuralink"
    ]
   },
   {
@@ -1565,6 +1623,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2021-01-26",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2021.01.26",
+   "s": "@elonmusk",
+   "q": "Gamestonk!!",
+   "zh": "Gamestonk！！（GameStop 与迷因词「stonks」的拼贴，戏指游戏驿站）",
+   "bg": "背景/后续：散户逼空 GameStop 大战的标志性助燃帖（原帖 status/1354174279894642703 · 镜像逐字存档；snowflake 解码 UTC 2021-01-26 21:08，美股当日收盘后）。帖内附一条 t.co 链接，指向 Reddit 论坛 r/wallstreetbets（CNBC/Reuters 当日报道）；次日 GME 再涨逾 130%，两日后 Robinhood 限制 GME 买入、风波一路烧到国会听证（Reuters/AP 口径）。两词帖撬动百亿美元级行情，是其「个人账号即市场变量」的实证之一——反面案例见 Hertz 对冲帖 p2021-11-02。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "p2021-03-02",
    "pg": "x-posts.html",
    "t": "X 帖",
@@ -1576,19 +1647,6 @@ window.TIMELINE_V7 = {
    "c": [
     "SpaceX",
     "X / Twitter"
-   ]
-  },
-  {
-   "id": "e2021-04-09",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2021.04.09",
-   "s": "本人 X 转发与回帖（镜像逐字存档 elonmuskarchive.org · CNBC/CNET 报道）",
-   "q": "“Sure.” — “Hopefully, later this year.”",
-   "zh": "「当然。」——「希望今年晚些时候。」被问「没有瘫痪的健康人能否申请植入、像打游戏一样意念操作」，他答前者；被问人体试验何时开始，他答后者（镜像回帖逐字，status/1380314267077894148 + status/1380314485324308482）。",
-   "bg": "Neuralink released Pager, a macaque playing Pong with decoded brain signals — “MindPong”, the first behavioral proof after the 2020 pig demo. Musk amplified it and took questions in the replies himself.",
-   "c": [
-    "Neuralink"
    ]
   },
   {
@@ -1613,48 +1671,23 @@ window.TIMELINE_V7 = {
    "s": "「讨厌当 CEO，但没有我公司会死」",
    "q": "He said he “hates” being Tesla's CEO — but kept the job because, without him, the company would “die”.",
    "zh": "",
-   "bg": "",
+   "bg": "26 亿美元收购 SolarCity 五年后，股东就关联交易起诉他和董事会。宣誓之下、一坐数小时的证人席上，他说出了对自己角色的最坦白定义。",
    "c": [
+    "SolarCity",
     "Tesla"
    ]
   },
   {
-   "id": "e2021-08",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2021.08",
-   "s": "Tesla AI Day（CNBC · Reuters 报道，2022.09.30 复述）",
-   "q": "“The Optimus robot will eventually be worth more than the car business, worth more than FSD.”",
-   "zh": "Optimus 机器人最终的价值将超过汽车业务，超过 FSD。",
-   "bg": "Tesla was at peak profitability with two robot programs quietly running. At the first AI Day, Musk put one slide up that wasn't a vehicle at all: a person-shaped robot named Optimus.",
-   "c": [
-    "Tesla"
-   ]
-  },
-  {
-   "id": "e2021-10-25",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2021.10.25",
-   "s": "Hertz 十万辆订单 · 万亿市值日 · NPR/CNBC/WSJ",
-   "q": "“No contract has been signed yet with Hertz … [the deal] has zero effect on our economics.”",
-   "zh": "与 Hertz「尚未签约」……这笔交易「对我们的经济利益毫无影响」。",
-   "bg": "Hertz — fresh out of bankruptcy and rebuilding its rental fleet — announced an order of 100,000 Tesla Model 3s, about $4.2 billion over 14 months, the largest order in the rental company's history.",
-   "c": [
-    "Tesla"
-   ]
-  },
-  {
-   "id": "c2021-10-25",
-   "pg": "chronicle.html",
-   "t": "编年史",
-   "d": "2021.10.25",
-   "s": "Tesla · 编年史",
-   "q": "Hertz 十万辆订单当日市值首破万亿；一周后对冲推文致约 400 亿美元蒸发（账本）。",
+   "id": "i2021-07-30",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2021.07.30",
+   "s": "「工厂被低估了，设计被高估了」",
+   "q": "“I think, currently, a factory is underrated and design is overrated… It's 10 to 100 times more effort to design the manufacturing system than the engine.” — “It's very common, possibly the most common error of a smart engineer, to optimize the thing that should not exist.”",
    "zh": "",
-   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "bg": "Tim Dodd 带镜头走进 Starbase，两小时里马斯克把一次「看火箭」变成他制造学最完整的公开课——五步算法与 Raptor 制造学在同一天讲透。",
    "c": [
-    "Tesla"
+    "SpaceX"
    ]
   },
   {
@@ -1685,6 +1718,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2021-12-28-2",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2021.12.28",
+   "s": "「给生命本身买保险」",
+   "q": "“There's, let's say for argument's sake, a 1% chance per century of a civilization ending event. Like that was Stephen Hawking's estimate. I think he might be right about that. We should basically think of this, being a multi-planet species, just like taking out insurance for life itself, like life insurance for life.” — “The reason I guess I care about us becoming a multi-planet species and a space bearing civilization is foundationally, I love humanity.”",
+   "zh": "",
+   "bg": "被追问「一家亏钱的火箭公司到底有什么意义」时，他搬出霍金的那个数字——每世纪百分之一的文明终结概率——然后用一个词组给整个火星命题收尾：给生命本身买保险。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
    "id": "autopilot",
    "pg": "controversy.html",
    "t": "争议深读",
@@ -1693,19 +1739,6 @@ window.TIMELINE_V7 = {
    "q": "「Autopilot」和「Full Self-Driving」这两个名字本身，就成了加州 DMV 虚假广告指控的核心。",
    "zh": "2022 加州 DMV 虚假广告指控 → 2025.12.16 认定违法 → 2026.02.13 Tesla 起诉 DMV → 2026.02.18 Tesla 停用「Autopilot」营销用语免于 30 天销售暂停；2024.10 NHTSA 对 240 万辆 FSD 展开调查。",
    "bg": "「Autopilot」「FSD」命名争议：监管线（加州 DMV）与 NHTSA 调查线的完整时间线，以 Tesla 改营销材料暂时收场。",
-   "c": [
-    "Tesla"
-   ]
-  },
-  {
-   "id": "e2022-01-26",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2022.01.26",
-   "s": "Tesla Q4 2021 财报电话会 · stockanalysis.com 逐字稿 · CNN Business",
-   "q": "“In terms of priority of products, I think the most important product development we’re doing this year is actually the Optimus humanoid robot. … This I think has the potential to be more significant than the vehicle business over time.”",
-   "zh": "论产品优先级，我认为我们今年最重要的产品开发，其实是 Optimus 人形机器人。……我认为它有潜力随时间变得比汽车业务更重要。",
-   "bg": "Optimus had been a one-slide surprise at AI Day in 2021.08 (see 2021.08). Five months later, on the Q4 2021 call, the humanoid robot got its first earnings-call billing — ranked above every car Tesla made.",
    "c": [
     "Tesla"
    ]
@@ -1835,7 +1868,7 @@ window.TIMELINE_V7 = {
    "s": "「我根本不在乎经济账」",
    "q": "“I don't care about the economics at all… This is not a way to make money… an inclusive arena for free speech… important to the future of civilization.” — “I'm not actually sure I will be able to acquire it.”",
    "zh": "",
-   "bg": "",
+   "bg": "已被拍到成为推特最大股东、拒绝董事会席位之后，他把全现金要约搬上 TED 舞台，当众解释这笔交易的动机。",
    "c": [
     "综合"
    ]
@@ -2454,6 +2487,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2023-11-10-2",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2023.11.10",
+   "s": "「言论自由的试金石」",
+   "q": "“Free speech only matters if people you don't like are allowed to say things you don't like. Because if that's not the case, you don't have free speech and it's only a matter of time before the censorship has turned upon you.” — “Mainstream media is almost relentlessly negative about everything. I mean, really, the conventional news tries to answer the question, what is the worst thing that happened on Earth today? And it's a big world. So on any given day, something bad has happened.”",
+   "zh": "",
+   "bg": "从 Twitter Files 讲到旧审查名单，他用一句话说清自己当初买下 X 到底为了什么——随后把话头转向媒体。Lex 递了句台阶「（X）已经比主流媒体好了」，他没接，走向了另一头。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "e2023-11-29",
    "pg": "primary.html",
    "t": "言行实录",
@@ -2506,6 +2552,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2023-11-30",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2023.11.30",
+   "s": "@elonmusk",
+   "q": "First Cybertruck deliveries in 2 hours!",
+   "zh": "首批 Cybertruck 两小时后交付！",
+   "bg": "背景/后续：跳票四年的兑现时刻（原帖 status/1730283187127964138 · 镜像逐字存档；snowflake 解码 UTC 2023-11-30 17:50）——交付活动在得州超级工厂举行，首批仅十位左右车主提车（CNBC/AP 口径）。两小时后他补发致谢：「Massive congrats to the incredible Tesla team, from design through to manufacturing, for making Cybertruck real! I love you.」（status/1730342317993701521 · 镜像逐字在档）。从 2019.11 发布会防弹玻璃砸窗名场面到此整四年，起步价也从当年公布的 $39,900 走到 $60,990（CNBC 当日报道）——跳票与溢价一并入账，见账本 e2023-11-30。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "spacex",
    "pg": "finance.html",
    "t": "财务全景",
@@ -2517,19 +2577,6 @@ window.TIMELINE_V7 = {
    "c": [
     "Tesla",
     "SpaceX"
-   ]
-  },
-  {
-   "id": "e2024-01-29",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2024.01.29",
-   "s": "X 帖（原帖 status/1752118131579867417 · The Guardian 报道）",
-   "q": "“The first @Neuralink product is called Telepathy. Enables control of your phone or computer, and through them almost any device, just by thinking.”",
-   "zh": "第一款 @Neuralink 产品名为 Telepathy（心灵感应）。只需思考，即可控制你的手机或电脑——并由此控制几乎所有设备。",
-   "bg": "Eight years after founding Neuralink, the first human implant was done. He broke the news the way he breaks all news — on X, in two posts: one clinical, one naming the product and its promise.",
-   "c": [
-    "Neuralink"
    ]
   },
   {
@@ -2546,17 +2593,17 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "p2024-01-29",
+   "id": "p2024-01-30",
    "pg": "x-posts.html",
    "t": "X 帖",
-   "d": "2024.01.29",
+   "d": "2024.01.30",
    "s": "@elonmusk",
-   "q": "The first human received an implant from @neuralink yesterday and is recovering well. Initial results show promising neuron spike detection.",
-   "zh": "首位人类昨日接受了 @neuralink 植入，恢复良好。初步结果显示神经元尖峰检测前景良好。",
-   "bg": "背景/后续：首例植入官宣帖（原帖 status/1752098683024220632）——同日的 Telepathy 命名帖见「言行实录」。",
+   "q": "Never incorporate your company in the state of Delaware",
+   "zh": "永远不要在特拉华州注册你的公司。",
+   "bg": "背景/后续：判决日怒斥（原帖 status/1752455348106166598 · 镜像逐字存档；snowflake 解码 UTC 2024-01-30 22:14）——数小时前，特拉华衡平法院 Chancellor Kathaleen McCormick 就 Tornetta 案裁定：2018 年那笔峰值约 560 亿美元的期权薪酬包批准程序失当，判决撤销（Reuters/AP 广泛报道）。动作链三连：次日发起投票「Should Tesla change its state of incorporation to Texas, home of its physical headquarters?」（01.31 · 镜像逐字在档），再次日宣布「The public vote is unequivocally in favor of Texas! Tesla will move immediately to hold a shareholder vote to transfer state of incorporation to Texas.」（02.01 · 镜像逐字在档）。弧线在 6.13 股东大会闭合：薪酬包重批与迁册德州双通过（账本 e2024-06-13）；当年 12 月初特拉华法院驳回翻案动议、维持原判（Reuters 报道）。",
    "c": [
-    "X / Twitter",
-    "Neuralink"
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -2637,6 +2684,32 @@ window.TIMELINE_V7 = {
    "bg": "Delaware had voided his 2018 pay package; the same shareholders he once enraged were asked to re-ratify it, re-elect the board, and approve moving Tesla's incorporation to Texas. He flew in for the vote — and opened like a victory lap even before results were read.",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "p2024-07-13",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2024.07.13",
+   "s": "@elonmusk",
+   "q": "I fully endorse President Trump and hope for his rapid recovery",
+   "zh": "我完全支持特朗普总统，并祝愿他迅速康复。",
+   "bg": "背景/后续：巴特勒集会枪击约半小时后的站队帖（原帖 status/1812256998588662068 · 镜像逐字存档；snowflake 解码 UTC 2024-07-13 22:45，Reuters 记录枪响于 UTC 22:11 前后；帖尾附现场照片链接）。V8 期间因镜像覆盖率不足弃收，本轮以 Agent API 精确短语检索一击重验入册。此帖把数年「中间派」姿态一步切换为明确站队：同月 America PAC 成立接管战场州地面行动（FEC 文件 · Reuters 报道），大选周期他个人出资约 2.5 亿美元级（FEC 披露 · AP 汇总口径），10 月起直接登台集会；X 平台同步成为政治放大器（平台变局）。商业与政治自此合流——弧线下一站：决裂与建党，见 p2025-07-05。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "i2024-09-08",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2024.09.08",
+   "s": "「政府就是放大到极限的车管所」",
+   "q": "“The government is the DMV at scale.”",
+   "zh": "",
+   "bg": "大选前八周，他把「效率教义」带上 All-In 舞台，用每个人都排过队的场景一句话说尽。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -2847,6 +2920,20 @@ window.TIMELINE_V7 = {
    "bg": "背景/后续：Starbase 建市投票通过当日的庆祝帖（Texas Tribune/13News 报道）；5.20 县认证。",
    "c": [
     "SpaceX",
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "p2025-07-05",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2025.07.05",
+   "s": "@elonmusk",
+   "q": "By a factor of 2 to 1, you want a new political party and you shall have it! When it comes to bankrupting our country with waste & graft, we live in a one-party system, not a democracy. Today, the America Party is formed to give you back your freedom.",
+   "zh": "以 2 比 1，你们想要一个新政党——那就给它！ 在以浪费与贪腐掏空国家这件事上，我们活在一体制之中，而非民主之中。 今天，「美国党」成立，把你们的自由还给你们。",
+   "bg": "背景/后续：从金主到组党的宣言帖（原帖 status/1941584569523732930 · 镜像逐字存档；snowflake 解码 UTC 2025-07-05 19:46）。前情：05 月底卸任 DOGE、06.05 与特朗普公开决裂（Reuters/AP 广泛报道）；06.30 他预告「If this insane spending bill passes, the America Party will be formed the next day」（status/1939806847504105683 · 镜像逐字在档）；07.04 独立日，大漂亮法案（One Big Beautiful Bill Act）签署同日，他发起独立日投票（status/1941119099532378580 · 镜像逐字在档）；本卡 2:1 宣言次日，他补上纲领——「The America Party is needed to fight the Republican/Democrat Uniparty」（07.06 · 镜像逐字在档）。市场当即计价政治风险：下一交易日（07.07）Tesla 股价收跌约 7%（Reuters 报道）。以个人公司版图为杠杆另立政党，美国商业史上几无先例；政治弧线起点见 p2024-07-13。",
+   "c": [
+    "Tesla",
     "X / Twitter"
    ]
   },
