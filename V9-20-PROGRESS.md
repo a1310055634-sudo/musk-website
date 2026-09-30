@@ -21,7 +21,7 @@
 
 | 轮 | 主题 | 状态 | 版本 | 成果提交（本地） | 备注 |
 |---|---|---|---|---|---|
-| 01 | V8 R10 收尾 + V9-20 基建（账本/锁/gitignore） | complete | v8.1.0 | （见工作记录） | 含 V8 R10 本地版 |
+| 01 | V8 R10 收尾 + V9-20 基建（账本/锁/gitignore） | complete | v8.1.0 | 9cc5d46 | 含 V8 R10 本地版 24020fe |
 | 02 | X 帖回捞 I（2020–2021），目标 23→27± | pending | — | — | — |
 | 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | pending | — | — | — |
 | 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | pending | — | — | — |
@@ -62,4 +62,5 @@
 
 - **V8 R10 本地版**：R09 状态核对（已 complete+回填+推送确认 355fc0d，无需补）；口径总核对 250 = 109+14+33+23+5+53+4+9；生成器全家桶十件幂等重跑全过（events/timeline-events/network/company-files/capital/ledger-links/search-index/sync-changelog/revisions/epub）；verify.py 9/9（37 页/索引 250/8.0.0 一致）；版本三件套 → 8.0.0（14 span 替换计数打印）；CHANGELOG 补 v8.0.0 条目；changelog.html 189 条；修订史 179 锚点；EPUB 24 章 201,489 B。V8 账本 R10 行改 complete「本地提交/不推送（用户验收后自行推送）」并附工作记录。成果提交 `24020fe`（含 .gitignore 补 .v9run.lock——首次建锁曾被 `git add -A` 带入提交，已 amend 移除，锁文件从此不入 git）。
 - **V9-20 基建**：本账本建立（基线快照 + 20 轮状态表 + 恢复指引）；`.v9run.lock` 锁机制就绪。
+- **提交**：V8 R10 本地版成果 `24020fe`（v8.0.0，含 .gitignore 补 .v9run.lock）；R01 成果 `9cc5d46`（v8.1.0，verify 9/9）；本回填为第二提交。
 - **下一轮预告**：R02 X 帖回捞 I（2020–2021）——镜像 elonmuskarchive.org 列表页 ?year=2020/2021&page=N&sort=old 全量回捞，候选 COVID 早期表态补充/卖房系列后续/2021 关键节点帖；重验 V8 弃收件 Hertz 对冲（2021-10-26 前后 8 页找 "no contract has been signed yet"）。
