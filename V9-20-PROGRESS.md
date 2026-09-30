@@ -25,7 +25,7 @@
 | 02 | X 帖回捞 I（2020–2021），目标 23→27± | complete | v8.2.0 | d3c2a3c | +4 帖；Hertz 重验入册；年份分组两处修正；探针 24/24 |
 | 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | complete | v8.3.0 | c049610 | +4 帖（Cybertruck 首交付/特拉华判决/Trump 背书重验/America Party）；探针 32/32 |
 | 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | complete | v8.4.0 | 52a03fc | +4 条（Code 2016 仿真论证/Satellite 2020 双零/EA 2021 五步算法/All-In 2024 DMV 重验）；Decode 2018 弃收；探针 29/29 |
-| 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | pending | — | — | — |
+| 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | complete | v8.5.0 | c7431d1 | +5 条（#252 保险/#400 言论自由/TED2013/Code2014/MKBHD2018）；候选池收尾 6 场留档；探针 29/29 |
 | 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | pending | — | — | — |
 | 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | pending | — | — | — |
 | 08 | 事件档案聚合扩容（9→14±，口径红线探针） | pending | — | — | — |
@@ -96,3 +96,14 @@
 - **环境记录**：web.archive.org 本机持续超时（与 V8 R08 记录一致）；vox.com/recode.net 不可达（Connect Timeout/500）。
 - **提交**：成果 `52a03fc`（v8.4.0，52 文件）；本回填+revisions+EPUB 为第二提交。
 - **下一轮预告**：R05 访谈扩充 II + Lex 候选消化——必做：把 V8 R06 已核实的 Lex #252（I love humanity / life insurance for life / bang or a whimper）与 #400（free-speech 段）已核实引语立条；候选池：镜像 interview 库 161 场官方转写（MKBHD 2018 计划点名、Code 2014/2021、TED 2013、D11 2013、ARK 2019 等），挑 2~4 场立条；Acquired 播客查官方稿；目标 EXPANSION 候选清零或逐条注明保留原因。
+
+## 第 5 轮工作记录（访谈扩充 II：Lex 候选消化 + 官方转写新批次）— complete（2026-10-01）
+
+- **计划必做项闭环**：V8 R06 留档的 Lex #252/#400 引语全部入册——**i2021-12-28-2**「给生命本身买保险」（life insurance for life 主引语 + foundationally, I love humanity 收束 + bang or a whimper 入编者注；Lex「电视购物」打趣往返在卡）+ **i2023-11-10-2**「言论自由的试金石」（free speech only matters… 01:43:13 + worst thing that happened on Earth today 媒体段 02:02:38，V8 R06 留档段一并落实）。同场多条为站内既有结构（#18/#49/#252/#400 各两条先例），新 id 用 `-2` 后缀。
+- **三条新场次入册（镜像 interview 库 transcript 直读，37→42）**：i2013-02-27 TED2013「一枚完全且快速可复用的火箭」（目标宣言+航天飞机十亿美元对比；rapidly and fully reusable 十一年后塔接兑现互链 i2024-10-13）/ i2014-09-25 Code 2014「火星宪法草案」（直接民主/40% 可废法/日落条款；互链 p2025-07-05 America Party 弧线）/ i2018-08-15 MKBHD「我们不花一分钱广告费」（口碑哲学+自付全价购车；2.5 万美元车三年之约未兑现→promises.html#promises-s4）。
+- **甄别与考证**：TED2013 官方转写**无**「die on Mars」句——存量无 id 条目维持原标注，新条独立锚定；Acquired 播客镜像 0 条目+官网抽查无本人出场（公司史叙事，非第一手）不适用留档；Lex #438 入候选池；字幕平面化口径三卡注明（Code2014 百分号脱漏编者补回/king of moss 误听未入引语）。
+- **候选池收尾（计划验收要求）**：消化 3 场+Lex 留档全部落实；保留池 6 场逐条注明（d11-2013/60min-2012/code-2021/ark-2019/e3-2019/lex-438），161 场全清单在 qa/v9-20/round-04/。
+- **管线**：build-search-index（断言访谈 37→42，索引 262→267）/ build-ledger-timeline（109 幂等）/ sync-changelog（194 条）/ 版本三件套 8.4.0→8.5.0（span 14 处打印）/ build-epub（211,383 B）；提交后 build-revisions 191→196 锚点 + EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9；**CDP 探针 29/29**（tools/v9r05-probe.js，端口 9336：文件级 8/桌面结构 4/五卡逐字 5/双语/互链外链真实存在性 4 断言（x-posts#p2025-07-05、promises#promises-s4 等逐条 fetch 验证）/检索 censorship+insurance 命中+DMV 回归/390 零溢出）；node --check 通过；截图 8 张入 qa/v9-20/round-05/（before=worktree @9adff03 独立服务 8767 真改前双视口，after=五新卡桌面定位+R05 批次 390）。
+- **提交**：成果 `c7431d1`（v8.5.0，40 文件）；本回填+revisions+EPUB 为第二提交。
+- **下一轮预告**：R06 文档馆扩充——先查重站内 14 份（五份 SEC EDGAR 已在册），候选：Tesla 官方博客 Master Plan 系列查缺（Part 3/4 摘录页）、SpaceX 官方更新信（Starship 进展）、SEC 文件（Tesla S-1 2010 关键段、10-K 风险因子摘录、xAI 相关披露若有）；目标 +3~5，每份原文摘录+本站注释+与账本互链。
