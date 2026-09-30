@@ -1,0 +1,40 @@
+[文件级] search-index.js
+  ✓ 索引含新文档 d2010-01-29
+  ✓ 索引含新文档 d2010-05-04
+  ✓ 索引含新文档 d2021-11-26
+  ✓ 索引含新文档 d2022-02-07
+  ✓ 索引一手文档计数=18
+  ✓ 索引总数=271
+  ✓ 四卡逐字句入索引
+  · CDP 已连上，targets=5
+[桌面] 结构与渲染
+  ✓ 带 id 文档总数=18
+  ✓ 四份新文档全部渲染
+  ✓ 新卡五件套（h2/doc-meta/zh-line/note 各≥1）
+  ✓ 新卡至少两个 blockquote（多段摘录）
+  ✓ Permalink 一一对应（18/18）
+[桌面] 四卡逐字（源=EDGAR 原文/镜像 email 底本+二源转载）
+  ✓ S-1 卡逐字（总纲+关键人+赤字）
+  ✓ Acronyms 卡逐字（禁令+词表+Tripod）
+  ✓ Raptor 卡逐字（crisis+bankruptcy+flight rate）
+  ✓ 10-K 卡逐字（Technoking+无固定期限）
+  ✓ doc-path 口径升级（十八份/eighteen documents）
+  ✓ 四卡双语（zh-line 中文 + badge/标题英文原文）
+[桌面] 互链与锚完整性
+  ✓ 全页 #d… 锚零缺失
+  ✓ 全页 #e…/跨页锚零缺失
+  ✓ S-1 卡互链 primary.html#e2010-06-29 真实存在
+  ✓ Raptor 卡互链 primary.html#e2019-09-28 与 x-posts.html#p2024-10-13 真实存在
+  ✓ Acronyms 卡互链 interviews.html#i2021-07-30 真实存在
+  ✓ 10-K 卡互链 d2024-04-29/d2022-10-27 页内存在
+  ✓ reading.html 计数同步（十八份）
+[检索] q=Technoking / q=acronyms / 回归 q=funding secured
+  ✓ Technoking 命中含 d2022-02-07
+  ✓ acronyms 命中含 d2010-05-04
+  ✓ Raptor 命中含 d2021-11-26
+  ✓ 存量回归：wild swings 命中不回退（d2018-08-07）
+[390] 溢出
+  ✓ scrollWidth≤390（零横向溢出）
+  ✓ 四份新文档 390 可见且无内部溢出
+
+探针结论：31 过 / 0 败

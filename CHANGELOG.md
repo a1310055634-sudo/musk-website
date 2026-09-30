@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v8.6.0 — 2026-10-01 · V9-20 R06/20：文档馆扩充（SpaceX 全员信 + SEC 文件）
+
+**主题包成果（V9-20 R06 · documents.html 14 → 18 份）**
+- **两封 SpaceX 全员信入册（elonmuskarchive.org email 库，全部「员工外流文本」口径如实标注）**：**d2010-05-04**「Acronyms Seriously Suck」——自造缩写禁令三段逐字（"a significant impediment to communication" / "Unless an acronym is approved by me, it should not enter the SpaceX glossary" / VTS-3 四音节 vs Tripod 两音节），与 i2021-07-30 五步算法互链为「减法哲学」档案对；公开 gist 全文转载与镜像底本逐字一致（Ashlee Vance 传记亦收录）。**d2021-11-26** Raptor「破产警报」信——"the Raptor production crisis is much worse than it had seemed a few weeks ago… There is no way to sugarcoat this" + "a genuine risk of bankruptcy if we can't achieve a Starship flight rate of at least once every two weeks next year"；兑现注脚：每两周一飞未兑现（IFT-1 迟至 2023-04-20，见 e2019-09-28），破产未发生（两年半后塔架捕获 p2024-10-13）；Newsweek 版引句一处逗号异文照录。
+- **两份 SEC EDGAR 文书入册（引文全部逐字取自 EDGAR 原文，备案号在册）**：**d2010-01-29** Tesla Form S-1（IPO 招股书，备案号 0001193125-10-017054）——商业模式总纲 + 首份「关键人风险」因子（Musk/Straubel 无固定期限雇佣协议）+ 资产负债实况（累亏 2.364 亿美元），与 e2010-06-29 IPO 条目互链；**d2022-02-07** Tesla Form 10-K FY2021（备案号 0000950170-22-000796）——"highly dependent on the services of Elon Musk, Technoking of Tesla and our Chief Executive Officer"，与 S-1 同名风险因子跨十二年对照（头衔玩梗进入监管文本），与 d2024-04-29 薪酬再批互链。
+- **计划候选盘点**：Master Plan 系列查缺——Part 1（d2006-08）/ Part Deux（d2016-07-20）/ Part 3（d2023-04-05）/ Part IV（d2025-09-01）四份已全在册，无缺；SpaceX「官方更新信」以 email 库两封全员信落位；xAI 无 SEC 备案（私营公司），Series E 官方公告已在册（d2026-01）。
+- **口径与互链同步**：documents.html og:description 与 doc-path 导读（中英双语）改写为十八份版；reading.html「十四份一手文档」升「十八份」；四份新词条互链 10 处（e2010-06-29/e2019-09-28/i2021-07-30/p2024-10-13 与 d2006-08/d2010-01-29/d2022-02-07/d2022-10-27/d2022-11-16/d2024-04-29 等站内锚）。
+- **检索断言同步**：tools/build-search-index.py 一手文档断言 14→18，索引 267→271 条（109+18+42+31+5+53+4+9）。
+- **版本三件套**：8.5.0→8.6.0（VERSION/app.js/14 页 span，替换计数打印在案）。
+
+**质量门**
+- verify.py 9 项全绿（37 页/索引 271）；node --check 通过；CDP 探针全过（四新卡渲染/结构五件套/Permalink 18 对/双语 data-en/页内互链目标存在性/390 无溢出/检索命中）；EPUB 重跑（24 章）。纯本地提交，不推送。
+
 ## v8.5.0 — 2026-10-01 · V9-20 R05/20：访谈扩充 II（Lex 候选消化 + 官方转写新批次）
 
 **主题包成果（V9-20 R05 · 访谈 37 → 42 条）**

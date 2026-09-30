@@ -300,6 +300,32 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2010-01-29",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2010.01.29",
+  "s": "Tesla Motors Form S-1（IPO 招股书关键段）",
+  "q": "“We design, manufacture and sell high-performance fully electric vehicles and advanced electric vehicle powertrain components. We have intentionally departed from the traditional automotive industry model by both exclusively focusing on electric powertrain technology and owning our vehicle sales and service network.”",
+  "zh": "",
+  "bg": "商业模式宣言与赤字实况同页并置：一面是「有意识地背离传统汽车业模式」，一面是累亏 2.364 亿美元——这正是 2008 圣诞夜生死线之后、IPO 前夜的 Tesla 真实刻度。上市募资是 2006 蓝图产品阶梯走到第三级（Model S）的入场券（见 d2006-08）。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "d2010-05-04",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2010.05.04",
+  "s": "Acronyms Seriously Suck（SpaceX 全员信）",
+  "q": "“There is a creeping tendency to use made up acronyms at SpaceX. Excessive use of made up acronyms is a significant impediment to communication and keeping communication good as we grow is incredibly important.”",
+  "zh": "",
+  "bg": "这不是词汇洁癖，是沟通半径的制度化：扩张期最大的隐性成本是「新人读不懂的黑话」，他的解法是让 CEO 本人来当全公司的词表闸门。为两个音节较真，与后来的「五步算法」（i2021-07-30：先质疑需求、再删部件、最后删掉一切不必要的词）一脉相承——都是对复杂度的宣战。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "c2010-06",
   "pg": "chronicle.html",
   "t": "编年史",
@@ -2009,6 +2035,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2021-11-26",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2021.11.26",
+  "s": "The Raptor “Bankruptcy” Email（SpaceX 全员信 · Starship 进展警报）",
+  "q": "“Unfortunately, the Raptor production crisis is much worse than it had seemed a few weeks ago. As we have dug into the issues following the exiting of prior senior management, they have unfortunately turned out to be far more severe than was reported. There is no way to sugarcoat this.”",
+  "zh": "",
+  "bg": "这封信把 Starship 从远景拉回报表：不是「去火星的浪漫」，而是「每两周一次发射」的现金流纪律。Raptor 引擎量产爬坡失利叠加 Starlink 的巨额现金消耗，感恩节周末被要求继续工作——「第一性原理」的背面是「第一性现金流」。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "i2021-12",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -2070,6 +2109,19 @@ window.SEARCH_INDEX = [
   "q": "“In terms of priority of products, I think the most important product development we’re doing this year is actually the Optimus humanoid robot. … This I think has the potential to be more significant than the vehicle business over time.”",
   "zh": "论产品优先级，我认为我们今年最重要的产品开发，其实是 Optimus 人形机器人。……我认为它有潜力随时间变得比汽车业务更重要。",
   "bg": "Optimus had been a one-slide surprise at AI Day in 2021.08 (see 2021.08). Five months later, on the Q4 2021 call, the humanoid robot got its first earnings-call billing — ranked above every car Tesla made.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "d2022-02-07",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.02.07",
+  "s": "Tesla Form 10-K（FY2021 · 关键人风险「Technoking」）",
+  "q": "“In particular, we are highly dependent on the services of Elon Musk, Technoking of Tesla and our Chief Executive Officer.”",
+  "zh": "",
+  "bg": "把这一段与 2010 年 S-1 的同名风险因子逐行对照（d2010-01-29），十二年间唯一的实质变化是头衔：从「Chief Executive Officer, Product Architect and Chairman」变成「Technoking of Tesla and our Chief Executive Officer」。「Technoking」是公司 2021 年向 SEC 报备的正式职务名称（10-K 签名页同样署此衔）——玩笑进入了监管文本，而风险因子一字未删。",
   "c": [
    "Tesla"
   ]
