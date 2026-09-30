@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v8.5.0 — 2026-10-01 · V9-20 R05/20：访谈扩充 II（Lex 候选消化 + 官方转写新批次）
+
+**主题包成果（V9-20 R05 · 访谈 37 → 42 条）**
+- **计划必做项完成——Lex 候选全部消化入册（V8 R06 已核实引语，本轮补立条目）**：**i2021-12-28-2**「给生命本身买保险」（Lex #252 文明与火星段）——霍金每世纪 1% 文明终结概率 + "life insurance for life" 名句 + "foundationally, I love humanity" 收束信条，文明灭绝「bang or a whimper」两种方式（人口崩溃是呜咽/三战是巨响）入编者注；**i2023-11-10-2**「言论自由的试金石」（Lex #400）——"Free speech only matters if people you don't like are allowed to say things you don't like"（官方逐字稿 01:43:13 段）+ "what is the worst thing that happened on Earth today" 媒体批评（02:02:38 段，V8 R06 留档段一并落实）。
+- **三条新场次入册（elonmuskarchive.org interview 库官方转写，全部 transcript 直读）**：**i2013-02-27** TED2013「一枚完全且快速可复用的火箭」——SpaceX 目标宣言 + 航天飞机十亿美元/次对比；"rapidly and fully reusable" 十一年后由塔架接住兑现（页内互链 i2024-10-13）；**i2014-09-25** Code Conference 2014「火星宪法草案」——直接民主/废法比立法易/日落条款（60% 立法、40% 可废），与 2025 America Party 纲领互链 x-posts.html#p2025-07-05；**i2018-08-15** MKBHD Talking Tech「我们不花一分钱广告费」——口碑哲学 + "I actually even pay full retail price for my own cars"，2.5 万美元车「三年之约」未兑现入承诺档案注（promises.html#promises-s4）。
+- **甄别与留档（EXPANSION.md 详录）**：TED2013 官方转写中**无**「I would like to die on Mars」句——存量无 id 条目「die on Mars」（约 2013 广泛征引）维持原标注不动，新 i2013-02-27 条目独立锚定官方转写，两不相扰；Acquired 播客镜像库 0 条目、官网 11 页单集列表抽查无 Musk 本人出场（公司史叙事播客，主角非其本人），不构成第一手信息，留档不立条；Lex #438（2024-08 Neuralink 团体访谈）转写在档本轮不立，入候选池。
+- **检索断言同步**：tools/build-search-index.py 访谈断言 37→42，索引 262→267 条（109+14+42+31+5+53+4+9）。
+- **版本三件套**：8.4.0→8.5.0（VERSION/app.js/14 页 span，替换计数打印在案）。
+
+**质量门**
+- verify.py 9 项全绿（37 页/索引 267）；node --check 通过；CDP 探针全过（五新卡渲染/六件套/Permalink 42 对/双语/页内互链目标存在性/390 无溢出/检索命中）；EPUB 重跑。纯本地提交，不推送。
+
 ## v8.4.0 — 2026-10-01 · V9-20 R04/20：访谈扩充 I（镜像官方转写批次）
 
 **主题包成果（V9-20 R04 · 访谈 33 → 37 条）**

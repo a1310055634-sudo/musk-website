@@ -417,6 +417,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2013-02-27",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2013.02.27",
+  "s": "「一枚完全且快速可复用的火箭」",
+  "q": "“The goal of SpaceX is to try to advance rocket technology, and in particular to try to crack a problem that I think is vital for humanity to become a space-faring civilization, which is to have a rapidly and fully reusable rocket.” — “The space shuttle was an attempt at a reusable rocket… the parts that were reusable took a 10,000-person group nine months to refurbish for flight. So the space shuttle ended up costing a billion dollars per flight.”",
+  "zh": "",
+  "bg": "SpaceX 成立五岁，Falcon 9 刚飞过两次。他在 TED 讲台上把真正的使命摆上台面——火星还在其次，先让火箭可复用：今天的每一枚火箭都只飞一次，就像游轮每航一次就烧掉船。他在这里给出的目标宣言，要到十一年后的塔架接住那一刻才被证明。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2013-05-08",
   "pg": "primary.html",
   "t": "言行实录",
@@ -520,6 +533,19 @@ window.SEARCH_INDEX = [
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "i2014-09-25",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2014.09.25",
+  "s": "「火星宪法草案」",
+  "q": "“I think most likely the form of government on Mars would be a direct democracy… people voting directly on issues… I would recommend some adjustment for the inertia of laws… it should probably be easier to remove a law than create one… My recommendation would be, let's say, 60 of people need to vote in a law, but at any point greater than 40 percent of people can remove it. And any law should come with a sunset… a built-in sunset provision.”",
+  "zh": "",
+  "bg": "Kara Swisher 把最后一问留给火星：那上面的政府、法律和法院怎么办？他以「刚宣布自己是火星国王」的玩笑开场——随后给出了他历次登台以来最具体的一份治理方案。",
+  "c": [
+   "综合"
   ]
  },
  {
@@ -1271,6 +1297,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2018-08-15",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2018.08.15",
+  "s": "「我们不花一分钱广告费」",
+  "q": "“The way to sell any product is through word of mouth… the key is to have a product that people love… We're not spending money on advertising or endorsements… Anyone who buys our car, they just bought it because they like the car. And it's genuine. No discounts — I actually even pay full retail price for my own cars.”",
+  "zh": "",
+  "bg": "「生产地狱」最深处，Model 3 爬坡正焦头烂额。他在弗里蒙特工厂的鸟瞰平台上，接待了 YouTube 最大的科技频道——并解释了 Tesla 为什么从来不买广告。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "i2018-09",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -1994,6 +2033,19 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "SpaceX"
+  ]
+ },
+ {
+  "id": "i2021-12-28-2",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2021.12.28",
+  "s": "「给生命本身买保险」",
+  "q": "“There's, let's say for argument's sake, a 1% chance per century of a civilization ending event. Like that was Stephen Hawking's estimate. I think he might be right about that. We should basically think of this, being a multi-planet species, just like taking out insurance for life itself, like life insurance for life.” — “The reason I guess I care about us becoming a multi-planet species and a space bearing civilization is foundationally, I love humanity.”",
+  "zh": "",
+  "bg": "被追问「一家亏钱的火箭公司到底有什么意义」时，他搬出霍金的那个数字——每世纪百分之一的文明终结概率——然后用一个词组给整个火星命题收尾：给生命本身买保险。",
+  "c": [
+   "综合"
   ]
  },
  {
@@ -2833,6 +2885,19 @@ window.SEARCH_INDEX = [
   "bg": "第 400 期，Lex 当面向他转述一份 AI 整理的「预测清单」——他名下各公司承诺过的交付日期与兑现日的落差，结论是 “you're often too optimistic about how long it takes to get something done”。他刚讲完自己两场诉讼全胜，紧接着主动认领了这一条，整段没有任何辩解。",
   "c": [
    "综合"
+  ]
+ },
+ {
+  "id": "i2023-11-10-2",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2023.11.10",
+  "s": "「言论自由的试金石」",
+  "q": "“Free speech only matters if people you don't like are allowed to say things you don't like. Because if that's not the case, you don't have free speech and it's only a matter of time before the censorship has turned upon you.” — “Mainstream media is almost relentlessly negative about everything. I mean, really, the conventional news tries to answer the question, what is the worst thing that happened on Earth today? And it's a big world. So on any given day, something bad has happened.”",
+  "zh": "",
+  "bg": "从 Twitter Files 讲到旧审查名单，他用一句话说清自己当初买下 X 到底为了什么——随后把话头转向媒体。Lex 递了句台阶「（X）已经比主流媒体好了」，他没接，走向了另一头。",
+  "c": [
+   "X / Twitter"
   ]
  },
  {
