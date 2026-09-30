@@ -24,7 +24,7 @@
 | 01 | V8 R10 收尾 + V9-20 基建（账本/锁/gitignore） | complete | v8.1.0 | 9cc5d46 | 含 V8 R10 本地版 24020fe |
 | 02 | X 帖回捞 I（2020–2021），目标 23→27± | complete | v8.2.0 | d3c2a3c | +4 帖；Hertz 重验入册；年份分组两处修正；探针 24/24 |
 | 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | complete | v8.3.0 | c049610 | +4 帖（Cybertruck 首交付/特拉华判决/Trump 背书重验/America Party）；探针 32/32 |
-| 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | pending | — | — | — |
+| 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | complete | v8.4.0 | 52a03fc | +4 条（Code 2016 仿真论证/Satellite 2020 双零/EA 2021 五步算法/All-In 2024 DMV 重验）；Decode 2018 弃收；探针 29/29 |
 | 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | pending | — | — | — |
 | 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | pending | — | — | — |
 | 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | pending | — | — | — |
@@ -85,3 +85,14 @@
 - **验证**：verify.py 9/9；**CDP 探针 32/32**（tools/v9r03-probe.js，端口 9334：渲染/时序/五件套唯一/Permalink 31 对/四新卡逐字含 Trump 卡整卡相等断言/双语/年份分组四卡归组+2024 组八卡序/卡间互链/跨页锚真实/检索 endorse 命中+Gamestonk 回归/390 零溢出）；node --check 通过；截图 6 张入 qa/v9-20/round-03/（before=HEAD 版 2023 组末尾+四新卡桌面+390）。
 - **提交**：成果 `c049610`（v8.3.0，47 文件）；本回填+revisions+EPUB 为第二提交。
 - **下一轮预告**：R04 访谈扩充 I——先查重站内 33 条（i2016-09-27/i2022-04-14/i2023-11-29 等在册），候选：Code Conference 2016（Recode 全文稿）/ Everyday Astronaut 星舰专访（2022-04、2023-06）/ Kara Swisher 2018/2020 / Satellite 2020；目标 +4~6 条，逐字源 URL 留档进账本「核实来源留档」节，无把握不立条。
+
+## 第 4 轮工作记录（访谈扩充 I：镜像官方转写批次）— complete（2026-10-01）
+
+- **采料管线升级（本轮最大发现）**：镜像站存在 **interview 类型库**——`/agents/index?type=interviews&list=1` 共 **161 场（2003 起全收录）**，`/agents/transcript/{id}` 直读官方转写全文（text/transcriptSource/date 三字段）。计划候选四场三场直接命中（code-conference-2016-06-01、satellite-2020-keynote-2020-03-09、starbase-tour 三部曲 2021-07-30），另有 all-in-summit-2024-musk 支撑弃收重验。全清单存 qa/v9-20/round-04/interviews-all.json，即 **R05 候选池**（MKBHD 2018、Code 2014/2021、TED 2013、D11 2013 等均在档）。
+- **四条入册（33→37，六件套模板克隆+data-en 全配）**：i2016-06-01 Code Conference「one in billions chance…base reality」（本人转发推文 x-738470842695176192 佐证，snowflake 2016-06-02 20:42 UTC）；i2020-03-09 SATELLITE 2020「Zero impact whatsoever…Zero」双零承诺+「fully and rapidly reusable rocket」（BI 双源）；i2021-07-30 EA 星舰基地巡礼三部曲「a factory is underrated and design is overrated」+五步算法完整版（拍摄日锚；EA 官网编辑版变体已注明）；**i2024-09-08 All-In Summit「The government is the DMV at scale」——V8 R07 弃收件重验入册**（原单源笔记→镜像官方转写 53,865 字符，双源成立；日期以镜像锚 09-08 为准）。transcript 证据 7 份存 qa/v9-20/round-04/sources/。
+- **甄别与弃收**：Kara Swisher Recode Decode 2018-11-02 **弃收**——镜像转写为主播事后复盘（全程间接转述），Vox/recode.net/web.archive.org 三路本机不可达，重验条件留档 EXPANSION；Code 2016 字幕平面化口径、EA 措辞两版、All-In 日期差异均卡内注明。
+- **管线**：build-search-index（断言访谈 33→37，索引 258→262；**附带增强**：ctx 正则放宽兼容 data-en 版式，17 张卡此前恒空的 bg 字段补全——CHANGELOG 已注明理由，口径不变）/ sync-changelog（193 条）/ 版本三件套 8.3.0→8.4.0（span 14 处打印）/ build-epub（207,570 B）；提交后 build-revisions 187→191 锚点 + EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9；**CDP 探针 29/29**（tools/v9r04-probe.js，端口 9335：索引文件级 6 断言/桌面结构+逐字+双语+互链 15 断言/检索 DMV+billions 命中+存量 blackmail 回归/390 零溢出）；node --check 通过；截图 7 张入 qa/v9-20/round-04/（before=33f5b2c 版经 git worktree 独立服务 8767 截取真改前首屏，四新卡桌面定位+390）。
+- **环境记录**：web.archive.org 本机持续超时（与 V8 R08 记录一致）；vox.com/recode.net 不可达（Connect Timeout/500）。
+- **提交**：成果 `52a03fc`（v8.4.0，52 文件）；本回填+revisions+EPUB 为第二提交。
+- **下一轮预告**：R05 访谈扩充 II + Lex 候选消化——必做：把 V8 R06 已核实的 Lex #252（I love humanity / life insurance for life / bang or a whimper）与 #400（free-speech 段）已核实引语立条；候选池：镜像 interview 库 161 场官方转写（MKBHD 2018 计划点名、Code 2014/2021、TED 2013、D11 2013、ARK 2019 等），挑 2~4 场立条；Acquired 播客查官方稿；目标 EXPANSION 候选清零或逐条注明保留原因。
