@@ -20,7 +20,7 @@
 | 04 | 财报电话会 I（2013–2018） | complete | v7.4.0 | 7440bd7 | done |
 | 05 | 财报电话会 II（2019–2026） | complete | v7.5.0 | 10b41bd | done |
 | 06 | 长访谈 I：Lex Fridman 四期 | complete | v7.6.0 | 51023ee | done |
-| 07 | 长访谈 II：Rogan / TED / All-In / DealBook | pending | — | — | — |
+| 07 | 长访谈 II：Rogan / TED / All-In / DealBook | in_progress | — | — | — |
 | 08 | X 帖史扩容（含 Wayback 核对已删帖） | pending | — | — | — |
 | 09 | SpaceX / Neuralink / xAI 官方演讲 | pending | — | — | — |
 | 10 | 全站验收与发布 v8.0.0 | pending | — | — | — |

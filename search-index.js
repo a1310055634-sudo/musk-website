@@ -854,6 +854,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2017-04-28",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2017.04.28",
+  "s": "「最摧残灵魂的东西，是堵车」",
+  "q": "“Right now, one of the most soul-destroying things is traffic. It affects people in every part of the world. It takes away so much of your life. It’s horrible.”",
+  "zh": "",
+  "bg": "Boring Company 成立五个月，他带着隧道概念视频第一次登上 TED 舞台。开场问题略带反讽——「Why are you boring?」——他把一家玩笑公司讲成城市交通的系统性方案：地铁贵，是因为巨型定制机器挖大断面隧道；把隧道直径砍半、挖掘与加固同时完成，成本就能降一个数量级。",
+  "c": [
+   "Boring Company"
+  ]
+ },
+ {
   "id": "e2017-07-09",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1232,6 +1245,32 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2018-09",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2018.09",
+  "s": "「AI 一定会被用作武器」",
+  "q": "“It’s going to be very tempting to use A.I. as a weapon. In fact, it will be used as a weapon.” — “It’s not necessarily bad; it’s just, it’s definitely going to be outside of human control.”",
+  "zh": "",
+  "bg": "同一场对话的前半段。罗根说 Sam Harris 那期把他吓得够呛，马斯克则给出他讲了多年的判断——但这次多了一层现实政治的冷峻：危险的第一站不是机器觉醒，而是人拿它对付人。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "i2018-09-07",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2018.09.07",
+  "s": "「那是大麻卷烟，还是雪茄？」",
+  "q": "“So, is that a joint? Or is it a cigar?” — “I mean, it’s legal, right?” — “Alcohol is a drug that’s been grandfathered in.”",
+  "zh": "",
+  "bg": "私有化推文风暴（e2018-08-07）整整一个月后，他第一次坐上乔·罗根的播客台，节目直播两个半小时。谈到酒与烟时，罗根递来一支烟草与大麻的混合卷烟——特斯拉正处在私有化调查与 Model 3 量产的双重压力下，CEO 当众吸食大麻的画面成了企业史上被引用最多的播客片段之一。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2018-09-27",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1491,6 +1530,32 @@ window.SEARCH_INDEX = [
   "bg": "Six weeks after the Cybertruck unveiling — and the broken-window memes (see 2019.11.21) — Tesla’s shares had quietly gone vertical. On the Q4 2019 call Musk had two data points to report: one about the truck everyone was still laughing at, one about self-driving.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "i2020-05",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2020.05",
+  "s": "「火星更重要，还是房子？」",
+  "q": "“Like what’s more important? Mars or a house? I’m like Mars.”",
+  "zh": "",
+  "bg": "六天前他在推特上宣布「卖掉几乎所有有形财产，不再拥有房子」，全网猜测动机。节目中他给出了自己的时间经济学——连给自己盖房的时间，都要与「把人类送上火星」做机会成本比较。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "i2020-05-07",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2020.05.07",
+  "s": "「文明现在看起来很脆弱」",
+  "q": "“Well, assuming civilization is still around, it’s looking fragile right now.”",
+  "zh": "",
+  "bg": "疫情封锁第九周，复工之争正酣——两周前他刚在财报会上放话对峙加州（背景见账本 e2020-05-11），四天前刚得第三子。罗根请他畅想 25 年后的世界，他先给了一句定调。",
+  "c": [
+   "综合"
   ]
  },
  {
@@ -1818,6 +1883,19 @@ window.SEARCH_INDEX = [
   "q": "“Thank you for joining! Parag is an incredible engineer. The board is terrible. Always here to talk through anything you want.” — “I couldn't be happier you're doing this. I've wanted it for a long time. Got very emotional when I learned it was finally possible.”",
   "zh": "谢谢你加入！Parag 是个了不起的工程师。董事会糟透了。任何时候想聊都可以找我。——你做这件事我高兴得不能再高兴了。我盼这一天很久了。得知终于有可能时，我激动得不行。",
   "bg": "On April 4 his 9.2% passive stake was disclosed — the largest single shareholder; on April 5 Twitter announced he would join the board. That same day, Dorsey congratulated him in private — and delivered his verdict on the company's power structure.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "i2022-04-06",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2022.04.06",
+  "s": "「人口崩溃是文明最大的威胁之一」",
+  "q": "“Population collapse is one of the biggest threats to the future of human civilization. And that is what is going on right now.”",
+  "zh": "",
+  "bg": "得州超级工厂开幕日前夜，Chris Anderson 到厂区录这期长谈：Optimus、可持续能源、火星，最后落到「你为什么做这一切」。八天后他在 TED 温哥华现场解释 Twitter 要约（见本页 i2022-04-14）——「文明叙事」与「平台收购」同一周先后成为头条。",
   "c": [
    "X / Twitter"
   ]
@@ -2757,6 +2835,19 @@ window.SEARCH_INDEX = [
   "bg": "Thirteen days after “We, Robot” (see 2024.10.10), Tesla posted a quarter that beat on margins, and the stock jumped about 22% the next day — its best session in over a decade (Fortune). On the call, Musk packaged the results and the event into a single prediction.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "i2024-11-04",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2024.11.04",
+  "s": "「这是最后一届选举」",
+  "q": "“I think this was the last election. If Trump doesn’t win, this is the last election.”",
+  "zh": "",
+  "bg": "投票日前一天，他登上罗根节目为特朗普站台——罗根选前最后一位嘉宾。从收购 Twitter（本页 i2022-04-14）到 2024 年 7 月背书、10 月起深度介入摇摆州地面战，这是他政治转向的收官陈述。",
+  "c": [
+   "X / Twitter"
   ]
  },
  {

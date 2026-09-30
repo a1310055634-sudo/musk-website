@@ -2,6 +2,25 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v7.7.0 — 2026-09-30 · V8 扩充（7/10）：长访谈 II · Rogan / TED / DealBook
+
+**主题包成果（V8 R07 · interviews.html 26 → 33 条）**
+- **七条长访谈条目入册（引语逐字取自逐字稿或官方转录，关键处两源印证）**：
+  **i2017-04-28** TED 2017 温哥华「最摧残灵魂的东西，是堵车」+「It's maybe two or three percent」的爱好自陈（ted.com 官方逐字稿）；
+  **i2018-09-07** JRE #1169 大麻卷烟时刻——次日 Guardian/CNBC 报道股价跌约 6%、两位高管辞职，六周后 SEC 起诉（互链 e2018-08-07 / e2018-09-27）；
+  **i2018-09** JRE #1169「AI 一定会被用作武器」+「超出人类控制」（全文逐字稿在档，互链 AI 战略布局）；
+  **i2020-05-07** JRE #1470「文明现在看起来很脆弱」+「What's that? I never heard of it.」疫情冷面段（Rev.com 官方逐字稿，互链 e2020-05-11）；
+  **i2020-05** JRE #1470「Mars or a house? I'm like Mars.」——卖房宣言的时间经济学（Rev.com 官方逐字稿）；
+  **i2022-04-06** TED Giga Texas 开幕前夜「人口崩溃是文明最大的威胁之一」+ curiosity/consciousness 动机自述（ted.com 官方逐字稿，互链 i2022-04-14）；
+  **i2024-11-04** JRE #2223 大选前夜「If Trump doesn't win, this is the last election.」——多家转写出入如实注明（Musixmatch 逐字稿 + Mediaite/The Spectator 记录）。
+- **检索索引 227 → 234 条**（访谈 26→33）；期数/日期勘定：JRE #1169=2018-09-07、#1470=2020-05-07、#2223=2024-11-04（jrelibrary 官方口径）；TED 2017 场次=2017-04-28（TED Blog）。
+- **甄别记录（宁缺毋滥）**：All-In Summit 2024（2024-09-09 LA）无第二媒体直引源，弃收；JRE #2054（2023-10-31）逐字稿不可达且媒体仅转述，弃收；DealBook 2023「滚蛋」名句已在册 i2023-11-29；「I'm fucked / 监狱刑期」名句出自 Tucker Carlson 访谈（2024-10-07）而非 Rogan，已记录防止误引。
+
+**自主优化**
+- 工具脚本 tools/r07-snippet.html + tools/r07-integrate.py（唯一性断言 + CRLF 统一）+ tools/r07-spans.py（版本步进断言 14）。
+
+**质量门**
+- verify.py 9 项全绿（37 页，索引 234）；node --check（app.js + cite.js）通过；EPUB 重跑含最新条目。
 ## v7.6.0 — 2026-09-30 · V8 扩充（6/10）：长访谈 I · Lex Fridman 四期
 
 **主题包成果（V8 R06 · interviews.html 18 → 26 条）**
