@@ -66,8 +66,8 @@ for m in re.finditer(r'<article class="iv-item" id="(i\d[\d-]*)">(.*?)</article>
     quote = re.search(r'<blockquote>(.*?)</blockquote>', b, re.S)
     assert h2 and badges, m.group(1)
     if not quote:
-        quote = re.search(r'<p class="ctx">(.*?)</p>', b, re.S)
-    ctx = re.search(r'<p class="ctx">(.*?)</p>', b, re.S)
+        quote = re.search(r'<p class="ctx[^>]*>(.*?)</p>', b, re.S)
+    ctx = re.search(r'<p class="ctx[^>]*>(.*?)</p>', b, re.S)
     items.append({
         'id': m.group(1), 'pg': 'interviews.html', 't': '访谈与表态',
         'd': strip(badges[0] if re.match(r'2\d{3}', badges[0]) else badges[1] if len(badges) > 1 else badges[0]),
@@ -219,7 +219,7 @@ for _ev in ED.EVENTS:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 109, '一手文档': 14, '访谈与表态': 33, 'X 帖': 31, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
+assert counts == {'言行实录': 109, '一手文档': 14, '访谈与表态': 37, 'X 帖': 31, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

@@ -127,9 +127,9 @@ window.SEARCH_INDEX = [
   "s": "把公司战略写成一句玩笑",
   "q": "“Build sports car. Use that money to build an affordable car. Use that money to build an even more affordable car… Don't tell anyone.”",
   "zh": "",
-  "bg": "",
+  "bg": "Tesla 成立三年，行业共识是电动车永远做不大。他以董事长身份把公司真正的路线图——藏在玩笑里——写上了官方博客。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -196,7 +196,7 @@ window.SEARCH_INDEX = [
   "s": "「第四次总会有好运」",
   "q": "“As the saying goes, the fourth time's the charm… This is one of the best days of my life.”",
   "zh": "",
-  "bg": "",
+  "bg": "三连败之后、金融危机最坏的一周，第四次发射前，他公开承诺：只要还有一线可能，公司就继续打下去。火箭入轨后，他在约 500 名员工面前说了下面这段话。",
   "c": [
    "综合"
   ]
@@ -569,7 +569,7 @@ window.SEARCH_INDEX = [
   "s": "「现有电池的问题在于它们很烂」",
   "q": "“The issue with existing batteries is that they suck. They are expensive, unreliable and bad in every way.” — “We're talking about trying to change the fundamental energy infrastructure of the world.”",
   "zh": "",
-  "bg": "",
+  "bg": "发布会前媒体等的是一辆车，他却抱出一块墙挂电池。整场发布的说服策略只有两步：先把行业贬到底，再把价格亮出来。",
   "c": [
    "综合"
   ]
@@ -621,9 +621,9 @@ window.SEARCH_INDEX = [
   "s": "「造机器的机器」",
   "q": "“The machine that builds the machine.”",
   "zh": "",
-  "bg": "",
+  "bg": "Model X 磕磕绊绊、Model 3 量产在即。他告诉投资者：Tesla 最重要的产品不是任何一辆车，而是工厂本身。全自动化未来工厂甚至有内部代号——「外星无畏舰」。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -675,6 +675,19 @@ window.SEARCH_INDEX = [
   "q": "“The date we are setting with suppliers to get to a volume production capability with the Model 3 is July 1st next year. I would say we would aim to produce 100,000 to 200,000 Model 3s in the second half of next year.”",
   "zh": "我们与供应商约定的日期，是让 Model 3 在明年 7 月 1 日具备量产能力。我想我们的目标是明年下半年生产 10 万到 20 万辆 Model 3。",
   "bg": "Five weeks after the record-order night, suppliers, analysts and short sellers were all asking the same question: could a company that had never built a car at volume actually do it? On the Q1 2016 call, Musk answered with a date.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "i2016-06-01",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2016.06.01",
+  "s": "「我们活在『基础现实』的概率只有十亿分之一」",
+  "q": "“The argument makes sense… There's a one in billions chance that this is base reality… Either we're going to create simulations that are indistinguishable from reality, or civilization will cease to exist. Those are the two options.”",
+  "zh": "",
+  "bg": "Model 3 与 Autopilot 的追问刚过，一位观众把「仿真论证」抛上台——他的回答成了整场大会被引用最多的七分钟。6 月 2 日凌晨他本人转发访谈链接（X 帖 x-738470842695176192，snowflake 解码 2016-06-02 20:42 UTC）。",
   "c": [
    "Tesla"
   ]
@@ -913,9 +926,9 @@ window.SEARCH_INDEX = [
   "s": "「欢迎来到生产地狱」",
   "q": "“Welcome to production hell! That's where we're going to be for at least six months.”",
   "zh": "",
-  "bg": "",
+  "bg": "Model 3 预订压顶、周产 5000 的目标定死、现金时钟在走。第一批车主交付的舞台上，他没有讲愿景，而是讲了一句警告。",
   "c": [
-   "综合"
+   "Tesla"
   ]
  },
  {
@@ -1099,7 +1112,7 @@ window.SEARCH_INDEX = [
   "s": "「人类被低估了」——给自己的公开纠错",
   "q": "“Excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated.”",
   "zh": "",
-  "bg": "",
+  "bg": "两年前他还告诉投资者，工厂是「造机器的机器」、全自动化未来工厂代号「外星无畏舰」。生产地狱里，他公开收回了自己的话。",
   "c": [
    "Tesla"
   ]
@@ -1572,6 +1585,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2020-03-09",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2020.03.09",
+  "s": "「对天文发现不会有任何影响——零」",
+  "q": "“I am confident that we will not cause any impact whatsoever in astronomical discoveries. Zero. That's my prediction. We'll take corrective action if it's above zero.” — “There's really just one thing that matters, that is a fully and rapidly reusable rocket.”",
+  "zh": "",
+  "bg": "Starlink 卫星一批批升空，天文界对亮度的抗议正盛。在华盛顿的卫星业大会上他被当面问到这个问题，当场给出一个数字式的承诺——连说两遍「零」。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "p2020-04-29",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -1672,7 +1698,7 @@ window.SEARCH_INDEX = [
   "s": "「我不太信教，但这一次我祈祷了」",
   "q": "“This is a dream come true for me and everyone at SpaceX.” — “I'm not very religious, but I prayed for this one.”",
   "zh": "",
-  "bg": "",
+  "bg": "Crew Dragon 载人首飞前夜，公司从 2008 年的棺材边走到了国家载人任务的承运席。发射当日他说了这样两段话。",
   "c": [
    "SpaceX"
   ]
@@ -1871,9 +1897,23 @@ window.SEARCH_INDEX = [
   "s": "「讨厌当 CEO，但没有我公司会死」",
   "q": "He said he “hates” being Tesla's CEO — but kept the job because, without him, the company would “die”.",
   "zh": "",
-  "bg": "",
+  "bg": "26 亿美元收购 SolarCity 五年后，股东就关联交易起诉他和董事会。宣誓之下、一坐数小时的证人席上，他说出了对自己角色的最坦白定义。",
   "c": [
+   "SolarCity",
    "Tesla"
+  ]
+ },
+ {
+  "id": "i2021-07-30",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2021.07.30",
+  "s": "「工厂被低估了，设计被高估了」",
+  "q": "“I think, currently, a factory is underrated and design is overrated… It's 10 to 100 times more effort to design the manufacturing system than the engine.” — “It's very common, possibly the most common error of a smart engineer, to optimize the thing that should not exist.”",
+  "zh": "",
+  "bg": "Tim Dodd 带镜头走进 Starbase，两小时里马斯克把一次「看火箭」变成他制造学最完整的公开课——五步算法与 Raptor 制造学在同一天讲透。",
+  "c": [
+   "SpaceX"
   ]
  },
  {
@@ -2107,7 +2147,7 @@ window.SEARCH_INDEX = [
   "s": "「我根本不在乎经济账」",
   "q": "“I don't care about the economics at all… This is not a way to make money… an inclusive arena for free speech… important to the future of civilization.” — “I'm not actually sure I will be able to acquire it.”",
   "zh": "",
-  "bg": "",
+  "bg": "已被拍到成为推特最大股东、拒绝董事会席位之后，他把全现金要约搬上 TED 舞台，当众解释这笔交易的动机。",
   "c": [
    "综合"
   ]
@@ -3020,6 +3060,19 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：巴特勒集会枪击约半小时后的站队帖（原帖 status/1812256998588662068 · 镜像逐字存档；snowflake 解码 UTC 2024-07-13 22:45，Reuters 记录枪响于 UTC 22:11 前后；帖尾附现场照片链接）。V8 期间因镜像覆盖率不足弃收，本轮以 Agent API 精确短语检索一击重验入册。此帖把数年「中间派」姿态一步切换为明确站队：同月 America PAC 成立接管战场州地面行动（FEC 文件 · Reuters 报道），大选周期他个人出资约 2.5 亿美元级（FEC 披露 · AP 汇总口径），10 月起直接登台集会；X 平台同步成为政治放大器（平台变局）。商业与政治自此合流——弧线下一站：决裂与建党，见 p2025-07-05。",
   "c": [
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "i2024-09-08",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2024.09.08",
+  "s": "「政府就是放大到极限的车管所」",
+  "q": "“The government is the DMV at scale.”",
+  "zh": "",
+  "bg": "大选前八周，他把「效率教义」带上 All-In 舞台，用每个人都排过队的场景一句话说尽。",
+  "c": [
+   "综合"
   ]
  },
  {

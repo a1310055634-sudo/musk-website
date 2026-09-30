@@ -2,6 +2,17 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v8.4.0 — 2026-10-01 · V9-20 R04/20：访谈扩充 I（镜像官方转写批次）
+
+**主题包成果（V9-20 R04 · 访谈 33 → 37 条）**
+- **四条访谈入册（全部以 elonmuskarchive.org interview 库官方转写为逐字锚，transcript 全文存档 qa/v9-20/round-04/sources/）**：**i2016-06-01** Code Conference（与 Kara Swisher/Walt Mossberg）「仿真论证」段——"There's a one in billions chance that this is base reality" + 两个选项句，本人转发推文 x-738470842695176192（snowflake 2016-06-02 20:42 UTC）佐证；**i2020-03-09** SATELLITE 2020 开幕 Keynote——天文界之问的 "Zero impact whatsoever… Zero" 双零承诺 + "fully and rapidly reusable rocket"，Business Insider 报道印证；**i2021-07-30** Everyday Astronaut 星舰基地巡礼三部曲（拍摄日锚）——"a factory is underrated and design is overrated" + 五步算法完整版逐字（EA 官网文章 2021-08-11 变体 "manufacturing is underrated" 已注明，以镜像转写为准）；**i2024-09-08** All-In Summit——"The government is the DMV at scale"（**V8 R07 弃收件重验入册**：原单源 podcastnotes 笔记之外新增镜像官方转写 53,865 字符逐字，双源成立；日期口径以镜像库锚 2024-09-08 为准，EXPANSION 旧记 09-09 已注明）。
+- **采料管线升级**：发现镜像站 interview 类型库（161 条，2003 起全收录，含 transcript 端点 /agents/transcript/{id}），四场候选三场直接命中；「Kara Swisher Recode Decode 2018-11-02」镜像所存为主播事后复盘（全程间接转述，无本人逐字），Vox 原文与本机均不可达（vox.com 超时、recode.net 500、web.archive.org 超时）——**弃收留档 EXPANSION**，重验条件注明。
+- **检索断言同步**：tools/build-search-index.py 访谈断言 33→37，索引 258→262 条（109+14+37+31+5+53+4+9）。顺带增强：访谈 ctx 正则放宽为 `<p class="ctx[^>]*>` 以兼容带 data-en 属性的版式，17 张卡（13 存量 + 4 新）此前恒空的 bg（背景句）字段全部补全——纯增强，非校验放宽，q/s/bg 三字段口径不变。
+- **甄别与留档（EXPANSION.md 详录）**：Decode 2018 弃收（转写非本人逐字）；Code 2016 转写为字幕平面化（口吃从略、标点编者所加，卡内注明）；镜像库另存 2014/2021 Code Conference、MKBHD 2018 等 161 场官方转写，作为 R05 访谈扩充 II 的候选池。
+
+**质量门**
+- verify.py 9 项全绿（37 页/索引 262）；node --check 通过；CDP 探针全过（新卡渲染/六件套/Permalink 37 对/双语 data-en/页内互链/390 无溢出/检索命中）；EPUB 重跑。纯本地提交，不推送。
+
 ## v8.3.0 — 2026-10-01 · V9-20 R03/20：X 帖回捞 II（2022–2025 深水区）
 
 **主题包成果（V9-20 R03 · X 帖 27 → 31 张）**
