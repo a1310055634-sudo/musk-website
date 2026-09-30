@@ -2,6 +2,23 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v7.9.0 — 2026-10-01 · V8 扩充（9/10）：SpaceX / Neuralink / xAI 官方演讲与 demo
+
+**主题包成果（V8 R09 · 账本 103 → 109 条）**
+- **六条账本条目入册（官方发布会/demo/演讲逐字，镜像与媒体双源核验）**：
+  **e2017-09-29** IAC 2017 阿德莱德 BFR（「space-faring civilization」句，Business Insider 逐字 + SpaceX 官方视频；互链 e2016-09-27/e2022-02-10）；
+  **e2019-07-16** Neuralink 2019 发布会（「A monkey has been able to control a computer with his brain.」CT Insider/Mashable 双源；互链 e2021-04-09/e2024-01-29）；
+  **e2020-08-28** Gertrude 猪演示（「a Fitbit in your skull with tiny wires」TechCrunch/Globe and Mail 双源）；
+  **e2021-04-09** Pager MindPong（镜像回帖逐字「Sure.」「Hopefully, later this year.」status/1380314267077894148+1380314485324308482，snowflake 00:19 UTC；媒体记录转发语「literally playing a video game telepathically」CNBC/CNET）；
+  **e2022-02-10** Starbase 星舰更新（「I feel, at this point, highly confident that we'll get to orbit this year.」Space.com 逐字——IFT-1 实际晚十四个月，「lose a few vehicles」字面兑现；互链 p2024-10-13）；
+  **e2025-02-18** Grok 3 发布（镜像逐字两帖：「Grok 3 presentation starting shortly.」03:59 UTC +「the world's smartest AI」19:29 UTC；互链 p2023-11-04/grok.html）。
+- **检索索引 244 → 250 条**（言行实录 103→109）；页顶时间轴重建 109 节点；index.html 计数文案 103→109 ×3 处（含 data-en）。
+- **查重勘定**：IAC 2016（e2016-09-27/i2016-09-27）、Starship Mk1（e2019-09-28）、xAI 官宣（e2023-07-12）、xAI 收购 X（e2025-03-28）已在册，本轮不重复立条。
+- **甄别记录（宁缺毋滥）**：①Starship 2022 发布会 Spaceflight Now/Everyday Astronaut 无直引，靠 Space.com（Mike Wall）逐字立条；②Neuralink 2020 TechCrunch 原文 URL 已 404，Fitbit 句以检索摘要多源核对收录；③Grok 3 直播内容逐字不可得，条目只收帖文第一手，「smartest AI on Earth」的现场口号版未采；④Neuralink JMIR 论文（d 条目候选）jmir.org 本机不可达，文档馆本轮不动。
+- **工程备注**：primary.html 行尾已转 LF（与既往 CRLF 惯例不同），集成脚本改为自适应行尾；逐卡结构断言（4 ps-sec/1 quote/1 zh/1 permalink/1 src）全过。
+
+**质量门**
+- verify.py 9 项全绿；node --check（app.js + cite.js）通过；EPUB 重跑。
 ## v7.8.0 — 2026-09-30 · V8 扩充（8/10）：X 帖史扩容 · 十帖入册
 
 **主题包成果（V8 R08 · x-posts.html 13 → 23 张）**

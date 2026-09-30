@@ -1,5 +1,14 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（V8 R09 轮 / 2026-10-01 官方发布会与 demo 逐字核验）**：账本 +6 条（103→109）。来源与方法：①X 帖类用 elonmuskarchive.org 镜像详情页直读（R08 管线复用：snowflake 对表日期）；②演讲/demo 类以媒体逐字报道双源立条（BI/TechCrunch/CT Insider/Mashable/Globe and Mail/Space.com），官方视频（SpaceX YouTube）佐证存在；③Spaceflight Now/Everyday Astronaut 仅转述无直引，如实区分。六条锚点：
+> - **e2017-09-29**（IAC 2017 阿德莱德）：「The future is vastly more interesting and exciting if we're a space-faring civilization and a multiplanet species than if we're not.」= Business Insider（businessinsider.com/elon-musk-iac-mars-colonization-presentation-2017-9）；官方视频 SpaceX YouTube「Making Life Multiplanetary」（tdUX3ypDVwI）；社区逐字稿（r/SpaceXLounge）对勘。
+> - **e2019-07-16**（Neuralink 2019）：「A monkey has been able to control a computer with his brain.」= CT Insider（2019-07-17）+ Mashable 双源；2020 人体试验时间表同场宣布。
+> - **e2020-08-28**（Gertrude）：「a Fitbit in your skull with tiny wires」= TechCrunch（2020-08-28；原文 URL 现已 404，检索摘要多源核对）+ The Globe and Mail（同日）+ Silicon Republic（08-31）。
+> - **e2021-04-09**（Pager MindPong）：镜像回帖逐字 status/1380314267077894148 + status/1380314485324308482（均为 2021-04-09 00:19 UTC）；转发语「A monkey is literally playing a video game telepathically」= CNBC（04-09）+ CNET（04-08）+ Reuters 广泛报道。
+> - **e2022-02-10**（Starbase 更新）：「I feel, at this point, highly confident that we'll get to orbit this year.」+「We'll probably lose a few vehicles along the way.」= Space.com（Mike Wall，02-11 刊）逐字；Spaceflight Now/Everyday Astronaut 同日记录佐证（转述）。
+> - **e2025-02-18**（Grok 3 发布）：「Grok 3 presentation starting shortly.」（03:59 UTC）+「Subscribe to Premium+ to get the world's smartest AI!」（19:29 UTC）+ Grok 官号「grok 3 is the world's smartest AI now available to all Premium+ subscribers」——三条均镜像详情页直读。
+> 甄别记录（宁缺毋滥）：①Grok 3 直播逐字不可得（livestream 无转录），「smartest AI on Earth」现场口号版未采——条目只收帖文第一手；②Neuralink 2019 演讲完整逐字稿无公开版（Q&A 媒体记录为准）；③JMIR 2020 Neuralink 论文（d2020-10-16 候选）jmir.org 本机不可达未收录；④Neuralink 2019 的「symbiosis」表述多出现在后续访谈而非本场逐字，未采用。
+
 > **新事实入包（V8 R08 轮 / 2026-09-30 X 帖史镜像直读核验）**：x-posts.html +10 张（13→23）。采料方法：web.archive.org 本机不可用，改用 **elonmuskarchive.org 镜像**（/posts/{statusID} 详情页直读=逐字锚，列表页按年分页 20 帖/页，sort=old 全量回溯；status ID→日期用 snowflake 解码 `(id>>22)+1288834974657` 对表复核）。十条锚点与印证源：
 > - **p2020-03-06** status/1236029449042198528（snowflake 2020-03-06 20:42 UTC）：CNBC cnbc.com/2020/03/06/teslas-elon-musk-says-the-coronavirus-panic-is-dumb.html + Reuters idUSKBN20T2WK。
 > - **p2020-05-01** status/1256239554148724737（15:10）+ status/1256239815256797184（15:11）两连发：镜像逐字；当日股价大跌与卖房后续媒体广泛报道；五周后 JRE #1470「Mars or a house」自释（站内 i2020-05）。

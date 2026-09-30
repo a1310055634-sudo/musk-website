@@ -945,6 +945,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2017-09-29",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2017.09.29",
+  "s": "IAC 2017 阿德莱德全会演讲（Business Insider 报道逐字 · SpaceX 官方视频在档 · 社区逐字稿对勘）",
+  "q": "“The future is vastly more interesting and exciting if we’re a space-faring civilization and a multiplanet species than if we’re not.”",
+  "zh": "如果我们是一个太空文明、一个多行星物种，未来会远比不是如此的情形更有趣、更振奋。",
+  "bg": "A year after Guadalajara, the 12-meter ITS was criticized as too big to land anywhere. Musk came back with a rocket cut roughly in half — BFR — and folded Moon bases, Earth point-to-point trips and a Mars city into one single architecture.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2017-11-01",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1428,6 +1441,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2019-07-16",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2019.07.16",
+  "s": "Neuralink 2019 发布会（旧金山 · CT Insider/Mashable 报道逐字）",
+  "q": "“A monkey has been able to control a computer with his brain.”",
+  "zh": "一只猴子已经能用它的大脑控制一台电脑了。",
+  "bg": "Three years after its founding, Neuralink finally showed its work: a sewing-machine robot, flexible polymer threads with up to 1,024 channels, the N1 sensor chip — and a timeline: human trials as early as 2020.",
+  "c": [
+   "Neuralink"
+  ]
+ },
+ {
   "id": "e2019-09-28",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1664,6 +1690,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2020-08-28",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2020.08.28",
+  "s": "Neuralink 2020 线上发布会「三只小猪」（TechCrunch · Globe and Mail 报道逐字）",
+  "q": "“a Fitbit in your skull with tiny wires”",
+  "zh": "「颅骨里戴着细电线的 Fitbit。」——他在整场演示中多次用这个说法形容设备（TechCrunch 记录）。",
+  "bg": "A cleared-stage demo in the pandemic year: three pigs, one of them Gertrude, implanted for two months, her neurons ticking live on the big screen. The coin-sized device had gone from slideware to something that fit inside a skull.",
+  "c": [
+   "Neuralink"
+  ]
+ },
+ {
   "id": "e2020-09-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1754,6 +1793,19 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX",
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "e2021-04-09",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2021.04.09",
+  "s": "本人 X 转发与回帖（镜像逐字存档 elonmuskarchive.org · CNBC/CNET 报道）",
+  "q": "“Sure.” — “Hopefully, later this year.”",
+  "zh": "「当然。」——「希望今年晚些时候。」被问「没有瘫痪的健康人能否申请植入、像打游戏一样意念操作」，他答前者；被问人体试验何时开始，他答后者（镜像回帖逐字，status/1380314267077894148 + status/1380314485324308482）。",
+  "bg": "Neuralink released Pager, a macaque playing Pong with decoded brain signals — “MindPong”, the first behavioral proof after the 2020 pig demo. Musk amplified it and took questions in the replies himself.",
+  "c": [
+   "Neuralink"
   ]
  },
  {
@@ -1873,6 +1925,19 @@ window.SEARCH_INDEX = [
   "bg": "Optimus had been a one-slide surprise at AI Day in 2021.08 (see 2021.08). Five months later, on the Q4 2021 call, the humanoid robot got its first earnings-call billing — ranked above every car Tesla made.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "e2022-02-10",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2022.02.10",
+  "s": "Starbase 星舰更新发布会（Space.com 报道逐字 · Spaceflight Now/Everyday Astronaut 同日记录）",
+  "q": "“I feel, at this point, highly confident that we’ll get to orbit this year.” — “We’ll probably lose a few vehicles along the way.”",
+  "zh": "「我此刻高度自信，我们今年就能入轨。」——「过程中我们大概会烧掉几枚。」",
+  "bg": "Days after Booster 4 and Ship 20 completed the first full stacking on the orbital launch mount, Musk took the Starbase stage to lay out the year: orbital flight, Raptor 2 production, and the FAA environmental review hanging over it all.",
+  "c": [
+   "SpaceX"
   ]
  },
  {
@@ -3007,6 +3072,19 @@ window.SEARCH_INDEX = [
   "bg": "私有公司：估值为机构持仓减记/报道口径。主线：440 亿买入 → 广告主流失 → 机构减记八成 → 并入 xAI 后估值重估。",
   "c": [
    "X / Twitter",
+   "xAI"
+  ]
+ },
+ {
+  "id": "e2025-02-18",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2025.02.18",
+  "s": "本人 X 帖（镜像逐字存档 elonmuskarchive.org · status/1891699076267217406 + status/1891933115502809320）",
+  "q": "“Grok 3 presentation starting shortly.” — “Subscribe to Premium+ to get the world’s smartest AI!”",
+  "zh": "「Grok 3 发布会马上开始。」——「订阅 Premium+，获得全世界最聪明的 AI！」",
+  "bg": "Grok 3 was xAI's third big swing, trained on the Colossus cluster, and the launch itself was held on X — the platform and the model had become one business. Both anchor posts are verbatim in the mirror archive (snowflake-decoded 03:59 and 19:29 UTC).",
+  "c": [
    "xAI"
   ]
  },
