@@ -1,5 +1,18 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **新事实入包（V8 R08 轮 / 2026-09-30 X 帖史镜像直读核验）**：x-posts.html +10 张（13→23）。采料方法：web.archive.org 本机不可用，改用 **elonmuskarchive.org 镜像**（/posts/{statusID} 详情页直读=逐字锚，列表页按年分页 20 帖/页，sort=old 全量回溯；status ID→日期用 snowflake 解码 `(id>>22)+1288834974657` 对表复核）。十条锚点与印证源：
+> - **p2020-03-06** status/1236029449042198528（snowflake 2020-03-06 20:42 UTC）：CNBC cnbc.com/2020/03/06/teslas-elon-musk-says-the-coronavirus-panic-is-dumb.html + Reuters idUSKBN20T2WK。
+> - **p2020-05-01** status/1256239554148724737（15:10）+ status/1256239815256797184（15:11）两连发：镜像逐字；当日股价大跌与卖房后续媒体广泛报道；五周后 JRE #1470「Mars or a house」自释（站内 i2020-05）。
+> - **p2022-03-26** status/1507777261654605828（snowflake 2022-03-26 17:51 UTC——UTC 口径 3.26，美媒 3.25 系 ET 报道口径，条目已注明）：镜像详情页直读验证；3.25 投票帖以引用嵌套完整存档（status/1507596559831101446，snowflake 03-26 05:53 UTC）。
+> - **p2022-04-14** status/1514564966564651008（11:23 UTC）「I made an offer」+ 同日 status/1514681422212128770（19:06 UTC）「Will endeavor…」：镜像逐字；要约条款与当日 TED 表态见站内 i2022-04-14 与 d2022-04-25。
+> - **p2022-05-13** status/1525049369552048129（09:44 UTC）：镜像逐字；Reuters 当日报道。
+> - **p2022-11-01** status/1587498907336118274（snowflake 2022-11-01 21:12 UTC）：镜像详情页直读验证（此前猜测 ID 1587553180897927168 系误记——镜像 404，已纠正）；The Verge 等报道 $8 方案与仿冒风波。
+> - **p2022-12-18** status/1604617643973124097（23:20 UTC）：镜像逐字；57.5% 赞成/1750 万票=Reuters（2022-12-19）+BBC（12-20）+CNBC 口径。
+> - **p2023-07-23** status/1682964919325724673（04:04 UTC）+ status/1682965462886535168（04:06 UTC）：镜像逐字；更名执行时间线见站内 px-0723。
+> - **p2024-04-05** status/1776351450542768368（20:49 UTC）：镜像逐字；R05 已核 Reuters 等当日报道；跳票后续在 e2024-04-23 与 promises 档案。
+> - **p2025-03-28** status/1905731750275510312（21:20 UTC）：镜像详情页直读验证（8 处关键词命中）；CNBC/Forbes/AP 多源已在册。
+> 甄别记录（宁缺毋滥）：①Hertz 对冲推文（p2021-10-26 候选：「no contract has been signed yet」「zero effect on our economics」——站内 verified-facts 记忆有录）镜像站 r_2021_121/122、u_2021_123/124 四页直读均无此二句，措辞存疑，弃收待补；②「I endorse President Trump and hope he has a rapid recovery」（2024-07-13/14 候选）镜像 v_2024_525-531 七页未命中（分页跨 UTC 或措辞差异），媒体虽广泛报道但无镜像逐字，本轮弃收；③镜像站 2020 年归档仅约 55 页、2025 年约 160 页（远少于 2022 年约 200 页），早期帖覆盖率有限，后续轮次可再回捞。
+
 > **新事实入包（V8 R07 轮 / 2026-09-30 长访谈 II 逐字稿核实）**：访谈页 +7 条（26→33）——JRE 两期 + TED 两场 + JRE 大选期。逐字稿可得性：JRE #1169 全文英文逐字稿六分册（elonmuskinterviews.wordpress.com 2021/01/25-2021/02/24，含时间戳）、JRE #1470 Rev.com 官方逐字稿（rev.com/blog/transcripts/joe-rogan-elon-musk-podcast-transcript-may-7-2020）、TED 两场为 ted.com 官方页内嵌逐字稿（页面 JSON 字段）、JRE #2223 Musixmatch 逐字稿。日期锚：jrelibrary.com/1169-elon-musk/（2018-09-07）、/1470-elon-musk/（2020-05-07）、/2223-elon-musk/（2024-11-04）；TED 2017 场次 2017-04-28（TED Blog 口径，ted.com 结构化元数据 recordedOn=04-24 为大会开幕日占位，不采）。七条锚点与印证源：
 > - **i2017-04-28**「soul-destroying traffic」+「two or three percent」爱好自陈 + 隧道深于楼高论证：ted.com 官方逐字稿（the future we're building — and boring）。
 > - **i2018-09-07** 大麻卷烟时刻（joint/cigar 问答 +「Alcohol is a drug that's been grandfathered in」）： wordpress 六分册逐字稿 02:10:00 段；次日股价 -6% 与 Dave Morton/Gabrielle Toledano 辞职=Guardian/CNBC/WaPo/BBC 2018-09-07 同日报道（Guardian 站点本机不可达，四家报道事实经检索摘要两源核对）；#1169 为 JRE 观看量最高一期（jrelibrary 统计）。

@@ -2,6 +2,29 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v7.8.0 — 2026-09-30 · V8 扩充（8/10）：X 帖史扩容 · 十帖入册
+
+**主题包成果（V8 R08 · x-posts.html 13 → 23 张）**
+- **十张帖卡入册（逐字全部经 elonmuskarchive.org 镜像详情页直读核验，status ID 经 snowflake 解码对表日期）**：
+  **p2020-03-06**「The coronavirus panic is dumb」（CNBC/Reuters 双源）；
+  **p2020-05-01**「卖掉几乎所有有形财产」+「Tesla stock price is too high imo」相隔一分钟两连发（互链 i2020-05）；
+  **p2022-03-26**「de facto public town square」——收购案公开起点（引用嵌套完整存档，含 3.25 投票原帖）；
+  **p2022-04-14**「I made an offer」三个字要约帖（互链 i2022-04-14/d2022-04-25/px-0414）；
+  **p2022-05-13**「temporarily on hold」spam 之争引线（互链 d2022-10-27）；
+  **p2022-11-01**「lords & peasants…Blue for $8/month」定价宣言；
+  **p2022-12-18**「Should I step down…」辞职投票（57.5%/1750 万票，Reuters/BBC/CNBC）；
+  **p2023-07-23**「bid adieu to the twitter brand」更名宣言两连发（互链 px-0723）；
+  **p2024-04-05**「Tesla Robotaxi unveil on 8/8」一句话预告（互链 e2024-04-23/promises）；
+  **p2025-03-28**「@xAI has acquired @X」全股票收购官宣（互链 e2025-03-28）。
+- **交叉引用**：platform-x px-0414/px-0723 sv-links 各补帖史直链；多卡互链账本/文档/访谈锚点。
+- **检索索引 234 → 244 条**（X 帖 13→23）。
+- **甄别记录（宁缺毋滥）**：Hertz 对冲推文（2021-10-26）镜像站无存档且站内记忆措辞存疑，弃收；「I endorse President Trump」（2024-07-13/14）镜像分页未命中原帖，弃收待后续补；web.archive.org 本机 TLS 中断不可用，已删帖核验全部改走 elonmuskarchive.org 镜像（status ID=归档路径，详情页直读=逐字锚）。
+
+**自主优化**
+- 工具脚本 tools/r08-snippet.html + tools/r08-integrate.py（10 卡结构断言+时间序分组插入）+ tools/r08-xlinks.py（交叉引用断言）。
+
+**质量门**
+- verify.py 9 项全绿；node --check（app.js + cite.js）通过。
 ## v7.7.0 — 2026-09-30 · V8 扩充（7/10）：长访谈 II · Rogan / TED / DealBook
 
 **主题包成果（V8 R07 · interviews.html 26 → 33 条）**

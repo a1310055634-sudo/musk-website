@@ -1533,6 +1533,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2020-03-06",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2020.03.06",
+  "s": "@elonmusk",
+  "q": "The coronavirus panic is dumb",
+  "zh": "对冠状病毒的恐慌很蠢。",
+  "bg": "背景/后续：美国疫情初期的一句轻率断言（原帖 status/1236029449042198528 · 镜像逐字存档；CNBC/Reuters 当日报道）。此后数月他持续淡化疫情——「essentially immune」论、加州复工对抗、五月的「文明脆弱」冷面段（见本站 JRE #1470 条目），构成一条完整的疫情言论弧线；两年后收购 Twitter 时，他的「真实世界数据」执念在这条帖子里已有预演。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "i2020-05",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -1543,6 +1556,20 @@ window.SEARCH_INDEX = [
   "bg": "六天前他在推特上宣布「卖掉几乎所有有形财产，不再拥有房子」，全网猜测动机。节目中他给出了自己的时间经济学——连给自己盖房的时间，都要与「把人类送上火星」做机会成本比较。",
   "c": [
    "综合"
+  ]
+ },
+ {
+  "id": "p2020-05-01",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2020.05.01",
+  "s": "@elonmusk",
+  "q": "I am selling almost all physical possessions. Will own no house. Tesla stock price is too high imo",
+  "zh": "我正在卖掉几乎所有有形财产。不会再拥有房子。——特斯拉股价太高了，在我看来。",
+  "bg": "背景/后续：相隔一分钟的震慑两连发（status/1256239554148724737 + status/1256239815256797184 · 镜像逐字存档），后者当日砸出可观跌幅、前一句让全网猜了两年动机——五周后他在 JRE #1470 给出答案：「火星还是房子？我选火星」（见本站 i2020-05）。2021 年他确认名下已无房产；「现金换火星船票」自此成为其个人财务的公开叙事。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
   ]
  },
  {
@@ -1875,6 +1902,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2022-03-26",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2022.03.26",
+  "s": "@elonmusk",
+  "q": "Given that Twitter serves as the de facto public town square, failing to adhere to free speech principles fundamentally undermines democracy. What should be done?",
+  "zh": "鉴于 Twitter 实际上就是公共广场，不遵守言论自由原则从根本上损害民主。该怎么办？",
+  "bg": "背景/后续：收购案的公开起点（原帖 status/1507777261654605828 · 镜像逐字存档）——贴在他前夜的言论自由投票（status/1507596559831101446，镜像以引用嵌套完整存档）之后，自问自答式铺垫。三周后答案是「I made an offer」（见 p2022-04-14）；「公共广场」一词自此成为他平台叙事的锚点，贯穿收购案全程（平台变局）。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-04-05",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1950,6 +1990,19 @@ window.SEARCH_INDEX = [
   "bg": "",
   "c": [
    "综合"
+  ]
+ },
+ {
+  "id": "p2022-04-14",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2022.04.14",
+  "s": "@elonmusk",
+  "q": "I made an offer",
+  "zh": "我出价了。",
+  "bg": "背景/后续：三个字配 SEC 13D/A 附件链接，$54.20/股、约 430 亿美元要约公开（原帖 status/1514564966564651008 · 镜像逐字存档）；同日补发「Will endeavor to keep as many shareholders in privatized Twitter as allowed by law」（status/1514681422212128770）。当晚 TED 温哥华舞台给出「我根本不在乎经济账」（见本站 i2022-04-14）；十一天后协议签署（documents.html#d2022-04-25），平台变局正式开局（platform-x.html px-0414）。",
+  "c": [
+   "X / Twitter"
   ]
  },
  {
@@ -2055,6 +2108,19 @@ window.SEARCH_INDEX = [
   "q": "“I just want to make this amazing and feel bound to it. I won't let this fail and will do whatever it takes. It's just too critical to humanity.” — his answer: “You and I are in complete agreement. Parag is just moving far too slowly and trying to please people who will not be happy no matter what he does.” Dorsey: “At least it became clear that you can't work together.”",
   "zh": "我只想把它变棒，并且我觉得自己与之绑定。我不会让它失败，愿意做任何事。它对人类太关键了。——他的回答：你我完全一致。Parag 只是推进得太慢，而且一直在试图取悦那些无论如何都不会高兴的人。Dorsey 回：至少现在清楚了——你们俩没法共事。",
   "bg": "The day after signing, Dorsey called both men, then texted each a coda — trying one last time to find a place for Agrawal in the new structure.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "p2022-05-13",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2022.05.13",
+  "s": "@elonmusk",
+  "q": "Twitter deal temporarily on hold pending details supporting calculation that spam/fake accounts do indeed represent less than 5% of users",
+  "zh": "Twitter 交易暂时搁置，等待细节以支持「垃圾/虚假账户确实不足用户 5%」的计算。",
+  "bg": "背景/后续：一句「暂时搁置」开启 spam 占比之争，成为 7 月单方撤单与 10 月特拉华互诉的直接引线（Del. Ch. 2022-0613-KSJM），最终以 10 月底强行交割收场（documents.html#d2022-10-27）——这条帖子是把 440 亿合同推向法庭的第一块多米诺（原帖 status/1525049369552048129 · 镜像逐字存档；Reuters 当日报道）。",
   "c": [
    "X / Twitter"
   ]
@@ -2264,6 +2330,19 @@ window.SEARCH_INDEX = [
   "ev": "e2022-10-28"
  },
  {
+  "id": "p2022-11-01",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2022.11.01",
+  "s": "@elonmusk",
+  "q": "Twitter’s current lords & peasants system for who has or doesn’t have a blue checkmark is bullshit. Power to the people! Blue for $8/month.",
+  "zh": "Twitter 现行这套「谁有蓝勾谁没有」的贵族与平民制度是胡扯。权力归人民！蓝勾每月 8 美元。",
+  "bg": "背景/后续：交割后第四天的定价宣言（原帖 status/1587498907336118274 · 镜像逐字存档；The Verge 等广泛报道）。$8 认证随即引发仿冒潮——礼来、任天堂等品牌假账号风波迫使方案两度回撤改造，「官方」标签上线又弃用——认证从身份符号变成产品，是「Twitter 变 X」最先落地的一环。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-11-16",
   "pg": "primary.html",
   "t": "言行实录",
@@ -2353,6 +2432,19 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "p2022-12-18",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2022.12.18",
+  "s": "@elonmusk",
+  "q": "Should I step down as head of Twitter? I will abide by the results of this poll.",
+  "zh": "我应该卸任 Twitter 负责人吗？我将遵守这次投票的结果。",
+  "bg": "背景/后续：交割 52 天后把自己交给投票（原帖 status/1604617643973124097 · 镜像逐字存档）——1750 万票、57.5% 赞成（Reuters/BBC/CNBC 口径）。三天后他说「一旦找到足够蠢的人接任 CEO 就会辞职」；半年后 Yaccarino 上任，他转任 CTO——「遵守结果」以自己的节奏兑现。",
+  "c": [
+   "X / Twitter"
   ]
  },
  {
@@ -2485,6 +2577,20 @@ window.SEARCH_INDEX = [
   "zh": "很快，我们将告别 Twitter 品牌，并且，逐渐地，告别所有的鸟。",
   "bg": "Nine months after buying the bird, he was ready to retire it. Twitter had been folded into X Corp, an AI-era holding structure; the brand was the last legacy piece — and the most valuable one by conventional accounting. He put it to a poll, then announced.",
   "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "p2023-07-23",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2023.07.23",
+  "s": "@elonmusk",
+  "q": "And soon we shall bid adieu to the twitter brand and, gradually, all the birds If a good enough X logo is posted tonight, we’ll make go live worldwide tomorrow",
+  "zh": "很快我们将告别 twitter 品牌，并逐渐告别所有的鸟。——如果今晚有人 posted 一个足够好的 X 标志，我们明天就让它全球上线。",
+  "bg": "背景/后续：十七年鸟标的死刑判决书（两帖 status/1682964919325724673 + status/1682965462886535168 · 镜像逐字存档）。次日 X 临时标志上楼，一周后 X.com 跳转全球生效——Twitter, Inc. 走向 X Corp（更名全程与口径三分列见 platform-x.html px-0723）。",
+  "c": [
+   "PayPal",
    "X / Twitter"
   ]
  },
@@ -2700,6 +2806,20 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
+  ]
+ },
+ {
+  "id": "p2024-04-05",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2024.04.05",
+  "s": "@elonmusk",
+  "q": "Tesla Robotaxi unveil on 8/8",
+  "zh": "Tesla Robotaxi 8 月 8 日发布。",
+  "bg": "背景/后续：一句话撬动市场的预告（原帖 status/1776351450542768368 · 镜像逐字存档；Reuters 等当日报道），十八天后财报会重申「8 月 8 日见」（primary.html#e2024-04-23）。发布会实际在 10/10 举行、主角是 Cybercab——两个月的跳票进入本站承诺档案的既有模式（promises.html）。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
   ]
  },
  {
@@ -2929,6 +3049,20 @@ window.SEARCH_INDEX = [
    "xAI"
   ],
   "ev": "e2025-03-28"
+ },
+ {
+  "id": "p2025-03-28",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2025.03.28",
+  "s": "@elonmusk",
+  "q": "@xAI has acquired @X in an all-stock transaction. The combination values xAI at $80 billion and X at $33 billion ($45B less $12B debt).",
+  "zh": "xAI 已以全股票交易收购 X。合并对 xAI 估值 800 亿美元、X 估值 330 亿美元（450 亿减去 120 亿债务）。",
+  "bg": "背景/后续：两年半前 440 亿买下的平台，以缩水四分之一的价格并进自己的 AI 公司（原帖 status/1905731750275510312 · 镜像逐字存档；CNBC/Forbes/AP 多源）。「买平台是为 AI 铺路」的猜想就此收官——账本深读见 primary.html#e2025-03-28，公司档案见 company-files.html。",
+  "c": [
+   "X / Twitter",
+   "xAI"
+  ]
  },
  {
   "id": "c2025-03-28",
