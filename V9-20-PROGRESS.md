@@ -22,7 +22,7 @@
 | 轮 | 主题 | 状态 | 版本 | 成果提交（本地） | 备注 |
 |---|---|---|---|---|---|
 | 01 | V8 R10 收尾 + V9-20 基建（账本/锁/gitignore） | complete | v8.1.0 | 9cc5d46 | 含 V8 R10 本地版 24020fe |
-| 02 | X 帖回捞 I（2020–2021），目标 23→27± | pending | — | — | — |
+| 02 | X 帖回捞 I（2020–2021），目标 23→27± | complete | v8.2.0 | d3c2a3c | +4 帖；Hertz 重验入册；年份分组两处修正；探针 24/24 |
 | 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | pending | — | — | — |
 | 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | pending | — | — | — |
 | 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | pending | — | — | — |
@@ -64,3 +64,14 @@
 - **V9-20 基建**：本账本建立（基线快照 + 20 轮状态表 + 恢复指引）；`.v9run.lock` 锁机制就绪。
 - **提交**：V8 R10 本地版成果 `24020fe`（v8.0.0，含 .gitignore 补 .v9run.lock）；R01 成果 `9cc5d46`（v8.1.0，verify 9/9）；本回填为第二提交。
 - **下一轮预告**：R02 X 帖回捞 I（2020–2021）——镜像 elonmuskarchive.org 列表页 ?year=2020/2021&page=N&sort=old 全量回捞，候选 COVID 早期表态补充/卖房系列后续/2021 关键节点帖；重验 V8 弃收件 Hertz 对冲（2021-10-26 前后 8 页找 "no contract has been signed yet"）。
+
+## 第 2 轮工作记录（X 帖回捞 I：2020–2021）— complete（2026-10-01）
+
+- **回捞与选帖**：镜像站新增 Agent API（免钥无限流），全量回捞 2020=3,359 帖 / 2021=3,111 帖（tools/v9r02-walk-posts.py，按月切片绕开 1000 条上限；旧 span 分页管线退役，V8 R08「早期覆盖率有限」判断作废）。四卡入册：p2020-04-29 FREE AMERICA NOW / p2021-01-26 Gamestonk!! / p2021-05-05 Starship landing nominal! / **p2021-11-02 Hertz 对冲（V8 弃收件重验成功**——精确短语双命中 x-1455351085170823169，四段全文，same margin 第三句首录，互链账本 e2021-10-25）。四帖 transcript JSON+snowflake 字段存 qa/v9-20/round-02/sources/。
+- **甄别**：Bitcoin 暂停购车帖（2021-05-12）镜像三短语 0 命中→弃收留档 EXPANSION；Trump 背书帖→R03 用 Agent API 重验；卖房后续以 p2020-05-01 既有卡注弧线为准未立卡。
+- **结构修正**：两处存量年份错位（2020 条错标 2021；2023 条压 p2022-12-18）修正，全站分组与卡序逐卡一致。过程返工一次：集成脚本锚选 p2022-03-26 卡标签（其前即 2022 条）致两卡误入 2022 组，v9r02-fixgroup.py 归位+静态断言。
+- **管线**：build-search-index（断言 X 帖 23→27，索引 250→254）/ build-ledger-timeline（109 幂等）/ sync-changelog（191 条）/ 版本三件套 8.1.0→8.2.0（span 14 处打印）/ build-epub（203,255 B）；提交后 build-revisions 179→183 锚点 + EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9；**CDP 探针 24/24**（tools/v9r02-probe.js：渲染/时序/五件套唯一/Permalink 27 对/双语/年份分组/跨页锚真实存在/卡间互链/检索命中/390 零溢出）；node --check 通过；截图 before/after 入 qa/v9-20/round-02/（CDP scrollIntoView 定位三张）。
+- **环境坑（供后续轮）**：9227 端口被 aDrive.exe 占用（连接通不响应→CDP 挂死），探针端口改 9333+ 且加 3s 超时；被 timeout 杀掉的 node 遗留孤儿 headless Chrome（占端口+内存缓存旧页面），须全新 user-data-dir+端口避让；headless --screenshot 不认锚点滚动，定位截图走 CDP scrollIntoView+captureScreenshot（tools/v9r02-shot.js）。
+- **提交**：成果 `d3c2a3c`（v8.2.0，41 文件）；本回填+revisions+EPUB 为第二提交。
+- **下一轮预告**：R03 X 帖回捞 II（2022–2025 深水区）——同管线（Agent API 按年按月全量+精确短语），重点：诉讼相关帖（SEC 后续/特拉华判决表态）、产品节点（Cybertruck 交付日/Grok 各版）、2024-07-13/14 Trump 背书重验；目标 27→31±。
