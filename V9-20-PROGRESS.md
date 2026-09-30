@@ -27,7 +27,7 @@
 | 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | complete | v8.4.0 | 52a03fc | +4 条（Code 2016 仿真论证/Satellite 2020 双零/EA 2021 五步算法/All-In 2024 DMV 重验）；Decode 2018 弃收；探针 29/29 |
 | 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | complete | v8.5.0 | c7431d1 | +5 条（#252 保险/#400 言论自由/TED2013/Code2014/MKBHD2018）；候选池收尾 6 场留档；探针 29/29 |
 | 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | complete | v8.6.0 | f319ee9 | +4 份（S-1 2010/Acronyms 2010/Raptor 2021/10-K Technoking 2022）；Master Plan 四部曲查缺=已全在册；email 库 43 封入候选池；探针 31/31 |
-| 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | pending | — | — | — |
+| 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | complete | v8.7.0 | c10775e | +6 条 109→115（COP21/BFR 月旅/Autonomy Day/AI Day 2022/Neuralink S&T/Starbase）；语录卡 102；索引 277；探针 42/42 |
 | 08 | 事件档案聚合扩容（9→14±，口径红线探针） | pending | — | — | — |
 | 09 | 语录卡补齐 + 质量节点①（盘点总表入账本） | pending | — | — | — |
 | 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | pending | — | — | — |
@@ -119,3 +119,26 @@
 - **证据**：qa/v9-20/round-06/（四张截图 documents-desktop/mobile + d2010/d2021 锚点视图 + probe.txt + RECORD.md + sources/ 五件：镜像页×2、gist、EDGAR 摘录、Newsweek 摘要、email 全清单）。
 - **提交**：成果 `f319ee9`（v8.6.0）；本回填+revisions+EPUB 为第二提交。
 - **下一轮预告**：R07 官方演讲扩充——先查重 V8 R09 已收 6 条；候选：Starship 更新会系列（2019-09/2020-09/2021-02/2022-02 择逐字可得者）、Neuralink demo（2020-08/2021-04/2024-01）、Tesla AI Day 2021/2022；账本 +4~6 条；源=官方转播字幕/Numbski 等逐字站；镜像 keynote 库 60 场（type=keynote）与 speech 库 21 场是主矿。
+
+## 核实来源留档（R07）
+
+六场官方演讲（镜像 elonmuskarchive.org /video/{id} 详情页全场逐字转写；官方 YouTube 源字段在册；全文存 qa/v9-20/round-07/sources/）：
+- **COP21 索邦演讲**（2015-12-02，1,632 词）：源 YouTube cousinHub 转播频道（youtube.com/watch?v=v3AmtjqqVvo）——非官方频道，转写与公开录像互证收录，ps-src 已注明
+- **BFR 环月旅客发布会**（2018-09-17，Musk 3,204 词 + 前田 1,263 词）：23ABC News 直播录像（youtube.com/watch?v=n5EqUKNCGd0）
+- **Tesla Autonomy Day**（2019-04-22，Musk 8,270 词全场）：Tesla 官方频道（youtube.com/watch?v=Ucp0TTmvqOE，13,940 秒）
+- **Tesla AI Day 2022**（2022-09-30，Musk 6,458 词）：Tesla 官方频道（youtube.com/watch?v=ODSJsviD_SU）
+- **Neuralink Show and Tell**（2022-11-30，Musk 4,716 词）：Neuralink 官方频道（youtube.com/watch?v=YreDYmXTYi4）
+- **SpaceX Starship Update at Starbase**（镜像归档锚 2024-03-18，Musk 7,117 词单人演讲）：The Launch Pad 转播（youtube.com/watch?v=TUQzeUaGxBI）；日期口径=镜像归档锚照录，内容指向 IFT-3（2024-03-14）前夜展望，卡内双注
+- **查重勘定**：We,Robot（e2024-10-10）/ Investor Day 2023（e2023-03-01）/ Battery Day（e2020-09-22）/ Cybertruck 交付（e2023-11-30）/ Boring 隧道（e2018-12-18）/ Semi·Roadster（e2017-11-16）/ Falcon Heavy（e2018-02-06）已在册不重复；**AI Day 2021（e2021-08 已有媒体口径条目）官方逐字留档待引语升级**
+- **ASR 口径**：六场均为自动听写转写——Yusaku 误作 Usage、Falcon 9 误作 Belkin、Neuralink 分词 neural link；引语句均避开误差词或照录并卡内注明
+
+## 第 7 轮工作记录（官方演讲扩充：镜像 keynote/speech 全档转写批次）— complete（2026-10-01）
+
+- **+6 条入册（primary.html 109→115，四段五件套模板逐字克隆+data-en 全配）**：e2015-12-02 COP21「史上最愚蠢的实验」（碳税药方+NYC ±5 度对照，互链 e2015-04-30）/ e2018-09-17 BFR 前田环月「这很危险，可不是公园散步」（dearMoon 2024 取消入后续，互链 e2017-09-29/e2019-09-28）/ e2019-04-22 Autonomy Day「LIDAR is a fool's errand…doomed」（芯片冗余论+2020 承诺滑票注 promises.html）/ e2022-09-30 AI Day 2022「去年那就是个穿机器人服装的人」（Bumble C 真机+丰裕独白，互链 e2021-08）/ e2022-11-30 Neuralink S&T「六个月内首例人体植入」（Sake 意念打字+AI 对冲动机，兑现注 e2024-01-29，互链 e2020-08-28/e2021-04-09）/ e2024-03-18 Starbase「总有一天我们会真正在火星上安家」（96 发/年+八年火星钟，互链 e2024-10-13/p2024-10-13）。页内互链 13 处全部实存。
+- **quotes.html +6 卡（96→102）**；index.html 计数 109→115 ×3 处（中英）；og 等历史条目不动。
+- **采料管线（本轮新建）**：镜像 video 库 keynote 60 场+speech 21 场全部 hasTranscript（100% 覆盖）；抽取器三版迭代（v1/v2 逐词 span 截断乱序弃用，**v3 按 button 块整体剥标签保词序定稿**）——教训=抽前必须目检 DOM 实构；PowerShell 内联 $_ 被 bash 吞（.ps1 文件解决，记忆坑复验）；探针冷加载 1.8s 未完成致 24/18 假红（ps-row=0 时 every() 恒真），改轮询等待后 42/42——**后续轮探针导航后应轮询关键计数**。
+- **甄别与候选池（EXPANSION.md R07 块详录）**：AI Day 2021 官方逐字在档（555 词独白）但账本已有媒体口径条目不重复立条；Starship 2025-05-29（4,836 词）/ Wisconsin town hall（12,095 词，政治类）/ xai-all-hands-2026 等入候选池；SpaceX IPO 敲钟 9 词不立；81 场全清单 JSON 存 qa。
+- **管线**：build-ledger-timeline（115 节点）/ build-search-index（断言言行实录 109→115，索引 271→277）/ sync-changelog（196 条）/ 版本三件套 8.6.0→8.7.0（14 页 span 打印在案）/ build-epub（219,675 B）；提交后 build-revisions 200→206 锚点 + EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9；node --check 通过；**CDP 探针 42/42**（tools/v9r07-probe.js，端口 9341：文件级 9/桌面结构+逐字+双语+口径注 19/互链与锚完整性 7/quotes 三断言/index 计数 2/检索命中 4+回归/390 零溢出 3）；截图 8 张入 qa/v9-20/round-07/（before=worktree@c556a2c 独立服务 8767 双视口，after=四新卡桌面定位+quotes 卡区+Neuralink 390）。
+- **提交**：成果 `c10775e`（v8.7.0，qa sources 原始页快照 14MB 未入库——transcript 全文 txt+清单 JSON+官方源 tsv 已足证，抽取器可随时重现）；本回填+revisions+EPUB 为第二提交。
+- **下一轮预告**：R08 事件档案聚合扩容——tools/events-data.py EVENTS 追加（etype 五类枚举/materials.kind 枚举/validate()），把 V8/V9 新材料聚合成 4~6 个新事件档案（9→14±）；重跑 build-events/build-timeline-events/build-network/build-company-files/build-capital/build-ledger-links/build-search-index；口径红线=时间轴独立记录数=索引一手材料−被吸收数−events.html 档案记录（防 160 漂移重演，探针断言 TIMELINE_V7.meta）；建档卡深链全在册（fetch 逐条验证）。
