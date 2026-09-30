@@ -28,7 +28,7 @@
 | 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | complete | v8.5.0 | c7431d1 | +5 条（#252 保险/#400 言论自由/TED2013/Code2014/MKBHD2018）；候选池收尾 6 场留档；探针 29/29 |
 | 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | complete | v8.6.0 | f319ee9 | +4 份（S-1 2010/Acronyms 2010/Raptor 2021/10-K Technoking 2022）；Master Plan 四部曲查缺=已全在册；email 库 43 封入候选池；探针 31/31 |
 | 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | complete | v8.7.0 | c10775e | +6 条 109→115（COP21/BFR 月旅/Autonomy Day/AI Day 2022/Neuralink S&T/Starbase）；语录卡 102；索引 277；探针 42/42 |
-| 08 | 事件档案聚合扩容（9→14±，口径红线探针） | pending | — | — | — |
+| 08 | 事件档案聚合扩容（9→14±，口径红线探针） | complete | v8.8.0 | 7a55ca9 | +5 档案（Tesla IPO/万亿市值日/Raptor 危机翻身/Neuralink 首植/Autonomy→Optimus）；材料 37→59；吸收 18→39、独立 229，282=14+39+229 口径闭环；chronicle kind 新增；探针 35/35 |
 | 09 | 语录卡补齐 + 质量节点①（盘点总表入账本） | pending | — | — | — |
 | 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | pending | — | — | — |
 | 11 | 官方与标准类资源 | pending | — | — | — |
@@ -142,3 +142,20 @@
 - **验证**：verify.py 9/9；node --check 通过；**CDP 探针 42/42**（tools/v9r07-probe.js，端口 9341：文件级 9/桌面结构+逐字+双语+口径注 19/互链与锚完整性 7/quotes 三断言/index 计数 2/检索命中 4+回归/390 零溢出 3）；截图 8 张入 qa/v9-20/round-07/（before=worktree@c556a2c 独立服务 8767 双视口，after=四新卡桌面定位+quotes 卡区+Neuralink 390）。
 - **提交**：成果 `c10775e`（v8.7.0，qa sources 原始页快照 14MB 未入库——transcript 全文 txt+清单 JSON+官方源 tsv 已足证，抽取器可随时重现）；本回填+revisions+EPUB 为第二提交。
 - **下一轮预告**：R08 事件档案聚合扩容——tools/events-data.py EVENTS 追加（etype 五类枚举/materials.kind 枚举/validate()），把 V8/V9 新材料聚合成 4~6 个新事件档案（9→14±）；重跑 build-events/build-timeline-events/build-network/build-company-files/build-capital/build-ledger-links/build-search-index；口径红线=时间轴独立记录数=索引一手材料−被吸收数−events.html 档案记录（防 160 漂移重演，探针断言 TIMELINE_V7.meta）；建档卡深链全在册（fetch 逐条验证）。
+
+## 第 8 轮工作记录（事件档案聚合扩容：V8/V9 新材料归档，9→14）— complete（2026-10-01）
+
+- **五个新档案入册（events-data.py 9→14，材料关联 37→59，逐字引语 18→24；全部由已入册材料聚合，零新增未核实事实）**：
+  e2010-06-29 Tesla IPO（S-1 总纲+首份关键人风险因子+Q1 2013 首盈利+d2022-02-07「Technoking」十二年对照；账本当日无本人逐字原话，档案如实引 SEC 文件并注明公司文件口径）/
+  e2021-10-25 万亿市值日（账本+p2021-11-02 same margin 帖+chronicle c2021-10-25 三方同框；snowflake 解码 UTC 2021.11.02 01:48=美国 11.01 晚双注）/
+  e2021-11-26 Raptor 危机与星舰翻身（环月承诺→不锈钢转向→SN15 着陆→破产警报信→Starbase 演讲五材料；outcome 如实：每两周一飞未兑现/破产未发生/dearMoon 取消）/
+  e2024-01-29 Neuralink 首例人体植入（三只小猪→MindPong→「大概六个月」→Telepathy 官宣五材料；probably ≠ 承诺书，实际约十四个月口径在案）/
+  e2019-04-22 Autonomy Day→Optimus（LIDAR doomed→AI Day 2021→Q4 2021 排位→AI Day 2022 真机+promises 对账 feature；related 首链 controversy.html#autopilot）。
+- **枚举扩充**：KIND_LABELS 新增 chronicle（编年史条目）——validate() 与 build-events.py 渲染同步通过，无 CSS 变更（非 ledger 类型共用默认样式）。
+- **口径红线闭环（防 160 漂移重演）**：索引 277→282（事件档案断言 len(ED.EVENTS) 自动 9→14）；吸收 18→39（新档案 e2010-06-29=4/e2021-10-25=3/e2021-11-26=5/e2024-01-29=5/e2019-04-22=4）；独立记录 250→229；**282=14 档案记录+39 吸收+229 独立**，探针断言在案；建档卡 18→23 处。
+- **选题边界留档**：xAI/Grok 线仅 2 条索引材料（e2023-07-12+p2023-11-04）未达聚合门槛不立档；Hertz 并入万亿市值日档案；Gamestonk 单材料不立。后续若 Grok 产品线材料增多可重启。
+- **管线**：build-events/build-timeline-events/build-network/build-company-files/build-capital/build-ledger-links（23 处）/build-search-index（282）/sync-changelog（197 条）/版本三件套 8.7.0→8.8.0（VERSION+app.js+14 页 span，替换计数打印在案）/build-epub（220,559 B）。
+- **验证**：verify.py 9/9（37 页/索引 282）；node --check 通过；**CDP 探针 35/35**（tools/v9r08-probe.js，端口 9351：文件级口径 11/events 结构+逐字 10/互链深链 4/timeline 口径 4/建档卡 2/检索 3/390 零溢出 2；events.html 14/14 深链锚全在册）；截图 3 张入 qa/v9-20/round-08/。
+- **探针插曲**：TIMELINE_V7 meta 解析被非贪婪正则截断→改 indexOf/lastIndexOf 整体解析；events 卡选择器先假设后失配（.ev-sum→实构 .ev-summary、引语块实构 blockquote.lr-quote）——「先目检 DOM 再写断言」教训二次验证。
+- **提交**：成果 `7a55ca9`（v8.8.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：R09 语录卡补齐+质量节点①——quotes.html 补卡至与账本引文块全覆盖（当前 102 卡 vs 账本引文块 105 个，白名单豁免 3 项；R06 文档页引语与 R08 档案引语不在账本引文块口径内）；verify.py 第 6 项白名单同步更新（改断言须在 CHANGELOG 说明理由并保留原约束精神）；产出「第一手信息盘点总表」入账本：各类型计数、时间覆盖、缺口清单（写回 EXPANSION 作为后续候选池）；质量节点①验收=三口径（页面/索引/生成器）零漂移+主路径探针全过。
