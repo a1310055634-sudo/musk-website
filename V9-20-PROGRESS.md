@@ -30,7 +30,7 @@
 | 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | complete | v8.7.0 | c10775e | +6 条 109→115（COP21/BFR 月旅/Autonomy Day/AI Day 2022/Neuralink S&T/Starbase）；语录卡 102；索引 277；探针 42/42 |
 | 08 | 事件档案聚合扩容（9→14±，口径红线探针） | complete | v8.8.0 | 7a55ca9 | +5 档案（Tesla IPO/万亿市值日/Raptor 危机翻身/Neuralink 首植/Autonomy→Optimus）；材料 37→59；吸收 18→39、独立 229，282=14+39+229 口径闭环；chronicle kind 新增；探针 35/35 |
 | 09 | 语录卡补齐 + 质量节点①（盘点总表入账本） | complete | v8.9.0 | efe7bec | e2013 立卡 102→103（约 2013 广泛征引如实双标）；verify 白名单 3→2 收严；盘点总表+缺口清单（EXPANSION）；探针 25/25 |
-| 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | pending | — | — | — |
+| 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | complete | v8.10.0 | fdf366e | 10 条种子核活入库（官2/开2/社2/工4）；索引 282→292；探针 27/27；不可核活 7 条留档 EXPANSION |
 | 11 | 官方与标准类资源 | pending | — | — | — |
 | 12 | 开源项目资源（Tesla API 生态 / Starlink 追踪 / 发射工具） | pending | — | — | — |
 | 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | pending | — | — | — |
@@ -218,3 +218,14 @@
 - **探针修正记录**：①「卡序与账本序一致」文件级断言过强——存量 qs-grid 卡序与账本序在 2017/2022 年代存在多处历史差异（verify 只查集合差不查顺序），收敛为「e2013 插入点局部时序」断言；存量卡序不动（如需全量对齐属独立轮次）。②pt-dot 时间轴条在 primary.html 页内（verify 第 5 项即查 primary），非 timeline.html——断言挪位后过。
 - **提交**：成果 `efe7bec`（v8.9.0，24 文件）；本回填+revisions（206 锚点幂等）+EPUB 重刷为第二提交。
 - **下一轮预告**：R10 资源页基建——新建 tools/resources-data.py（字段：url/name(zh,en)/desc(zh,en)/category/语言/活跃度/许可/收录理由/关联公司/核活日期；内置 validate 拒生成）+ tools/build-resources.py（幂等生成 resources.html：lr-hero 风格页头+分类筛选芯片+无 JS 完整可读+≤760 单列+print 保留）；site-nav.py「资料」组注册重注入全站；build-search-index 增类型断言；首批种子 8–12 条每类 1–2 条打通管线；验收=verify 9/9+资源页 CDP 探针 ≥10 断言。
+
+## 第 10 轮工作记录（资源页基建）— complete（2026-10-01）
+
+- **数据单一事实来源 tools/resources-data.py**：字段 url/name(zh,en)/desc(zh,en)/category/语言/活跃度（维护中|停更|存档）/许可/收录理由/关联公司/核活日期 + gh 实测与 note 可选；validate() 全字段强制（url 须 http(s)、双语完整、category∈四类枚举、companies ⊆ 检索实体词表、核活日期必填），不过拒生成。首批种子 10 条：官方与标准 2（SEC EDGAR Tesla 文件 / Tesla 官方开源 vehicle-command）· 开源项目 2（Teslamate ★9,061 / xAI Grok-1 权重 ★52,239）· 社区与档案 2（Elon Musk Archive / Wait But Why Neuralink 长文）· 工具与数据 4（Flight Club / Next Spaceflight / Launch Library 2 / starlink.sx）。**工具类 4 条为当批核活清单全量入库**，超「每类 1~2」软指引、在 8~12 硬区间内（CHANGELOG/账本/EXPANSION 三处注明）。
+- **核活实测**：每条 URL 于 2026-10-01 实测（浏览器 UA curl → 失败则 WebFetch → GitHub 走 api.github.com 串行）；SEC 须合规 UA（含联系邮箱）才 200（浏览器 UA 403）；**grok 仓库已 301 迁移 grok-1**（API 跟随后建档，2024-08 后无提交属权重一次性发布，卡内注记「停更≠下线」）。**本机不可核活 7 条留档 EXPANSION.md R10 块**（tesla.com/spacex.com/developer.tesla.com 反爬 403、neuralink.com 000、en.wikipedia.org DNS 污染、tesla-api.io DNS 失效疑似死链、openai.com 未测），R11–R13 按重验条件逐条处理，未编造任何一条。
+- **生成器 tools/build-resources.py**：幂等生成第 38 页 resources.html——lr-hero 页头 + 分类筛选芯片（复用 gx-fchip，min-height 28px 由既有移动层继承）+ 四分类清单 + 逐条详情字段行（网址/分类徽标/语言/活跃度徽标/许可/关联公司/GitHub 实测/核活码/口径备注/收录理由）；**无 JS 完整可读**（芯片惰性、全量可见，筛选仅做分类节显隐）；≤640 字段行纵向堆叠；print 隐藏筛选保留清单。rs-* 组件层 ~55 行入 style.css（**无新增过渡，reduced-motion 免复核**）。
+- **管线**：site-nav.py「资料」组注册 resources.html，37 页重注入（探针实测入站导航 38/38 页）；build-search-index 增「社区资源」类型（companies 直接用 COMPANIES_VOCAB，检索按公司过滤即插即用；d=核活年月沉底属预期），索引 282→292；search.html 类型按钮 +1（共 10 枚）；**verify.py 第 4 项断言扩展 +rs-item 锚点计数**（原约束原样保留，同 V7-19 R15 事件档案先例，CHANGELOG 已说明理由）；sync-changelog 199 条；版本三件套 8.9.0→8.10.0（span 14 处打印在案，resources.html 以 8.10.0 直接建档）；build-epub（220,597 B）。
+- **验证**：verify.py 9/9（38 页/索引 292）；node --check 通过；**CDP 探针 27/27**（tools/v9r10-probe.js，端口 9354 全新 profile：文件级 6/结构 8/筛选 2/双语 4/**无 JS 2（Emulation.setScriptExecutionDisabled 禁脚本实测）**/检索联动 3（q=Teslamate 命中类型社区资源、type=社区资源 URL 参数+深链）/390 零溢出 2）；截图 2 张入 qa/v9-20/round-10/（桌面芯片区+390 Teslamate 卡）；核活留档 sources/liveness.md；验收记录 ACCEPTANCE.md。
+- **探针修正记录**：首跑 26/27——唯一失败为探针自身断言计数写错（类型按钮误写 11 枚，实际原 9+1=10），页面正确，修正断言后全绿。
+- **提交**：成果 `fdf366e`（v8.10.0，56 文件）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：R11 官方与标准类资源——目标 tesla.com 专利开放博文落地页 / NACS 官方页 / SpaceX 官网 Starship/Falcon 页 / Tesla 车主手册与 API 文档 / OpenAI 早期博客 / Neuralink patient registry（R10 留档的反爬项重点重验：换 UA/代理路径或降表述留档）；每条 curl/WebFetch 核活并记录 http_code。
