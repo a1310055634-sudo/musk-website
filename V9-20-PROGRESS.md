@@ -23,7 +23,7 @@
 |---|---|---|---|---|---|
 | 01 | V8 R10 收尾 + V9-20 基建（账本/锁/gitignore） | complete | v8.1.0 | 9cc5d46 | 含 V8 R10 本地版 24020fe |
 | 02 | X 帖回捞 I（2020–2021），目标 23→27± | complete | v8.2.0 | d3c2a3c | +4 帖；Hertz 重验入册；年份分组两处修正；探针 24/24 |
-| 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | pending | — | — | — |
+| 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | complete | v8.3.0 | c049610 | +4 帖（Cybertruck 首交付/特拉华判决/Trump 背书重验/America Party）；探针 32/32 |
 | 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | pending | — | — | — |
 | 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | pending | — | — | — |
 | 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | pending | — | — | — |
@@ -75,3 +75,13 @@
 - **环境坑（供后续轮）**：9227 端口被 aDrive.exe 占用（连接通不响应→CDP 挂死），探针端口改 9333+ 且加 3s 超时；被 timeout 杀掉的 node 遗留孤儿 headless Chrome（占端口+内存缓存旧页面），须全新 user-data-dir+端口避让；headless --screenshot 不认锚点滚动，定位截图走 CDP scrollIntoView+captureScreenshot（tools/v9r02-shot.js）。
 - **提交**：成果 `d3c2a3c`（v8.2.0，41 文件）；本回填+revisions+EPUB 为第二提交。
 - **下一轮预告**：R03 X 帖回捞 II（2022–2025 深水区）——同管线（Agent API 按年按月全量+精确短语），重点：诉讼相关帖（SEC 后续/特拉华判决表态）、产品节点（Cybertruck 交付日/Grok 各版）、2024-07-13/14 Trump 背书重验；目标 27→31±。
+
+## 第 3 轮工作记录（X 帖回捞 II：2022–2025 深水区）— complete（2026-10-01）
+
+- **回捞与选帖**：四年清单回捞（tools/v9r03-walk-posts.py）得 2022=5,063 帖完整 / 2023=10,985 / 2024=12,000 / 2025=12,000+——**2023–2025 大量月份触及单次 1000 上限**（2024 十二个月全满、12 月仅至 12-12；offset 无效），深水区月内全量浏览不可得，**确立 /agents/search 精确短语检索为目标制主路径**（tools/v9r03-search.py 六组短语全命中、total 精确）。四卡入册：p2023-11-30 Cybertruck 首交付（+同日致谢帖在档）/ p2024-01-30 特拉华判决怒斥（01.31 投票帖+02.01 结果帖在档，弧线闭合于账本 e2024-06-13）/ **p2024-07-13 Trump 背书（V8 弃收件重验成功，计划指定项）**——距巴特勒枪响约 34 分钟（snowflake 解码）/ p2025-07-05 America Party 建党宣言三段全文（06.30 预告+07.04 投票+07.06 纲领逐字在档，07.07 Tesla -7% Reuters）。十帖 transcript 存 qa/v9-20/round-03/sources/（含 search-results.json），日期全部 snowflake 对表=镜像同日。
+- **甄别**：Grok 3 发布帖不立卡（账本 e2025-02-18 已覆盖）；Nevada 变体句/碎片回复帖/07-14 帖不立；2025-12 段清单不完整留档（目标制检索不受影响）。EXPANSION 顶部 R03 块+R02 块交叉引用更新。
+- **内容增补**：帖墙小结（chapter-summary）补政治维度一句（data-en 同步）；Trump↔America Party 卡间互链；Cybertruck/特拉华卡互链账本 e2023-11-30/e2024-06-13。
+- **管线**：build-search-index（断言 X 帖 27→31，索引 254→258）/ build-ledger-timeline（109 幂等）/ sync-changelog（192 条）/ 版本三件套 8.2.0→8.3.0（span 14 处打印）/ build-epub（205,334 B）；提交后 build-revisions 183→187 锚点 + EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9；**CDP 探针 32/32**（tools/v9r03-probe.js，端口 9334：渲染/时序/五件套唯一/Permalink 31 对/四新卡逐字含 Trump 卡整卡相等断言/双语/年份分组四卡归组+2024 组八卡序/卡间互链/跨页锚真实/检索 endorse 命中+Gamestonk 回归/390 零溢出）；node --check 通过；截图 6 张入 qa/v9-20/round-03/（before=HEAD 版 2023 组末尾+四新卡桌面+390）。
+- **提交**：成果 `c049610`（v8.3.0，47 文件）；本回填+revisions+EPUB 为第二提交。
+- **下一轮预告**：R04 访谈扩充 I——先查重站内 33 条（i2016-09-27/i2022-04-14/i2023-11-29 等在册），候选：Code Conference 2016（Recode 全文稿）/ Everyday Astronaut 星舰专访（2022-04、2023-06）/ Kara Swisher 2018/2020 / Satellite 2020；目标 +4~6 条，逐字源 URL 留档进账本「核实来源留档」节，无把握不立条。
