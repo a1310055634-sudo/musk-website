@@ -26,7 +26,7 @@
 | 03 | X 帖回捞 II（2022–2025 深水区），目标 31± | complete | v8.3.0 | c049610 | +4 帖（Cybertruck 首交付/特拉华判决/Trump 背书重验/America Party）；探针 32/32 |
 | 04 | 访谈扩充 I（Code Conf 2016 / EA 星舰 / Swisher / Satellite 2020） | complete | v8.4.0 | 52a03fc | +4 条（Code 2016 仿真论证/Satellite 2020 双零/EA 2021 五步算法/All-In 2024 DMV 重验）；Decode 2018 弃收；探针 29/29 |
 | 05 | 访谈扩充 II + Lex 候选消化（#252/#400 立条） | complete | v8.5.0 | c7431d1 | +5 条（#252 保险/#400 言论自由/TED2013/Code2014/MKBHD2018）；候选池收尾 6 场留档；探针 29/29 |
-| 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | pending | — | — | — |
+| 06 | 文档馆扩充（Master Plan 缺 / SpaceX 更新信 / SEC 文件） | complete | v8.6.0 | f319ee9 | +4 份（S-1 2010/Acronyms 2010/Raptor 2021/10-K Technoking 2022）；Master Plan 四部曲查缺=已全在册；email 库 43 封入候选池；探针 31/31 |
 | 07 | 官方演讲扩充（Starship 更新会 / Neuralink demo / AI Day） | pending | — | — | — |
 | 08 | 事件档案聚合扩容（9→14±，口径红线探针） | pending | — | — | — |
 | 09 | 语录卡补齐 + 质量节点①（盘点总表入账本） | pending | — | — | — |
@@ -107,3 +107,15 @@
 - **验证**：verify.py 9/9；**CDP 探针 29/29**（tools/v9r05-probe.js，端口 9336：文件级 8/桌面结构 4/五卡逐字 5/双语/互链外链真实存在性 4 断言（x-posts#p2025-07-05、promises#promises-s4 等逐条 fetch 验证）/检索 censorship+insurance 命中+DMV 回归/390 零溢出）；node --check 通过；截图 8 张入 qa/v9-20/round-05/（before=worktree @9adff03 独立服务 8767 真改前双视口，after=五新卡桌面定位+R05 批次 390）。
 - **提交**：成果 `c7431d1`（v8.5.0，40 文件）；本回填+revisions+EPUB 为第二提交。
 - **下一轮预告**：R06 文档馆扩充——先查重站内 14 份（五份 SEC EDGAR 已在册），候选：Tesla 官方博客 Master Plan 系列查缺（Part 3/4 摘录页）、SpaceX 官方更新信（Starship 进展）、SEC 文件（Tesla S-1 2010 关键段、10-K 风险因子摘录、xAI 相关披露若有）；目标 +3~5，每份原文摘录+本站注释+与账本互链。
+
+## 第 6 轮工作记录（文档馆扩充：SpaceX 全员信 + SEC 文件）— complete（2026-10-01）
+
+- **+4 份入册（documents.html 14→18，doc-article 模板逐字克隆）**：**d2010-01-29** Tesla Form S-1（EDGAR 0001193125-10-017054 ds1.htm 直读：商业模式总纲/首份关键人风险因子/累亏 2.364 亿实况三段，互链 e2010-06-29/d2006-08/d2022-02-07）；**d2010-05-04**「Acronyms Seriously Suck」SpaceX 全员信（镜像底本+gist 全文转载逐字一致，Ashlee Vance 传记收录；互链 i2021-07-30 五步算法/d2022-11-16）；**d2021-11-26** Raptor「破产警报」全员信（镜像底本+Newsweek 全文报道关键句逐字一致，逗号异文照录；互链 e2019-09-28/p2024-10-13）；**d2022-02-07** Tesla Form 10-K FY2021「Technoking」风险段（EDGAR 0000950170-22-000796 直读；与 S-1 跨十二年同因子对照，互链 d2010-01-29/d2024-04-29/d2022-10-27）。员工外流文本口径如实标注。
+- **采料管线升级（本轮发现）**：镜像站 **email 类型库 47 封**（/agents/index?type=email，全清单存 qa/v9-20/round-06/sources/emails.json）——SpaceX 全员信/OpenAI 诉讼证物/Twitter 收购私信/Tesla 生产冲刺信全在档；email 条目 hasTranscript=false，正文在 /email/{id} 详情页（transcript 端点对 email 返回 Unknown id）。Newsweek 直连超时改走 web reader 通道取回。
+- **候选盘点（计划 R06 指定项全部回销）**：Master Plan 系列 Part 1/Deux/3/IV 已全在册无缺；SpaceX「官方更新信」以两封全员信落位（Raptor 信即 Starship 进展警报）；xAI 私营无 SEC 备案（Series E 已在册）。弃收：email 库其余 43 封入候选池（重验条件=逐封双源核验）；Epstein 两信弱相关不收；FY2021 10-K 无 key person life insurance 句（旧句式不可引）。
+- **口径同步**：og:description + doc-path 双语十八份版；reading.html 计数；build-search-index 断言 14→18，索引 267→271（109+18+42+31+5+53+4+9）。
+- **管线**：build-search-index / build-ledger-timeline（109 幂等）/ sync-changelog（195 条）/ 版本三件套 8.5.0→8.6.0（span 14 处打印）/ build-epub（215,265 B）；提交后 build-revisions 196→200 锚点 + EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9；**CDP 探针 31/31**（tools/v9r06-probe.js，端口 9339：文件级 7/桌面 16（18 卡渲染/五件套/Permalink 18 对/四卡逐字/doc-path 口径/双语/互链目标逐条 fetch 存在性）/检索 4（Technoking/acronyms/Raptor 命中+wild swings 回归）/390 零溢出两项）；node --check 通过。首轮 28/31 三处失败均为探针口径（10-K 卡单摘录块不符多段先例→拆两段内容不变；Raptor bankruptcy 双词超 q 字段→单词；回归词换 wild swings），修复后全绿，迭代记录在 RECORD.md。
+- **证据**：qa/v9-20/round-06/（四张截图 documents-desktop/mobile + d2010/d2021 锚点视图 + probe.txt + RECORD.md + sources/ 五件：镜像页×2、gist、EDGAR 摘录、Newsweek 摘要、email 全清单）。
+- **提交**：成果 `f319ee9`（v8.6.0）；本回填+revisions+EPUB 为第二提交。
+- **下一轮预告**：R07 官方演讲扩充——先查重 V8 R09 已收 6 条；候选：Starship 更新会系列（2019-09/2020-09/2021-02/2022-02 择逐字可得者）、Neuralink demo（2020-08/2021-04/2024-01）、Tesla AI Day 2021/2022；账本 +4~6 条；源=官方转播字幕/Numbski 等逐字站；镜像 keynote 库 60 场（type=keynote）与 speech 库 21 场是主矿。
