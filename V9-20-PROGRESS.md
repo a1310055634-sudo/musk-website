@@ -37,7 +37,7 @@
 | 14 | 资源交互与联动 + 质量节点②（≥15 断言） | complete | v9.4.0 | e8183f3 | 资源↔4 档案互链（.cf-resl 16 深链）+关系图面板行 +aria-live 状态行 +首页入口；质量节点②探针 30/30（八流程）；外链抽样 10/10；verify 9/9 |
 | 15 | 设计系统升级（style.css :root tokens，四页样板） | complete | v9.5.0 | 210f443 | :root 令牌 37→113（三层：刻度/语义/焦点）；正文硬编码清零（字号 335/圆角 46/块影 8/描边 7/表面 26/类型色 12 处）；:focus-visible 统一出口；对比度复核修复 #8a857c(3.22)/#9a948b(2.64)/#6f6a62(3.47) 三类小字色共 21 处；公司色标 10 项未动；四页 before/after 各 16 张；探针 69/69 |
 | 16 | 首页视觉迭代（封面构图/模块节奏/三入口） | complete | v9.6.0 | 6a0a5ae | 三入口 .btn 行 → .act 编号入口条（data-en 下沉 .act-txt 叶子）；封面照 cover-tag + 内衬双线框；strip-tag → 图上角标；firm-grid 6 等大 → 2 特大（span 2）+4 标准；feature-row 前三条朱红左标线；修复 .firm-tile--xl h3 同特异性被覆盖真缺陷；探针 43/43；像素差异 11.0–28.1%；verify 9/9 |
-| 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | pending | — | — | — |
+| 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | complete | v9.7.0 | 66c323d | 纯 CSS +71 行：etype 形状语言（圆方菱圆三角）+芯片 ::before 形状图例、年轴等宽+刻度线、标注层 tabular-nums、图例语法统一、cap/net 点阵网格；数据编码不动（ribbon 线宽=生成器值断言、口径注保留）；探针 34/34；before/after 6 组（390 组一致=清单形态未动的回归证据） |
 | 18 | 排版与阅读体验（lr-*/ps-*） | pending | — | — | — |
 | 19 | 动效与微交互 + 质量节点③ | pending | — | — | — |
 | 20 | 全站验收 + 待发布清单（v10.0.0，不推送） | pending | — | — | — |
@@ -315,3 +315,14 @@
 - **探针修正 4 项（首跑 38/43）**：① **真缺陷**（非探针问题）`.firm-tile--xl h3` 同特异性被覆盖 → 修 CSS 提特异性；② 期望值误写——`.act-primary` 文字色是 `--on-hue`（`#fff` 纯白）而非 `--paper-0`；③ reduce 模拟下断言 `transitionProperty`（被 `!important` 禁用后自然为 `none`）→ 改文件级断言 hover 规则存在；④ **Tab 循环上限 14 次不足**——导航下拉 `.nav-drop` 虽为 `display:none`，但 `.nav-group:focus-within` 会展开，键盘用户可穿越全部导航项（约 43 个）后到达正文；这是**刻意的键盘可达模式**（鼠标 hover ↔ 键盘 focus 对等），非缺陷，探针循环上限放宽至 60。**教训沉淀：断「动效已挂」不要在 reduce 模拟下做；断「Tab 第 N 次命中」必须先把导航可聚焦项数清点清楚。**
 - **提交**：成果 `6a0a5ae`（26 文件）；本回填 + revisions（206 幂等）+ EPUB 重刷为第二提交。
 - **下一轮预告**：R17 数据图形工业风——`gx-*`（timeline 年份轴）/`cap-*`（capital-evolution 流向图）/`net-*`（companies 关系图）三图精修：线宽与节点层级、网格与刻度统一、标签排版与碰撞避让、深底图形对比度复核；消费 R15 令牌；before/after 截图 + 三视口复扫。
+
+## 第 17 轮工作记录（数据图形工业风）— complete（2026-10-02）
+
+- **三图纯 CSS 精修（style.css +71 行，DOM/SVG 几何/生成器零改动）**：①etype 节点形状语言（start=圆/deal=方/gamble=菱 45°/milestone=满圆/risk=三角 clip-path；色标不变加形，补色盲可达性）+ 类型筛选芯片 ::before 形状图例（原纯文本无色点——TYPES 芯片与公司芯片是两组，公司芯片有 i 色点、类型芯片没有，教训=改图例前先查 JS 构建器 innerHTML）；②gx 年轴等宽（新令牌 --font-num 入 R15 字体层）+ ::after 6px 刻度线 + 清单日期等宽；③cap-elabel 改 sans+tabular-nums（标注层与 serif 节点名分层）；④cap/net 图例同字号同间距、虚线同构造；⑤cap-graph/net-graph 图底点阵网格（26px，不模拟坐标，print 关闭）。
+- **数据编码不动（红线自查入探针断言）**：首条 ribbon 计算线宽=生成器 stroke-width 属性值（CSS 未覆盖数据编码）、gamble 核心仍 rgb(200,64,50)、「示意非等比」口径注原文保留、R17 段零新增 transition/animation（grep transition: 声明级检查）。
+- **验证**：verify.py 9/9（38 页/索引 318）；**CDP 探针 34/34**（tools/v9r17-probe.js 端口 9365：文件级 5/桌面三图 17/三视口九宫格 320·390·768 零溢出 9/390 清单形态切换 3）；sync-changelog 206 条；版本三件套 9.6.0→9.7.0（15 页 span）；EPUB 223,159B。
+- **探针修正三则（均为探针缺陷，页面正确）**：①「无新增 transition」被段头注释字样误命中→改查 `transition:` 声明；②图例同字号误在同页比较两页元素→跨页取值 Node 侧比较；③伪元素 ::before 写进 querySelector 抛异常→querySelector 与 getComputedStyle 第二参分离。
+- **截图取景教训（R18/R19 复用）**：首拍 4 张 after 与 before 逐像素相同——①cap/net 在 390 被既有移动端规则整体隐藏（清单形态即移动形态，一致=正确且是「390 清单形态」回归证据）；②gx-board 高于视口，block:'center' 取景框进未改动的中部泳道→改滚 .gx-controls（芯片+年轴+事件道入画）+ `git stash push -- style.css` 取同取景真 before 配对，after 与 before 差异可辨（97,422B→98,649B）。
+- **管线**：build-revisions（206 幂等，导航保持——R12 治本持续生效）+ EPUB 重刷为第二提交。
+- **提交**：成果 `66c323d`（v9.7.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：R18 排版与阅读体验（v9.8.0）——lr-* 长文与 ps-* 账本：字体层级复核（正文 16-18px/阅读宽 640-760）、引语块与编者注视觉区分强化、数字/日期/金额等宽排版（--font-num 已入令牌层可直接消费）、EN 长文换行与行高、print 形态复查；before/after 截图注意本轮教训（取景框到改动元素、stash 法取真 before）。
