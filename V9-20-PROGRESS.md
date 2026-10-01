@@ -31,7 +31,7 @@
 | 08 | 事件档案聚合扩容（9→14±，口径红线探针） | complete | v8.8.0 | 7a55ca9 | +5 档案（Tesla IPO/万亿市值日/Raptor 危机翻身/Neuralink 首植/Autonomy→Optimus）；材料 37→59；吸收 18→39、独立 229，282=14+39+229 口径闭环；chronicle kind 新增；探针 35/35 |
 | 09 | 语录卡补齐 + 质量节点①（盘点总表入账本） | complete | v8.9.0 | efe7bec | e2013 立卡 102→103（约 2013 广泛征引如实双标）；verify 白名单 3→2 收严；盘点总表+缺口清单（EXPANSION）；探针 25/25 |
 | 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | complete | v8.10.0 | fdf366e | 10 条种子核活入库（官2/开2/社2/工4）；索引 282→292；探针 27/27；不可核活 7 条留档 EXPANSION |
-| 11 | 官方与标准类资源 | pending | — | — | — |
+| 11 | 官方与标准类资源 | complete | v9.1.0 | 84ec1e8 | +8 条 official 2→10（资源 10→18、索引 300）；三路法核活（7 条服务端读取器路径如实注记）；SAE J3400/tesla.com 弃收留档；修复 R10 导航回归；探针 30/30 |
 | 12 | 开源项目资源（Tesla API 生态 / Starlink 追踪 / 发射工具） | pending | — | — | — |
 | 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | pending | — | — | — |
 | 14 | 资源交互与联动 + 质量节点②（≥15 断言） | pending | — | — | — |
@@ -229,3 +229,15 @@
 - **探针修正记录**：首跑 26/27——唯一失败为探针自身断言计数写错（类型按钮误写 11 枚，实际原 9+1=10），页面正确，修正断言后全绿。
 - **提交**：成果 `fdf366e`（v8.10.0，56 文件）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：R11 官方与标准类资源——目标 tesla.com 专利开放博文落地页 / NACS 官方页 / SpaceX 官网 Starship/Falcon 页 / Tesla 车主手册与 API 文档 / OpenAI 早期博客 / Neuralink patient registry（R10 留档的反爬项重点重验：换 UA/代理路径或降表述留档）；每条 curl/WebFetch 核活并记录 http_code。
+
+## 第 11 轮工作记录（官方与标准类资源）— complete（2026-10-01）
+
+- **+8 条入册（official 2→10，全站资源 10→18，索引 292→300）**：SpaceX 官网三页（r-spacex-starship / r-spacex-falcon9 / r-spacex-updates）/ Tesla 官方开发者门户 Fleet API（r-tesla-fleet-api）/ Neuralink 患者登记（r-neuralink-registry）/ OpenAI 2015 官宣文 Introducing OpenAI（r-openai-2015，联合主席含马斯克——AI 弧线官方起点，活动度如实标「停更」+note 注明历史定稿）/ xAI 官网（r-xai-official）/ The Boring Company 官网（r-boringcompany-official，直连 200 无反爬注记）。COMPANIES_VOCAB 增 OpenAI 实体（仅资源条目，CO_MAP 透传进检索「按公司过滤」，存量 282 条实体推断零扰动）。
+- **核活三路法（本轮方法论沉淀）**：浏览器 UA curl → WebFetch → 服务端读取器（web_reader 当日恢复可用）逐级复核。curl 直连：tesla.com/spacex.com/openai.com 全 403（Akamai 反爬）、neuralink.com 连接重置（WinError 10054）、x.ai 超时（WinError 10060）；服务端读取器对 7 条核活成功并取得官方 meta/正文——**卡内 note 逐条如实注明核活路径，不冒充直连**；核活全表存 qa/v9-20/round-11/sources/liveness.md（curl 层原始 liveness-r11.json 同目录）。
+- **弃收留档（宁缺毋滥，EXPANSION.md R11 块）**：①SAE J3400（NACS 标准化文本）——WebSearch 确认标准存在（J3400/2_202504 尺寸 / J3400/1 适配器安全）但 sae.org 全站 JS 壳，构造 URL curl 200 属软页不可信、connect.sae.org 落地页猜测 404，内容级证据不可得，弃收（重验条件=用户环境实访定位产品页）；②**tesla.com 全站三路均被 Akamai 拦**（All Our Patent 博文 //nacs、/impact、/ownersmanuals 四 URL 全试），维持 R10 留档，重验条件=用户环境实访或代理。R10 反爬留档项除 tesla.com 外全部重验成功入册。
+- **附带修复（R10 导航回归）**：R10 第二提交时 build-revisions.py 重建 revisions.html 丢失「资料」组链接（R10 探针在提交前跑、回归未暴露，本轮探针「38/38 入站导航」断言捕获）——site-nav.py 全站重注入恢复 38/38，断言留档防复发。
+- **管线**：build-resources（18 条幂等重建）/ build-search-index（300）/ sync-changelog（200 条）/ 版本三件套 8.10.0→9.1.0（**15 页 span**——原 14 页+resources.html，替换计数打印在案）/ build-epub（220,597 B）；提交后 build-revisions（206 幂等，资源页不在修订追踪口径内属预期）+ EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9（38 页/索引 300；EPUB 新鲜度修复后复跑两轮均绿）；node --check 通过；**CDP 探针 30/30**（tools/v9r11-probe.js，端口 9355 全新 profile：文件级 9（含 official 节 10 条、反爬注记 7 处、OpenAI 实体唯一、38/38 导航）/结构 9（OpenAI 卡实体+停更徽标+历史定稿注记、Starship 卡核活路径注记、外链三抽）/筛选 2/双语 3/无 JS 2/检索联动 4（q=OpenAI 命中+公司过滤按钮出现+过滤后保留+q=Starship 命中）/390 零溢出 2）；截图 2 张入 qa/v9-20/round-11/。
+- **探针修正记录**：首跑 28/30——①「official 节 10 条」文件级断言用 data-cat 切分被筛选芯片同名属性干扰（页面 DOM 断言同口径已过，页面正确）改用 section id 定界；②「38/38 导航」为真回归（见上）。两处均非页面缺陷掩盖。
+- **提交**：成果 `84ec1e8`（v9.1.0，29 文件）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：R12 开源项目资源——Tesla API 生态（tesla-api.io 重验：DNS ENOTFOUND 疑似死链，独立 DNS 确认后按纪律 B 标「存档」或弃收；Tessie、Tesla API 社区文档择主要）、Starlink 追踪 GitHub 观测项目、r/SpaceX 社区百科（编年史/统计帖）、火箭发射数据工具补缺（Flight Club/Next Spaceflight/LL2 已在册勿重）；GitHub 项目记 stars+最近提交年（api.github.com 无认证串行）；社区资源记性质（非官方）。
