@@ -40,7 +40,7 @@
 | 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | complete | v9.7.0 | 66c323d | 纯 CSS +71 行：etype 形状语言（圆方菱圆三角）+芯片 ::before 形状图例、年轴等宽+刻度线、标注层 tabular-nums、图例语法统一、cap/net 点阵网格；数据编码不动（ribbon 线宽=生成器值断言、口径注保留）；探针 34/34；before/after 6 组（390 组一致=清单形态未动的回归证据） |
 | 18 | 排版与阅读体验（lr-*/ps-*） | complete | v9.8.0 | 03e822a | 纯 CSS +30 行：基线 16.5px/720px 探针锁定、数字 tabular-nums 12 选择器+数据表 .num 改 --font-num、引语三族容器（.lr-quote/.sv-node/.pv-case）5px 实线+块影 vs 编者注纸底虚线、EN 行高 1.78+换行保护、print 关影；探针 28/28（含 EN 往返与 print 媒体模拟）；before/after 九组 |
 | 19 | 动效与微交互 + 质量节点③ | complete | v9.9.0 | 05eaa17 | 58 处 transition 审计 TSV（归一 8 处到 --t-fast、slow 白名单 12 保留）、.btn:active 按压闭环、reduce 14 块 CDP 模拟实测、性能复测落盘（五页 load ≤5ms、体积清单）、美术四轮截图齐备（32+12+12+18+12）；探针 23/23 |
-| 20 | 全站验收 + 待发布清单（v10.0.0，不推送） | pending | — | — | — |
+| 20 | 全站验收 + 待发布清单（v10.0.0，不推送） | complete | v10.0.0 | 21457a0 | 口径总核对入账本、全家桶 10 项幂等（新增 build-sitemap 37 URL=38 页−noindex）、DEVLOG 交接要点、终检探针 15/15（主路径/双语/file:///114 组合零溢出/print）、RELEASE-CHECKLIST-v10.md、V10-15-PROGRESS.md 衔接 |
 
 状态取值：pending / in_progress / complete / blocked。失败不推进轮次。备注列记本地提交哈希与要点。
 
@@ -348,3 +348,13 @@
 - **验证**：verify 9/9；**探针 23/23**（tools/v9r19-probe.js 端口 9375：文件级 8/btn 三态 2/reduce 模拟 1/九宫格 12；两处断言自误修正——慢档基数按 TSV 对齐、reduce 总数以 grep 14 为准）；sync-changelog 208 条；EPUB 223,159B。
 - **提交**：成果 `05eaa17`（v9.9.0）；本回填+revisions（206 幂等导航保持）+EPUB 重刷为第二提交。
 - **下一轮预告**：R20 全站验收+待发布清单（v10.0.0）——口径总核对入账本、生成器全家桶幂等重跑、sitemap 38 URL、DEVLOG 追加交接、CDP 全站终检（主路径+双语+390+file://+资源页）、三视口全站复扫、版本→10.0.0、.gitignore 补 .v10run.lock、**输出待发布清单（不推送）**、建 V10-15-PROGRESS.md 衔接后半段。
+
+## 第 20 轮工作记录（全站验收＋待发布清单）— complete（2026-10-02）· V9-20 收官
+
+- **口径总核对（收官口径）**：38 页（revisions.html 为 noindex 机器页）/ 账本 115 / 文档 18 / 访谈 42 / X 帖 31 / 语录卡 103+2 豁免 / 事件 14 档 59 材料 / 资源 36（官方 10·开源 9·社区 11·工具 6）/ 索引 318 / sitemap 37 URL / EPUB 24 章。
+- **生成器全家桶 10 项幂等重跑**：九项原有 + **新增 tools/build-sitemap.py 纳入全家桶**（扫描 *.html 排除 noindex revisions，幂等）——sitemap.xml 37→37 URL 刷新 lastmod（含 resources；「38 URL」计划口径修正为「38 页−noindex=37」，账本与清单注明）。
+- **终验**：verify 9/9；**CDP 全站终检探针 15/15**（tools/v9r20-probe.js 端口 9381：口径 3/主路径六步/双语切换/资源页 36 卡+筛选/file:// 离线自包含/38 页×3 视口 114 组合零横向溢出/print 抽查）；node --check 通过。
+- **交付物**：RELEASE-CHECKLIST-v10.md（待发布清单：范围 24020fe..HEAD 共 41 提交、一条推送命令、Pages 五步验证、已知事项——**不推送，等用户验收**）；V10-15-PROGRESS.md（后半段账本 N01–N15，终点 v11.0.0）；DEVLOG「〇-bis V9-20 交接要点」；.gitignore 补 .v10run.lock。
+- **版本**：三件套 9.9.0→10.0.0（15 span 一致；bump 派生三处核对红线再次拦截 OLD 误换）。
+- **提交**：成果 `21457a0`（v10.0.0）；本回填+revisions（206 幂等）+EPUB 重刷为第二提交。
+- **V9-20 计划收官**：二十轮全 complete（v8.1.0→v10.0.0），本地领先 origin 41 提交待用户推送。后续触发读 V10-15-PROGRESS.md 执行 N01–N15；本账本归档不再改动。
