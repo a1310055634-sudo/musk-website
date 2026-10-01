@@ -1,0 +1,18 @@
+{
+ "sizes_bytes": {
+  "style.css": 134728,
+  "app.js": 32658,
+  "search-index.js": 215884,
+  "cite.js": 6807,
+  "musk-inc.epub": 223159
+ },
+ "html_total_bytes": 2121196,
+ "load_ms_median": {
+  "index.html": 4.9,
+  "primary.html": 1.1,
+  "timeline.html": 0.0,
+  "capital-evolution.html": 0.0,
+  "resources.html": 0.0
+ },
+ "note": "本机条件：127.0.0.1 http.server + Python urllib 全文取回（非浏览器首屏渲染时间），如实记录口径"
+}

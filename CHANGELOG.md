@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v9.9.0 — 2026-10-02 · V9-20 R19/20：动效与微交互＋质量节点③（美术四轮收官）
+
+**主题包成果（V9-20 R19 · transition 审计清单化 + 三态闭环）**
+- **全站 transition 审计清单化**：58 处声明全分类落盘 `qa/v9-20/round-19/transition-audit.tsv`（行号/分类/处置/声明）——令牌消费 27、slow 白名单保留 12（0.3s 卡片浮起 / 0.4s 展开动画 / 0.6–1s 进场 / stagger 延迟，语义档保留不改值）、none/reduce 豁免 9、关键帧动画 5、按压反馈 1、other 4。
+- **微交互时长归一**：0.18s/.18s/0.25s 硬编码 8 处 → var(--t-fast)（180ms，hover 类无损/更跟手）；归一后硬编码清零（探针断言）。
+- **三态闭环**：.btn 补 :active 按压回落（translateY(0)+80ms 快速回弹）——hover 浮起 ↔ active 按压 ↔ focus（R15 全局 :focus-visible 统一出口）三态齐备；aria-pressed 切换型组件（fchip/chip）语义不同不强加。
+- **reduced-motion 复核**：14 个 reduce 块在册（reveal 直出/bars 关闭/图形组件/汉堡/语录滚动全覆盖），CDP 模拟 reduce 实测 reveal opacity=1 直出。
+- **性能复测（本机条件如实记录）**：五页 load 中位 ≤5ms（127.0.0.1 + urllib 全文取回口径）；体积 style.css 131.6 kB / app.js 31.9 kB / search-index.js 210.8 kB / 38 页 HTML 合计 2071.5 kB——perf.json 落盘。
+- **质量节点③（美术四轮收官）**：R15 32 张（before/after 各 16，中英双视口）+ R16 12 + R17 12 + R18 18 + R19 12 张截图齐备入 qa/v9-20/round-15…19/；R19 桌面四页 before/after 中 timeline/capital 逐像素一致（零静态回归），index/survival 微小字节差为运行中动画帧差（语录轮播），如实注明。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 318）；CDP 探针 23/23（文件级 8/btn 三态 2/reduce 模拟 1/三视口九宫格 12）；node --check 通过；版本三件套 9.8.0→9.9.0（15 页 span）；EPUB 重跑。本轮仅本地提交，不推送。
+
 ## v9.8.0 — 2026-10-02 · V9-20 R18/20：排版与阅读体验（lr-*/ps-*，数字等宽+引语注区分）
 
 **主题包成果（V9-20 R18 · 纯 CSS 精修，style.css +30 行）**

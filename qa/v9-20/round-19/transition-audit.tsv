@@ -1,0 +1,59 @@
+line	category	disposition	declaration
+185	none/reduce	reduce 豁免（保留）	.reveal, .reveal-delay { opacity: 1 !important; transform: none !important; transition: none !import
+235	token-fast	令牌消费（R19 归一）	transition: background var(--t-fast), color var(--t-fast);
+247	token-fast	令牌消费（R19 归一）	transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+262	token-fast	令牌消费（R19 归一）	transition: color var(--t-fast);
+266	token-fast	令牌消费（R19 归一）	transform: rotate(45deg); opacity: 0.55; transition: transform var(--t-fast);
+281	token-fast	令牌消费（R19 归一）	transition: background var(--t-fast), color var(--t-fast);
+303	token-fast	令牌消费（R19 归一）	letter-spacing: 0.08em; transition: transform var(--t-fast), background var(--t-fast), color var(--t
+306	btn-press	R19 新增按压反馈（快速回落）	.btn:active { transform: translateY(0); transition-duration: 80ms; }
+320	token-fast	令牌消费（R19 归一）	transition: transform var(--t-fast), background var(--t-fast), color var(--t-fast), border-color var
+327	token-fast	令牌消费（R19 归一）	.act .act-arr { margin-left: 2px; transition: transform var(--t-fast); }
+402	token-fast	令牌消费（R19 归一）	transition: transform var(--t-fast), border-color var(--t-fast);
+445	none/reduce	reduce 豁免（保留）	.act, .act .act-arr, .hero-strip img, .firm-tile, .feature-row, .path-row { transition: none !import
+573	token-fast	令牌消费（R19 归一）	transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+583	animation	关键帧动画（reveal/bars 等体系，保留）	.tl-pop { animation: tlIn 0.45s ease both; }
+585	animation	关键帧动画（reveal/bars 等体系，保留）	@media (prefers-reduced-motion: reduce) { .tl-pop { animation: none; } }
+623	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	transition: transform 0.3s ease, box-shadow 0.3s ease;
+711	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	transition: transform 0.3s ease;
+714	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	.acq-detail { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.4s ease; }
+729	none/reduce	reduce 豁免（保留）	.acq-detail, .acq-head::after { transition: none; }
+740	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	transition: transform 0.3s ease, box-shadow 0.3s ease;
+764	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	transition: transform 0.3s ease, box-shadow 0.3s ease;
+798	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	transition: transform 0.3s ease, box-shadow 0.3s ease;
+818	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	.bars rect { transform: scaleX(0); transform-origin: left center; transform-box: fill-box; transitio
+819	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	.bars rect:nth-child(2) { transition-delay: 0.12s; }
+820	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	.bars rect:nth-child(3) { transition-delay: 0.24s; }
+821	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	.bars rect:nth-child(4) { transition-delay: 0.36s; }
+824	none/reduce	reduce 豁免（保留）	@media (prefers-reduced-motion: reduce) { .bars rect { transform: none; transition: none; } }
+890	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	html.js .reveal, html.js .reveal-delay { opacity: 0; transform: translateY(18px); transition: opacit
+891	slow-tier-keep	卡片浮起/进场/展开中间档（R19 白名单保留：0.3s 浮起 / 0.4s 展开 / 0.6-1s 进场 / stagger 延迟）	html.js .reveal-delay { transition-delay: 0.15s; }
+919	animation	关键帧动画（reveal/bars 等体系，保留）	animation: tgt-flash 1.8s ease-out;
+928	animation	关键帧动画（reveal/bars 等体系，保留）	animation: none; outline: var(--focus-w-tight) solid var(--focus-color); outline-offset: var(--focus
+946	other	审计在册	.nav-toggle span { display: block; width: 18px; height: 2px; background: var(--ink); margin: 3px 0; 
+965	none/reduce	reduce 豁免（保留）	@media (prefers-reduced-motion: reduce) { .nav-toggle span { transition: none; } }
+971	animation	关键帧动画（reveal/bars 等体系，保留）	.fly-plane { position: fixed; top: 22%; left: -90px; z-index: 300; pointer-events: none; animation: 
+1004	token-fast	令牌消费（R19 归一）	.gx-fchip { display: inline-flex; align-items: center; gap: 5px; font-size: var(--fs-micro); letter-
+1025	token-fast	令牌消费（R19 归一）	a.gx-dot { position: absolute; width: 9px; height: 9px; border-radius: var(--r-circle); transform: t
+1027	token-fast	令牌消费（R19 归一）	button.gx-ev { position: absolute; width: 15px; height: 15px; border-radius: var(--r-circle); transf
+1096	none/reduce	reduce 豁免（保留）	.gx-fchip, a.gx-dot, button.gx-ev { transition: none; }
+1158	other	审计在册	transition: all .25s ease;
+1194	token-fast	令牌消费（R19 归一）	.path-row h3 { font-family: var(--serif); font-size: var(--fs-22); letter-spacing: 0.03em; margin-bo
+1215	token-fast	令牌消费（R19 归一）	transition: transform var(--t-fast), box-shadow var(--t-fast), border-top-color var(--t-fast);
+1268	token-fast	令牌消费（R19 归一）	transition: background var(--t-fast);
+1274	token-fast	令牌消费（R19 归一）	.feature-row h3 { font-family: var(--serif); font-size: var(--fs-19); letter-spacing: 0.02em; margin
+1330	token-fast	令牌消费（R19 归一）	text-decoration: none; color: var(--ink); max-width: 46%; transition: border-color var(--t-fast);
+1399	token-fast	令牌消费（R19 归一）	.lr-toc a { display: block; padding: 5px 0 5px 12px; color: var(--muted); text-decoration: none; bor
+1414	none/reduce	reduce 豁免（保留）	@media (prefers-reduced-motion: reduce) { .lr-toc a { transition: none; } }
+1496	token-fast	令牌消费（R19 归一）	.net-node-bg { fill: var(--paper-0); stroke: var(--hairline); stroke-width: 1; transition: stroke va
+1520	token-fast	令牌消费（R19 归一）	.net-d-close { margin-left: auto; font-size: var(--fs-small-2); background: none; border: 1px solid 
+1621	token-fast	令牌消费（R19 归一）	.cf-ev, .cf-rel a { font-size: var(--fs-small); color: var(--accent-text); text-decoration: none; bo
+1626	token-fast	令牌消费（R19 归一）	.cf-res { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; font-size: var(--fs-
+1663	token-fast	令牌消费（R19 归一）	.cap-chip { display: inline-flex; align-items: center; gap: 5px; font: inherit; font-size: var(--fs-
+1675	token-fast	令牌消费（R19 归一）	.cap-flow .cap-ribbon { transition: opacity var(--t-fast), stroke-width var(--t-fast); }
+1681	token-fast	令牌消费（R19 归一）	.cap-node-bg { fill: var(--paper-0); stroke: rgba(23,25,29,.28); stroke-width: 1; transition: stroke
+1752	none/reduce	reduce 豁免（保留）	.cap-flow .cap-ribbon, .cap-node-bg, .cap-chip { transition: none; }
+1834	none/reduce	reduce 豁免（保留）	.sv-links a, .sv-ev li a, .sv-axis a .sv-nd { transition: none; }
+1922	token-fast	令牌消费（R19 归一）	.cite-btn { font-size: var(--fs-2xs); letter-spacing: 0.08em; font-weight: 700; color: var(--muted);
+2023	other	审计在册	无新增 transition/animation（reduced-motion 免复核）。
+2088	other	审计在册	无新增 transition/animation（reduced-motion 免复核）。
