@@ -38,7 +38,7 @@
 | 15 | 设计系统升级（style.css :root tokens，四页样板） | complete | v9.5.0 | 210f443 | :root 令牌 37→113（三层：刻度/语义/焦点）；正文硬编码清零（字号 335/圆角 46/块影 8/描边 7/表面 26/类型色 12 处）；:focus-visible 统一出口；对比度复核修复 #8a857c(3.22)/#9a948b(2.64)/#6f6a62(3.47) 三类小字色共 21 处；公司色标 10 项未动；四页 before/after 各 16 张；探针 69/69 |
 | 16 | 首页视觉迭代（封面构图/模块节奏/三入口） | complete | v9.6.0 | 6a0a5ae | 三入口 .btn 行 → .act 编号入口条（data-en 下沉 .act-txt 叶子）；封面照 cover-tag + 内衬双线框；strip-tag → 图上角标；firm-grid 6 等大 → 2 特大（span 2）+4 标准；feature-row 前三条朱红左标线；修复 .firm-tile--xl h3 同特异性被覆盖真缺陷；探针 43/43；像素差异 11.0–28.1%；verify 9/9 |
 | 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | complete | v9.7.0 | 66c323d | 纯 CSS +71 行：etype 形状语言（圆方菱圆三角）+芯片 ::before 形状图例、年轴等宽+刻度线、标注层 tabular-nums、图例语法统一、cap/net 点阵网格；数据编码不动（ribbon 线宽=生成器值断言、口径注保留）；探针 34/34；before/after 6 组（390 组一致=清单形态未动的回归证据） |
-| 18 | 排版与阅读体验（lr-*/ps-*） | pending | — | — | — |
+| 18 | 排版与阅读体验（lr-*/ps-*） | complete | v9.8.0 | 03e822a | 纯 CSS +30 行：基线 16.5px/720px 探针锁定、数字 tabular-nums 12 选择器+数据表 .num 改 --font-num、引语三族容器（.lr-quote/.sv-node/.pv-case）5px 实线+块影 vs 编者注纸底虚线、EN 行高 1.78+换行保护、print 关影；探针 28/28（含 EN 往返与 print 媒体模拟）；before/after 九组 |
 | 19 | 动效与微交互 + 质量节点③ | pending | — | — | — |
 | 20 | 全站验收 + 待发布清单（v10.0.0，不推送） | pending | — | — | — |
 
@@ -326,3 +326,12 @@
 - **管线**：build-revisions（206 幂等，导航保持——R12 治本持续生效）+ EPUB 重刷为第二提交。
 - **提交**：成果 `66c323d`（v9.7.0）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：R18 排版与阅读体验（v9.8.0）——lr-* 长文与 ps-* 账本：字体层级复核（正文 16-18px/阅读宽 640-760）、引语块与编者注视觉区分强化、数字/日期/金额等宽排版（--font-num 已入令牌层可直接消费）、EN 长文换行与行高、print 形态复查；before/after 截图注意本轮教训（取景框到改动元素、stash 法取真 before）。
+
+## 第 18 轮工作记录（排版与阅读体验）— complete（2026-10-02）
+
+- **纯 CSS 精修（style.css +30 行，DOM/HTML 零改动）**：①基线复核＝R15 定值即达标（正文 16.5px∈16–18、阅读宽 720px∈640–760），本轮以 computed 断言锁定防回归；②数字等宽：文字层 12 选择器 tabular-nums（lr 正文/引语/编者注/来源/meta/数据框+ps 引语/译文/事实/日期/来源/计数）+ 数据表 .lr-data .num 改 --font-num（deep-dive-01 实测）；③引语/编者注三重区分：引语=实底+5px 实线+--shadow-1，编者注=纸底+虚线框；④EN 行高 1.92→1.78（引语 1.75）+overflow-wrap；⑤print 引语影显式关闭。
+- **首版 CSS 漏覆盖被探针捕获（本轮质量门价值案例）**：survival-2008 引语实为裸 `blockquote`（.sv-node 内无 .lr-quote 类，样式走 1798 行特化规则）——首版只强化 .lr-quote，探针 no lr-quote→no-bq 逐层定位后修正为三族容器（.lr-quote/.sv-node blockquote/.pv-case blockquote）同覆盖；print API 同轮勘定（本机 Chrome 无 setEmulatedMediaType，用旧版 setEmulatedMedia {media:'print'} 实测成功）。
+- **验证**：verify.py 9/9（38 页/索引 318）；**CDP 探针 28/28**（tools/v9r18-probe.js 端口 9371：文件级 6/survival 7 含 EN 切换往返 1.78↔1.92/deep-dive .num 1/primary 2/print 模拟 1/三视口九宫格 320·390·768×四页 12）；before/after 九组（survival 三组 md5 差异可辨；index/timeline/capital 六组逐像素一致=改动面不含 lr/ps 元素属预期如实注明）；版本三件套 9.7.0→9.8.0（15 页 span+build-resources 重建）；sync-changelog 207 条；EPUB 223,159B。
+- **bump 派生老坑再现并规避**：python replace 链式替换把 OLD 常量误改（'9.6.0'→'9.8.0' 链）——派生后 grep OLD/subn 行核对发现，修正后执行（任务书红线「grep subn 行核对」生效）。
+- **提交**：成果 `03e822a`（v9.8.0）；本回填+revisions（206 幂等导航保持）+EPUB 重刷为第二提交。
+- **下一轮预告**：R19 动效与微交互+质量节点③（v9.9.0）——--t-fast/--t-slow 全站 transition 审计清单化（审计表入 qa）、hover/active/focus 三态一致、进场动效统一、reduced-motion 逐组件复核、性能复测（五页 load/资源体积）；质量节点③=R15–R19 美术四轮 before/after 截图齐备。
