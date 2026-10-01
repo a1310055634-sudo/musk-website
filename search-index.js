@@ -895,6 +895,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2016-10-12",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2016.10.12",
+  "s": "SolarCity Form DEFM14A（合并委托书 · 马斯克回避表决记录）",
+  "q": "“…that Messrs. Elon Musk and Antonio Gracias, as a result of their service on the SolarCity Board, should recuse themselves from any vote by the Tesla Board on matters relating to a potential acquisition of SolarCity, including evaluation, negotiation and approval of the economic terms of any such acquisition. The Tesla Board also determined that the members of the Tesla Board other than Messrs. Elon Musk and Antonio Gracias should have the opportunity to deliberate with respect to any potential SolarCity transaction outside the presence of Messrs. Elon Musk and Gracias.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "SolarCity",
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2016-10-26",
   "pg": "primary.html",
   "t": "言行实录",
