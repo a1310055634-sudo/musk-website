@@ -130,6 +130,7 @@
   /* ---- 字体 ---- */
   --serif: Georgia, "Times New Roman", "STSong", "SimSun", serif;
   --sans: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-num: "Cascadia Mono", Consolas, "SF Mono", "Roboto Mono", "Courier New", monospace; /* V9-R17：图形年月/刻度等纯数字标注（工业图纸口径；中文回退 sans） */
 
   /* ---- ① 字号阶梯（标题 clamp 体系 + 正文固定阶梯） ---- */
   --fs-hero: clamp(88px, 11vw, 144px);   /* 桌面封面主标题 */
@@ -2009,4 +2010,67 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
   .rs-name a { color: var(--ink); }
   .rs-url { color: var(--ink); }
   .rs-meta { background: none; }
+}
+
+/* ============================================================
+   V9-R17 数据图形工业风（gx-* 时间线 / cap-* 资本流向 / net-* 关系图）
+   原则：数据编码不动——流向线宽仍按金额对数标定、公司色标与 etype 色不动、
+   「示意非等比」口径注原文保留。本轮只做五件事：
+   ① gx 年轴刻度线与等宽年份；② etype 节点形状语言（圆/方/菱/三角，色不变加形）；
+   ③ 标注层数字等宽（--font-num / tabular-nums）；④ cap·net 图例语法统一；
+   ⑤ 两张 SVG 图底点阵网格（示意纸面，不模拟坐标，print 关闭）。
+   无新增 transition/animation（reduced-motion 免复核）。
+   ============================================================ */
+
+/* ---- gx 时间线：年轴刻度 + 等宽年份 ---- */
+.gx-axis span { font-family: var(--font-num); font-size: var(--fs-3xs); letter-spacing: .04em; color: var(--tx-3); }
+.gx-axis span::after {
+  content: ""; position: absolute; left: 50%; top: 100%;
+  width: 1px; height: 6px; background: rgba(23,25,29,.28);
+}
+.gxl-date { font-family: var(--font-num); letter-spacing: 0; }
+
+/* ---- gx 时间线：etype 节点形状语言（色标不变，形状四分） ----
+   start=圆（既定） deal=方 gamble=菱 milestone=满圆 risk=三角（警示） */
+.gx-ev--deal .gx-ev-core { border-radius: 1.5px; }
+.gx-ev--gamble .gx-ev-core { transform: rotate(45deg); border-radius: 1.5px; }
+.gx-ev--risk .gx-ev-core { border-radius: 0; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+/* 类型筛选芯片补形状图例（原为纯文本无色点；色=etype 令牌、形=节点形状语言——图例即形状表） */
+.gx-tchip--start::before, .gx-tchip--deal::before, .gx-tchip--gamble::before,
+.gx-tchip--milestone::before, .gx-tchip--risk::before {
+  content: ""; width: 9px; height: 9px; display: inline-block; flex: none;
+  border-radius: var(--r-circle); background: var(--muted);
+}
+.gx-tchip--start::before { background: var(--ty-start); }
+.gx-tchip--deal::before { background: var(--navy); border-radius: 1.5px; }
+.gx-tchip--gamble::before { background: var(--accent); border-radius: 1.5px; transform: rotate(45deg); }
+.gx-tchip--milestone::before { background: var(--ty-milestone); }
+.gx-tchip--risk::before { background: var(--ty-risk); border-radius: 0; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+
+/* ---- cap 资本流向：图底点阵网格（示意纸面）+ 标注层改技术字体 ---- */
+.cap-graph {
+  background-image: radial-gradient(circle, rgba(23,25,29,.13) 1px, transparent 1.2px);
+  background-size: 26px 26px;
+  background-position: 13px 13px;
+}
+.cap-elabel { font-family: var(--sans); font-variant-numeric: tabular-nums; }
+.cap-meta, .cap-status, .cap-d-meta { font-variant-numeric: tabular-nums; }
+
+/* ---- net 关系图：同规格点阵网格 + 标注层数字等宽 ---- */
+.net-graph {
+  background-image: radial-gradient(circle, rgba(23,25,29,.13) 1px, transparent 1.2px);
+  background-size: 26px 26px;
+  background-position: 13px 13px;
+}
+.net-elabel { font-variant-numeric: tabular-nums; }
+
+/* ---- 图例语法统一（cap 与 net 同规格：26px 线样 / 2px 等高 / 虚线同构造 / 同字号同间距） ---- */
+.cap-legend { gap: 4px 22px; font-size: var(--fs-small-2); }
+.net-legend { gap: 8px 22px; font-size: var(--fs-small-2); }
+.cap-legend, .net-legend { font-variant-numeric: tabular-nums; }
+.net-lg-dash { border-top: none; height: 2px; background: repeating-linear-gradient(90deg, var(--co-x) 0 3px, transparent 3px 6px); }
+
+/* ---- 打印：纸面网格底纹关闭（浏览器默认不印背景，此处显式兜底） ---- */
+@media print {
+  .cap-graph, .net-graph { background-image: none; }
 }
