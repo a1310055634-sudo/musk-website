@@ -1,0 +1,236 @@
+[
+ {
+  "id": "p2018-01-28",
+  "mirror_id": "957441956874919936",
+  "snowflake_utc": "2018-01-28",
+  "card_date": "2018-01-28",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2018-08-07",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2019-11-21",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2020-03-06",
+  "mirror_id": "1236029449042198528",
+  "snowflake_utc": "2020-03-06",
+  "card_date": "2020-03-06",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2020-04-29",
+  "mirror_id": "1255380013488189440",
+  "snowflake_utc": "2020-04-29",
+  "card_date": "2020-04-29",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2020-05-01",
+  "mirror_id": "1256239554148724737",
+  "snowflake_utc": "2020-05-01",
+  "card_date": "2020-05-01",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2021-01-26",
+  "mirror_id": "1354174279894642703",
+  "snowflake_utc": "2021-01-26",
+  "card_date": "2021-01-26",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2021-03-02",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2021-05-05",
+  "mirror_id": "1390073153347592192",
+  "snowflake_utc": "2021-05-05",
+  "card_date": "2021-05-05",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2021-11-02",
+  "mirror_id": "1455351085170823169",
+  "snowflake_utc": "2021-11-02",
+  "card_date": "2021-11-02",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-03-26",
+  "mirror_id": "1507777261654605828",
+  "snowflake_utc": "2022-03-26",
+  "card_date": "2022-03-26",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-04-14",
+  "mirror_id": "1514564966564651008",
+  "snowflake_utc": "2022-04-14",
+  "card_date": "2022-04-14",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-05-13",
+  "mirror_id": "1525049369552048129",
+  "snowflake_utc": "2022-05-13",
+  "card_date": "2022-05-13",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-10-26",
+  "mirror_id": "1585341984679469056",
+  "snowflake_utc": "2022-10-26",
+  "card_date": "2022-10-26",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-10-28",
+  "mirror_id": "1585841080431321088",
+  "snowflake_utc": "2022-10-28",
+  "card_date": "2022-10-28",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-11-01",
+  "mirror_id": "1587498907336118274",
+  "snowflake_utc": "2022-11-01",
+  "card_date": "2022-11-01",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2022-11-28",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2022-12-18",
+  "mirror_id": "1604617643973124097",
+  "snowflake_utc": "2022-12-18",
+  "card_date": "2022-12-18",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2023-07-23",
+  "mirror_id": "1682964919325724673",
+  "snowflake_utc": "2023-07-23",
+  "card_date": "2023-07-23",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2023-11-04",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2023-11-29",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2023-11-30",
+  "mirror_id": "1730283187127964138",
+  "snowflake_utc": "2023-11-30",
+  "card_date": "2023-11-30",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2024-01-29",
+  "mirror_id": "1752098683024220632",
+  "snowflake_utc": "2024-01-29",
+  "card_date": "2024-01-29",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2024-01-30",
+  "mirror_id": "1752455348106166598",
+  "snowflake_utc": "2024-01-30",
+  "card_date": "2024-01-30",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2024-03-11",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2024-04-05",
+  "mirror_id": "1776351450542768368",
+  "snowflake_utc": "2024-04-05",
+  "card_date": "2024-04-05",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2024-07-13",
+  "mirror_id": "1812256998588662068",
+  "snowflake_utc": "2024-07-13",
+  "card_date": "2024-07-13",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ },
+ {
+  "id": "p2024-10-13",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2025-03-28",
+  "mirror_id": "1905731750275510312",
+  "snowflake_utc": "2025-03-28",
+  "card_date": "2025-03-28",
+  "match": true,
+  "utc_note": false,
+  "verdict": "match"
+ },
+ {
+  "id": "p2025-05-03",
+  "verdict": "no-id（卡内无 status id，无法机核对表——卡内日期口径以立条时多源核实为准）"
+ },
+ {
+  "id": "p2025-07-05",
+  "mirror_id": "1941584569523732930",
+  "snowflake_utc": "2025-07-05",
+  "card_date": "2025-07-05",
+  "match": true,
+  "utc_note": true,
+  "verdict": "match"
+ }
+]

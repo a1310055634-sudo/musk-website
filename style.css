@@ -2114,3 +2114,9 @@ html[lang="en"] .lr-quote { line-height: 1.75; }
 @media print {
   .lr-quote, .sv-node blockquote, .pv-case blockquote { box-shadow: none; }
 }
+
+/* ---- V10-N03 引语复核声明（primary/quotes；小字弱化，消费令牌） ---- */
+.ps-review-note, .qs-review-note {
+  font-size: var(--fs-xs); color: var(--muted); line-height: 1.75;
+  border-left: 3px solid var(--hairline); padding: 6px 0 6px 12px; margin: 10px 0 14px;
+}
