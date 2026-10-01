@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|
 | N01 | 全站源存活复测（六页外链三路法） | complete | v10.1.0 | 5b09bb9 | 口径修正=六页来源为 ps-src 文字徽章无明文外链→复测全站 37 条真实外链；零死链（直连 12+api 8/8+服务端复核+同域推定+受限 5+前档佐证 2）；stars 微漂移 4 条记录；报告 37/37 落盘 |
 | N02 | 引语逐字核验 I（机核：X 帖/访谈/账本 115） | complete | v10.2.0 | 3c4f0c3 | 机核三件管线+镜像语料 9 场；X 帖 31=18v+3 合并卡+1 无档+9 无锚；访谈 16/42、账本 5/106 verified（余待人工=语料未覆盖非镜像源）；零实质差异零修正 |
-| N03 | 引语核验 II＋口径审计＋复核声明上站 | pending | — | — | — |
+| N03 | 引语核验 II＋口径审计＋复核声明上站 | complete | v10.3.0 | 9ec238d | snowflake 22/22 match+注记零缺失；人工抽样 stockanalysis 2/2 逐字吻合；未覆盖 101 块逐条归因落盘；双语探针（quotes 100 卡/primary 引文行 100% 配译文）；声明上站 primary+quotes（纪律 D 门槛达成）；探针 6/6 |
 | N04 | 资源核活复测＋元数据升级（36 条刷新） | pending | — | — | — |
 | N05 | 早期年代 I：访谈 2003–2012（161 场库过滤） | pending | — | — | — |
 | N06 | 早期年代 II：文档馆补空（DEFM14A 等） | pending | — | — | — |
@@ -56,3 +56,14 @@
 - **验证**：verify 9/9；版本三件套 10.1.0→10.2.0（15 span 一致）；纯核实轮页面内容零改动。
 - **提交**：成果 `3c4f0c3`（v10.2.0）；本回填+revisions（206 幂等）+EPUB 重刷为第二提交。
 - **下一轮预告**：N03 引语逐字核验 II＋口径审计（v10.3.0）——snowflake 全量对表（31 帖）；双语卡 EN/ZH 对齐探针（quotes+primary 抽样）；numbers.html 数字与 10-K/财报对照抽核；日期口径注完备性走查；**达标后在 primary.html 与 quotes.html 上「引语复核声明」**（双语+复核日期+覆盖口径——覆盖口径须含 N02 待人工项的处置结果）。
+
+## 第 3 轮工作记录（N03 口径审计＋复核声明上站）— complete（2026-10-02）
+
+- **snowflake 全量对表**：22 条有 id 帖解码 UTC 与卡内日期全 match、UTC 注记零缺失（tools/v10n03-audit.py，报告 snowflake-audit.json）。
+- **人工抽样（纪律 D）**：stockanalysis 财报会抽 2 条——Q3 2017「How hot is it in hell…level 9→level 8」（23967）与 Q4 2015「Model 3 unveiling end of next month…well-received」（23975）——**2/2 逐字吻合**（WebFetch 通道，Cloudflare 不拦）。
+- **未覆盖逐条归因**：N02 待人工 101 块逐条落盘 unmatched-itemized.tsv（other-official 73/earnings-call 20/edgar 6/jre 1/ted 1）——纪律 D「逐条注明原因」门槛达成。
+- **双语对齐**：quotes 103 卡 100 卡双语齐备（3 卡形态特殊如实记）；primary 抽样含引文块行 100% 配译文——首跑误报 2 行深查为 SolarCity 两案无本人逐字引语（如实设计），探针口径校准（教训：先目检行结构再写断言，`:not(.ps-deep)` 误用引出 0 行——115 行全为 ps-deep 深读版）。
+- **声明上站**：primary.html（ps-search-wrap 后）与 quotes.html（qs-p 后）双语声明 id=quote-review-statement，措辞如实三层（镜像机核/人工抽样 2-2/未覆盖逐条注明）；样式 .ps-review-note/.qs-review-note 消费令牌（style.css +4 行）。
+- **验证**：verify 9/9；探针 6/6（tools/v10n03-probe.js 端口 9385）；版本三件套 10.2.0→10.3.0；sync-changelog 212 条；EPUB 223,463B。**bump 派生正则前滚机制首次完整落地**（运行后立即滚到 NEW 供下轮）。
+- **提交**：成果 `9ec238d`（v10.3.0）；本回填+revisions（206 幂等）+EPUB 重刷为第二提交。
+- **下一轮预告**：N04 资源核活复测＋元数据升级（v10.4.0）——resources-data.py 36 条全量复测（http/stars/pushed 刷新、checked 改 2026-10-02）；GitHub 漂移 4 条（N01 记录）同步刷新；死链按纪律 B；EXPANSION 弃收件重验（SAE/tesla.com 维持留档）。
