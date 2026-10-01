@@ -22,7 +22,7 @@
 | N06 | 早期年代 II：文档馆补空（DEFM14A 等） | complete | v10.6.0 | 697c775 | +1 份 d2016-10-12 SolarCity 合并委托书马斯克回避表决三段逐字（文档 18→19 索引 320）；其余候选受限留档；bump 自动前滚版落地；探针 8/8 |
 | N07 | X 帖 2018–2019 回捞（镜像下限实测） | complete | v10.7.0 | d0c80b9 | 实测下限=2018-07（Falcon Heavy 无档留档）；+3 卡顾问阵容/S3XY/Starlink 致团队（X 帖 31→34 索引 323）；探针 8/8 |
 | N08 | email 库消化 I（Twitter 收购私信/OpenAI 证物） | complete | v10.8.0 | 4b1b411 | +4 份诉讼证物信（$1B 承诺/控制权/最终稻草/Agrawal 质问，文档 19→23 索引 327），全部双源核验+口径注明；web_reader 渲染管线打通；探针 7/7 |
-| N09 | email 库消化 II（生产冲刺信等，清账） | pending | — | — | — |
+| N09 | email 库消化 II（生产冲刺信等，清账） | complete | v10.9.0 | 90e3ad3 | +4 封冲刺信（sabotage/创纪录季度/舒芙蕾大锤/回办公室令，文档 23→27 索引 331）；Fork 在册不重立；47 封归宿清账入 EXPANSION；探针 6/6 |
 | N10 | keynote/speech 池消化＋AI Day 2021 引语升级 | pending | — | — | — |
 | N11 | 访谈保留池清账（五场立条或注明） | pending | — | — | — |
 | N12 | 社区资源 I：SpaceX 观测生态（LabPadre/NSF 等） | pending | — | — | — |
@@ -112,3 +112,12 @@
 - **验证**：verify 9/9（38 页/索引 327）；探针 7/7（tools/v10n08-probe.js 端口 9394）；版本三件套 10.7.0→10.8.0（自动派生版）；sync-changelog 217 条；EPUB 228,004B；修订史 215 锚点（文档 23 入轨）。
 - **提交**：成果 `4b1b411`（v10.8.0）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：N09 email 库消化 II（v10.9.0）——Tesla 生产冲刺信（soufflé/sabotage/record quarter/go all out 等）/ SpaceX 全员信余量；同双源纪律；完成后 email 库 47 封全部有归宿（立条/弃收/留档）。
+
+## 第 9 轮工作记录（N09 email 库消化 II）— complete（2026-10-02）
+
+- **+4 份入册（文档 23→27，索引 327→331，全部「媒体获得」口径）**：d2018-06-17「破坏者」信（quite extensive and damaging sabotage+虚假用户名改 TMOS——Model 3 爬坡黑暗周内患信）/ d2020-09-20 冲刺创纪录季度信（absolute top priority——Q3 2020 最终 13.93 万辆创当时纪录）/ d2020-12-01「舒芙蕾与大锤」盈利警告（profitability ~1%——入标普当周清醒剂，年度名句）/ d2022-05-31「回到办公室」终结令（40 小时+不打卡视为辞职——大回归办公室争论标志文件）。双源：镜像底本（web_reader 渲染）+ CNBC/Electrek 全文报道。
+- **查重**：Fork in the Road（2022-11-16）已在册（d2022-11-16，V8 收录）不重立——候选 5 收敛 4。
+- **email 库 47 封归宿清账（EXPANSION 顶部注记）**：立条 10（R06 两封+N08 四封+N09 四封）+ 在册复用 1（Fork in the Road）+ 留档候选 30（Twitter 私信余量/OpenAI 诉讼余量/Tesla·SpaceX 余量，逐封双源待续）+ 不立 2（Epstein×2，弱相关且敏感）=47 全覆盖——「每封有归宿」达成。
+- **验证**：verify 9/9（38 页/索引 331）；探针 6/6（首跑检索断言踩「索引 q 只存第一 blockquote」既有架构口径——R06 已知限制，断言校准非放宽）；版本三件套 10.8.0→10.9.0（自动派生 bump 稳定）；sync-changelog 218 条；EPUB 229,371B；修订史 219 锚点（文档 27 入轨）。
+- **提交**：成果 `90e3ad3`（v10.9.0）；`dd22660`（EXPANSION 清账+重刷）+本补正提交构成第二提交。
+- **下一轮预告**：N10 keynote/speech 池消化＋引语升级（v10.10.0）——starship-update-2025/xai-all-hands-2026/terafab-2026/company-update-2026/股东会 2024 候选；必做 AI Day 2021 官方逐字升级 e2021-08；政治类不立；+4~6 条+1 项升级。
