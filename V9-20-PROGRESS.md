@@ -39,7 +39,7 @@
 | 16 | 首页视觉迭代（封面构图/模块节奏/三入口） | complete | v9.6.0 | 6a0a5ae | 三入口 .btn 行 → .act 编号入口条（data-en 下沉 .act-txt 叶子）；封面照 cover-tag + 内衬双线框；strip-tag → 图上角标；firm-grid 6 等大 → 2 特大（span 2）+4 标准；feature-row 前三条朱红左标线；修复 .firm-tile--xl h3 同特异性被覆盖真缺陷；探针 43/43；像素差异 11.0–28.1%；verify 9/9 |
 | 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | complete | v9.7.0 | 66c323d | 纯 CSS +71 行：etype 形状语言（圆方菱圆三角）+芯片 ::before 形状图例、年轴等宽+刻度线、标注层 tabular-nums、图例语法统一、cap/net 点阵网格；数据编码不动（ribbon 线宽=生成器值断言、口径注保留）；探针 34/34；before/after 6 组（390 组一致=清单形态未动的回归证据） |
 | 18 | 排版与阅读体验（lr-*/ps-*） | complete | v9.8.0 | 03e822a | 纯 CSS +30 行：基线 16.5px/720px 探针锁定、数字 tabular-nums 12 选择器+数据表 .num 改 --font-num、引语三族容器（.lr-quote/.sv-node/.pv-case）5px 实线+块影 vs 编者注纸底虚线、EN 行高 1.78+换行保护、print 关影；探针 28/28（含 EN 往返与 print 媒体模拟）；before/after 九组 |
-| 19 | 动效与微交互 + 质量节点③ | pending | — | — | — |
+| 19 | 动效与微交互 + 质量节点③ | complete | v9.9.0 | 05eaa17 | 58 处 transition 审计 TSV（归一 8 处到 --t-fast、slow 白名单 12 保留）、.btn:active 按压闭环、reduce 14 块 CDP 模拟实测、性能复测落盘（五页 load ≤5ms、体积清单）、美术四轮截图齐备（32+12+12+18+12）；探针 23/23 |
 | 20 | 全站验收 + 待发布清单（v10.0.0，不推送） | pending | — | — | — |
 
 状态取值：pending / in_progress / complete / blocked。失败不推进轮次。备注列记本地提交哈希与要点。
@@ -335,3 +335,16 @@
 - **bump 派生老坑再现并规避**：python replace 链式替换把 OLD 常量误改（'9.6.0'→'9.8.0' 链）——派生后 grep OLD/subn 行核对发现，修正后执行（任务书红线「grep subn 行核对」生效）。
 - **提交**：成果 `03e822a`（v9.8.0）；本回填+revisions（206 幂等导航保持）+EPUB 重刷为第二提交。
 - **下一轮预告**：R19 动效与微交互+质量节点③（v9.9.0）——--t-fast/--t-slow 全站 transition 审计清单化（审计表入 qa）、hover/active/focus 三态一致、进场动效统一、reduced-motion 逐组件复核、性能复测（五页 load/资源体积）；质量节点③=R15–R19 美术四轮 before/after 截图齐备。
+
+## 第 19 轮工作记录（动效与微交互＋质量节点③）— complete（2026-10-02）
+
+- **transition 审计清单化**：全站 58 处声明全分类落盘 qa/v9-20/round-19/transition-audit.tsv（行号/分类/处置/声明）——token-fast 27 / slow 白名单 12（0.3s 浮起/0.4s 展开/0.6–1s 进场/stagger 延迟，语义档保留防节奏回归）/none-reduce 9/animation 5/btn-press 1/other 4。
+- **归一**：0.18s/.18s/0.25s 硬编码 8 处 → var(--t-fast)（hover 类无损或更跟手），归一后硬编码清零探针断言。
+- **三态闭环**：.btn 补 :active 按压（translateY(0)+80ms 快回弹）——hover/active/focus 齐备（focus 走 R15 全局 :focus-visible 出口，组件级不重复）；aria-pressed 切换型（fchip/chip）语义不同不强加。
+- **reduce 复核**：14 块在册全覆盖；CDP Emulation.setEmulatedMedia features 模拟 reduce 实测 reveal opacity=1 直出。
+- **性能复测**：五页 load 中位 ≤5ms（127.0.0.1+urllib 全文取回口径如实注明）；体积 style.css 131.6kB/app.js 31.9kB/search-index.js 210.8kB/HTML 38 页 2071.5kB——perf.json。
+- **质量节点③**：美术四轮 before/after 齐备——R15 32（before|after 子目录各 16 中英双视口）/R16 12/R17 12/R18 18/R19 12；R19 桌面 timeline/capital 逐像素一致=零静态回归，index/survival 微小字节差（13B/10B）为语录轮播动画帧差如实注明。
+- **bump 派生坑第三次（红线生效）**：v9r18 正则旧值未随 NEW 升级（9\.7\.0 残留），派生 replace 不匹配→app.js count=0 即停；grep subn 行发现后修正重跑。**教训固化：派生 bump 须同时核对 OLD 常量+两处正则旧值三处。**
+- **验证**：verify 9/9；**探针 23/23**（tools/v9r19-probe.js 端口 9375：文件级 8/btn 三态 2/reduce 模拟 1/九宫格 12；两处断言自误修正——慢档基数按 TSV 对齐、reduce 总数以 grep 14 为准）；sync-changelog 208 条；EPUB 223,159B。
+- **提交**：成果 `05eaa17`（v9.9.0）；本回填+revisions（206 幂等导航保持）+EPUB 重刷为第二提交。
+- **下一轮预告**：R20 全站验收+待发布清单（v10.0.0）——口径总核对入账本、生成器全家桶幂等重跑、sitemap 38 URL、DEVLOG 追加交接、CDP 全站终检（主路径+双语+390+file://+资源页）、三视口全站复扫、版本→10.0.0、.gitignore 补 .v10run.lock、**输出待发布清单（不推送）**、建 V10-15-PROGRESS.md 衔接后半段。
