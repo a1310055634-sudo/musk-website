@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v10.0.0 — 2026-10-02 · V9-20 R20/20：全站验收＋待发布清单（二十轮收官，本地待推送）
+
+**主题包成果（V9-20 R20 · 收官轮）**
+- **口径总核对（入账本）**：38 页（含 resources，revisions.html 为 noindex 机器页）/ 账本 115 / 文档 18 / 访谈 42 / X 帖 31 / 语录卡 103（账本引文块 105=103+豁免 2）/ 事件档案 14（59 材料）/ 资源 36（官方 10·开源 9·社区 11·工具 6）/ 检索索引 318（115+18+42+31+5+53+4+14+36）。
+- **生成器全家桶幂等重跑**：build-events/timeline-events/network/company-files/capital/ledger-links/search-index/resources/ledger-timeline 九项 + 新增 build-sitemap.py 纳入全家桶——sitemap.xml 37 URL（38 页 − noindex revisions.html，口径修正注记）。
+- **DEVLOG 追加「V9-20 交接要点」**（〇-bis 节）：三十轮成果地图/单一事实来源增量/已知限制/续作指南。
+- **终验**：verify.py 9/9；CDP 全站终检（主路径五步+双语+390+file://+资源页）；38 页×3 视口（320/390/768）全站复扫零溢出；打印抽查（EmulatedMedia print）。
+- **版本三件套 → 10.0.0**；.gitignore 补 .v10run.lock；输出「待发布清单」（不推送，另存 RELEASE-CHECKLIST-v10.md）。
+- **衔接**：V10-15-PROGRESS.md 已建（N01–N15 内容精修计划，终点 v11.0.0）。
+
+**质量门**
+- verify.py 9 项全绿；全站终检探针断言数见 qa/v9-20/round-20/ACCEPTANCE.md；版本三件套 9.9.0→10.0.0（15 页 span）；EPUB 重跑。本轮仅本地提交，不推送。
+
 ## v9.9.0 — 2026-10-02 · V9-20 R19/20：动效与微交互＋质量节点③（美术四轮收官）
 
 **主题包成果（V9-20 R19 · transition 审计清单化 + 三态闭环）**

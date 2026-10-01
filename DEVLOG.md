@@ -1,10 +1,28 @@
 # 马斯克商业志 MUSK, INC. — 开发日志与交接文档
 
-> 本文档供新会话接手时快速了解项目全貌。最后更新：v7.0.0（2026-09-30，V7-19 十九轮改版发布）。
+> 本文档供新会话接手时快速了解项目全貌。最后更新：v10.0.0（2026-10-02，V9-20 二十轮收官，本地待推送）。
 >
 > **技术增补**：2026-09-26 的 17 轮自动化冲刺（v5.89.0→v6.5.0）架构变更、作业模板与坑位清单见 `DEVLOG-SPRINT17.md`（接手 agent 必读第二篇）。
 
 > **技术增补（二）**：2026-09-29/30 的 **V7 十九轮改版（v6.6.0→v7.0.0）已完成并发布**。接手必读第三篇：本节末尾的「V7-19 交接要点」+ `V7-19-PROGRESS.md`（19 轮全记录）+ `qa/v7-19/`（每轮探针与截图）。
+
+> **技术增补（三）**：2026-10-01/02 的 **V8/V9-20 三十轮扩充与升级（v7.1.0→v10.0.0）已完成（纯本地，未推送）**。接手必读：「V9-20 交接要点」节 + `V9-20-PROGRESS.md`（20 轮全记录）+ `qa/v9-20/`（每轮探针与截图）；V8 十轮见 `V8-PROGRESS.md`。
+
+---
+
+## 〇-bis、V9-20 交接要点（v10.0.0，2026-10-02 本地收官，待用户推送）
+
+**三十轮成果地图**（V8 v7.1.0→v8.0.0 十轮：财报会逐字/X 帖/访谈/文档第一手回捞；V9-20 v8.1.0→v10.0.0 二十轮：细节见 V9-20-PROGRESS.md，qa/v9-20/round-NN/）：
+- **第一手信息**：账本 67→115（财报会 10+官方演讲 6+早期访谈批次）；文档馆 14→18（S-1/Acronyms/Raptor 信/Technoking 10-K）；访谈 26→42（镜像 interview 库 161 场管线）；X 帖 13→31（镜像 Agent API 管线，snowflake 对表）；语录卡 103（账本引文块全覆盖，豁免 2）；事件档案 9→14（59 材料/口径闭环）。
+- **资源板块（第 38 页）**：resources.html 36 条（官方 10/开源 9/社区 11/工具 6，以 resources-data.py 为准），单一事实来源 tools/resources-data.py + build-resources.py；三路法核活（curl→WebFetch→服务端读取器）；**两大判定证伪**：tesla-api.io 与 en.wikipedia.org 本机 DNS 故障≠死链（服务端核活 200 在线）；检索「社区资源」类型+公司过滤+资源↔档案互链（.cf-resl）。
+- **美术四轮**：R15 令牌层 37→113（三层：刻度/语义/焦点，对比度修复 21 处）→R16 首页（2 特大+4 标准瓦片/act 入口条）→R17 三图工业风（etype 形状语言圆方菱圆三角+点阵网格，数据编码不动）→R18 排版（数字 tabular-nums 12 选择器/引语三族容器 5px 实线+块影 vs 编者注纸底/EN 行高 1.78）→R19 动效（58 处 transition 审计 TSV、归一 8 处、.btn:active 闭环、reduce 14 块实测、性能落盘）。
+- **工程资产**：tools/ 生成器 20+（新增 build-resources/build-sitemap——sitemap 37 URL=38 页−noindex revisions）；verify.py 9 项（第 4 项动态含 rs-item）；探针脚本 v9rNN-probe.js 系列（CDP 端口 9333+ 避让 aDrive/孤儿 Chrome 坑全记录在各账本与 EXPANSION）。
+
+**数据单一事实来源（增量）**：resources-data.py→build-resources.py；interviews-all.json/emails.json（qa/v9-20/round-04、round-06）=后续采料候选池；transition-audit.tsv（round-19）=动效基线。
+
+**已知限制**：V7 时代深色页正文双语长尾仍在；tesla.com 全站本机不可核活（Akamai 三路拦），SAE J3400 标准页 JS 壳——均有 EXPANSION 留档重验条件；Reddit/wikipedia 类站点核活须走服务端读取器。
+
+**续作指南**：V10-15 内容精修计划已开工（账本 `V10-15-PROGRESS.md`，N01–N15：核实/早期年代/email 库/keynote 池/社区资源扩容/事件档案 v2，终点 v11.0.0）；新触发读该账本定轮次，锁 `.v10run.lock`。
 
 ---
 
