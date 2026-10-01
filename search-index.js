@@ -657,6 +657,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2015-11-22",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2015.11.22",
+  "s": "OpenAI 创立期邮件（$1B 承诺 · 马斯克致 Brockman）",
+  "q": "“I think we should say that we are starting with a $1B funding commitment. This is real. I will cover whatever anyone else doesn’t provide.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "e2015-12-02",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1064,6 +1077,32 @@ window.SEARCH_INDEX = [
   "bg": "Four days after telling the first 30 Model 3 owners “Welcome to production hell!” (see 2017.07.28), Musk faced analysts for the first time since. Q2 2017 had just set a record loss.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "d2017-09-13",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2017.09.13",
+  "s": "OpenAI 控制权邮件（马斯克致联合创始人）",
+  "q": "“I would unequivocally have initial control of the company, but this will change quickly.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "d2017-09-21",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2017.09.21",
+  "s": "OpenAI「最后一根稻草」邮件（马斯克宣布停止资助）",
+  "q": "“Guys, I’ve had enough. This is the final straw. Either go do something on your own or continue with OpenAI as a nonprofit. I will no longer fund OpenAI until you have either made a firm commitment to stay nonprofit, or you’re going to do something else in terms of structure.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "综合"
   ]
  },
  {
@@ -2394,6 +2433,19 @@ window.SEARCH_INDEX = [
   "q": "“You are free to tweet 'is Twitter dying?' or anything else about Twitter – but it's my responsibility to tell you that it's not helping me make Twitter better in the current context.” — his reply, forty seconds later: “What did you get done this week?” “I'm not joining the board. This is a waste of time. Will make an offer to take Twitter private.”",
   "zh": "你有权发推说「Twitter 正在死吗」或任何关于 Twitter 的话——但我有责任告诉你：在当前语境下，这对把 Twitter 做好没有帮助。——他四十秒后回复：「你这周干了什么？」「我不进董事会了。这是浪费时间。我会发起要约把 Twitter 私有化。」",
   "bg": "On April 7 the two CEOs were still trading engineer-to-engineer warmth — he wrote “I just want Twitter to be maximum amazing,” and Agrawal answered: “treat me like an engineer instead of a CEO and let's see where we get to.” The break came on April 9, when he tweeted “Is Twitter dying?” — and Agrawal answered in private.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "d2022-04-09",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.04.09",
+  "s": "马斯克致 Agrawal 短信（「你这周做成了什么？」）",
+  "q": "“What did you get done this week? … I’m not joining the board. This is a waste of time. Will make an offer to take Twitter private.”",
+  "zh": "",
+  "bg": "",
   "c": [
    "X / Twitter"
   ]
