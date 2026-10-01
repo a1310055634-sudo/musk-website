@@ -1,0 +1,36 @@
+[mirror transcript wired-musk-2008 | source: Wired.com (Carl Hoffman, Aug 5, 2008)]
+Wired.com: Wired.com spoke with Musk about SpaceX's string of setbacks, the power of patience and the future of privately funded spaceflight. What happened up there Saturday?
+
+Elon Musk: We're not quite ready to release details on the initial investigation yet, but we should do it very soon. We think we have a very good idea but I don't want to get ahead of ourselves and then be wrong. We definitely know where the problem occurred, but 'why?' is the question. We think we know, but have to be sure. We think it's very small and will require a tiny change, so tiny that if we had another rocket on the pad we could launch tomorrow.
+
+Wired.com: You always emphasize testing and testing and more testing, and you've been super careful to make sure everything is right before launching. So what's the disconnect — why do things still go wrong?
+
+Musk: Some things can only be tested in space. Bear in mind, Falcon 1 is our test vehicle. The reason we started with F1 isn't because I'm passionate about launching small satellites, but because I want to make mistakes on a small scale and not a large one. And this doesn't appear to be a quality issue or a manufacturing issue. It's a design issue related to new hardware that has only flown on this flight. It was our first with the new Merlin 1C regeneratively cooled engine. The problem we think we've identified is a lesson learned and thus we won't make it on the big Falcon 9, and in that sense it's helpful.
+
+Wired.com: Your whole mantra is "cheaper and more reliable." But so far you're zero for three, which is anything but cheap and reliable, and guys like GlobalSecurity.org's John Pike say the reason it has taken billions of dollars and tens of thousands of people to successfully launch rockets is physics, not some new design or economic model.
+
+Musk: Guys like John Pike have existed since the dawn of time, and if you listen to people like that then things will never get better, never change. It's a false point of view. Yes, we need to put some rockets into orbit. But the first order of business is to get rid of design errors, which we're doing, and once those are eliminated then you're dealing with repeatability, and people should judge what we're doing from the point of view of all the design issues we've ironed out through these F1 test flights.
+
+Wired.com: You've been quoted many times saying you had enough money for three unsuccessful flights, and then …
+
+Musk: That was the dumbest thing I've ever said. I meant that after three unsuccessful flights we might be abandoned by our customers — if they abandoned us I couldn't see how it would work. But that has turned out not to be the case. We've gained customers between missions and so it would be silly to abandon the business when we have 12 flights ahead of us.
+
+Wired.com: But you're about to formally announce SpaceX's first outside investment?
+
+Musk: Yes, we took an investment from the Founder's Fund, a fund run by a bunch of guys I used to work with at PayPal. They've been interested in SpaceX for a long time and I knew that, and thought it might be smart to take an investment from them to increase our war chest in case something didn't go right on flight three. Which turned out to be true.
+
+Wired.com: At the end of the day you're still zero for three; you have so far failed to put a rocket into orbit.
+
+Musk: We haven't gotten into orbit, true, but we've made considerable progress. If it's an all-or-nothing proposition then we've failed. But it's not all or nothing. We must get to orbit eventually, and we will. It might take us one, two or three more tries, but we will. We will make it work.
+
+Wired.com: How do you maintain your optimism?
+
+Musk: Do I sound optimistic?
+
+Wired.com: Yeah, you always do.
+
+Musk: Optimism, pessimism, fuck that; we're going to make it happen. As God is my bloody witness, I'm hell-bent on making it work.
+
+Wired.com: So what have you learned so far?
+
+Musk: Patience is a virtue, and I'm learning patience. It's a tough lesson.

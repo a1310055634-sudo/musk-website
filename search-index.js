@@ -174,6 +174,19 @@ window.SEARCH_INDEX = [
   "ev": "e2008-08-02"
  },
  {
+  "id": "i2008-08-05",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2008.08.05",
+  "s": "「乐观悲观，滚他妈的；我们会让它发生」",
+  "q": "“Optimism, pessimism, fuck that; we're going to make it happen. As God is my bloody witness, I'm hell-bent on making it work.” — “That was the dumbest thing I've ever said.” — “Patience is a virtue, and I'm learning patience. It's a tough lesson.”",
+  "zh": "",
+  "bg": "Falcon 1 已三连败。距离第四次发射——押上公司最后资金、不成则亡的那一炮——还有五周，他接受了 Wired 全年最生猛的一次专访：直面「零比三」战绩、确认 Founder's Fund 的过桥投资，并修正了自己那句著名的「钱只够烧三次」。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2008-09-28",
   "pg": "primary.html",
   "t": "言行实录",
