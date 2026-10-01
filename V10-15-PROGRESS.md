@@ -17,7 +17,7 @@
 | N01 | 全站源存活复测（六页外链三路法） | complete | v10.1.0 | 5b09bb9 | 口径修正=六页来源为 ps-src 文字徽章无明文外链→复测全站 37 条真实外链；零死链（直连 12+api 8/8+服务端复核+同域推定+受限 5+前档佐证 2）；stars 微漂移 4 条记录；报告 37/37 落盘 |
 | N02 | 引语逐字核验 I（机核：X 帖/访谈/账本 115） | complete | v10.2.0 | 3c4f0c3 | 机核三件管线+镜像语料 9 场；X 帖 31=18v+3 合并卡+1 无档+9 无锚；访谈 16/42、账本 5/106 verified（余待人工=语料未覆盖非镜像源）；零实质差异零修正 |
 | N03 | 引语核验 II＋口径审计＋复核声明上站 | complete | v10.3.0 | 9ec238d | snowflake 22/22 match+注记零缺失；人工抽样 stockanalysis 2/2 逐字吻合；未覆盖 101 块逐条归因落盘；双语探针（quotes 100 卡/primary 引文行 100% 配译文）；声明上站 primary+quotes（纪律 D 门槛达成）；探针 6/6 |
-| N04 | 资源核活复测＋元数据升级（36 条刷新） | pending | — | — | — |
+| N04 | 资源核活复测＋元数据升级（36 条刷新） | complete | v10.4.0 | be988ed | 36 条零死链（N01 复用+api 8/8）、checked 全刷 2026-10-02、stars 漂移 4 条同步、弃收件重验维持留档（tesla Akamai/SAE JS 壳）；validate 过 verify 9/9 |
 | N05 | 早期年代 I：访谈 2003–2012（161 场库过滤） | pending | — | — | — |
 | N06 | 早期年代 II：文档馆补空（DEFM14A 等） | pending | — | — | — |
 | N07 | X 帖 2018–2019 回捞（镜像下限实测） | pending | — | — | — |
@@ -67,3 +67,11 @@
 - **验证**：verify 9/9；探针 6/6（tools/v10n03-probe.js 端口 9385）；版本三件套 10.2.0→10.3.0；sync-changelog 212 条；EPUB 223,463B。**bump 派生正则前滚机制首次完整落地**（运行后立即滚到 NEW 供下轮）。
 - **提交**：成果 `9ec238d`（v10.3.0）；本回填+revisions（206 幂等）+EPUB 重刷为第二提交。
 - **下一轮预告**：N04 资源核活复测＋元数据升级（v10.4.0）——resources-data.py 36 条全量复测（http/stars/pushed 刷新、checked 改 2026-10-02）；GitHub 漂移 4 条（N01 记录）同步刷新；死链按纪律 B；EXPANSION 弃收件重验（SAE/tesla.com 维持留档）。
+
+## 第 4 轮工作记录（N04 资源核活复测＋元数据升级）— complete（2026-10-02）
+
+- **36 条全量复测**：tools/v10n04-recheck.py 复用 N01 同日直连/api 结果（qa/v10-15/round-01，零死链）+ GitHub api 串行刷新 8 条全 200；v10n04-apply.py 写回（checked 批量替换 36 处+gh 逐条精确替换带断言）。stars 漂移 4 条同步：vehicle-command 705→706 / teslamate 9061→9065+pushed 2026-10 / grok-1 52239→52233 / SpaceX-API 10912→10913。
+- **弃收件重验**：tesla.com 专利博文（服务端读取器重试仍 Akamai）、SAE J3400（仍 JS 壳）维持留档；Swisher/JMIR 维持——EXPANSION 顶部 N04 注记。
+- **验证**：validate() 过（36 条四类计数不变）；verify 9/9；版本三件套 10.3.0→10.4.0。**bump 正则三步法首次完整执行**（设正则=当前版本→跑→前滚到 NEW；派生时不可把正则直接设为 NEW——本轮第一次跑 count=0 即因正则被错设为 NEW）。
+- **提交**：成果 `be988ed`（v10.4.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：N05 早期年代 I：访谈库 2003–2012 深挖（v10.5.0）——interviews-all.json 161 场过滤 2013 前场次、对表查重、择官方转写在档者立条（60-minutes-2012-03-18 在此消化）；验收 +3~6 条（42→45±）或如实留档。
