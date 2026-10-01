@@ -33,8 +33,10 @@ CATEGORIES = {
     "tools":      {"zh": "工具与数据", "en": "Tools & Data"},
 }
 
-# 与 build-search-index.py ENTITY_RULES 实体名一致（检索「按公司过滤」直接可用）
-COMPANIES_VOCAB = {"Tesla", "SpaceX", "X / Twitter", "xAI", "Neuralink", "Boring Company", "综合"}
+# 与 build-search-index.py ENTITY_RULES 实体名一致（检索「按公司过滤」直接可用）。
+# OpenAI（V9-20 R11）：仅资源条目使用——索引实体推断 ENTITY_RULES 不含 OpenAI，
+# 资源条目经 CO_MAP 透传自动进入检索过滤，不扰动存量 282 条的实体推断。
+COMPANIES_VOCAB = {"Tesla", "SpaceX", "X / Twitter", "xAI", "Neuralink", "Boring Company", "OpenAI", "综合"}
 
 RESOURCES = [
     {
@@ -81,6 +83,194 @@ RESOURCES = [
         "checked": "2026-10-01",
         "http": 200,
         "gh": {"stars": 705, "pushed": "2026-09"},
+    },
+    {
+        "id": "spacex-starship",
+        "url": "https://www.spacex.com/vehicles/starship/",
+        "name": {"zh": "SpaceX 官网 · Starship 星舰", "en": "SpaceX (official) — Starship"},
+        "desc": {
+            "zh": "SpaceX 官方星舰页面：史上最大运载火箭的官方定位、规格与任务动态。",
+            "en": "SpaceX's official Starship page: the company's own positioning, specs and mission updates for the super-heavy launcher.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "站点内容版权归 SpaceX", "en": "Site content © SpaceX"},
+        "reason": {
+            "zh": "星舰叙事的官方口径页：本站星舰相关表述的规格与进度对照来源。",
+            "en": "The official-caliber page for Starship — the spec and progress reference for this site's Starship narrative.",
+        },
+        "companies": ["SpaceX"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
+            "en": "Direct fetch is blocked by anti-bot (curl 403); verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "spacex-falcon9",
+        "url": "https://www.spacex.com/vehicles/falcon-9/",
+        "name": {"zh": "SpaceX 官网 · Falcon 9 猎鹰九号", "en": "SpaceX (official) — Falcon 9"},
+        "desc": {
+            "zh": "SpaceX 官方猎鹰九号页面：可复用主力火箭的官方规格、发射记录与复用数据。",
+            "en": "SpaceX's official Falcon 9 page: official specs, launch record and reuse data for the workhorse reusable rocket.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "站点内容版权归 SpaceX", "en": "Site content © SpaceX"},
+        "reason": {
+            "zh": "火箭复用经济性的官方数据口径，与本站发射时间线交叉核对。",
+            "en": "The official data caliber for reusability economics — cross-checked against this site's launch timeline.",
+        },
+        "companies": ["SpaceX"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
+            "en": "Direct fetch is blocked by anti-bot (curl 403); verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "spacex-updates",
+        "url": "https://www.spacex.com/updates/",
+        "name": {"zh": "SpaceX 官网 · Updates 官方更新", "en": "SpaceX (official) — Updates"},
+        "desc": {
+            "zh": "SpaceX 官方更新页：任务动态、发射回顾与公司新闻的官方发布口。",
+            "en": "SpaceX's official updates feed: mission news, launch recaps and company announcements.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "站点内容版权归 SpaceX", "en": "Site content © SpaceX"},
+        "reason": {
+            "zh": "任务成败与进度的第一手官方口径，替代不可引的媒体转述。",
+            "en": "First-party mission status straight from the company — the antidote to secondhand retellings.",
+        },
+        "companies": ["SpaceX"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
+            "en": "Direct fetch is blocked by anti-bot (curl 403); verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "tesla-fleet-api",
+        "url": "https://developer.tesla.com/",
+        "name": {"zh": "Tesla 官方开发者门户 · Fleet API", "en": "Tesla (official) — Developer / Fleet API"},
+        "desc": {
+            "zh": "Tesla 官方开发者门户：Fleet API 文档——车辆与能源设备的数据与指令官方接口。",
+            "en": "Tesla's official developer portal: Fleet API docs — the company's data and command interface for vehicles and energy products.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "Tesla 开发者条款", "en": "Tesla developer terms"},
+        "reason": {
+            "zh": "第三方 Tesla API 生态的官方协议文档，与官方 vehicle-command 库互为表里。",
+            "en": "The official protocol documentation behind the third-party Tesla API ecosystem — the counterpart of the vehicle-command library.",
+        },
+        "companies": ["Tesla"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
+            "en": "Direct fetch is blocked by anti-bot (curl 403); verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "neuralink-registry",
+        "url": "https://neuralink.com/patient-registry/",
+        "name": {"zh": "Neuralink 官方 · 患者登记", "en": "Neuralink (official) — Patient Registry"},
+        "desc": {
+            "zh": "Neuralink 官方患者登记页：临床试验报名与进展了解的官方入口。",
+            "en": "Neuralink's official patient registry: the entry point for clinical-trial sign-up and study updates.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "站点内容版权归 Neuralink", "en": "Site content © Neuralink"},
+        "reason": {
+            "zh": "首例人体植入后的官方一手通道，临床试验进展以官方口径为准。",
+            "en": "The official first-party channel since the first human implant — clinical progress per the company's own page.",
+        },
+        "companies": ["Neuralink"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "本机直连连接被重置（curl/WebFetch 均失败），经服务端读取器核活 200（2026-10-01）。",
+            "en": "Direct connection reset (curl/WebFetch both fail); verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "openai-2015",
+        "url": "https://openai.com/blog/introducing-openai/",
+        "name": {"zh": "OpenAI 官方博客 · Introducing OpenAI（2015）", "en": "OpenAI (official) — Introducing OpenAI (2015)"},
+        "desc": {
+            "zh": "2015-12 官宣文：非营利 AI 研究实验室创立宣言，联合主席之一为马斯克。",
+            "en": "The December 2015 founding announcement: a non-profit AI research lab with Musk as a co-chair.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "停更",
+        "license": {"zh": "版权归 OpenAI（免费阅读）", "en": "Content © OpenAI (free to read)"},
+        "reason": {
+            "zh": "马斯克 AI 生涯的关键起点文书：联合主席→2018 退出董事会弧线的官方起点。",
+            "en": "The founding document of Musk's AI arc — co-chair at creation, before his 2018 exit from the board.",
+        },
+        "companies": ["OpenAI"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "「停更」指这篇 2015 官宣文为历史定稿，非 OpenAI 博客停运；本机直连被反爬拦截（curl/WebFetch 403），经服务端读取器核活 200（2026-10-01）。",
+            "en": "'Stale' means this 2015 announcement is a final historical post, not that OpenAI's blog is dead. Direct fetch blocked (curl/WebFetch 403); verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "xai-official",
+        "url": "https://x.ai/",
+        "name": {"zh": "xAI 官网", "en": "xAI (official)"},
+        "desc": {
+            "zh": "xAI 官网：使命「理解宇宙的真实本质」，Grok 系列模型与公司动态的官方发布口。",
+            "en": "xAI's official site: the mission 'to understand the true nature of the universe' and the official feed for Grok and company news.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "站点内容版权归 xAI", "en": "Site content © xAI"},
+        "reason": {
+            "zh": "Grok/xAI 产品与使命陈述的官方口径页。",
+            "en": "The official-caliber page for Grok/xAI product and mission statements.",
+        },
+        "companies": ["xAI"],
+        "checked": "2026-10-01",
+        "http": 200,
+        "note": {
+            "zh": "本机直连超时（curl 连接无响应），经服务端读取器核活 200（2026-10-01）。",
+            "en": "Direct connection times out on this machine; verified live via a server-side reader (2026-10-01).",
+        },
+    },
+    {
+        "id": "boringcompany-official",
+        "url": "https://www.boringcompany.com/",
+        "name": {"zh": "The Boring Company 官网", "en": "The Boring Company (official)"},
+        "desc": {
+            "zh": "The Boring Company 官网：安全、快挖、低成本的隧道交通——以 Loop 与 Prufrock 掘进机解决拥堵。",
+            "en": "The Boring Company's official site: safe, fast-to-dig, low-cost tunnels — solving traffic with Loop, powered by the Prufrock TBM.",
+        },
+        "category": "official",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "站点内容版权归 The Boring Company", "en": "Site content © The Boring Company"},
+        "reason": {
+            "zh": "隧道项目官方口径，与本站 Boring 叙事与语录对照。",
+            "en": "The official caliber for the tunnel ventures, cross-read with this site's Boring narrative and quotes.",
+        },
+        "companies": ["Boring Company"],
+        "checked": "2026-10-01",
+        "http": 200,
     },
     {
         "id": "teslamate",

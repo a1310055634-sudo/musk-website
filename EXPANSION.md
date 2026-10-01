@@ -1,6 +1,12 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
-> **R10 资源板块候选池（2026-10-01 种子建档后的待重验清单，非第一手事实）**：resources.html 首批 10 条已入库（核活留档 qa/v9-20/round-10/sources/liveness.md）。**本机不可核活 7 条留档待重验**（核活路径：浏览器 UA curl → WebFetch → api.github.com；web_reader MCP 当日 429 限流）：
+> **R11 官方与标准类资源（2026-10-01 建档 +8 条，official 2→10，资源 10→18，索引 300）**：核活方法论升级为**三路法**——浏览器 UA curl → WebFetch → 服务端读取器（web_reader，当日恢复可用）逐级复核；7 条经服务端读取器核活（官方 meta/正文到手，**卡内 note 如实注明核活路径，不冒充直连**），The Boring Company 为直连 200。SpaceX 官网三页（starship / falcon-9 / updates）/ developer.tesla.com（Fleet API）/ neuralink.com/patient-registry / openai.com 2015 官宣文 / x.ai 全部入册。COMPANIES_VOCAB 增 OpenAI 实体（仅资源条目，检索过滤自动透传）。
+> - **重验结果（对应 R10 留档）**：spacex.com / developer.tesla.com / neuralink.com / openai.com 四站重验成功入册；**tesla.com 全站维持不可核活**（curl 403 / WebFetch 403 / 服务端读取器亦被 Akamai 拦——All Our Patent Are Belong To You 博文、/nacs、/impact、/ownersmanuals 四 URL 全试），重验条件=用户环境实访或代理路径。
+> - **弃收留档①SAE J3400（NACS 标准文本）**：检索确认标准存在（J3400/2_202504 连接器与插座尺寸 / J3400/1 适配器安全，sae.org 官方公告 2025-05-28），但 sae.org 全站 JS 壳——构造 URL（/standards/content/j3400_202511/）curl 虽 200 却无法确认内容非软页，connect.sae.org 根页实为职业培训页；按「宁缺毋滥」不入。重验条件=用户环境浏览器实访 saemobilus.sae.org / connect.sae.org 定位 J3400 产品页并取得标准号+标题后入库（companies=[Tesla]，note 注明全文付费）。
+> - **弃收留档②**：x.ai 本机 curl 超时但服务端读取器 200 成功入库（Grok 4 meta 到手），不留档。
+> - **R12/R13 候选不变**：tesla-api.io（DNS 失效疑似死链，重验条件不变）、Tessie、Starlink 观测 GitHub 项目、r/SpaceX 百科、en.wikipedia.org（DNS 污染，重验条件不变）、Reuters/AP 专题页。
+
+> **R10 资源板块候选池（2026-10-01 种子建档后的待重验清单，非第一手事实）**：resources.html 首批 10 条已入库（核活留档 qa/v9-20/round-10/sources/liveness.md）。**本机不可核活 7 条留档待重验**（核活路径：浏览器 UA curl → WebFetch → api.github.com；web_reader MCP 当日 429 限流）——**R11 已处理完毕，结果见上块**：
 > - **R11 目标（反爬 403/连接失败，非死链判定）**：tesla.com/blog/all-our-patent-are-belong-you（专利开放博文落地页）、spacex.com/vehicles/starship/、neuralink.com/patient-registry/、developer.tesla.com/——重验条件=换 UA/代理路径或用户环境实访；openai.com 早期博客（2015-2018 Musk 相关文）同轮试。
 > - **R13 目标（本机 DNS 污染）**：en.wikipedia.org/wiki/Elon_Musk（解析被污染至 31.13.88.26）——重验条件=镜像快照或用户环境实访。
 > - **R12 疑似死链**：tesla-api.io（DNS ENOTFOUND，域名可能失效）——重验条件=独立 DNS 解析确认；若确认死链，按纪律 B 标「存档」收录或弃收并注明。

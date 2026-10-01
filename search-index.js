@@ -3817,6 +3817,110 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "r-spacex-starship",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SpaceX 官网 · Starship 星舰",
+  "q": "SpaceX 官方星舰页面：史上最大运载火箭的官方定位、规格与任务动态。",
+  "zh": "SpaceX's official Starship page: the company's own positioning, specs and mission updates for the super-heavy launcher.",
+  "bg": "星舰叙事的官方口径页：本站星舰相关表述的规格与进度对照来源。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-spacex-falcon9",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SpaceX 官网 · Falcon 9 猎鹰九号",
+  "q": "SpaceX 官方猎鹰九号页面：可复用主力火箭的官方规格、发射记录与复用数据。",
+  "zh": "SpaceX's official Falcon 9 page: official specs, launch record and reuse data for the workhorse reusable rocket.",
+  "bg": "火箭复用经济性的官方数据口径，与本站发射时间线交叉核对。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-spacex-updates",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SpaceX 官网 · Updates 官方更新",
+  "q": "SpaceX 官方更新页：任务动态、发射回顾与公司新闻的官方发布口。",
+  "zh": "SpaceX's official updates feed: mission news, launch recaps and company announcements.",
+  "bg": "任务成败与进度的第一手官方口径，替代不可引的媒体转述。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-tesla-fleet-api",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Tesla 官方开发者门户 · Fleet API",
+  "q": "Tesla 官方开发者门户：Fleet API 文档——车辆与能源设备的数据与指令官方接口。",
+  "zh": "Tesla's official developer portal: Fleet API docs — the company's data and command interface for vehicles and energy products.",
+  "bg": "第三方 Tesla API 生态的官方协议文档，与官方 vehicle-command 库互为表里。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-neuralink-registry",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Neuralink 官方 · 患者登记",
+  "q": "Neuralink 官方患者登记页：临床试验报名与进展了解的官方入口。",
+  "zh": "Neuralink's official patient registry: the entry point for clinical-trial sign-up and study updates.",
+  "bg": "首例人体植入后的官方一手通道，临床试验进展以官方口径为准。",
+  "c": [
+   "Neuralink"
+  ]
+ },
+ {
+  "id": "r-openai-2015",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "OpenAI 官方博客 · Introducing OpenAI（2015）",
+  "q": "2015-12 官宣文：非营利 AI 研究实验室创立宣言，联合主席之一为马斯克。",
+  "zh": "The December 2015 founding announcement: a non-profit AI research lab with Musk as a co-chair.",
+  "bg": "马斯克 AI 生涯的关键起点文书：联合主席→2018 退出董事会弧线的官方起点。",
+  "c": [
+   "OpenAI"
+  ]
+ },
+ {
+  "id": "r-xai-official",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "xAI 官网",
+  "q": "xAI 官网：使命「理解宇宙的真实本质」，Grok 系列模型与公司动态的官方发布口。",
+  "zh": "xAI's official site: the mission 'to understand the true nature of the universe' and the official feed for Grok and company news.",
+  "bg": "Grok/xAI 产品与使命陈述的官方口径页。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "r-boringcompany-official",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "The Boring Company 官网",
+  "q": "The Boring Company 官网：安全、快挖、低成本的隧道交通——以 Loop 与 Prufrock 掘进机解决拥堵。",
+  "zh": "The Boring Company's official site: safe, fast-to-dig, low-cost tunnels — solving traffic with Loop, powered by the Prufrock TBM.",
+  "bg": "隧道项目官方口径，与本站 Boring 叙事与语录对照。",
+  "c": [
+   "Boring Company"
+  ]
+ },
+ {
   "id": "r-teslamate",
   "pg": "resources.html",
   "t": "社区资源",

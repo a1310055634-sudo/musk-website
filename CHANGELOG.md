@@ -2,6 +2,16 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v9.1.0 — 2026-10-01 · V9-20 R11/20：官方与标准类资源（official 2→10，核活三路法）
+
+**主题包成果（V9-20 R11 · 资源板块 +8 条全落官方与标准类）**
+- **+8 条入库（official 2→10，全站资源 10→18，索引 292→300）**：SpaceX 官网三页（vehicles/starship · vehicles/falcon-9 · updates）/ Tesla 官方开发者门户 Fleet API（developer.tesla.com）/ Neuralink 患者登记（patient-registry）/ OpenAI 2015 官宣文 Introducing OpenAI（联合主席含马斯克，AI 弧线官方起点）/ xAI 官网 / The Boring Company 官网。COMPANIES_VOCAB 增 OpenAI 实体（仅资源条目使用，检索「按公司过滤」自动出现，不扰动存量 282 条实体推断）。
+- **核活三路法（本轮方法论沉淀）**：浏览器 UA curl → WebFetch → 服务端读取器逐级复核——curl 直连对 tesla.com / spacex.com / openai.com 全 403（Akamai 反爬）、neuralink.com 连接重置、x.ai 超时；服务端读取器对其中 7 条核活成功并取得官方 meta/正文，**逐条在卡内 note 注明真实核活路径，不冒充直连**（Boring Company 为直连 200）。R10 留档反爬项除 tesla.com 外全部重验成功入册。
+- **弃收留档（宁缺毋滥）**：SAE J3400（NACS 标准化文本）——检索确认标准存在（J3400/2 连接器尺寸 2025-04 / J3400/1 适配器安全），但 sae.org 全站 JS 壳、构造 URL 与 connect.sae.org 落地页均无法内容级验证，弃收待用户环境重验；**tesla.com 全站（含 All Our Patent Are Belong To You 博文与 NACS 页）三路均被 Akamai 拦截**，维持留档。详见 EXPANSION.md R11 块。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 300）；CDP 探针 ≥10 断言（结构/双语/检索联动/无 JS/390）；node --check 通过；版本三件套 8.10.0→9.1.0（span 替换计数在案）；EPUB 重跑。本轮仅本地提交，不推送。
+
 ## v8.10.0 — 2026-10-01 · V9-20 R10/20：资源页基建（开源社区资源板块开工）
 
 **主题包成果（V9-20 R10 · 新板块第 38 页 resources.html 打通管线）**
