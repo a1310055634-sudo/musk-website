@@ -4536,5 +4536,109 @@ window.SEARCH_INDEX = [
   "c": [
    "综合"
   ]
+ },
+ {
+  "id": "r-labpadre",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "LabPadre · 星舰 24 小时直播",
+  "q": "博卡奇卡发射场的 24/7 独立直播网络：多机位全天候对准 Starbase 星舰工地。",
+  "zh": "The independent 24/7 webcam network at Boca Chica: multiple cameras pointed at the Starship build site around the clock.",
+  "bg": "星舰「以飞代测」时代的第一手观测源：任何官方口径都能与画面当场对账。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-nasaspaceflight",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "NASASpaceflight · 航天报道站",
+  "q": "以星舰与发射报道深度著称的独立航天媒体，常抢在官方之前披露进度细节。",
+  "zh": "The independent spaceflight outlet known for deep Starship and launch coverage, often ahead of official statements.",
+  "bg": "星舰进度与发射分析的社区权威口径，与本站时间线互为民间对照。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-nsf-forum",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "NSF 论坛 · 航天社区讨论区",
+  "q": "NASASpaceflight 旗下的航天论坛：星舰/发射/进度讨论的社区情报中枢。",
+  "zh": "The NSF-run spaceflight forum: the community intel hub for Starship, launches and progress threads.",
+  "bg": "大量第一手现场信息首发于此（目击、航拍、硬件线索），是观测生态的情报层。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-r-teslamotors-wiki",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "r/teslamotors 社区维基",
+  "q": "Tesla 车主社区维基：常见问题、车型信息与充电指南的社区协作整理（非官方）。",
+  "zh": "The Tesla owners community wiki: FAQs, vehicle info and charging guides, community-maintained (unofficial).",
+  "bg": "车主侧民间口径的入口（与 r/SpaceX 维基同为 Reddit 社区档案形态）。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-everydayastronaut",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Everyday Astronaut · 航天科普站",
+  "q": "Tim Dodd 的航天科普站：发动机对比、发射解读与深度专访（含 2021 星舰基地三部曲专访马斯克）。",
+  "zh": "Tim Dodd space explainer site: engine comparisons, launch breakdowns and deep interviews (incl. the 2021 Starbase interview with Musk).",
+  "bg": "本站已有其 2021 星舰基地专访逐字（i2021-07-30）——科普侧与专访侧的双向入口。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-ringwatchers",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Ringwatchers · 星舰建造追踪",
+  "q": "追踪星舰不锈钢环圈与硬件组装进度的独立数据库：S/N 序列、堆放位置与出厂去向。",
+  "zh": "The independent database tracking Starship ring stacks and hardware: S/N sequence, staging locations and rollout history.",
+  "bg": "「数环圈」社群的量化结晶：星舰硬件账本可与官方口径交叉核对。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-starship-wikibase",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Starship Wiki · 星舰序列号数据库",
+  "q": "社区维护的星舰飞行器数据库：助推器与飞船序列号、飞行历史与分配关系。",
+  "zh": "Community-maintained Starship vehicle database: booster/ship serials, flight history and assignments.",
+  "bg": "S/N 级别的飞行历史结构化数据，是时间线交叉核对的工具层。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-spacex-launches-page",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SpaceX 官网 · 发射列表",
+  "q": "SpaceX 官方发射任务列表：全部任务的官方档案入口。",
+  "zh": "SpaceX official launch mission list: the official archive entry for every mission flown.",
+  "bg": "任务档案的官方入口，与社区发射日历互为对照。",
+  "c": [
+   "SpaceX"
+  ]
  }
 ];
