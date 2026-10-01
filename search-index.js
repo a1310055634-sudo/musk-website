@@ -2209,9 +2209,9 @@ window.SEARCH_INDEX = [
   "pg": "primary.html",
   "t": "言行实录",
   "d": "2021.08",
-  "s": "Tesla AI Day（CNBC · Reuters 报道，2022.09.30 复述）",
-  "q": "“The Optimus robot will eventually be worth more than the car business, worth more than FSD.”",
-  "zh": "Optimus 机器人最终的价值将超过汽车业务，超过 FSD。",
+  "s": "Tesla AI Day 2021-08-19（elonmuskarchive.org 官方转写逐字；2026-10 复核升级，「worth more than」句为 2022.09.30 媒体口径）",
+  "q": "“Tesla is arguably the world’s biggest robotics company, because our cars are semi-sentient robots on wheels. … We think we’ll probably have a prototype sometime next year. … At a mechanical level, you can run away from it and most likely overpower it.”",
+  "zh": "Tesla 可以说是世界上最大的机器人公司——因为我们的车就是半感知的轮式机器人。……我们预计明年就能有原型机。……在机械层面，你可以跑赢它，多半也能徒手制住它。",
   "bg": "Tesla was at peak profitability with two robot programs quietly running. At the first AI Day, Musk put one slide up that wasn't a vehicle at all: a person-shaped robot named Optimus.",
   "c": [
    "Tesla"
@@ -3510,6 +3510,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2024-06-13-2",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2024.06.13",
+  "s": "Tesla 股东大会（elonmuskarchive.org 官方转写逐字）",
+  "q": "“The goal is to give people hope that there is a path to a fully sustainable global economy. That we are on that path, that we are accelerating that path. Regarding FSD version 12, it’s profound. The rate of improvement is rapid.”",
+  "zh": "目标是让人们相信：通往完全可持续的全球经济有一条路径，我们正在这条路上，而且在加速。至于 FSD v12——影响深远，进步速度飞快。",
+  "bg": "Same-day shareholder meeting after the Delaware vote: Musk frames the mission as hope plus acceleration, and calls FSD v12 “profound”.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "p2024-07-13",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -3833,6 +3846,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2025-05-29",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2025.05.29",
+  "s": "SpaceX Starship Update at Starbase（elonmuskarchive.org 官方转写逐字）",
+  "q": "“Progress is measured by the timeline to establishing a self sustaining civilization on Mars. That’s how we’re gauging our progress here at Starbase. We need about a million tons to the surface of Mars so that Mars can continue to grow even if the supply ships from Earth stop coming for any reason.”",
+  "zh": "衡量进步的标尺，是建立火星自给文明的时间表——这就是我们在星基地评估进度的方式。我们需要把大约一百万吨送上火星表面，这样即使地球的补给船因任何原因停驶，火星也能继续生长。",
+  "bg": "At the newly incorporated Starbase Texas, he defines progress itself as a countdown to a self-sustaining Mars: about a million tons to the surface, so that civilization survives even if resupply ships from Earth stop coming.",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "p2025-07-05",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -3947,6 +3973,34 @@ window.SEARCH_INDEX = [
   "zh": "",
   "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
   "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "e2026-02-10",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2026.02.10",
+  "s": "xAI All-Hands（elonmuskarchive.org 官方转写逐字）",
+  "q": "“xAI is only two and a half years old, basically a toddler, and we’ve nonetheless achieved number one in many arenas — in voice, in image and video generation. Grokipedia is intended ultimately to be Encyclopedia Galactica, a distillation of all knowledge.”",
+  "zh": "xAI 才两岁半，基本是个幼儿，但我们已经在很多领域做到了第一——语音、图像与视频生成。Grokkipedia 的终极目标是成为「银河百科全书」——一切知识的蒸馏。",
+  "bg": "Two and a half years in, he sizes xAI against rivals five to twenty years older: number one in voice, image and video generation, plus Grokipedia positioned as an “Encyclopedia Galactica” beyond Wikipedia.",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "e2026-03-21",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2026.03.21",
+  "s": "Terafab 发布会（elonmuskarchive.org 官方转写逐字）",
+  "q": "“This is the most epic chip building exercise in history by far. … A terafab, while it is enormous by our civilizational standards, is still just one step along the way — a combination of efforts of SpaceX, xAI and Tesla working together.”",
+  "zh": "这是迄今为止史上最宏大的芯片建造工程。……特法布（Terafab）以人类文明的尺度看固然庞大，但仍只是路上的一步——它是 SpaceX、xAI 与 Tesla 三家合力之作。",
+  "bg": "The chip-fab announcement opens not with specs but with Kardashev: Earth captures only a tiny fraction of the Sun’s energy, and a terawatt of compute per year is merely one step on that scale.",
+  "c": [
+   "Tesla",
+   "SpaceX",
    "xAI"
   ]
  },
