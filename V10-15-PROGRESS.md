@@ -25,7 +25,7 @@
 | N09 | email 库消化 II（生产冲刺信等，清账） | complete | v10.9.0 | 90e3ad3 | +4 封冲刺信（sabotage/创纪录季度/舒芙蕾大锤/回办公室令，文档 23→27 索引 331）；Fork 在册不重立；47 封归宿清账入 EXPANSION；探针 6/6 |
 | N10 | keynote/speech 池消化＋AI Day 2021 引语升级 | complete | v10.10.0 | 770c2c0 | +4 条（股东会-2/Starship 2025/xAI All-Hands/Terafab，账本 115→119 语录卡 107 索引 335）；AI Day 2021 官方逐字升级 e2021-08（worth more than 句=2022 口径错位修正）；探针 10/10 |
 | N11 | 访谈保留池清账（五场逐场处置） | complete | v10.11.0 | e5b1382 | 4 立条+1 留档池清零（D11 自由感/ARK FSD 对账/E3 未涉之地/Code freaking cool；lex-438 无档留档；访谈 43→47 索引 339）；探针 9/9 |
-| N12 | 社区资源 I：SpaceX 观测生态（LabPadre/NSF 等） | pending | — | — | — |
+| N12 | 社区资源扩容 I：SpaceX 观测生态 | complete | v10.12.0 | 839013f | +8 条（LabPadre/NSF/NSF Forum/r-teslamotors wiki/Everyday Astronaut/Ringwatchers/Starship Wiki/SpaceX 发射列表，资源 36→44 索引 347）；三路法核活直连 3+服务端 5；探针 7/7 |
 | N13 | 社区资源 II：档案与书目（资源 36→55±） | pending | — | — | — |
 | N14 | 事件档案 v2 聚合（14→16±，口径红线） | pending | — | — | — |
 | N15 | 终检＋盘点总表 v2＋待发布清单 v2（v11.0.0） | pending | — | — | — |
@@ -139,3 +139,11 @@
 - **验证**：verify 9/9（38 页/索引 339）；探针 9/9（tools/v10n11-probe.js 端口 9402）；版本三件套 10.10.0→10.11.0；sync-changelog 220 条；EPUB 233,848B。
 - **提交**：成果 `e5b1382`（v10.11.0）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：N12 社区资源扩容 I：SpaceX 观测生态（v10.12.0）——LabPadre/NASASpaceflight/r-teslamotors wiki/Everyday Astronaut 官网/星舰观测工具链择主要；三路法核活+全字段元数据；+6~10 条；validate+CDP 探针。"""
+
+## 第 12 轮工作记录（N12 社区资源扩容 I：SpaceX 观测生态）— complete（2026-10-02）
+
+- **+8 条入册（资源 36→44，索引 335→347）**：LabPadre（24h 星舰直播）/ NASASpaceflight 报道站 / NSF Forum（社区情报层）/ r/teslamotors wiki / Everyday Astronaut（本站 i2021-07-30 专访的科普侧双向入口）/ Ringwatchers（星舰建造追踪）/ Starship Wiki（S/N 数据库）/ SpaceX 官网发射列表（official 类）。分布：community 16 / tools 8 / official 11 / opensource 9。
+- **三路法核活（2026-10-02）**：直连 200 三条（everydayastronaut/ringwatchers/starship-wikibase）；服务端读取器五条（labpadre 000/nasaspaceflight 403/forum 403/r-teslamotors-wiki 000/spacex-launches 403——受限域模式一致，note 逐条注明核活路径）。
+- **验证**：validate() 过；verify 9/9（38 页/索引 347）；探针 7/7（tools/v10n12-probe.js 端口 9408）；版本三件套 10.11.0→10.12.0；sync-changelog 221 条；EPUB 233,848B。
+- **提交**：成果 `839013f`（v10.12.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：N13 社区资源扩容 II：档案与书目（v10.13.0）——Reuters/AP 专题页择要/Vance 与 Isaacson 官方书页/Wikidata/Internet Archive（服务端读取器）/Wikipedia 群查缺；资源 44→55±；核活报告入 qa。"""
