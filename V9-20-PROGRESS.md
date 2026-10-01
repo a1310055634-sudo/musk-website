@@ -36,7 +36,7 @@
 | 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | complete | v9.3.0 | ade8ed9 | +12 条 community 3→11/开源 6→9/工具 5→6（资源 24→36、索引 318）；Wikipedia 群 8 条（R10「DNS 污染」判定证伪，直连 200 实量）；Reddit 假活空壳+teslaownersonline 软页弃收；R11–13 合计 +26（下沿略低，环境阻塞如实盘点）；探针 35/35 |
 | 14 | 资源交互与联动 + 质量节点②（≥15 断言） | complete | v9.4.0 | e8183f3 | 资源↔4 档案互链（.cf-resl 16 深链）+关系图面板行 +aria-live 状态行 +首页入口；质量节点②探针 30/30（八流程）；外链抽样 10/10；verify 9/9 |
 | 15 | 设计系统升级（style.css :root tokens，四页样板） | complete | v9.5.0 | 210f443 | :root 令牌 37→113（三层：刻度/语义/焦点）；正文硬编码清零（字号 335/圆角 46/块影 8/描边 7/表面 26/类型色 12 处）；:focus-visible 统一出口；对比度复核修复 #8a857c(3.22)/#9a948b(2.64)/#6f6a62(3.47) 三类小字色共 21 处；公司色标 10 项未动；四页 before/after 各 16 张；探针 69/69 |
-| 16 | 首页视觉迭代 | pending | — | — | — |
+| 16 | 首页视觉迭代（封面构图/模块节奏/三入口） | complete | v9.6.0 | 6a0a5ae | 三入口 .btn 行 → .act 编号入口条（data-en 下沉 .act-txt 叶子）；封面照 cover-tag + 内衬双线框；strip-tag → 图上角标；firm-grid 6 等大 → 2 特大（span 2）+4 标准；feature-row 前三条朱红左标线；修复 .firm-tile--xl h3 同特异性被覆盖真缺陷；探针 43/43；像素差异 11.0–28.1%；verify 9/9 |
 | 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | pending | — | — | — |
 | 18 | 排版与阅读体验（lr-*/ps-*） | pending | — | — | — |
 | 19 | 动效与微交互 + 质量节点③ | pending | — | — | — |
@@ -299,3 +299,19 @@
 - **探针修正 3 项（均为探针缺陷，非页面缺陷）**：① 断言「无 font-size px 字面值」误判 `0.5em`/`3.2em`/`11.5pt`——收敛为仅禁 `px`。② **对比度抽测 5 项首跑全红**：根因是 Node **模板字符串内 `\d` 被字符串转义吞成 `d`**，`/[\d.]+/g` 实际是 `/[d.]+/g`，匹配 null → IIFE 抛错返回 `undefined`；改用 `slice+split` 解析颜色后全过。**教训：CDP 探针里正则写进模板字符串必须 `\d`，或干脆避开转义。** ③ `.gx-empty` 是条件渲染元素（筛选无结果才出现），改用合成元素读计算样式。**另：`先目检 DOM 再写断言` 第五次生效——焦点环断言因程序化 focus 不触发 `:focus-visible` 而失败，改真实 Tab 键事件后通过。**
 - **提交**：成果 `210f443`（41 文件）；本回填 + revisions（206 幂等·导航保持·模板治本生效）+ EPUB 重刷为第二提交。
 - **下一轮预告**：R16 首页视觉迭代——封面 hero 构图（标题/肖像/业务画面主次）、模块节奏（feature-lead/feature-rows/path-cards 层级差异化，打破等尺寸卡片感）、三入口（阅读/版图/检索）视觉强化；消费本轮令牌（`--fs-clamp` 体系、`--r-*`、`--shadow-*`、`--paper-*` 阶梯）。验收=新旧首屏对比截图差异显著 + 320/390/768 复扫 + EN 标题不破版。
+
+## 第 16 轮工作记录（首页视觉迭代）— complete（2026-10-01）
+
+- **本轮定性**：美术升级**第一轮实质迭代**——不换技术栈、不加运行时依赖、不动公司色标语义，全部消费 R15 令牌（`--paper-*` 阶梯、`--fs-*` 阶梯、`--t-fast`、`--focus-*`、`--shadow-*`）。改动**收敛于首页**（探针实测 `firm-grid`/`path-list`/`feature-lead`/`hero-*` 等目标类**仅 index.html 使用**，零跨页波及）。三个方向：封面 hero 构图主次、模块节奏去均质化、三入口强化。
+- **① 三入口视觉强化**：`hero-actions` 由 `.btn btn-ink + 2×.btn-ghost` 普通按钮行 → **编号入口条 `.act`**（衬线斜体编号 01/02/03 + 右细分隔线 + 文字 + 箭头；hover 反白填充 + 箭头 `translateX(4px)`；主入口 `.act-primary` 朱红实底 `--accent`/`--on-hue`）。**语言切换安全**：`data-en` 全部下沉到 `.act-txt` 叶子节点（app.js 的 i18n 约定「含 data-en 者必为叶子」，整体替换 innerHTML 不会破坏编号/箭头结构——探针专项断言）。移动端 640px 断点下三入口各占满一行（原 .btn 的 `flex:1 1 auto` 规则同步迁移到 `.act`）。
+- **② 封面照报头处理**：肖像加朱红封面标 `.cover-tag`（`COVER · 2018`，aria-hidden 装饰，与 V7-R7 公司色标无关）+ `.hero-figure::before` 内衬细线双框（inset 10px `--hairline-paper`）——报刊封面照语言。
+- **③ 业务画面横带图版化**：`strip-tag`（TESLA/SPACEX/X）自 `figcaption` **移至 `<img>` 后的 figure 直接子元素**，样式改绝对定位角标（图片左上，`--coal-200` 底 + `--accent-bright` 字）；图片 hover 微抬 3px + 朱红描边。说明区（figcaption）变为纯文字。
+- **④ 封面数字行强化**：`.hero-stats` 顶分隔线 1px/40% → **2px/55%**，dd 色 `--paper` → `--paper-0` 提亮一档。
+- **⑤ 模块节奏（打破等尺寸卡片感）**：`firm-grid` 6 等大瓦片 → **2 特大 + 4 标准**：Tesla/SpaceX 加 `firm-tile--xl`（`grid-column: span 2`），4 列网格下自动排布为**上行两大（Tesla+SpaceX）、下行四小（X/xAI/Neuralink/Boring）**——编号顺序 01 02 在上行，03–06 在下行，阅读顺序天然成立。特大瓦片：标题 26px、编号标 10.5px、padding 26/24、desc 14.5px/58ch。**真缺陷修复**：`.firm-tile--xl h3` 与 `.firm-tile h3` **特异性相同（0-1-1）**，被源码顺序靠后的基础规则覆盖（实测 20px 而非 26px）——改 `.firm-grid .firm-tile--xl h3` 提特异性（0-2-1）。900px 断点 xl 跨满 2 列整行，600px 单列。
+- **⑥ 旗舰专题分层**：`.feature-row:nth-child(-n+3)`（三条 FEATURE 级：2008 生死役/平台变局/承诺与结果）加 **3px 朱红左标线 + padding-left 16px**，与后四条 DEEP DIVE 级行拉开层级（探针实测前三条 `border-left 3px rgb(200,64,50)`、后四条 `0px`）；全部行 hover 加 `--paper-50` 微底色。`.path-row` hover 标题转 `--accent-text`，与全站 hover 语言统一。
+- **⑦ reduced-motion 全覆盖**：本轮新增微动效（`.act`/`.act-arr`/`.hero-strip img`/`.firm-tile`/`.feature-row`/`.path-row`）在 `prefers-reduced-motion: reduce` 下 `transition: none !important` + hover `transform: none !important`（新增独立块，探针文件级断言）。
+- **before/after 证据**：`tools/v9r16-shot.js` 各 6 张（index × 桌面 1440×900 / 平板 768×900 / 手机 390×844 × 中英，CDP 全页 + 冻结动画 + localStorage 切语言）；`tools/v9r16-diff.py`（Pillow）逐像素量化：**11.03%–28.13%**（中位 22.3%），最小 index-desktop-en 11.03%、最大 index-tablet-en 28.13%——**远超「显著变化」10% 阈值**，验收达成。另生成 **首屏 900px 并排对比图 3 张**（`compare/cmp-firstscreen-{desktop,tablet,mobile}-zh.png`，BEFORE/AFTER 标签 + 中缝）。
+- **验证**：**CDP 探针 43/43**（`tools/v9r16-probe.js`，端口 9364：文件级结构 6 + 样式规则 8 + 版本产物 3 + 几何〔xl 瓦片宽 501px = 2× 标准 244px、同行并排〕+ 计算样式 6 + FEATURE 分层 4 + EN 切换不破版 4 + 三视口溢出 6 + 键盘可达与焦点环 2 + 截图落盘）；verify.py **9/9**（38 页 / 索引 318 / 版本 9.6.0 / EPUB 新鲜）；node --check 全过；**320/390/768 × 四页 × 中英零横向溢出**；EN hero 标题 `scrollWidth ≤ clientWidth` 不破版；版本三件套 9.5.0→9.6.0（15 页 span）；EPUB 223,159 B / 24 章。
+- **探针修正 4 项（首跑 38/43）**：① **真缺陷**（非探针问题）`.firm-tile--xl h3` 同特异性被覆盖 → 修 CSS 提特异性；② 期望值误写——`.act-primary` 文字色是 `--on-hue`（`#fff` 纯白）而非 `--paper-0`；③ reduce 模拟下断言 `transitionProperty`（被 `!important` 禁用后自然为 `none`）→ 改文件级断言 hover 规则存在；④ **Tab 循环上限 14 次不足**——导航下拉 `.nav-drop` 虽为 `display:none`，但 `.nav-group:focus-within` 会展开，键盘用户可穿越全部导航项（约 43 个）后到达正文；这是**刻意的键盘可达模式**（鼠标 hover ↔ 键盘 focus 对等），非缺陷，探针循环上限放宽至 60。**教训沉淀：断「动效已挂」不要在 reduce 模拟下做；断「Tab 第 N 次命中」必须先把导航可聚焦项数清点清楚。**
+- **提交**：成果 `6a0a5ae`（26 文件）；本回填 + revisions（206 幂等）+ EPUB 重刷为第二提交。
+- **下一轮预告**：R17 数据图形工业风——`gx-*`（timeline 年份轴）/`cap-*`（capital-evolution 流向图）/`net-*`（companies 关系图）三图精修：线宽与节点层级、网格与刻度统一、标签排版与碰撞避让、深底图形对比度复核；消费 R15 令牌；before/after 截图 + 三视口复扫。
