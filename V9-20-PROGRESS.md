@@ -32,7 +32,7 @@
 | 09 | 语录卡补齐 + 质量节点①（盘点总表入账本） | complete | v8.9.0 | efe7bec | e2013 立卡 102→103（约 2013 广泛征引如实双标）；verify 白名单 3→2 收严；盘点总表+缺口清单（EXPANSION）；探针 25/25 |
 | 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | complete | v8.10.0 | fdf366e | 10 条种子核活入库（官2/开2/社2/工4）；索引 282→292；探针 27/27；不可核活 7 条留档 EXPANSION |
 | 11 | 官方与标准类资源 | complete | v9.1.0 | 84ec1e8 | +8 条 official 2→10（资源 10→18、索引 300）；三路法核活（7 条服务端读取器路径如实注记）；SAE J3400/tesla.com 弃收留档；修复 R10 导航回归；探针 30/30 |
-| 12 | 开源项目资源（Tesla API 生态 / Starlink 追踪 / 发射工具） | pending | — | — | — |
+| 12 | 开源项目资源（Tesla API 生态 / Starlink 追踪 / 发射工具） | complete | v9.2.0 | 1bb278b | +6 条开源 2→6/社区 2→3/工具 4→5（资源 18→24、索引 306）；tesla-api.io 死链判断证伪（DNS 污染非死链）；治本修复 revisions 导航回归；探针 28/28 |
 | 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | pending | — | — | — |
 | 14 | 资源交互与联动 + 质量节点②（≥15 断言） | pending | — | — | — |
 | 15 | 设计系统升级（style.css :root tokens，四页样板） | pending | — | — | — |
@@ -241,3 +241,15 @@
 - **探针修正记录**：首跑 28/30——①「official 节 10 条」文件级断言用 data-cat 切分被筛选芯片同名属性干扰（页面 DOM 断言同口径已过，页面正确）改用 section id 定界；②「38/38 导航」为真回归（见上）。两处均非页面缺陷掩盖。
 - **提交**：成果 `84ec1e8`（v9.1.0，29 文件）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：R12 开源项目资源——Tesla API 生态（tesla-api.io 重验：DNS ENOTFOUND 疑似死链，独立 DNS 确认后按纪律 B 标「存档」或弃收；Tessie、Tesla API 社区文档择主要）、Starlink 追踪 GitHub 观测项目、r/SpaceX 社区百科（编年史/统计帖）、火箭发射数据工具补缺（Flight Club/Next Spaceflight/LL2 已在册勿重）；GitHub 项目记 stars+最近提交年（api.github.com 无认证串行）；社区资源记性质（非官方）。
+
+## 第 12 轮工作记录（开源项目资源）— complete（2026-10-01）
+
+- **+6 条入册（opensource 2→6 / community 2→3 / tools 4→5，全站资源 18→24，索引 300→306）**：timdorr/tesla-api（2,065★ MIT，2026-03 活跃，近十年非官方 API 文档+Ruby gem）/ r-spacex/SpaceX-API（10,912★ Apache-2.0，**维护者 archived=true，2024-08 停更**——仓库态如实标「存档」，线上服务可用性不在断言范围）/ sparky8512/starlink-grpc-tools（710★ Unlicense，2026-09 活跃，星链终端 gRPC 遥测自采）/ tesla-api.io（社区文档站，2024-01 起停更）/ r/SpaceX 社区维基（发射编年史与 FAQ）/ Tessie（商业托管路线代表，与 Teslamate 自托管互为两端）。
+- **重要重验：R10「tesla-api.io 疑似死链」判断证伪**——本机 resolver NXDOMAIN（R10 同结果）→ 独立解析尝试 8.8.8.8/1.1.1.1 UDP **全部被墙超时（本机独立 DNS 不可行）**→ dns.google DoH 直连亦超时 → **服务端读取器核活 HTTP 200 且站点在线**（自注 2024-01 起弃用由官方文档接管，deprecated ≠ 下线）。结论=本地运营商 DNS 污染（同 wikipedia 污染机制）非死链，按「停更」收录，判定全过程卡内注明。**教训：本机 DNS 对 .io 域名的 NXDOMAIN 不可作死链证据（污染前科两例），死链判定必须服务端路径交叉确认。**
+- **择主要甄别**：GitHub 星数搜索混入同名无关项目——sgayou/subaru-starlink-research（**斯巴鲁**车载 StarLink 同名不同司）、Look4Sat（通用卫星追踪）、SmoothWAN（通用组网）均排除留档 EXPANSION R12 块。
+- **治本修复 revisions.html 导航回归（R10/R11 连续两轮同处回归的根因）**：build-revisions.py 内联模板从不包含 site-nav 报头，每次重跑冲掉导航注入——本轮模板内嵌 `build_masthead('revisions.html')` + app.js（导航单一来源原则），重跑不再回归；探针新增「revisions.html 导航在册（含 resources 链接+site-nav+app.js）」文件级断言防复发，本轮两次重跑实测导航保留。
+- **管线**：build-resources（24 条幂等重建）/ build-search-index（306）/ sync-changelog（201 条）/ 版本三件套 9.1.0→9.2.0（15 页 span 打印在案）/ build-epub（220,597 B）；提交后 build-revisions（206 幂等+导航在册验证）+ EPUB 重刷（第二提交）。
+- **验证**：verify.py 9/9（38 页/索引 306）；node --check 通过；**CDP 探针 28/28**（tools/v9r12-probe.js，端口 9356 全新 profile：文件级 9（含治本断言）/结构 9（tesla-api.io 停更徽标+死链证伪注记、SpaceX-API 存档徽标+★10,912、starlink-grpc-tools ★710+Unlicense、Tessie 非官方口径）/筛选 2/双语 3/无 JS 1/检索联动 3（q=Tessie 命中、q=starlink 新旧双命中、q=发射数据 中文简介命中）/390 零溢出 2）；截图 2 张入 qa/v9-20/round-12/。
+- **探针插曲**：首跑 17 项过即中断——qa/v9-20/round-12/ 目录不存在致截图写失败（mkdir 后重跑全绿），非页面缺陷。
+- **提交**：成果 `1bb278b`（v9.2.0，27 文件）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：R13 社区与档案资源+元数据补全——elonmuskarchive.org 已在册（R10），候选：en.wikipedia.org 相关条目（DNS 污染项——本轮 tesla-api.io 教训表明可先试服务端读取器核活）、Wait But Why 已在册、媒体档案库（Reuters/AP 专题页择要）、Reddit 之外的社区档案（r/teslamotors 百科等择主要）；R11–R13 合计目标 +30~50 条（当前 +14，R13 需再收 6~10 条并补齐元数据）。
