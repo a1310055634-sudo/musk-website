@@ -4640,5 +4640,72 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX"
   ]
+ },
+ {
+  "id": "r-wikidata-elon-musk",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Wikidata · 马斯克结构化数据条目",
+  "q": "Wikidata 的马斯克结构化数据条目（Q317521）：身份、任职、亲属与公司关系以属性三元组形式开放。",
+  "zh": "Wikidata structured-data item for Musk (Q317521): roles, positions, family and company relations as open triples.",
+  "bg": "结构化事实层（可比对、可引用、可机读），是人物基础事实的开放锚点。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "r-archive-org-search",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Internet Archive · 马斯克资料搜索",
+  "q": "互联网档案馆的马斯克资料检索：文字、音视频的历史存档入口（含访谈与广播片段）。",
+  "zh": "Internet Archive search for Musk materials: the historical entry to texts, audio and video (incl. interviews and broadcasts).",
+  "bg": "历史广播与早期访谈的存档层：很多逐字素材只能在这里回溯。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "r-isaacson-official-page",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "《Elon Musk》官方书页（Isaacson 著）",
+  "q": "Simon & Schuster 官方书页：Walter Isaacson 2023 年传记《Elon Musk》的出版社正典入口。",
+  "zh": "The Simon & Schuster official page for Walter Isaacson's 2023 biography Elon Musk.",
+  "bg": "官方书目口径：书中访谈与引语若有引用争议，出版社页是版本判定的锚点。",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-vance-official-page",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "《Elon Musk》官方书页（Ashlee Vance 著）",
+  "q": "HarperCollins/Ecco 官方书页：Ashlee Vance 2015 年传记《Elon Musk》的出版社正典入口。",
+  "zh": "The HarperCollins/Ecco official page for Ashlee Vance's 2015 biography Elon Musk.",
+  "bg": "2015 传记的版本判定锚点：早期 SpaceX/Tesla 叙事被引用时的出处正典。",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-reuters-tesla-topic",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Reuters · Tesla 专题页",
+  "q": "路透社的 Tesla 车辆与公司新闻专题页：通讯社口径的滚动档案。",
+  "zh": "Reuters Tesla & Vehicles topic page: the wire-service rolling archive.",
+  "bg": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
+  "c": [
+   "Tesla"
+  ]
  }
 ];

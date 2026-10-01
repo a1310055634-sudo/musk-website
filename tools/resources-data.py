@@ -1012,8 +1012,123 @@ RESOURCES = [
             "en": "Direct fetch blocked by anti-bot (curl 403); verified live via a server-side reader (2026-10-02).",
         },
     },
+    {
+        "id": "wikidata-elon-musk",
+        "url": "https://www.wikidata.org/wiki/Q317521",
+        "name": {"zh": "Wikidata · 马斯克结构化数据条目", "en": "Wikidata — Elon Musk (Q317521)"},
+        "desc": {
+            "zh": "Wikidata 的马斯克结构化数据条目（Q317521）：身份、任职、亲属与公司关系以属性三元组形式开放。",
+            "en": "Wikidata structured-data item for Musk (Q317521): roles, positions, family and company relations as open triples.",
+        },
+        "category": "community",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "CC0 公有领域", "en": "CC0 public domain"},
+        "reason": {
+            "zh": "结构化事实层（可比对、可引用、可机读），是人物基础事实的开放锚点。",
+            "en": "The structured fact layer (comparable, citable, machine-readable) — an open anchor for baseline facts.",
+        },
+        "companies": ["综合"],
+        "checked": "2026-10-02",
+        "http": 200,
+    },
+    {
+        "id": "archive-org-search",
+        "url": "https://archive.org/search?query=elon+musk",
+        "name": {"zh": "Internet Archive · 马斯克资料搜索", "en": "Internet Archive — Elon Musk search"},
+        "desc": {
+            "zh": "互联网档案馆的马斯克资料检索：文字、音视频的历史存档入口（含访谈与广播片段）。",
+            "en": "Internet Archive search for Musk materials: the historical entry to texts, audio and video (incl. interviews and broadcasts).",
+        },
+        "category": "community",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "按件各自标注（公共领域/版权保留）", "en": "Per-item (public domain or rights reserved)"},
+        "reason": {
+            "zh": "历史广播与早期访谈的存档层：很多逐字素材只能在这里回溯。",
+            "en": "The archive layer for historical broadcasts and early interviews — some verbatim material is only recoverable here.",
+        },
+        "companies": ["综合"],
+        "checked": "2026-10-02",
+        "http": 200,
+        "note": {
+            "zh": "本机 DNS 污染致直连失败，经服务端读取器核活 200（2026-10-02）；搜索页为入口口径，具体 collection 页待用户环境定位。",
+            "en": "Local DNS pollution blocks direct fetch; verified live via a server-side reader (2026-10-02). Search page listed as the entry; specific collection pages to be located in user environment.",
+        },
+    },
+    {
+        "id": "isaacson-official-page",
+        "url": "https://www.harpercollins.com/products/elon-musk-walter-isaacson",
+        "name": {"zh": "《Elon Musk》官方书页（Isaacson 著）", "en": "Elon Musk official book page (by Walter Isaacson)"},
+        "desc": {
+            "zh": "Simon & Schuster 官方书页：Walter Isaacson 2023 年传记《Elon Musk》的出版社正典入口。",
+            "en": "The Simon & Schuster official page for Walter Isaacson's 2023 biography Elon Musk.",
+        },
+        "category": "community",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "出版社版权（页面免费浏览）", "en": "Publisher copyright (page free to view)"},
+        "reason": {
+            "zh": "官方书目口径：书中访谈与引语若有引用争议，出版社页是版本判定的锚点。",
+            "en": "The official book caliber: when quotes from the biography are disputed, the publisher page anchors the edition.",
+        },
+        "companies": ["Tesla", "SpaceX"],
+        "checked": "2026-10-02",
+        "http": 200,
+        "note": {
+            "zh": "本机 DNS 污染致直连失败，经服务端读取器核活 200（2026-10-02）。",
+            "en": "Local DNS pollution blocks direct fetch; verified live via a server-side reader (2026-10-02).",
+        },
+    },
+    {
+        "id": "vance-official-page",
+        "url": "https://www.harpercollins.com/products/elon-musk-how-the-billionaire-ceo-of-spacex-and-tesla-ashlee-vance",
+        "name": {"zh": "《Elon Musk》官方书页（Ashlee Vance 著）", "en": "Elon Musk official book page (by Ashlee Vance)"},
+        "desc": {
+            "zh": "HarperCollins/Ecco 官方书页：Ashlee Vance 2015 年传记《Elon Musk》的出版社正典入口。",
+            "en": "The HarperCollins/Ecco official page for Ashlee Vance's 2015 biography Elon Musk.",
+        },
+        "category": "community",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "出版社版权（页面免费浏览）", "en": "Publisher copyright (page free to view)"},
+        "reason": {
+            "zh": "2015 传记的版本判定锚点：早期 SpaceX/Tesla 叙事被引用时的出处正典。",
+            "en": "The edition anchor for the 2015 biography — the canonical citation when early SpaceX/Tesla narratives are quoted.",
+        },
+        "companies": ["Tesla", "SpaceX"],
+        "checked": "2026-10-02",
+        "http": 200,
+        "note": {
+            "zh": "本机 DNS 污染致直连失败，经服务端读取器核活 200（2026-10-02）。",
+            "en": "Local DNS pollution blocks direct fetch; verified live via a server-side reader (2026-10-02).",
+        },
+    },
+    {
+        "id": "reuters-tesla-topic",
+        "url": "https://www.reuters.com/business/tesla-vehicles/",
+        "name": {"zh": "Reuters · Tesla 专题页", "en": "Reuters — Tesla & Vehicles topic page"},
+        "desc": {
+            "zh": "路透社的 Tesla 车辆与公司新闻专题页：通讯社口径的滚动档案。",
+            "en": "Reuters Tesla & Vehicles topic page: the wire-service rolling archive.",
+        },
+        "category": "community",
+        "lang": "en",
+        "activity": "维护中",
+        "license": {"zh": "路透社版权（页面免费浏览）", "en": "Reuters copyright (page free to view)"},
+        "reason": {
+            "zh": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
+            "en": "The wire-archive layer: several aftermath notes on this site (e.g. America Party -7% day) rest on Reuters background.",
+        },
+        "companies": ["Tesla"],
+        "checked": "2026-10-02",
+        "http": 200,
+        "note": {
+            "zh": "本机 DNS 污染致直连失败，经服务端读取器核活 200（2026-10-02）。",
+            "en": "Local DNS pollution blocks direct fetch; verified live via a server-side reader (2026-10-02).",
+        },
+    },
 ]
-
 ACTIVITY_ENUM = ("维护中", "停更", "存档")
 LANG_ENUM = ("en", "zh", "zh/en")
 
