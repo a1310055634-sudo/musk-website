@@ -24,7 +24,7 @@
 | N08 | email 库消化 I（Twitter 收购私信/OpenAI 证物） | complete | v10.8.0 | 4b1b411 | +4 份诉讼证物信（$1B 承诺/控制权/最终稻草/Agrawal 质问，文档 19→23 索引 327），全部双源核验+口径注明；web_reader 渲染管线打通；探针 7/7 |
 | N09 | email 库消化 II（生产冲刺信等，清账） | complete | v10.9.0 | 90e3ad3 | +4 封冲刺信（sabotage/创纪录季度/舒芙蕾大锤/回办公室令，文档 23→27 索引 331）；Fork 在册不重立；47 封归宿清账入 EXPANSION；探针 6/6 |
 | N10 | keynote/speech 池消化＋AI Day 2021 引语升级 | complete | v10.10.0 | 770c2c0 | +4 条（股东会-2/Starship 2025/xAI All-Hands/Terafab，账本 115→119 语录卡 107 索引 335）；AI Day 2021 官方逐字升级 e2021-08（worth more than 句=2022 口径错位修正）；探针 10/10 |
-| N11 | 访谈保留池清账（五场立条或注明） | pending | — | — | — |
+| N11 | 访谈保留池清账（五场逐场处置） | complete | v10.11.0 | e5b1382 | 4 立条+1 留档池清零（D11 自由感/ARK FSD 对账/E3 未涉之地/Code freaking cool；lex-438 无档留档；访谈 43→47 索引 339）；探针 9/9 |
 | N12 | 社区资源 I：SpaceX 观测生态（LabPadre/NSF 等） | pending | — | — | — |
 | N13 | 社区资源 II：档案与书目（资源 36→55±） | pending | — | — | — |
 | N14 | 事件档案 v2 聚合（14→16±，口径红线） | pending | — | — | — |
@@ -130,3 +130,12 @@
 - **验证**：verify 9/9（38 页/索引 335）；探针 10/10（tools/v10n10-probe.js 端口 9400）；版本三件套 10.9.0→10.10.0；sync-changelog 219 条；EPUB 232,296B；修订史 223 锚点（账本 119 入轨）。
 - **提交**：成果 `770c2c0`（v10.10.0）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：N11 访谈保留池清账（v10.11.0）——五场逐场处置：code-conference-2021-09-28/allthingsd-d11-2013-05-29/ark-invest-podcast-2019-02-19/e3-coliseum-2019-06-13/lex-fridman-438（60-minutes-2012 已在 N05 降级留档）；逐场立条（官方转写在档）或注明保留原因；EXPANSION 同步。
+
+## 第 11 轮工作记录（N11 访谈保留池清账）— complete（2026-10-02）
+
+- **保留池逐场处置（5 场：4 立条 + 1 留档，池清零）**：①**i2013-05-29** AllThingsD D11「那份自由感」（Boston to DC——里程焦虑的自由感答案）；②**i2019-02-19** ARK Invest「FSD with certainty」——**承诺对账素材**（当年未按年兑现，FSD beta 2020-10，卡内如实注记）；③**i2019-06-13** E3 Coliseum「未涉之地必然有失败——否则就是你还不够拼」（互链 i2008-08-05 失败即数据弧线）；④**i2021-09-28** Code Conference「就是觉得很酷——人类，月球建基地吧」（+Branson/Bezos 点评）；⑤**lex-fridman-438** transcript 端点 404 无档留档（lexfridman.com 官网外部源待核）。60-minutes-2012 维持 N05 降级口径。访谈 43→47，索引 335→339，修订史 227 锚点（访谈 47 入轨）。
+- **ASR 口径**：code/ark 场转写为平文本、e3 场为全大写——引语句大小写与标点为编者所加，卡内逐一注明（R05 先例）。
+- **工程（本轮最大坑=插入锚）**：注释 rfind 锚落到远处分组注释致四卡全插错位（git checkout 回滚）——正确做法=以「下一卡 `<article` 行首」为插入点，且页内缩进不统一（部分 4 空格部分无）须逐锚核对实际形态；幂等守卫（重跑已集成即退出）。**批次式排列二次确认**（R04 教训）：interviews.html 非严格时间序（i2017-04-28 原生在 i2017-07-28 之后）——时序断言以「插入邻居关系」为准。探针断言三修（旧残留行、批次式口径）。
+- **验证**：verify 9/9（38 页/索引 339）；探针 9/9（tools/v10n11-probe.js 端口 9402）；版本三件套 10.10.0→10.11.0；sync-changelog 220 条；EPUB 233,848B。
+- **提交**：成果 `e5b1382`（v10.11.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：N12 社区资源扩容 I：SpaceX 观测生态（v10.12.0）——LabPadre/NASASpaceflight/r-teslamotors wiki/Everyday Astronaut 官网/星舰观测工具链择主要；三路法核活+全字段元数据；+6~10 条；validate+CDP 探针。"""
