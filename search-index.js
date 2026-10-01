@@ -1380,6 +1380,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2018-08-14",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2018.08.14",
+  "s": "@elonmusk",
+  "q": "@Tesla I’m excited to work with Silver Lake and Goldman Sachs as financial advisors, plus Wachtell, Lipton, Rosen & Katz and Munger, Tolles & Olson as legal advisors, on the proposal to take Tesla private.",
+  "zh": "@Tesla：我很高兴与银湖和高盛出任财务顾问、Wachtell, Lipton, Rosen & Katz 与 Munger, Tolles & Olson 出任法律顾问，共同推进把 Tesla 私有化的提案。",
+  "bg": "背景/后续：私有化提案的顾问阵容官宣帖（p2018-08-07「funding secured」八天后）——与四大机构名单一并披露。此后 SEC 就马斯克推文展开调查，9 月末和解、马斯克卸任董事长；私有化提案最终搁置。镜像逐字存档 x-1029171381584314368；snowflake 解码与镜像日期一致。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "i2018-08-15",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -1512,6 +1526,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2019-03-14",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2019.03.14",
+  "s": "@elonmusk",
+  "q": "S3XY https://t.co/3ECtKEL2BH",
+  "zh": "S3XY（Sexy 谐音：Model S、3、X、Y 四车型字母拼合）。",
+  "bg": "背景/后续：Model Y 发布日（加州 Hawthorne 设计中心发布会当晚）的命名梗帖——四车型字母恰好拼出「S3XY」。次日在评论区自曝「发布会其实藏了彩蛋但没人发现」。镜像逐字存档 x-1106063248581894144；snowflake 解码与镜像日期一致。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "i2019-04",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -1615,6 +1643,20 @@ window.SEARCH_INDEX = [
   "bg": "On April 5, Judge Nathan ordered the parties “to meet and confer for at least one hour in an effort to resolve the pending motion to hold Mr. Musk in contempt, as well as any modifications to the consent judgment.” On April 26 they filed a consent motion to amend (Dkt. 46): a rewritten clause in exchange for dropping the contempt fight.",
   "c": [
    "综合"
+  ]
+ },
+ {
+  "id": "p2019-05-25",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2019.05.25",
+  "s": "@elonmusk",
+  "q": "@Erdayastronaut @SpaceX Super proud of SpaceX propulsion/test/materials team! One of hardest technology problems. New high temp superalloy & internal foundry needed to make it work. Foundry iteration is how to get there fast. Big congrats to the whole team!",
+  "zh": "@Erdayastronaut @SpaceX 为 SpaceX 推进/测试/材料团队感到无比自豪！这是最难的工程技术难题之一。为了让它成事，我们用了新的高温超合金和自建铸造厂。铸造厂快速迭代就是通往成功的路。向整个团队致以热烈祝贺！",
+  "bg": "背景/后续：Starlink 首批 60 星（2019-05-24 发射）次日致团队帖：公开感谢推进/测试/材料三线，并披露关键工艺决策——新型高温超合金与自建内部铸造厂（Raptor 发动机量产路线的核心）。镜像逐字存档 x-1132429010514788352；snowflake 解码与镜像日期一致。",
+  "c": [
+   "SpaceX",
+   "X / Twitter"
   ]
  },
  {
