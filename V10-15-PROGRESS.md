@@ -21,7 +21,7 @@
 | N05 | 早期年代 I：访谈 2003–2012（161 场库过滤） | complete | v10.5.0 | ee61ffb | 实测 9 场仅 wired-musk-2008 有逐字稿（60-minutes-2012 判断修正降级）；立条 i2008-08-05（名句原始出处，访谈 42→43 索引 319）；8 场留档；探针 8/8 |
 | N06 | 早期年代 II：文档馆补空（DEFM14A 等） | complete | v10.6.0 | 697c775 | +1 份 d2016-10-12 SolarCity 合并委托书马斯克回避表决三段逐字（文档 18→19 索引 320）；其余候选受限留档；bump 自动前滚版落地；探针 8/8 |
 | N07 | X 帖 2018–2019 回捞（镜像下限实测） | complete | v10.7.0 | d0c80b9 | 实测下限=2018-07（Falcon Heavy 无档留档）；+3 卡顾问阵容/S3XY/Starlink 致团队（X 帖 31→34 索引 323）；探针 8/8 |
-| N08 | email 库消化 I（Twitter 收购私信/OpenAI 证物） | pending | — | — | — |
+| N08 | email 库消化 I（Twitter 收购私信/OpenAI 证物） | complete | v10.8.0 | 4b1b411 | +4 份诉讼证物信（$1B 承诺/控制权/最终稻草/Agrawal 质问，文档 19→23 索引 327），全部双源核验+口径注明；web_reader 渲染管线打通；探针 7/7 |
 | N09 | email 库消化 II（生产冲刺信等，清账） | pending | — | — | — |
 | N10 | keynote/speech 池消化＋AI Day 2021 引语升级 | pending | — | — | — |
 | N11 | 访谈保留池清账（五场立条或注明） | pending | — | — | — |
@@ -102,3 +102,13 @@
 - **验证**：verify 9/9（38 页/索引 323）；探针 8/8（tools/v10n07-probe.js 端口 9392）；版本三件套 10.6.0→10.7.0；sync-changelog 216 条；EPUB 226,356B；修订史 211 锚点（X 帖 34 入轨）。
 - **提交**：成果 `d0c80b9`（v10.7.0）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：N08 email 库消化 I（v10.8.0）——qa/v9-20/round-06/sources/emails.json（43 封未消化）择 Twitter 收购私信系列 + OpenAI 诉讼证物信；每封镜像底本+独立第二逐字源；+3~5 份或单源件留档弃收。
+
+## 第 8 轮工作记录（N08 email 库消化 I）— complete（2026-10-02）
+
+- **+4 份入册（文档 19→23，索引 323→327，全部「诉讼证物」口径）**：d2015-11-22（OpenAI $1B 承诺：starting with a $1B funding commitment…cover whatever anyone else doesn't provide + 比 $100M 大的口径逻辑）/ d2017-09-13（控制权：unequivocally have initial control…but this will change quickly）/ d2017-09-21（final straw：不再资助 until 结构承诺）/ d2022-04-09（致 Agrawal 三连短信：What did you get done this week→not joining the board→will make an offer）。
+- **双源核验（全部 2026-10-02 逐字吻合）**：①muskvsaltman.com 法庭文件存档（Musk v. Altman 公开文件）②OpenAI 官方博客 2024-12 公开文件+WaPo ③techemails.com+FindLaw 2026 法院判决书原文引用（最强第二源）④Delaware 衡平法院 2022-09 解封文件（BBC/BI 引用）。
+- **email 正文提取管线打通**：镜像 /email/{id} 详情页为 Next.js SSR、curl 拿不到正文（仅 meta）——**web_reader（JS 渲染）可取正文**，且镜像自带法庭 Exhibit 标注（「诉讼证物」口径的第一手标注源）——N09 沿用。
+- 其余 39 封留 N09（Tesla 冲刺信/SpaceX 余量/Twitter 收购私信其余件）。
+- **验证**：verify 9/9（38 页/索引 327）；探针 7/7（tools/v10n08-probe.js 端口 9394）；版本三件套 10.7.0→10.8.0（自动派生版）；sync-changelog 217 条；EPUB 228,004B；修订史 215 锚点（文档 23 入轨）。
+- **提交**：成果 `4b1b411`（v10.8.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：N09 email 库消化 II（v10.9.0）——Tesla 生产冲刺信（soufflé/sabotage/record quarter/go all out 等）/ SpaceX 全员信余量；同双源纪律；完成后 email 库 47 封全部有归宿（立条/弃收/留档）。
