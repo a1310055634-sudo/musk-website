@@ -2,6 +2,19 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v9.8.0 — 2026-10-02 · V9-20 R18/20：排版与阅读体验（lr-*/ps-*，数字等宽+引语注区分）
+
+**主题包成果（V9-20 R18 · 纯 CSS 精修，style.css +30 行）**
+- **基线复核并锁定**：正文 --fs-body 16.5px（16–18 ✓）/ 长文阅读宽 --read-width 720px（640–760 ✓），均为 R15 定值，本轮探针断言锁定（computed fontSize/maxWidth）。
+- **数字/日期/金额等宽**：文字层 12 类选择器 tabular-nums（lr 正文/引语/编者注/来源行/meta 值/数据框 + ps 引语/译文/事实/日期/来源徽章/计数）；数据表 .lr-data .num 数字列改 --font-num（工业数字，消费 R17 令牌）。
+- **引语块与编者注三重区分**：引语=实底+5px 实线+块影（--shadow-1）+加宽内衬；编者注=纸底（--paper）+虚线框。**覆盖三族引语容器**——.lr-quote（长文/events 档案 24 处）与 .sv-node/.pv-case blockquote（特稿节点，survival-2008 引语实为裸 blockquote 无类，首版 CSS 漏覆盖被探针捕获后修正）。
+- **EN 长文**：正文行高 1.92→1.78、引语 1.75（仅 EN 模式）+ 长词换行保护（overflow-wrap）；中文模式不变。
+- **print**：引语块影显式关闭（CDP print 媒体模拟实测 boxShadow none）。
+- 零新增 transition/animation（reduced-motion 免复核）；「示意非等比」等口径注无触碰。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 318）；CDP 探针 28/28（文件级 6/survival 排版 7 含 EN 切换往返/deep-dive .num 1/primary 账本 2/print 模拟 1/三视口九宫格 12）；before/after 九组（survival 三组差异可辨，index/timeline/capital 六组逐像素一致=改动面不含 lr 元素属预期，如实注明）；node --check 通过；版本三件套 9.7.0→9.8.0（15 页 span）。本轮仅本地提交，不推送。
+
 ## v9.7.0 — 2026-10-02 · V9-20 R17/20：数据图形工业风（三图精修，数据编码不动）
 
 **主题包成果（V9-20 R17 · gx-*/cap-*/net-* 三图工业风精修，纯 CSS）**

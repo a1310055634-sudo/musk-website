@@ -2074,3 +2074,42 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 @media print {
   .cap-graph, .net-graph { background-image: none; }
 }
+
+/* ============================================================
+   V9-R18 排版与阅读体验（lr-* 长文 / ps-* 账本）
+   基线复核：--fs-body 16.5px（16–18 ✓）/ --read-width 720px（640–760 ✓），
+   本轮锁定并探针断言。改动四件：
+   ① 数字/日期/金额等宽：文字层 tabular-nums（引语/账本/编者注/来源行），
+     数据表 .num 改 --font-num（工业数字）；消费 R15/R17 令牌，不自造值。
+   ② 引语块与编者注三重区分：引语=实底+5px 实线+块影；编者注=纸底+虚线框。
+   ③ EN 长文：行高微调（1.78）+ 长词换行保护。
+   ④ print：引语块影显式关闭（打印不渲染阴影，兜底）。
+   无新增 transition/animation（reduced-motion 免复核）。
+   ============================================================ */
+
+/* ---- ① 数字等宽 ---- */
+.lr-sec p, .lr-quote, .lr-note, .lr-foot, .lr-meta b, .lr-data-box,
+.ps-quote, .ps-zh, .ps-deed, .ps-date, .ps-src, .ps-count,
+.sv-node blockquote, .pv-case blockquote {
+  font-variant-numeric: tabular-nums;
+}
+.lr-data .num { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+
+/* ---- ② 引语块 / 编者注 三重区分（三族引语容器：.lr-quote 长文 / .sv-node·.pv-case blockquote 特稿节点） ---- */
+.lr-quote,
+.sv-node blockquote,
+.pv-case blockquote {
+  border-left-width: 5px;
+  box-shadow: var(--shadow-1);
+  padding: 16px 22px;
+}
+.lr-note { background: var(--paper); }
+
+/* ---- ③ EN 长文行高与换行 ---- */
+html[lang="en"] .lr-sec p { line-height: 1.78; overflow-wrap: break-word; }
+html[lang="en"] .lr-quote { line-height: 1.75; }
+
+/* ---- ④ print 兜底 ---- */
+@media print {
+  .lr-quote, .sv-node blockquote, .pv-case blockquote { box-shadow: none; }
+}
