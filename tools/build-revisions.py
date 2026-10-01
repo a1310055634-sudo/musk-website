@@ -82,7 +82,7 @@ for (label, aid), data in sorted(lifetimes.items(), key=lambda x: x[0][1]):
     cr = data['created']
     alive_n = len(data['alive'])
     rm = data['removed']
-    status = '<span style="color:#1f3a5f;font-weight:700">在册</span>' if rm is None else '<span style="color:#8a857c">已移除</span>'
+    status = '<span style="color:var(--navy);font-weight:700">在册</span>' if rm is None else '<span style="color:var(--tx-3)">已移除</span>'
     versions = f'<b>{cr[0]}</b>（{cr[1]}）创建'
     if alive_n > 0:
         versions += f' · {alive_n} 次提交续存'
@@ -116,7 +116,7 @@ for (label, aid), data in filtered:
     cr = data['created']
     alive_n = len(data['alive'])
     rm = data['removed']
-    status = '<span style="color:#1f3a5f;font-weight:700">在册</span>' if rm is None else '<span style="color:#8a857c">已移除</span>'
+    status = '<span style="color:var(--navy);font-weight:700">在册</span>' if rm is None else '<span style="color:var(--tx-3)">已移除</span>'
     versions = f'<b>{cr[0]}</b>（{cr[1]}）创建'
     if alive_n > 0:
         versions += f' · {alive_n} 次提交续存'
@@ -168,7 +168,7 @@ html = f'''<!DOCTYPE html>
 .rv-table {{ width: 100%; border-collapse: collapse; font-size: 13.5px; }}
 .rv-table th, .rv-table td {{ text-align: left; padding: 8px 10px; border-bottom: 1px dotted rgba(23,25,29,.16); vertical-align: top; }}
 .rv-table th {{ font-size: 11px; letter-spacing: .18em; color: var(--accent); font-weight: 700; border-bottom: 1px solid var(--ink); }}
-.rv-foot {{ margin-top: 26px; font-size: 11px; color: #8a857c; line-height: 1.8; }}
+.rv-foot {{ margin-top: 26px; font-size: 11px; color: var(--tx-3); line-height: 1.8; }}
 @media print {{ .rv-page {{ padding: 20px; }} .rv-back {{ display: none; }} }}
 </style>
 </head>

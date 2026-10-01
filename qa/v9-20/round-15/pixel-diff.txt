@@ -1,0 +1,19 @@
+file                                   size              diffPx%    meanΔ    maxΔ  band10%
+capital-evolution-desktop-en.png       1440x5672           8.84%    0.274      48   峰值段1(47%)
+capital-evolution-desktop-zh.png       1440x5617           8.58%    0.271      48   峰值段1(51%)
+capital-evolution-mobile-en.png        390x7086            3.24%    0.121      32   峰值段1(27%)
+capital-evolution-mobile-zh.png        390x6531            2.39%    0.100      32   峰值段1(34%)
+index-desktop-en.png                   1440x6534           0.03%    0.004     156   峰值段9(100%)
+index-desktop-zh.png                   1440x6231           0.03%    0.004     156   峰值段9(100%)
+index-mobile-en.png                    390x11380           0.06%    0.009     156   峰值段9(100%)
+index-mobile-zh.png                    390x9110            0.07%    0.011     156   峰值段9(100%)
+survival-2008-desktop-en.png           1440x7628           0.08%    0.002       7   峰值段3(37%)
+survival-2008-desktop-zh.png           1440x6949           0.05%    0.001       7   峰值段5(38%)
+survival-2008-mobile-en.png            390x11447           0.20%    0.006       7   峰值段4(63%)
+survival-2008-mobile-zh.png            390x9836            0.13%    0.003       7   峰值段4(68%)
+timeline-desktop-en.png                1440x5316          14.83%    0.445     156   峰值段2(47%)
+timeline-desktop-zh.png                1440x5242          14.70%    0.441     156   峰值段1(47%)
+timeline-mobile-en.png                 390x7387           13.27%    0.407     156   峰值段1(64%)
+timeline-mobile-zh.png                 390x6832           12.80%    0.401     156   峰值段1(61%)
+
+变化像素占比：min 0.03% / 中位 2.39% / max 14.83%（16 张）

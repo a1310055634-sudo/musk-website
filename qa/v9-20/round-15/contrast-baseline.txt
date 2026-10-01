@@ -1,0 +1,27 @@
+=== 浅底（--paper #F3F0E8）上的文字 ===
+  --ink #17191d              vs paper = 15.45  PASS
+  --muted #5b5850            vs paper =  6.24  PASS
+  --accent-text #A63628      vs paper =  5.80  PASS
+  accent #C84032             vs paper =  4.35  FAIL
+  n-45 #8a857c               vs paper =  3.22  FAIL
+  n-40 #9a948b               vs paper =  2.64  FAIL
+  ty-start #4a6b3a           vs paper =  5.34  PASS
+  ty-deal #1f3a5f            vs paper = 10.08  PASS
+  ty-milestone #55524c       vs paper =  6.84  PASS
+  ty-risk #8a5a00            vs paper =  5.20  PASS
+  ty-ok #1c7c40              vs paper =  4.60  PASS
+=== 浅底卡片（--card #EBE7DC）===
+  --muted #5b5850            vs card  =  5.75  PASS
+  --accent-text #A63628      vs card  =  5.35  PASS
+=== 深底（--coal #101316）上的文字 ===
+  --mist (paper@74%)         vs coal  =  9.27  PASS
+  --accent-bright #E4765F    vs coal  =  6.26  PASS
+  accent-soft #d9a7a7        vs coal  =  8.91  PASS
+  n-20 #d9d4cc               vs coal  = 12.64  PASS
+  accent #C84032             vs coal  =  3.76  FAIL
+=== 深底页脚（--ink #17191d）===
+  --mist #F3F0E8@74          vs ink   =  8.88  PASS
+  n-35 #b3aea3               vs ink   =  7.96  PASS
+  n-30 #a8a399               vs ink   =  7.01  PASS
+  n-25 #d8d4cb               vs ink   = 11.90  PASS
+  n-20 #d9d4cc               vs ink   = 11.93  PASS
