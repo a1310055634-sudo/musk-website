@@ -33,7 +33,7 @@
 | 10 | 资源页基建（resources-data.py + build-resources.py + 导航注册） | complete | v8.10.0 | fdf366e | 10 条种子核活入库（官2/开2/社2/工4）；索引 282→292；探针 27/27；不可核活 7 条留档 EXPANSION |
 | 11 | 官方与标准类资源 | complete | v9.1.0 | 84ec1e8 | +8 条 official 2→10（资源 10→18、索引 300）；三路法核活（7 条服务端读取器路径如实注记）；SAE J3400/tesla.com 弃收留档；修复 R10 导航回归；探针 30/30 |
 | 12 | 开源项目资源（Tesla API 生态 / Starlink 追踪 / 发射工具） | complete | v9.2.0 | 1bb278b | +6 条开源 2→6/社区 2→3/工具 4→5（资源 18→24、索引 306）；tesla-api.io 死链判断证伪（DNS 污染非死链）；治本修复 revisions 导航回归；探针 28/28 |
-| 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | pending | — | — | — |
+| 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | complete | v9.3.0 | ade8ed9 | +12 条 community 3→11/开源 6→9/工具 5→6（资源 24→36、索引 318）；Wikipedia 群 8 条（R10「DNS 污染」判定证伪，直连 200 实量）；Reddit 假活空壳+teslaownersonline 软页弃收；R11–13 合计 +26（下沿略低，环境阻塞如实盘点）；探针 35/35 |
 | 14 | 资源交互与联动 + 质量节点②（≥15 断言） | pending | — | — | — |
 | 15 | 设计系统升级（style.css :root tokens，四页样板） | pending | — | — | — |
 | 16 | 首页视觉迭代 | pending | — | — | — |
@@ -253,3 +253,18 @@
 - **探针插曲**：首跑 17 项过即中断——qa/v9-20/round-12/ 目录不存在致截图写失败（mkdir 后重跑全绿），非页面缺陷。
 - **提交**：成果 `1bb278b`（v9.2.0，27 文件）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：R13 社区与档案资源+元数据补全——elonmuskarchive.org 已在册（R10），候选：en.wikipedia.org 相关条目（DNS 污染项——本轮 tesla-api.io 教训表明可先试服务端读取器核活）、Wait But Why 已在册、媒体档案库（Reuters/AP 专题页择要）、Reddit 之外的社区档案（r/teslamotors 百科等择主要）；R11–R13 合计目标 +30~50 条（当前 +14，R13 需再收 6~10 条并补齐元数据）。
+
+## 第 13 轮工作记录（社区与档案资源 + 元数据补全）— complete（2026-10-01）
+
+- **+12 条入册（community 3→11 / opensource 6→9 / tools 5→6，全站资源 24→36，索引 306→318）**：Wikipedia 条目群 8 条（Elon Musk / SpaceX / Tesla, Inc. / Starship / Acquisition of Twitter by Elon Musk / List of SpaceX launches / Grok (chatbot) / Neuralink——全部以「公共参照系·二手」口径收录，卡内逐条注明非一手）/ Tesla JSON API 非官方文档（tesla-api.timdorr.com，与 R12 的 timdorr 仓库成对收：仓库管代码、本页管文档）/ TeslaPy（417★ MIT 2026-07 活跃）/ Powerwall 2 本地网关 API 文档（290★ Apache-2.0 2024-10 停更）/ Jonathan McDowell 太空档案（planet4589.org，独立学者口径）。**R11–R13 合计 +26 条**（计划软目标 +30~50 区间下沿略低，原因见下）。
+- **重要重验：R10「en.wikipedia.org DNS 污染不可达」判定证伪**——R10 留档记解析被污染至 31.13.88.26 故与本机 .io 污染前科并列为不可核活项；本轮实测直连 **200 且内容为真**（Elon_Musk 页 2.68 MB、title「Elon Musk - Wikipedia」、正文 525 处命中；SpaceX 1.53 MB；Twitter 页正常 301 至 X (social network) 2.08 MB）。curl `%{remote_ip}` 返回 127.0.0.1（本机存在代理/hosts 接管路径），**当轮污染判断已被环境变化推翻**，8 条全部入册，卡内 note 记载判定全过程与所载 http 口径。**教训：本机 DNS 判定结论有时效性，须定期重验（与 R12 tesla-api.io 证伪同类）。**
+- **Reddit 社区档案「假活」甄别（宁缺毋滥，本轮不收）**：www/old.reddit.com 的 r/teslamotors 与 r/SpaceXLounge wiki **直连返回 200 但响应体仅 8.4 KB JS 空壳**（`<title>Reddit</title>`，正文 0），WebFetch 服务端复验同为空壳，`…/wiki/index.json` API 403——不满足纪律 B「内容到手」门槛，本轮不收（R12 收 r/SpaceX wiki 的前提是服务端读取器取得正文；本轮服务端路径对两站亦为空壳）。留档 EXPANSION，重验条件=服务端读取器能取正文或 Reddit 放开 JSON API。
+- **软页甄别**：teslaownersonline.com 返回 **HTTP 202 + `window.POW_CHALLENGE_DATA` JS proof-of-work 挑战**（bot 拦截软页），非真实内容，弃收；www.teslamotorsclub.com 000 留档。spaceflightnow.com / apnews.com / reuters.com（401）/ nytimes.com / science.org / sec.gov 查询页（403）全留档；web.archive.org 000（WebFetch 亦失败）留档。
+- **大型通讯社本机全阻塞（R13 未完成项，如实盘点）**：计划 R13 点名的「Reuters/AP 专题页择要」因 reuters 401 / apnews 403 未落，属**环境阻塞非选题放弃**，重验条件=用户环境浏览器实访或代理路径。媒体 hub 页（teslarati / electrek / arstechnica / nasaspaceflight / everydayastronaut / space.com / theverge / techcrunch / cnbc / BBC，本轮实测全 200 真内容）入候选池留 R14 起按检索联动需要择要。
+- **R11–R13 合计 +26 条下沿略低的原因**：非官方采料池中可核活的高质量条目因三重环境阻塞而耗尽——①大通讯社与机构站 401/403；②Internet Archive 000；③Reddit 空壳。守「宁缺毋滥」不灌水，如实收 26 条；用户环境若放宽，R14 起媒体档案类预计可再补 10~20 条。
+- **治本保持验证**：R12 对 build-revisions 模板内嵌 masthead 的治本修复本轮**首次跨轮实测沿用成功**——本轮 build-revisions 重跑后 revisions.html 仍含 site-nav + resources 链接 + app.js（连续两轮回归问题未复现），探针保留「revisions.html 导航在册」防复发断言。
+- **管线**：build-resources（36 条幂等重建）/ build-search-index（318）/ sync-changelog（202 条）/ build-ledger-links（23 处）/ build-events（14 事件）/ build-timeline-events（265 独立记录+39 吸收）/ build-network（幂等）/ build-company-files（4 档案）/ build-capital（幂等）/ 版本三件套 9.2.0→9.3.0（VERSION+app.js+15 页 span 打印在案）/ build-epub（223,126 B）。
+- **验证**：verify.py 9/9（38 页 / 索引 318 / 版本 9.3.0 / 语录卡 103+2 豁免 / 修订史 206 / EPUB 新鲜）；node --check 全过；**CDP 探针 35/35**（tools/v9r13-probe.js，端口 9357 全新 profile：文件级 13（含 revisions 治本保持 + Reddit 假活不收 + R12 r/SpaceX wiki 保留回归）/结构 9（wikipedia 8 卡在 community 节、TeslaPy ★417、Powerwall ★290 停更、planet4589 无 gh 行、外链逐字）/筛选 3/双语 4/无 JS 1/检索联动 3（维基百科·TeslaPy·Grok 各命中）/390 零溢出 2）；截图 2 张入 qa/v9-20/round-13/。
+- **探针修正记录（1 项，非页面缺陷）**：首跑 33/34——断言「页内无 reddit 条目 URL」用宽松正则 `https://[^"]*reddit\.com` 匹配，误命中 R12 已核活收录的 r/SpaceX 社区维基（其 URL 本就含 reddit.com，属正确保留非误收）。收敛为两条精确断言（teslamotors/SpaceXLounge 假活不在页 + R12 r/SpaceX wiki 保留）后 35/35 全绿。**教训：排除类断言须锚定具体目标项，勿用宽泛域名正则。**
+- **提交**：成果 `ade8ed9`（v9.3.0，30 文件）；本回填+revisions（206 幂等+导航保持验证）+EPUB 重刷为第二提交。
+- **下一轮预告**：R14 资源交互与联动+质量节点②——分类筛选 aria-live 状态行（R10 已设 rs-status，本轮补 aria-live）；资源↔公司档案/事件互链（companies 面板与 company-files 加「相关社区资源」行）；首页资料入口；检索命中（含类型筛选）；质量节点②验收=资源页全流程探针（筛选/清除/跳转/双语/无 JS/390/file://）≥15 断言 + 外链抽样 10 条核活 + verify 9/9。
