@@ -309,6 +309,29 @@ a { color: inherit; }
 .btn-ghost { border: 1px solid rgba(243, 240, 232, 0.55); color: var(--paper); }
 .btn-ghost:hover { background: var(--paper); color: var(--coal); border-color: var(--paper); }
 
+/* R16 v9.6.0 三入口：编号入口条（01/02/03 + 箭头；data-en 落在 .act-txt 叶子上，编号与箭头语言无关） */
+.act {
+  display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 700;
+  font-size: var(--fs-body-sm); letter-spacing: 0.08em;
+  padding: 13px 20px 13px 16px;
+  border: 1px solid rgba(243, 240, 232, 0.55); color: var(--paper);
+  transition: transform var(--t-fast), background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+}
+.act .act-no {
+  font-family: var(--serif); font-style: italic; font-weight: 400;
+  font-size: var(--fs-label); letter-spacing: 0.06em; color: var(--txd-cool);
+  border-right: 1px solid var(--hairline-paper); padding-right: 12px;
+}
+.act .act-arr { margin-left: 2px; transition: transform var(--t-fast); }
+.act:hover { transform: translateY(-2px); background: var(--paper); color: var(--coal); border-color: var(--paper); }
+.act:hover .act-no { color: var(--accent-text); border-right-color: var(--hairline); }
+.act:hover .act-arr { transform: translateX(4px); }
+.act:focus-visible { outline: var(--focus-w) solid var(--focus-color); outline-offset: var(--focus-offset); }
+.act-primary { background: var(--accent); color: var(--on-hue); border-color: var(--accent); }
+.act-primary .act-no { color: var(--paper-0); border-right-color: var(--accent-bright); }
+.act-primary:hover { background: var(--accent-text); color: var(--on-hue); border-color: var(--accent-text); }
+.act-primary:hover .act-no { color: var(--paper-0); border-right-color: var(--accent-bright); }
+
 .hero { background: var(--coal); color: var(--paper); padding-bottom: clamp(40px, 6vw, 72px); }
 /* 海报式构图：标题通栏一行，下行左侧定位+入口、右侧肖像 */
 .hero-head { padding-top: clamp(44px, 7vw, 92px); }
@@ -339,7 +362,18 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
   color: var(--mist); max-width: 560px;
 }
 .hero-actions { margin-top: 30px; display: flex; gap: 14px; flex-wrap: wrap; }
-.hero-figure { margin: 0; width: 100%; }
+.hero-figure { margin: 0; width: 100%; position: relative; }
+/* R16：报头封面照处理——内衬细线双框 + 左上角封面标 */
+.hero-figure::before {
+  content: ""; position: absolute; inset: 10px; z-index: 1; pointer-events: none;
+  border: 1px solid var(--hairline-paper);
+}
+.cover-tag {
+  position: absolute; top: 0; left: 0; z-index: 2;
+  background: var(--accent); color: var(--on-hue);
+  font-size: var(--fs-2xs); font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 6px 12px 6px 14px;
+}
 .hero-figure img {
   width: 100%; height: auto; display: block;
   border: 1px solid var(--hairline-paper);
@@ -349,25 +383,31 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
 .hero-figure figcaption { margin-top: 18px; font-size: var(--fs-xs); color: var(--mist); letter-spacing: 0.06em; }
 
 /* 封面关键数字：.deal-lines 亮色默认的暗底覆盖（提高特异性，免受源码顺序影响；changelog.html 亮色用法不受影响） */
-.deal-lines.hero-stats { margin-top: clamp(36px, 6vw, 64px); border-top: 1px solid rgba(243, 240, 232, 0.4); }
+/* R16：分隔线自 1px/40% 提至 2px/55%，数字提亮一档（--paper-0），封面数据行的「刊头感」更强 */
+.deal-lines.hero-stats { margin-top: clamp(36px, 6vw, 64px); border-top: 2px solid rgba(243, 240, 232, 0.55); }
 .deal-lines.hero-stats dt { color: var(--mist); }
-.deal-lines.hero-stats dd { color: var(--paper); }
+.deal-lines.hero-stats dd { color: var(--paper-0); }
 .deal-lines.hero-stats dd small { color: var(--mist); }
 .deal-lines.hero-stats > div { border-right-color: rgba(243, 240, 232, 0.16); border-bottom-color: rgba(243, 240, 232, 0.16); }
 
 /* 业务画面横带 */
 .hero-strip { margin-top: clamp(28px, 4vw, 44px); display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-.hero-strip figure { margin: 0; min-width: 0; }
+.hero-strip figure { margin: 0; min-width: 0; position: relative; }
 .hero-strip img {
   width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;
   border: 1px solid rgba(243, 240, 232, 0.2);
   filter: grayscale(15%);
+  transition: transform var(--t-fast), border-color var(--t-fast);
 }
+.hero-strip figure:hover img { transform: translateY(-3px); border-color: var(--accent-bright); }
 .hero-strip figure:nth-child(2) img { object-position: center 74%; }
 .hero-strip figcaption { margin-top: 8px; font-size: var(--fs-micro); line-height: 1.6; color: var(--mist); letter-spacing: 0.04em; }
+/* R16：公司标从图下说明移至图片左上角叠加（图版编号式角标） */
 .hero-strip .strip-tag {
-  display: block; color: var(--accent-bright);
+  position: absolute; top: 0; left: 0; z-index: 2;
+  background: var(--coal-200); color: var(--accent-bright);
   font-weight: 700; letter-spacing: 0.22em; font-size: var(--fs-2xs);
+  padding: 5px 10px;
 }
 .hero-strip small { display: block; color: rgba(243, 240, 232, 0.55); }
 
@@ -382,7 +422,7 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
   .hero-body { margin-top: 24px; gap: 26px; }
   .hero-title { font-size: var(--fs-hero-m); line-height: 1.12; }
   html[lang="en"] .hero-title { font-size: clamp(36px, 10.4vw, 44px); }
-  .hero-actions .btn { flex: 1 1 auto; text-align: center; }
+  .hero-actions .act { flex: 1 1 auto; }
   .hero-figure img { box-shadow: var(--shadow-accent); }
   .hero-strip { display: flex; overflow-x: auto; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; gap: 12px; padding-bottom: 8px; }
   .hero-strip figure { flex: 0 0 236px; scroll-snap-align: start; }
@@ -395,6 +435,13 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
   .hero-strip, .hero-actions { display: none; }
   .hero-stats { border-top-color: #999; }
   .hero-stats dd { color: var(--ink); }
+  .cover-tag { background: #000; color: #fff; }
+}
+
+/* R16 v9.6.0：本轮新增微动效的 reduced-motion 全覆盖 */
+@media (prefers-reduced-motion: reduce) {
+  .act, .act .act-arr, .hero-strip img, .firm-tile, .feature-row, .path-row { transition: none !important; }
+  .act:hover, .act:hover .act-arr, .hero-strip figure:hover img, .firm-tile:hover { transform: none !important; }
 }
 
 /* 成交行（关键数字） */
@@ -1142,7 +1189,8 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   border-bottom: 1px solid var(--hairline);
 }
 .path-no { font-family: var(--serif); font-style: italic; font-size: var(--fs-48); line-height: 1; color: var(--accent); }
-.path-row h3 { font-family: var(--serif); font-size: var(--fs-22); letter-spacing: 0.03em; margin-bottom: 6px; }
+.path-row h3 { font-family: var(--serif); font-size: var(--fs-22); letter-spacing: 0.03em; margin-bottom: 6px; transition: color var(--t-fast); }
+.path-row:hover h3 { color: var(--accent-text); }
 .path-desc { font-size: var(--fs-14-5); color: var(--muted); line-height: 1.8; margin-bottom: 10px; }
 .path-links { font-size: var(--fs-label); }
 .path-links a { color: var(--accent-text); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px; }
@@ -1156,7 +1204,8 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
 }
 
 /* 公司版图（可点击总览；顶条用 R7 公司色标，见 :root --co-*） */
-.firm-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+/* R16：6 等大瓦片 → 2 特大（Tesla/SpaceX，各跨 2 列）+ 4 标准，打破等尺寸卡片感 */
+.firm-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .firm-tile {
   display: flex; flex-direction: column; gap: 5px; text-decoration: none; color: var(--ink);
   background: var(--paper); border: 1px solid var(--hairline); border-top: 3px solid var(--ink);
@@ -1164,6 +1213,10 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   transition: transform var(--t-fast), box-shadow var(--t-fast), border-top-color var(--t-fast);
 }
 .firm-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-1); border-top-color: var(--accent); }
+.firm-grid .firm-tile--xl { grid-column: span 2; padding: 26px 24px 20px; gap: 8px; }
+.firm-grid .firm-tile--xl h3 { font-size: var(--fs-26); }
+.firm-grid .firm-tile--xl .firm-idx { font-size: var(--fs-2xs); }
+.firm-grid .firm-tile--xl .firm-desc { font-size: var(--fs-14-5); max-width: 58ch; }
 .firm-idx { font-size: var(--fs-nano); letter-spacing: 0.22em; color: var(--accent-text); font-weight: 700; }
 .firm-tile h3 { font-family: var(--serif); font-size: var(--fs-20); letter-spacing: 0.02em; }
 .firm-meta { font-size: var(--fs-xs); letter-spacing: 0.06em; color: var(--muted); }
@@ -1179,8 +1232,8 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
 .firm-tile--xai { border-top-color: var(--co-xai); }
 .firm-tile--neuralink { border-top-color: var(--co-neuralink); }
 .firm-tile--boring { border-top-color: var(--co-boring); }
-@media (max-width: 900px) { .firm-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 600px) { .firm-grid { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .firm-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .firm-tile--xl { padding: 22px 20px 16px; } }
+@media (max-width: 600px) { .firm-grid { grid-template-columns: 1fr; } .firm-tile--xl { padding: 20px 18px 16px; } }
 
 /* 旗舰专题（主推 + 次级列表） */
 .feature-lead {
@@ -1210,7 +1263,11 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   display: grid; grid-template-columns: 130px minmax(0, 1fr) auto;
   gap: var(--space-4); align-items: center; padding: 16px 0;
   border-bottom: 1px solid var(--hairline); text-decoration: none; color: var(--ink);
+  transition: background var(--t-fast);
 }
+/* R16：前三条 FEATURE 行加朱红左标线，与后四条 DEEP DIVE 行拉开层级；全行 hover 微底色 */
+.feature-row:nth-child(-n+3) { border-left: 3px solid var(--accent); padding-left: 16px; }
+.feature-row:hover { background: var(--paper-50); }
 .feature-row .fk { font-size: var(--fs-nano); letter-spacing: 0.2em; color: var(--accent-text); font-weight: 700; }
 .feature-row h3 { font-family: var(--serif); font-size: var(--fs-19); letter-spacing: 0.02em; margin-bottom: 2px; transition: color var(--t-fast); }
 .feature-row p { font-size: var(--fs-note); color: var(--muted); line-height: 1.7; }

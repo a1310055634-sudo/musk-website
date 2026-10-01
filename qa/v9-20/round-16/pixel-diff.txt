@@ -1,0 +1,12 @@
+file                         size               diffPx%     mean   maxD band
+index-desktop-zh.png         1440x6231(裁齐)       11.77%   10.122    708 段5(21%)
+index-desktop-en.png         1440x6534(裁齐)       11.03%    9.742    708 段1(19%)
+index-tablet-zh.png          768x7496(裁齐)        25.67%   18.460    745 段1(17%)
+index-tablet-en.png          768x8257(裁齐)        28.13%   23.422    762 段1(21%)
+index-mobile-zh.png          390x8976(裁齐)        26.42%   23.880    765 段1(19%)
+index-mobile-en.png          390x11323(裁齐)       18.88%   14.851    741 段1(16%)
+
+变化像素占比：min 11.03% / 中位 22.28% / max 28.13%（6 张）
+saved qa/v9-20/round-16\compare\cmp-firstscreen-desktop-zh.png (2904x946)
+saved qa/v9-20/round-16\compare\cmp-firstscreen-tablet-zh.png (1560x946)
+saved qa/v9-20/round-16\compare\cmp-firstscreen-mobile-zh.png (804x946)
