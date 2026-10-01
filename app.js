@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '9.3.0';
+  var SITE_VERSION = '9.4.0';
 
   /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
   document.documentElement.classList.add('js');
@@ -415,6 +415,15 @@
         h += '<p class="net-d-sec">' + (document.documentElement.lang === 'en' ? 'RELATED EVENTS' : '相关事件') + '</p><div class="net-d-links">';
         c.events.forEach(function (e) {
           h += '<a href="events.html#' + netEsc(e.id) + '">' + netEsc(e.date) + ' · ' + netEsc(netT(e.title)) + ' →</a>';
+        });
+        h += '</div>';
+      }
+      /* V9-20 R14：相关社区资源（数据出口 = companies-data.js 的 resources 字段，
+         由 build-company-files.py 从 resources-data.py 交叉引用后写出） */
+      if (c.resources && c.resources.length) {
+        h += '<p class="net-d-sec">' + (document.documentElement.lang === 'en' ? 'COMMUNITY RESOURCES (' + c.resources.length + ')' : '相关社区资源（' + c.resources.length + '）') + '</p><div class="net-d-links">';
+        c.resources.forEach(function (r) {
+          h += '<a href="resources.html#r-' + netEsc(r.id) + '">' + netEsc(netT(r.name)) + ' →</a>';
         });
         h += '</div>';
       }

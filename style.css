@@ -1440,6 +1440,14 @@ html[lang="en"] .lr-hero h1 { font-size: clamp(26px, 3.6vw, 42px); line-height: 
 .cf-ev, .cf-rel a { font-size: 13px; color: var(--accent-text); text-decoration: none; border: 1px solid var(--hairline); background: var(--card); padding: 5px 12px; line-height: 1.5; transition: border-color var(--t-fast); }
 .cf-ev b { font-family: var(--serif); margin-right: 6px; }
 .cf-ev:hover, .cf-rel a:hover { border-color: var(--accent); color: var(--accent); }
+/* V9-20 R14：公司档案「相关社区资源」行（resources-data.py 交叉引用） */
+.cf-resl { display: grid; gap: 8px; margin-top: 4px; }
+.cf-res { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; font-size: 13px; line-height: 1.6; color: var(--accent-text); text-decoration: none; border: 1px solid var(--hairline); background: var(--card); padding: 7px 12px; transition: border-color var(--t-fast); }
+.cf-res:hover { border-color: var(--accent); }
+.cf-res b { font-family: var(--serif); font-weight: 600; }
+.cf-rescat { font-size: 10.5px; letter-spacing: .06em; color: var(--muted); border: 1px solid var(--hairline); border-radius: 2px; padding: 1px 6px; }
+.cf-resnote { font-size: 12px; color: var(--muted); margin: 8px 0 0; line-height: 1.7; }
+.cf-resnote a { color: var(--accent-text); text-decoration: none; border-bottom: 1px dotted rgba(200, 64, 50, 0.45); }
 /* 简介区（六家） */
 .cf-brief { border-top: 1px dotted rgba(23, 25, 29, 0.2); padding: 16px 0 14px; }
 .cf-brief-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }

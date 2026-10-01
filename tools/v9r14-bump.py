@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""V9-20 R13 版本三件套：VERSION / app.js SITE_VERSION / 全站 site-version-val span。"""
+"""V9-20 R14 版本三件套：VERSION / app.js SITE_VERSION / 全站 site-version-val span。"""
 import glob, io, re, sys
 
 OLD, NEW = '9.3.0', '9.4.0'

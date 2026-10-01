@@ -1,5 +1,5 @@
-// 公司关系与档案结构化数据（V7-19 R7/R8）· 由 tools/build-company-files.py 自动生成，勿手改
-// 数据源：tools/companies-data.py + tools/company-files-data.py · file:// 下以 <script src> 加载（fetch 会被 CORS 拦）
+// 公司关系与档案结构化数据（V7-19 R7/R8；R14 增 resources 字段）· 由 tools/build-company-files.py 自动生成，勿手改
+// 数据源：tools/companies-data.py + tools/company-files-data.py + tools/resources-data.py · file:// 下以 <script src> 加载（fetch 会被 CORS 拦）
 window.COMPANIES_V7 = {
  "plan": "V7-19 R7",
  "companies": [
@@ -108,6 +108,50 @@ window.COMPANIES_V7 = {
       "en": "From Autonomy Day to Optimus — a running bet with a ten-year clock"
      }
     }
+   ],
+   "resources": [
+    {
+     "id": "sec-edgar-tesla",
+     "name": {
+      "zh": "SEC EDGAR · Tesla 上市公司文件",
+      "en": "SEC EDGAR — Tesla filings"
+     }
+    },
+    {
+     "id": "tesla-fleet-api",
+     "name": {
+      "zh": "Tesla 官方开发者门户 · Fleet API",
+      "en": "Tesla (official) — Developer / Fleet API"
+     }
+    },
+    {
+     "id": "tesla-vehicle-command",
+     "name": {
+      "zh": "Tesla 官方开源 · vehicle-command",
+      "en": "Tesla (official) — vehicle-command"
+     }
+    },
+    {
+     "id": "powerwall2-local-api",
+     "name": {
+      "zh": "Powerwall 2 本地网关 API 文档",
+      "en": "Powerwall 2 local gateway API documentation"
+     }
+    },
+    {
+     "id": "tdorssers-teslapy",
+     "name": {
+      "zh": "TeslaPy · Python Tesla API 客户端",
+      "en": "TeslaPy — Python Tesla API client"
+     }
+    },
+    {
+     "id": "tesla-api-io",
+     "name": {
+      "zh": "tesla-api.io · Tesla API 社区文档",
+      "en": "tesla-api.io — community Tesla API docs"
+     }
+    }
    ]
   },
   {
@@ -182,6 +226,50 @@ window.COMPANIES_V7 = {
       "en": "\"No way to sugarcoat this\" — the Raptor crisis and Starship's comeback"
      }
     }
+   ],
+   "resources": [
+    {
+     "id": "spacex-falcon9",
+     "name": {
+      "zh": "SpaceX 官网 · Falcon 9 猎鹰九号",
+      "en": "SpaceX (official) — Falcon 9"
+     }
+    },
+    {
+     "id": "spacex-starship",
+     "name": {
+      "zh": "SpaceX 官网 · Starship 星舰",
+      "en": "SpaceX (official) — Starship"
+     }
+    },
+    {
+     "id": "spacex-updates",
+     "name": {
+      "zh": "SpaceX 官网 · Updates 官方更新",
+      "en": "SpaceX (official) — Updates"
+     }
+    },
+    {
+     "id": "r-spacex-api",
+     "name": {
+      "zh": "r-spacex/SpaceX-API · 社区发射数据 REST API",
+      "en": "r-spacex/SpaceX-API — community launch data API"
+     }
+    },
+    {
+     "id": "starlink-grpc-tools",
+     "name": {
+      "zh": "sparky8512/starlink-grpc-tools · 星链终端遥测",
+      "en": "sparky8512/starlink-grpc-tools — Starlink dish telemetry"
+     }
+    },
+    {
+     "id": "r-spacex-wiki",
+     "name": {
+      "zh": "r/SpaceX 社区维基",
+      "en": "r/SpaceX community wiki"
+     }
+    }
    ]
   },
   {
@@ -224,6 +312,15 @@ window.COMPANIES_V7 = {
       "en": "xAI acquires X — the feed and the model become one"
      }
     }
+   ],
+   "resources": [
+    {
+     "id": "wikipedia-twitter-acquisition",
+     "name": {
+      "zh": "维基百科 · 马斯克收购推特",
+      "en": "Wikipedia — Acquisition of Twitter by Elon Musk"
+     }
+    }
    ]
   },
   {
@@ -256,6 +353,29 @@ window.COMPANIES_V7 = {
      "title": {
       "zh": "xAI 收购 X——信息流与模型合并成一家",
       "en": "xAI acquires X — the feed and the model become one"
+     }
+    }
+   ],
+   "resources": [
+    {
+     "id": "xai-official",
+     "name": {
+      "zh": "xAI 官网",
+      "en": "xAI (official)"
+     }
+    },
+    {
+     "id": "grok-1",
+     "name": {
+      "zh": "xAI 官方开源 · Grok-1 权重",
+      "en": "xAI (official) — Grok-1 weights"
+     }
+    },
+    {
+     "id": "wikipedia-grok",
+     "name": {
+      "zh": "维基百科 · Grok（聊天机器人）",
+      "en": "Wikipedia — Grok (chatbot)"
      }
     }
    ]

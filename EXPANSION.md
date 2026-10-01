@@ -1,5 +1,13 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **R14 资源交互与联动 · 质量节点②（2026-10-01，资源板块从「有」到「通」，无新增条目仍 36 条/索引 318）**：本轮不采料，把 R10–R13 已入册的 36 条资源接进站内导航网络，并通过质量节点②全流程验收。
+> - **互链架构（单一事实来源驱动，无内容复制）**：resources-data.py 新增 `resources_for_company()` 接口 → build-company-files.py 交叉引用，为 Tesla/SpaceX/X/xAI 4 份公司档案各加「相关社区资源」节（共 16 条深链，category 序稳定、每公司 ≤6、综合类不参与）；companies-data.js 增 `resources` 字段 → app.js 公司关系图详情面板同步显示。**外链仍为静态 href，资源页本体 file:// 离线可读，未破坏纪律 B 的「外链不构成运行时依赖」。**
+> - **可访问性**：`#rs-status` 加 `role="status" aria-live="polite"`（分类切换读屏即时播报）。
+> - **首页入口**：index.html「查找资料」第三入口改指 resources.html（原为文档馆，文档馆仍在资料导航组内）。
+> - **质量节点②验收**：CDP 探针 **30/30**（筛选/清除/跳转闭环/双语/无 JS/390/file:// 八流程全覆盖）；**外链抽样 10 条核活 10/10 可达**（官方 2/开源 2/社区 3/工具 3，SEC 依合规 UA 口径 200）；verify 9/9。
+> - **架构记录**：公司「档案 id → 词表实体名」映射集中在 build-company-files.py 的 `COMPANY_TO_VOCAB`，后续若新增公司档案（如已收的 Neuralink/Boring/OpenAI 若从 brief 升为完整档案）只需在此表加一行即接通互链——留作后续轮次候选。
+> - **R15 预告**：设计系统升级（style.css :root tokens 区，四页样板 index+survival-2008+timeline+capital-evolution；本轮 rs-*/cf-res* 新组件将一并纳入 tokens 审计）。
+
 > **R13 社区与档案资源 + 元数据补全（2026-10-01 建档 +12 条，community 3→11/opensource 6→9/tools 5→6，资源 24→36，索引 306→318）**：Wikipedia 条目群 8 条（Elon Musk / SpaceX / Tesla, Inc. / Starship / Acquisition of Twitter by Elon Musk / List of SpaceX launches / Grok (chatbot) / Neuralink，全部以「公共参照系·二手」口径收录且卡内注明）/ Tesla JSON API 非官方文档（tesla-api.timdorr.com，与 timdorr 仓库成对）/ TeslaPy（417★ MIT 2026-07 活跃）/ Powerwall 2 本地网关 API 文档（290★ Apache-2.0 2024-10 停更）/ Jonathan McDowell 太空档案（planet4589.org，独立学者口径）。**R11–R13 合计 +26 条**（计划软目标 +30~50 区间下沿略低，原因见下）。
 > - **【重要重验】R10「en.wikipedia.org DNS 污染不可达」判定证伪**：R10 留档记解析被污染至 31.13.88.26、与本机 DNS 对 .io 域名的污染前科并列为「本机不可核活」；本轮实测直连 **200 且内容为真**——Elon_Musk 页 2.68 MB / title 正确 / 正文 525 处命中，SpaceX 1.53 MB，Twitter 页正常 301 至 X (social network) 2.08 MB。curl `%{remote_ip}` 返回 127.0.0.1（本机存在代理/hosts 接管路径），故当轮污染判断已被环境变化推翻。**结论：Wikipedia 全域条目本机可直连核活，8 条全部入册**；卡内 note 如实记载判定全过程与所载 http 口径。教训：本机 DNS 判定结论有时效性，需定期重验（与 R12 tesla-api.io 证伪同类）。
 > - **Reddit 社区档案「假活」甄别（宁缺毋滥，本轮不收）**：www/old.reddit.com 的 r/teslamotors 与 r/SpaceXLounge wiki **直连返回 200 但响应体仅 8.4 KB JS 空壳**（`<title>Reddit</title>`，正文 0 字符），WebFetch 服务端复验同为空壳，`…/wiki/index.json` API 返回 403。不满足纪律 B「内容到手」门槛，**本轮不收**（R12 收 r/SpaceX wiki 的前提是服务端读取器 200 且正文到手，本轮服务端路径对两站亦为空壳）。重验条件=服务端读取器能取得 wiki 正文，或 Reddit 放开 JSON API。

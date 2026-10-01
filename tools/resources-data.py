@@ -838,6 +838,21 @@ ACTIVITY_ENUM = ("维护中", "停更", "存档")
 LANG_ENUM = ("en", "zh", "zh/en")
 
 
+def resources_for_company(company_name, limit=6):
+    """V9-20 R14：资源↔公司档案/事件互链的单一事实来源查询。
+
+    按 companies 字段匹配公司实体名（与 build-company-files.py 的 file name 对齐，
+    调用方负责「Tesla, Inc.」「X（原推特）」等别名到词表的映射）。返回按
+    category 顺序（official→opensource→community→tools）稳定排序的条目列表；
+    「综合」条目（跨公司/无单一归属）不参与匹配，避免每家公司都挂同一批泛条。
+    """
+    order = {cid: i for i, cid in enumerate(CATEGORIES)}
+    hits = [r for r in RESOURCES
+            if company_name in (r.get("companies") or []) and company_name != "综合"]
+    hits.sort(key=lambda r: (order.get(r.get("category"), 99), r.get("id", "")))
+    return hits[:limit] if limit else hits
+
+
 def validate():
     """返回问题列表；空列表 = 通过。任何问题都应让生成器拒绝产出。"""
     problems = []

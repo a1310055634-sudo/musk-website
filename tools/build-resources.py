@@ -170,7 +170,7 @@ PAGE = f"""<!DOCTYPE html>
         <div class="rs-chipbar" role="group" aria-label="按分类筛选资源">
 {chips_html}
         </div>
-        <p class="rs-status" id="rs-status" data-en="Showing all {len(RD.RESOURCES)} resources · {len(RD.CATEGORIES)} categories · filtering needs JavaScript; without it the full list below is complete.">显示全部 {len(RD.RESOURCES)} 条资源 · {len(RD.CATEGORIES)} 类 · 筛选需脚本支持；无脚本环境下方清单即完整信息。</p>
+        <p class="rs-status" id="rs-status" role="status" aria-live="polite" data-en="Showing all {len(RD.RESOURCES)} resources · {len(RD.CATEGORIES)} categories · filtering needs JavaScript; without it the full list below is complete.">显示全部 {len(RD.RESOURCES)} 条资源 · {len(RD.CATEGORIES)} 类 · 筛选需脚本支持；无脚本环境下方清单即完整信息。</p>
 {chr(10).join(cat_sections)}
         <p class="lr-foot" data-en="Filed by tools/build-resources.py from tools/resources-data.py — the single source of truth. Live checks were run from the build machine on the date each entry records; regional blocking may differ. External links are independent third-party resources, listed not endorsed.">本页由 tools/build-resources.py 从单一事实来源 tools/resources-data.py 生成。核活在生成机于各条注明日期实测，地区性屏蔽可能造成差异；外链均为独立第三方资源，收录不构成背书。第一手引语的核对入口见 <a href="primary.html">言行账本</a> 与 <a href="search.html">第一手检索</a>。</p>
       </div>

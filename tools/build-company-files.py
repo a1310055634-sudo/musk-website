@@ -39,6 +39,15 @@ FD = load_module("company-files-data.py", "company_files_data")
 CD = load_module("companies-data.py", "companies_data")
 NW = load_module("build-network.py", "build_network")
 NAV = load_module("site-nav.py", "site_nav")
+RD = load_module("resources-data.py", "resources_data")  # V9-20 R14：相关社区资源交叉引用
+
+# V9-20 R14：档案 id → resources-data.py 的 companies 实体词表名（互链用单一映射）
+COMPANY_TO_VOCAB = {
+    "tesla": "Tesla",
+    "spacex": "SpaceX",
+    "x": "X / Twitter",
+    "xai": "xAI",
+}
 
 VERSION = io.open("VERSION", encoding="utf-8").read().strip()
 
@@ -175,8 +184,24 @@ def render_file(f):
     rel = (f'      <div class="cf-sec"><h3 class="cf-label" data-en="Further reading on this site">站内延伸阅读</h3>\n'
            f'        <div class="cf-rel">{rel_links}\n        </div></div>')
 
+    # V9-20 R14：相关社区资源（单一事实来源 = resources-data.py，按公司实体交叉引用）
+    co_vocab = COMPANY_TO_VOCAB.get(f["id"])
+    res_html = ""
+    if co_vocab:
+        res_hits = RD.resources_for_company(co_vocab, limit=6)
+        if res_hits:
+            ritems = "".join(
+                f'\n          <a class="cf-res" href="resources.html#r-{esc(r["id"])}" data-en="{attr_en(r["desc"])}">'
+                f'<b>{esc(t(r["name"], "zh"))}</b>'
+                f'<span class="cf-rescat" data-en="{attr_en(RD.CATEGORIES[r["category"]])}">{esc(RD.CATEGORIES[r["category"]]["zh"])}</span></a>'
+                for r in res_hits)
+            res_html = (f'      <div class="cf-sec"><h3 class="cf-label" data-en="Related community resources">相关社区资源</h3>\n'
+                        f'        <div class="cf-resl">{ritems}\n        </div>'
+                        f'<p class="cf-resnote" data-en="External third-party resources from the resources page — listed, not endorsed.">'
+                        f'来自<a href="resources.html">资源页</a>的第三方外链，收录不构成背书。</p></div>')
+
     return (f'    <section class="cf-file lr-sec" id="{f["slug"]}">\n' + head + "\n" + fig + "\n"
-            + pos + "\n" + ms + "\n" + fin + "\n" + rk + "\n" + ev_html + "\n" + rel + "\n    </section>")
+            + pos + "\n" + ms + "\n" + fin + "\n" + rk + "\n" + ev_html + "\n" + res_html + "\n" + rel + "\n    </section>")
 
 
 def render_brief(b):
@@ -285,9 +310,21 @@ io.open("company-files.html", "w", encoding="utf-8", newline="\n").write(PAGE)
 
 # ---------------- companies-data.js（自 R8 起由本生成器接手写出） ----------------
 # COMPANIES_V7 与 R7 格式逐字节一致（复用 build-network.build_js_data()，app.js 交互依赖该结构）
-js = ("// 公司关系与档案结构化数据（V7-19 R7/R8）· 由 tools/build-company-files.py 自动生成，勿手改\n"
-      "// 数据源：tools/companies-data.py + tools/company-files-data.py · file:// 下以 <script src> 加载（fetch 会被 CORS 拦）\n"
-      "window.COMPANIES_V7 = " + json.dumps(NW.build_js_data(), ensure_ascii=False, indent=1) + ";\n"
+NET_DATA = NW.build_js_data()
+
+# V9-20 R14：为公司节点注入相关社区资源（供 app.js companies 面板「相关社区资源」行；
+# 交叉引用 resources-data.py 单一事实来源，无匹配则不写该字段）。
+for _c in NET_DATA["companies"]:
+    _vocab = COMPANY_TO_VOCAB.get(_c["id"])
+    if not _vocab:
+        continue
+    _hits = RD.resources_for_company(_vocab, limit=6)
+    if _hits:
+        _c["resources"] = [{"id": r["id"], "name": r["name"]} for r in _hits]
+
+js = ("// 公司关系与档案结构化数据（V7-19 R7/R8；R14 增 resources 字段）· 由 tools/build-company-files.py 自动生成，勿手改\n"
+      "// 数据源：tools/companies-data.py + tools/company-files-data.py + tools/resources-data.py · file:// 下以 <script src> 加载（fetch 会被 CORS 拦）\n"
+      "window.COMPANIES_V7 = " + json.dumps(NET_DATA, ensure_ascii=False, indent=1) + ";\n"
       "window.FILES_V7 = " + json.dumps(
           {"files": FD.FILES, "briefs": FD.BRIEFS, "finKinds": FD.FIN_KINDS},
           ensure_ascii=False, indent=1) + ";\n")
