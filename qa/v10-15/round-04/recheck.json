@@ -1,0 +1,286 @@
+[
+ {
+  "id": "sec-edgar-tesla",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-K&dateb=&owner=include&count=40",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "tesla-vehicle-command",
+  "url": "https://github.com/teslamotors/vehicle-command",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 706,
+   "pushed": "2026-09",
+   "archived": false
+  }
+ },
+ {
+  "id": "spacex-starship",
+  "url": "https://www.spacex.com/vehicles/starship/",
+  "n01_http": null,
+  "n01_verdict": "restricted",
+  "gh": null
+ },
+ {
+  "id": "spacex-falcon9",
+  "url": "https://www.spacex.com/vehicles/falcon-9/",
+  "n01_http": null,
+  "n01_verdict": "restricted",
+  "gh": null
+ },
+ {
+  "id": "spacex-updates",
+  "url": "https://www.spacex.com/updates/",
+  "n01_http": null,
+  "n01_verdict": "restricted",
+  "gh": null
+ },
+ {
+  "id": "tesla-fleet-api",
+  "url": "https://developer.tesla.com/",
+  "n01_http": null,
+  "n01_verdict": "restricted",
+  "gh": null
+ },
+ {
+  "id": "neuralink-registry",
+  "url": "https://neuralink.com/patient-registry/",
+  "n01_http": 308,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "openai-2015",
+  "url": "https://openai.com/blog/introducing-openai/",
+  "n01_http": 403,
+  "n01_verdict": "dead",
+  "gh": null
+ },
+ {
+  "id": "xai-official",
+  "url": "https://x.ai/",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "boringcompany-official",
+  "url": "https://www.boringcompany.com/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "teslamate",
+  "url": "https://github.com/teslamate-org/teslamate",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 9065,
+   "pushed": "2026-10",
+   "archived": false
+  }
+ },
+ {
+  "id": "grok-1",
+  "url": "https://github.com/xai-org/grok-1",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 52233,
+   "pushed": "2024-08",
+   "archived": false
+  }
+ },
+ {
+  "id": "tesla-api-io",
+  "url": "https://tesla-api.io/",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "timdorr-tesla-api",
+  "url": "https://github.com/timdorr/tesla-api",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 2065,
+   "pushed": "2026-03",
+   "archived": false
+  }
+ },
+ {
+  "id": "r-spacex-api",
+  "url": "https://github.com/r-spacex/SpaceX-API",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 10913,
+   "pushed": "2024-08",
+   "archived": true
+  }
+ },
+ {
+  "id": "starlink-grpc-tools",
+  "url": "https://github.com/sparky8512/starlink-grpc-tools",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 710,
+   "pushed": "2026-09",
+   "archived": false
+  }
+ },
+ {
+  "id": "elonmuskarchive",
+  "url": "https://elonmuskarchive.org/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "wbw-neuralink",
+  "url": "https://waitbutwhy.com/2017/04/neuralink.html",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "r-spacex-wiki",
+  "url": "https://old.reddit.com/r/spacex/wiki/index",
+  "n01_http": null,
+  "n01_verdict": "restricted",
+  "gh": null
+ },
+ {
+  "id": "flight-club",
+  "url": "https://www.flightclub.io/",
+  "n01_http": 308,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "next-spaceflight",
+  "url": "https://nextspaceflight.com/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "launch-library-2",
+  "url": "https://thespacedevs.com/llapi",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "starlink-sx",
+  "url": "https://starlink.sx/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "tessie",
+  "url": "https://www.tessie.com/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-elon-musk",
+  "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-spacex",
+  "url": "https://en.wikipedia.org/wiki/SpaceX",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-tesla",
+  "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+  "n01_http": null,
+  "n01_verdict": "no-n01",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-starship",
+  "url": "https://en.wikipedia.org/wiki/Starship",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-twitter-acquisition",
+  "url": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-spacex-launches",
+  "url": "https://en.wikipedia.org/wiki/List_of_SpaceX_launches",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-grok",
+  "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+  "n01_http": null,
+  "n01_verdict": "no-n01",
+  "gh": null
+ },
+ {
+  "id": "wikipedia-neuralink",
+  "url": "https://en.wikipedia.org/wiki/Neuralink",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": null
+ },
+ {
+  "id": "tesla-json-api-docs",
+  "url": "https://tesla-api.timdorr.com/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ },
+ {
+  "id": "tdorssers-teslapy",
+  "url": "https://github.com/tdorssers/TeslaPy",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 417,
+   "pushed": "2026-07",
+   "archived": false
+  }
+ },
+ {
+  "id": "powerwall2-local-api",
+  "url": "https://github.com/vloschiavo/powerwall2",
+  "n01_http": 0,
+  "n01_verdict": "unreachable",
+  "gh": {
+   "stars": 290,
+   "pushed": "2024-10",
+   "archived": false
+  }
+ },
+ {
+  "id": "planet4589-space",
+  "url": "https://planet4589.org/space/",
+  "n01_http": 200,
+  "n01_verdict": "alive",
+  "gh": null
+ }
+]

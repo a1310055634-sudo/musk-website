@@ -56,7 +56,7 @@ RESOURCES = [
             "en": "Where this site anchors its filing quotes; the first stop for verifying the company side of any claim.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "SEC 公平访问政策要求脚本访问申报含联系邮箱的 User-Agent 并限速（约 10 次/秒）。",
@@ -80,9 +80,9 @@ RESOURCES = [
             "en": "Official code is the authoritative caliber: the protocol source the whole third-party Tesla API ecosystem builds on.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
-        "gh": {"stars": 705, "pushed": "2026-09"},
+        "gh": {"stars": 706, "pushed": "2026-09"},
     },
     {
         "id": "spacex-starship",
@@ -101,7 +101,7 @@ RESOURCES = [
             "en": "The official-caliber page for Starship — the spec and progress reference for this site's Starship narrative.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
@@ -125,7 +125,7 @@ RESOURCES = [
             "en": "The official data caliber for reusability economics — cross-checked against this site's launch timeline.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
@@ -149,7 +149,7 @@ RESOURCES = [
             "en": "First-party mission status straight from the company — the antidote to secondhand retellings.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
@@ -173,7 +173,7 @@ RESOURCES = [
             "en": "The official protocol documentation behind the third-party Tesla API ecosystem — the counterpart of the vehicle-command library.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "本机直连被反爬拦截（curl 403），经服务端读取器核活 200（2026-10-01）。",
@@ -197,7 +197,7 @@ RESOURCES = [
             "en": "The official first-party channel since the first human implant — clinical progress per the company's own page.",
         },
         "companies": ["Neuralink"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "本机直连连接被重置（curl/WebFetch 均失败），经服务端读取器核活 200（2026-10-01）。",
@@ -221,7 +221,7 @@ RESOURCES = [
             "en": "The founding document of Musk's AI arc — co-chair at creation, before his 2018 exit from the board.",
         },
         "companies": ["OpenAI"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "「停更」指这篇 2015 官宣文为历史定稿，非 OpenAI 博客停运；本机直连被反爬拦截（curl/WebFetch 403），经服务端读取器核活 200（2026-10-01）。",
@@ -245,7 +245,7 @@ RESOURCES = [
             "en": "The official-caliber page for Grok/xAI product and mission statements.",
         },
         "companies": ["xAI"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "本机直连超时（curl 连接无响应），经服务端读取器核活 200（2026-10-01）。",
@@ -269,7 +269,7 @@ RESOURCES = [
             "en": "The official caliber for the tunnel ventures, cross-read with this site's Boring narrative and quotes.",
         },
         "companies": ["Boring Company"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -289,9 +289,9 @@ RESOURCES = [
             "en": "The most-starred, actively maintained self-hosted project in the Tesla API ecosystem — the community's data-sovereignty route.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
-        "gh": {"stars": 9061, "pushed": "2026-09"},
+        "gh": {"stars": 9065, "pushed": "2026-10"},
     },
     {
         "id": "grok-1",
@@ -310,9 +310,9 @@ RESOURCES = [
             "en": "The one full open-weights release of a flagship model by a Musk company — physical evidence of xAI's open-source stance.",
         },
         "companies": ["xAI"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
-        "gh": {"stars": 52239, "pushed": "2024-08"},
+        "gh": {"stars": 52233, "pushed": "2024-08"},
         "note": {
             "zh": "权重库为一次性发布物：2024-08 后无新提交属预期，「停更」不代表下线或方向变化。",
             "en": "A one-shot weights release: no pushes since Aug 2024 is expected — 'stale' here does not mean discontinued.",
@@ -335,7 +335,7 @@ RESOURCES = [
             "en": "The de-facto community docs before the official Fleet API — the history and endpoint semantics of the third-party Tesla ecosystem.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "站点自注 2024-01 起停止维护、由 Tesla 官方文档接管（deprecated ≠ 下线，页面仍在线）；本机运营商 DNS 曾报 ENOTFOUND（R10 留档），2026-10-01 服务端读取器核活 200 证伪死链判断。",
@@ -359,7 +359,7 @@ RESOURCES = [
             "en": "The living counterpart of the official vehicle-command library — the community-tested caliber outside the official protocol.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "gh": {"stars": 2065, "pushed": "2026-03"},
     },
@@ -380,9 +380,9 @@ RESOURCES = [
             "en": "A structured cross-check for launch timelines; before archiving it was the most-cited community SpaceX data interface.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
-        "gh": {"stars": 10912, "pushed": "2024-08"},
+        "gh": {"stars": 10913, "pushed": "2024-08"},
         "note": {
             "zh": "仓库已由维护者标记 archived（只读），2024-08 后无提交；其线上服务 api.spacex.land 的可用性不在本条断言范围。",
             "en": "The repo is maintainer-archived (read-only), no pushes since Aug 2024; the availability of its hosted service is not asserted by this entry.",
@@ -405,7 +405,7 @@ RESOURCES = [
             "en": "The representative project for observing Starlink first-hand rather than reading others' dashboards — complements the starlink.sx visualizer.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "gh": {"stars": 710, "pushed": "2026-09"},
     },
@@ -426,7 +426,7 @@ RESOURCES = [
             "en": "The direct source of this site's verbatim pipeline; listed with its unofficial nature and use stated.",
         },
         "companies": ["综合"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -446,7 +446,7 @@ RESOURCES = [
             "en": "The most widely read Neuralink explainer — a first-hand portrait of the founding moment.",
         },
         "companies": ["Neuralink"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "「停更」指这篇 2017 定稿长文不再修订，非 Wait But Why 博客停运。",
@@ -470,7 +470,7 @@ RESOURCES = [
             "en": "The community caliber for launch chronicles and mission stats — a folk cross-check for this site's timeline.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "Reddit 对脚本访问限制严格（本机 curl 000），经服务端读取器核活 200（2026-10-01）。",
@@ -494,7 +494,7 @@ RESOURCES = [
             "en": "The oldest trajectory simulator in the launch-tracking toolbox — turns launch data into checkable trajectories.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -514,7 +514,7 @@ RESOURCES = [
             "en": "The fastest public calendar to check which launch, when, and whether it succeeded.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -534,7 +534,7 @@ RESOURCES = [
             "en": "The de-facto open interface for launch data; a candidate cross-check for this site's launch dates.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -554,7 +554,7 @@ RESOURCES = [
             "en": "The clearest independent quantitative view of Starlink's scale and coverage, clearly labeled unofficial.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -574,7 +574,7 @@ RESOURCES = [
             "en": "The representative of the hosted route in the Tesla API ecosystem — the two ends against Teslamate's self-hosting.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     # ---------------- V9-20 R13：社区与档案资源 + 元数据补全 ----------------
@@ -595,7 +595,7 @@ RESOURCES = [
             "en": "The article's own revision history tracks public perception; its footnotes are a practical index back to primary sources (secondary, used for navigation only).",
         },
         "companies": ["综合"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "R10 曾因本机 DNS 污染（解析至 31.13.88.26）判定不可达；本轮实测直连 200 且内容为真（2.68 MB 正文），判定推翻，收录。所载 http 为该次实测口径。",
@@ -619,7 +619,7 @@ RESOURCES = [
             "en": "A public reference frame for company history, cross-checking this site's timeline.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -639,7 +639,7 @@ RESOURCES = [
             "en": "A public baseline for company-level facts, useful against this site's financial and product nodes.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -659,7 +659,7 @@ RESOURCES = [
             "en": "A public ledger of test flights and design iterations, mirroring this site's chronicle entries.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -679,7 +679,7 @@ RESOURCES = [
             "en": "A public chronicle of the acquisition arc — a cross-check for this site's X / Twitter line.",
         },
         "companies": ["X / Twitter"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -699,7 +699,7 @@ RESOURCES = [
             "en": "A public statistical caliber for launch cadence and outcomes, triangulating with the r/SpaceX wiki and this site's chronicle.",
         },
         "companies": ["SpaceX"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "note": {
             "zh": "旧标题 List_of_SpaceX_launch_vehicles 实测 404，已并入本页；以本页为准。",
@@ -723,7 +723,7 @@ RESOURCES = [
             "en": "A public version chronicle of the xAI product line — a folk reference for this site's Grok material.",
         },
         "companies": ["xAI"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -743,7 +743,7 @@ RESOURCES = [
             "en": "A public baseline for the BCI line, complementing the Wait But Why essay and Neuralink's official pages.",
         },
         "companies": ["Neuralink"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -763,7 +763,7 @@ RESOURCES = [
             "en": "The de facto field dictionary of the Tesla API ecosystem — paired with the repo (code) as this page (docs).",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
     {
@@ -783,7 +783,7 @@ RESOURCES = [
             "en": "The most used Python client for the Tesla API, a language counterpart to tesla-api (Ruby).",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "gh": {"stars": 417, "pushed": "2026-07"},
     },
@@ -804,7 +804,7 @@ RESOURCES = [
             "en": "The only systematic local-interface doc on the home-energy side, showing how deep the community mapping goes.",
         },
         "companies": ["Tesla"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
         "gh": {"stars": 290, "pushed": "2024-10"},
         "note": {
@@ -829,7 +829,7 @@ RESOURCES = [
             "en": "Independent-scholar launch statistics — a frequently cited source when media and industry check space numbers (unofficial).",
         },
         "companies": ["综合"],
-        "checked": "2026-10-01",
+        "checked": "2026-10-02",
         "http": 200,
     },
 ]

@@ -1,0 +1,37 @@
+id	n01_verdict	gh_stars	gh_pushed	gh_archived
+sec-edgar-tesla	alive			
+tesla-vehicle-command	unreachable	706	2026-09	False
+spacex-starship	restricted			
+spacex-falcon9	restricted			
+spacex-updates	restricted			
+tesla-fleet-api	restricted			
+neuralink-registry	alive			
+openai-2015	dead			
+xai-official	unreachable			
+boringcompany-official	alive			
+teslamate	unreachable	9065	2026-10	False
+grok-1	unreachable	52233	2024-08	False
+tesla-api-io	unreachable			
+timdorr-tesla-api	unreachable	2065	2026-03	False
+r-spacex-api	unreachable	10913	2024-08	True
+starlink-grpc-tools	unreachable	710	2026-09	False
+elonmuskarchive	alive			
+wbw-neuralink	alive			
+r-spacex-wiki	restricted			
+flight-club	alive			
+next-spaceflight	alive			
+launch-library-2	alive			
+starlink-sx	alive			
+tessie	alive			
+wikipedia-elon-musk	unreachable			
+wikipedia-spacex	unreachable			
+wikipedia-tesla	no-n01			
+wikipedia-starship	unreachable			
+wikipedia-twitter-acquisition	unreachable			
+wikipedia-spacex-launches	unreachable			
+wikipedia-grok	no-n01			
+wikipedia-neuralink	unreachable			
+tesla-json-api-docs	alive			
+tdorssers-teslapy	unreachable	417	2026-07	False
+powerwall2-local-api	unreachable	290	2024-10	False
+planet4589-space	alive			

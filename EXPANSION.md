@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **N04 弃收件重验（2026-10-02）**：tesla.com/blog/all-our-patent-are-belong-you 经服务端读取器重试——仍为 Akamai 拦截页（与 R11 结论一致），维持留档（重验条件不变：用户环境实访）；SAE J3400 sae.org 仍 JS 壳（书目页 200 无内容级证据），维持弃收。Swisher 2018/JMIR 属访谈类弃收（源可达性依赖外部网络，维持留档）。资源 36 条 checked 已全刷 2026-10-02、GitHub 4 条 stars 漂移同步（vehicle-command 706/teslamate 9065+pushed 2026-10/grok-1 52233/SpaceX-API 10913）。
+
 > **R14 资源交互与联动 · 质量节点②（2026-10-01，资源板块从「有」到「通」，无新增条目仍 36 条/索引 318）**：本轮不采料，把 R10–R13 已入册的 36 条资源接进站内导航网络，并通过质量节点②全流程验收。
 > - **互链架构（单一事实来源驱动，无内容复制）**：resources-data.py 新增 `resources_for_company()` 接口 → build-company-files.py 交叉引用，为 Tesla/SpaceX/X/xAI 4 份公司档案各加「相关社区资源」节（共 16 条深链，category 序稳定、每公司 ≤6、综合类不参与）；companies-data.js 增 `resources` 字段 → app.js 公司关系图详情面板同步显示。**外链仍为静态 href，资源页本体 file:// 离线可读，未破坏纪律 B 的「外链不构成运行时依赖」。**
 > - **可访问性**：`#rs-status` 加 `role="status" aria-live="polite"`（分类切换读屏即时播报）。
