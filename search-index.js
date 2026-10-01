@@ -1308,6 +1308,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2018-06-17",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2018.06.17",
+  "s": "「破坏者」全员信（马斯克致 Tesla 全体员工）",
+  "q": "“…a Tesla employee who had conducted quite extensive and damaging sabotage to our operations.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2018-07-15",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1990,6 +2003,19 @@ window.SEARCH_INDEX = [
   "ev": "e2024-01-29"
  },
  {
+  "id": "d2020-09-20",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2020.09.20",
+  "s": "「冲刺创纪录季度」全员信（马斯克致 Tesla 员工）",
+  "q": "“We have a shot at a record quarter for deliveries, but we’ll have to rally hard to achieve it. Please consider vehicle deliveries to be the absolute top priority.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "e2020-09-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -2011,6 +2037,19 @@ window.SEARCH_INDEX = [
   "q": "Battery Day：4680 电池（能量 5 倍/功率 6 倍）与 56%/kWh 降本路线图，附 2.5 万美元车型承诺（账本）。",
   "zh": "",
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "d2020-12-01",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2020.12.01",
+  "s": "「舒芙蕾与大锤」盈利警告全员信（马斯克致 Tesla 员工）",
+  "q": "“…our profitability is very low at around 1%.”",
+  "zh": "",
+  "bg": "",
   "c": [
    "Tesla"
   ]
@@ -2620,6 +2659,19 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：一句「暂时搁置」开启 spam 占比之争，成为 7 月单方撤单与 10 月特拉华互诉的直接引线（Del. Ch. 2022-0613-KSJM），最终以 10 月底强行交割收场（documents.html#d2022-10-27）——这条帖子是把 440 亿合同推向法庭的第一块多米诺（原帖 status/1525049369552048129 · 镜像逐字存档；Reuters 当日报道）。",
   "c": [
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "d2022-05-31",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.05.31",
+  "s": "「回到办公室」邮件（马斯克致 Tesla 行政员工）",
+  "q": "“Everyone at Tesla is required to spend a minimum of 40 hours in the office per week. … If you don’t show up, we will assume you have resigned.”",
+  "zh": "",
+  "bg": "",
+  "c": [
+   "Tesla"
   ]
  },
  {
