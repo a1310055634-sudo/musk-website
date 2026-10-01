@@ -4101,5 +4101,161 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla"
   ]
+ },
+ {
+  "id": "r-wikipedia-elon-musk",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · 埃隆·马斯克",
+  "q": "英文维基百科马斯克主条目：生平、公司、争议与公共形象的百科式综述，附大量一手引注。",
+  "zh": "The English Wikipedia article on Musk: an encyclopedic survey of biography, companies, controversies and public image, with extensive citations.",
+  "bg": "条目演化史本身即公众认知的刻度；其脚注链是回查一手来源的实用入口（非一手，仅作导航）。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "r-wikipedia-spacex",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · SpaceX",
+  "q": "英文维基百科全书 SpaceX 条目：公司史、火箭谱系、任务与合同脉络的百科综述。",
+  "zh": "The English Wikipedia article on SpaceX: an encyclopedic account of company history, vehicle lineage, missions and contracts.",
+  "bg": "公司史脉络的公共参照系，与本网站点时间轴互为交叉核对。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-wikipedia-tesla",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · 特斯拉公司",
+  "q": "英文维基百科 Tesla, Inc. 条目：产品线、财务脉络与公司事件的百科综述。",
+  "zh": "The English Wikipedia article on Tesla, Inc.: product line, financial trajectory and corporate events.",
+  "bg": "公司级事实的公共底稿，便于对照本站账本中的财务与产品节点。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-wikipedia-starship",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · 星舰（Starship）",
+  "q": "英文维基百科星舰条目：研制历程、试飞记录与设计演进的百科梳理。",
+  "zh": "The English Wikipedia article on Starship: development history, flight record and design evolution.",
+  "bg": "试飞编年与设计迭代的公共清单，与本站编年史条目互为对照。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-wikipedia-twitter-acquisition",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · 马斯克收购推特",
+  "q": "英文维基百科专条：2022 年收购推特的全过程，含报价、诉讼、交割与后续改名的编年综述。",
+  "zh": "The English Wikipedia article dedicated to the 2022 Twitter acquisition: bid, litigation, close and renaming.",
+  "bg": "收购长弧的公共编年参照，本站 X / Twitter 线事件的交叉核对对象。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "r-wikipedia-spacex-launches",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · SpaceX 发射列表",
+  "q": "英文维基百科的 SpaceX 发射全量列表页：按年分列的发射记录、结果与载荷统计。",
+  "zh": "Wikipedia's full launch list for SpaceX: year-by-year records, outcomes and payload tallies.",
+  "bg": "发射频次与结果的公共统计口径，与 r/SpaceX 维基、本站编年史三方互校。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-wikipedia-grok",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · Grok（聊天机器人）",
+  "q": "英文维基百科 Grok 条目：xAI 聊天机器人的发布节点、版本沿革与争议梳理。",
+  "zh": "The English Wikipedia article on Grok: xAI's chatbot, its release milestones, versions and controversies.",
+  "bg": "xAI 产品线的公共版本编年，补本站 Grok 线材料的民间参照。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "r-wikipedia-neuralink",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "维基百科 · Neuralink",
+  "q": "英文维基百科 Neuralink 条目：公司沿革、植入技术与试验进程的百科综述。",
+  "zh": "The English Wikipedia article on Neuralink: company history, implant technology and trial progress.",
+  "bg": "脑机接口线的公共底稿，与 Wait But Why 长文、Neuralink 官方页三方互补。",
+  "c": [
+   "Neuralink"
+  ]
+ },
+ {
+  "id": "r-tesla-json-api-docs",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Tesla JSON API 非官方文档（timdorr）",
+  "q": "timdorr/tesla-api 仓库的文档落地站：Tesla 车辆 JSON API 的端点、认证与字段说明。",
+  "zh": "The docs site for the timdorr/tesla-api repo: endpoints, auth and fields of Tesla's vehicle JSON API.",
+  "bg": "Tesla API 生态事实上的字段字典——与同名仓库成对收录（仓库管代码、本页管文档）。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-tdorssers-teslapy",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "TeslaPy · Python Tesla API 客户端",
+  "q": "Python 编写的 Tesla 车主 API 客户端库，支持车辆查询、控制与 Powerwall 访问（非官方）。",
+  "zh": "A Python client for the Tesla Owner API — vehicle queries, commands and Powerwall access (unofficial).",
+  "bg": "Python 生态里使用最广的 Tesla API 客户端，与 tesla-api（Ruby）成语言对照。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-powerwall2-local-api",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Powerwall 2 本地网关 API 文档",
+  "q": "Tesla Powerwall 2 本地网关接口的社区逆向文档（非官方，家庭储能开发者参考）。",
+  "zh": "Community reverse-engineered documentation of the Tesla Powerwall 2 local gateway API (unofficial).",
+  "bg": "家庭储能侧唯一成体系的本地接口文档，展示 Tesla 生态开源测绘的深度。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-planet4589-space",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Jonathan McDowell 太空档案",
+  "q": "哈佛-史密松天体物理中心学者 Jonathan McDowell 维护的独立太空档案：发射与在轨物体权威统计。",
+  "zh": "An independent space archive by Harvard–Smithsonian astrophysicist Jonathan McDowell: authoritative launch and on-orbit object statistics.",
+  "bg": "独立学者口径的发射统计，媒体与业内回查航天数字时的常引来源（非官方）。",
+  "c": [
+   "综合"
+  ]
  }
 ];

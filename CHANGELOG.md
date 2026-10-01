@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v9.3.0 — 2026-10-01 · V9-20 R13/20：社区与档案资源（community 3→11，wikipedia「DNS 污染」判定证伪）
+
+**主题包成果（V9-20 R13 · 资源板块 +12 条，R11–R13 合计 +26 条）**
+- **+12 条入库（community 3→11 · opensource 6→9 · tools 5→6，全站资源 24→36，索引 306→318）**：维基百科条目群 8 条（Elon Musk / SpaceX / Tesla, Inc. / Starship / Acquisition of Twitter by Elon Musk / List of SpaceX launches / Grok (chatbot) / Neuralink）/ Tesla JSON API 非官方文档（tesla-api.timdorr.com）/ TeslaPy（417★ MIT 2026-07 活跃）/ Powerwall 2 本地网关 API 文档（290★ Apache-2.0 2024-10 停更）/ Jonathan McDowell 太空档案（planet4589.org）。Wikipedia 群以「公共参照系」口径收录并逐条注明为二手（非一手）。
+- **重要重验：R10「en.wikipedia.org DNS 污染不可达」判定证伪**——R10 留档记解析被污染至 31.13.88.26 故弃收；本轮实测直连 **200 且内容为真**（Elon_Musk 页 2.68 MB、title 正确、正文 525 处命中；SpaceX 1.53 MB；Twitter 页正常重定向至 X (social network)）。curl `%{remote_ip}` 显示 127.0.0.1（本机代理/hosts 接管路径），故 R10 的污染判断已被推翻，8 条 Wikipedia 条目全部入册，卡内 note 注明判定全过程与所载 http 口径。
+- **Reddit 社区档案「假活」甄别（宁缺毋滥）**：www/old.reddit.com 的 r/teslamotors 与 r/SpaceXLounge wiki**直连返回 200 但内容为 8.4 KB JS 空壳**（title 仅「Reddit」，正文 0），WebFetch 服务端复验同为空壳，`…/wiki/index.json` API 403——不满足「内容到手」门槛，**本轮不收**（R12 收 r/SpaceX wiki 的前提是服务端读取器取得正文）。留档 EXPANSION，重验条件=服务端读取器能取正文或 API 放开。
+- **软页甄别**：teslaownersonline.com 返回 **202 + JS proof-of-work 挑战**（bot 拦截软页），非真内容，弃收；web.archive.org 直连 000 且 WebFetch 失败，留档待重验；spaceflightnow.com / apnews.com / reuters.com / nytimes.com / science.org / sec.gov 搜索页均 403，弃收留档。
+- **媒体档案类择要**：teslarati.com / electrek.co / arstechnica.com（含 /space/）/ nasaspaceflight.com / everydayastronaut.com / space.com / theverge.com/elon-musk / techcrunch.com 与 cnbc.com 的马斯特 tag 页 / BBC 专题页 全部直连 200 且内容为真——按「媒体档案库」性质作为后续候选（本轮以 Wikipedia 群 + 开源补位为主，媒体 hub 页入候选池留 R14 后按检索联动需要择要）。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 318）；CDP 探针（断言数见账本）；node --check 通过；版本三件套 9.2.0→9.3.0（VERSION + app.js + 15 页 span，替换计数在案）；EPUB 重跑。本轮仅本地提交，不推送。
+
 ## v9.2.0 — 2026-10-01 · V9-20 R12/20：开源项目资源（opensource 2→6，tesla-api.io 死链判定证伪）
 
 **主题包成果（V9-20 R12 · 资源板块 +6 条）**

@@ -4,9 +4,9 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "8.9.0",
+  "version": "9.3.0",
   "nEvents": 14,
-  "nRecords": 229,
+  "nRecords": 265,
   "nAbsorbed": 39,
   "absorbedByEvent": {
    "e2002-10-03": 1,
@@ -3052,6 +3052,474 @@ window.TIMELINE_V7 = {
    "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "r-sec-edgar-tesla",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SEC EDGAR · Tesla 上市公司文件",
+   "q": "美国证监会 EDGAR 库中 Tesla, Inc.（CIK 0001318605）的申报文件总目：10-K / 10-Q / 8-K / S-1 全文免费公开。",
+   "zh": "The SEC EDGAR index for Tesla, Inc. (CIK 0001318605): full texts of 10-K / 10-Q / 8-K / S-1 filings, free and public.",
+   "bg": "本站财报与风险表述的原文锚点所在库；核对公司口径时「原文优先」的第一站。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-tesla-vehicle-command",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Tesla 官方开源 · vehicle-command",
+   "q": "Tesla 官方维护的车端指令协议库（Go）：解锁、充电等签名指令的参考实现。",
+   "zh": "Tesla's official Go library for the vehicle command protocol — the reference implementation for signed commands (lock, charge, …).",
+   "bg": "官方代码即权威口径：第三方 Tesla API 生态的协议事实来源。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-spacex-starship",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SpaceX 官网 · Starship 星舰",
+   "q": "SpaceX 官方星舰页面：史上最大运载火箭的官方定位、规格与任务动态。",
+   "zh": "SpaceX's official Starship page: the company's own positioning, specs and mission updates for the super-heavy launcher.",
+   "bg": "星舰叙事的官方口径页：本站星舰相关表述的规格与进度对照来源。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-spacex-falcon9",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SpaceX 官网 · Falcon 9 猎鹰九号",
+   "q": "SpaceX 官方猎鹰九号页面：可复用主力火箭的官方规格、发射记录与复用数据。",
+   "zh": "SpaceX's official Falcon 9 page: official specs, launch record and reuse data for the workhorse reusable rocket.",
+   "bg": "火箭复用经济性的官方数据口径，与本站发射时间线交叉核对。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-spacex-updates",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SpaceX 官网 · Updates 官方更新",
+   "q": "SpaceX 官方更新页：任务动态、发射回顾与公司新闻的官方发布口。",
+   "zh": "SpaceX's official updates feed: mission news, launch recaps and company announcements.",
+   "bg": "任务成败与进度的第一手官方口径，替代不可引的媒体转述。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-tesla-fleet-api",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Tesla 官方开发者门户 · Fleet API",
+   "q": "Tesla 官方开发者门户：Fleet API 文档——车辆与能源设备的数据与指令官方接口。",
+   "zh": "Tesla's official developer portal: Fleet API docs — the company's data and command interface for vehicles and energy products.",
+   "bg": "第三方 Tesla API 生态的官方协议文档，与官方 vehicle-command 库互为表里。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-neuralink-registry",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Neuralink 官方 · 患者登记",
+   "q": "Neuralink 官方患者登记页：临床试验报名与进展了解的官方入口。",
+   "zh": "Neuralink's official patient registry: the entry point for clinical-trial sign-up and study updates.",
+   "bg": "首例人体植入后的官方一手通道，临床试验进展以官方口径为准。",
+   "c": [
+    "Neuralink"
+   ]
+  },
+  {
+   "id": "r-openai-2015",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "OpenAI 官方博客 · Introducing OpenAI（2015）",
+   "q": "2015-12 官宣文：非营利 AI 研究实验室创立宣言，联合主席之一为马斯克。",
+   "zh": "The December 2015 founding announcement: a non-profit AI research lab with Musk as a co-chair.",
+   "bg": "马斯克 AI 生涯的关键起点文书：联合主席→2018 退出董事会弧线的官方起点。",
+   "c": [
+    "OpenAI"
+   ]
+  },
+  {
+   "id": "r-xai-official",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "xAI 官网",
+   "q": "xAI 官网：使命「理解宇宙的真实本质」，Grok 系列模型与公司动态的官方发布口。",
+   "zh": "xAI's official site: the mission 'to understand the true nature of the universe' and the official feed for Grok and company news.",
+   "bg": "Grok/xAI 产品与使命陈述的官方口径页。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "r-boringcompany-official",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "The Boring Company 官网",
+   "q": "The Boring Company 官网：安全、快挖、低成本的隧道交通——以 Loop 与 Prufrock 掘进机解决拥堵。",
+   "zh": "The Boring Company's official site: safe, fast-to-dig, low-cost tunnels — solving traffic with Loop, powered by the Prufrock TBM.",
+   "bg": "隧道项目官方口径，与本站 Boring 叙事与语录对照。",
+   "c": [
+    "Boring Company"
+   ]
+  },
+  {
+   "id": "r-teslamate",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Teslamate · 自托管特斯拉数据记录",
+   "q": "社区维护的自托管 Tesla 遥测记录器（Elixir/Phoenix）：车辆数据留在自己的服务器上。",
+   "zh": "Community-maintained, self-hosted Tesla telemetry logger (Elixir/Phoenix): your car's data stays on your own server.",
+   "bg": "Tesla API 生态中星数最高、仍在活跃维护的自托管方案，代表社区「数据自主」路线。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-grok-1",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "xAI 官方开源 · Grok-1 权重",
+   "q": "xAI 于 2024-03 开源的 3140 亿参数 MoE 语言模型 Grok-1：权重与推理代码（仓库由 grok 改名 grok-1）。",
+   "zh": "xAI's March 2024 open release of Grok-1, a 314B-parameter MoE LLM: weights and inference code (repo renamed from `grok` to `grok-1`).",
+   "bg": "马斯克系公司把旗舰模型权重整体开源的唯一一例，xAI 开源立场的实物证据。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "r-tesla-api-io",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "tesla-api.io · Tesla API 社区文档",
+   "q": "长期被社区引用的 Tesla JSON API 非官方文档站：鉴权、车辆指令与遥测端点的参考。",
+   "zh": "The long-cited unofficial reference for Tesla's JSON API: auth, vehicle commands and telemetry endpoints.",
+   "bg": "官方 Fleet API 之前的社区文档事实标准：读懂第三方 Tesla API 生态的历史与端点语义。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-timdorr-tesla-api",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "timdorr/tesla-api · 非官方 API 文档与 Ruby 库",
+   "q": "社区维护近十年的 Tesla JSON API 非官方文档与 Ruby gem：第三方集成的起点坐标。",
+   "zh": "Nearly a decade of community-maintained unofficial Tesla JSON API docs and a Ruby gem — the starting coordinate of third-party integrations.",
+   "bg": "与官方 vehicle-command 库互为对照：官方协议之外社区实测口径的活档案。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-r-spacex-api",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "r-spacex/SpaceX-API · 社区发射数据 REST API",
+   "q": "r/SpaceX 社区维护的 SpaceX 数据开源 REST API：发射、火箭、飞船与星链的结构化接口（已存档）。",
+   "zh": "The r/SpaceX community's open REST API for SpaceX data: structured endpoints for launches, rockets, capsules and Starlink (archived).",
+   "bg": "发射时间线交叉核对的结构化数据源；存档前仍是社区引用最广的 SpaceX 数据接口。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-starlink-grpc-tools",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "sparky8512/starlink-grpc-tools · 星链终端遥测",
+   "q": "读取 Starlink 用户终端 gRPC 遥测的社区脚本集：状态、吞吐与可观测性数据的自采通道。",
+   "zh": "Community scripts for reading a Starlink dish's gRPC telemetry — a self-collected channel for status, throughput and observability data.",
+   "bg": "星链观测从「看别人的仪表盘」到「自己采数据」的代表项目，与 starlink.sx 可视化互补。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-elonmuskarchive",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Elon Musk Archive · 言行镜像库",
+   "q": "马斯克公开言行的非官方镜像档案：X 帖、访谈、演讲、文档按时间可检索（本站第一手采料的镜像来源）。",
+   "zh": "An unofficial archive of Musk's public record — posts, interviews, keynotes and documents, searchable in time order (this site's first-hand pipeline source).",
+   "bg": "本站 X 帖 / 访谈 / 演讲逐字采料的直接来源，收录以注明其非官方性质与用途。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "r-wbw-neuralink",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Wait But Why · Neuralink 与大脑的魔法未来",
+   "q": "Tim Urban 2017 年长文：与马斯克数次长谈后对 Neuralink、脑机接口与大脑的科普解读。",
+   "zh": "Tim Urban's 2017 mega-essay on Neuralink, brain-computer interfaces and the brain, after long conversations with Musk.",
+   "bg": "流传最广的 Neuralink 科普定稿，2017 年创立期的第一手侧写。",
+   "c": [
+    "Neuralink"
+   ]
+  },
+  {
+   "id": "r-r-spacex-wiki",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "r/SpaceX 社区维基",
+   "q": "r/SpaceX 版区维基：发射编年史、任务清单与 FAQ 的社区协作整理（非官方）。",
+   "zh": "The r/SpaceX subreddit wiki: community-maintained launch chronicles, mission lists and FAQs (unofficial).",
+   "bg": "发射编年史与任务统计的社区口径，与本站时间轴互为民间对照。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-flight-club",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Flight Club · 火箭轨迹仿真",
+   "q": "火箭发射实时三维轨迹仿真与预测站点，SpaceX 发射报道常引用其弹道可视化。",
+   "zh": "Real-time 3D rocket trajectory simulation and prediction; a staple visualization in SpaceX launch coverage.",
+   "bg": "发射追踪工具链中最老牌的轨迹仿真站，把发射数据变成可核对的弹道。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-next-spaceflight",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Next Spaceflight · 发射日历",
+   "q": "全球航天发射日历与追踪：即将进行的发射、直播链接与统计，含 SpaceX 各次任务卡片。",
+   "zh": "Global launch schedule and tracker: upcoming launches, webcast links and statistics, incl. every SpaceX mission card.",
+   "bg": "核对「哪次发射、何时、成没成」的最快公共日历。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-launch-library-2",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Launch Library 2 · 发射数据 API",
+   "q": "The Space Devs 社区维护的航天发射开放 API：发射、任务与轨道事件的结构化数据接口。",
+   "zh": "The Space Devs' community-run open API: structured data on launches, missions and orbital events.",
+   "bg": "发射数据的事实标准接口；本站时间线交叉核对发射日期的候选工具。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-starlink-sx",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "starlink.sx · 星链卫星追踪",
+   "q": "独立 Starlink 星座可视化与覆盖模拟（Mike Puchol 维护，非 SpaceX 官方）：在轨卫星、网关与链路实时图。",
+   "zh": "Independent Starlink constellation visualization and coverage simulation by Mike Puchol (unofficial): live satellites, gateways and links.",
+   "bg": "Starlink 规模与覆盖最直观的独立量化视图，非官方口径标注清晰。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-tessie",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Tessie · Tesla 遥测与自动化服务",
+   "q": "商业 Tesla 数据与自动化平台：遥测、充电管理与存储 API 的托管服务（非官方）。",
+   "zh": "A commercial Tesla data & automation platform: hosted telemetry, charge management and storage API (unofficial).",
+   "bg": "Tesla API 生态商业托管路线的代表，与 Teslamate 的自托管路线互为两端。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-wikipedia-elon-musk",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · 埃隆·马斯克",
+   "q": "英文维基百科马斯克主条目：生平、公司、争议与公共形象的百科式综述，附大量一手引注。",
+   "zh": "The English Wikipedia article on Musk: an encyclopedic survey of biography, companies, controversies and public image, with extensive citations.",
+   "bg": "条目演化史本身即公众认知的刻度；其脚注链是回查一手来源的实用入口（非一手，仅作导航）。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "r-wikipedia-spacex",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · SpaceX",
+   "q": "英文维基百科全书 SpaceX 条目：公司史、火箭谱系、任务与合同脉络的百科综述。",
+   "zh": "The English Wikipedia article on SpaceX: an encyclopedic account of company history, vehicle lineage, missions and contracts.",
+   "bg": "公司史脉络的公共参照系，与本网站点时间轴互为交叉核对。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-wikipedia-tesla",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · 特斯拉公司",
+   "q": "英文维基百科 Tesla, Inc. 条目：产品线、财务脉络与公司事件的百科综述。",
+   "zh": "The English Wikipedia article on Tesla, Inc.: product line, financial trajectory and corporate events.",
+   "bg": "公司级事实的公共底稿，便于对照本站账本中的财务与产品节点。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-wikipedia-starship",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · 星舰（Starship）",
+   "q": "英文维基百科星舰条目：研制历程、试飞记录与设计演进的百科梳理。",
+   "zh": "The English Wikipedia article on Starship: development history, flight record and design evolution.",
+   "bg": "试飞编年与设计迭代的公共清单，与本站编年史条目互为对照。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-wikipedia-twitter-acquisition",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · 马斯克收购推特",
+   "q": "英文维基百科专条：2022 年收购推特的全过程，含报价、诉讼、交割与后续改名的编年综述。",
+   "zh": "The English Wikipedia article dedicated to the 2022 Twitter acquisition: bid, litigation, close and renaming.",
+   "bg": "收购长弧的公共编年参照，本站 X / Twitter 线事件的交叉核对对象。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "r-wikipedia-spacex-launches",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · SpaceX 发射列表",
+   "q": "英文维基百科的 SpaceX 发射全量列表页：按年分列的发射记录、结果与载荷统计。",
+   "zh": "Wikipedia's full launch list for SpaceX: year-by-year records, outcomes and payload tallies.",
+   "bg": "发射频次与结果的公共统计口径，与 r/SpaceX 维基、本站编年史三方互校。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-wikipedia-grok",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · Grok（聊天机器人）",
+   "q": "英文维基百科 Grok 条目：xAI 聊天机器人的发布节点、版本沿革与争议梳理。",
+   "zh": "The English Wikipedia article on Grok: xAI's chatbot, its release milestones, versions and controversies.",
+   "bg": "xAI 产品线的公共版本编年，补本站 Grok 线材料的民间参照。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "r-wikipedia-neuralink",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "维基百科 · Neuralink",
+   "q": "英文维基百科 Neuralink 条目：公司沿革、植入技术与试验进程的百科综述。",
+   "zh": "The English Wikipedia article on Neuralink: company history, implant technology and trial progress.",
+   "bg": "脑机接口线的公共底稿，与 Wait But Why 长文、Neuralink 官方页三方互补。",
+   "c": [
+    "Neuralink"
+   ]
+  },
+  {
+   "id": "r-tesla-json-api-docs",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Tesla JSON API 非官方文档（timdorr）",
+   "q": "timdorr/tesla-api 仓库的文档落地站：Tesla 车辆 JSON API 的端点、认证与字段说明。",
+   "zh": "The docs site for the timdorr/tesla-api repo: endpoints, auth and fields of Tesla's vehicle JSON API.",
+   "bg": "Tesla API 生态事实上的字段字典——与同名仓库成对收录（仓库管代码、本页管文档）。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-tdorssers-teslapy",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "TeslaPy · Python Tesla API 客户端",
+   "q": "Python 编写的 Tesla 车主 API 客户端库，支持车辆查询、控制与 Powerwall 访问（非官方）。",
+   "zh": "A Python client for the Tesla Owner API — vehicle queries, commands and Powerwall access (unofficial).",
+   "bg": "Python 生态里使用最广的 Tesla API 客户端，与 tesla-api（Ruby）成语言对照。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-powerwall2-local-api",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Powerwall 2 本地网关 API 文档",
+   "q": "Tesla Powerwall 2 本地网关接口的社区逆向文档（非官方，家庭储能开发者参考）。",
+   "zh": "Community reverse-engineered documentation of the Tesla Powerwall 2 local gateway API (unofficial).",
+   "bg": "家庭储能侧唯一成体系的本地接口文档，展示 Tesla 生态开源测绘的深度。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-planet4589-space",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Jonathan McDowell 太空档案",
+   "q": "哈佛-史密松天体物理中心学者 Jonathan McDowell 维护的独立太空档案：发射与在轨物体权威统计。",
+   "zh": "An independent space archive by Harvard–Smithsonian astrophysicist Jonathan McDowell: authoritative launch and on-orbit object statistics.",
+   "bg": "独立学者口径的发射统计，媒体与业内回查航天数字时的常引来源（非官方）。",
+   "c": [
+    "综合"
    ]
   }
  ]
