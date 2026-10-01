@@ -2,13 +2,13 @@
 """V9-20 R13 版本三件套：VERSION / app.js SITE_VERSION / 全站 site-version-val span。"""
 import glob, io, re, sys
 
-OLD, NEW = '9.3.0', '9.4.0'
+OLD, NEW = '9.2.0', '9.3.0'
 
 io.open('VERSION', 'w', encoding='utf-8', newline='\n').write(NEW)
 print('VERSION ->', NEW)
 
 app = io.open('app.js', encoding='utf-8').read()
-app2, n = re.subn(r"SITE_VERSION = '9\.3\.0'", "SITE_VERSION = '" + NEW + "'", app)
+app2, n = re.subn(r"SITE_VERSION = '9\.2\.0'", "SITE_VERSION = '" + NEW + "'", app)
 if n != 1:
     sys.exit('app.js SITE_VERSION 替换计数异常: %d' % n)
 io.open('app.js', 'w', encoding='utf-8', newline='').write(app2)

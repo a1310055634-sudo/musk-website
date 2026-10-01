@@ -34,7 +34,7 @@
 | 11 | 官方与标准类资源 | complete | v9.1.0 | 84ec1e8 | +8 条 official 2→10（资源 10→18、索引 300）；三路法核活（7 条服务端读取器路径如实注记）；SAE J3400/tesla.com 弃收留档；修复 R10 导航回归；探针 30/30 |
 | 12 | 开源项目资源（Tesla API 生态 / Starlink 追踪 / 发射工具） | complete | v9.2.0 | 1bb278b | +6 条开源 2→6/社区 2→3/工具 4→5（资源 18→24、索引 306）；tesla-api.io 死链判断证伪（DNS 污染非死链）；治本修复 revisions 导航回归；探针 28/28 |
 | 13 | 社区与档案资源 + 元数据补全（R11–13 合计 +30~50 条） | complete | v9.3.0 | ade8ed9 | +12 条 community 3→11/开源 6→9/工具 5→6（资源 24→36、索引 318）；Wikipedia 群 8 条（R10「DNS 污染」判定证伪，直连 200 实量）；Reddit 假活空壳+teslaownersonline 软页弃收；R11–13 合计 +26（下沿略低，环境阻塞如实盘点）；探针 35/35 |
-| 14 | 资源交互与联动 + 质量节点②（≥15 断言） | pending | — | — | — |
+| 14 | 资源交互与联动 + 质量节点②（≥15 断言） | complete | v9.4.0 | e8183f3 | 资源↔4 档案互链（.cf-resl 16 深链）+关系图面板行 +aria-live 状态行 +首页入口；质量节点②探针 30/30（八流程）；外链抽样 10/10；verify 9/9 |
 | 15 | 设计系统升级（style.css :root tokens，四页样板） | pending | — | — | — |
 | 16 | 首页视觉迭代 | pending | — | — | — |
 | 17 | 数据图形工业风（gx-*/cap-*/net-* 三图精修） | pending | — | — | — |
@@ -268,3 +268,18 @@
 - **探针修正记录（1 项，非页面缺陷）**：首跑 33/34——断言「页内无 reddit 条目 URL」用宽松正则 `https://[^"]*reddit\.com` 匹配，误命中 R12 已核活收录的 r/SpaceX 社区维基（其 URL 本就含 reddit.com，属正确保留非误收）。收敛为两条精确断言（teslamotors/SpaceXLounge 假活不在页 + R12 r/SpaceX wiki 保留）后 35/35 全绿。**教训：排除类断言须锚定具体目标项，勿用宽泛域名正则。**
 - **提交**：成果 `ade8ed9`（v9.3.0，30 文件）；本回填+revisions（206 幂等+导航保持验证）+EPUB 重刷为第二提交。
 - **下一轮预告**：R14 资源交互与联动+质量节点②——分类筛选 aria-live 状态行（R10 已设 rs-status，本轮补 aria-live）；资源↔公司档案/事件互链（companies 面板与 company-files 加「相关社区资源」行）；首页资料入口；检索命中（含类型筛选）；质量节点②验收=资源页全流程探针（筛选/清除/跳转/双语/无 JS/390/file://）≥15 断言 + 外链抽样 10 条核活 + verify 9/9。
+
+## 第 14 轮工作记录（资源交互与联动 + 质量节点②）— complete（2026-10-01）
+
+- **本轮定性**：资源板块从「有」（R10–R13 建成并扩容至 36 条）到「通」（接入站内导航网络）。无新增条目，资源仍 36 条 / 索引 318。
+- **资源↔公司档案互链（单一事实来源驱动，零内容复制）**：resources-data.py 新增 `resources_for_company(company_name, limit)` 查询接口（按 companies 实体匹配、category 序稳定排序、「综合」类不参与匹配以防泛条污染每家档案）；build-company-files.py 新增 `COMPANY_TO_VOCAB`（档案 id→实体词表名：tesla→Tesla / spacex→SpaceX / x→X / Twitter / xai→xAI）并引入 RD，为 4 份完整档案各渲染「相关社区资源」节（`.cf-resl`，共 **16 条深链**，每公司上限 6：Tesla 6 / SpaceX 6 / xAI 3 / X 1）；同时向 companies-data.js 的 companies 注入 `resources: [{id,name}]` 字段。
+- **公司关系图面板联动**：app.js 的 `netRender` 增「相关社区资源（N）」段（读 `c.resources`，中英双语 COMMUNITY RESOURCES）——点选图上节点即列出该公司相关社区资源并深链回资源页。
+- **可访问性**：build-resources.py 模板源改，`#rs-status` 加 `role="status" aria-live="polite"`（切分类时读屏即时播报「显示 N 条资源 · 分类」；无脚本环境该行静态完整可读）。
+- **首页资料入口**：index.html「查找资料」路径行第三入口由「文档馆」改指 resources.html（双语 data-en="Community resources"），资源板块升为首页主路径可见；文档馆仍在资料导航组内。
+- **检索联动复核**：search.html 类型按钮「社区资源」+ 按公司过滤对资源条目可用（R10 接通，本轮验证命中与类型组合）。
+- **管线**：build-resources（36 条·aria-live）/ build-company-files（4 档案·16 资源深链·companies-data.js resources 字段）/ build-network（幂等）/ build-search-index（318）/ sync-changelog（203 条）/ build-ledger-links（23 处）/ build-events（14 事件）/ build-timeline-events（265 独立+39 吸收）/ build-capital（幂等）/ 版本三件套 9.3.0→9.4.0（VERSION+app.js+15 页 span 打印在案）/ build-epub（223,127 B）。
+- **验证**：verify.py 9/9（38 页 / 索引 318 / 版本 9.4.0 / 修订史 206 / EPUB 新鲜）；node --check 全过；**CDP 探针 30/30**（tools/v9r14-probe.js，端口 9358 全新 profile：文件级 8 / 筛选 4 / 清除 1 / 跳转闭环 5 / 双语 3 / 无 JS 2 / 390 零溢出 2 / file:// 2 / 关系图面板 3）；**外链抽样 10 条核活 10/10 可达**（官方 2/开源 2/社区 3/工具 3，SEC 依合规 UA 口径 200，qa/v9-20/round-14/sources/liveness-sample.md）；截图 4 张入 qa/v9-20/round-14/。
+- **质量节点②达成**：计划要求「资源页全流程探针（筛选/清除/跳转/双语/无 JS/390/file://）≥15 断言」——实际 30 断言，八流程全覆盖（含 file:// 离线与公司关系图面板交互），无遗漏项。首跑即 30/30，无断言修正。
+- **先目检 DOM 再写断言（教训第四次生效）**：写关系图面板交互断言前先 grep 实构，确认节点为 `<g class="net-node" data-net-node="tesla">`（非猜测选择器），一次通过。
+- **提交**：成果 `e8183f3`（v9.4.0，32 文件）；本回填+revisions（206 幂等+导航保持）+EPUB 重刷为第二提交。另：已将误被 sed 改动的 tools/v9r13-bump.py 还原至 R13 原状（避免污染 R13 产物）。
+- **下一轮预告**：R15 设计系统升级——style.css `:root` tokens 区：色阶（--coal/--paper/--accent 衍生 3-5 档）、字号阶梯（clamp）、间距标尺（4/8 基）、圆角/阴影/边框分层、:focus-visible 统一；深浅双主题变量一致性核对（--mist/--muted 对比度 ≥4.5 复测）；落地 index+survival-2008+timeline+capital-evolution 四页样板；before/after 八组截图（1440×900 + 390×844）；三视口零溢出复扫。本轮新增 rs-*/cf-res* 组件一并纳入 tokens 审计。
