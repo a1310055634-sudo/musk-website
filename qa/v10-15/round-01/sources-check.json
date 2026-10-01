@@ -1,0 +1,224 @@
+[
+ {
+  "url": "http://www.w3.org/2000/svg",
+  "cat": "web",
+  "http": 403,
+  "verdict": "dead"
+ },
+ {
+  "url": "https://developer.tesla.com/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://elonmuskarchive.org/",
+  "cat": "mirror",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Grok_(chatbot",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/List_of_SpaceX_launches",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Neuralink",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/SpaceX",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Starship",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Tesla,_Inc",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/r-spacex/SpaceX-API",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/sparky8512/starlink-grpc-tools",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/tdorssers/TeslaPy",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/teslamate-org/teslamate",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/teslamotors/vehicle-command",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/timdorr/tesla-api",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/vloschiavo/powerwall2",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://github.com/xai-org/grok-1",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://neuralink.com/patient-registry/",
+  "cat": "web",
+  "http": 308,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://nextspaceflight.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://old.reddit.com/r/spacex/wiki/index",
+  "cat": "restricted:反爬 000（R12 实测，须服务端读取器）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://openai.com/blog/introducing-openai/",
+  "cat": "web",
+  "http": 403,
+  "verdict": "dead"
+ },
+ {
+  "url": "https://planet4589.org/space/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://starlink.sx/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://tesla-api.io/",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ },
+ {
+  "url": "https://tesla-api.timdorr.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://thespacedevs.com/llapi",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://waitbutwhy.com/2017/04/neuralink.html",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.boringcompany.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.flightclub.io/",
+  "cat": "web",
+  "http": 308,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-K&dateb=&owner=include&count=40",
+  "cat": "edgar",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.spacex.com/updates/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://www.spacex.com/vehicles/falcon-9/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://www.spacex.com/vehicles/starship/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://www.tessie.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://x.ai/",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable"
+ }
+]

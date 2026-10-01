@@ -1,0 +1,38 @@
+url	category	pages
+http://www.w3.org/2000/svg	web	ai-strategy.html,capital-evolution.html,changelog.html,chronicle.html,companies.html,company-files.html,controversy.html,deep-dive-01.html,deep-dive-02.html,deep-dive-03.html,deep-dive-04.html,deep-dive-05.html,documents.html,events.html,finance.html,grok.html,indepth.html,index.html,interviews.html,money.html,numbers.html,persona.html,platform-x.html,playbook.html,pricing.html,primary.html,profile.html,promises.html,quotes.html,reading.html,resources.html,revisions.html,search.html,stories.html,supplychain.html,survival-2008.html,timeline.html,x-posts.html
+https://developer.tesla.com/	restricted:Akamai 反爬 403（R11 三路实测）	resources.html
+https://elonmuskarchive.org/	mirror	resources.html
+https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk	web	resources.html
+https://en.wikipedia.org/wiki/Elon_Musk	web	resources.html
+https://en.wikipedia.org/wiki/Grok_(chatbot	web	resources.html
+https://en.wikipedia.org/wiki/List_of_SpaceX_launches	web	resources.html
+https://en.wikipedia.org/wiki/Neuralink	web	resources.html
+https://en.wikipedia.org/wiki/SpaceX	web	resources.html
+https://en.wikipedia.org/wiki/Starship	web	resources.html
+https://en.wikipedia.org/wiki/Tesla,_Inc	web	resources.html
+https://github.com/r-spacex/SpaceX-API	github	resources.html
+https://github.com/sparky8512/starlink-grpc-tools	github	resources.html
+https://github.com/tdorssers/TeslaPy	github	resources.html
+https://github.com/teslamate-org/teslamate	github	resources.html
+https://github.com/teslamotors/vehicle-command	github	resources.html
+https://github.com/timdorr/tesla-api	github	resources.html
+https://github.com/vloschiavo/powerwall2	github	resources.html
+https://github.com/xai-org/grok-1	github	resources.html
+https://neuralink.com/patient-registry/	web	resources.html
+https://nextspaceflight.com/	web	resources.html
+https://old.reddit.com/r/spacex/wiki/index	restricted:反爬 000（R12 实测，须服务端读取器）	resources.html
+https://openai.com/blog/introducing-openai/	restricted:Akamai 反爬 403（R11/N01 实测）	resources.html
+https://planet4589.org/space/	web	resources.html
+https://starlink.sx/	web	resources.html
+https://tesla-api.io/	web	resources.html
+https://tesla-api.timdorr.com/	web	resources.html
+https://thespacedevs.com/llapi	web	resources.html
+https://waitbutwhy.com/2017/04/neuralink.html	web	resources.html
+https://www.boringcompany.com/	web	resources.html
+https://www.flightclub.io/	web	resources.html
+https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-K&dateb=&owner=include&count=40	edgar	resources.html
+https://www.spacex.com/updates/	restricted:Akamai 反爬 403（R11 三路实测）	resources.html
+https://www.spacex.com/vehicles/falcon-9/	restricted:Akamai 反爬 403（R11 三路实测）	resources.html
+https://www.spacex.com/vehicles/starship/	restricted:Akamai 反爬 403（R11 三路实测）	resources.html
+https://www.tessie.com/	web	resources.html
+https://x.ai/	web	resources.html

@@ -1,0 +1,283 @@
+[
+ {
+  "url": "http://www.w3.org/2000/svg",
+  "cat": "web",
+  "http": 403,
+  "verdict": "dead",
+  "second_path": "SVG 命名空间 URI 非内容源（脚本应排除）",
+  "verdict2": "n/a"
+ },
+ {
+  "url": "https://developer.tesla.com/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://elonmuskarchive.org/",
+  "cat": "mirror",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "同域代表（Elon_Musk/Starship）服务端核活通过；本机 DNS 波动致直连失败非死链（R12/R13 先例）",
+  "verdict2": "alive(imputed)"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "web_reader 200 全文可读",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Grok_(chatbot",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "同域代表（Elon_Musk/Starship）服务端核活通过；本机 DNS 波动致直连失败非死链（R12/R13 先例）",
+  "verdict2": "alive(imputed)"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/List_of_SpaceX_launches",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "同域代表（Elon_Musk/Starship）服务端核活通过；本机 DNS 波动致直连失败非死链（R12/R13 先例）",
+  "verdict2": "alive(imputed)"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Neuralink",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "同域代表（Elon_Musk/Starship）服务端核活通过；本机 DNS 波动致直连失败非死链（R12/R13 先例）",
+  "verdict2": "alive(imputed)"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/SpaceX",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "同域代表（Elon_Musk/Starship）服务端核活通过；本机 DNS 波动致直连失败非死链（R12/R13 先例）",
+  "verdict2": "alive(imputed)"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Starship",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "web_reader 200 全文可读",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Tesla,_Inc",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "同域代表（Elon_Musk/Starship）服务端核活通过；本机 DNS 波动致直连失败非死链（R12/R13 先例）",
+  "verdict2": "alive(imputed)"
+ },
+ {
+  "url": "https://github.com/r-spacex/SpaceX-API",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 archived=True ★10913",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/sparky8512/starlink-grpc-tools",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★710 2026-09",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/tdorssers/TeslaPy",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★417 2026-07",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/teslamate-org/teslamate",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★9065 2026-10",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/teslamotors/vehicle-command",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★706 2026-09",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/timdorr/tesla-api",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★2065 2026-03",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/vloschiavo/powerwall2",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★290 2024-10",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://github.com/xai-org/grok-1",
+  "cat": "github",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "api 200 ★52233 2024-08",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://neuralink.com/patient-registry/",
+  "cat": "web",
+  "http": 308,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://nextspaceflight.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://old.reddit.com/r/spacex/wiki/index",
+  "cat": "restricted:反爬 000（R12 实测，须服务端读取器）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://openai.com/blog/introducing-openai/",
+  "cat": "web",
+  "http": 403,
+  "verdict": "dead",
+  "second_path": "R11 服务端核活 200 在档（Akamai 反爬，RESTRICTED 漏列已补）",
+  "verdict2": "alive(prior)"
+ },
+ {
+  "url": "https://planet4589.org/space/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://starlink.sx/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://tesla-api.io/",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "web_reader 200（deprecated 声明在页，R12 同结论）",
+  "verdict2": "alive"
+ },
+ {
+  "url": "https://tesla-api.timdorr.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://thespacedevs.com/llapi",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://waitbutwhy.com/2017/04/neuralink.html",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.boringcompany.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.flightclub.io/",
+  "cat": "web",
+  "http": 308,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-K&dateb=&owner=include&count=40",
+  "cat": "edgar",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://www.spacex.com/updates/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://www.spacex.com/vehicles/falcon-9/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://www.spacex.com/vehicles/starship/",
+  "cat": "restricted:Akamai 反爬 403（R11 三路实测）",
+  "http": null,
+  "verdict": "restricted"
+ },
+ {
+  "url": "https://www.tessie.com/",
+  "cat": "web",
+  "http": 200,
+  "verdict": "alive"
+ },
+ {
+  "url": "https://x.ai/",
+  "cat": "web",
+  "http": 0,
+  "verdict": "unreachable",
+  "second_path": "R11 服务端核活 200 在档；本机直连超时为既有模式",
+  "verdict2": "alive(prior)"
+ },
+ {
+  "_drift_note": {
+   "SpaceX-API": "10912→10913",
+   "teslamate": "9061→9065",
+   "grok-1": "52239→52233",
+   "vehicle-command": "705→706"
+  },
+  "_summary": {
+   "total": 36,
+   "direct_alive": 12,
+   "second_alive": 11,
+   "imputed": 6,
+   "prior": 2,
+   "na": 1,
+   "restricted": 5,
+   "dead": 0,
+   "scope_note": "六页来源标注为 ps-src 文字徽章形态无明文外链；本复测对象=全站 38 页真实外链 37 条（resources 36 卡为主体）"
+  }
+ }
+]

@@ -1,0 +1,38 @@
+url	category	http	verdict
+http://www.w3.org/2000/svg	web	403	dead
+https://developer.tesla.com/	restricted:Akamai 反爬 403（R11 三路实测）	None	restricted
+https://elonmuskarchive.org/	mirror	200	alive
+https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk	web	0	unreachable
+https://en.wikipedia.org/wiki/Elon_Musk	web	0	unreachable
+https://en.wikipedia.org/wiki/Grok_(chatbot	web	0	unreachable
+https://en.wikipedia.org/wiki/List_of_SpaceX_launches	web	0	unreachable
+https://en.wikipedia.org/wiki/Neuralink	web	0	unreachable
+https://en.wikipedia.org/wiki/SpaceX	web	0	unreachable
+https://en.wikipedia.org/wiki/Starship	web	0	unreachable
+https://en.wikipedia.org/wiki/Tesla,_Inc	web	0	unreachable
+https://github.com/r-spacex/SpaceX-API	github	0	unreachable
+https://github.com/sparky8512/starlink-grpc-tools	github	0	unreachable
+https://github.com/tdorssers/TeslaPy	github	0	unreachable
+https://github.com/teslamate-org/teslamate	github	0	unreachable
+https://github.com/teslamotors/vehicle-command	github	0	unreachable
+https://github.com/timdorr/tesla-api	github	0	unreachable
+https://github.com/vloschiavo/powerwall2	github	0	unreachable
+https://github.com/xai-org/grok-1	github	0	unreachable
+https://neuralink.com/patient-registry/	web	308	alive
+https://nextspaceflight.com/	web	200	alive
+https://old.reddit.com/r/spacex/wiki/index	restricted:反爬 000（R12 实测，须服务端读取器）	None	restricted
+https://openai.com/blog/introducing-openai/	web	403	dead
+https://planet4589.org/space/	web	200	alive
+https://starlink.sx/	web	200	alive
+https://tesla-api.io/	web	0	unreachable
+https://tesla-api.timdorr.com/	web	200	alive
+https://thespacedevs.com/llapi	web	200	alive
+https://waitbutwhy.com/2017/04/neuralink.html	web	200	alive
+https://www.boringcompany.com/	web	200	alive
+https://www.flightclub.io/	web	308	alive
+https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-K&dateb=&owner=include&count=40	edgar	200	alive
+https://www.spacex.com/updates/	restricted:Akamai 反爬 403（R11 三路实测）	None	restricted
+https://www.spacex.com/vehicles/falcon-9/	restricted:Akamai 反爬 403（R11 三路实测）	None	restricted
+https://www.spacex.com/vehicles/starship/	restricted:Akamai 反爬 403（R11 三路实测）	None	restricted
+https://www.tessie.com/	web	200	alive
+https://x.ai/	web	0	unreachable
