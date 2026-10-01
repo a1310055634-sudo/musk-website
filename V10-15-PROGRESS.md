@@ -19,7 +19,7 @@
 | N03 | 引语核验 II＋口径审计＋复核声明上站 | complete | v10.3.0 | 9ec238d | snowflake 22/22 match+注记零缺失；人工抽样 stockanalysis 2/2 逐字吻合；未覆盖 101 块逐条归因落盘；双语探针（quotes 100 卡/primary 引文行 100% 配译文）；声明上站 primary+quotes（纪律 D 门槛达成）；探针 6/6 |
 | N04 | 资源核活复测＋元数据升级（36 条刷新） | complete | v10.4.0 | be988ed | 36 条零死链（N01 复用+api 8/8）、checked 全刷 2026-10-02、stars 漂移 4 条同步、弃收件重验维持留档（tesla Akamai/SAE JS 壳）；validate 过 verify 9/9 |
 | N05 | 早期年代 I：访谈 2003–2012（161 场库过滤） | complete | v10.5.0 | ee61ffb | 实测 9 场仅 wired-musk-2008 有逐字稿（60-minutes-2012 判断修正降级）；立条 i2008-08-05（名句原始出处，访谈 42→43 索引 319）；8 场留档；探针 8/8 |
-| N06 | 早期年代 II：文档馆补空（DEFM14A 等） | pending | — | — | — |
+| N06 | 早期年代 II：文档馆补空（DEFM14A 等） | complete | v10.6.0 | 697c775 | +1 份 d2016-10-12 SolarCity 合并委托书马斯克回避表决三段逐字（文档 18→19 索引 320）；其余候选受限留档；bump 自动前滚版落地；探针 8/8 |
 | N07 | X 帖 2018–2019 回捞（镜像下限实测） | pending | — | — | — |
 | N08 | email 库消化 I（Twitter 收购私信/OpenAI 证物） | pending | — | — | — |
 | N09 | email 库消化 II（生产冲刺信等，清账） | pending | — | — | — |
@@ -83,3 +83,13 @@
 - **验证**：verify 9/9（38 页/索引 319）；探针 8/8；版本三件套 10.4.0→10.5.0（三步法+前滚至 10.5.0）；sync-changelog 214 条；EPUB 224,144B；修订史 207 锚点（访谈 43 入轨）。
 - **提交**：成果 `ee61ffb`（v10.5.0）；`b5b43c9`（空回填）+本补正提交共同构成第二提交。
 - **下一轮预告**：N06 早期年代 II：文档馆补空（v10.6.0）——EDGAR 直读优先（2016 SolarCity DEFM14A recusal 段为主目标）；tesla.com 博客/web.archive 本机受限试服务端读取器；+2~4 份或逐项留档弃收。
+
+## 第 6 轮工作记录（N06 早期年代 II：文档馆补空）— complete（2026-10-02）
+
+- **+1 份入册（文档 18→19，索引 319→320）**：**d2016-10-12**「SolarCity Form DEFM14A（合并委托书 · 马斯克回避表决记录）」——EDGAR 备案 0001193125-16-736379（被收购方 SolarCity CIK 1408356 备案）。「Background of the Merger」章三段逐字摘录：董事会回避决定 / 执行离席（recused themselves and left the meeting）/ 终局表决（absent, having recused themselves 下批准合并协议）——关联交易治理争议的第一手程序证据，doc-article 三段 EN+zh 对照，revisions 208 锚点（新文档入轨）。
+- **其余候选处置**：2016-04-21 年度委托书全文无 recusal 措辞不立；tesla.com 博客/web.archive 双受限、2013 爬坡信需媒体双源——留档 EXPANSION（重验条件不变）。
+- **检索坑**：合并委托书在被收购方 CIK 名下（按公司名搜索修正，猜 CIK 误中匹兹堡同名公司）。
+- **bump 脚本重构自动前滚版**（v10n06-bump.py：运行后自动滚正则到 NEW）——五轮档位坑终局解；账本回填用 Write 工具（N05 教训执行）。
+- **验证**：verify 9/9（38 页/索引 320）；探针 8/8（tools/v10n06-probe.js 端口 9390）；版本三件套 10.5.0→10.6.0（15 span）；sync-changelog 215 条；EPUB 225,293B。
+- **提交**：成果 `697c775`（v10.6.0）；本回填+revisions+EPUB 重刷为第二提交。
+- **下一轮预告**：N07 X 帖 2018–2019 回捞（v10.7.0）——按月切片管线改年份回捞镜像 2018/2019（实测镜像下限）；候选 Falcon Heavy 首飞日系列/funding secured 案发周/Starlink 首批；+2~4 卡或如实留档。
