@@ -141,6 +141,14 @@ for (label, aid) in lifetimes.keys():
     counts[label] = counts.get(label, 0) + 1
 count_str = ' / '.join(f'{v}' for v in counts.values())
 
+# 导航单一来源：模板内嵌 site-nav masthead（V9-20 R12 治本——此前每次重跑本生成器
+# 都会把 site-nav.py 注入的报头冲掉，R10/R11 连续两轮回归同一处）。
+import importlib.util as _iu
+_spec = _iu.spec_from_file_location('site_nav', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'site-nav.py'))
+_nav = _iu.module_from_spec(_spec)
+_spec.loader.exec_module(_nav)
+MASTHEAD = _nav.build_masthead('revisions.html')
+
 html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -165,6 +173,7 @@ html = f'''<!DOCTYPE html>
 </style>
 </head>
 <body>
+{MASTHEAD}
 <div class="rv-page">
   <a class="rv-back" href="index.html">← 返回网站主页 / Back to site</a>
   <header class="rv-head">
@@ -177,6 +186,7 @@ html = f'''<!DOCTYPE html>
   </table>
   <p class="rv-foot">本页由 tools/build-revisions.py 自动生成（解析 git log），数据完全可复现 · 非官方学习型网站 · <a href="primary.html" style="color:var(--accent)">言行实录 →</a> · <a href="search.html" style="color:var(--accent)">第一手检索 →</a></p>
 </div>
+<script src="app.js"></script>
 </body>
 </html>'''
 

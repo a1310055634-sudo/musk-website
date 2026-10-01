@@ -2,6 +2,17 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v9.2.0 — 2026-10-01 · V9-20 R12/20：开源项目资源（opensource 2→6，tesla-api.io 死链判定证伪）
+
+**主题包成果（V9-20 R12 · 资源板块 +6 条）**
+- **+6 条入库（opensource 2→6 · community 2→3 · tools 4→5，全站资源 18→24，索引 300→306）**：timdorr/tesla-api（2,065★ MIT，2026-03 活跃，近十年非官方 API 文档+Ruby gem）/ r-spacex/SpaceX-API（10,912★ Apache-2.0，维护者已存档 2024-08）/ sparky8512/starlink-grpc-tools（710★ Unlicense，2026-09 活跃，星链终端 gRPC 遥测）/ tesla-api.io 社区文档站（2024-01 起停更）/ r/SpaceX 社区维基（发射编年史与 FAQ，非官方）/ Tessie（商业托管路线代表，与 Teslamate 自托管互为两端）。
+- **R10 死链判断证伪（重要重验）**：tesla-api.io 此前本机 DNS ENOTFOUND（R10 留档疑似死链）——本轮独立解析发现本机 UDP DNS（8.8.8.8/1.1.1.1）全部被墙不可用，改经服务端读取器核活 **200 且站点在线**（自注 2024-01 起弃用、由官方文档接管，deprecated ≠ 下线）→ 结论为**本地运营商 DNS 污染而非死链**，按「停更」收录并卡内注明判定过程。
+- **核活路径如实注记**：GitHub 三仓库 api.github.com 直读（stars/最近提交/许可/存档态）；tesla-api.io 与 Reddit wiki 经服务端读取器 200（本机 curl 000/被墙），Tessie 直连 200。
+- **治本修复 revisions.html 导航回归（R10/R11 连续两轮同处回归）**：build-revisions.py 内联模板从不包含 site-nav 报头，每次重跑都会冲掉导航注入——本轮在模板内直接嵌入 `build_masthead('revisions.html')` + app.js（导航单一来源原则），此后重跑不再回归；本轮探针新增「revisions.html 导航在册」断言防复发。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 306）；CDP 探针（断言数见账本）；node --check 通过；版本三件套 9.1.0→9.2.0（span 替换计数在案）；EPUB 重跑。本轮仅本地提交，不推送。
+
 ## v9.1.0 — 2026-10-01 · V9-20 R11/20：官方与标准类资源（official 2→10，核活三路法）
 
 **主题包成果（V9-20 R11 · 资源板块 +8 条全落官方与标准类）**

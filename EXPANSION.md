@@ -1,5 +1,11 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **R12 开源项目资源（2026-10-01 建档 +6 条，opensource 2→6/community 2→3/tools 4→5，资源 18→24，索引 306）**：timdorr/tesla-api（2,065★ MIT 2026-03 活跃）/ r-spacex/SpaceX-API（10,912★ Apache-2.0，**维护者已存档 2024-08**，仓库态如实标「存档」）/ sparky8512/starlink-grpc-tools（710★ Unlicense 2026-09 活跃）/ tesla-api.io 社区文档站 / r/SpaceX 社区维基 / Tessie（商业托管路线）。GitHub 仓库全走 api.github.com 串行（stars/最近提交/许可/存档态四字段实测）。
+> - **R10「tesla-api.io 疑似死链」判断证伪（重要重验结论）**：本机 UDP DNS（8.8.8.8/1.1.1.1 直连查询）全部超时不可用——**独立 DNS 解析在本机不可行**；改经服务端读取器核活 **HTTP 200 且站点在线**（自注 2024-01 起弃用、由 Tesla 官方文档接管，deprecated ≠ 下线）。结论：R10 的 ENOTFOUND 为**本地运营商 DNS 污染**（同 wikipedia 污染机制），非死链。按「停更」收录，卡内注明完整判定过程。
+> - **r/SpaceX wiki**：old.reddit.com 本机 curl 000（Reddit 反爬），服务端读取器 200 内容到手（wiki index），收录并注明核活路径。
+> - **R12 择主要原则执行记录**：Starlink GitHub 搜索按星数取 top——Look4Sat（卫星追踪 Android，与马斯克系弱相关不收）、Subaru StarLink（同名不同司，斯巴鲁车载系统，**与 SpaceX/Tesla 无关**不收）、SmoothWAN（通用组网不收）等均甄别排除；Tesla API 生态 Teslamate（R10 已收）/Tessie（本轮收）成对呈现托管vs自托管两路线。
+> - **R13 候选不变**：en.wikipedia.org（DNS 污染，服务端读取器本轮未试——留给 R13）、Reuters/AP 专题页、媒体档案库；R13 起注意甄别同名项目（Starlink-FI 为学术攻防研究、subaru-starlink 为斯巴鲁）。
+
 > **R11 官方与标准类资源（2026-10-01 建档 +8 条，official 2→10，资源 10→18，索引 300）**：核活方法论升级为**三路法**——浏览器 UA curl → WebFetch → 服务端读取器（web_reader，当日恢复可用）逐级复核；7 条经服务端读取器核活（官方 meta/正文到手，**卡内 note 如实注明核活路径，不冒充直连**），The Boring Company 为直连 200。SpaceX 官网三页（starship / falcon-9 / updates）/ developer.tesla.com（Fleet API）/ neuralink.com/patient-registry / openai.com 2015 官宣文 / x.ai 全部入册。COMPANIES_VOCAB 增 OpenAI 实体（仅资源条目，检索过滤自动透传）。
 > - **重验结果（对应 R10 留档）**：spacex.com / developer.tesla.com / neuralink.com / openai.com 四站重验成功入册；**tesla.com 全站维持不可核活**（curl 403 / WebFetch 403 / 服务端读取器亦被 Akamai 拦——All Our Patent Are Belong To You 博文、/nacs、/impact、/ownersmanuals 四 URL 全试），重验条件=用户环境实访或代理路径。
 > - **弃收留档①SAE J3400（NACS 标准文本）**：检索确认标准存在（J3400/2_202504 连接器与插座尺寸 / J3400/1 适配器安全，sae.org 官方公告 2025-05-28），但 sae.org 全站 JS 壳——构造 URL（/standards/content/j3400_202511/）curl 虽 200 却无法确认内容非软页，connect.sae.org 根页实为职业培训页；按「宁缺毋滥」不入。重验条件=用户环境浏览器实访 saemobilus.sae.org / connect.sae.org 定位 J3400 产品页并取得标准号+标题后入库（companies=[Tesla]，note 注明全文付费）。

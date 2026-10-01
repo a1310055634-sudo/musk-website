@@ -3947,6 +3947,58 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "r-tesla-api-io",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "tesla-api.io · Tesla API 社区文档",
+  "q": "长期被社区引用的 Tesla JSON API 非官方文档站：鉴权、车辆指令与遥测端点的参考。",
+  "zh": "The long-cited unofficial reference for Tesla's JSON API: auth, vehicle commands and telemetry endpoints.",
+  "bg": "官方 Fleet API 之前的社区文档事实标准：读懂第三方 Tesla API 生态的历史与端点语义。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-timdorr-tesla-api",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "timdorr/tesla-api · 非官方 API 文档与 Ruby 库",
+  "q": "社区维护近十年的 Tesla JSON API 非官方文档与 Ruby gem：第三方集成的起点坐标。",
+  "zh": "Nearly a decade of community-maintained unofficial Tesla JSON API docs and a Ruby gem — the starting coordinate of third-party integrations.",
+  "bg": "与官方 vehicle-command 库互为对照：官方协议之外社区实测口径的活档案。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-r-spacex-api",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "r-spacex/SpaceX-API · 社区发射数据 REST API",
+  "q": "r/SpaceX 社区维护的 SpaceX 数据开源 REST API：发射、火箭、飞船与星链的结构化接口（已存档）。",
+  "zh": "The r/SpaceX community's open REST API for SpaceX data: structured endpoints for launches, rockets, capsules and Starlink (archived).",
+  "bg": "发射时间线交叉核对的结构化数据源；存档前仍是社区引用最广的 SpaceX 数据接口。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-starlink-grpc-tools",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "sparky8512/starlink-grpc-tools · 星链终端遥测",
+  "q": "读取 Starlink 用户终端 gRPC 遥测的社区脚本集：状态、吞吐与可观测性数据的自采通道。",
+  "zh": "Community scripts for reading a Starlink dish's gRPC telemetry — a self-collected channel for status, throughput and observability data.",
+  "bg": "星链观测从「看别人的仪表盘」到「自己采数据」的代表项目，与 starlink.sx 可视化互补。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "r-elonmuskarchive",
   "pg": "resources.html",
   "t": "社区资源",
@@ -3970,6 +4022,19 @@ window.SEARCH_INDEX = [
   "bg": "流传最广的 Neuralink 科普定稿，2017 年创立期的第一手侧写。",
   "c": [
    "Neuralink"
+  ]
+ },
+ {
+  "id": "r-r-spacex-wiki",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "r/SpaceX 社区维基",
+  "q": "r/SpaceX 版区维基：发射编年史、任务清单与 FAQ 的社区协作整理（非官方）。",
+  "zh": "The r/SpaceX subreddit wiki: community-maintained launch chronicles, mission lists and FAQs (unofficial).",
+  "bg": "发射编年史与任务统计的社区口径，与本站时间轴互为民间对照。",
+  "c": [
+   "SpaceX"
   ]
  },
  {
@@ -4022,6 +4087,19 @@ window.SEARCH_INDEX = [
   "bg": "Starlink 规模与覆盖最直观的独立量化视图，非官方口径标注清晰。",
   "c": [
    "SpaceX"
+  ]
+ },
+ {
+  "id": "r-tessie",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Tessie · Tesla 遥测与自动化服务",
+  "q": "商业 Tesla 数据与自动化平台：遥测、充电管理与存储 API 的托管服务（非官方）。",
+  "zh": "A commercial Tesla data & automation platform: hosted telemetry, charge management and storage API (unofficial).",
+  "bg": "Tesla API 生态商业托管路线的代表，与 Teslamate 的自托管路线互为两端。",
+  "c": [
+   "Tesla"
   ]
  }
 ];
