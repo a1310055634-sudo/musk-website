@@ -539,6 +539,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2013-05-29",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2013.05.29",
+  "s": "「那份自由感」",
+  "q": "“Even if you only drive your car, commuting to work well within the range of the car and a few errands and stuff, you always want that sense of freedom that if I had to, I could get in this car and go from Boston to DC or something.”",
+  "zh": "",
+  "bg": "被问到「里程焦虑」时，他给出的答案是自由感而非数字：即便只在市内通勤的人，也想知道自己随时可以开车从波士顿去华盛顿。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "e2013-08-12",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1565,6 +1578,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2019-02-19",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2019.02.19",
+  "s": "「今年Feature Complete级自动驾驶，我确定」",
+  "q": "“…there’s feature complete full self-driving this year with certainty. This is something that we control and I managed Autopilot and engineering directly every week in detail, so I’m certain of this.”",
+  "zh": "",
+  "bg": "被问到 Autopilot 路线图时，他押上个人背书——每周亲自过问 Autopilot 工程——并承诺年内达成 feature complete 级全自动驾驶。（语音转写为平文本，大小写与标点为编者所加。）",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "e2019-03-03",
   "pg": "primary.html",
   "t": "言行实录",
@@ -1709,6 +1735,19 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX",
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "i2019-06-13",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2019.06.13",
+  "s": "「未涉之地必然有失败」",
+  "q": "“If you’re going to try something innovative, you are in unexplored territory, so the odds that something will go wrong are pretty high. … Uncharted territory will result in failures necessarily — or you’re not trying hard enough.”",
+  "zh": "",
+  "bg": "在 E3 Coliseum 对谈中谈创新与失败：做创新的事就等于走进无人区，失败概率天然很高。（转写为全大写形态，大小写为编者归一。）",
+  "c": [
+   "综合"
   ]
  },
  {
@@ -2217,6 +2256,19 @@ window.SEARCH_INDEX = [
    "Tesla"
   ],
   "ev": "e2019-04-22"
+ },
+ {
+  "id": "i2021-09-28",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2021.09.28",
+  "s": "「就是觉得很酷，来吧」",
+  "q": "“I think it’d be just freaking cool. I mean, come on — humanity, let’s have a base on the moon.”",
+  "zh": "",
+  "bg": "被问及月球基地的意义，他跳过科学论证先说大实话：就是觉得很酷，人类得去 represent。（语音转写为平文本，大小写与标点为编者所加。）",
+  "c": [
+   "综合"
+  ]
  },
  {
   "id": "e2021-10-25",

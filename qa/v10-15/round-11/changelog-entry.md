@@ -1,0 +1,15 @@
+## v10.11.0 — 2026-10-02 · V10-15 N11/15：访谈保留池清账（+4 条，43→47）
+
+**主题包成果（V10-15 N11 · 第一手信息线）**
+- **保留池逐场处置（5 场：4 立条 + 1 留档）**：
+  ①**i2013-05-29** AllThingsD D11——「那份自由感」："Even if you only drive your car…you always want that sense of freedom that if I had to, I could get in this car and go from Boston to DC."（里程焦虑的「自由感」答案）；
+  ②**i2019-02-19** ARK Invest 播客——「今年 Feature Complete 级 FSD，我确定」（每周直接管 Autopilot 工程的个人背书）——**承诺对账素材**：当年未按年兑现（FSD beta 2020-10 推送），卡内如实注记；
+  ③**i2019-06-13** E3 Coliseum——「未涉之地必然有失败——否则就是你还不够拼」（与 i2008-08-05「失败即数据」弧线互链）；
+  ④**i2021-09-28** Code Conference 2021——「就是觉得很酷，来吧——人类，我们在月球上建个基地吧」（+Branson/Bezos 亚轨道点评）。
+  ⑤**lex-fridman-438**：镜像 transcript 端点 404（无档），留档待外部逐字源（lexfridman.com 官网）。
+- **ASR 平面化口径**：code/ark 两场转写为平文本/全大写形态——引语句大小写与标点为编者所加，卡内注明（R05 MKBHD 先例）。
+- 保留池状态：**5 场全部有归宿（4 立条+1 留档），池清零**；60-minutes-2012 已在 N05 降级留档（口径不变）。访谈 43→47，索引 335→339，修订史 227 锚点（访谈 47 入轨）。
+
+**质量门**
+- verify.py 9 项全绿（38 页 / 索引 339）；CDP 探针 tools/v10n11-probe.js 9/9（48 卡/六件套/逐字/ASR 注记/对账注记/互链/邻居关系断言[批次式排列口径校准]/检索 freaking/390）；版本三件套 10.10.0→10.11.0；EPUB 重跑（233,848 B）。本轮仅本地提交，不推送。
+
