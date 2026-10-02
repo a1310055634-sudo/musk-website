@@ -680,7 +680,22 @@ window.SEARCH_INDEX = [
   "bg": "",
   "c": [
    "综合"
-  ]
+  ],
+  "ev": "e2015-11-22"
+ },
+ {
+  "id": "ev-e2015-11-22",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2015.11.22",
+  "s": "OpenAI：从「10 亿承诺」到「最后一根稻草」",
+  "q": "创立承诺、控制权之争、停止资助——六年间三封邮件画出马斯克与 OpenAI 从共同创立到对簿公堂的完整弧线。",
+  "zh": "Founding promise, control fight, funding cutoff — three emails across six years trace the full arc from co-founding OpenAI to suing it.",
+  "bg": "2015.11.22 邮件：宣布口径应为「以 10 亿美元资助承诺起步」，差额由马斯克补齐；比 1 亿大以免「相对谷歌/FB 听起来毫无希望」。 · 2017.09.13 邮件：马斯克要求「毫无保留的初始控制权」与董事会任命权，称这会很快改变。 · 2017.09.21 邮件（Honest Thoughts 九分钟后）：「这是最后一根稻草」——停止资助直至结构承诺；马斯克 2018 年 2 月退出董事会。 · 2024 年马斯克起诉；OpenAI 公开邮件反证；2026 年联邦法院判决在案（FindLaw 引 2017 邮件）。",
+  "c": [
+   "xAI"
+  ],
+  "ev": "e2015-11-22"
  },
  {
   "id": "e2015-12-02",
@@ -1103,7 +1118,8 @@ window.SEARCH_INDEX = [
   "bg": "",
   "c": [
    "综合"
-  ]
+  ],
+  "ev": "e2015-11-22"
  },
  {
   "id": "d2017-09-21",
@@ -1116,7 +1132,8 @@ window.SEARCH_INDEX = [
   "bg": "",
   "c": [
    "综合"
-  ]
+  ],
+  "ev": "e2015-11-22"
  },
  {
   "id": "e2017-09-29",
@@ -3276,7 +3293,8 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
-  ]
+  ],
+  "ev": "e2026-02-10"
  },
  {
   "id": "c2023-11-04",
@@ -4039,7 +4057,22 @@ window.SEARCH_INDEX = [
   "bg": "Two and a half years in, he sizes xAI against rivals five to twenty years older: number one in voice, image and video generation, plus Grokipedia positioned as an “Encyclopedia Galactica” beyond Wikipedia.",
   "c": [
    "xAI"
-  ]
+  ],
+  "ev": "e2026-02-10"
+ },
+ {
+  "id": "ev-e2026-02-10",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2026.02.10",
+  "s": "xAI All-Hands：两岁半的「幼儿」开出第一张成绩单",
+  "q": "对标成立五到二十年的对手，他给出 xAI 的第一份全景成绩单：语音/图像/视频生成第一、Grokkipedia 对标维基百科、10 万张 H100 集群——并把「银河百科」设为下一章。",
+  "zh": "Measuring xAI against rivals five to twenty years older, he files the first full report card: #1 in voice, image and video generation; Grokipedia beyond Wikipedia; a 100,000-H100 cluster — with the \"Encyclopedia Galactica\" as the next chapter.",
+  "bg": "自评：语音、图像与视频生成第一；图像与视频生成量「超过所有对手之和」。 · Grok 420 预测模型在预测基准上击败其他 AI；Grokkipedia 定位为超越维基百科的「银河百科全书」。 · 首个 10 万张 H100 训练集群；愿景宣言延续到 3 月的 Terafab 芯片厂发布（三公司合力）。",
+  "c": [
+   "xAI"
+  ],
+  "ev": "e2026-02-10"
  },
  {
   "id": "e2026-03-21",
@@ -4054,7 +4087,8 @@ window.SEARCH_INDEX = [
    "Tesla",
    "SpaceX",
    "xAI"
-  ]
+  ],
+  "ev": "e2026-02-10"
  },
  {
   "id": "e2026-07-22",

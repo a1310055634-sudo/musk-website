@@ -236,6 +236,13 @@ window.COMPANIES_V7 = {
      }
     },
     {
+     "id": "spacex-launches-page",
+     "name": {
+      "zh": "SpaceX 官网 · 发射列表",
+      "en": "SpaceX (official) — Launches list"
+     }
+    },
+    {
      "id": "spacex-starship",
      "name": {
       "zh": "SpaceX 官网 · Starship 星舰",
@@ -261,13 +268,6 @@ window.COMPANIES_V7 = {
      "name": {
       "zh": "sparky8512/starlink-grpc-tools · 星链终端遥测",
       "en": "sparky8512/starlink-grpc-tools — Starlink dish telemetry"
-     }
-    },
-    {
-     "id": "r-spacex-wiki",
-     "name": {
-      "zh": "r/SpaceX 社区维基",
-      "en": "r/SpaceX community wiki"
      }
     }
    ]
@@ -353,6 +353,22 @@ window.COMPANIES_V7 = {
      "title": {
       "zh": "xAI 收购 X——信息流与模型合并成一家",
       "en": "xAI acquires X — the feed and the model become one"
+     }
+    },
+    {
+     "id": "e2015-11-22",
+     "date": "2015.11.22",
+     "title": {
+      "zh": "OpenAI：从「10 亿承诺」到「最后一根稻草」",
+      "en": "OpenAI: from the \"$1B commitment\" to \"the final straw\""
+     }
+    },
+    {
+     "id": "e2026-02-10",
+     "date": "2026.02.10",
+     "title": {
+      "zh": "xAI All-Hands：两岁半的「幼儿」开出第一张成绩单",
+      "en": "xAI All-Hands: the two-and-a-half-year-old toddler files its first report card"
      }
     }
    ],

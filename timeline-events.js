@@ -4,10 +4,10 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "9.9.0",
-  "nEvents": 14,
-  "nRecords": 265,
-  "nAbsorbed": 39,
+  "version": "10.14.0",
+  "nEvents": 16,
+  "nRecords": 293,
+  "nAbsorbed": 45,
   "absorbedByEvent": {
    "e2002-10-03": 1,
    "e2006": 2,
@@ -22,7 +22,9 @@ window.TIMELINE_V7 = {
    "e2021-10-25": 3,
    "e2021-11-26": 5,
    "e2024-01-29": 5,
-   "e2019-04-22": 4
+   "e2019-04-22": 4,
+   "e2015-11-22": 3,
+   "e2026-02-10": 3
   },
   "source": "tools/events-data.py + search-index.js"
  },
@@ -89,6 +91,19 @@ window.TIMELINE_V7 = {
    "q": "Flight 3 失败——两级再撞；他站在残骸中发话「I will never give up」（账本）。",
    "zh": "",
    "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "i2008-08-05",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2008.08.05",
+   "s": "「乐观悲观，滚他妈的；我们会让它发生」",
+   "q": "“Optimism, pessimism, fuck that; we're going to make it happen. As God is my bloody witness, I'm hell-bent on making it work.” — “That was the dumbest thing I've ever said.” — “Patience is a virtue, and I'm learning patience. It's a tough lesson.”",
+   "zh": "",
+   "bg": "Falcon 1 已三连败。距离第四次发射——押上公司最后资金、不成则亡的那一炮——还有五周，他接受了 Wired 全年最生猛的一次专访：直面「零比三」战绩、确认 Founder's Fund 的过桥投资，并修正了自己那句著名的「钱只够烧三次」。",
    "c": [
     "SpaceX"
    ]
@@ -328,6 +343,19 @@ window.TIMELINE_V7 = {
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "i2013-05-29",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2013.05.29",
+   "s": "「那份自由感」",
+   "q": "“Even if you only drive your car, commuting to work well within the range of the car and a few errands and stuff, you always want that sense of freedom that if I had to, I could get in this car and go from Boston to DC or something.”",
+   "zh": "",
+   "bg": "被问到「里程焦虑」时，他给出的答案是自由感而非数字：即便只在市内通勤的人，也想知道自己随时可以开车从波士顿去华盛顿。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -687,6 +715,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2016-10-12",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2016.10.12",
+   "s": "SolarCity Form DEFM14A（合并委托书 · 马斯克回避表决记录）",
+   "q": "“…that Messrs. Elon Musk and Antonio Gracias, as a result of their service on the SolarCity Board, should recuse themselves from any vote by the Tesla Board on matters relating to a potential acquisition of SolarCity, including evaluation, negotiation and approval of the economic terms of any such acquisition. The Tesla Board also determined that the members of the Tesla Board other than Messrs. Elon Musk and Antonio Gracias should have the opportunity to deliberate with respect to any potential SolarCity transaction outside the presence of Messrs. Elon Musk and Gracias.”",
+   "zh": "",
+   "bg": "",
+   "c": [
+    "SolarCity",
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2016-10-26",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1033,6 +1075,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2018-06-17",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2018.06.17",
+   "s": "「破坏者」全员信（马斯克致 Tesla 全体员工）",
+   "q": "“…a Tesla employee who had conducted quite extensive and damaging sabotage to our operations.”",
+   "zh": "",
+   "bg": "",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2018-07-15",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1082,6 +1137,20 @@ window.TIMELINE_V7 = {
    "bg": "推文发出整整一周后，公司才第一次以监管文件回应「funding secured」——而这份 8-K 的核心信息恰是反向的：所谓「资金已到位」的交易，连一份正式提案都还没有收到。三位董事组成的特别委员会拿到的是代表董事会的全部权力，交易审批权与马斯克本人被制度性隔开。对照四天前那封从容的私有化方案信（d2018-08-07），这份公告是公司在监管口径上踩下的急刹车。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "p2018-08-14",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2018.08.14",
+   "s": "@elonmusk",
+   "q": "@Tesla I’m excited to work with Silver Lake and Goldman Sachs as financial advisors, plus Wachtell, Lipton, Rosen & Katz and Munger, Tolles & Olson as legal advisors, on the proposal to take Tesla private.",
+   "zh": "@Tesla：我很高兴与银湖和高盛出任财务顾问、Wachtell, Lipton, Rosen & Katz 与 Munger, Tolles & Olson 出任法律顾问，共同推进把 Tesla 私有化的提案。",
+   "bg": "背景/后续：私有化提案的顾问阵容官宣帖（p2018-08-07「funding secured」八天后）——与四大机构名单一并披露。此后 SEC 就马斯克推文展开调查，9 月末和解、马斯克卸任董事长；私有化提案最终搁置。镜像逐字存档 x-1029171381584314368；snowflake 解码与镜像日期一致。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -1190,6 +1259,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2019-02-19",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2019.02.19",
+   "s": "「今年Feature Complete级自动驾驶，我确定」",
+   "q": "“…there’s feature complete full self-driving this year with certainty. This is something that we control and I managed Autopilot and engineering directly every week in detail, so I’m certain of this.”",
+   "zh": "",
+   "bg": "被问到 Autopilot 路线图时，他押上个人背书——每周亲自过问 Autopilot 工程——并承诺年内达成 feature complete 级全自动驾驶。（语音转写为平文本，大小写与标点为编者所加。）",
+   "c": [
+    "综合"
+   ]
+  },
+  {
    "id": "e2019-03-03",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1200,6 +1282,20 @@ window.TIMELINE_V7 = {
    "bg": "Crew Dragon's uncrewed Demo-1 launched March 2 on a Falcon 9 from LC-39A — the same pad that sent Apollo 11. The mission's single objective: prove a commercial spacecraft could autonomously dock with the International Space Station. No crew, no manual override — just software, sensors, and physics.",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "p2019-03-14",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2019.03.14",
+   "s": "@elonmusk",
+   "q": "S3XY https://t.co/3ECtKEL2BH",
+   "zh": "S3XY（Sexy 谐音：Model S、3、X、Y 四车型字母拼合）。",
+   "bg": "背景/后续：Model Y 发布日（加州 Hawthorne 设计中心发布会当晚）的命名梗帖——四车型字母恰好拼出「S3XY」。次日在评论区自曝「发布会其实藏了彩蛋但没人发现」。镜像逐字存档 x-1106063248581894144；snowflake 解码与镜像日期一致。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -1276,6 +1372,33 @@ window.TIMELINE_V7 = {
    "q": "“The Court has now granted the motion and entered the proposed Order amending the Final Judgment. Accordingly, the SEC's contempt motion, Dkt. No. 18, is denied as moot.”",
    "zh": "本院已批准该动议并录入拟议的修正终审判决令。故 SEC 的藐视动议（案卷编号 18）因失去标的而驳回。（Nathan 法官，5 月 1 日令）",
    "bg": "On April 5, Judge Nathan ordered the parties “to meet and confer for at least one hour in an effort to resolve the pending motion to hold Mr. Musk in contempt, as well as any modifications to the consent judgment.” On April 26 they filed a consent motion to amend (Dkt. 46): a rewritten clause in exchange for dropping the contempt fight.",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "p2019-05-25",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2019.05.25",
+   "s": "@elonmusk",
+   "q": "@Erdayastronaut @SpaceX Super proud of SpaceX propulsion/test/materials team! One of hardest technology problems. New high temp superalloy & internal foundry needed to make it work. Foundry iteration is how to get there fast. Big congrats to the whole team!",
+   "zh": "@Erdayastronaut @SpaceX 为 SpaceX 推进/测试/材料团队感到无比自豪！这是最难的工程技术难题之一。为了让它成事，我们用了新的高温超合金和自建铸造厂。铸造厂快速迭代就是通往成功的路。向整个团队致以热烈祝贺！",
+   "bg": "背景/后续：Starlink 首批 60 星（2019-05-24 发射）次日致团队帖：公开感谢推进/测试/材料三线，并披露关键工艺决策——新型高温超合金与自建内部铸造厂（Raptor 发动机量产路线的核心）。镜像逐字存档 x-1132429010514788352；snowflake 解码与镜像日期一致。",
+   "c": [
+    "SpaceX",
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "i2019-06-13",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2019.06.13",
+   "s": "「未涉之地必然有失败」",
+   "q": "“If you’re going to try something innovative, you are in unexplored territory, so the odds that something will go wrong are pretty high. … Uncharted territory will result in failures necessarily — or you’re not trying hard enough.”",
+   "zh": "",
+   "bg": "在 E3 Coliseum 对谈中谈创新与失败：做创新的事就等于走进无人区，失败概率天然很高。（转写为全大写形态，大小写为编者归一。）",
    "c": [
     "综合"
    ]
@@ -1544,6 +1667,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2020-09-20",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2020.09.20",
+   "s": "「冲刺创纪录季度」全员信（马斯克致 Tesla 员工）",
+   "q": "“We have a shot at a record quarter for deliveries, but we’ll have to rally hard to achieve it. Please consider vehicle deliveries to be the absolute top priority.”",
+   "zh": "",
+   "bg": "",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2020-09-22",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1565,6 +1701,19 @@ window.TIMELINE_V7 = {
    "q": "Battery Day：4680 电池（能量 5 倍/功率 6 倍）与 56%/kWh 降本路线图，附 2.5 万美元车型承诺（账本）。",
    "zh": "",
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "d2020-12-01",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2020.12.01",
+   "s": "「舒芙蕾与大锤」盈利警告全员信（马斯克致 Tesla 员工）",
+   "q": "“…our profitability is very low at around 1%.”",
+   "zh": "",
+   "bg": "",
    "c": [
     "Tesla"
    ]
@@ -1688,6 +1837,19 @@ window.TIMELINE_V7 = {
    "bg": "Tim Dodd 带镜头走进 Starbase，两小时里马斯克把一次「看火箭」变成他制造学最完整的公开课——五步算法与 Raptor 制造学在同一天讲透。",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "i2021-09-28",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2021.09.28",
+   "s": "「就是觉得很酷，来吧」",
+   "q": "“I think it’d be just freaking cool. I mean, come on — humanity, let’s have a base on the moon.”",
+   "zh": "",
+   "bg": "被问及月球基地的意义，他跳过科学论证先说大实话：就是觉得很酷，人类得去 represent。（语音转写为平文本，大小写与标点为编者所加。）",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -1830,6 +1992,19 @@ window.TIMELINE_V7 = {
    "q": "“You are free to tweet 'is Twitter dying?' or anything else about Twitter – but it's my responsibility to tell you that it's not helping me make Twitter better in the current context.” — his reply, forty seconds later: “What did you get done this week?” “I'm not joining the board. This is a waste of time. Will make an offer to take Twitter private.”",
    "zh": "你有权发推说「Twitter 正在死吗」或任何关于 Twitter 的话——但我有责任告诉你：在当前语境下，这对把 Twitter 做好没有帮助。——他四十秒后回复：「你这周干了什么？」「我不进董事会了。这是浪费时间。我会发起要约把 Twitter 私有化。」",
    "bg": "On April 7 the two CEOs were still trading engineer-to-engineer warmth — he wrote “I just want Twitter to be maximum amazing,” and Agrawal answered: “treat me like an engineer instead of a CEO and let's see where we get to.” The break came on April 9, when he tweeted “Is Twitter dying?” — and Agrawal answered in private.",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "d2022-04-09",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.04.09",
+   "s": "马斯克致 Agrawal 短信（「你这周做成了什么？」）",
+   "q": "“What did you get done this week? … I’m not joining the board. This is a waste of time. Will make an offer to take Twitter private.”",
+   "zh": "",
+   "bg": "",
    "c": [
     "X / Twitter"
    ]
@@ -1990,6 +2165,19 @@ window.TIMELINE_V7 = {
    "bg": "背景/后续：一句「暂时搁置」开启 spam 占比之争，成为 7 月单方撤单与 10 月特拉华互诉的直接引线（Del. Ch. 2022-0613-KSJM），最终以 10 月底强行交割收场（documents.html#d2022-10-27）——这条帖子是把 440 亿合同推向法庭的第一块多米诺（原帖 status/1525049369552048129 · 镜像逐字存档；Reuters 当日报道）。",
    "c": [
     "X / Twitter"
+   ]
+  },
+  {
+   "id": "d2022-05-31",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.05.31",
+   "s": "「回到办公室」邮件（马斯克致 Tesla 行政员工）",
+   "q": "“Everyone at Tesla is required to spend a minimum of 40 hours in the office per week. … If you don’t show up, we will assume you have resigned.”",
+   "zh": "",
+   "bg": "",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -2447,20 +2635,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "p2023-11-04",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2023.11.04",
-   "s": "@elonmusk",
-   "q": "As soon as it's out of early beta, xAI's Grok system will be available to all X Premium+ subscribers.",
-   "zh": "一旦结束早期测试，xAI 的 Grok 系统将面向所有 X Premium+ 订阅用户开放。",
-   "bg": "背景/后续：Grok 首发公告（TechCrunch/BI 记录）；名字出自海因莱因《异乡异客》。",
-   "c": [
-    "X / Twitter",
-    "xAI"
-   ]
-  },
-  {
    "id": "c2023-11-04",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -2682,6 +2856,19 @@ window.TIMELINE_V7 = {
    "q": "“I just want to start off by saying hot d***! I love you guys.” — later that day: humanoid robots “could lift Tesla's market cap to $25 trillion”.",
    "zh": "我只想先说一句：太爽了！我爱你们。——同日晚些时候：人形机器人「可能把 Tesla 的市值推到 25 万亿美元」。",
    "bg": "Delaware had voided his 2018 pay package; the same shareholders he once enraged were asked to re-ratify it, re-elect the board, and approve moving Tesla's incorporation to Texas. He flew in for the vote — and opened like a victory lap even before results were read.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "e2024-06-13-2",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2024.06.13",
+   "s": "Tesla 股东大会（elonmuskarchive.org 官方转写逐字）",
+   "q": "“The goal is to give people hope that there is a path to a fully sustainable global economy. That we are on that path, that we are accelerating that path. Regarding FSD version 12, it’s profound. The rate of improvement is rapid.”",
+   "zh": "目标是让人们相信：通往完全可持续的全球经济有一条路径，我们正在这条路上，而且在加速。至于 FSD v12——影响深远，进步速度飞快。",
+   "bg": "Same-day shareholder meeting after the Delaware vote: Musk frames the mission as hope plus acceleration, and calls FSD v12 “profound”.",
    "c": [
     "Tesla"
    ]
@@ -2921,6 +3108,19 @@ window.TIMELINE_V7 = {
    "c": [
     "SpaceX",
     "X / Twitter"
+   ]
+  },
+  {
+   "id": "e2025-05-29",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2025.05.29",
+   "s": "SpaceX Starship Update at Starbase（elonmuskarchive.org 官方转写逐字）",
+   "q": "“Progress is measured by the timeline to establishing a self sustaining civilization on Mars. That’s how we’re gauging our progress here at Starbase. We need about a million tons to the surface of Mars so that Mars can continue to grow even if the supply ships from Earth stop coming for any reason.”",
+   "zh": "衡量进步的标尺，是建立火星自给文明的时间表——这就是我们在星基地评估进度的方式。我们需要把大约一百万吨送上火星表面，这样即使地球的补给船因任何原因停驶，火星也能继续生长。",
+   "bg": "At the newly incorporated Starbase Texas, he defines progress itself as a countdown to a self-sustaining Mars: about a million tons to the surface, so that civilization survives even if resupply ships from Earth stop coming.",
+   "c": [
+    "SpaceX"
    ]
   },
   {
@@ -3520,6 +3720,177 @@ window.TIMELINE_V7 = {
    "bg": "独立学者口径的发射统计，媒体与业内回查航天数字时的常引来源（非官方）。",
    "c": [
     "综合"
+   ]
+  },
+  {
+   "id": "r-labpadre",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "LabPadre · 星舰 24 小时直播",
+   "q": "博卡奇卡发射场的 24/7 独立直播网络：多机位全天候对准 Starbase 星舰工地。",
+   "zh": "The independent 24/7 webcam network at Boca Chica: multiple cameras pointed at the Starship build site around the clock.",
+   "bg": "星舰「以飞代测」时代的第一手观测源：任何官方口径都能与画面当场对账。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-nasaspaceflight",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "NASASpaceflight · 航天报道站",
+   "q": "以星舰与发射报道深度著称的独立航天媒体，常抢在官方之前披露进度细节。",
+   "zh": "The independent spaceflight outlet known for deep Starship and launch coverage, often ahead of official statements.",
+   "bg": "星舰进度与发射分析的社区权威口径，与本站时间线互为民间对照。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-nsf-forum",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "NSF 论坛 · 航天社区讨论区",
+   "q": "NASASpaceflight 旗下的航天论坛：星舰/发射/进度讨论的社区情报中枢。",
+   "zh": "The NSF-run spaceflight forum: the community intel hub for Starship, launches and progress threads.",
+   "bg": "大量第一手现场信息首发于此（目击、航拍、硬件线索），是观测生态的情报层。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-r-teslamotors-wiki",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "r/teslamotors 社区维基",
+   "q": "Tesla 车主社区维基：常见问题、车型信息与充电指南的社区协作整理（非官方）。",
+   "zh": "The Tesla owners community wiki: FAQs, vehicle info and charging guides, community-maintained (unofficial).",
+   "bg": "车主侧民间口径的入口（与 r/SpaceX 维基同为 Reddit 社区档案形态）。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-everydayastronaut",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Everyday Astronaut · 航天科普站",
+   "q": "Tim Dodd 的航天科普站：发动机对比、发射解读与深度专访（含 2021 星舰基地三部曲专访马斯克）。",
+   "zh": "Tim Dodd space explainer site: engine comparisons, launch breakdowns and deep interviews (incl. the 2021 Starbase interview with Musk).",
+   "bg": "本站已有其 2021 星舰基地专访逐字（i2021-07-30）——科普侧与专访侧的双向入口。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-ringwatchers",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Ringwatchers · 星舰建造追踪",
+   "q": "追踪星舰不锈钢环圈与硬件组装进度的独立数据库：S/N 序列、堆放位置与出厂去向。",
+   "zh": "The independent database tracking Starship ring stacks and hardware: S/N sequence, staging locations and rollout history.",
+   "bg": "「数环圈」社群的量化结晶：星舰硬件账本可与官方口径交叉核对。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-starship-wikibase",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Starship Wiki · 星舰序列号数据库",
+   "q": "社区维护的星舰飞行器数据库：助推器与飞船序列号、飞行历史与分配关系。",
+   "zh": "Community-maintained Starship vehicle database: booster/ship serials, flight history and assignments.",
+   "bg": "S/N 级别的飞行历史结构化数据，是时间线交叉核对的工具层。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-spacex-launches-page",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SpaceX 官网 · 发射列表",
+   "q": "SpaceX 官方发射任务列表：全部任务的官方档案入口。",
+   "zh": "SpaceX official launch mission list: the official archive entry for every mission flown.",
+   "bg": "任务档案的官方入口，与社区发射日历互为对照。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-wikidata-elon-musk",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Wikidata · 马斯克结构化数据条目",
+   "q": "Wikidata 的马斯克结构化数据条目（Q317521）：身份、任职、亲属与公司关系以属性三元组形式开放。",
+   "zh": "Wikidata structured-data item for Musk (Q317521): roles, positions, family and company relations as open triples.",
+   "bg": "结构化事实层（可比对、可引用、可机读），是人物基础事实的开放锚点。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "r-archive-org-search",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Internet Archive · 马斯克资料搜索",
+   "q": "互联网档案馆的马斯克资料检索：文字、音视频的历史存档入口（含访谈与广播片段）。",
+   "zh": "Internet Archive search for Musk materials: the historical entry to texts, audio and video (incl. interviews and broadcasts).",
+   "bg": "历史广播与早期访谈的存档层：很多逐字素材只能在这里回溯。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "r-isaacson-official-page",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "《Elon Musk》官方书页（Isaacson 著）",
+   "q": "Simon & Schuster 官方书页：Walter Isaacson 2023 年传记《Elon Musk》的出版社正典入口。",
+   "zh": "The Simon & Schuster official page for Walter Isaacson's 2023 biography Elon Musk.",
+   "bg": "官方书目口径：书中访谈与引语若有引用争议，出版社页是版本判定的锚点。",
+   "c": [
+    "Tesla",
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-vance-official-page",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "《Elon Musk》官方书页（Ashlee Vance 著）",
+   "q": "HarperCollins/Ecco 官方书页：Ashlee Vance 2015 年传记《Elon Musk》的出版社正典入口。",
+   "zh": "The HarperCollins/Ecco official page for Ashlee Vance's 2015 biography Elon Musk.",
+   "bg": "2015 传记的版本判定锚点：早期 SpaceX/Tesla 叙事被引用时的出处正典。",
+   "c": [
+    "Tesla",
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-reuters-tesla-topic",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Reuters · Tesla 专题页",
+   "q": "路透社的 Tesla 车辆与公司新闻专题页：通讯社口径的滚动档案。",
+   "zh": "Reuters Tesla & Vehicles topic page: the wire-service rolling archive.",
+   "bg": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
+   "c": [
+    "Tesla"
    ]
   }
  ]
