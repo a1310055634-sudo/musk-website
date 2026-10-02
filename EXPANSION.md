@@ -1,5 +1,8 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **N15 缺口清单 v2（2026-10-02 收官盘点，接替 R09 缺口清单）**：①访谈早期断档——镜像 2013 前仅 wired-musk-2008 一场有逐字稿（硬约束），60-minutes-2012/lex-438 待外部逐字源（CBS 官网/lexfridman.com）；②文档馆 2009–2010 博客存档——tesla.com Akamai+web.archive TLS 双受限维持；③非镜像来源引语 101 块待逐条人工核（qa/v10-15/round-03/unmatched-itemized.tsv 逐条注明：other-official 73/earnings-call 20/edgar 6/jre 1/ted 1）；④email 留档候选 30 封逐封双源待续（Twitter 私信余量/OpenAI 诉讼余量/Tesla·SpaceX 余量——清单源 qa/v9-20/round-06/sources/emails.json）；⑤SAE J3400/tesla.com 博文维持用户环境重验条款。全部带重验条件，可被后续轮次核验收录。
+# 扩张包 EXPANSION · 第一手资料方向
+
 > **N09 email 库 47 封归宿清账（2026-10-02 完成）**：①立条 10 封——Acronyms 2010 / Raptor 2021（R06）+ $1B 承诺 2015 / initial-control 2017 / final-straw 2017 / Agrawal 质问 2022（N08）+ sabotage 2018 / record-quarter 2020 / soufflé 2020 / return-to-office 2022（N09）；②在册复用 1 封——Fork in the Road 2022（d2022-11-16，V8 收录）；③**留档候选 30 封**（逐封双源待续，重验条件=镜像底本（web_reader 渲染）+ 媒体/法庭第二源）——Twitter 收购私信余量（dorsey 协议/ellison 10 亿/grimes WW3/benioff/rogan×2/sacks SPV/bret-taylor/durban/gracias/kimbal/first-email-remote/sbf 等）、OpenAI 诉讼余量（altman-my-hero/bait-and-switch/most-hated-men/sutskever×2/tesla-only-path/zero-percent/very-annoying/microsoft-marketing/honest-thoughts）、Tesla 余量（communication-within-2018）、SpaceX leaner-2019、taking-private-2018（p2018-08-07 卡已覆盖同期）；④不立 2 封——Epstein 两封（2012/2013，与商业主线弱相关且涉敏感隐私）。清单源=qa/v9-20/round-06/sources/emails.json。
 
 > **N05 早期年代实测（2026-10-02）**：镜像 2013 前场次 9 场中仅 wired-musk-2008 有逐字稿（已立条 i2008-08-05）；**60-minutes-2012-03-18 transcript 端点 404**——R04/R05「官方转写在档」判断经实测修正，该保留池成员降级「待外部逐字源」（CBS 官网/播出稿），N11 处置时按此口径。其余 7 场（latimes-2003/pbs-2007/churchill-2009/kpcs-2009/charlie-rose-2009/npc-2011/foundation-2012）镜像无档，重验条件=镜像补档或外部逐字源。

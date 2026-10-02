@@ -10,6 +10,26 @@
 
 ---
 
+> **技术增补（四）**：2026-10-02 的 **V10-15 十五轮内容精修（v10.1.0→v11.0.0）已完成（纯本地，未推送）**。接手必读：「V10-15 交接要点」节 + `V10-15-PROGRESS.md`（15 轮全记录）+ `qa/v10-15/`（每轮探针与核对报告）。
+
+---
+
+## 〇-ter、V10-15 交接要点（v11.0.0，2026-10-02 本地收官，待用户推送）
+
+**十五轮成果地图**（细节见 V10-15-PROGRESS.md，qa/v10-15/round-NN/）：
+- **核实主线（N01–N04）**：全站 37 条外链零死链（三路法，本机 DNS 污染判定须服务端交叉确认）；引语逐字机核管线三件（extract/corpus/verify）——X 帖 18 verified+3 合并卡口径、零实质差异；snowflake 22/22 全 match；财报会人工抽样 2/2 吻合；**「引语复核声明」上站 primary+quotes 双语**；资源 36 条 checked 全刷。
+- **第一手线（N05–N11）**：访谈早期 wired-musk-2008（「乐观悲观滚他妈的」原始出处）+保留池四场（D11 自由感/ARK FSD certainty 承诺对账/E3 未涉之地/Code freaking cool 月球基地）——访谈 42→47；文档馆 +9 份（SolarCity DEFM14A 回避表决三段逐字+OpenAI 四封诉讼证物信+$1B 承诺+四封冲刺信：sabotage/创纪录季度/舒芙蕾大锤/回办公室令）；X 帖 +3（顾问阵容/S3XY/Starlink 致团队）；keynote +4（股东会-2/Starship 2025 百万吨判据/xAI All-Hands toddler/Terafab epic chip）+**AI Day 2021 引语升级**（555 词逐字中无「worth more than」句——2021/2022 错位修正）；账本 115→119、语录卡 103→107。
+- **社区资源线（N12–N13）**：+13 条（LabPadre/NSF/NSF Forum/r-teslamotors wiki/Everyday Astronaut/Ringwatchers/Starship Wiki/SpaceX 发射列表 + Wikidata Q317521/Internet Archive 搜索/Isaacson 书页/Vance 书页/Reuters Tesla 专题）——资源 36→49。
+- **聚合线（N14）**：事件档案 14→16——**OpenAI 创立与出走弧线**（e2015-11-22，三封证物邮件入档）+**xAI All-Hands**（e2026-02-10）；口径红线闭环 354=16+45+293 探针实测。
+- **工程资产**：email 正文提取管线（web_reader 渲染 SSR——curl 拿不到）；bump 硬编码三步法（链式派生坑终局解）；v10n01-sources.py（scan/check 两模式）；verify() id 重复守卫两次拦截误判。
+- **数据增量**：文档 27（+9 诉讼证物与冲刺信）/ 访谈 47 / X 帖 34 / 事件 16 档案 67 材料 / 资源 49 / 索引 354 / 引语复核声明在站（primary+quotes）。
+
+**已知限制与留档**：email 留档候选 30 封逐封双源待续（EXPANSION N09 注记）；非镜像来源引语 101 块待逐条人工核（unmatched-itemized.tsv）；tesla.com 全站/SAE J3400/lex-438/60-minutes-2012 均有重验条款；本机 DNS 污染为常态——死链判定必须服务端交叉确认。
+
+**续作指南**：**45 轮三计划全部收官（v7.1.0→v11.0.0）**，本地领先 origin 约 80 提交，RELEASE-CHECKLIST-v11.md 为推送入口（用户自行推送）。后续触发按 V10-15-PROGRESS.md 收官规则**静默退出**；新需求需用户另发任务书。
+
+---
+
 ## 〇-bis、V9-20 交接要点（v10.0.0，2026-10-02 本地收官，待用户推送）
 
 **三十轮成果地图**（V8 v7.1.0→v8.0.0 十轮：财报会逐字/X 帖/访谈/文档第一手回捞；V9-20 v8.1.0→v10.0.0 二十轮：细节见 V9-20-PROGRESS.md，qa/v9-20/round-NN/）：
