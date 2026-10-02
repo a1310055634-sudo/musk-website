@@ -12,7 +12,7 @@ import time
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 pages = sorted(f for f in glob.glob('*.html')
-               if f != 'revisions.html')  # revisions 带 noindex，不入 sitemap
+               if f not in ('revisions.html', 'preview-v12.html'))  # revisions noindex；preview-v12 为开发工具页
 today = time.strftime('%Y-%m-%d')
 
 rows = '\n'.join(

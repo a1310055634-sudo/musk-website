@@ -31,7 +31,7 @@ def check(name, errors):
         print(f"✓ {name}")
 
 # ---------- 收集文件 ----------
-html_files = sorted(glob.glob('*.html'))
+html_files = sorted(f for f in glob.glob('*.html') if f != 'preview-v12.html')  # preview-v12 为开发工具页，不入正式口径（同 revisions）
 os_files = set()
 for root, dirs, fs in os.walk('.'):
     if '.git' in root:

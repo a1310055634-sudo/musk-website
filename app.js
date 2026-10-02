@@ -332,7 +332,7 @@
       var plane = document.createElement('div');
       plane.className = 'fly-plane';
       plane.setAttribute('aria-hidden', 'true');
-      plane.innerHTML = '<svg width="72" height="40" viewBox="0 0 72 40" fill="none" stroke="#17191d" stroke-width="1.6" stroke-linejoin="round"><path d="M2 22 L58 8 L40 26 L30 20 Z"/><path d="M30 20 L34 34 L40 26"/><path d="M44 12 L66 6" stroke="#C84032" stroke-dasharray="4 4"/></svg>';
+      plane.innerHTML = '<svg width="72" height="40" viewBox="0 0 72 40" fill="none" stroke="#17191d" stroke-width="1.6" stroke-linejoin="round"><path d="M2 22 L58 8 L40 26 L30 20 Z"/><path d="M30 20 L34 34 L40 26"/><path d="M44 12 L66 6" stroke="#8B4513" stroke-dasharray="4 4"/></svg>';
       document.body.appendChild(plane);
       setTimeout(function () { plane.remove(); }, 2800);
     }
@@ -548,7 +548,7 @@
       var n = capNodeById[nid];
       if (!n) return;
       var en = document.documentElement.lang === 'en';
-      var color = n.colorVar ? ('var(' + n.colorVar + ')') : '#C84032';
+      var color = n.colorVar ? ('var(' + n.colorVar + ')') : '#8B4513';
       var mine = CAPD.flows.filter(function (f) { return f.from === nid || f.to === nid; });
       var h = '<div class="cap-d-head">'
         + '<span class="cap-d-dot" style="background:' + color + '"></span>'
