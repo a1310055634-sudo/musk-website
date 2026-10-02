@@ -27,7 +27,7 @@
 | N11 | 访谈保留池清账（五场逐场处置） | complete | v10.11.0 | e5b1382 | 4 立条+1 留档池清零（D11 自由感/ARK FSD 对账/E3 未涉之地/Code freaking cool；lex-438 无档留档；访谈 43→47 索引 339）；探针 9/9 |
 | N12 | 社区资源扩容 I：SpaceX 观测生态 | complete | v10.12.0 | 839013f | +8 条（LabPadre/NSF/NSF Forum/r-teslamotors wiki/Everyday Astronaut/Ringwatchers/Starship Wiki/SpaceX 发射列表，资源 36→44 索引 347）；三路法核活直连 3+服务端 5；探针 7/7 |
 | N13 | 社区资源扩容 II：档案与书目 | complete | v10.13.0 | ca6cbcb | +5 条（Wikidata/Internet Archive 搜索/Isaacson 书页/Vance 书页/Reuters 专题，资源 44→49 索引 352）；本机 DNS 全域污染全靠服务端核活；wikipedia 主条目查重已在册；探针 7/7 |
-| N14 | 事件档案 v2 聚合（14→16±，口径红线） | pending | — | — | — |
+| N14 | 事件档案 v2 聚合 | complete | v10.14.0 | c3407bd | +2 档案（OpenAI 弧线 e2015-11-22 三封证物邮件入档/xAI All-Hands e2026-02-10，事件 14→16 材料 59→67 索引 354）；口径红线闭环 354=16+45+293 实测；全部已入册材料聚合；探针 8/8 |
 | N15 | 终检＋盘点总表 v2＋待发布清单 v2（v11.0.0） | pending | — | — | — |
 
 ## 恢复指引
@@ -157,3 +157,13 @@
 - **验证**：verify 9/9（38 页/索引 352）；探针 7/7（tools/v10n13-probe.js 端口 9410）；版本三件套 10.12.0→10.13.0；sync-changelog 222 条；EPUB 233,848B。
 - **提交**：成果 `ca6cbcb`（v10.13.0）；本回填+revisions+EPUB 重刷为第二提交。
 - **下一轮预告**：N14 事件档案 v2 聚合（v10.14.0）——用 N05–N13 新材料聚合（xAI/Grok 线/OpenAI 弧线视 N08 收成/其他达标主题），events-data.py 扩充+全家桶+口径红线探针；事件 14→16±。"""
+
+## 第 14 轮工作记录（N14 事件档案 v2 聚合）— complete（2026-10-02）
+
+- **+2 个新档案（事件 14→16，材料 59→67，索引 352→354）**：①**e2015-11-22**「OpenAI：从 10 亿承诺到最后一根稻草」（etype=risk）——完整弧线（2015 承诺→2017 控制权→停止资助→2018 退出→2024 诉讼→2026 判决），三封 N08 证物邮件作为 document 材料入档；②**e2026-02-10**「xAI All-Hands：两岁半的成绩单」（etype=milestone）——成立→Grok→成绩单→Terafab 弧线，材料=账本两条+X 帖+grok.html 专题。红线自查：全部材料均为已入册条目（零新增未核实事实）。
+- **Twitter 私有化弧线不立**：e2018-08-07 档案已吸收同期材料（2022 后续材料量不足以独立成档）——如实入账。
+- **口径红线闭环探针实测**：354 = 16 档案 + 45 吸收 + 293 独立（timeline-events.js 的 TIMELINE_V7 JSON 实测解析——比正则抓 meta 稳，R08 修正教训沿用）。
+- **工程**：events-data.py 追加脚本+validate-lite（etype 枚举/必需键全查）；全家桶 9 项幂等重跑。
+- **验证**：verify 9/9（38 页/索引 354）；探针 8/8（tools/v10n14-probe.js 端口 9412：口径闭环/16 卡/两新档案渲染/三链深链/390）；版本三件套 10.13.0→10.14.0；sync-changelog 223 条；EPUB 236,024B。
+- **提交**：成果 `c3407bd`（v10.14.0）；本回填+revisions（227 幂等）+EPUB 重刷为第二提交。
+- **下一轮预告**：N15 终检＋盘点总表 v2＋待发布清单（v11.0.0）——盘点总表 v2 入账本（对照 R09 逐项清偿率+新缺口清单 v2 写回 EXPANSION）；全部生成器幂等重跑；revisions/EPUB/sitemap/CHANGELOG/DEVLOG（追加 V10-15 交接要点）/账本收官；终验 verify 9/9+CDP 全站终检+三视口复扫+打印抽查；版本三件套→11.0.0；输出「待发布清单 v2」（不推送）。"""
