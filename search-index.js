@@ -4486,6 +4486,71 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "deep-dive-07-s1",
+  "pg": "deep-dive-07.html",
+  "t": "深读长文",
+  "d": "2026",
+  "s": "Robotaxi 落地考 · 一、欠账的形状（2016–2024）",
+  "q": "承诺簇：2016 年宣布的「2017 年底前」全自主横穿美国，与 2019 年 Autonomy Day 的「2020 年百万台 robotaxi」。两个日期都没有兑现——而本站的承诺账（promises 五案）刻意不设 robotaxi ",
+  "zh": "",
+  "bg": "承诺簇：2016 年宣布的「2017 年底前」全自主横穿美国，与 2019 年 Autonomy Day 的「2020 年百万台 robotaxi」。两个日期都没有兑现——而本站的承诺账（promises 五案）刻意不设 robotaxi 案：五案都有可判的日期下限，robotaxi 簇的日期一直在移动。欠账的形状不是",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "deep-dive-07-s2",
+  "pg": "deep-dive-07.html",
+  "t": "深读长文",
+  "d": "2026",
+  "s": "Robotaxi 落地考 · 二、We,Robot（2024.10.10）",
+  "q": "ledger):\">在洛杉矶一个电影制片厂，他发布了 Cybercab——第一辆为无监督全自动驾驶专门打造的车（账本）：",
+  "zh": "",
+  "bg": "ledger):\">在洛杉矶一个电影制片厂，他发布了 Cybercab——第一辆为无监督全自动驾驶专门打造的车（账本）：",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "deep-dive-07-s3",
+  "pg": "deep-dive-07.html",
+  "t": "深读长文",
+  "d": "2026",
+  "s": "Robotaxi 落地考 · 三、奥斯汀弧线（2025.06–2026.10）",
+  "q": "event archive), then the arc ran through four archived posts: service area past rivals (2025.08.16), greater-Austin cove",
+  "zh": "",
+  "bg": "event archive), then the arc ran through four archived posts: service area past rivals (2025.08.16), greater-Austin coverage (2025.10.29), no in-car safety moni",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "deep-dive-07-s4",
+  "pg": "deep-dive-07.html",
+  "t": "深读长文",
+  "d": "2026",
+  "s": "Robotaxi 落地考 · 四、一周年口径（2026.07.22）",
+  "q": "ledger). The same call pivoted to Optimus — “I think Optimus will be the biggest product ever” — a reminder that robotax",
+  "zh": "",
+  "bg": "ledger). The same call pivoted to Optimus — “I think Optimus will be the biggest product ever” — a reminder that robotaxi is now one track in a larger autonomy ",
+  "c": [
+   "综合"
+  ]
+ },
+ {
+  "id": "deep-dive-07-s5",
+  "pg": "deep-dive-07.html",
+  "t": "深读长文",
+  "d": "2026",
+  "s": "Robotaxi 落地考 · 五、指控、回应与本站核查",
+  "q": "指控批评者与做空方认为：robotaxi 记录是十年跳票，被用来在自动驾驶叙事上融资——2016、2019 与 FSD 收费史都早于第一个付费无人里程。",
+  "zh": "",
+  "bg": "指控批评者与做空方认为：robotaxi 记录是十年跳票，被用来在自动驾驶叙事上融资——2016、2019 与 FSD 收费史都早于第一个付费无人里程。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "xai",
   "pg": "finance.html",
   "t": "财务全景",
