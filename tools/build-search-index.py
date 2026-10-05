@@ -144,7 +144,23 @@ for ms in re.finditer(r'<section class="cy-co" id="([a-z]+)">(.*?)</section>', s
             'bg': strip(intro.group(1)) if intro else '',
         })
         n_ch += 1
-assert n_ch == 53, n_ch
+assert n_ch == 64, n_ch
+
+# ---------- deep-dive-06.html 深读长文（R11，xAI 三年志；五章各自入索引） ----------
+s = io.open('deep-dive-06.html', encoding='utf-8').read()
+_dd_h1 = re.search(r'<h1 data-en="[^"]*">([^<]+)</h1>', s)
+assert _dd_h1, 'dd06 h1 missing'
+_n_dd = 0
+for _m in re.finditer(r'<section class="lr-sec">\s*<h2[^>]*id="(deep-dive-06-s\d)"[^>]*>([^<]+)</h2>(.*?)</section>', s, re.S):
+    _p = re.search(r'<p[^>]*>(.*?)</p>', _m.group(3), re.S)
+    items.append({
+        'id': _m.group(1), 'pg': 'deep-dive-06.html', 't': '深读长文',
+        'd': '2026', 's': strip(_dd_h1.group(1)) + ' · ' + strip(_m.group(2)),
+        'q': strip(_p.group(1))[:120] if _p else strip(_m.group(2)),
+        'zh': '', 'bg': strip(_p.group(1))[:160] if _p else '',
+    })
+    _n_dd += 1
+assert _n_dd == 5, _n_dd
 
 # ---------- finance.html 财务全景（四节，id 沿用页内 tesla/spacex/x/xai） ----------
 s = io.open('finance.html', encoding='utf-8').read()
@@ -236,7 +252,7 @@ for _r in RD.RESOURCES:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 124, '一手文档': 37, '访谈与表态': 51, 'X 帖': 44, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS), '社区资源': len(RD.RESOURCES)}, counts
+assert counts == {'言行实录': 124, '一手文档': 37, '访谈与表态': 51, 'X 帖': 44, '争议深读': 5, '深读长文': 5, '编年史': 64, '财务全景': 4, '事件档案': len(ED.EVENTS), '社区资源': len(RD.RESOURCES)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

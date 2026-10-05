@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **V12 R11 弃收录（2026-10-07）**：编年史 Neuralink 节点（2024-01-29 首例人类植入等）——chronicle.html 为四公司段制（tesla/spacex/x/xai），无 Neuralink 段，硬塞会造成归段混乱；Neuralink 事件已在 events.html 事件档案与账本收录。重验条件=编年史若扩第五段（Neuralink/Boring）则顺带补齐。
+
 > **缺口清单 v4（2026-10-06 R09 质量节点①盘点，接替 v2/v3；全量数据见 qa/v12/round-09/AUDIT-v3.md）**：①访谈 2009–2012 四年空白（硬约束维持：镜像 2013 前仅 wired-musk-2008 有稿；60-minutes-2012/lex-438 待外部逐字源）；②文档 2011–2014/2019 空白（2019 可挖 SEC 和解最终批准令与 Starship Mk.1 官方件，EDGAR 直取可行；2009–2010 Tesla 博客存档 TLS 双受限维持）；③账本 2003/2005/2007 三整年空白（候选：2003 Falcon 1 立项/2005 F1 首次静火/2007 Flight 2-3；2011:1/2012:2 偏薄）；④引语 ⚠️85 转引待续核（R08 底册，优先 earnings-call 组换官方稿锚）+e2013-05-08 换锚股东信原件；⑤email 余 10 封 ? 双源待续；⑥xAI 首份正式披露文书出现后立条（CIK×5 已探明）；⑦SpaceX 披露富矿：10-Q 季报链（2026-08 起）/S-1 修改稿差异/13G 大股东名单待挖；⑧documents.html 无站点页脚（历史结构，R15–R19 美术轮可补）；⑨X 帖 2020 年（3 卡）与账本 2011/2012 偏薄，内容轮顺带加密。全部带重验条件，可被后续轮次核验收录。
 
 > **V12 R07 留档（2026-10-06）**：①**xAI 披露**——EDGAR full-text search "xAI Holdings" 56 命中经核为 SpaceX 相关（333-296740=SpaceX 2026 IPO 注册号）；x.ai 关联实体 CIK×5（0002023090/0002024752/0002036163/0002074953/0002076706）存在但无可立条披露文书，如实留档；重验条件=xAI 首次正式披露事件（融资书/SEC 备案）出现后立条。②**Starship 官方更新信**——SpaceX IPO 后披露通道已转 SEC 备案（8-K/10-Q/S-8），官网无 2025–2026 独立更新信；任务书目标以 424B4/notes 8-K 达成。③**email 后 15 封余量**——本轮消化 2 封（dorsey-protocol/pif-alrumayyan 立条），余 10 封 ? 待续（rogan-censorship/durban/sbf/gracias/go-all-out/no-financial-interest/leaner-2019/zero-percent/buzzfeed-unsworth 等，重验条件同前）。④**SpaceX EDGAR 富矿提示**——submissions 全史 93 份在档（DRS→S-1→424B4→notes→10-Q），后续轮次可挖：S-1 修改稿差异/10-Q 首季报收入结构/13G 大股东名单。

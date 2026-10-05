@@ -2,6 +2,16 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.12.0 — 2026-10-07 · V12-20 R11 · 编年史补齐 + 新页 deep-dive-06《xAI 三年志》（39 页）
+
+**主题包成果（V12 R11 · 编年史+新页轮）**
+- **chronicle.html 近年补齐 +11 条（53→64）**：tesla 段 7（Investor Day MP3/SolarCity 终审/Q3+Cybertruck 倒计时/We,Robot/Robotaxi 首发/万亿薪酬包 proxy/Optimus 产线）+spacex 段 2（Starbase 员工会/**SpaceX IPO 定价**）+x 段 2（DealBook 抵制回应/政治参与升级）——全部克隆页内 cy-year/cy-ev 结构、逐条带账本/文档/事件档深链；Neuralink 无对应公司段如实弃收录 EXPANSION。
+- **新页 deep-dive-06.html《xAI 三年志》（39 页）**：逐字克隆 deep-dive-05 全部结构（head/lr-hero/五 lr-sec/lr-foot/TOC/进度条），内容为公司志读法——一句话章程/四个月出 Grok/收购 X/第一份成绩单/资本线与披露缺位，引语全部带一手锚。
+- **七件接入**：①site-nav.py NAV_GROUPS 专题组注册+全站重注入（40/40）；②build-search-index.py 新类型「深读长文」五章入索引+编年史断言 53→64；③verify.py 锚点计数加 n_dd（同事件档案先例，页数 38→39 自动）；④新页含 site-version-val span——**站点 span 15→16**；⑤sitemap.xml 未动（R20 统一）；⑥build-longread 幂等跳过确认；⑦新页互链 7 处（账本×4/帖史×2/文档/事件档/grok 财务）全 fetch 验证。
+- **检索索引 387→403**（编年史 +11、深读长文 +5）；三口径审计口径同步（页 DOM 64+索引 64+生成器 64）。
+- **CDP 探针见 ACCEPTANCE**（新页渲染/双语/导航高亮 aria-current/390 零溢出/互链跨页存在）。
+- **版本三件套**：11.11.0 → 11.12.0（16 span，bump 断言随新页更新）。
+
 ## v11.11.0 — 2026-10-07 · V12-20 R10 · 事件档案补档：2023–2026 四档（16→20）
 
 **主题包成果（V12 R10 · 事件档案轮）**

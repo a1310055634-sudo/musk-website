@@ -103,7 +103,9 @@ n_ev = len(re.findall(r'<section class="ev-item lr-sec" id="', texts.get('events
 # 同 V7-19 R15 先例：原八类锚点约束保留不变，社区资源为生成器产出的合法新增类型
 # （tools/resources-data.py 单一事实来源，纪律 B：只收链接+简介+元数据，不复制外部正文）。
 n_res = len(re.findall(r'<article class="rs-item" id="r-', texts.get('resources.html', '')))
-total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin + n_ev + n_res
+# V12 R11：索引新增「深读长文」类型（deep-dive-06.html 的 s1 锚点数，动态取）——同事件档案先例。
+n_dd = len(re.findall(r'<h2[^>]*id="deep-dive-06-s', texts.get('deep-dive-06.html', '')))
+total_expected = n_ps + n_docs + n_iv + n_posts + n_cv + n_ch + n_fin + n_ev + n_res + n_dd
 if n_items != total_expected:
     idx_errors.append(f'索引 {n_items} 条 != 页面锚点 {total_expected} 条（先重跑 tools/build-search-index.py）')
 check(f'检索索引一致（{n_items} 条 = {n_ps}+{n_docs}+{n_iv}+{n_posts}+{n_cv}+{n_ch}+{n_fin}+{n_ev}+{n_res}）', idx_errors)
