@@ -107,6 +107,30 @@ window.COMPANIES_V7 = {
       "zh": "从 Autonomy Day 到 Optimus——十年之期的连续赌注",
       "en": "From Autonomy Day to Optimus — a running bet with a ten-year clock"
      }
+    },
+    {
+     "id": "e2025-06-22",
+     "date": "2025.06.22",
+     "title": {
+      "zh": "Robotaxi 落地：八年欠账之后的奥斯汀首发",
+      "en": "Robotaxi goes live: Austin, eight years after the promise"
+     }
+    },
+    {
+     "id": "e2026-07",
+     "date": "2026.07",
+     "title": {
+      "zh": "Optimus 量产线：Fremont 实拍与 AI5 上机",
+      "en": "Optimus line: Fremont footage and AI5 on-board"
+     }
+    },
+    {
+     "id": "e2024-07",
+     "date": "2024.07",
+     "title": {
+      "zh": "政治参与与 America Party：关键人风险的第三战场",
+      "en": "Politics and the America Party: the third front of key-person risk"
+     }
     }
    ],
    "resources": [
@@ -225,6 +249,14 @@ window.COMPANIES_V7 = {
       "zh": "「没有任何粉饰」——Raptor 危机与星舰翻身",
       "en": "\"No way to sugarcoat this\" — the Raptor crisis and Starship's comeback"
      }
+    },
+    {
+     "id": "e2024-07",
+     "date": "2024.07",
+     "title": {
+      "zh": "政治参与与 America Party：关键人风险的第三战场",
+      "en": "Politics and the America Party: the third front of key-person risk"
+     }
     }
    ],
    "resources": [
@@ -311,6 +343,14 @@ window.COMPANIES_V7 = {
       "zh": "xAI 收购 X——信息流与模型合并成一家",
       "en": "xAI acquires X — the feed and the model become one"
      }
+    },
+    {
+     "id": "e2024-07",
+     "date": "2024.07",
+     "title": {
+      "zh": "政治参与与 America Party：关键人风险的第三战场",
+      "en": "Politics and the America Party: the third front of key-person risk"
+     }
     }
    ],
    "resources": [
@@ -369,6 +409,14 @@ window.COMPANIES_V7 = {
      "title": {
       "zh": "xAI All-Hands：两岁半的「幼儿」开出第一张成绩单",
       "en": "xAI All-Hands: the two-and-a-half-year-old toddler files its first report card"
+     }
+    },
+    {
+     "id": "e2023-11",
+     "date": "2023.11",
+     "title": {
+      "zh": "Grok：从聊天玩具到操作系统层",
+      "en": "Grok: from chatbot toy to an OS layer"
      }
     }
    ],

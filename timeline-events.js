@@ -4,10 +4,10 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "11.7.0",
-  "nEvents": 16,
-  "nRecords": 312,
-  "nAbsorbed": 45,
+  "version": "11.10.0",
+  "nEvents": 20,
+  "nRecords": 309,
+  "nAbsorbed": 58,
   "absorbedByEvent": {
    "e2002-10-03": 1,
    "e2006": 2,
@@ -24,7 +24,10 @@ window.TIMELINE_V7 = {
    "e2024-01-29": 5,
    "e2019-04-22": 4,
    "e2015-11-22": 3,
-   "e2026-02-10": 3
+   "e2026-02-10": 3,
+   "e2023-11": 5,
+   "e2025-06-22": 6,
+   "e2026-07": 4
   },
   "source": "tools/events-data.py + search-index.js"
  },
@@ -1195,6 +1198,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2018-08-12",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2018.08.12",
+   "s": "「You are throwing me under the bus」（马斯克 × 沙特 PIF 鲁梅延短信）",
+   "q": "“This is an extremely weak statement and does not reflect the conversation we had at Tesla. You said you were definitely interested in taking Tesla private and had wanted to do so since 2016. I’m sorry, but we cannot work together.” —— Elon Musk",
+   "zh": "",
+   "bg": "「funding secured」推文五天后的决裂现场：PIF 拒绝公开确认注资后，马斯克与基金总裁亚西尔·鲁梅延的短信急转直下——先是指责公开声明「软弱」，被回以「探戈要两个人跳；我们什么都没收到」之后，抛出那句日后被反复引用的「把我扔到巴士底下」。这组短信 2022 年 4 月经证券集团诉讼披露文件公开，Fortune 全文刊出。它与 d2018-08-07、d2018-08-14 同属私有化风波的一手文书弧线。口径：诉讼披露展品 + 媒体逐字，双源 2026-10-06 核验。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "d2018-08-14",
    "pg": "documents.html",
    "t": "一手文档",
@@ -2069,6 +2085,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2022-03-26",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.03.26",
+   "s": "「A new platform is needed. It can’t be a company.」（杰克·多西 → 马斯克短信）",
+   "q": "“Yes, a new platform is needed. It can’t be a company. This is why I left.” —— Jack Dorsey",
+   "zh": "",
+   "bg": "整场收购的思想前奏：3 月 25 日马斯克「Twitter 正在死吗」民调当晚，多西开启私信线（背景见言行实录 2022.03.26 条目），而他给出的方案不是「买下它」，而是协议化重建——开源协议、基金会供养、去广告模式，以 Signal 为范本。马斯克三周后走的路（4 月 14 日要约）恰是多西方案的反面：把中心化实体整个买下。协议路线后来由多西力推的 Bluesky（AT Protocol）落地。与 d2022-04-09 的三连短信同属这一个月的一手短信弧线。口径：法庭披露展品 + 披露件汇编（danluu.com 合集与主流媒体逐字一致），双源 2026-10-06 核验。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "p2022-03-26",
    "pg": "x-posts.html",
    "t": "X 帖",
@@ -2223,6 +2252,20 @@ window.TIMELINE_V7 = {
    "bg": "A $44B all-cash bid needed an equity consortium: Musk put in his own slice, banks arranged $13B in debt, and he recruited the rest one text at a time. His first big anchor: Larry Ellison — Tesla board colleague and Oracle founder.",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "d2022-04-20",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.04.20",
+   "s": "埃里森十亿美元承诺（马斯克 × 拉里·埃里森短信）",
+   "q": "“Any interest in participating in the Twitter deal?” —— Elon Musk",
+   "zh": "",
+   "bg": "整场收购里最省力的十亿美元：四行短信、一个 👍 敲定，不到一小时。埃里森（Oracle 联合创始人、Tesla 董事会同事）由此成为收购财团里最大的具名个人出资人——2022-05-05 马斯克以 SEC 修订备案公布 71.4 亿美元新增股权承诺，埃里森的 10 亿位列其中（Reuters/CNBC 当日报道）。短信原文经 Twitter v. Musk 诉讼披露（TIME/WaPo 逐字转载）。与言行实录 2022.04.20 条目同源互证。口径：法庭披露件 + SEC 备案，双源 2026-10-06 核验。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -2466,6 +2509,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2022-11-09",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2022.11.09",
+   "s": "远程工作终结令（马斯克致 Twitter 全员第一封信）",
+   "q": "“Remote work is no longer allowed, unless you have a specific exception. […] Starting tomorrow (Thursday), everyone is required to be in the office for a minimum of 40 hours per week. […]” —— 落款 “Thanks, Elon”",
+   "zh": "",
+   "bg": "交割（d2022-10-27）后第十三天，第一封全员信定调两件事：远程工作终结，以及他对全员的直白警告——公司若无订阅收入便难以存续，经济环境「异常艰难」。CNBC 次日获全文刊发，一周后的「极其硬核」通牒（d2022-11-16）正是这封信的延长线：先收回远程，再收回归属。口径：媒体获得（CNBC 全文）+ 镜像底本，双源 2026-10-06 核验。",
+   "c": [
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "e2022-11-16",
    "pg": "primary.html",
    "t": "言行实录",
@@ -2585,6 +2641,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "d2023-01",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2023.01",
+   "s": "“This is a bait and switch”（马斯克致奥特曼短信）",
+   "q": "“What the hell is going on? This is a bait and switch.”",
+   "zh": "",
+   "bg": "口径须先说明：这封短信的原始文本并未单独公开，此句出自马斯克 2026 年庭审宣誓作证的当场追述（2026-04-29 第二日作证，短信截图作为证据呈交陪审团；Business Insider/NYT/CNBC 均逐字报道）。时点在微软确认对 OpenAI 追加 100 亿美元投资前后——马斯克称此举背叛了非营利初心，并称之为自己对奥特曼「失去信任的时刻」；庭审展品显示奥特曼曾回「我也觉得这很糟」（“I agree this feels bad”）并提出让他参股，被马斯克一方指为安抚。这封短信与 d2023-02 同属 2023 年初公开决裂的私下半场。口径：庭审证词追述，镜像如实标注（2026-10-06 核验）。",
+   "c": [
+    "综合"
+   ]
+  },
+  {
    "id": "c2023-01-13",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -2593,6 +2662,19 @@ window.TIMELINE_V7 = {
    "q": "史上最大降价：全系 6%–20%（Model Y 长续航 -20% 至 52,990 美元、重获 7,500 美元抵免），需求回路满量程运作（定价页）。",
    "zh": "",
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "d2023-02",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2023.02",
+   "s": "“You’re my hero … it really fucking hurts”（奥特曼致马斯克短信）",
+   "q": "“You’re my hero and that’s what it feels like when you attack openai … it really fucking hurts when you publicly attack openai.” —— Sam Altman",
+   "zh": "",
+   "bg": "2026 年 1 月庭审前解封文件曝光的这一来一回，是两人决裂最私人的一帧：马斯克公开炮轰 OpenAI 期间，奥特曼发去这条混杂崇敬与委屈的短信；马斯克的回复把赌注直接抬到文明高度（Business Insider 引用的解封版本更长——他在「文明」半句前还道了歉：「我听到了，伤害你不是我的本意，为此我道歉；但文明的存续系于此」）。据 WaPo，奥特曼同场还保证不会挖 Tesla 员工「伤害」Tesla。这批解封文件随后成为庭审主线之一。口径：法庭解封展品 + 媒体逐字引用，双源 2026-10-06 核验。",
    "c": [
     "Tesla"
    ]
@@ -2634,20 +2716,6 @@ window.TIMELINE_V7 = {
    "bg": "Eleven months after the appeal, a three-judge panel of the Second Circuit (Chief Judge Livingston, Raggi, Kahn) ended the campaign with a summary order: affirmed.",
    "c": [
     "Tesla"
-   ]
-  },
-  {
-   "id": "e2023-07-12",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2023.07.12",
-   "s": "xAI 官宣 · Twitter Spaces（Reuters 报道 07.14）",
-   "q": "“To understand the true nature of the universe.” — “If it tried to understand the true nature of the universe, that's actually the best thing that I can come up with from an AI safety standpoint.”",
-   "zh": "理解宇宙的真实本质。——「如果它试图理解宇宙的真实本质，从 AI 安全的角度看，这是我能想到的最好方案。」",
-   "bg": "OpenAI — which he co-founded and had left — had gone closed-source and commercial; he openly disagreed with its direction. His answer was to start a rival with a deliberately simple charter.",
-   "c": [
-    "X / Twitter",
-    "xAI"
    ]
   },
   {
@@ -2946,19 +3014,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "e2024-04-23",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2024.04.23",
-   "s": "Tesla Q1 2024 财报电话会 · stockanalysis.com 逐字稿 · Seeking Alpha",
-   "q": "“As we’ve announced, we will be showcasing our purpose-built Robotaxi or Cybercab in August.”",
-   "zh": "如我们所宣布的，我们将在八月展示我们专为 Robotaxi 打造的 Cybercab。",
-   "bg": "Tesla had just posted its worst quarter in years — revenue down year-on-year, a double-digit workforce cut announced a week earlier (2024.04.15), and Reuters reporting the $25,000 car shelved. The pivot Musk announced instead had two names: robotaxi, and Optimus.",
-   "c": [
-    "Tesla"
-   ]
-  },
-  {
    "id": "d2024-04-29",
    "pg": "documents.html",
    "t": "一手文档",
@@ -3021,19 +3076,6 @@ window.TIMELINE_V7 = {
    "bg": "大选前八周，他把「效率教义」带上 All-In 舞台，用每个人都排过队的场景一句话说尽。",
    "c": [
     "综合"
-   ]
-  },
-  {
-   "id": "e2024-10-10",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2024.10.10",
-   "s": "「We, Robot」发布会（What's Up Tesla 记录）",
-   "q": "“Cybercab: The Autonomous Robotaxi. And then we've got the first car that is specifically built for unsupervised full self driving to be a robotaxi.”",
-   "zh": "Cybercab：自主Robotaxi。这是我们第一辆专为无监督全自动驾驶而造的Robotaxi。",
-   "bg": "Eight months after shelving the $25,000 car, the answer arrived on a movie-studio lot in Los Angeles: an event literally titled “We, Robot”, where the two-seat, no-pedal Cybercab was the star.",
-   "c": [
-    "Tesla"
    ]
   },
   {
@@ -3262,20 +3304,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "p2025-08-16",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2025.08.16",
-   "s": "@elonmusk",
-   "q": "The Tesla Robotaxi service area is already larger than any competitors in Austin and the Bay Area",
-   "zh": "Tesla 的 Robotaxi 服务面积，现在已经比 Austin 和湾区任何一家对手都大。",
-   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/1956765617517985951 · 镜像逐字存档；snowflake 解码 UTC 2025-08-16 17:10）。Austin 首发（2025-06-22）后近两个月的规模对标帖——「面积已超所有对手」是他给 Robotaxi 定的第一个横向基准。承诺与结果的逐案对账见 承诺与结果。",
-   "c": [
-    "Tesla",
-    "X / Twitter"
-   ]
-  },
-  {
    "id": "e2025-09-01",
    "pg": "primary.html",
    "t": "言行实录",
@@ -3302,17 +3330,16 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "p2025-10-29",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2025.10.29",
-   "s": "@elonmusk",
-   "q": "Tesla Model Y robotaxi service now available in the greater Austin area!",
-   "zh": "Tesla Model Y 的 robotaxi 服务，现在全大奥斯汀地区都能用了！",
-   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/1983428037145432381 · 镜像逐字存档；snowflake 解码 UTC 2025-10-29 06:57）。首发四个月后服务区扩张到「greater Austin」全境（TechCrunch/CNBC 报道口径）——从试点小区到都会区，是监管与运营双线的实质跨步。",
+   "id": "d2025-09-17",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2025.09.17 备案 · 11.06 股东会",
+   "s": "2025 CEO Performance Award proxy（特斯拉万亿薪酬包授权案）",
+   "q": "“Approve a new 2025 CEO Performance Award that uniquely challenges Elon to guide Tesla through a new phase of unprecedented growth by rewarding him — only if he delivers (once again) extraordinary financial returns for you, the shareholders, and remains at Tesla in a leadership role for many years to come.”",
+   "zh": "",
+   "bg": "2018 奖励的续篇与放大：12 档市值里程碑自 2 万亿起步、封顶 8.5 万亿（proxy 自己加注「大于本声明日期任何单一公司」），叠加 4,000 亿 EBITDA 门槛与多年任职绑定——把「留在 Tesla」本身变成了行权条件。2025-11-06 股东会表决通过（见言行实录 2025.11.06 条目）。与 2018 年一样，这份奖励也是一纸法律文书对赌一个人的判断。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
    "c": [
-    "Tesla",
-    "X / Twitter"
+    "Tesla"
    ]
   },
   {
@@ -3368,19 +3395,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "d2026-01",
-   "pg": "documents.html",
-   "t": "一手文档",
-   "d": "2026.01",
-   "s": "Series E（xAI 官方融资公告）",
-   "q": "“We're building AI to accelerate human scientific discovery. Today, we're announcing that we have raised $20 billion at a $230 billion post-money valuation.”",
-   "zh": "",
-   "bg": "公告本身即是估值宣言：把「加速人类科学发现」写在第一句，把 2300 亿写在第二句——使命叙事与资本规模在同一段落里完成绑定。英伟达与思科的参投还有另一层含义：算力供给方同时成为股东，供应商与投资人在同一张表上（此句为编者分析，非公告文字）。",
-   "c": [
-    "xAI"
-   ]
-  },
-  {
    "id": "c2026-01",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -3389,19 +3403,6 @@ window.TIMELINE_V7 = {
    "q": "Series E 完成：200 亿美元 @ 投后 2300 亿——超 150 亿目标，Valor 领投、英伟达与思科参投（公告全文）。",
    "zh": "",
    "bg": "主线：以使命立司 → Grok 快速迭代 → 收购 X 获得数据与分发 → 史上最快的大额融资序列。用资本速度追出一个晚到者的位置。",
-   "c": [
-    "xAI"
-   ]
-  },
-  {
-   "id": "i2026-01-06",
-   "pg": "interviews.html",
-   "t": "访谈与表态",
-   "d": "2026.01.06",
-   "s": "「Grok 一直在更新」——Grok 5 前夜的电路访谈",
-   "q": "“I think probably at this point, Grok, if you took a photo and submitted it to Grok, it could probably tell you if a circuit is…if there’s something wrong with it. … Grok keeps updating.”",
-   "zh": "",
-   "bg": "2026 年开年的长谈播客。被问到用 AI 干真正的工程活，他说自己几周前刚用它做过电路设计——然后顺势给 Grok 现场出了一道题。",
    "c": [
     "xAI"
    ]
@@ -3420,57 +3421,43 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "p2026-01-22",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2026.01.22",
-   "s": "@elonmusk",
-   "q": "Just started Tesla Robotaxi drives in Austin with no safety monitor in the car. Congrats to the @Tesla_AI team! If you’re interested in solving real-world AI, which is likely to lead to AGI imo, join Tesla AI. Solving real-world AI for Optimus will be 100X harder than cars.",
-   "zh": "Tesla 的 Robotaxi 刚刚在 Austin 开始了车内无安全监督员的行驶。 恭喜 @Tesla_AI 团队！ 如果你有兴趣解决真实世界的 AI——在我看来它大概率通向 AGI——来加入 Tesla AI。为 Optimus 解决真实世界 AI，会比汽车难上 100 倍。",
-   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2014397578352226423 · 镜像逐字存档；snowflake 解码 UTC 2026-01-22 17:59）。车内安全监督员撤除是 Robotaxi 弧线的关键节点（CBS/CNBC 报道口径）；同一帖把「真实世界 AI」的难度天平首次压向 Optimus——100X 于汽车。Robotaxi 时间线两端即本卡与本墙最新一卡 p2026-10-03。",
-   "c": [
-    "Tesla",
-    "X / Twitter"
-   ]
-  },
-  {
-   "id": "i2026-02-05",
-   "pg": "interviews.html",
-   "t": "访谈与表态",
-   "d": "2026.02.05",
-   "s": "「AI5 要进 Optimus」——边缘算力与电网错峰",
-   "q": "“For Tesla, the AI5 chip is going into our Optimus robot…if you have an AI Edge compute, that’s distributed power. The power is distributed over a large area, it’s not concentrated. And if you can charge at night, you can actually use the grid much more effectively.”",
+   "id": "d2026-01-29",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2026.01.29 备案 · FY2025",
+   "s": "Tesla Form 10-K FY2025（AI 公司自述与关键人风险）",
+   "q": "“We are focused on bringing artificial intelligence (“AI”) into the real world, through products and services like Full Self-Driving (“FSD”) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (“Bots”) (including Optimus).”",
    "zh": "",
-   "bg": "Dwarkesh Patel 逼问电力难题：芯片产出指数增长而电力输出是平的。他的回答把框架从数据中心整个翻到边缘侧。",
+   "bg": "FY2025 年报的正文第一句不再是「设计、制造和销售电动车」——AI 被写进了公司定义句（FSD/Robotaxi/Optimus 三支柱），电动车业务降格为实现手段（“leverage our current operations”）。同一份文件的风险因子章维持着自 2018 年以来的关键人句式，而 “Technoking”——他 2021 年给自己发明的头衔——如今是法律文本的正式组成部分。公司自我定义的换轨，这是最硬的一手证据。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
    "c": [
     "Tesla"
    ]
   },
   {
-   "id": "p2026-07-01",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2026.07.01",
-   "s": "@elonmusk",
-   "q": "Walking the Optimus production line in Fremont",
-   "zh": "在弗里蒙特工厂走 Optimus 产线。",
-   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2072214077372518657 · 镜像逐字存档；snowflake 解码 UTC 2026-07-01 07:01；原帖附产线现场照，t.co 图链不入正文——站内 Gamestonk 卡先例）。产线实拍首次上墙：Optimus 从原型叙事转入制造纪律的同帖语境下，他同日补发「初期产能会极其缓慢」的预期管理帖（status/2072448521513685263 · 镜像逐字在档）。三周后账本记下「Optimus 史上最大产品」表态，见 账本 e2026-07-22。",
+   "id": "d2026-06-12",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2026.06.12 定价",
+   "s": "SpaceX Form 424B4（IPO 定价书：SPCX 登陆纳斯达克）",
+   "q": "“This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering 555,555,555 shares of our Class A common stock. … The initial public offering price is $135.00 per share.”",
+   "zh": "",
+   "bg": "成立 24 年后的公开市场首秀：555,555,555 股 × 135.00 美元，募资约 750 亿美元（承销折扣 5 亿），A/B 双层结构（B 类每股 10 票）叠加受控公司豁免保住控制权。募资用途清单里排在第一位的是「AI 算力基础设施」——火箭与星座排在其后，与 Tesla 10-K 的 AI 定义句同月共振。EDGAR 在案的 SpaceX 首份备案是 2002-08-19（成立当年的豁免发行），从个人资金到公开市场，这条资本弧线走了二十四年。上市十天后公司随即定价 250 亿美元债券（见 d2026-06-22）。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
    "c": [
     "Tesla",
-    "X / Twitter"
+    "SpaceX"
    ]
   },
   {
-   "id": "e2026-07-22",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2026.07.22",
-   "s": "Tesla Q2 2026 财报电话会 · stockanalysis.com 逐字稿 · elonmuskarchive.org 转写存档",
-   "q": "“I think Optimus will be the biggest product ever.”",
-   "zh": "我认为 Optimus 会是有史以来最大的产品。",
-   "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
+   "id": "d2026-06-22",
+   "pg": "documents.html",
+   "t": "一手文档",
+   "d": "2026.06.22 启动 · 06.23 定价",
+   "s": "SpaceX 高级票据定价 8-K（上市十日后的 250 亿美元发债）",
+   "q": "“On June 23, 2026, the Company priced its previously announced Offering of $7.0 billion of 5.350% Senior Notes due 2031, $6.0 billion of 5.650% Senior Notes due 2033, $6.0 billion of 5.875% Senior Notes due 2036, $2.5 billion of 6.600% Senior Notes due 2046, and $3.5 billion of 6.650% Senior Notes due 2056.”",
+   "zh": "",
+   "bg": "IPO十天后，五档 2031–2056 年期、合计 250 亿美元的无抵押高级票据——上市公司 SpaceX 的第一笔公开债务，一条贯穿四分之一个世纪的期限曲线（利率 5.35%–6.65%）。8-K 链三连：6-22 launch（Item 7.01 路演披露，更新现金余额）→ 6-23 pricing（Item 8.01）→ 6-26 closing。从 2002 年的个人资金起家，到一个月内在公开市场完成约 1,000 亿美元级的股+债融资——马斯克商业帝国资本化的最快一跃。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
    "c": [
-    "Tesla"
+    "SpaceX"
    ]
   },
   {
@@ -3484,20 +3471,6 @@ window.TIMELINE_V7 = {
    "bg": "The Economist 点破一件怪事：SpaceX 招股书里未来收入的压倒性大头居然是 AI/Grok，而不是把东西运上天——并追问十年后他的公司们究竟靠什么赚钱。",
    "c": [
     "SpaceX",
-    "xAI"
-   ]
-  },
-  {
-   "id": "p2026-09-14",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2026.09.14",
-   "s": "@elonmusk",
-   "q": "@techdevnotes Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL",
-   "zh": "@techdevnotes Grok 4.8——一个用我们全新 C++ 软件栈训练的 2.5 万亿参数模型——本周完成训练，随即开始强化学习。",
-   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2099308197802631191 · 镜像逐字存档；snowflake 解码 UTC 2026-09-14 01:24）。Grok 4.8 技术规格首曝（2.5T 参数/C++ 自研栈/转 RL 训练）；同日他向网友确认「That will be Grok 5」的版本次序（status/2099455592670634034 · 镜像逐字在档）。注：Grok 4 发布（2025-07-09）在本墙断代窗界外未立卡，留档 EXPANSION。Grok 谱系见 xAI·Grok，起点见账本 e2025-02-18。",
-   "c": [
-    "X / Twitter",
     "xAI"
    ]
   },
@@ -4138,19 +4111,6 @@ window.TIMELINE_V7 = {
    "bg": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
    "c": [
     "Tesla"
-   ]
-  },
-  {
-   "id": "p2026-10-03",
-   "pg": "x-posts.html",
-   "t": "X 帖",
-   "d": "2026.10.03",
-   "s": "@elonmusk",
-   "q": "Robotaxi operating hours moved from 10pm to 11pm. The main thing we’re trying to solve is making sure that we don’t run over pets when they’re hard to see at night. Literally trying to avoid grey kittens on grey tarmac in the dark.",
-   "zh": "Robotaxi 的运营时间从晚上 10 点延到 11 点。 我们现在要解决的主要问题，是确保车子不会在夜里撞上那些很难看清的小动物。字面意义上的：在黑暗里避开灰色路面上的灰色小猫。",
-   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2106239692866019479 · 镜像逐字存档；snowflake 解码 UTC 2026-10-03 04:27）。本墙最新一卡（回捞日前三天）：运营延时一小时看似微小，但「无监督夜间长尾场景」恰是 L4 的最后一程——他把工程焦点说成「灰色小猫」，是他一贯把长尾风险具象化的话术。Robotaxi 弧线起点见 p2025-08-16，承诺对账见 承诺与结果。",
-   "c": [
-    "X / Twitter"
    ]
   }
  ]

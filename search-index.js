@@ -3374,7 +3374,8 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
-  ]
+  ],
+  "ev": "e2023-11"
  },
  {
   "id": "d2023-07-12",
@@ -3485,6 +3486,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "ev-e2023-11",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2023.11",
+  "s": "Grok：从聊天玩具到操作系统层",
+  "q": "2023 年 11 月 Grok 以「带幽默感」为卖点发布；两年多后，Grok 4.8 以 2.5T 参数与 C++ 推理栈上车入机，Grokkipedia 与预测模型把边界推到百科与预测——聊天玩具长成了横跨车机的 OS 层。",
+  "zh": "Grok launched in November 2023 sold on its sense of humor; two years on, Grok 4.8 runs 2.5T parameters with a C++ inference stack in cars and devices, while Grokipedia and forecasting models push past chat — a toy that grew into an OS layer.",
+  "bg": "2023-07-12 xAI 官宣成立；2023-11-04 Grok-1 向 X Premium 用户开放。 · 2026-02 All-Hands：语音/图像/视频生成第一、Grokkipedia 对标维基百科、首个 10 万张 H100 集群。 · 2026-09 Grok 4.8 细节首曝：2.5T 参数规模与 C++ 推理栈（站内 X 帖卡转录口径）。",
+  "c": [
+   "xAI"
+  ],
+  "ev": "e2023-11"
+ },
+ {
   "id": "p2023-11-04",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -3497,7 +3512,7 @@ window.SEARCH_INDEX = [
    "X / Twitter",
    "xAI"
   ],
-  "ev": "e2026-02-10"
+  "ev": "e2023-11"
  },
  {
   "id": "c2023-11-04",
@@ -3754,7 +3769,8 @@ window.SEARCH_INDEX = [
   "bg": "Tesla had just posted its worst quarter in years — revenue down year-on-year, a double-digit workforce cut announced a week earlier (2024.04.15), and Reuters reporting the $25,000 car shelved. The pivot Musk announced instead had two names: robotaxi, and Optimus.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2026-07"
  },
  {
   "id": "d2024-04-29",
@@ -3796,6 +3812,22 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "ev-e2024-07",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2024.07",
+  "s": "政治参与与 America Party：关键人风险的第三战场",
+  "q": "2024 年 7 月大选背书入场，2025 年 7 月 America Party 宣布组党，2026 中期周期发帖强度升至峰值（镜像池 178+ 条）——政治参与成为横跨三家公司资产负债表的关键人风险；本站以镜像原文建档，立场与批评正反并陈。",
+  "zh": "From the July 2024 endorsement to the America Party launch in July 2025 and a midterms-cycle posting peak (178+ archived posts), politics became a key-person risk spanning three balance sheets. This site archives it in mirrored originals, giving his case and the critics' case side by side.",
+  "bg": "他的立场（原文口径）：批评两党体制走向「single-party state」，主张以第三党制衡（2026-01-07 帖：”That is their goal: a single-party state for all of America“）。 · 批评方立场：批评者认为其政治参与使 Tesla/SpaceX 的政府合同与监管关系复杂化，并把平台变成党争工具；该批判口径见主流报道与本站后续深读（R12 立）。 · 记录口径：本站不预测政治后果，只逐条存档原文与日期；178+ 池以镜像检索链接为准。",
+  "c": [
+   "X",
+   "Tesla",
+   "SpaceX"
+  ],
+  "ev": "e2024-07"
+ },
+ {
   "id": "p2024-07-13",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -3832,7 +3864,8 @@ window.SEARCH_INDEX = [
   "bg": "Eight months after shelving the $25,000 car, the answer arrived on a movie-studio lot in Los Angeles: an event literally titled “We, Robot”, where the two-seat, no-pedal Cybercab was the star.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2025-06-22"
  },
  {
   "id": "e2024-10-13",
@@ -4132,6 +4165,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "ev-e2025-06-22",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2025.06.22",
+  "s": "Robotaxi 落地：八年欠账之后的奥斯汀首发",
+  "q": "从 2016 年「今年底无人横穿美国」到 2019 年「2020 年百万台」，欠账清单挂了八年；2025 年 6 月 22 日，奥斯汀的小规模付费服务终于开跑——安全员在驾驶座，但车轮真的自己转了。",
+  "zh": "Eight years after “crossing the country autonomously by year-end” (2016) and “a million robotaxis by 2020” (2019), a small paid service finally started in Austin on June 22, 2025 — a safety monitor still up front, but the wheels genuinely turned themselves.",
+  "bg": "付费服务 2025.06 于奥斯汀启动（e2026-07-22 财报电话会口径：launched 2025.06）。 · 2026-01 起部分行程车内无安全监督员（p2026-01-22 卡）；服务面积与时段随后继续扩张。 · 兑现记账：promises.html 五案将该承诺列为本站持续跟踪的口径之一。",
+  "c": [
+   "Tesla"
+  ],
+  "ev": "e2025-06-22"
+ },
+ {
   "id": "p2025-07-05",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -4157,7 +4204,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2025-06-22"
  },
  {
   "id": "e2025-09-01",
@@ -4210,7 +4258,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2025-06-22"
  },
  {
   "id": "e2025-11-06",
@@ -4275,7 +4324,8 @@ window.SEARCH_INDEX = [
   "bg": "公告本身即是估值宣言：把「加速人类科学发现」写在第一句，把 2300 亿写在第二句——使命叙事与资本规模在同一段落里完成绑定。英伟达与思科的参投还有另一层含义：算力供给方同时成为股东，供应商与投资人在同一张表上（此句为编者分析，非公告文字）。",
   "c": [
    "xAI"
-  ]
+  ],
+  "ev": "e2023-11"
  },
  {
   "id": "c2026-01",
@@ -4301,7 +4351,8 @@ window.SEARCH_INDEX = [
   "bg": "2026 年开年的长谈播客。被问到用 AI 干真正的工程活，他说自己几周前刚用它做过电路设计——然后顺势给 Grok 现场出了一道题。",
   "c": [
    "xAI"
-  ]
+  ],
+  "ev": "e2023-11"
  },
  {
   "id": "i2026-01-22",
@@ -4328,7 +4379,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2025-06-22"
  },
  {
   "id": "d2026-01-29",
@@ -4354,7 +4406,8 @@ window.SEARCH_INDEX = [
   "bg": "Dwarkesh Patel 逼问电力难题：芯片产出指数增长而电力输出是平的。他的回答把框架从数据中心整个翻到边缘侧。",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2026-07"
  },
  {
   "id": "e2026-02-10",
@@ -4428,6 +4481,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "ev-e2026-07",
+  "pg": "events.html",
+  "t": "事件档案",
+  "d": "2026.07",
+  "s": "Optimus 量产线：Fremont 实拍与 AI5 上机",
+  "q": "2026 年 7 月，Fremont 产线实拍帖把 Optimus 从展会演示推进到「有产线的商品」；同一季度，AI5 芯片进 Optimus 的口径与一周年财报会相互印证——人形机器人的瓶颈从「能不能做」变成「能不能造」。",
+  "zh": "In July 2026 a Fremont production-line post moved Optimus from stage demo to product with a line; the same quarter, AI5-in-Optimus talk and the one-year earnings call corroborate — the bottleneck shifted from “can it be built” to “can it be manufactured”.",
+  "bg": "2026-07 Fremont Optimus 产线实拍（t.co 图链不入正文，站内以 X 帖卡转录口径记录）。 · AI5 芯片将进 Optimus（i2026-02-05 访谈逐字口径：AI5 chip is going into our Optimus robot）。 · 欠账记账口径：「消除贫困」级承诺仍列 promises.html 跟踪清单，尚无足够证据。",
+  "c": [
+   "Tesla"
+  ],
+  "ev": "e2026-07"
+ },
+ {
   "id": "p2026-07-01",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -4439,7 +4506,8 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2026-07"
  },
  {
   "id": "e2026-07-22",
@@ -4452,7 +4520,8 @@ window.SEARCH_INDEX = [
   "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2026-07"
  },
  {
   "id": "i2026-07-23",
@@ -4480,7 +4549,8 @@ window.SEARCH_INDEX = [
   "c": [
    "X / Twitter",
    "xAI"
-  ]
+  ],
+  "ev": "e2023-11"
  },
  {
   "id": "r-sec-edgar-tesla",
@@ -5132,6 +5202,7 @@ window.SEARCH_INDEX = [
   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2106239692866019479 · 镜像逐字存档；snowflake 解码 UTC 2026-10-03 04:27）。本墙最新一卡（回捞日前三天）：运营延时一小时看似微小，但「无监督夜间长尾场景」恰是 L4 的最后一程——他把工程焦点说成「灰色小猫」，是他一贯把长尾风险具象化的话术。Robotaxi 弧线起点见 p2025-08-16，承诺对账见 承诺与结果。",
   "c": [
    "X / Twitter"
-  ]
+  ],
+  "ev": "e2025-06-22"
  }
 ];
