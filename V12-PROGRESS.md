@@ -25,7 +25,7 @@
 | 02 | X 帖断代回捞 III（2025-08→2026-10） | complete | v11.3.0 | 74cb82a | +6 卡 34→40（robotaxi×4/Optimus 产线/Grok 4.8）；2026 年份条新建；snowflake 六卡全吻合；索引 360；探针 23/23；revisions 227→233（X 帖 40）；留档 3 条移交 R10 |
 | 03 | X 帖早期加密 I（2018–2019） | complete | v11.4.0 | a874a79 | +4 卡 40→44（BFR 碳纤维首段/SEC typo 两连发/Starhopper/Cybertruck 146k）；逐字纠错「不锈钢首曝」讹传；索引 364；探针 20/20；revisions 237 |
 | 04 | 账本早期加密（2002–2010） | complete | v11.5.0 | 53b7e76 | +5 条 119→124（全 424B4/EDGAR/NASA 转存一手锚，无引语节）；查重出局 F4/IPO/MasterPlan 已在册；索引 369；探针 20/20；revisions 242 |
-| 05 | 访谈消化轮 | pending | v11.6.0 | | 60-min-2012/lex-438 重验+镜像库查重后扩收 |
+| 05 | 访谈消化轮 | complete | v11.6.0 | 96ae77a | +4 场 47→51（全 2026 断代：Moonshots/Davos-Fink/Dwarkesh/Economist）；lex-438 维持降级+勘误编号；All-In/Bloomberg 空壳弃收；索引 373；探针 18/18；revisions 246 |
 | 06 | email 库双源核验 I（前 15 封） | pending | v11.7.0 | | emails-worklog.tsv 为底册 |
 | 07 | email 续 + 文档馆近年化 | pending | v11.8.0 | | EDGAR 直取 2024–2026 |
 | 08 | 引语 101 块逐条核验（质量轮） | pending | v11.9.0 | | quotes-worklog.tsv 逐行填 verdict |
@@ -105,3 +105,11 @@
 - **验证**：verify 9/9（索引 369）；**CDP 探针 20/20**（tools/v12r04-probe.js 端口 9349；首跑 1 挂=textContent 中文模式读不到 data-en——N10 坑第三次，改属性断言即过）；revisions 提交后重跑 237→242（言行实录 127）。
 - **工程记录**：①全页时序升序断言不成立（既有年精度条目插年份段中间）——改局部邻居检查；②&& 链断路时 heredoc 不执行的静默坑（首轮账本断言 119→124 实际未改，二次补改）；③sed 链式复用 bump 脚本自噬（两规则互相吃）——bump 必须 Write 全新；④_tmp_*.html 临时文件会被 verify 当页面扫描——下载件放项目外或即用即删。
 - 成果提交 53b7e76（30 文件）；下一轮预告：R05 访谈消化轮（v11.6.0）——60-minutes-2012/lex-438 重验+镜像库查重后扩收 4–6 场。
+
+### R05（2026-10-06，v11.6.0）
+- **+4 场（47→51）**：镜像 161 场与站内对照——2013+ 未收 11 场**全部 2026 年**（访谈断代与 X 帖同源）。立：i2026-01-06 Moonshots #220（Grok 电路访谈）/i2026-01-22 达沃斯与 Fink（最大飞行器+今年证明全复用）/i2026-02-05 Dwarkesh（AI5 进 Optimus+电网错峰）/i2026-07-23 Economist（数字-物理智能两半论）。
+- **双降级维持**：lex-438（Neuralink 专场）两猜测 URL 404；60-minutes CBS 404——均维持留档并勘误编号口径（v2① lex-438≠站内已收 #400 稿）。
+- **弃收**：All-In 场详情页列表壳、Bloomberg 场空壳——如实留档（重验=查详情页 id 变体）；7 场候选池入 EXPANSION。
+- **验证**：verify 9/9（索引 373）；**CDP 探针 18/18**（tools/v12r05-probe.js 端口 9351；首跑 1 挂=legacy 无 id 条目计入总数，修正）；QA 截图 2 张。
+- **工程记录**：访谈 transcript 端点只回标题——全文在 /video/{id} 详情页（2.75MB 级，剥标签抽词）；bump 脚本 heredoc 生成再炸（换行字面量）——**版本脚本必须 Write 全新文件**（红线第三次验证）。
+- 成果提交 96ae77a（31 文件）；下一轮预告：R06 email 库双源核验 I（前 15 封，v11.7.0）——emails-worklog.tsv 为底册。
