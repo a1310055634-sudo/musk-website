@@ -113,3 +113,10 @@
 - **验证**：verify 9/9（索引 373）；**CDP 探针 18/18**（tools/v12r05-probe.js 端口 9351；首跑 1 挂=legacy 无 id 条目计入总数，修正）；QA 截图 2 张。
 - **工程记录**：访谈 transcript 端点只回标题——全文在 /video/{id} 详情页（2.75MB 级，剥标签抽词）；bump 脚本 heredoc 生成再炸（换行字面量）——**版本脚本必须 Write 全新文件**（红线第三次验证）。
 - 成果提交 96ae77a（31 文件）；下一轮预告：R06 email 库双源核验 I（前 15 封，v11.7.0）——emails-worklog.tsv 为底册。
+
+### R06（2026-10-06，v11.7.0）
+- **+4 条（文档馆 27→31）**：d2022-04-20 埃里森十亿承诺（"A billion … or whatever you recommend"——法庭披露件+SEC 2022-05-05 备案双源，与账本 e2022-04-20 互证互链）/d2022-11-09 Twitter 首封全员信（CNBC 全文双源）/d2023-01 bait-and-switch（**口径如实=2026 庭审宣誓作证当场追述，原始短信档未公开**）/d2023-02 my-hero（2026-01 解封展品+BI 逐字双源）。Bret Taylor 私信=在册复用（e2022-04-09 现场段已覆盖）不新立；N09 留档 30 封消化 5 封。
+- **管线突破**：镜像 email 详情页**带浏览器 UA 的 curl 可取完整 SSR HTML**（26KB 级；裸 curl=404 壳、web_reader 渲染亦可）——正文在 Next.js RSC payload 内，tools/v12r06-extract.py 采料入册；镜像页脚自带第二源链接（法庭展品/CNBC/hardresetmedia）。四封镜像存档 qa/v12/round-06/sources/。
+- **验证**：verify 9/9（索引 377=…+31+…）；**CDP 探针 24/24**（tools/v12r06-probe.js 端口 9352：三段时序邻居/四条五件套/逐字四组/口径戳/互链 e2022-04-20 与 d2023-01→02）；QA 截图 2 张。
+- **工程记录**：①**documents.html 历史上无站点页脚**（无 site-version-val span，页尾=定制 doc-foot）——探针首跑 1 挂系断言写错非站点回归，15 span 口径从未含它；②集成断言教训：permalink 计数用 `href="#id" title=` 特征（裸 `href="#id"` 会被站内互链虚增）；③2023-01 庭审追述件的日期口径（镜像 2023-01-23=微软 $10B 公告时点 vs 庭审转述"late 2022"）取镜像元数据并在注释声明依据。
+- 成果提交（本轮）；下一轮预告：R07 email 续+文档馆近年化（2024–2026 SEC/Starship 信，v11.8.0）——worklog 前 15 封余量+近年文书锚盘点。

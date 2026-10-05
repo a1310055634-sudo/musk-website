@@ -236,7 +236,7 @@ for _r in RD.RESOURCES:
 counts = {}
 for it in items:
     counts[it['t']] = counts.get(it['t'], 0) + 1
-assert counts == {'言行实录': 124, '一手文档': 27, '访谈与表态': 51, 'X 帖': 44, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS), '社区资源': len(RD.RESOURCES)}, counts
+assert counts == {'言行实录': 124, '一手文档': 31, '访谈与表态': 51, 'X 帖': 44, '争议深读': 5, '编年史': 53, '财务全景': 4, '事件档案': len(ED.EVENTS), '社区资源': len(RD.RESOURCES)}, counts
 ids = [it['id'] for it in items]
 assert len(ids) == len(set(ids)), 'id 重复'
 

@@ -4,9 +4,9 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "10.14.0",
+  "version": "11.7.0",
   "nEvents": 16,
-  "nRecords": 293,
+  "nRecords": 312,
   "nAbsorbed": 45,
   "absorbedByEvent": {
    "e2002-10-03": 1,
@@ -41,6 +41,34 @@ window.TIMELINE_V7 = {
    "c": [
     "PayPal",
     "SpaceX"
+   ]
+  },
+  {
+   "id": "e2002-05",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2002.05",
+   "s": "SpaceX 成立 · Musk 出任 CEO/CTO · Tesla 424B4（2010）官方陈述",
+   "q": "SpaceX（太空探索技术公司）2002 年成立；Tesla 自己的 IPO 定价书（424B4，2010-06）官方陈述「马斯克自 2002 年 5 月起担任 SpaceX 首席执行官、首席技术官兼董事长」。五个月后，他把 PayPal 套现的 1 亿美元投了进去（见本页 2002.10.03 条）。",
+   "zh": "",
+   "bg": "Space Exploration Technologies Corp. was founded in 2002; Tesla’s own IPO prospectus (424B4, 2010-06) states Musk “has also served as Chief Executive Officer, Chief Technology Officer and Chairman of Space Exploration Technologies Corporation…since May 2002.” He put $100M of the PayPal proceeds into it five months later (see 2002.10.03).",
+   "c": [
+    "PayPal",
+    "Tesla",
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "e2004",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2004",
+   "s": "Musk 出任 Tesla 董事长 · Tesla 424B4 官方陈述 · Series A 细节=公司披露与传记口径",
+   "q": "Tesla A 轮融资（750 万美元，2004 年 4 月）由马斯克领投约 650 万美元，并出任董事长——424B4（2010-06）官方陈述「自 2004 年 4 月起担任董事会主席」。创始人 Eberhard 与 Tarpenning 留任。",
+   "zh": "",
+   "bg": "Tesla’s Series A ($7.5M, April 2004) was led by Musk with about $6.5M of his own money; the 424B4 (2010-06) states he has been “Chairman of our board of directors since April 2004.” Founders Eberhard and Tarpenning stayed on.",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -135,6 +163,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2008-12-23",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2008.12.23",
+   "s": "NASA CRS 合同公告 · Spaceflight Now/NASA Watch 转存核读 · NASA OIG 2013 审计在档",
+   "q": "就在救活 Tesla 的圣诞夜融资前一天（见本页 2008.12.24 条），NASA 宣布商业再补给服务（CRS）合同：SpaceX 获最多 12 次飞行、约 16 亿美元——Falcon 1 三连败后五年内，这份合同把 SpaceX 从「工资都发不出」的生存线里拉了出来。",
+   "zh": "",
+   "bg": "One day before the Christmas Eve financing that saved Tesla (see 2008.12.24), NASA announced the Commercial Resupply Services awards: up to 12 flights for SpaceX valued at about $1.6 billion — the contract that pulled SpaceX out of salary-scrapping survival within five years of three consecutive Falcon 1 failures.",
+   "c": [
+    "Tesla",
+    "SpaceX"
+   ]
+  },
+  {
    "id": "c2008-12-23",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -176,6 +218,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "e2009-05-19",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2009.05.19",
+   "s": "Daimler 战略投资 · Tesla 官方公告口径 · EDGAR Form D（2009-05-20 归档）· 424B4 Blackstar 陈述",
+   "q": "Daimler 战略投资 Tesla（媒体口径：约 5000 万美元、约 10% 股权）。Tesla 424B4（2010-06）官方陈述：「Daimler 关联实体 Blackstar Investco LLC 持有公司超过 5% 的流通股本」；EDGAR 于 2009-05-20 归档 Reg D 备案佐证。",
+   "zh": "",
+   "bg": "Daimler made a strategic investment in Tesla (media caliber: about $50M for roughly 10%). Tesla’s 424B4 (2010-06) states: “Blackstar Investco LLC, an affiliate of Daimler, holds more than 5% of our outstanding capital stock”; a Regulation D filing was lodged with the SEC on 2009-05-20.",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "d2010-05-04",
    "pg": "documents.html",
    "t": "一手文档",
@@ -186,6 +241,19 @@ window.TIMELINE_V7 = {
    "bg": "这不是词汇洁癖，是沟通半径的制度化：扩张期最大的隐性成本是「新人读不懂的黑话」，他的解法是让 CEO 本人来当全公司的词表闸门。为两个音节较真，与后来的「五步算法」（i2021-07-30：先质疑需求、再删部件、最后删掉一切不必要的词）一脉相承——都是对复杂度的宣战。",
    "c": [
     "SpaceX"
+   ]
+  },
+  {
+   "id": "e2010-05-20",
+   "pg": "primary.html",
+   "t": "言行实录",
+   "d": "2010.05.20",
+   "s": "Tesla/Toyota 合作与 Fremont 工厂公告 · Tesla 424B4 官方陈述",
+   "q": "据 424B4（2010-06）：「2010 年 5 月，Tesla 与丰田宣布电动车开发合作意向，Tesla 将获得丰田在零部件采购、生产与工程上对 Model S 的支持」——同期宣布在弗里蒙特原 NUMMI 工厂生产 Model S 的计划（媒体口径：丰田于 IPO 时投资 5000 万美元）。",
+   "zh": "",
+   "bg": "Per the 424B4 (2010-06): “In May 2010, Tesla and Toyota Motor Corporation…announced their intention to cooperate on the development of electric vehicles, and for Tesla to receive Toyota’s support with sourcing parts and production and engineering expertise for the Model S” — alongside the plan to build Model S at the former NUMMI plant in Fremont (media caliber: Toyota to invest $50M at IPO).",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -1193,6 +1261,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2018-09-18",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2018.09.18",
+   "s": "@elonmusk",
+   "q": "@yousuck2020 @SpaceX That’s the first BFR airframe/tank barrel section made of a new carbon fiber material",
+   "zh": "@yousuck2020 @SpaceX 这是第一段 BFR 箭体/贮箱筒段，用的是新型碳纤维材料。",
+   "bg": "背景/后续：早期加密（V12 R03；原帖 status/1041953361908576256 · 镜像逐字存档；snowflake 解码 UTC 2018-09-18 07:33）。BFR（Starship 前身）第一段实体箭体上墙——彼时还是碳纤维路线；不到两个月后他 180° 转向不锈钢（2018-12 首照公开，「why I switched」复盘帖 2026-08-23 镜像逐字在档），材料豪赌的弧线起点即此卡。试验台首飞见 p2019-07-26。",
+   "c": [
+    "SpaceX",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "e2018-09-27",
    "pg": "primary.html",
    "t": "言行实录",
@@ -1216,6 +1298,20 @@ window.TIMELINE_V7 = {
    "bg": "Two days after the suit, a settlement: Musk kept the CEO seat, while Tesla separately settled a charge of failing to have required disclosure controls (No. 1:18-cv-08947). The market's question — Tesla without Musk — was answered; for Musk, it was the first time he signed onto someone else's rules.",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "p2018-10-04",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2018.10.04",
+   "s": "@elonmusk",
+   "q": "Just want to that the Shortseller Enrichment Commission is doing incredible work. And the name change is so on point! @Scobleizer @Tesla Sorry about the typo. That was unforgivable. Why would they be upset about their mission? It’s what they do.",
+   "zh": "只是想说，「做空者致富委员会」的工作实在出色。这次改名改得也太到位了！ @Scobleizer @Tesla 抱歉打错了字。这不可原谅。他们怎么会介意别人提起自己的使命呢？这就是他们的本职啊。",
+   "bg": "背景/后续：早期加密（V12 R03；原帖 status/1047943670350020608 + status/1047953389743554560 · 镜像逐字存档；snowflake 解码 UTC 2018-10-04 20:16/20:55）。与 SEC 和解（2018-09-29：卸任董事长+2000 万罚金，Reuters/CNBC 广泛报道）落定五天后，他把 SEC（美国证券交易委员会）戏称「做空者致富委员会」——首帖漏了 say 的 typo 被网友围猎，他顺势再补一刀「他们怎么会介意自己的使命」（typo 原样保留，站内惯例）。funding secured 风暴最著名的余震；上半场见 p2018-08-07。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -1417,6 +1513,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2019-07-26",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2019.07.26",
+   "s": "@elonmusk",
+   "q": "Starhopper flight successful. Water towers *can* fly haha!!",
+   "zh": "Starhopper 试飞成功。水塔真的*能*飞哈哈！！",
+   "bg": "背景/后续：早期加密（V12 R03；原帖 status/1154599520711266305 · 镜像逐字存档；snowflake 解码 UTC 2019-07-26 03:49）。「星跳者」150 米悬停跳跃成功（NASA Spaceflight/LabPadre 直播口径）——不锈钢水塔造型被嘲了近两年，他只用一个动词回敬：水塔*能*飞。这台 20 米试验台直通后来的星舰轨道飞行；推进团队致谢见 p2019-05-25。",
+   "c": [
+    "SpaceX",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "c2019-09-28",
    "pg": "chronicle.html",
    "t": "编年史",
@@ -1493,6 +1603,20 @@ window.TIMELINE_V7 = {
    "bg": "Cybertruck 发布会破玻璃名场面的次日，他在 X 上给出了工程师式的解释——不找借口，只讲机理。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "p2019-11-23",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2019.11.23",
+   "s": "@elonmusk",
+   "q": "146k Cybertruck orders so far, with 42% choosing dual, 41% tri & 17% single motor With no advertising & no paid endorsement",
+   "zh": "Cybertruck 订单目前 14.6 万：42% 选双电机、41% 三电机、17% 单电机。 没有投放任何广告，也没有付费代言。",
+   "bg": "背景/后续：早期加密（V12 R03；原帖 status/1198344195317985280 + status/1198347240785338368 · 镜像逐字存档；snowflake 解码 UTC 2019-11-23 20:54/21:07）。发布晚会大锤砸玻璃翻车（p2019-11-21）48 小时后，他用数据把「翻车」叙事翻盘：14.6 万预订（100 美元可退订金，媒体广泛报道口径），次日追加 18.7 万（status/1198693994194014208 · 镜像逐字在档）。「零广告」自此成为 Cybertruck 营销的固定口径。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -3138,6 +3262,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "p2025-08-16",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2025.08.16",
+   "s": "@elonmusk",
+   "q": "The Tesla Robotaxi service area is already larger than any competitors in Austin and the Bay Area",
+   "zh": "Tesla 的 Robotaxi 服务面积，现在已经比 Austin 和湾区任何一家对手都大。",
+   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/1956765617517985951 · 镜像逐字存档；snowflake 解码 UTC 2025-08-16 17:10）。Austin 首发（2025-06-22）后近两个月的规模对标帖——「面积已超所有对手」是他给 Robotaxi 定的第一个横向基准。承诺与结果的逐案对账见 承诺与结果。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "e2025-09-01",
    "pg": "primary.html",
    "t": "言行实录",
@@ -3161,6 +3299,20 @@ window.TIMELINE_V7 = {
    "bg": "关键词从「车」切换到 AI、Optimus 与自动驾驶。评论界普遍称其过于哲学与含糊——与前作 Part 3 的工程气质形成鲜明反差。他后来又把使命措辞改为「Amazing Abundance」。",
    "c": [
     "综合"
+   ]
+  },
+  {
+   "id": "p2025-10-29",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2025.10.29",
+   "s": "@elonmusk",
+   "q": "Tesla Model Y robotaxi service now available in the greater Austin area!",
+   "zh": "Tesla Model Y 的 robotaxi 服务，现在全大奥斯汀地区都能用了！",
+   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/1983428037145432381 · 镜像逐字存档；snowflake 解码 UTC 2025-10-29 06:57）。首发四个月后服务区扩张到「greater Austin」全境（TechCrunch/CNBC 报道口径）——从试点小区到都会区，是监管与运营双线的实质跨步。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
    ]
   },
   {
@@ -3242,6 +3394,73 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "i2026-01-06",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2026.01.06",
+   "s": "「Grok 一直在更新」——Grok 5 前夜的电路访谈",
+   "q": "“I think probably at this point, Grok, if you took a photo and submitted it to Grok, it could probably tell you if a circuit is…if there’s something wrong with it. … Grok keeps updating.”",
+   "zh": "",
+   "bg": "2026 年开年的长谈播客。被问到用 AI 干真正的工程活，他说自己几周前刚用它做过电路设计——然后顺势给 Grok 现场出了一道题。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "i2026-01-22",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2026.01.22",
+   "s": "「有史以来最大的飞行器」——达沃斯谈完全复用",
+   "q": "“With Starship, which is a giant rocket, it’s the largest flying machine ever made. …hopefully this year we should prove full reusability for Starship.”",
+   "zh": "",
+   "bg": "达沃斯舞台上，贝莱德的 Larry Fink 把话题抛向火星。他先报了一组 Falcon 9 数字：助推器复用超 500 次，而一次性烧毁的上面板成本相当于一架中小型公务机——然后才是关于星舰的正题。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "p2026-01-22",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2026.01.22",
+   "s": "@elonmusk",
+   "q": "Just started Tesla Robotaxi drives in Austin with no safety monitor in the car. Congrats to the @Tesla_AI team! If you’re interested in solving real-world AI, which is likely to lead to AGI imo, join Tesla AI. Solving real-world AI for Optimus will be 100X harder than cars.",
+   "zh": "Tesla 的 Robotaxi 刚刚在 Austin 开始了车内无安全监督员的行驶。 恭喜 @Tesla_AI 团队！ 如果你有兴趣解决真实世界的 AI——在我看来它大概率通向 AGI——来加入 Tesla AI。为 Optimus 解决真实世界 AI，会比汽车难上 100 倍。",
+   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2014397578352226423 · 镜像逐字存档；snowflake 解码 UTC 2026-01-22 17:59）。车内安全监督员撤除是 Robotaxi 弧线的关键节点（CBS/CNBC 报道口径）；同一帖把「真实世界 AI」的难度天平首次压向 Optimus——100X 于汽车。Robotaxi 时间线两端即本卡与本墙最新一卡 p2026-10-03。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
+   "id": "i2026-02-05",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2026.02.05",
+   "s": "「AI5 要进 Optimus」——边缘算力与电网错峰",
+   "q": "“For Tesla, the AI5 chip is going into our Optimus robot…if you have an AI Edge compute, that’s distributed power. The power is distributed over a large area, it’s not concentrated. And if you can charge at night, you can actually use the grid much more effectively.”",
+   "zh": "",
+   "bg": "Dwarkesh Patel 逼问电力难题：芯片产出指数增长而电力输出是平的。他的回答把框架从数据中心整个翻到边缘侧。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "p2026-07-01",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2026.07.01",
+   "s": "@elonmusk",
+   "q": "Walking the Optimus production line in Fremont",
+   "zh": "在弗里蒙特工厂走 Optimus 产线。",
+   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2072214077372518657 · 镜像逐字存档；snowflake 解码 UTC 2026-07-01 07:01；原帖附产线现场照，t.co 图链不入正文——站内 Gamestonk 卡先例）。产线实拍首次上墙：Optimus 从原型叙事转入制造纪律的同帖语境下，他同日补发「初期产能会极其缓慢」的预期管理帖（status/2072448521513685263 · 镜像逐字在档）。三周后账本记下「Optimus 史上最大产品」表态，见 账本 e2026-07-22。",
+   "c": [
+    "Tesla",
+    "X / Twitter"
+   ]
+  },
+  {
    "id": "e2026-07-22",
    "pg": "primary.html",
    "t": "言行实录",
@@ -3252,6 +3471,34 @@ window.TIMELINE_V7 = {
    "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "i2026-07-23",
+   "pg": "interviews.html",
+   "t": "访谈与表态",
+   "d": "2026.07.23",
+   "s": "「数字智能与物理智能」——十年后靠什么赚钱",
+   "q": "“You can really think of the economy as digital and physical intelligence. What we have right now advancing very rapidly is digital intelligence.”",
+   "zh": "",
+   "bg": "The Economist 点破一件怪事：SpaceX 招股书里未来收入的压倒性大头居然是 AI/Grok，而不是把东西运上天——并追问十年后他的公司们究竟靠什么赚钱。",
+   "c": [
+    "SpaceX",
+    "xAI"
+   ]
+  },
+  {
+   "id": "p2026-09-14",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2026.09.14",
+   "s": "@elonmusk",
+   "q": "@techdevnotes Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL",
+   "zh": "@techdevnotes Grok 4.8——一个用我们全新 C++ 软件栈训练的 2.5 万亿参数模型——本周完成训练，随即开始强化学习。",
+   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2099308197802631191 · 镜像逐字存档；snowflake 解码 UTC 2026-09-14 01:24）。Grok 4.8 技术规格首曝（2.5T 参数/C++ 自研栈/转 RL 训练）；同日他向网友确认「That will be Grok 5」的版本次序（status/2099455592670634034 · 镜像逐字在档）。注：Grok 4 发布（2025-07-09）在本墙断代窗界外未立卡，留档 EXPANSION。Grok 谱系见 xAI·Grok，起点见账本 e2025-02-18。",
+   "c": [
+    "X / Twitter",
+    "xAI"
    ]
   },
   {
@@ -3891,6 +4138,19 @@ window.TIMELINE_V7 = {
    "bg": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "p2026-10-03",
+   "pg": "x-posts.html",
+   "t": "X 帖",
+   "d": "2026.10.03",
+   "s": "@elonmusk",
+   "q": "Robotaxi operating hours moved from 10pm to 11pm. The main thing we’re trying to solve is making sure that we don’t run over pets when they’re hard to see at night. Literally trying to avoid grey kittens on grey tarmac in the dark.",
+   "zh": "Robotaxi 的运营时间从晚上 10 点延到 11 点。 我们现在要解决的主要问题，是确保车子不会在夜里撞上那些很难看清的小动物。字面意义上的：在黑暗里避开灰色路面上的灰色小猫。",
+   "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2106239692866019479 · 镜像逐字存档；snowflake 解码 UTC 2026-10-03 04:27）。本墙最新一卡（回捞日前三天）：运营延时一小时看似微小，但「无监督夜间长尾场景」恰是 L4 的最后一程——他把工程焦点说成「灰色小猫」，是他一贯把长尾风险具象化的话术。Robotaxi 弧线起点见 p2025-08-16，承诺对账见 承诺与结果。",
+   "c": [
+    "X / Twitter"
    ]
   }
  ]

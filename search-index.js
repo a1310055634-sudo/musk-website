@@ -2775,6 +2775,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2022-04-20",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.04.20",
+  "s": "埃里森十亿美元承诺（马斯克 × 拉里·埃里森短信）",
+  "q": "“Any interest in participating in the Twitter deal?” —— Elon Musk",
+  "zh": "",
+  "bg": "整场收购里最省力的十亿美元：四行短信、一个 👍 敲定，不到一小时。埃里森（Oracle 联合创始人、Tesla 董事会同事）由此成为收购财团里最大的具名个人出资人——2022-05-05 马斯克以 SEC 修订备案公布 71.4 亿美元新增股权承诺，埃里森的 10 亿位列其中（Reuters/CNBC 当日报道）。短信原文经 Twitter v. Musk 诉讼披露（TIME/WaPo 逐字转载）。与言行实录 2022.04.20 条目同源互证。口径：法庭披露件 + SEC 备案，双源 2026-10-06 核验。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-04-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -3099,6 +3113,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2022-11-09",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.11.09",
+  "s": "远程工作终结令（马斯克致 Twitter 全员第一封信）",
+  "q": "“Remote work is no longer allowed, unless you have a specific exception. […] Starting tomorrow (Thursday), everyone is required to be in the office for a minimum of 40 hours per week. […]” —— 落款 “Thanks, Elon”",
+  "zh": "",
+  "bg": "交割（d2022-10-27）后第十三天，第一封全员信定调两件事：远程工作终结，以及他对全员的直白警告——公司若无订阅收入便难以存续，经济环境「异常艰难」。CNBC 次日获全文刊发，一周后的「极其硬核」通牒（d2022-11-16）正是这封信的延长线：先收回远程，再收回归属。口径：媒体获得（CNBC 全文）+ 镜像底本，双源 2026-10-06 核验。",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2022-11-16",
   "pg": "primary.html",
   "t": "言行实录",
@@ -3232,6 +3259,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2023-01",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2023.01",
+  "s": "“This is a bait and switch”（马斯克致奥特曼短信）",
+  "q": "“What the hell is going on? This is a bait and switch.”",
+  "zh": "",
+  "bg": "口径须先说明：这封短信的原始文本并未单独公开，此句出自马斯克 2026 年庭审宣誓作证的当场追述（2026-04-29 第二日作证，短信截图作为证据呈交陪审团；Business Insider/NYT/CNBC 均逐字报道）。时点在微软确认对 OpenAI 追加 100 亿美元投资前后——马斯克称此举背叛了非营利初心，并称之为自己对奥特曼「失去信任的时刻」；庭审展品显示奥特曼曾回「我也觉得这很糟」（“I agree this feels bad”）并提出让他参股，被马斯克一方指为安抚。这封短信与 d2023-02 同属 2023 年初公开决裂的私下半场。口径：庭审证词追述，镜像如实标注（2026-10-06 核验）。",
+  "c": [
+   "综合"
+  ]
+ },
+ {
   "id": "c2023-01-13",
   "pg": "chronicle.html",
   "t": "编年史",
@@ -3240,6 +3280,19 @@ window.SEARCH_INDEX = [
   "q": "史上最大降价：全系 6%–20%（Model Y 长续航 -20% 至 52,990 美元、重获 7,500 美元抵免），需求回路满量程运作（定价页）。",
   "zh": "",
   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "d2023-02",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2023.02",
+  "s": "“You’re my hero … it really fucking hurts”（奥特曼致马斯克短信）",
+  "q": "“You’re my hero and that’s what it feels like when you attack openai … it really fucking hurts when you publicly attack openai.” —— Sam Altman",
+  "zh": "",
+  "bg": "2026 年 1 月庭审前解封文件曝光的这一来一回，是两人决裂最私人的一帧：马斯克公开炮轰 OpenAI 期间，奥特曼发去这条混杂崇敬与委屈的短信；马斯克的回复把赌注直接抬到文明高度（Business Insider 引用的解封版本更长——他在「文明」半句前还道了歉：「我听到了，伤害你不是我的本意，为此我道歉；但文明的存续系于此」）。据 WaPo，奥特曼同场还保证不会挖 Tesla 员工「伤害」Tesla。这批解封文件随后成为庭审主线之一。口径：法庭解封展品 + 媒体逐字引用，双源 2026-10-06 核验。",
   "c": [
    "Tesla"
   ]
