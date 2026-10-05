@@ -1,0 +1,79 @@
+# V12-20 计划进度记录（颗粒度·内容扩容 · 复古杂志版式深化 · 一手信息增量）
+
+> 「马斯克商业志 MUSK, INC.」V12-20 升级计划（2026-10-06 立项，共 20 轮，目标 v12.0.0）。
+> 任务书正本 `V12-TASKBOOK.md`（含四A速查节与定时提示词第六节）；本文件是唯一轮次账本，与 git 相互核验。
+> 前序：V9-20 二十轮（v8.1.0→v10.0.0，V9-20-PROGRESS.md）、V10-15 十五轮（v10.1.0→v11.0.0，V10-15-PROGRESS.md）、v11.1.0 复古杂志美术增量（58d0b85+ba47824）。不继承其计数。
+
+## 运行模式（重要）
+
+- **纯本地模式**：每轮仅做本地 git 提交，**绝不 push、不 fetch 后合并远程、不改写已有历史、不做云端发布与 Pages 验证**。第 20 轮输出 RELEASE-CHECKLIST-v12.md「待发布清单」，由用户验收后自行推送。
+- 每次触发完成一个未完成轮次；上轮中断先恢复。成功轮次共 20；失败/空触发/重复检查不增加轮次；一轮未验收不进下一轮。
+- 20 轮全部本地验收通过后，后续触发**静默退出**（不改文件不加版本不提交）。
+- 每轮锁：`.v12run.lock`（不入 git，已在 .gitignore）。有效锁直接退出；确认旧实例已死（进程+仓库静默>15min）才可恢复遗留锁。
+- 版本步进：R01=v11.2.0 → R19=v11.20.0（每轮 minor+1）→ R20=v12.0.0。三件套=VERSION+app.js SITE_VERSION+16 处 site-version-val span（替换计数须打印）。
+
+## 基线快照（2026-10-06 核对，=v11.1.0 收官态）
+
+- 分支 main @ `097c10d`（任务书颗粒度修订版），VERSION `11.1.0`；origin/main 停在 `355fc0d`（v7.9.0 时代）——**本地领先 85 提交全待用户推送**。
+- 工作区干净：38 个 HTML 页面（含 noindex 试衣间 preview-v12.html，正式 37）；账本 119 条（primary.html）；一手文档 27（documents.html）；访谈 47（interviews.html）；X 帖 34（x-posts.html，最新 2025-07）；语录卡 107（引文块 109，白名单豁免 2）；事件档案 16 档 67 材料；编年史 53；资源 49 条（official 11/opensource 9/community 21/tools 8）；检索索引 354（119+27+47+34+5+53+4+16+49）；修订锚点 227；EPUB 含 e2026-07-22；verify.py 9 项。
+
+## 轮次状态
+
+| 轮 | 主题 | 状态 | 版本 | 成果提交（本地） | 备注 |
+|---|---|---|---|---|---|
+| 01 | 基建：账本+缺口清单 v3+两份工作册 | complete | v11.2.0 | （回填） | 镜像五短语探明：断代期覆盖充足（Grok4 1105/Grok5 898/AP 178/robotaxi 37/Optimus 19，最新 2026-10-04）；quotes-worklog 101 行+emails-worklog 47 行（初判在册 14）；.gitignore 已含锁（前轮备好） |
+| 02 | X 帖断代回捞 III（2025-08→2026-10） | pending | v11.3.0 | | 只走 /agents/search；年份组跨 2026 须建新组 |
+| 03 | X 帖早期加密 I（2018–2019） | pending | v11.4.0 | | index 管线可用（2018–2022 不触 1000 上限） |
+| 04 | 账本早期加密（2002–2010） | pending | v11.5.0 | | 锚=NASA CRS-1/Falcon 1 F4 官方信/Tesla S-1；无 8-K 无 SpaceX S-1 |
+| 05 | 访谈消化轮 | pending | v11.6.0 | | 60-min-2012/lex-438 重验+镜像库查重后扩收 |
+| 06 | email 库双源核验 I（前 15 封） | pending | v11.7.0 | | emails-worklog.tsv 为底册 |
+| 07 | email 续 + 文档馆近年化 | pending | v11.8.0 | | EDGAR 直取 2024–2026 |
+| 08 | 引语 101 块逐条核验（质量轮） | pending | v11.9.0 | | quotes-worklog.tsv 逐行填 verdict |
+| 09 | 质量节点①：盘点总表 v3 | pending | v11.10.0 | | 三口径零漂移 |
+| 10 | 事件档案 2023–2026 补档 | pending | v11.11.0 | | 口径红线探针；etype/kind 枚举勿扩 |
+| 11 | 编年史近年+深读新篇 I（deep-dive-06 xAI 三年志） | pending | v11.12.0 | | 新页七件接入（nav/索引/verify/span/互链） |
+| 12 | 深读新篇 II（Robotaxi 或 政治参与） | pending | v11.13.0 | | 同七件接入 |
+| 13 | 资源扩容（xAI/Grok 生态） | pending | v11.14.0 | | 49→58±，validate 拒生成不可绕 |
+| 14 | 质量节点②：互链扩展+检索审计 | pending | v11.15.0 | | 共现扫描 +6 对 |
+| 15 | 美术·报头刊头体系 | pending | v11.16.0 | | masthead 走 site-nav.py 模板 |
+| 16 | 美术·正文杂志版式（drop cap/引语题花） | pending | v11.17.0 | | 纯 CSS；基线 16.5px/720px 不动 |
+| 17 | 美术·图表复古化（hatch 雕刻风） | pending | v11.18.0 | | 数据编码不动；390 清单形态=回归证据 |
+| 18 | 美术·专题封面化+首页封面故事 | pending | v11.19.0 | | 纯 CSS+既有 DOM；三入口不动摇 |
+| 19 | 美术·微交互统一+质量节点③ | pending | v11.20.0 | | transition TSV；四轮截图齐备 |
+| 20 | 全站验收+待发布清单（v12.0.0） | pending | v12.0.0 | | 全家桶 14 脚本幂等；sitemap 40 URL |
+
+状态取值：pending / in_progress / complete / blocked。失败不推进轮次。
+
+## 缺口清单 v3（2026-10-06，接替 EXPANSION 卷首 v2；v2 五项保留原重验条款）
+
+1. **X 帖断代 2025-08→2026-10（★★★）**：站内最新 2025-07，空白 15 个月。**R01 镜像探明**（/agents/search 精确短语，type=posts，2026-10-06 实测）：
+   - `Grok 4` → total **1105**（首三条 2026-10-04/09-30/09-29——镜像覆盖至今天实锤）
+   - `Grok 5` → total **898**（2026-09-14 起）
+   - `America Party` → total **178**（2026-09-26 起）
+   - `robotaxi Austin` → total **37**（2026-01-22/2025-11-26/2025-10-29）
+   - `Optimus production` → total **19**（2026-10-01/2026-07-01）
+   - `xAI funding` → total **7**（2025-07-11/2025-05-15/2024-05-27，断代期内较少）
+   **结论：R02 可回捞量充足，五主题全部有断代期内帖子。** R02 立卡时每条仍须 transcript/{id} 取原文+snowflake 对表。
+2. **引语 101 块非镜像来源待逐条核**：底册 qa/v10-15/round-03/unmatched-itemized.tsv（other-official 73/earnings-call 20/edgar 6/jre 1/ted 1）→ 工作册 `qa/v12/round-01/quotes-worklog.tsv`（101 行，verdict 列空待 R08 填）。
+3. **email 候选库**：镜像 emails 全量 47 封（qa/v9-20/round-06/sources/emails.json）→ 工作册 `qa/v12/round-01/emails-worklog.tsv`（47 行；日精度日期命中 documents.html 在册 id 者 14 封初判在册，33 封待 R06/R07 双源核验；含 Fork in the Road 2022-11-16 等已收件正判 Y）。
+4. 访谈早期断档（60-minutes-2012/lex-438 待外部逐字源）与 SAE J3400/tesla.com 重验条款：沿 v2，归 R05 与 R13。
+5. 深读新篇候选池：xAI 三年志（R11）/Robotaxi 落地考、政治参与 2024–2026（R12 择一，落选者留档）。
+
+## 恢复指引
+
+- 每轮唯一成果提交信息带 `[V12 Rxx]` 前缀；工作记录追加在本文件末尾。每轮原则上一个成果提交+一个账本回填提交。
+- 提交了但中断 → 账本行回填后直接进下一轮，不重做工作。
+- 账本/一手页变动后必跑：`build-ledger-timeline.py` / `build-search-index.py`（断言同步）/ `build-epub.py`；CHANGELOG 更新后跑 `sync-changelog.py`；HTML 改动（含 span 批量替换）后 `build-revisions.py`+EPUB 重刷为第二提交内容；最后 `verify.py` 9 项全绿。
+- 采料纪律与坑册：任务书第三节+四A速查节（模板结构/枚举/CDP 惯例全在）；复杂 Python 写 .py 文件执行；行级比较 rstrip('\r')；深夜中文一律 Write 工具。
+- CDP 探针端口 9333 起步递增；断言值 JSON.stringify 包裹；轮询计数不 sleep。
+
+## 工作记录
+
+### R01（2026-10-06，v11.2.0）
+- 建账本（本文件）；.gitignore 检查：`.v12run.lock` 已在前轮备好（无需改动，如实记录）。
+- 镜像五短语探明（见缺口清单 v3 §1），结论=R02 弹药充足；探明数据不立条（立条归 R02）。
+- 两份工作册：`tools/v12r01-worklogs.py` 生成 quotes-worklog.tsv（101 行：id/来源/重验路径/verdict 空）+ emails-worklog.tsv（47 行：id/日期/标题/org/初判在册 14/verdict 空）。
+- 版本三件套 → 11.2.0（15 处 span 替换计数打印在案；**勘误：任务书 §9 原写 16 处系 grep -l 被正文
+  字样提及污染——changelog.html 无 span，正确计数 15，任务书与 bump 脚本注释已同步修正**）；
+  CHANGELOG 补条目；sync-changelog；build-revisions+EPUB 重刷（span 改动 15 页）。
+- 基建轮无页面视觉改动，CDP 探针豁免（以 verify 9/9+基线快照核对代替，如实记录）。

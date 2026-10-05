@@ -2,6 +2,14 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.2.0 — 2026-10-06 · V12-20 R01 · 基建：账本+缺口清单 v3+两份工作册
+
+**主题包成果（V12 R01 · 计划起步）**
+- **计划启动**：V12-20 二十轮计划立项（任务书 V12-TASKBOOK.md @097c10d，含四A速查节=站内四模板真实结构/etype 五类/kind 八类/资源 13 字段/verify 九项/全家桶 14 脚本/CDP 惯例）；轮次账本 V12-PROGRESS.md 建立（基线快照+20 轮状态表+恢复指引）；锁 .v12run.lock 确认已在 .gitignore。
+- **缺口清单 v3 入账本**：①X 帖断代 2025-08→2026-10 镜像五短语探明（Grok 4=1105/Grok 5=898/America Party=178/robotaxi Austin=37/Optimus production=19 条，最新 2026-10-04——断代期覆盖充足，R02 弹药确认）；②引语 101 块工作册 qa/v12/round-01/quotes-worklog.tsv（101 行，重验路径按来源分类预填，verdict 留 R08）；③email 库 47 封工作册 qa/v12/round-01/emails-worklog.tsv（日精度日期初判在册 14 封，33 封待 R06/R07 双源）。
+- **勘误**：全站 site-version-val span 实为 15 处（15 文件各 1）；此前"16 处"系 grep -l 被 changelog.html 正文「site-version-val」字样提及污染（该页无 span 元素）——任务书 §9 与 bump 脚本注释已修正；计数规范=必须用 `site-version-val">` 精确模式。
+- **版本三件套**：VERSION / app.js SITE_VERSION / 15 页 span 同步 11.1.0 → 11.2.0（替换计数 15 打印在案）。
+
 ## v11.1.0 — 2026-10-02 · 美术增量：复古杂志方向正式落地（用户选定）
 
 **主题包成果（用户选定方向 B · 全站换装）**

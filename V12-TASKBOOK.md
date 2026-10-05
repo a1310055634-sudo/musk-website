@@ -384,8 +384,10 @@ build-ledger-timeline → build-resources → build-search-index → sync-change
 build-revisions → build-epub。**改一手页（primary/quotes/documents/interviews/x-posts）必跑后四件中的
 ledger-timeline/search-index/epub + 修订历史。**
 
-§9 版本三件套：VERSION 文件 / app.js SITE_VERSION / 全站 site-version-val span（2026-10-06 实测
-16 处=16 个文件各 1 处，新页纳入；批量替换脚本打印替换计数，tools/v9r02-versions.py 有现成模式可拷）。
+§9 版本三件套：VERSION 文件 / app.js SITE_VERSION / 全站 site-version-val span（实测 **15 处=15 个
+文件各 1**；changelog.html 无 span，其正文有「site-version-val」字样提及——计数必须用
+`site-version-val">` 带引号尖括号的精确模式，裸 `site-version-val` 会被正文提及污染多算 1；
+新页纳入；批量替换脚本打印替换计数，tools/v9r02-versions.py / v12r01-bump.py 有现成模式可拷）。
 
 §10 CDP 探针惯例：headless Chrome 端口 9333 起步递增（**9227 被 aDrive.exe 占用**）、全新
 user-data-dir、timeout 杀 node 会留孤儿 Chrome（内存缓存旧页面→假红，须换端口重起）；探针导航后
