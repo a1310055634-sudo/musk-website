@@ -23,7 +23,7 @@
 |---|---|---|---|---|---|
 | 01 | 基建：账本+缺口清单 v3+两份工作册 | complete | v11.2.0 | 0b7ab1c | 镜像五短语探明：断代期覆盖充足（Grok4 1105/Grok5 898/AP 178/robotaxi 37/Optimus 19，最新 2026-10-04）；quotes-worklog 101 行+emails-worklog 47 行（初判在册 14）；.gitignore 已含锁（前轮备好）；勘误 span=15 处非 16 |
 | 02 | X 帖断代回捞 III（2025-08→2026-10） | complete | v11.3.0 | 74cb82a | +6 卡 34→40（robotaxi×4/Optimus 产线/Grok 4.8）；2026 年份条新建；snowflake 六卡全吻合；索引 360；探针 23/23；revisions 227→233（X 帖 40）；留档 3 条移交 R10 |
-| 03 | X 帖早期加密 I（2018–2019） | pending | v11.4.0 | | index 管线可用（2018–2022 不触 1000 上限） |
+| 03 | X 帖早期加密 I（2018–2019） | complete | v11.4.0 | a874a79 | +4 卡 40→44（BFR 碳纤维首段/SEC typo 两连发/Starhopper/Cybertruck 146k）；逐字纠错「不锈钢首曝」讹传；索引 364；探针 20/20；revisions 237 |
 | 04 | 账本早期加密（2002–2010） | pending | v11.5.0 | | 锚=NASA CRS-1/Falcon 1 F4 官方信/Tesla S-1；无 8-K 无 SpaceX S-1 |
 | 05 | 访谈消化轮 | pending | v11.6.0 | | 60-min-2012/lex-438 重验+镜像库查重后扩收 |
 | 06 | email 库双源核验 I（前 15 封） | pending | v11.7.0 | | emails-worklog.tsv 为底册 |
@@ -91,3 +91,10 @@
 - **验证**：verify 9/9（索引 360=…+40+…）；**CDP 探针 23/23**（tools/v12r02-probe.js 端口 9345：文件级 8/桌面 14/390 溢出 1——时序升序、逐字 3 条、双语 CJK、2026 组归位与卡序、互链 4 路、跨页锚真实存在）；QA 截图 2 张+ACCEPTANCE.md 入 qa/v12/round-02/。
 - **工程记录**：①revisions 扫 git 历史——X 帖选辑 34→40 在**成果提交后重跑**才入册（227→233 锚点），“先提交再 revisions”顺序与 V9-20 惯例一致；②CHANGELOG 探针数预写 8 实际 23，提交前已如实修正（教训：验收数字一律跑完再写）；③策略取舍：America Party 2026 政治帖组（178 条池）整体移交 R10 双写语境，Grok 4 发布帖（2025-07-09 界外真空）留档 EXPANSION。
 - 成果提交 74cb82a（31 文件）；下一轮预告：R03 X 帖早期加密 I（2018–2019，v11.4.0）——index 管线可用，先查重 17 条再扩。
+
+### R03（2026-10-06，v11.4.0）
+- **四卡上墙（40→44）**：p2018-09-18 BFR 首段实体箭体（**逐字甄别纠错：原文「new carbon fiber material」，网传不锈钢首曝不实**，卡注写转身伏笔）；p2018-10-04 SEC「做空者致富委员会」typo 两连发（漏 say 原样+补刀帖）；p2019-07-26 Starhopper 150m「水塔*能*飞」（星号原样）；p2019-11-23 Cybertruck 146k+零广告两连发（与大锤卡 48 小时翻盘弧线）。
+- **查重与快照勘误**：既有 2018×3/2019×3（任务书「10+7」系日期字符串误估，如实勘误入 ACCEPTANCE）；Bitcoin 购车三连发实测 2021-03-24 出局；六帖 snowflake 全吻合。
+- **验证**：verify 9/9（索引 364；EPUB 两度落后两度重刷——span 与 changelog 改动后必须最后重刷，构建顺序纪律再验证）；**CDP 探针 20/20**（tools/v12r03-probe.js 端口 9347：typo 原样断言/2019 组七卡卡序/水塔卡整卡 textContent 精确相等）；QA 截图 2 张+ACCEPTANCE.md。
+- **工程记录**：①search 端点 year 参数未生效（返回全量）——2018 深挖改用 index 月切片（EXPANSION 在案）；②python -c 内嵌三引号中文再次失真——ACCEPTANCE 改 Write 工具（红线第 N 次验证）。
+- 成果提交 a874a79（31 文件）；下一轮预告：R04 账本早期加密（2002–2010，v11.5.0）——锚=NASA CRS-1/Falcon 1 F4/Tesla S-1，注意 SpaceX 无 S-1/Tesla 2008 无 8-K。
