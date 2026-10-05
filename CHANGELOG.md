@@ -2,6 +2,15 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.14.0 — 2026-10-07 · V12-20 R13 · 资源扩容：SpaceX EDGAR/官方与开源补（49→54）
+
+**主题包成果（V12 R13 · 资源轮）**
+- **RESOURCES +5 条（49→54，validate() 全过零绕过）**：①sec-edgar-spacex（official，200——SpaceX CIK 0001181412 上市后披露通道：10-Q/8-K/13G，同期链 S-1→424B4→notes→10-Q）；②docs-xai（official，200——Grok API 官方文档）；③tesla-support（official，**三路法第三路**：curl/WebFetch 403 拦、服务端读取器 200 实锤，同 xai-official 先例注记）；④xai-org-github（opensource，200——org 入口；grok-1 仓库 api.github.com 实测 52,236 stars/最近 push 2024-08）；⑤spacex-ir（tools，200——上市后投资者关系页）。
+- **核活纪律**：每条 curl 实测记 http；403/000 按纪律不硬收（x.ai/models 超时弃、ownersmanual 403 弃）；候选 7 实收 5——宁缺毋滥（任务书 58± 以核活结果为准）。
+- **采集方向完成度**：Grok API 官方文档 ✓/x.ai 官方页 ✓（xai-official 已在册）/开源权重 ✓（grok-1+org 页）/官方补强（tesla.com 支持 ✓、车主手册 403 弃）/Starlink 社区已足（starlink-grpc-tools/starlink-sx 已在册）。
+- **检索索引 403→408→含资源 54：合计 408 不变**（资源断言动态 len(RD.RESOURCES)），verify n_res 动态同步。
+- **版本三件套**：11.13.0 → 11.14.0（17 span）。
+
 ## v11.13.0 — 2026-10-07 · V12-20 R12 · 深读新篇 II：deep-dive-07《Robotaxi 落地考》（40 页）
 
 **主题包成果（V12 R12 · 深读轮）**

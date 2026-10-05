@@ -1,0 +1,36 @@
+{
+ "sec-edgar-spacex": {
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001181412&type=10-Q&dateb=&owner=include&count=40",
+  "http": 200
+ },
+ "spacex-ir": {
+  "url": "https://www.spacex.com/investors",
+  "http": 200
+ },
+ "docs-xai": {
+  "url": "https://docs.x.ai/",
+  "http": 200
+ },
+ "xai-model-card": {
+  "url": "https://x.ai/models",
+  "http": 0
+ },
+ "tesla-support": {
+  "url": "https://www.tesla.com/support",
+  "http": 403
+ },
+ "xai-org-github": {
+  "url": "https://github.com/xai-org",
+  "http": 200
+ },
+ "tesla-owners-manual": {
+  "url": "https://www.tesla.com/ownersmanual/modely/en_us/",
+  "http": 403
+ },
+ "gh": {
+  "xai-org/grok-1": {
+   "stars": 52236,
+   "pushed": "2024-08"
+  }
+ }
+}

@@ -5468,6 +5468,71 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "r-sec-edgar-spacex",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SEC EDGAR · SpaceX 上市公司文件",
+  "q": "SpaceX（CIK 0001181412）的 EDGAR 备案页：2026-06 上市后的 10-Q、8-K 与大股东 13G——注册地德州、纳斯达克代码 SPCX。",
+  "zh": "SpaceX (CIK 0001181412) on EDGAR: post-IPO 10-Qs, 8-Ks and 13Gs since the June 2026 listing — Texas-incorporated, Nasdaq: SPCX.",
+  "bg": "SpaceX 上市后的第一披露通道——公司从「无公开档案」变为申报主体，本站近年化的一手锚。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "r-docs-xai",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "xAI 官方文档（Grok API）",
+  "q": "xAI 官方开发者文档：Grok API 的模型清单、定价与调用规范——Grok 从聊天产品走向可编程接口的官方口径。",
+  "zh": "xAI's official developer docs: Grok API models, pricing and call specs — the official record of Grok as a programmable interface.",
+  "bg": "Grok API 官方文档——模型能力与定价的一手口径（任务书 R13 采集方向第一位）。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "r-tesla-support",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "Tesla 官方支持页",
+  "q": "Tesla 官方支持入口：车主手册、充电指南与产品 FAQ——官方口径的产品事实源。",
+  "zh": "Tesla's official support hub: owner's manuals, charging guides and product FAQs — the official product-fact source.",
+  "bg": "官方类补强：车主手册与支持文档是一手产品事实源（任务书 R13 采集方向）。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
+  "id": "r-xai-org-github",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "xai-org · GitHub 组织页",
+  "q": "xAI 官方 GitHub 组织：Grok-1 开源权重（52,236 stars）与后续开源发布——「理解宇宙」的公开代码面。",
+  "zh": "xAI's official GitHub org: the Grok-1 open weights (52,236 stars) and later open-source releases — the public code face.",
+  "bg": "开源类补强：org 页是 Grok 开源发布的第一入口（grok-1 单仓库已在册，此为组织级入口）。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "r-spacex-ir",
+  "pg": "resources.html",
+  "t": "社区资源",
+  "d": "2026.10",
+  "s": "SpaceX 投资者关系",
+  "q": "SpaceX 上市后的投资者关系页：财报、备案指引与股东信息——2026-06 IPO 之后的官方资本信息口。",
+  "zh": "SpaceX's post-IPO investor relations page: filings, guidance and shareholder info — the official capital-information channel since the June 2026 IPO.",
+  "bg": "工具类补强：IR 页与 EDGAR 备案互为表里，是近年化资本数据的官方索引。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "p2026-10-03",
   "pg": "x-posts.html",
   "t": "X 帖",
