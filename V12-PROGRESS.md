@@ -24,7 +24,7 @@
 | 01 | 基建：账本+缺口清单 v3+两份工作册 | complete | v11.2.0 | 0b7ab1c | 镜像五短语探明：断代期覆盖充足（Grok4 1105/Grok5 898/AP 178/robotaxi 37/Optimus 19，最新 2026-10-04）；quotes-worklog 101 行+emails-worklog 47 行（初判在册 14）；.gitignore 已含锁（前轮备好）；勘误 span=15 处非 16 |
 | 02 | X 帖断代回捞 III（2025-08→2026-10） | complete | v11.3.0 | 74cb82a | +6 卡 34→40（robotaxi×4/Optimus 产线/Grok 4.8）；2026 年份条新建；snowflake 六卡全吻合；索引 360；探针 23/23；revisions 227→233（X 帖 40）；留档 3 条移交 R10 |
 | 03 | X 帖早期加密 I（2018–2019） | complete | v11.4.0 | a874a79 | +4 卡 40→44（BFR 碳纤维首段/SEC typo 两连发/Starhopper/Cybertruck 146k）；逐字纠错「不锈钢首曝」讹传；索引 364；探针 20/20；revisions 237 |
-| 04 | 账本早期加密（2002–2010） | pending | v11.5.0 | | 锚=NASA CRS-1/Falcon 1 F4 官方信/Tesla S-1；无 8-K 无 SpaceX S-1 |
+| 04 | 账本早期加密（2002–2010） | complete | v11.5.0 | 53b7e76 | +5 条 119→124（全 424B4/EDGAR/NASA 转存一手锚，无引语节）；查重出局 F4/IPO/MasterPlan 已在册；索引 369；探针 20/20；revisions 242 |
 | 05 | 访谈消化轮 | pending | v11.6.0 | | 60-min-2012/lex-438 重验+镜像库查重后扩收 |
 | 06 | email 库双源核验 I（前 15 封） | pending | v11.7.0 | | emails-worklog.tsv 为底册 |
 | 07 | email 续 + 文档馆近年化 | pending | v11.8.0 | | EDGAR 直取 2024–2026 |
@@ -98,3 +98,10 @@
 - **验证**：verify 9/9（索引 364；EPUB 两度落后两度重刷——span 与 changelog 改动后必须最后重刷，构建顺序纪律再验证）；**CDP 探针 20/20**（tools/v12r03-probe.js 端口 9347：typo 原样断言/2019 组七卡卡序/水塔卡整卡 textContent 精确相等）；QA 截图 2 张+ACCEPTANCE.md。
 - **工程记录**：①search 端点 year 参数未生效（返回全量）——2018 深挖改用 index 月切片（EXPANSION 在案）；②python -c 内嵌三引号中文再次失真——ACCEPTANCE 改 Write 工具（红线第 N 次验证）。
 - 成果提交 a874a79（31 文件）；下一轮预告：R04 账本早期加密（2002–2010，v11.5.0）——锚=NASA CRS-1/Falcon 1 F4/Tesla S-1，注意 SpaceX 无 S-1/Tesla 2008 无 8-K。
+
+### R04（2026-10-06，v11.5.0）
+- **五条入账（119→124）**：e2002-05 SpaceX 成立（424B4「since May 2002」）/e2004 Musk 任 Tesla 董事长（424B4「since April 2004」）/e2008-12-23 NASA CRS-1 $1.6B（转存两源+OIG）/e2009-05-19 Daimler（424B4 Blackstar+Form D）/e2010-05-20 Toyota-Fremont（424B4 May 2010 段）。全无引语节——ps-quote 115 不变、语录卡不动。
+- **查重纠偏**：任务书候选 F4/IPO/MasterPlan 均已在册（e2008-09-28/e2010-06-29/e2006-08）；e2008-12-24 是融资非合同——增量按实测五条。
+- **验证**：verify 9/9（索引 369）；**CDP 探针 20/20**（tools/v12r04-probe.js 端口 9349；首跑 1 挂=textContent 中文模式读不到 data-en——N10 坑第三次，改属性断言即过）；revisions 提交后重跑 237→242（言行实录 127）。
+- **工程记录**：①全页时序升序断言不成立（既有年精度条目插年份段中间）——改局部邻居检查；②&& 链断路时 heredoc 不执行的静默坑（首轮账本断言 119→124 实际未改，二次补改）；③sed 链式复用 bump 脚本自噬（两规则互相吃）——bump 必须 Write 全新；④_tmp_*.html 临时文件会被 verify 当页面扫描——下载件放项目外或即用即删。
+- 成果提交 53b7e76（30 文件）；下一轮预告：R05 访谈消化轮（v11.6.0）——60-minutes-2012/lex-438 重验+镜像库查重后扩收 4–6 场。
