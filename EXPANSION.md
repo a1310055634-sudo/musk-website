@@ -1,5 +1,7 @@
 # 扩张包 EXPANSION · 第一手资料方向
 
+> **V12 R02 断代回捞留档（2026-10-06）**：本轮立卡 6 条（robotaxi×4/Optimus 产线×1/Grok 4.8×1），以下候选**留档待续**——①**Grok 4 发布帖（2025-07-09）**：站内最后旧卡 2025-07-05 与断代窗起点之间的真空四天，发布日逐字帖可经镜像 `/agents/search` "Grok 4" 限定 2025-07 取得，重验条件=下一 X 帖轮顺带补卡；②**America Party 2026 政治帖组**（x-2008888326871535862 2026-01-07「single-party state」/x-2103894760838897922 2026-09-26「one-party state」等 178 条池）：攻击性政治言论，立卡须「他说/批评者说」双写并与 R10 政治档案/R12 深读语境配套，单独散卡易失衡，整体移交 R10 裁决；③robotaxi 其余候选（x-1953775671723147570 2025-08-08 驾驶员注意力减负/x-1983429156215107847 2025-10-29「Robotaxi 就是同款 Model Y」定价口径帖）——素材可用但同日已有卡，防密度失衡，留后续 X 帖轮补。
+
 > **N15 缺口清单 v2（2026-10-02 收官盘点，接替 R09 缺口清单）**：①访谈早期断档——镜像 2013 前仅 wired-musk-2008 一场有逐字稿（硬约束），60-minutes-2012/lex-438 待外部逐字源（CBS 官网/lexfridman.com）；②文档馆 2009–2010 博客存档——tesla.com Akamai+web.archive TLS 双受限维持；③非镜像来源引语 101 块待逐条人工核（qa/v10-15/round-03/unmatched-itemized.tsv 逐条注明：other-official 73/earnings-call 20/edgar 6/jre 1/ted 1）；④email 留档候选 30 封逐封双源待续（Twitter 私信余量/OpenAI 诉讼余量/Tesla·SpaceX 余量——清单源 qa/v9-20/round-06/sources/emails.json）；⑤SAE J3400/tesla.com 博文维持用户环境重验条款。全部带重验条件，可被后续轮次核验收录。
 # 扩张包 EXPANSION · 第一手资料方向
 

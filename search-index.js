@@ -3943,6 +3943,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2025-08-16",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2025.08.16",
+  "s": "@elonmusk",
+  "q": "The Tesla Robotaxi service area is already larger than any competitors in Austin and the Bay Area",
+  "zh": "Tesla 的 Robotaxi 服务面积，现在已经比 Austin 和湾区任何一家对手都大。",
+  "bg": "背景/后续：断代回捞（V12 R02；原帖 status/1956765617517985951 · 镜像逐字存档；snowflake 解码 UTC 2025-08-16 17:10）。Austin 首发（2025-06-22）后近两个月的规模对标帖——「面积已超所有对手」是他给 Robotaxi 定的第一个横向基准。承诺与结果的逐案对账见 承诺与结果。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2025-09-01",
   "pg": "primary.html",
   "t": "言行实录",
@@ -3966,6 +3980,20 @@ window.SEARCH_INDEX = [
   "bg": "关键词从「车」切换到 AI、Optimus 与自动驾驶。评论界普遍称其过于哲学与含糊——与前作 Part 3 的工程气质形成鲜明反差。他后来又把使命措辞改为「Amazing Abundance」。",
   "c": [
    "综合"
+  ]
+ },
+ {
+  "id": "p2025-10-29",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2025.10.29",
+  "s": "@elonmusk",
+  "q": "Tesla Model Y robotaxi service now available in the greater Austin area!",
+  "zh": "Tesla Model Y 的 robotaxi 服务，现在全大奥斯汀地区都能用了！",
+  "bg": "背景/后续：断代回捞（V12 R02；原帖 status/1983428037145432381 · 镜像逐字存档；snowflake 解码 UTC 2025-10-29 06:57）。首发四个月后服务区扩张到「greater Austin」全境（TechCrunch/CNBC 报道口径）——从试点小区到都会区，是监管与运营双线的实质跨步。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
   ]
  },
  {
@@ -4047,6 +4075,20 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "p2026-01-22",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2026.01.22",
+  "s": "@elonmusk",
+  "q": "Just started Tesla Robotaxi drives in Austin with no safety monitor in the car. Congrats to the @Tesla_AI team! If you’re interested in solving real-world AI, which is likely to lead to AGI imo, join Tesla AI. Solving real-world AI for Optimus will be 100X harder than cars.",
+  "zh": "Tesla 的 Robotaxi 刚刚在 Austin 开始了车内无安全监督员的行驶。 恭喜 @Tesla_AI 团队！ 如果你有兴趣解决真实世界的 AI——在我看来它大概率通向 AGI——来加入 Tesla AI。为 Optimus 解决真实世界 AI，会比汽车难上 100 倍。",
+  "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2014397578352226423 · 镜像逐字存档；snowflake 解码 UTC 2026-01-22 17:59）。车内安全监督员撤除是 Robotaxi 弧线的关键节点（CBS/CNBC 报道口径）；同一帖把「真实世界 AI」的难度天平首次压向 Optimus——100X 于汽车。Robotaxi 时间线两端即本卡与本墙最新一卡 p2026-10-03。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2026-02-10",
   "pg": "primary.html",
   "t": "言行实录",
@@ -4091,6 +4133,20 @@ window.SEARCH_INDEX = [
   "ev": "e2026-02-10"
  },
  {
+  "id": "p2026-07-01",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2026.07.01",
+  "s": "@elonmusk",
+  "q": "Walking the Optimus production line in Fremont",
+  "zh": "在弗里蒙特工厂走 Optimus 产线。",
+  "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2072214077372518657 · 镜像逐字存档；snowflake 解码 UTC 2026-07-01 07:01；原帖附产线现场照，t.co 图链不入正文——站内 Gamestonk 卡先例）。产线实拍首次上墙：Optimus 从原型叙事转入制造纪律的同帖语境下，他同日补发「初期产能会极其缓慢」的预期管理帖（status/2072448521513685263 · 镜像逐字在档）。三周后账本记下「Optimus 史上最大产品」表态，见 账本 e2026-07-22。",
+  "c": [
+   "Tesla",
+   "X / Twitter"
+  ]
+ },
+ {
   "id": "e2026-07-22",
   "pg": "primary.html",
   "t": "言行实录",
@@ -4101,6 +4157,20 @@ window.SEARCH_INDEX = [
   "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "p2026-09-14",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2026.09.14",
+  "s": "@elonmusk",
+  "q": "@techdevnotes Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL",
+  "zh": "@techdevnotes Grok 4.8——一个用我们全新 C++ 软件栈训练的 2.5 万亿参数模型——本周完成训练，随即开始强化学习。",
+  "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2099308197802631191 · 镜像逐字存档；snowflake 解码 UTC 2026-09-14 01:24）。Grok 4.8 技术规格首曝（2.5T 参数/C++ 自研栈/转 RL 训练）；同日他向网友确认「That will be Grok 5」的版本次序（status/2099455592670634034 · 镜像逐字在档）。注：Grok 4 发布（2025-07-09）在本墙断代窗界外未立卡，留档 EXPANSION。Grok 谱系见 xAI·Grok，起点见账本 e2025-02-18。",
+  "c": [
+   "X / Twitter",
+   "xAI"
   ]
  },
  {
@@ -4740,6 +4810,19 @@ window.SEARCH_INDEX = [
   "bg": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "p2026-10-03",
+  "pg": "x-posts.html",
+  "t": "X 帖",
+  "d": "2026.10.03",
+  "s": "@elonmusk",
+  "q": "Robotaxi operating hours moved from 10pm to 11pm. The main thing we’re trying to solve is making sure that we don’t run over pets when they’re hard to see at night. Literally trying to avoid grey kittens on grey tarmac in the dark.",
+  "zh": "Robotaxi 的运营时间从晚上 10 点延到 11 点。 我们现在要解决的主要问题，是确保车子不会在夜里撞上那些很难看清的小动物。字面意义上的：在黑暗里避开灰色路面上的灰色小猫。",
+  "bg": "背景/后续：断代回捞（V12 R02；原帖 status/2106239692866019479 · 镜像逐字存档；snowflake 解码 UTC 2026-10-03 04:27）。本墙最新一卡（回捞日前三天）：运营延时一小时看似微小，但「无监督夜间长尾场景」恰是 L4 的最后一程——他把工程焦点说成「灰色小猫」，是他一贯把长尾风险具象化的话术。Robotaxi 弧线起点见 p2025-08-16，承诺对账见 承诺与结果。",
+  "c": [
+   "X / Twitter"
   ]
  }
 ];
