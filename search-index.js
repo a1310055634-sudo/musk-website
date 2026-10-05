@@ -4199,6 +4199,32 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "i2026-01-06",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2026.01.06",
+  "s": "「Grok 一直在更新」——Grok 5 前夜的电路访谈",
+  "q": "“I think probably at this point, Grok, if you took a photo and submitted it to Grok, it could probably tell you if a circuit is…if there’s something wrong with it. … Grok keeps updating.”",
+  "zh": "",
+  "bg": "2026 年开年的长谈播客。被问到用 AI 干真正的工程活，他说自己几周前刚用它做过电路设计——然后顺势给 Grok 现场出了一道题。",
+  "c": [
+   "xAI"
+  ]
+ },
+ {
+  "id": "i2026-01-22",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2026.01.22",
+  "s": "「有史以来最大的飞行器」——达沃斯谈完全复用",
+  "q": "“With Starship, which is a giant rocket, it’s the largest flying machine ever made. …hopefully this year we should prove full reusability for Starship.”",
+  "zh": "",
+  "bg": "达沃斯舞台上，贝莱德的 Larry Fink 把话题抛向火星。他先报了一组 Falcon 9 数字：助推器复用超 500 次，而一次性烧毁的上面板成本相当于一架中小型公务机——然后才是关于星舰的正题。",
+  "c": [
+   "SpaceX"
+  ]
+ },
+ {
   "id": "p2026-01-22",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -4210,6 +4236,19 @@ window.SEARCH_INDEX = [
   "c": [
    "Tesla",
    "X / Twitter"
+  ]
+ },
+ {
+  "id": "i2026-02-05",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2026.02.05",
+  "s": "「AI5 要进 Optimus」——边缘算力与电网错峰",
+  "q": "“For Tesla, the AI5 chip is going into our Optimus robot…if you have an AI Edge compute, that’s distributed power. The power is distributed over a large area, it’s not concentrated. And if you can charge at night, you can actually use the grid much more effectively.”",
+  "zh": "",
+  "bg": "Dwarkesh Patel 逼问电力难题：芯片产出指数增长而电力输出是平的。他的回答把框架从数据中心整个翻到边缘侧。",
+  "c": [
+   "Tesla"
   ]
  },
  {
@@ -4281,6 +4320,20 @@ window.SEARCH_INDEX = [
   "bg": "The most recent call on this ledger. A year into paid robotaxi service in Austin (launched 2025.06), the questions had shifted from “whether” to “how fast” — and Optimus, the in-house AI chips and a new “Terafab” factory dominated the outlook.",
   "c": [
    "Tesla"
+  ]
+ },
+ {
+  "id": "i2026-07-23",
+  "pg": "interviews.html",
+  "t": "访谈与表态",
+  "d": "2026.07.23",
+  "s": "「数字智能与物理智能」——十年后靠什么赚钱",
+  "q": "“You can really think of the economy as digital and physical intelligence. What we have right now advancing very rapidly is digital intelligence.”",
+  "zh": "",
+  "bg": "The Economist 点破一件怪事：SpaceX 招股书里未来收入的压倒性大头居然是 AI/Grok，而不是把东西运上天——并追问十年后他的公司们究竟靠什么赚钱。",
+  "c": [
+   "SpaceX",
+   "xAI"
   ]
  },
  {
