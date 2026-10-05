@@ -127,3 +127,11 @@
 - **验证**：verify 9/9（索引 383）；**CDP 探针 25/25 一次全绿**（tools/v12r07-probe.js 端口 9353：六新 id 索引/一手文档 37/总数 383/逐字 6/12 邻居时序链/互链 3/390 溢出）；QA 截图 2 张。
 - **工程记录**：①跨轮累计型断言须计基线（口径戳全页=R06 4+R07 6=10）；②pricing 8-K 404 壳→accession 目录 index.json 查真实文件名 spcx-pricing8xk.htm；③RSC payload 长串截断→正则长度下限提到 400 修复（Dorsey "Super interesting idea" 完整版）；④EDGAR submissions 全史（2002–2026）Counter 扫描=近年化锚点速查法。
 - 成果提交 e3169c7（45 文件）+1d9c298（revisions 250→256+EPUB 250,858B）；下一轮预告：R08 引语 101 块逐条核验（质量轮，v11.9.0）——quotes-worklog.tsv 三态结论，撤下须语录卡+账本同步防计数漂移。
+
+### R08（2026-10-06，v11.9.0）——质量轮
+- **101 块非镜像来源引语逐条机核**（quotes-worklog.tsv 全行 verdict+anchor_url 非空）：**✅15**（镜像 /agents/search 中段 6 词匹配 10——含镜像自建 earnings call 转录 2 场+Fork in the Road 邮件底本交叉确认；EDGAR FTS 3；stockanalysis WebFetch 抽样逐字吻合 2）/**⚠️86**（转引在册，分组注明原因：E-C 组 stockanalysis 底本+抽样吻合记录/EDGAR 组 3 条实为 SEC 起诉状与判词措辞非备案原文/ted transcript JSON 无逐字吻合/jre 未抓）/**❌0**（无反证不撤）。
+- **quotes.html 上屏（零新 CSS 零新类）**：✓15 卡附原文核验标（title 悬停显锚，规避 a 嵌 a=并入 qs-src 行尾）；◎83 转引标；页脚核验口径段。107 卡恒定，**恒等式 107=109−2 保持**；e2021-07/e2025 两条账本块无语录卡（TSV 照填、卡标不适用）。
+- **抽样人工复核 10 条**（SAMPLE-REVIEW.md）：含 e2013-05-08 口径不符如实记（stockanalysis 该季稿无此句，引语实为股东信口径——后续可换锚）与 e2019-02-19 镜像假命中甄别（年份词撞车致字串巧合，人工判非）。
+- **验证**：verify 9/9（恒等式项绿）；**CDP 探针 14/14**（端口 9354：TSV 行数/三态分布/✅ 行锚非空/107 卡/15✓/83◎/title 锚/口径段/390 双视口）；QA 截图 2 张。
+- **工程记录**：①探针断言口径两次修正（TSV 行数含 header=102；⚠️86 含 e2023-11-30 双行——worklog 一 id 两引语块）；②stockanalysis transcripts URL 带数字 id 前缀（23986-q1-2013 式），列表页先探 id 再抽；③www.sec.gov 页面 curl 403（data.sec.gov API UA 与页面 UA 政策不同）。
+- 成果提交 dbec4af（34 文件）+生成物一笔；下一轮预告：R09 质量节点①盘点总表 v3（v11.10.0）。
