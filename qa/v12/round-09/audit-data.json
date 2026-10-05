@@ -1,0 +1,90 @@
+{
+ "rows": [
+  {
+   "type": "言行实录",
+   "dom": 124,
+   "index": 124,
+   "gen": 124,
+   "ok": true
+  },
+  {
+   "type": "一手文档",
+   "dom": 37,
+   "index": 37,
+   "gen": 37,
+   "ok": true
+  },
+  {
+   "type": "访谈与表态",
+   "dom": 51,
+   "index": 51,
+   "gen": 51,
+   "ok": true
+  },
+  {
+   "type": "X 帖",
+   "dom": 44,
+   "index": 44,
+   "gen": 44,
+   "ok": true
+  },
+  {
+   "type": "争议深读",
+   "dom": 5,
+   "index": 5,
+   "gen": 5,
+   "ok": true
+  },
+  {
+   "type": "编年史",
+   "dom": 53,
+   "index": 53,
+   "gen": 53,
+   "ok": true
+  },
+  {
+   "type": "财务全景",
+   "dom": 4,
+   "index": 4,
+   "gen": 4,
+   "ok": true
+  },
+  {
+   "type": "事件档案",
+   "dom": 16,
+   "index": 16,
+   "gen": 16,
+   "ok": true
+  },
+  {
+   "type": "社区资源",
+   "dom": 49,
+   "index": 49,
+   "gen": 49,
+   "ok": true
+  }
+ ],
+ "total_dom": 383,
+ "total_index": 383,
+ "years": {
+  "x_posts": {
+   "p201": 10,
+   "p202": 34
+  },
+  "ledger": {
+   "e200": 11,
+   "e201": 55,
+   "e202": 57
+  },
+  "interviews": {
+   "i200": 3,
+   "i201": 20,
+   "i202": 26
+  },
+  "documents": {
+   "d200": 1,
+   "d201": 11,
+   "d202": 25
+  }
+ }
+}
