@@ -1,0 +1,502 @@
+{
+ "e2002-10-03": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "that went into spacex $70m into"
+ },
+ "e2006-08": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "money to build an even more"
+ },
+ "e2008-08-02": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "I will never give up"
+ },
+ "e2008-09-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "time's the charm this is one"
+ },
+ "e2008-12-24": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "eve 2008 it was the last"
+ },
+ "e2011-04-05": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "than one third the cost of"
+ },
+ "e2012-05-25": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "the dawn of a new era"
+ },
+ "e2012-06-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "cannot be as good as gasoline"
+ },
+ "e2013": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "like to die on mars just"
+ },
+ "e2013-05-08": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "quarter of 2013 for the first"
+ },
+ "e2013-08-12": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "indexing all the world s knowledge"
+ },
+ "e2014-05-29": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "accuracy of a helicopter i think"
+ },
+ "e2014-06-12": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "lawsuits against anyone who in good"
+ },
+ "e2015-04-30": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "unreliable and bad in every way"
+ },
+ "e2015-12-21": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "change in technology compared to any"
+ },
+ "e2016-02-10": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "next month i think this is"
+ },
+ "e2016": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "The machine that builds the machine"
+ },
+ "e2016-03-31": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "to buy a car this good"
+ },
+ "e2016-05-04": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "is july 1st next year i"
+ },
+ "e2016-07-20": {
+  "verdict": "YES",
+  "anchor": "https://efts.sec.gov/LATEST/search-index?q=major%20segments%20develop%20a%20self-driving%20capability | 0001193125-16-652995:d213946d425.htm",
+  "needle": "major segments develop a self-driving capability"
+ },
+ "e2016-08-03": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "it will it s really a"
+ },
+ "e2016-09-01": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/774150065166229504",
+  "needle": "to be the most difficult and"
+ },
+ "e2016-09-27": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "Making Humans a Multi-Planetary Species"
+ },
+ "e2016-10-26": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "on friday it s exceeded my"
+ },
+ "e2017-02-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "able to do 500 000 vehicles"
+ },
+ "e2017-03-30": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "able to refly a rocket booster"
+ },
+ "e2017-07-09": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/883840893253451780",
+  "needle": "model 3 is now built and"
+ },
+ "e2017-07-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "that's where we're going to be"
+ },
+ "e2017-08-02": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "very confident that we will be"
+ },
+ "e2017-09-29": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "if we re a space-faring civilization"
+ },
+ "e2017-11-01": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "we were in level 9 we"
+ },
+ "e2017-11-16": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "the fastest production car ever made"
+ },
+ "e2018-01-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "you bought a flamethrower works against"
+ },
+ "e2018-02-06": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "it s real because it looks"
+ },
+ "e2018-04-13": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "was a mistake to be precise"
+ },
+ "e2018-05-02": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "we re going to go to"
+ },
+ "e2018-05-20": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "could do so tmrw if they"
+ },
+ "e2018-07-15": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "pedo guy you really did ask"
+ },
+ "e2018-08-01": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/video/tesla-q2-2018-earnings-call-2018-08-02",
+  "needle": "being impolite on the prior call"
+ },
+ "e2018-08-07": {
+  "verdict": "YES",
+  "anchor": "https://efts.sec.gov/LATEST/search-index?q=considering%20taking%20tesla%20private%20at%20%24420 | 0001104659-24-053333:tm2326076d15_def14a.htm",
+  "needle": "considering taking tesla private at $420"
+ },
+ "e2018-09-27": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "statements was false and or misleading"
+ },
+ "e2018-09-29": {
+  "verdict": "YES",
+  "anchor": "https://efts.sec.gov/LATEST/search-index?q=to%20address%20the%20misconduct%20at%20issue | 0001104659-24-044304:tm2332854d3_def14a.htm",
+  "needle": "to address the misconduct at issue"
+ },
+ "e2018-12-09": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "not respect the sec i do"
+ },
+ "e2019-02-19": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "cars in 2011 but will make"
+ },
+ "e2019-04-24": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "the company operate more effectively i"
+ },
+ "e2019-04-30": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "order amending the final judgment accordingly"
+ },
+ "e2019-07-16": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "been able to control a computer"
+ },
+ "e2019-09-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "Honestly I'm in love with steel"
+ },
+ "e2019-11-21": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "which is why the steel ball"
+ },
+ "e2020-01-29": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "level of demand we will sell"
+ },
+ "e2020-05-11": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/1259945593805221891",
+  "needle": "be on the line with everyone"
+ },
+ "e2020-05-30": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "an incredible amount of work by"
+ },
+ "e2020-07-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "confident about full self-driving functionality being"
+ },
+ "e2020-08-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "fitbit in your skull with tiny"
+ },
+ "e2020-09-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "80 millimeter length 4680 the $25"
+ },
+ "e2021-01-07": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "How strange Well back to work"
+ },
+ "e2021-04-09": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "Sure Hopefully later this year"
+ },
+ "e2021-07": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "ceo but kept the job because"
+ },
+ "e2021-08": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "semi-sentient robots on wheels we think"
+ },
+ "e2021-10-25": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "yet with hertz the deal has"
+ },
+ "e2022-01-26": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "re doing this year is actually"
+ },
+ "e2022-02-10": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "ll get to orbit this year"
+ },
+ "e2022-03-08": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "deal is a deal absent far"
+ },
+ "e2022-03-26": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "get its importance and could def"
+ },
+ "e2022-04-05": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "here to talk through anything you"
+ },
+ "e2022-04-09": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "it's my responsibility to tell you"
+ },
+ "e2022-04-14": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "a way to make money an"
+ },
+ "e2022-04-16": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "let me know if you or"
+ },
+ "e2022-04-20": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "Roughly what dollar size"
+ },
+ "e2022-04-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "sorry to say i haven't closed"
+ },
+ "e2022-04-25": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "by a peer to peer network"
+ },
+ "e2022-04-26": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "fail and will do whatever it"
+ },
+ "e2022-06-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "using these conversations to cause trouble"
+ },
+ "e2022-10-19": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "market cap in fact i see"
+ },
+ "e2022-10-26": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "entering twitter hq let that sink"
+ },
+ "e2022-10-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "is freed spoiler alert let the"
+ },
+ "e2022-11-16": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/email/twitter-fork-in-the-road-2022",
+  "needle": "will mean working long hours at"
+ },
+ "e2022-11-28": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "to know what really happened and"
+ },
+ "e2022-11-30": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "we think probably in about six"
+ },
+ "e2023-03-01": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "Sustainable Energy for All of Earth"
+ },
+ "e2023-05-15": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "internal oversight concerning certain tesla-related topics"
+ },
+ "e2023-07-12": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "true nature of the universe that's"
+ },
+ "e2023-07-23": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/1682964919325724673",
+  "needle": "bid adieu to the twitter brand"
+ },
+ "e2023-10-18": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/video/tesla-q3-2023-earnings-call-2023-10-18",
+  "needle": "in reaching volume production with the"
+ },
+ "e2023-11-29": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "what this advertising boycott is going"
+ },
+ "e2023-11-30": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "have a car here that experts"
+ },
+ "e2024-01-29": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/1752119586470949056",
+  "needle": "control of your phone or computer"
+ },
+ "e2024-04-23": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "we will be showcasing our purpose-built"
+ },
+ "e2024-06-13": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "i love you guys later that"
+ },
+ "e2024-10-10": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "first car that is specifically built"
+ },
+ "e2024-10-13": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "step towards making life multiplanetary was"
+ },
+ "e2024-10-23": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "the most valuable company in the"
+ },
+ "e2025": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "104 stations up to 90 000"
+ },
+ "e2025-02-18": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "shortly subscribe to premium to get"
+ },
+ "e2025-03-28": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/1905731750275510312",
+  "needle": "combination values xai at $80 billion"
+ },
+ "e2025-04-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "next month may my time allocation"
+ },
+ "e2025-05-03": {
+  "verdict": "YES",
+  "anchor": "https://elonmuskarchive.org/posts/2003170712086036652",
+  "needle": "starbase is awesome and anyone can"
+ },
+ "e2025-09-01": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "building blocks of labor mobility and"
+ },
+ "e2025-11-06": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "infinite money glitch and maybe there"
+ },
+ "e2026-07-22": {
+  "verdict": "MISS",
+  "anchor": "",
+  "needle": "think optimus will be the biggest"
+ }
+}
