@@ -15,6 +15,21 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2002-05",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2002.05",
+  "s": "SpaceX 成立 · Musk 出任 CEO/CTO · Tesla 424B4（2010）官方陈述",
+  "q": "SpaceX（太空探索技术公司）2002 年成立；Tesla 自己的 IPO 定价书（424B4，2010-06）官方陈述「马斯克自 2002 年 5 月起担任 SpaceX 首席执行官、首席技术官兼董事长」。五个月后，他把 PayPal 套现的 1 亿美元投了进去（见本页 2002.10.03 条）。",
+  "zh": "",
+  "bg": "Space Exploration Technologies Corp. was founded in 2002; Tesla’s own IPO prospectus (424B4, 2010-06) states Musk “has also served as Chief Executive Officer, Chief Technology Officer and Chairman of Space Exploration Technologies Corporation…since May 2002.” He put $100M of the PayPal proceeds into it five months later (see 2002.10.03).",
+  "c": [
+   "PayPal",
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
   "id": "e2002-10-03",
   "pg": "primary.html",
   "t": "言行实录",
@@ -47,6 +62,19 @@ window.SEARCH_INDEX = [
    "SolarCity"
   ],
   "ev": "e2002-10-03"
+ },
+ {
+  "id": "e2004",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2004",
+  "s": "Musk 出任 Tesla 董事长 · Tesla 424B4 官方陈述 · Series A 细节=公司披露与传记口径",
+  "q": "Tesla A 轮融资（750 万美元，2004 年 4 月）由马斯克领投约 650 万美元，并出任董事长——424B4（2010-06）官方陈述「自 2004 年 4 月起担任董事会主席」。创始人 Eberhard 与 Tarpenning 留任。",
+  "zh": "",
+  "bg": "Tesla’s Series A ($7.5M, April 2004) was led by Musk with about $6.5M of his own money; the 424B4 (2010-06) states he has been “Chairman of our board of directors since April 2004.” Founders Eberhard and Tarpenning stayed on.",
+  "c": [
+   "Tesla"
+  ]
  },
  {
   "id": "c2004-01",
@@ -242,6 +270,20 @@ window.SEARCH_INDEX = [
   "ev": "e2008-09-28"
  },
  {
+  "id": "e2008-12-23",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2008.12.23",
+  "s": "NASA CRS 合同公告 · Spaceflight Now/NASA Watch 转存核读 · NASA OIG 2013 审计在档",
+  "q": "就在救活 Tesla 的圣诞夜融资前一天（见本页 2008.12.24 条），NASA 宣布商业再补给服务（CRS）合同：SpaceX 获最多 12 次飞行、约 16 亿美元——Falcon 1 三连败后五年内，这份合同把 SpaceX 从「工资都发不出」的生存线里拉了出来。",
+  "zh": "",
+  "bg": "One day before the Christmas Eve financing that saved Tesla (see 2008.12.24), NASA announced the Commercial Resupply Services awards: up to 12 flights for SpaceX valued at about $1.6 billion — the contract that pulled SpaceX out of salary-scrapping survival within five years of three consecutive Falcon 1 failures.",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
   "id": "c2008-12-23",
   "pg": "chronicle.html",
   "t": "编年史",
@@ -313,6 +355,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "e2009-05-19",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2009.05.19",
+  "s": "Daimler 战略投资 · Tesla 官方公告口径 · EDGAR Form D（2009-05-20 归档）· 424B4 Blackstar 陈述",
+  "q": "Daimler 战略投资 Tesla（媒体口径：约 5000 万美元、约 10% 股权）。Tesla 424B4（2010-06）官方陈述：「Daimler 关联实体 Blackstar Investco LLC 持有公司超过 5% 的流通股本」；EDGAR 于 2009-05-20 归档 Reg D 备案佐证。",
+  "zh": "",
+  "bg": "Daimler made a strategic investment in Tesla (media caliber: about $50M for roughly 10%). Tesla’s 424B4 (2010-06) states: “Blackstar Investco LLC, an affiliate of Daimler, holds more than 5% of our outstanding capital stock”; a Regulation D filing was lodged with the SEC on 2009-05-20.",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "d2010-01-29",
   "pg": "documents.html",
   "t": "一手文档",
@@ -337,6 +392,19 @@ window.SEARCH_INDEX = [
   "bg": "这不是词汇洁癖，是沟通半径的制度化：扩张期最大的隐性成本是「新人读不懂的黑话」，他的解法是让 CEO 本人来当全公司的词表闸门。为两个音节较真，与后来的「五步算法」（i2021-07-30：先质疑需求、再删部件、最后删掉一切不必要的词）一脉相承——都是对复杂度的宣战。",
   "c": [
    "SpaceX"
+  ]
+ },
+ {
+  "id": "e2010-05-20",
+  "pg": "primary.html",
+  "t": "言行实录",
+  "d": "2010.05.20",
+  "s": "Tesla/Toyota 合作与 Fremont 工厂公告 · Tesla 424B4 官方陈述",
+  "q": "据 424B4（2010-06）：「2010 年 5 月，Tesla 与丰田宣布电动车开发合作意向，Tesla 将获得丰田在零部件采购、生产与工程上对 Model S 的支持」——同期宣布在弗里蒙特原 NUMMI 工厂生产 Model S 的计划（媒体口径：丰田于 IPO 时投资 5000 万美元）。",
+  "zh": "",
+  "bg": "Per the 424B4 (2010-06): “In May 2010, Tesla and Toyota Motor Corporation…announced their intention to cooperate on the development of electric vehicles, and for Tesla to receive Toyota’s support with sourcing parts and production and engineering expertise for the Model S” — alongside the plan to build Model S at the former NUMMI plant in Fremont (media caliber: Toyota to invest $50M at IPO).",
+  "c": [
+   "Tesla"
   ]
  },
  {
