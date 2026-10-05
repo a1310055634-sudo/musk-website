@@ -167,3 +167,10 @@
 - **验证**：verify 9/9（40 页/索引 408）；**CDP 探针 18/18**（端口 9358）；QA 截图 2 张。
 - **工程记录**：①英文转义引号 `\\"` 字面反斜杠入 HTML——写入前弯引号化（R10 教训变体）；②误执行旧 bump 一次（同值无实害）；③「条件句互链」纪律：任务书「若有…则」实测不适用时如实记录不硬造。
 - 成果提交 08c934b+生成物 d548ede；下一轮预告：R13 资源扩容（xAI/Grok 生态+官方补，49→58±，v11.14.0）——resources-data.py 字段 13 个一个不少，validate() 拒生成不许绕过，每条核活记 http 三路法。
+
+### R13（2026-10-07，v11.14.0）
+- **RESOURCES +5（49→54，validate() 全过零绕过）**：sec-edgar-spacex（official，SpaceX CIK 1181412 上市后披露通道）/docs-xai（Grok API 官方文档）/tesla-support（**三路法第三路**：curl·WebFetch 403、服务端读取器 200，同 xai-official 先例）/xai-org-github（org 入口；grok-1 实测 52,236 stars/push 2024-08）/spacex-ir。类别迁移 official 11→14、opensource 9→10、tools 8→9。
+- **宁缺毋滥**：候选 7 实收 5（x.ai/models 000 弃、ownersmanual 403 弃、edgar/search 403 弃、xai-news 重复不收）；58± 以核活结果为准。
+- **验证**：verify 9/9（索引 413）；**CDP 探针 14/14**（端口 9359：五新条 r- 锚/rs-item 54/EDGAR 外链/stars 在页/三路法注记/390）。
+- **工程记录**：①插入锚 `\n    \},\n]` 匹配非列表尾结构写坏文件——git 单文件还原后锚改 `]\nACTIVITY_ENUM` 唯一化；②重插锚吃掉原条闭合 `},`——py_compile 定位按行补；③python -c 转义地狱再现——锚逻辑文件化（红线）；④资源索引 id 形态=r-<id> 前缀。
+- 成果提交 377f599+生成物 f76a1d6；下一轮预告：R14 质量节点②互链+检索审计（v11.15.0）。
