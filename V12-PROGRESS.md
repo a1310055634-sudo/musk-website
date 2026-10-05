@@ -143,3 +143,10 @@
 - **主路径探针 15/15**（tools/v12r09-probe.js 端口 9355：首页→账本→语录→检索→资源五页，版本戳×2/ps-row 124/qs-card 107/✓15◎83/索引 383/rs-item 49/链接连通/390 零溢出）；QA 截图 2 张。
 - **工程记录**：①三口径 DOM 锚点定位——深读 5=controversy.html 五章节 id（union/twitter/sec-sec/sec-pedo/autopilot）、财务 4=finance.html 四公司章节、编年史 53=cy-ev、X 帖=tweet-card；②search.html 索引变量探针用 typeof 链降级取值一次命中 383。
 - 成果提交 1005b4a+生成物 384e812；下一轮预告：R10 事件档案 2023–2026 补档（etype 五类枚举硬约束，事件 16→20，v11.11.0）——America Party 政治帖组按 R02 留档整体移交本轮双写语境。
+
+### R10（2026-10-07，v11.11.0）
+- **EVENTS 四档（16→20）**：e2023-11 Grok 线（milestone/month，6 材料）/e2025-06-22 Robotaxi 落地（milestone/day，7 材料=R02 四卡弧线全接入）/e2026-07 Optimus 产线（milestone/month，5 材料）/e2024-07 政治参与与 America Party（risk/month，**正反并陈**：facts 双写立场与批评+external 三镜像帖 single-party state 逐字+178+ 池检索锚——R02 移交条款落地）。
+- **口径红线闭环**：309（时间轴独立）+58（吸收）+20（档案记录）=387（索引）；etype 分布 milestone 8/risk 3/deal 5/gamble 3/start 1；材料 23 份 kind 全在八类；external 三帖 HTTP 200 实测+13 站内锚跨页断言。
+- **验证**：verify 9/9（索引 387）；**CDP 探针 19/19**（端口 9356）；QA 截图 2 张。
+- **工程记录**：①新档英文文案裸双引号三连炸+第一轮批量修复正则过宽误伤历史档 18 行——`git checkout --` 单文件还原后弯引号重写一次通过（教训：批量修复脚本必须先圈定作用范围）；②no_quote_note 必须 {zh,en} dict（render_event t() 取键）；③sed 链式自噬再现（以旧 bump 为底本 sed 生成新 bump 双规则互吃）——Write 全新（红线重申）；④探针首跑服务器未起（上轮清理后忘重启）DOM 全挂属环境非页面。
+- 成果提交 d20972f+生成物 d612d1d；下一轮预告：R11 编年史近年补齐+deep-dive-06《xAI 三年志》新页七件接入（v11.12.0）——模板逐字克隆 deep-dive-05、site-nav 断言/verify 页数 38→39/sitemap 不动。
