@@ -21,7 +21,7 @@
 
 | 轮 | 主题 | 状态 | 版本 | 成果提交（本地） | 备注 |
 |---|---|---|---|---|---|
-| 01 | 基建：账本+缺口清单 v3+两份工作册 | complete | v11.2.0 | （回填） | 镜像五短语探明：断代期覆盖充足（Grok4 1105/Grok5 898/AP 178/robotaxi 37/Optimus 19，最新 2026-10-04）；quotes-worklog 101 行+emails-worklog 47 行（初判在册 14）；.gitignore 已含锁（前轮备好） |
+| 01 | 基建：账本+缺口清单 v3+两份工作册 | complete | v11.2.0 | 0b7ab1c | 镜像五短语探明：断代期覆盖充足（Grok4 1105/Grok5 898/AP 178/robotaxi 37/Optimus 19，最新 2026-10-04）；quotes-worklog 101 行+emails-worklog 47 行（初判在册 14）；.gitignore 已含锁（前轮备好）；勘误 span=15 处非 16 |
 | 02 | X 帖断代回捞 III（2025-08→2026-10） | pending | v11.3.0 | | 只走 /agents/search；年份组跨 2026 须建新组 |
 | 03 | X 帖早期加密 I（2018–2019） | pending | v11.4.0 | | index 管线可用（2018–2022 不触 1000 上限） |
 | 04 | 账本早期加密（2002–2010） | pending | v11.5.0 | | 锚=NASA CRS-1/Falcon 1 F4 官方信/Tesla S-1；无 8-K 无 SpaceX S-1 |
@@ -77,3 +77,10 @@
   字样提及污染——changelog.html 无 span，正确计数 15，任务书与 bump 脚本注释已同步修正**）；
   CHANGELOG 补条目；sync-changelog；build-revisions+EPUB 重刷（span 改动 15 页）。
 - 基建轮无页面视觉改动，CDP 探针豁免（以 verify 9/9+基线快照核对代替，如实记录）。
+- **验收**：verify 9/9 全绿（版本一致性 11.2.0/索引 354/EPUB 含 e2026-07-22）；node --check app.js+cite.js 过；
+  全家桶子集 sync-changelog（228 条）/build-revisions（227 锚点）/build-epub（236,024B）重跑通过。
+- **本轮新增教训（已入任务书 §9）**：grep -l 统计 span 会被正文「site-version-val」字样提及污染
+  （changelog.html 无 span 元素但正文提及一次→虚增 1）；span 计数必须用 `site-version-val">` 精确模式。
+- 下一轮预告：R02 X 帖断代回捞 III（2025-08→2026-10，v11.3.0）——只走 /agents/search，
+  跨 2026 须仿既有年份组头新建组，立卡 4–6 条每条 transcript 原文+snowflake 对表。
+- 成果提交 0b7ab1c（27 文件）；本回填为第二提交。
