@@ -1887,7 +1887,8 @@ window.SEARCH_INDEX = [
   "bg": "Three years after its founding, Neuralink finally showed its work: a sewing-machine robot, flexible polymer threads with up to 1,024 channels, the N1 sensor chip — and a timeline: human trials as early as 2020.",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "p2019-07-26",
@@ -1954,7 +1955,8 @@ window.SEARCH_INDEX = [
   "bg": "Neuralink 发布会三个月后，他在公司总部坐下来解释脑机接口的终极理由：人类终将无法在智能上胜过数字超级计算机，所以要做那道算术。被追问「合并成功的概率」时，他先给了一个数字，再补了一句电影台词。",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "e2019-11-21",
@@ -3712,7 +3714,8 @@ window.SEARCH_INDEX = [
   "bg": "Neuralink 首例人体植入完成后，他连发两帖：先临床陈述，再命名产品。这是手术新闻上叠的一层销售语言。",
   "c": [
    "Neuralink"
-  ]
+  ],
+  "ev": "e2024-01-29"
  },
  {
   "id": "p2024-01-29",
@@ -4391,7 +4394,8 @@ window.SEARCH_INDEX = [
   "bg": "The annual meeting where shareholders approved his trillion-dollar pay package (roughly 75% in favor) — and where he, fresh off the vote, took the stage and escalated the promise to its logical extreme.",
   "c": [
    "Tesla"
-  ]
+  ],
+  "ev": "e2024-07"
  },
  {
   "id": "i2025-11-06",
@@ -4811,7 +4815,8 @@ window.SEARCH_INDEX = [
   "c": [
    "SpaceX",
    "xAI"
-  ]
+  ],
+  "ev": "e2026-02-10"
  },
  {
   "id": "p2026-09-14",

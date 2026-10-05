@@ -177,6 +177,7 @@
   <div class="sr-companies" id="sr-companies" role="group" aria-label="按公司过滤"></div>
 
   <div id="sr-results"></div>
+  <noscript><p class="sr-empty">检索需启用 JavaScript。无 JS 时请用静态页浏览：编年史（chronicle.html）、言行实录（primary.html）与修订轨迹（revisions.html）均为纯静态可读。</p></noscript>
 
   <p class="sr-foot">本页由马斯克商业志自动化迭代维护 · 索引生成于本地（search-index.js），无任何运行时联网 · 检索目标为已核实的第一手条目，编者分析与原话在各来源页严格区分。</p>
 </div>
@@ -185,6 +186,15 @@
 (function () {
   var input = document.getElementById('sr-input');
   var count = document.getElementById('sr-count');
+
+  /* R14：Ctrl+K / Cmd+K 聚焦检索框（页面已在本页时直接 focus） */
+  document.addEventListener('keydown', function (e) {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) {
+      e.preventDefault();
+      input.focus();
+      input.select();
+    }
+  });
   var box = document.getElementById('sr-results');
   var buttons = document.querySelectorAll('.sr-types button');
   var INDEX = window.SEARCH_INDEX || [];

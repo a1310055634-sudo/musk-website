@@ -4,10 +4,10 @@
 window.TIMELINE_V7 = {
  "meta": {
   "built": "V7-19 R9",
-  "version": "11.10.0",
+  "version": "11.14.0",
   "nEvents": 20,
-  "nRecords": 309,
-  "nAbsorbed": 58,
+  "nRecords": 330,
+  "nAbsorbed": 63,
   "absorbedByEvent": {
    "e2002-10-03": 1,
    "e2006": 2,
@@ -21,13 +21,14 @@ window.TIMELINE_V7 = {
    "e2010-06-29": 4,
    "e2021-10-25": 3,
    "e2021-11-26": 5,
-   "e2024-01-29": 5,
+   "e2024-01-29": 8,
    "e2019-04-22": 4,
    "e2015-11-22": 3,
-   "e2026-02-10": 3,
-   "e2023-11": 5,
+   "e2026-02-10": 4,
+   "e2023-11": 6,
    "e2025-06-22": 6,
-   "e2026-07": 4
+   "e2026-07": 4,
+   "e2024-07": 1
   },
   "source": "tools/events-data.py + search-index.js"
  },
@@ -1516,19 +1517,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "e2019-07-16",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2019.07.16",
-   "s": "Neuralink 2019 发布会（旧金山 · CT Insider/Mashable 报道逐字）",
-   "q": "“A monkey has been able to control a computer with his brain.”",
-   "zh": "一只猴子已经能用它的大脑控制一台电脑了。",
-   "bg": "Three years after its founding, Neuralink finally showed its work: a sewing-machine robot, flexible polymer threads with up to 1,024 channels, the N1 sensor chip — and a timeline: human trials as early as 2020.",
-   "c": [
-    "Neuralink"
-   ]
-  },
-  {
    "id": "p2019-07-26",
    "pg": "x-posts.html",
    "t": "X 帖",
@@ -1566,19 +1554,6 @@ window.TIMELINE_V7 = {
    "bg": "应 Lex 所请，他在访谈最后读了卡尔·萨根《暗淡蓝点》的名段——读着读着停下来，当场反驳了自己正在朗读的文本。此前一分钟的铺垫同样惊人：“It's only just possible to travel to Mars. Just barely. If G was 10% more, wouldn't work really.”——去火星只是勉强可行，引力再高百分之十就不成立。",
    "c": [
     "综合"
-   ]
-  },
-  {
-   "id": "i2019-11-12",
-   "pg": "interviews.html",
-   "t": "访谈与表态",
-   "d": "2019.11.12",
-   "s": "「打不过，就加入」",
-   "q": "“So therefore, if you cannot beat them, join them.” — “I think the chance is above 0%.”",
-   "zh": "",
-   "bg": "Neuralink 发布会三个月后，他在公司总部坐下来解释脑机接口的终极理由：人类终将无法在智能上胜过数字超级计算机，所以要做那道算术。被追问「合并成功的概率」时，他先给了一个数字，再补了一句电影台词。",
-   "c": [
-    "Neuralink"
    ]
   },
   {
@@ -2706,6 +2681,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "c2023-03-01",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2023.03.01",
+   "s": "Tesla · 编年史",
+   "q": "Investor Day 与 Master Plan Part 3：「地球全面电动化」的工程路线图（账本条目）。",
+   "zh": "",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "e2023-05-15",
    "pg": "primary.html",
    "t": "言行实录",
@@ -2715,6 +2703,20 @@ window.TIMELINE_V7 = {
    "zh": "如果马斯克想保留连特定 Tesla 话题上有限的内部监督都不要的推文权利，他本有权「起诉抗辩 SEC 的指控」，或去谈判一份不同的协议——但他没有那样选。既然作了选择，他就不能仅仅因为如今改了主意，便借 Rule 60 从侧翼重开一份已生效的判决。",
    "bg": "Eleven months after the appeal, a three-judge panel of the Second Circuit (Chief Judge Livingston, Raggi, Kahn) ended the campaign with a summary order: affirmed.",
    "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "c2023-05-15",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2023.05.15",
+   "s": "Tesla · 编年史",
+   "q": "第二巡回法院三法官庭终审：SolarCity 收购案马斯克胜诉，六年诉讼法律程序终结（账本条目）。",
+   "zh": "",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "SolarCity",
     "Tesla"
    ]
   },
@@ -2814,6 +2816,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "c2023-10-18",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2023.10.18",
+   "s": "Tesla · 编年史",
+   "q": "Q3 财报电话会：降价压毛利，Cybertruck 交付倒计时 43 天（账本条目）。",
+   "zh": "",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "i2023-11",
    "pg": "interviews.html",
    "t": "访谈与表态",
@@ -2905,6 +2920,20 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "c2023-11-29",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2023.11.29",
+   "s": "X · 编年史",
+   "q": "DealBook 峰会回应广告主抵制：「别想勒索我用广告费」（账本条目）。",
+   "zh": "",
+   "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+   "c": [
+    "X / Twitter",
+    "xAI"
+   ]
+  },
+  {
    "id": "e2023-11-30",
    "pg": "primary.html",
    "t": "言行实录",
@@ -2946,19 +2975,6 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "i2024-01-29",
-   "pg": "interviews.html",
-   "t": "访谈与表态",
-   "d": "2024.01.29",
-   "s": "「Telepathy：只需思考，即可控制一切」",
-   "q": "“The first @Neuralink product is called Telepathy. Enables control of your phone or computer, and through them almost any device, just by thinking.”",
-   "zh": "",
-   "bg": "Neuralink 首例人体植入完成后，他连发两帖：先临床陈述，再命名产品。这是手术新闻上叠的一层销售语言。",
-   "c": [
-    "Neuralink"
-   ]
-  },
-  {
    "id": "p2024-01-30",
    "pg": "x-posts.html",
    "t": "X 帖",
@@ -2997,6 +3013,19 @@ window.TIMELINE_V7 = {
    "c": [
     "X / Twitter",
     "xAI"
+   ]
+  },
+  {
+   "id": "c2024-03-18",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2024.03.18",
+   "s": "SpaceX · 编年史",
+   "q": "Starbase 员工会：两飞数据复盘与第三次试飞预期（账本条目）。",
+   "zh": "",
+   "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+   "c": [
+    "SpaceX"
    ]
   },
   {
@@ -3053,6 +3082,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "c2024-07",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2024.07",
+   "s": "X · 编年史",
+   "q": "政治参与升级：大选背书入场，后演变为 America Party（2025.07）（事件档案）。",
+   "zh": "",
+   "bg": "主线（马斯克相关段）：2022 年要约 → 反悔被诉 → 强制交割 → 文化通牒 → 言论实验 → 并入 xAI。2006 年的创立与他无关，2022 年之后每一页都与他有关。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
    "id": "p2024-07-13",
    "pg": "x-posts.html",
    "t": "X 帖",
@@ -3076,6 +3118,19 @@ window.TIMELINE_V7 = {
    "bg": "大选前八周，他把「效率教义」带上 All-In 舞台，用每个人都排过队的场景一句话说尽。",
    "c": [
     "综合"
+   ]
+  },
+  {
+   "id": "c2024-10-10",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2024.10.10",
+   "s": "Tesla · 编年史",
+   "q": "「We,Robot」发布会：Cybercab 无人出租与 Robovan 亮相（账本条目）。",
+   "zh": "",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
    ]
   },
   {
@@ -3290,6 +3345,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "c2025-06-22",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2025.06.22",
+   "s": "Tesla · 编年史",
+   "q": "Robotaxi 奥斯汀付费服务开跑——八年欠账后第一次真发车（事件档案）。",
+   "zh": "",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
    "id": "p2025-07-05",
    "pg": "x-posts.html",
    "t": "X 帖",
@@ -3343,14 +3411,14 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "e2025-11-06",
-   "pg": "primary.html",
-   "t": "言行实录",
-   "d": "2025.11.06",
-   "s": "Tesla 股东年会（CNBC · Sky News · 全文转录）",
-   "q": "“There's not like an obvious limit. So like Optimus is kind of like an infinite money glitch. And maybe there won't even be money in the future.” — “Optimus will actually eliminate poverty… bigger than cell phones.”",
-   "zh": "这没有明显的上限。Optimus 有点像无限金钱外挂。也许未来甚至不会再有金钱这个东西。——Optimus 将真正消除贫困……比手机还要大（的市场）。",
-   "bg": "The annual meeting where shareholders approved his trillion-dollar pay package (roughly 75% in favor) — and where he, fresh off the vote, took the stage and escalated the promise to its logical extreme.",
+   "id": "c2025-09-17",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2025.09.17",
+   "s": "Tesla · 编年史",
+   "q": "万亿薪酬包 proxy 备案：12 档市值里程碑 2 万亿→8.5 万亿（proxy 摘录）。",
+   "zh": "",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
    "c": [
     "Tesla"
    ]
@@ -3379,6 +3447,137 @@ window.TIMELINE_V7 = {
    "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "deep-dive-06-s1",
+   "pg": "deep-dive-06.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "xAI 三年志 · 一、一句话章程（2023.07.12）",
+   "q": "ledger):\">2023 年 7 月 12 日，他以一句话章程官宣成立 xAI，并在 Twitter Spaces 上把它论证为一个 AI 安全命题（账本）：",
+   "zh": "",
+   "bg": "ledger):\">2023 年 7 月 12 日，他以一句话章程官宣成立 xAI，并在 Twitter Spaces 上把它论证为一个 AI 安全命题（账本）：",
+   "c": [
+    "X / Twitter",
+    "xAI"
+   ]
+  },
+  {
+   "id": "deep-dive-06-s2",
+   "pg": "deep-dive-06.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "xAI 三年志 · 二、四个月出 Grok（2023.11）",
+   "q": "archived post); Grok-1 weights went open-source in March 2024 — a small company shipping at consumer-company cadence. Th",
+   "zh": "",
+   "bg": "archived post); Grok-1 weights went open-source in March 2024 — a small company shipping at consumer-company cadence. The event-archive view: Grok: from chatbot",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "deep-dive-06-s3",
+   "pg": "deep-dive-06.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "xAI 三年志 · 三、收购 X：公司吞下自己的分发面（2025.03）",
+   "q": "ledger):\">2025 年 3 月 28 日，全股票合并把 X 并入 xAI——以本人账号宣布（账本）：",
+   "zh": "",
+   "bg": "ledger):\">2025 年 3 月 28 日，全股票合并把 X 并入 xAI——以本人账号宣布（账本）：",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "deep-dive-06-s4",
+   "pg": "deep-dive-06.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "xAI 三年志 · 四、第一份成绩单（2026.02）",
+   "q": "ledger).\">2026 年 2 月 10 日首届 All-Hands 上，他以「两岁半的幼儿」自况并交出全景自评——语音/图像/视频生成第一、Grokkipedia 对标维基百科、首个 10 万张 H100 集群（账本）。",
+   "zh": "",
+   "bg": "ledger).\">2026 年 2 月 10 日首届 All-Hands 上，他以「两岁半的幼儿」自况并交出全景自评——语音/图像/视频生成第一、Grokkipedia 对标维基百科、首个 10 万张 H100 集群（账本）。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "deep-dive-06-s5",
+   "pg": "deep-dive-06.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "xAI 三年志 · 五、资本线，以及没有档案的部分",
+   "q": "the official announcement; finances). Three years from a tweet to a top-tier valuation. What is not on file: xAI still h",
+   "zh": "",
+   "bg": "the official announcement; finances). Three years from a tweet to a top-tier valuation. What is not on file: xAI still has no independent public-disclosure chan",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "deep-dive-07-s1",
+   "pg": "deep-dive-07.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "Robotaxi 落地考 · 一、欠账的形状（2016–2024）",
+   "q": "承诺簇：2016 年宣布的「2017 年底前」全自主横穿美国，与 2019 年 Autonomy Day 的「2020 年百万台 robotaxi」。两个日期都没有兑现——而本站的承诺账（promises 五案）刻意不设 robotaxi ",
+   "zh": "",
+   "bg": "承诺簇：2016 年宣布的「2017 年底前」全自主横穿美国，与 2019 年 Autonomy Day 的「2020 年百万台 robotaxi」。两个日期都没有兑现——而本站的承诺账（promises 五案）刻意不设 robotaxi 案：五案都有可判的日期下限，robotaxi 簇的日期一直在移动。欠账的形状不是",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "deep-dive-07-s2",
+   "pg": "deep-dive-07.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "Robotaxi 落地考 · 二、We,Robot（2024.10.10）",
+   "q": "ledger):\">在洛杉矶一个电影制片厂，他发布了 Cybercab——第一辆为无监督全自动驾驶专门打造的车（账本）：",
+   "zh": "",
+   "bg": "ledger):\">在洛杉矶一个电影制片厂，他发布了 Cybercab——第一辆为无监督全自动驾驶专门打造的车（账本）：",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "deep-dive-07-s3",
+   "pg": "deep-dive-07.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "Robotaxi 落地考 · 三、奥斯汀弧线（2025.06–2026.10）",
+   "q": "event archive), then the arc ran through four archived posts: service area past rivals (2025.08.16), greater-Austin cove",
+   "zh": "",
+   "bg": "event archive), then the arc ran through four archived posts: service area past rivals (2025.08.16), greater-Austin coverage (2025.10.29), no in-car safety moni",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "deep-dive-07-s4",
+   "pg": "deep-dive-07.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "Robotaxi 落地考 · 四、一周年口径（2026.07.22）",
+   "q": "ledger). The same call pivoted to Optimus — “I think Optimus will be the biggest product ever” — a reminder that robotax",
+   "zh": "",
+   "bg": "ledger). The same call pivoted to Optimus — “I think Optimus will be the biggest product ever” — a reminder that robotaxi is now one track in a larger autonomy ",
+   "c": [
+    "综合"
+   ]
+  },
+  {
+   "id": "deep-dive-07-s5",
+   "pg": "deep-dive-07.html",
+   "t": "深读长文",
+   "d": "2026",
+   "s": "Robotaxi 落地考 · 五、指控、回应与本站核查",
+   "q": "指控批评者与做空方认为：robotaxi 记录是十年跳票，被用来在自动驾驶叙事上融资——2016、2019 与 FSD 收费史都早于第一个付费无人里程。",
+   "zh": "",
+   "bg": "指控批评者与做空方认为：robotaxi 记录是十年跳票，被用来在自动驾驶叙事上融资——2016、2019 与 FSD 收费史都早于第一个付费无人里程。",
+   "c": [
+    "综合"
    ]
   },
   {
@@ -3448,6 +3647,19 @@ window.TIMELINE_V7 = {
    ]
   },
   {
+   "id": "c2026-06-12",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2026.06.12",
+   "s": "SpaceX · 编年史",
+   "q": "SpaceX IPO 定价：555,555,555 股 × $135.00，SPCX 登陆纳斯达克，募资约 750 亿美元（424B4 摘录）。",
+   "zh": "",
+   "bg": "主线：自投 1 亿赌可复用 → 三连败后第四发入轨 → 着陆与复飞把发射变成快递 → 载人与接塔把成本曲线打到星链可融资。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
    "id": "d2026-06-22",
    "pg": "documents.html",
    "t": "一手文档",
@@ -3461,17 +3673,16 @@ window.TIMELINE_V7 = {
    ]
   },
   {
-   "id": "i2026-07-23",
-   "pg": "interviews.html",
-   "t": "访谈与表态",
-   "d": "2026.07.23",
-   "s": "「数字智能与物理智能」——十年后靠什么赚钱",
-   "q": "“You can really think of the economy as digital and physical intelligence. What we have right now advancing very rapidly is digital intelligence.”",
+   "id": "c2026-07",
+   "pg": "chronicle.html",
+   "t": "编年史",
+   "d": "2026.07",
+   "s": "Tesla · 编年史",
+   "q": "Fremont Optimus 产线实拍与 AI5 上机口径——「能不能做」变成「能不能造」（事件档案）。",
    "zh": "",
-   "bg": "The Economist 点破一件怪事：SpaceX 招股书里未来收入的压倒性大头居然是 AI/Grok，而不是把东西运上天——并追问十年后他的公司们究竟靠什么赚钱。",
+   "bg": "主线：用 Roadster 证明可行 → Model S 打破魔咒 → Model 3 跨越量产鸿沟 → 成本曲线成为定价武器 → 万亿市值与万亿薪酬互锁。",
    "c": [
-    "SpaceX",
-    "xAI"
+    "Tesla"
    ]
   },
   {
@@ -4111,6 +4322,71 @@ window.TIMELINE_V7 = {
    "bg": "通讯社口径的档案层：本站多条后续注记（如 America Party 引发 Tesla -7%）以此为背景源。",
    "c": [
     "Tesla"
+   ]
+  },
+  {
+   "id": "r-sec-edgar-spacex",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SEC EDGAR · SpaceX 上市公司文件",
+   "q": "SpaceX（CIK 0001181412）的 EDGAR 备案页：2026-06 上市后的 10-Q、8-K 与大股东 13G——注册地德州、纳斯达克代码 SPCX。",
+   "zh": "SpaceX (CIK 0001181412) on EDGAR: post-IPO 10-Qs, 8-Ks and 13Gs since the June 2026 listing — Texas-incorporated, Nasdaq: SPCX.",
+   "bg": "SpaceX 上市后的第一披露通道——公司从「无公开档案」变为申报主体，本站近年化的一手锚。",
+   "c": [
+    "SpaceX"
+   ]
+  },
+  {
+   "id": "r-docs-xai",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "xAI 官方文档（Grok API）",
+   "q": "xAI 官方开发者文档：Grok API 的模型清单、定价与调用规范——Grok 从聊天产品走向可编程接口的官方口径。",
+   "zh": "xAI's official developer docs: Grok API models, pricing and call specs — the official record of Grok as a programmable interface.",
+   "bg": "Grok API 官方文档——模型能力与定价的一手口径（任务书 R13 采集方向第一位）。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "r-tesla-support",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "Tesla 官方支持页",
+   "q": "Tesla 官方支持入口：车主手册、充电指南与产品 FAQ——官方口径的产品事实源。",
+   "zh": "Tesla's official support hub: owner's manuals, charging guides and product FAQs — the official product-fact source.",
+   "bg": "官方类补强：车主手册与支持文档是一手产品事实源（任务书 R13 采集方向）。",
+   "c": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "r-xai-org-github",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "xai-org · GitHub 组织页",
+   "q": "xAI 官方 GitHub 组织：Grok-1 开源权重（52,236 stars）与后续开源发布——「理解宇宙」的公开代码面。",
+   "zh": "xAI's official GitHub org: the Grok-1 open weights (52,236 stars) and later open-source releases — the public code face.",
+   "bg": "开源类补强：org 页是 Grok 开源发布的第一入口（grok-1 单仓库已在册，此为组织级入口）。",
+   "c": [
+    "xAI"
+   ]
+  },
+  {
+   "id": "r-spacex-ir",
+   "pg": "resources.html",
+   "t": "社区资源",
+   "d": "2026.10",
+   "s": "SpaceX 投资者关系",
+   "q": "SpaceX 上市后的投资者关系页：财报、备案指引与股东信息——2026-06 IPO 之后的官方资本信息口。",
+   "zh": "SpaceX's post-IPO investor relations page: filings, guidance and shareholder info — the official capital-information channel since the June 2026 IPO.",
+   "bg": "工具类补强：IR 页与 EDGAR 备案互为表里，是近年化资本数据的官方索引。",
+   "c": [
+    "SpaceX"
    ]
   }
  ]

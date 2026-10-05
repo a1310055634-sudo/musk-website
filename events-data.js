@@ -1091,7 +1091,7 @@ window.EVENTS_V7 = [
    },
    {
     "kind": "external",
-    "href": null,
+    "href": "https://elonmuskarchive.org/agents/search?q=xAI%20acquires%20X",
     "date": "2025.03",
     "label": {
      "zh": "CNBC · Forbes · AP（合并与估值报道口径）",
@@ -1668,6 +1668,45 @@ window.EVENTS_V7 = [
      "zh": "线上的起点： Gertrude 与实时神经元信号",
      "en": "Where the public line began: Gertrude and live neuron spikes"
     }
+   },
+   {
+    "kind": "ledger",
+    "href": "primary.html#e2019-07-16",
+    "date": "2019.07.16",
+    "label": {
+     "zh": "言行账本 e2019-07-16 · 2019 首场技术发布会（弧线起点）",
+     "en": "Ledger e2019-07-16 · the 2019 debut"
+    },
+    "note": {
+     "zh": "R14 互链扩展：缝合线与缝纫机（1024 通道）的起点记录",
+     "en": "R14 xlinks: where the thread-and-sewing-machine story starts"
+    }
+   },
+   {
+    "kind": "interview",
+    "href": "interviews.html#i2024-01-29",
+    "date": "2024.01.29",
+    "label": {
+     "zh": "访谈 i2024-01-29 · 首植同日访谈",
+     "en": "Interview i2024-01-29 · same-day interview"
+    },
+    "note": {
+     "zh": "R14 互链扩展：同日双源（X 官宣+访谈口径）",
+     "en": "R14 xlinks: same-day second source"
+    }
+   },
+   {
+    "kind": "interview",
+    "href": "interviews.html#i2019-11-12",
+    "date": "2019.11.12",
+    "label": {
+     "zh": "访谈 i2019-11-12 · 2019 脑机访谈",
+     "en": "Interview i2019-11-12 · the 2019 brain interview"
+    },
+    "note": {
+     "zh": "R14 互链扩展：首植五年前的口径对读",
+     "en": "R14 xlinks: the 2019 framing, read against 2024"
+    }
    }
   ],
   "image": null,
@@ -2038,6 +2077,19 @@ window.EVENTS_V7 = [
     }
    },
    {
+    "kind": "interview",
+    "href": "interviews.html#i2026-07-23",
+    "date": "2026.07.23",
+    "label": {
+     "zh": "访谈 i2026-07-23 · Economist（AI 收入占比之问）",
+     "en": "Interview i2026-07-23 · The Economist"
+    },
+    "note": {
+     "zh": "R14 互链扩展：成绩单的同期外部口径",
+     "en": "R14 xlinks: the同期 external read of the report card"
+    }
+   },
+   {
     "kind": "feature",
     "href": "grok.html",
     "date": null,
@@ -2171,6 +2223,19 @@ window.EVENTS_V7 = [
     "note": {
      "zh": "资本侧佐证",
      "en": "The capital-side record"
+    }
+   },
+   {
+    "kind": "interview",
+    "href": "interviews.html#i2026-02-05",
+    "date": "2026.02.05",
+    "label": {
+     "zh": "访谈 i2026-02-05 · Dwarkesh（AI5 与 Grok 栈）",
+     "en": "Interview i2026-02-05 · Dwarkesh on the stack"
+    },
+    "note": {
+     "zh": "R14 互链扩展：模型栈的同期访谈口径",
+     "en": "R14 xlinks: the stack, in his own interview words"
     }
    },
    {
@@ -2538,6 +2603,19 @@ window.EVENTS_V7 = [
     "note": {
      "zh": "全池检索入口",
      "en": "Index into the full pool"
+    }
+   },
+   {
+    "kind": "ledger",
+    "href": "primary.html#e2025-11-06",
+    "date": "2025.11.06",
+    "label": {
+     "zh": "言行账本 e2025-11-06 · 股东会与薪酬包通过",
+     "en": "Ledger e2025-11-06 · the shareholder meeting"
+    },
+    "note": {
+     "zh": "R14 互链扩展：政治参与与公司治理的交汇点",
+     "en": "R14 xlinks: where politics meets corporate governance"
     }
    }
   ],

@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '11.14.0';
+  var SITE_VERSION = '11.15.0';
 
   /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
   document.documentElement.classList.add('js');
@@ -273,6 +273,14 @@
         closeAllGroups();
       });
     document.addEventListener('keydown', function (e) {
+  /* R14：全局 Ctrl+K / Cmd+K → 检索页（输入态不劫持） */
+  var tag = (document.activeElement && document.activeElement.tagName) || '';
+  if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K') && tag !== 'INPUT' && tag !== 'TEXTAREA') {
+    e.preventDefault();
+    location.href = 'search.html';
+  }
+});
+document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && mh.classList.contains('nav-open')) {
         mh.classList.remove('nav-open');
         nbtn.setAttribute('aria-expanded', 'false');

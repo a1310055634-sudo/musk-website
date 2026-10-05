@@ -149,6 +149,13 @@ window.COMPANIES_V7 = {
      }
     },
     {
+     "id": "tesla-support",
+     "name": {
+      "zh": "Tesla 官方支持页",
+      "en": "Tesla Support (official)"
+     }
+    },
+    {
      "id": "tesla-vehicle-command",
      "name": {
       "zh": "Tesla 官方开源 · vehicle-command",
@@ -167,13 +174,6 @@ window.COMPANIES_V7 = {
      "name": {
       "zh": "TeslaPy · Python Tesla API 客户端",
       "en": "TeslaPy — Python Tesla API client"
-     }
-    },
-    {
-     "id": "tesla-api-io",
-     "name": {
-      "zh": "tesla-api.io · Tesla API 社区文档",
-      "en": "tesla-api.io — community Tesla API docs"
      }
     }
    ]
@@ -261,6 +261,13 @@ window.COMPANIES_V7 = {
    ],
    "resources": [
     {
+     "id": "sec-edgar-spacex",
+     "name": {
+      "zh": "SEC EDGAR · SpaceX 上市公司文件",
+      "en": "SEC EDGAR — SpaceX filings"
+     }
+    },
+    {
      "id": "spacex-falcon9",
      "name": {
       "zh": "SpaceX 官网 · Falcon 9 猎鹰九号",
@@ -293,13 +300,6 @@ window.COMPANIES_V7 = {
      "name": {
       "zh": "r-spacex/SpaceX-API · 社区发射数据 REST API",
       "en": "r-spacex/SpaceX-API — community launch data API"
-     }
-    },
-    {
-     "id": "starlink-grpc-tools",
-     "name": {
-      "zh": "sparky8512/starlink-grpc-tools · 星链终端遥测",
-      "en": "sparky8512/starlink-grpc-tools — Starlink dish telemetry"
      }
     }
    ]
@@ -422,6 +422,13 @@ window.COMPANIES_V7 = {
    ],
    "resources": [
     {
+     "id": "docs-xai",
+     "name": {
+      "zh": "xAI 官方文档（Grok API）",
+      "en": "xAI Docs — the Grok API"
+     }
+    },
+    {
      "id": "xai-official",
      "name": {
       "zh": "xAI 官网",
@@ -433,6 +440,13 @@ window.COMPANIES_V7 = {
      "name": {
       "zh": "xAI 官方开源 · Grok-1 权重",
       "en": "xAI (official) — Grok-1 weights"
+     }
+    },
+    {
+     "id": "xai-org-github",
+     "name": {
+      "zh": "xai-org · GitHub 组织页",
+      "en": "xai-org on GitHub"
      }
     },
     {
