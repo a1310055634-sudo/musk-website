@@ -119,4 +119,4 @@
 - **管线突破**：镜像 email 详情页**带浏览器 UA 的 curl 可取完整 SSR HTML**（26KB 级；裸 curl=404 壳、web_reader 渲染亦可）——正文在 Next.js RSC payload 内，tools/v12r06-extract.py 采料入册；镜像页脚自带第二源链接（法庭展品/CNBC/hardresetmedia）。四封镜像存档 qa/v12/round-06/sources/。
 - **验证**：verify 9/9（索引 377=…+31+…）；**CDP 探针 24/24**（tools/v12r06-probe.js 端口 9352：三段时序邻居/四条五件套/逐字四组/口径戳/互链 e2022-04-20 与 d2023-01→02）；QA 截图 2 张。
 - **工程记录**：①**documents.html 历史上无站点页脚**（无 site-version-val span，页尾=定制 doc-foot）——探针首跑 1 挂系断言写错非站点回归，15 span 口径从未含它；②集成断言教训：permalink 计数用 `href="#id" title=` 特征（裸 `href="#id"` 会被站内互链虚增）；③2023-01 庭审追述件的日期口径（镜像 2023-01-23=微软 $10B 公告时点 vs 庭审转述"late 2022"）取镜像元数据并在注释声明依据。
-- 成果提交（本轮）；下一轮预告：R07 email 续+文档馆近年化（2024–2026 SEC/Starship 信，v11.8.0）——worklog 前 15 封余量+近年文书锚盘点。
+- 成果提交 eb28182（41 文件）；下一轮预告：R07 email 续+文档馆近年化（2024–2026 SEC/Starship 信，v11.8.0）——worklog 前 15 封余量+近年文书锚盘点。
