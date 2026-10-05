@@ -1517,6 +1517,19 @@ window.SEARCH_INDEX = [
   "ev": "e2018-08-07"
  },
  {
+  "id": "d2018-08-12",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2018.08.12",
+  "s": "「You are throwing me under the bus」（马斯克 × 沙特 PIF 鲁梅延短信）",
+  "q": "“This is an extremely weak statement and does not reflect the conversation we had at Tesla. You said you were definitely interested in taking Tesla private and had wanted to do so since 2016. I’m sorry, but we cannot work together.” —— Elon Musk",
+  "zh": "",
+  "bg": "「funding secured」推文五天后的决裂现场：PIF 拒绝公开确认注资后，马斯克与基金总裁亚西尔·鲁梅延的短信急转直下——先是指责公开声明「软弱」，被回以「探戈要两个人跳；我们什么都没收到」之后，抛出那句日后被反复引用的「把我扔到巴士底下」。这组短信 2022 年 4 月经证券集团诉讼披露文件公开，Fortune 全文刊出。它与 d2018-08-07、d2018-08-14 同属私有化风波的一手文书弧线。口径：诉讼披露展品 + 媒体逐字，双源 2026-10-06 核验。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "d2018-08-14",
   "pg": "documents.html",
   "t": "一手文档",
@@ -2613,6 +2626,19 @@ window.SEARCH_INDEX = [
   "q": "“You care so much, get its importance, and could def help in immeasurable ways.”",
   "zh": "你这么在乎它、懂它的重要，绝对能以不可估量的方式帮上忙。（Dorsey 语，3 月 26 日）",
   "bg": "On March 25, 2022, Musk tweeted that Twitter — the de facto public town square — was failing free-speech principles, and polled his followers: roughly seventy percent said Twitter did not adhere to them. That night, Jack Dorsey, pushed out of the CEO chair a year earlier by the board he once ran, opened a private line to him.",
+  "c": [
+   "X / Twitter"
+  ]
+ },
+ {
+  "id": "d2022-03-26",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2022.03.26",
+  "s": "「A new platform is needed. It can’t be a company.」（杰克·多西 → 马斯克短信）",
+  "q": "“Yes, a new platform is needed. It can’t be a company. This is why I left.” —— Jack Dorsey",
+  "zh": "",
+  "bg": "整场收购的思想前奏：3 月 25 日马斯克「Twitter 正在死吗」民调当晚，多西开启私信线（背景见言行实录 2022.03.26 条目），而他给出的方案不是「买下它」，而是协议化重建——开源协议、基金会供养、去广告模式，以 Signal 为范本。马斯克三周后走的路（4 月 14 日要约）恰是多西方案的反面：把中心化实体整个买下。协议路线后来由多西力推的 Bluesky（AT Protocol）落地。与 d2022-04-09 的三连短信同属这一个月的一手短信弧线。口径：法庭披露展品 + 披露件汇编（danluu.com 合集与主流媒体逐字一致），双源 2026-10-06 核验。",
   "c": [
    "X / Twitter"
   ]
@@ -4160,6 +4186,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2025-09-17",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2025.09.17 备案 · 11.06 股东会",
+  "s": "2025 CEO Performance Award proxy（特斯拉万亿薪酬包授权案）",
+  "q": "“Approve a new 2025 CEO Performance Award that uniquely challenges Elon to guide Tesla through a new phase of unprecedented growth by rewarding him — only if he delivers (once again) extraordinary financial returns for you, the shareholders, and remains at Tesla in a leadership role for many years to come.”",
+  "zh": "",
+  "bg": "2018 奖励的续篇与放大：12 档市值里程碑自 2 万亿起步、封顶 8.5 万亿（proxy 自己加注「大于本声明日期任何单一公司」），叠加 4,000 亿 EBITDA 门槛与多年任职绑定——把「留在 Tesla」本身变成了行权条件。2025-11-06 股东会表决通过（见言行实录 2025.11.06 条目）。与 2018 年一样，这份奖励也是一纸法律文书对赌一个人的判断。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "p2025-10-29",
   "pg": "x-posts.html",
   "t": "X 帖",
@@ -4292,6 +4331,19 @@ window.SEARCH_INDEX = [
   ]
  },
  {
+  "id": "d2026-01-29",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2026.01.29 备案 · FY2025",
+  "s": "Tesla Form 10-K FY2025（AI 公司自述与关键人风险）",
+  "q": "“We are focused on bringing artificial intelligence (“AI”) into the real world, through products and services like Full Self-Driving (“FSD”) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (“Bots”) (including Optimus).”",
+  "zh": "",
+  "bg": "FY2025 年报的正文第一句不再是「设计、制造和销售电动车」——AI 被写进了公司定义句（FSD/Robotaxi/Optimus 三支柱），电动车业务降格为实现手段（“leverage our current operations”）。同一份文件的风险因子章维持着自 2018 年以来的关键人句式，而 “Technoking”——他 2021 年给自己发明的头衔——如今是法律文本的正式组成部分。公司自我定义的换轨，这是最硬的一手证据。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
+  "c": [
+   "Tesla"
+  ]
+ },
+ {
   "id": "i2026-02-05",
   "pg": "interviews.html",
   "t": "访谈与表态",
@@ -4347,6 +4399,33 @@ window.SEARCH_INDEX = [
    "xAI"
   ],
   "ev": "e2026-02-10"
+ },
+ {
+  "id": "d2026-06-12",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2026.06.12 定价",
+  "s": "SpaceX Form 424B4（IPO 定价书：SPCX 登陆纳斯达克）",
+  "q": "“This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering 555,555,555 shares of our Class A common stock. … The initial public offering price is $135.00 per share.”",
+  "zh": "",
+  "bg": "成立 24 年后的公开市场首秀：555,555,555 股 × 135.00 美元，募资约 750 亿美元（承销折扣 5 亿），A/B 双层结构（B 类每股 10 票）叠加受控公司豁免保住控制权。募资用途清单里排在第一位的是「AI 算力基础设施」——火箭与星座排在其后，与 Tesla 10-K 的 AI 定义句同月共振。EDGAR 在案的 SpaceX 首份备案是 2002-08-19（成立当年的豁免发行），从个人资金到公开市场，这条资本弧线走了二十四年。上市十天后公司随即定价 250 亿美元债券（见 d2026-06-22）。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
+  "c": [
+   "Tesla",
+   "SpaceX"
+  ]
+ },
+ {
+  "id": "d2026-06-22",
+  "pg": "documents.html",
+  "t": "一手文档",
+  "d": "2026.06.22 启动 · 06.23 定价",
+  "s": "SpaceX 高级票据定价 8-K（上市十日后的 250 亿美元发债）",
+  "q": "“On June 23, 2026, the Company priced its previously announced Offering of $7.0 billion of 5.350% Senior Notes due 2031, $6.0 billion of 5.650% Senior Notes due 2033, $6.0 billion of 5.875% Senior Notes due 2036, $2.5 billion of 6.600% Senior Notes due 2046, and $3.5 billion of 6.650% Senior Notes due 2056.”",
+  "zh": "",
+  "bg": "IPO十天后，五档 2031–2056 年期、合计 250 亿美元的无抵押高级票据——上市公司 SpaceX 的第一笔公开债务，一条贯穿四分之一个世纪的期限曲线（利率 5.35%–6.65%）。8-K 链三连：6-22 launch（Item 7.01 路演披露，更新现金余额）→ 6-23 pricing（Item 8.01）→ 6-26 closing。从 2002 年的个人资金起家，到一个月内在公开市场完成约 1,000 亿美元级的股+债融资——马斯克商业帝国资本化的最快一跃。口径：SEC EDGAR 备案直取原文，2026-10-06 核验。",
+  "c": [
+   "SpaceX"
+  ]
  },
  {
   "id": "p2026-07-01",
