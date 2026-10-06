@@ -7,7 +7,7 @@
 'use strict';
 
 (function () {
-  var SITE_VERSION = '11.17.0';
+  var SITE_VERSION = '11.18.0';
 
   /* JS 可用标记：.reveal 入场动画仅在 html.js 下隐藏（脚本失败正文照常可见） */
   document.documentElement.classList.add('js');

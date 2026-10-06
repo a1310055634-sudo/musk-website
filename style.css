@@ -2199,3 +2199,22 @@ html[lang="en"] .lr-quote { line-height: 1.75; }
   /* R16 零动画改动——题花为静态装饰，无需压平；显式声明以防继承动画 */
   .lr-sec blockquote, .sv-node blockquote, .pv-case blockquote { transition: none; animation: none; }
 }
+
+/* ============ R17 图表复古化（hatch 斜纹 + 双色纪律 · 数据编码不动） ============
+   原则沿 V9-R17：流向线宽/公司色标/etype 形状语言/口径注全不动；
+   本轮只加三层视觉：①图底 hatch 斜纹（浅=纸棕单色阶/深=朱红低透明）；②图例刻度等宽深化；
+   ③图底双套色印刷语言（单色阶底 + 朱红强调只在非数据装饰层）。cap/net 390 清单形态零接触。 */
+.gx-board, .cap-graphwrap, .net-graphwrap {
+  background-image: repeating-linear-gradient(45deg, transparent 0 7px, rgba(139, 109, 31, 0.055) 7px 8px);
+}
+[data-theme="dark"] .gx-board,
+[data-theme="dark"] .cap-graphwrap,
+[data-theme="dark"] .net-graphwrap {
+  background-image: repeating-linear-gradient(45deg, transparent 0 7px, rgba(200, 64, 50, 0.07) 7px 8px);
+}
+.cap-lg { font-variant-numeric: tabular-nums; }
+.cap-lg-line { background-image: repeating-linear-gradient(90deg, currentColor 0 4px, transparent 4px 6px); background-color: transparent; }
+.gx-tchip, .net-elabel { font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+@media print {
+  .gx-board, .cap-graphwrap, .net-graphwrap { background-image: none; }
+}
