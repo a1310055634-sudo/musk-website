@@ -1,0 +1,8 @@
+index-desktop: DIFF (IN THIS ISSUE + COVER STORY + counter numbers)
+index-390: DIFF (IN THIS ISSUE renders)
+reading-desktop: DIFF (kicker double-line ornament)
+reading-390: DIFF (kicker ornament)
+deep-dive-05-desktop: DIFF (cover three-part: kick border/fig frame)
+deep-dive-05-390: DIFF (kick ornament)
+survival-2008-desktop: DIFF (cover)
+survival-2008-390: DIFF

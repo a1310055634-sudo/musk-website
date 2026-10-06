@@ -142,6 +142,7 @@
   --fs-lead: clamp(17px, 1.6vw, 19px);
   --fs-body-lg: 17.5px;
   --fs-body: 16.5px;
+  --line: rgba(23, 25, 29, 0.3); /* R18 新增分隔线令牌（复古纸面单主题） */
   --fs-body-sm: 15px;
   --fs-label: 14px;
   --fs-note: 13.5px;
@@ -2217,4 +2218,55 @@ html[lang="en"] .lr-quote { line-height: 1.75; }
 .gx-tchip, .net-elabel { font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
 @media print {
   .gx-board, .cap-graphwrap, .net-graphwrap { background-image: none; }
+}
+
+/* ============ R18 专题封面化 + 首页封面故事（纯 CSS + 既有 DOM） ============ */
+/* ① lr-hero 三段式封面：题花（kick）/大标题（h1）/图版+题注（fig） */
+.lr-hero .lr-kick {
+  border-top: 3px double var(--line);
+  display: inline-block;
+  padding-top: 10px;
+  letter-spacing: 0.3em;
+  font-variant: small-caps;
+}
+.lr-hero h1 { font-family: var(--serif); letter-spacing: 0.01em; }
+.lr-hero-fig { border: 3px double var(--line); padding: 8px; background: var(--paper-bright, transparent); }
+.lr-hero-fig figcaption {
+  font-size: var(--fs-nano); letter-spacing: 0.08em;
+  color: var(--muted); padding-top: 8px;
+}
+/* ② 标准段页开篇统一封面语言（grok/index 等的 section-head kicker） */
+.section-head .kicker { letter-spacing: 0.28em; }
+.section-head .kicker::before {
+  content: ""; display: block; width: 44px;
+  border-top: 3px double var(--line); margin-bottom: 8px;
+}
+/* ③ 首页「本期封面故事」：封面主推 + 目录感编号 */
+.feature-lead .kicker { letter-spacing: 0.3em; font-variant: small-caps; }
+#features { counter-reset: ftr; }
+.feature-row { counter-increment: ftr; }
+.feature-row .fk::before {
+  content: "0" counter(ftr) " ";
+  font-family: var(--font-num);
+  color: var(--accent-text);
+}
+/* 本期看点（IN THIS ISSUE）导读条 */
+.issue-now {
+  border: 3px double var(--line);
+  padding: 16px 20px; margin: 0 0 26px;
+  background: var(--card);
+}
+.issue-now h3 {
+  font-size: var(--fs-nano); letter-spacing: 0.3em;
+  color: var(--accent-text); margin: 0 0 10px;
+  font-variant: small-caps;
+}
+.issue-now ul { margin: 0; padding: 0; list-style: none; }
+.issue-now li {
+  font-size: var(--fs-note); line-height: 1.9;
+  padding-left: 1.4em; position: relative;
+}
+.issue-now li::before { content: "§"; position: absolute; left: 0; color: var(--accent-text); font-family: var(--serif); }
+@media print {
+  .issue-now { border-color: var(--line); }
 }

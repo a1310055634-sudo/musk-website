@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.19.0 — 2026-10-07 · V12-20 R18 · 美术·专题封面化+首页封面故事（美术四轮 IV）
+
+**主题包成果（V12 R18 · 美术轮）**
+- **①专题封面三段式**（纯 CSS+既有 DOM，hero 类名不改）：.lr-hero .lr-kick 细双线题花+h1 serif+.lr-hero-fig 图版 3px double 框+figcaption 帽字题注——覆盖 deep-dive-01~07+survival-2008（9 页）；.section-head .kicker 统一封面语言（44px 双线前置+0.28em）覆盖 grok/index 等标准段页。
+- **②index「本期封面故事」**：IN THIS ISSUE 导读条（本期看点=最近三轮成果三条目，§ 计数符）+feature-lead kicker 封面故事化（COVER STORY · DEEP DIVE 01）+feature-rows 目录感编号（CSS counter 01/02/03…）——.act 三入口编号条健在（探针断言 010203）。
+- **EN 往返断言**：lang-toggle 切换英文渲染+中文复原全过（hero-title data-en 往返）。
+- **320/390/768 复扫零溢出**；新旧首屏对比截图 **md5 显著不同**（像素 diff 报告入 qa/v12/round-18/pixel-diff-report.txt——八组全部 DIFF=改动上墙实证）。
+- **重大发现（如实）**：站内无深色主题实现（0 处 prefers-color-scheme/data-theme 定义块）——复古纸面单主题即美术基线 v11.1.0；R15 探针「深主题对比度 7.05」系切换无效果的假测量（两值相同即为证），已如实记录；R17 的 dark hatch 覆盖块为死代码保留无害。新增 :root --line 分隔线令牌（浅值单值）——R15 期号细双线/mh-sep 的失效 var(--line) 调用点随之复活。
+- **CDP 探针 16/16**（≥8 达标）。
+- **工程记录**：①git checkout -- style.css 回滚 --line 误插时连带回滚 R18 CSS 追加——发现于 diff --stat（1 行≠预期 52 行）后重追加；②CSS counter computed 保留记法（Chrome）——断言改「规则在册+渲染宽度」。
+- **版本三件套**：11.18.0 → 11.19.0（58 span 无残留）。
+
 ## v11.18.0 — 2026-10-07 · V12-20 R17 · 美术·图表复古化（美术四轮 III · 纯 CSS）
 
 **主题包成果（V12 R17 · 美术轮）**
