@@ -218,3 +218,12 @@
 - **工程记录**：①git checkout -- style.css 连带回滚 R18 CSS 追加——diff --stat 暴露（1 行≠52 行）后重追加（checkout 前先 diff 确认损失面）；②Chrome computed content 保留 counter() 记法——断言改「规则在册+渲染宽度」；③counter-reset 需上移外层段。
 - 成果提交 63dc8ab+生成物 b9efdf0；下一轮预告：R19 美术·微交互统一+质量节点③（v11.20.0）——transition 审计 TSV/三态一致/reveal 节奏/reduced-motion 逐组件/性能复测/R15–R18 before-after 清点。
 
+### R19（2026-10-07，v11.20.0）——美术四轮收官+质量节点③
+- **transition TSV 52 行审计**（transition-audit.tsv）：归一 8 规则（0.25s→fast/0.3s×5+0.4s→slow）；白名单四类注明（1s 图表生长/0.6s reveal/delay 级联/80ms 按压）；两档令牌 --t-fast 180ms/--t-slow 420ms。
+- **三态一致**：.btn hover/active 80ms/focus-visible 统一 --focus-* 出口补齐；**reveal 节奏**单一 0.6s+0.15s 级联（探针锁定）。
+- **reduced-motion 逐组件 CDP 实测**：reveal/引语块/.btn/刊头期号五组件压平后全可用。
+- **性能复测**（本地冷导航实测）：index 289/primary 363/timeline 364/events 371/dd05 146ms——perf-report.txt。首测 24–57ms 系服务器未起无效数据已重测覆盖（「探针前必起服务器」教训第二次）。
+- **质量节点③**：R15–R18 四轮 before/after 清点齐备 47 张（R15 16+R16 3+R17 12+R18 16），无 retro-fit。
+- **验证**：verify 9/9；**CDP 探针 14/14**（≥10 达标）。
+- 成果提交 4d185ed+生成物 0734c26；下一轮预告：R20 全站验收与待发布清单（v12.0.0，二十轮终章）——口径总核对入账本/RELEASE-CHECKLIST-v12/终探针/完结报告（不推送）。
+
