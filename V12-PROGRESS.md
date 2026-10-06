@@ -193,3 +193,10 @@
 - **验证**：verify 9/9（版本一致性 58 span 全量）；**CDP 探针 14/14**（≥6 达标）。
 - **工程记录**：①期号初版纯文本→改 span 同源（bump 兜底防 stale）；②span 总数定死断言作废（随页数增长）——通用 bump「无残留」式；③node 宽匹配 site-version-val 会计入正文提及——计数须精确 span 模式（R01 教训跨语言复现）。
 - 成果提交 ef9c143+生成物 7828766；下一轮预告：R16 美术·正文杂志版式（纯 CSS 零 HTML，v11.17.0）——drop cap 双语两形态/引语块题花三族/基线 16.5px/720px 锁定/print 媒体模拟。
+
+### R16（2026-10-07，v11.17.0）——美术四轮 II
+- **纯 CSS 零 HTML（style.css +1.8KB）**：①drop cap（lr-* 首段 ::first-letter 衬线 3.1em float 下沉+small-caps；390 降级加粗首字）；②引语题花三族统一（lr-sec/sv-node/pv-case blockquote 大引号 ::before+正文左移 30px+实线竖）；③边注分野（lr-note 虚线框纸底 vs 引语实线竖）；④基线 --fs-body 16.5px 锁定（探针 computed）+段距 12px。
+- **print 模拟**：题花 content:none+首字降级；**reduced-motion** 显式压平。
+- **验证**：verify 9/9；**CDP 探针 18/18**（首字 float/字号/衬线/题花三族/分野/基线/390/print/reduced-motion）；QA 截图 3 张（dropcap/print 模拟/390）。
+- **工程记录**：①题花左移被既有 .lr-quote .lr-quote-zh 高特异性 margin 压制——并入选择器组提优先级（首跑 17/1 修正）；②en/zh 双形态实现口径：页面 lang=zh-CN 无 per-paragraph lang，CSS 无法按文种分支——单形双用如实注记。
+- 成果提交 326ae5a+生成物 ae2a361；下一轮预告：R17 美术·图表 hatch 纹理（v11.18.0）——纯 CSS/SVG 纹理族。
