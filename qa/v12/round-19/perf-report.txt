@@ -1,0 +1,6 @@
+本地条件（python http.server 8766 · headless Chrome 全新 profile · 每页冷导航）
+index: load=289ms reqs=8 transferEntry=38KB
+primary: load=363ms reqs=4 transferEntry=374KB
+timeline: load=364ms reqs=5 transferEntry=212KB
+events: load=371ms reqs=4 transferEntry=157KB
+deep-dive-05: load=146ms reqs=4 transferEntry=20KB

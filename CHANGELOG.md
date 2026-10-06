@@ -2,6 +2,18 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.20.0 — 2026-10-07 · V12-20 R19 · 美术·微交互统一+质量节点③（美术四轮收官）
+
+**主题包成果（V12 R19 · 美术轮+质量节点）**
+- **①transition 审计清单化**：TSV 52 行全量审计入 qa/v12/round-19/transition-audit.tsv——**归一 8 规则**（0.25s→--t-fast 上界/0.3s 族 5 处+0.4s→--t-slow）；白名单逐条注明（1s 图表条形生长=数据可视化叙事/0.6s reveal 进场渐显/delay 0.12–0.36s 级联节奏/80ms 按压微反馈——四类非 UI 反馈）。
+- **②三态一致**：.btn hover/active（80ms 微反馈）/focus-visible（统一 --focus-* 令牌出口补齐）。
+- **③reveal 节奏统一**：单一 0.6s 进场+0.15s 级联（既有即一致，探针锁定）。
+- **④reduced-motion 逐组件 CDP 实测**：reveal/引语块/.btn/刊头期号五组件——压平后全部仍可用（opacity 1/pointer-events 正常/href 在）。
+- **⑤性能复测**：五页冷导航实测（本地 http.server+headless 全新 profile）——index 289ms/primary 363ms/timeline 364ms/events 371ms/deep-dive-05 146ms，报告入 qa/v12/round-19/perf-report.txt（首测 24–57ms 系服务器未起无效数据，已重测覆盖——如实记录）。
+- **质量节点③**：R15–R18 四轮 before/after 清点齐备（R15 16 张+R16 3 张+R17 12 张+R18 16 张=47 张在册，无 retro-fit）。
+- **CDP 探针 14/14**（≥10 达标）。
+- **版本三件套**：11.19.0 → 11.20.0（58 span 无残留）。
+
 ## v11.19.0 — 2026-10-07 · V12-20 R18 · 美术·专题封面化+首页封面故事（美术四轮 IV）
 
 **主题包成果（V12 R18 · 美术轮）**

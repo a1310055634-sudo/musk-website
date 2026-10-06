@@ -1,0 +1,53 @@
+line	declaration	context	audit
+186	transition: none !important	.reveal, .reveal-delay { opacity: 1 !important; transform: none !important; tran	OK 显式关闭（reduced-motion/print）
+236	transition: background var(--t-fast), color var(--t-fast)	transition: background var(--t-fast), color var(--t-fast);	OK 两档内
+248	transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast)	transition: color var(--t-fast), border-color var(--t-fast), background var(--t-	OK 两档内
+263	transition: color var(--t-fast)	transition: color var(--t-fast);	OK 两档内
+267	transition: transform var(--t-fast)	transform: rotate(45deg); opacity: 0.55; transition: transform var(--t-fast);	OK 两档内
+282	transition: background var(--t-fast), color var(--t-fast)	transition: background var(--t-fast), color var(--t-fast);	OK 两档内
+304	transition: transform var(--t-fast), background var(--t-fast), color var(--t-fast), border-color var(--t-fast)	letter-spacing: 0.08em; transition: transform var(--t-fast), background var(--t-	OK 两档内
+307	transition-duration: 80ms	.btn:active { transform: translateY(0); transition-duration: 80ms; }	WHITELIST 微反馈快响应（active 态即时感）
+321	transition: transform var(--t-fast), background var(--t-fast), color var(--t-fast), border-color var(--t-fast)	transition: transform var(--t-fast), background var(--t-fast), color var(--t-fas	OK 两档内
+328	transition: transform var(--t-fast)	.act .act-arr { margin-left: 2px; transition: transform var(--t-fast); }	OK 两档内
+403	transition: transform var(--t-fast), border-color var(--t-fast)	transition: transform var(--t-fast), border-color var(--t-fast);	OK 两档内
+446	transition: none !important	.act, .act .act-arr, .hero-strip img, .firm-tile, .feature-row, .path-row { tran	OK 显式关闭（reduced-motion/print）
+574	transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast)	transition: background var(--t-fast), color var(--t-fast), border-color var(--t-	OK 两档内
+624	transition: transform 0.3s ease, box-shadow 0.3s ease	transition: transform 0.3s ease, box-shadow 0.3s ease;	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+712	transition: transform 0.3s ease	transition: transform 0.3s ease;	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+715	transition: grid-template-rows 0.4s ease	.acq-detail { display: grid; grid-template-rows: 0fr; transition: grid-template-	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+730	transition: none	.acq-detail, .acq-head::after { transition: none; }	OK 显式关闭（reduced-motion/print）
+741	transition: transform 0.3s ease, box-shadow 0.3s ease	transition: transform 0.3s ease, box-shadow 0.3s ease;	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+765	transition: transform 0.3s ease, box-shadow 0.3s ease	transition: transform 0.3s ease, box-shadow 0.3s ease;	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+799	transition: transform 0.3s ease, box-shadow 0.3s ease	transition: transform 0.3s ease, box-shadow 0.3s ease;	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+819	transition: transform 1s ease	.bars rect { transform: scaleX(0); transform-origin: left center; transform-box:	WHITELIST 图表条形生长动画（数据可视化叙事，非 UI 反馈）
+820	transition-delay: 0.12s	.bars rect:nth-child(2) { transition-delay: 0.12s; }	WHITELIST reveal 级联节奏（进场编排，非 UI 反馈）
+821	transition-delay: 0.24s	.bars rect:nth-child(3) { transition-delay: 0.24s; }	WHITELIST reveal 级联节奏（进场编排，非 UI 反馈）
+822	transition-delay: 0.36s	.bars rect:nth-child(4) { transition-delay: 0.36s; }	WHITELIST reveal 级联节奏（进场编排，非 UI 反馈）
+825	transition: none	@media (prefers-reduced-motion: reduce) { .bars rect { transform: none; transiti	OK 显式关闭（reduced-motion/print）
+891	transition: opacity 0.6s ease, transform 0.6s ease	html.js .reveal, html.js .reveal-delay { opacity: 0; transform: translateY(18px)	WHITELIST reveal 进场渐显（可见性过渡需大于 fast 档）
+892	transition-delay: 0.15s	html.js .reveal-delay { transition-delay: 0.15s; }	WHITELIST reveal 级联节奏（进场编排，非 UI 反馈）
+947	transition: transform .3s ease, opacity .3s ease	.nav-toggle span { display: block; width: 18px; height: 2px; background: var(--i	NORMALIZE -> var(--t-slow)（300-420ms 慢档）
+966	transition: none	@media (prefers-reduced-motion: reduce) { .nav-toggle span { transition: none; }	OK 显式关闭（reduced-motion/print）
+1005	transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast)	.gx-fchip { display: inline-flex; align-items: center; gap: 5px; font-size: var(	OK 两档内
+1026	transition: transform var(--t-fast)	a.gx-dot { position: absolute; width: 9px; height: 9px; border-radius: var(--r-c	OK 两档内
+1028	transition: transform var(--t-fast)	button.gx-ev { position: absolute; width: 15px; height: 15px; border-radius: var	OK 两档内
+1097	transition: none	.gx-fchip, a.gx-dot, button.gx-ev { transition: none; }	OK 显式关闭（reduced-motion/print）
+1159	transition: all .25s ease	transition: all .25s ease;	NORMALIZE -> var(--t-fast)（250ms 快档上界）
+1195	transition: color var(--t-fast)	.path-row h3 { font-family: var(--serif); font-size: var(--fs-22); letter-spacin	OK 两档内
+1216	transition: transform var(--t-fast), box-shadow var(--t-fast), border-top-color var(--t-fast)	transition: transform var(--t-fast), box-shadow var(--t-fast), border-top-color 	OK 两档内
+1269	transition: background var(--t-fast)	transition: background var(--t-fast);	OK 两档内
+1275	transition: color var(--t-fast)	.feature-row h3 { font-family: var(--serif); font-size: var(--fs-19); letter-spa	OK 两档内
+1331	transition: border-color var(--t-fast)	text-decoration: none; color: var(--ink); max-width: 46%; transition: border-col	OK 两档内
+1400	transition: color var(--t-fast), border-color var(--t-fast)	.lr-toc a { display: block; padding: 5px 0 5px 12px; color: var(--muted); text-d	OK 两档内
+1415	transition: none	@media (prefers-reduced-motion: reduce) { .lr-toc a { transition: none; } }	OK 显式关闭（reduced-motion/print）
+1497	transition: stroke var(--t-fast), stroke-width var(--t-fast)	.net-node-bg { fill: var(--paper-0); stroke: var(--hairline); stroke-width: 1; t	OK 两档内
+1521	transition: border-color var(--t-fast), color var(--t-fast)	.net-d-close { margin-left: auto; font-size: var(--fs-small-2); background: none	OK 两档内
+1622	transition: border-color var(--t-fast)	.cf-ev, .cf-rel a { font-size: var(--fs-small); color: var(--accent-text); text-	OK 两档内
+1627	transition: border-color var(--t-fast)	.cf-res { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; 	OK 两档内
+1664	transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast)	.cap-chip { display: inline-flex; align-items: center; gap: 5px; font: inherit; 	OK 两档内
+1676	transition: opacity var(--t-fast), stroke-width var(--t-fast)	.cap-flow .cap-ribbon { transition: opacity var(--t-fast), stroke-width var(--t-	OK 两档内
+1682	transition: stroke var(--t-fast)	.cap-node-bg { fill: var(--paper-0); stroke: rgba(23,25,29,.28); stroke-width: 1	OK 两档内
+1753	transition: none	.cap-flow .cap-ribbon, .cap-node-bg, .cap-chip { transition: none; }	OK 显式关闭（reduced-motion/print）
+1835	transition: none	.sv-links a, .sv-ev li a, .sv-axis a .sv-nd { transition: none; }	OK 显式关闭（reduced-motion/print）
+1923	transition: color var(--t-fast), border-color var(--t-fast)	.cite-btn { font-size: var(--fs-2xs); letter-spacing: 0.08em; font-weight: 700; 	OK 两档内
+2201	transition: none	.lr-sec blockquote, .sv-node blockquote, .pv-case blockquote { transition: none;	OK 显式关闭（reduced-motion/print）

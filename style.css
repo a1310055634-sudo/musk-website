@@ -305,6 +305,8 @@ a { color: inherit; }
 }
 .btn:hover { transform: translateY(-2px); }
 .btn:active { transform: translateY(0); transition-duration: 80ms; }
+/* R19 三态统一出口：按压 80ms 微反馈 + 键盘焦点统一 --focus-* 令牌 */
+.btn:focus-visible { outline: var(--focus-w-tight) solid var(--focus-color); outline-offset: var(--focus-offset-tight); }
 .btn-ink { background: var(--accent); color: var(--on-hue); }
 .btn-ink:hover { background: var(--accent-text); }
 .btn-line { border: 1px solid var(--ink); color: var(--ink); }
@@ -621,7 +623,7 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
 .company-card {
   background: var(--card); border: 1px solid var(--hairline);
   padding: 22px 22px 18px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--t-slow), box-shadow var(--t-slow);
 }
 .company-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
 .company-card h3 { font-family: var(--serif); font-size: var(--fs-24); letter-spacing: 0.04em; }
@@ -709,10 +711,10 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
 .acq-head::after {
   content: "+"; margin-left: auto; font-family: var(--serif);
   font-size: var(--fs-22); line-height: 1; color: var(--muted);
-  transition: transform 0.3s ease;
+  transition: transform var(--t-slow);
 }
 .acq-node.open .acq-head::after { content: "−"; color: var(--accent); }
-.acq-detail { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.4s ease; }
+.acq-detail { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--t-slow); }
 .acq-detail-inner { overflow: hidden; }
 .acq-detail p { font-size: var(--fs-label); color: var(--muted); padding: 2px 6px 8px 0; text-align: justify; }
 .acq-node.open .acq-detail { grid-template-rows: 1fr; }
@@ -738,7 +740,7 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
 .flash {
   background: var(--card); border: 1px solid var(--hairline);
   padding: 24px 26px 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--t-slow), box-shadow var(--t-slow);
 }
 .flash:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
 .flash-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
@@ -762,7 +764,7 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
 .persona-card {
   position: relative; background: var(--card); border: 1px solid var(--hairline);
   padding: 22px 22px 18px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--t-slow), box-shadow var(--t-slow);
 }
 .persona-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
 .persona-num {
@@ -796,7 +798,7 @@ html[lang="en"] .hero-title { font-size: clamp(40px, 7.4vw, 96px); letter-spacin
 .method-card {
   position: relative; background: var(--card); border: 1px solid var(--hairline);
   padding: 22px 24px 18px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--t-slow), box-shadow var(--t-slow);
 }
 .method-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
 .method-num {
@@ -944,7 +946,7 @@ html.js .reveal.is-visible, html.js .reveal-delay.is-visible { opacity: 1; trans
 
 /* ============ 汉堡菜单（移动端 ≤760px：五组手风琴） ============ */
 .nav-toggle { display: none; background: none; border: 1px solid var(--ink); border-radius: var(--r-4); padding: 8px 9px; cursor: pointer; }
-.nav-toggle span { display: block; width: 18px; height: 2px; background: var(--ink); margin: 3px 0; transition: transform .3s ease, opacity .3s ease; }
+.nav-toggle span { display: block; width: 18px; height: 2px; background: var(--ink); margin: 3px 0; transition: transform var(--t-slow), opacity var(--t-slow); }
 @media (max-width: 760px) {
   .nav-toggle { display: block; }
   .masthead-top { padding-bottom: 6px; }
@@ -1156,7 +1158,7 @@ html[lang="en"] .ps-zh { display: none; } /* 原句即英文，英文模式隐�
   font-size: var(--fs-xs); font-weight: 700; letter-spacing: 0.1em;
   border: 1px solid rgba(23,25,29,.16); border-radius: var(--r-pill);
   padding: 6px 14px; text-decoration: none; color: var(--muted);
-  transition: all .25s ease;
+  transition: all var(--t-fast);
 }
 .ps-nav a:hover { border-color: var(--accent); color: var(--accent-text); }
 .ps-nav a[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
