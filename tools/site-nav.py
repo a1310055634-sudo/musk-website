@@ -13,6 +13,7 @@
 - 手机 ≤960px：汉堡开合面板，分组手风琴（.open），JS 自动展开当前组。
 """
 import io
+from datetime import datetime, timezone, timedelta
 import os
 import re
 import sys
@@ -95,7 +96,13 @@ MASTHEAD_TMPL = """  <!-- ============ 报头（tools/site-nav.py 生成，勿�
         <span class="brand-zh" data-en="Musk Business Review">马斯克商业志</span>
         <span class="brand-en">MUSK,&nbsp;INC.</span>
       </a>
-      <span class="masthead-issue" data-en="Business Profile · No. 001">商业人物志 · 创刊号</span>
+      <div class="masthead-eyebrow">
+        <span class="mh-dateline" data-en="{dateline_en}">{dateline_zh}</span>
+        <span class="mh-sep" aria-hidden="true">—</span>
+        <span class="masthead-issue" data-en="Business Profile · No. 001">商业人物志 · 创刊号</span>
+        <span class="mh-sep" aria-hidden="true">—</span>
+        <span class="mh-volno" title="版本三件套同源（VERSION / app.js / 页脚 span）">{volno}</span>
+      </div>
       <div class="masthead-tools">
         <a class="masthead-search" href="search.html" data-en="Search">检索</a>
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / 切换语言">EN</button>
@@ -117,6 +124,9 @@ GROUP_TMPL = """      <div class="nav-group">
 ITEM_TMPL = '          <a href="{href}"{cur} data-en="{en}">{zh}</a>'
 
 
+ROMAN = {10: "X", 11: "XI", 12: "XII"}
+
+
 def build_masthead(current):
     """current: 文件名（如 'grok.html'），用于标注 aria-current。"""
     blocks = []
@@ -126,7 +136,18 @@ def build_masthead(current):
             cur = ' aria-current="page"' if href == current else ""
             rows.append(ITEM_TMPL.format(href=href, cur=cur, en=en, zh=zh))
         blocks.append(GROUP_TMPL.format(gz=g["zh"], gen=g["en"], items="\n".join(rows)))
-    return MASTHEAD_TMPL.format(groups="\n".join(blocks))
+    # R15 刊头：期号（Vol.=主版本罗马数字/No.=VERSION，与页脚版本戳同源）+ 日期线（构建日北京时间）
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ver = io.open(os.path.join(_root, "VERSION"), encoding="utf-8").read().strip()
+    major = int(ver.split(".")[0])
+    vol = ROMAN.get(major, "V" + "I" * major if major < 4 else str(major))
+    now = datetime.now(timezone(timedelta(hours=8)))
+    dateline_zh = "{y} 年 {m} 月 {d} 日".format(y=now.year, m=now.month, d=now.day)
+    dateline_en = now.strftime("%B %d, %Y")
+    return MASTHEAD_TMPL.format(
+        groups="\n".join(blocks),
+        volno="Vol. " + vol + " · No. <span class=\"site-version-val\">" + ver + "</span>",
+        dateline_zh=dateline_zh, dateline_en=dateline_en)
 
 
 MASTHEAD_RE = re.compile(r"[ \t]*<!-- ============[^\n]*报头[^\n]*============ -->\n[ \t]*<header class=\"masthead\">.*?</header>\n",

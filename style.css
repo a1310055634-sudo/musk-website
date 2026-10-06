@@ -2120,3 +2120,31 @@ html[lang="en"] .lr-quote { line-height: 1.75; }
   font-size: var(--fs-xs); color: var(--muted); line-height: 1.75;
   border-left: 3px solid var(--hairline); padding: 6px 0 6px 12px; margin: 10px 0 14px;
 }
+
+/* ============ R15 刊头体系（Vol./No. 期号 · 日期线 · eyebrow · 章节题花） ============ */
+.masthead-eyebrow {
+  display: flex; align-items: baseline; gap: 10px;
+  font-size: var(--fs-xs); color: var(--muted);
+  min-width: 0; flex-wrap: wrap;
+}
+.masthead-eyebrow .masthead-issue { letter-spacing: 0.18em; }
+.mh-dateline {
+  letter-spacing: 0.22em; font-variant: small-caps;
+  white-space: nowrap;
+}
+.mh-sep { color: var(--line); letter-spacing: 0; }
+.mh-volno {
+  letter-spacing: 0.14em; white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  border-left: 3px double var(--line); padding-left: 10px;
+}
+/* 章节开篇题花：细双线 + 小帽字（编年史段/财务段/深读章/争议章） */
+.cy-co > h2, .fn-co > h2, .ct-ch > h2, .lr-sec > h2 {
+  border-top: 3px double var(--line);
+  padding-top: 14px;
+  letter-spacing: 0.05em;
+}
+@media (max-width: 700px) {
+  .mh-dateline, .mh-sep { display: none; }
+  .masthead-eyebrow { gap: 8px; }
+}

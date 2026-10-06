@@ -2,6 +2,17 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.16.0 — 2026-10-07 · V12-20 R15 · 美术·报头刊头体系（美术四轮 I）
+
+**主题包成果（V12 R15 · 美术轮）**
+- **刊头三件套（site-nav.py 模板一次改动全站重注入 41/41，零逐页手改）**：①**Vol./No. 期号**——Vol. XI（主版本罗马数字）· No. <span class="site-version-val">（VERSION 同源 span，bump 自动覆盖）；②**日期线**——构建日北京时间「YYYY 年 M 月 D 日」+data-en 英文对称（October…）；③**eyebrow 体系**——masthead-eyebrow 容器（细 em-dash 分隔+小帽字大字距）。
+- **章节开篇题花（纯 CSS）**：.cy-co/.fn-co/.ct-ch/.lr-sec 四族 h2 统一 3px double 细双线+letter-spacing 0.05em。
+- **对比度实测**：mh-volno 浅主题 7.05 / 深主题 7.05（≥4.5 达标，CDP computed-style 实算）。
+- **span 口径演进**：刊头期号 span 上墙后全站 site-version-val=58（41 刊头+17 存量，随页数增长）——bump 改通用版（argv 传版本+无残留断言），不再定死总数。
+- **before/after**：四页样本（index/survival-2008/timeline/capital-evolution）×双视口=八组入 qa/v12/round-15/。
+- **CDP 探针 14/14**（≥6 达标：期号同源/日期线双语/题花 CSS/eyebrow letter-spacing/双主题对比度/三视口零溢出/reduced-motion）。
+- **版本三件套**：11.15.0 → 11.16.0（58 span 无残留校验）。
+
 ## v11.15.0 — 2026-10-07 · V12-20 R14 · 质量节点②：互链扩展 + 检索审计
 
 **主题包成果（V12 R14 · 质量轮）**
