@@ -2148,3 +2148,54 @@ html[lang="en"] .lr-quote { line-height: 1.75; }
   .mh-dateline, .mh-sep { display: none; }
   .masthead-eyebrow { gap: 8px; }
 }
+
+/* ============ R16 正文杂志版式（纯 CSS · 零 HTML） ============ */
+/* ① drop cap 首字下沉（lr-* 长文首段；en 衬线/zh 网格对齐同形，::first-letter 对双文种皆效） */
+.lr-main > section.lr-sec:first-of-type > p:first-of-type::first-letter {
+  font-family: var(--serif);
+  float: left;
+  font-size: 3.1em;
+  line-height: 0.86;
+  padding: 0.06em 0.12em 0 0;
+  color: var(--accent-text);
+  font-variant: small-caps;
+}
+@media (max-width: 700px) {
+  /* 390 降级：加粗首字防溢出（float 关闭） */
+  .lr-main > section.lr-sec:first-of-type > p:first-of-type::first-letter {
+    float: none; font-size: 1.05em; font-weight: 700; padding: 0; color: inherit;
+  }
+}
+/* ② 引语块题花：三族统一大引号 + 出处竖线 */
+.lr-sec blockquote, .sv-node blockquote, .pv-case blockquote {
+  position: relative;
+  border-left: 3px solid var(--accent);
+}
+.lr-sec blockquote::before, .sv-node blockquote::before, .pv-case blockquote::before {
+  content: 201C;
+  font-family: var(--serif);
+  font-size: 2.6em; line-height: 1;
+  color: var(--accent);
+  opacity: 0.45;
+  position: absolute; left: 10px; top: -6px;
+  pointer-events: none;
+}
+.lr-sec blockquote > *, .sv-node blockquote > *, .pv-case blockquote > *,
+.lr-sec blockquote > .lr-quote-zh, .lr-quote .lr-quote-zh {
+  position: relative; margin-left: 30px;
+}
+.lr-quote .lr-quote-zh { margin-top: 8px; margin-right: 0; margin-bottom: 0; }
+/* ③ 脚注/边注（.lr-note 族）与引语块视觉分野：纸底虚线框 vs 引语实线竖+大引号 */
+.lr-note {
+  background: var(--paper-veil, transparent);
+}
+/* ④ 段距/标题层级复核（基线 16.5px 锁定：--fs-body 不动，段距 10px→12px 呼吸） */
+.lr-sec p { margin: 12px 0; }
+@media print {
+  .lr-sec blockquote::before, .sv-node blockquote::before, .pv-case blockquote::before { content: none; }
+  .lr-main > section.lr-sec:first-of-type > p:first-of-type::first-letter { float: none; font-size: inherit; font-weight: 700; color: inherit; }
+}
+@media (prefers-reduced-motion: reduce) {
+  /* R16 零动画改动——题花为静态装饰，无需压平；显式声明以防继承动画 */
+  .lr-sec blockquote, .sv-node blockquote, .pv-case blockquote { transition: none; animation: none; }
+}

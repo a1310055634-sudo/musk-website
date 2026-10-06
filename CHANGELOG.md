@@ -2,6 +2,17 @@
 
 > 每个定时周期追加一条。格式：版本 — 日期 · 主题（主题包成果 + 自主优化）。
 
+## v11.17.0 — 2026-10-07 · V12-20 R16 · 美术·正文杂志版式（美术四轮 II · 纯 CSS 零 HTML）
+
+**主题包成果（V12 R16 · 美术轮）**
+- **①drop cap 首字下沉**：lr-* 长文首段 ::first-letter（衬线 3.1em float 下沉+small-caps+主题色）——::first-letter 对中英双文种皆效（中文网格对齐 line-height 0.86）；**390 降级**为加粗首字（float:none 防溢出）。
+- **②引语块题花三族统一**：.lr-sec blockquote/.sv-node blockquote/.pv-case blockquote——大引号 ::before 装饰（“ 2.6em serif 45% 透明）+正文左移 30px+实线竖 border-left 3px；与③边注（.lr-note 虚线框+纸底）视觉分野强化。
+- **④基线锁定**：--fs-body 16.5px 不动（探针 computed 断言），段距 10px→12px 呼吸。
+- **print 媒体模拟**：题花 content:none+首字降级（关影/关题花截图入册）；reduced-motion 显式压平。
+- **CDP 探针 18/18**（首字 float/字号/衬线/题花三族/边注分野/基线锁定/390 降级+零溢出/print 关题花/reduced-motion）。
+- **工程记录**：题花正文左移被既有 .lr-quote .lr-quote-zh 高优先级 margin 压制——特异性补写（.lr-quote .lr-quote-zh 并入选择器组）后过。
+- **版本三件套**：11.16.0 → 11.17.0（58 span，通用 bump 无残留校验）。
+
 ## v11.16.0 — 2026-10-07 · V12-20 R15 · 美术·报头刊头体系（美术四轮 I）
 
 **主题包成果（V12 R15 · 美术轮）**
