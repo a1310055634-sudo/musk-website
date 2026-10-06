@@ -208,3 +208,13 @@
 - **验证**：verify 9/9；**CDP 探针 13/13**。
 - **工程记录**：①.cap-flow=交互 g 层（computed 1px 恒定），可见 ribbon=.cap-ribbon（stroke-width attribute）；②cap-lg 断言曾跑错页——时序修正；③390 逐像素回归用 md5 对比可行（Chrome 截图确定性渲染）。
 - 成果提交 84aa742+生成物 a369ccc；下一轮预告：R18 美术·专题封面化+首页封面故事（v11.19.0）——dd01–07+survival+grok 封面构图（纯 CSS+既有 DOM，hero 类名不改）；index 本期封面故事逻辑；EN 往返断言+320/390/768 复扫。
+
+### R18（2026-10-07，v11.19.0）——美术四轮 IV
+- **专题封面三段式**（.lr-hero 类名不改）：lr-kick 双线题花/h1 serif/fig 3px double 图版+帽字题注——覆盖 dd01–07+survival（9 页）；.section-head .kicker 双线前置统一段页封面语言（含 grok）。
+- **index「本期封面故事」**：IN THIS ISSUE 导读条（最近三轮成果三条目 § 计数符）+feature-lead COVER STORY kicker+feature-rows CSS counter 目录编号（01/02/03）——.act 三入口健在（010203 断言）。
+- **EN 往返断言过**；320/390/768 复扫零溢出；新旧首屏 md5 显著不同（八组全 DIFF，报告 pixel-diff-report.txt）。
+- **重大发现（如实）**：站内无深色主题实现（0 处 prefers-color-scheme/data-theme 定义）——复古纸面单主题即美术基线；R15「深主题对比度 7.05」系切换无效果假测量（两值相同为证）已如实记录；R17 dark hatch 覆盖块=死代码保留。修复：:root 新增 --line 令牌——R15 期号双线/mh-sep 失效 var 调用点复活。
+- **验证**：verify 9/9；**CDP 探针 16/16**（≥8 达标）。
+- **工程记录**：①git checkout -- style.css 连带回滚 R18 CSS 追加——diff --stat 暴露（1 行≠52 行）后重追加（checkout 前先 diff 确认损失面）；②Chrome computed content 保留 counter() 记法——断言改「规则在册+渲染宽度」；③counter-reset 需上移外层段。
+- 成果提交 63dc8ab+生成物 b9efdf0；下一轮预告：R19 美术·微交互统一+质量节点③（v11.20.0）——transition 审计 TSV/三态一致/reveal 节奏/reduced-motion 逐组件/性能复测/R15–R18 before-after 清点。
+
