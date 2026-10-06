@@ -200,3 +200,11 @@
 - **验证**：verify 9/9；**CDP 探针 18/18**（首字 float/字号/衬线/题花三族/分野/基线/390/print/reduced-motion）；QA 截图 3 张（dropcap/print 模拟/390）。
 - **工程记录**：①题花左移被既有 .lr-quote .lr-quote-zh 高特异性 margin 压制——并入选择器组提优先级（首跑 17/1 修正）；②en/zh 双形态实现口径：页面 lang=zh-CN 无 per-paragraph lang，CSS 无法按文种分支——单形双用如实注记。
 - 成果提交 326ae5a+生成物 ae2a361；下一轮预告：R17 美术·图表 hatch 纹理（v11.18.0）——纯 CSS/SVG 纹理族。
+
+### R17（2026-10-07，v11.18.0）——美术四轮 III
+- **纯 CSS（style.css +0.9KB）**：①hatch 斜纹图底三图（gx-board/cap-graphwrap/net-graphwrap；浅=纸棕单色阶/深=朱红低透明；print 关）；②双色纪律（朱红只在装饰层，公司色标/etype 色零触碰）；③图例刻度等宽深化（cap-lg/gx-tchip/net-elabel tabular-nums）；④形状语言/口径注零触碰。
+- **数据编码不动（探针实证）**：cap-ribbon stroke-width attribute=生成器值（≥5 条 ≥3 档互异）；**390 清单形态逐像素一致**——cap/net 两页 390 截图 md5 与 before 全等。
+- **before/after 六组**入 qa/v12/round-17/。
+- **验证**：verify 9/9；**CDP 探针 13/13**。
+- **工程记录**：①.cap-flow=交互 g 层（computed 1px 恒定），可见 ribbon=.cap-ribbon（stroke-width attribute）；②cap-lg 断言曾跑错页——时序修正；③390 逐像素回归用 md5 对比可行（Chrome 截图确定性渲染）。
+- 成果提交 84aa742+生成物 a369ccc；下一轮预告：R18 美术·专题封面化+首页封面故事（v11.19.0）——dd01–07+survival+grok 封面构图（纯 CSS+既有 DOM，hero 类名不改）；index 本期封面故事逻辑；EN 往返断言+320/390/768 复扫。
