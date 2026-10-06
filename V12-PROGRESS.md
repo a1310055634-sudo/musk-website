@@ -183,3 +183,13 @@
 - **验证**：verify 9/9（索引 413）；**CDP 探针 21/21**（≥15 达标）。
 - **工程记录**：①互链集成断言曾用磁盘旧文件验证内存态——改 exec(compile(s)) 内存验证后写盘；②探针断言范围纪律：全文件一刀切会误伤历史体例（8 处 None）——按档定位。
 - 成果提交 606f2f3+生成物 5de34f6；下一轮预告：R15 美术·报头刊头体系（v11.16.0）——改刊头须改 site-nav.py 模板重注入，Vol./No. 期号由 __BUILD_COMMIT__/VERSION 派生。
+
+### R15（2026-10-07，v11.16.0）——美术四轮 I
+- **刊头三件套**（site-nav.py 模板一次改动 41/41 重注入，零逐页手改）：①Vol./No. 期号=Vol. XI（主版本罗马数字）·No.（VERSION 同源 site-version-val span，bump 自动覆盖）；②日期线=构建日北京时间中文+data-en 英文对称；③eyebrow 体系（dateline 0.22em 小帽字/issue 0.18em/volno 0.14em 细双线左缘）。
+- **章节题花（纯 CSS）**：cy-co/fn-co/ct-ch/lr-sec 四族 h2 统一 3px double 细双线+0.05em 字距。
+- **对比度实测**：mh-volno 浅 7.05/深 7.05（≥4.5，CDP computed-style 实算含背景上溯）。
+- **before/after 八组**：四页样本×双视口入 qa/v12/round-15/{before,after}/。
+- **span 口径演进**：刊头期号 span 上墙→全站 58（41 刊头+17 存量，随页数增长）——bump 改通用版（argv 传版本+无残留断言），R16–R19 复用。
+- **验证**：verify 9/9（版本一致性 58 span 全量）；**CDP 探针 14/14**（≥6 达标）。
+- **工程记录**：①期号初版纯文本→改 span 同源（bump 兜底防 stale）；②span 总数定死断言作废（随页数增长）——通用 bump「无残留」式；③node 宽匹配 site-version-val 会计入正文提及——计数须精确 span 模式（R01 教训跨语言复现）。
+- 成果提交 ef9c143+生成物 7828766；下一轮预告：R16 美术·正文杂志版式（纯 CSS 零 HTML，v11.17.0）——drop cap 双语两形态/引语块题花三族/基线 16.5px/720px 锁定/print 媒体模拟。
